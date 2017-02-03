@@ -1,0 +1,4388 @@
+"smt/solver_types.ml" 16 938 942 "smt/solver_types.ml" 16 938 945
+type(
+  Hstring.t
+)
+ident(
+  def ale "smt/solver_types.ml" 17 967 967 "smt/solver_types.ml" 1 0 -1
+)
+"smt/solver_types.ml" 16 938 948 "smt/solver_types.ml" 16 938 960
+type(
+  string -> Hstring.t
+)
+ident(
+  ext_ref Hstring.make
+)
+"smt/solver_types.ml" 16 938 961 "smt/solver_types.ml" 16 938 965
+type(
+  string
+)
+"smt/solver_types.ml" 16 938 948 "smt/solver_types.ml" 16 938 965
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/solver_types.ml" 17 967 971 "smt/solver_types.ml" 17 967 974
+type(
+  Hstring.t
+)
+ident(
+  def alt "smt/solver_types.ml" 18 994 994 "smt/solver_types.ml" 1 0 -1
+)
+"smt/solver_types.ml" 17 967 977 "smt/solver_types.ml" 17 967 989
+type(
+  string -> Hstring.t
+)
+ident(
+  ext_ref Hstring.make
+)
+"smt/solver_types.ml" 17 967 990 "smt/solver_types.ml" 17 967 993
+type(
+  string
+)
+"smt/solver_types.ml" 17 967 977 "smt/solver_types.ml" 17 967 993
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/solver_types.ml" 18 994 998 "smt/solver_types.ml" 18 994 1001
+type(
+  Hstring.t
+)
+ident(
+  def agt "smt/solver_types.ml" 20 1022 1022 "smt/solver_types.ml" 1 0 -1
+)
+"smt/solver_types.ml" 18 994 1004 "smt/solver_types.ml" 18 994 1016
+type(
+  string -> Hstring.t
+)
+ident(
+  ext_ref Hstring.make
+)
+"smt/solver_types.ml" 18 994 1017 "smt/solver_types.ml" 18 994 1020
+type(
+  string
+)
+"smt/solver_types.ml" 18 994 1004 "smt/solver_types.ml" 18 994 1020
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/solver_types.ml" 20 1022 1026 "smt/solver_types.ml" 20 1022 1031
+type(
+  Hstring.t -> bool
+)
+ident(
+  def is_le "smt/solver_types.ml" 21 1062 1062 "smt/solver_types.ml" 1 0 -1
+)
+"smt/solver_types.ml" 20 1022 1032 "smt/solver_types.ml" 20 1022 1033
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/solver_types.ml" 20 1022 1036 "smt/solver_types.ml" 20 1022 1061
+)
+"smt/solver_types.ml" 20 1022 1036 "smt/solver_types.ml" 20 1022 1051
+type(
+  Hstring.t -> Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.compare
+)
+"smt/solver_types.ml" 20 1022 1052 "smt/solver_types.ml" 20 1022 1053
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/solver_types.ml" 20 1022 1032 "smt/solver_types.ml" 20 1022 1033
+)
+"smt/solver_types.ml" 20 1022 1054 "smt/solver_types.ml" 20 1022 1057
+type(
+  Hstring.t
+)
+ident(
+  int_ref ale "smt/solver_types.ml" 16 938 942 "smt/solver_types.ml" 16 938 945
+)
+"smt/solver_types.ml" 20 1022 1036 "smt/solver_types.ml" 20 1022 1057
+call(
+  stack
+)
+type(
+  int
+)
+"smt/solver_types.ml" 20 1022 1058 "smt/solver_types.ml" 20 1022 1059
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/solver_types.ml" 20 1022 1060 "smt/solver_types.ml" 20 1022 1061
+type(
+  int
+)
+"smt/solver_types.ml" 20 1022 1036 "smt/solver_types.ml" 20 1022 1061
+type(
+  bool
+)
+"smt/solver_types.ml" 21 1062 1066 "smt/solver_types.ml" 21 1062 1071
+type(
+  Hstring.t -> bool
+)
+ident(
+  def is_lt "smt/solver_types.ml" 22 1102 1102 "smt/solver_types.ml" 1 0 -1
+)
+"smt/solver_types.ml" 21 1062 1072 "smt/solver_types.ml" 21 1062 1073
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/solver_types.ml" 21 1062 1076 "smt/solver_types.ml" 21 1062 1101
+)
+"smt/solver_types.ml" 21 1062 1076 "smt/solver_types.ml" 21 1062 1091
+type(
+  Hstring.t -> Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.compare
+)
+"smt/solver_types.ml" 21 1062 1092 "smt/solver_types.ml" 21 1062 1093
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/solver_types.ml" 21 1062 1072 "smt/solver_types.ml" 21 1062 1073
+)
+"smt/solver_types.ml" 21 1062 1094 "smt/solver_types.ml" 21 1062 1097
+type(
+  Hstring.t
+)
+ident(
+  int_ref alt "smt/solver_types.ml" 17 967 971 "smt/solver_types.ml" 17 967 974
+)
+"smt/solver_types.ml" 21 1062 1076 "smt/solver_types.ml" 21 1062 1097
+call(
+  stack
+)
+type(
+  int
+)
+"smt/solver_types.ml" 21 1062 1098 "smt/solver_types.ml" 21 1062 1099
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/solver_types.ml" 21 1062 1100 "smt/solver_types.ml" 21 1062 1101
+type(
+  int
+)
+"smt/solver_types.ml" 21 1062 1076 "smt/solver_types.ml" 21 1062 1101
+type(
+  bool
+)
+"smt/solver_types.ml" 22 1102 1106 "smt/solver_types.ml" 22 1102 1111
+type(
+  Hstring.t -> bool
+)
+ident(
+  def is_gt "smt/solver_types.ml" 25 1144 1144 "smt/solver_types.ml" 1 0 -1
+)
+"smt/solver_types.ml" 22 1102 1112 "smt/solver_types.ml" 22 1102 1113
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/solver_types.ml" 22 1102 1116 "smt/solver_types.ml" 22 1102 1141
+)
+"smt/solver_types.ml" 22 1102 1116 "smt/solver_types.ml" 22 1102 1131
+type(
+  Hstring.t -> Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.compare
+)
+"smt/solver_types.ml" 22 1102 1132 "smt/solver_types.ml" 22 1102 1133
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/solver_types.ml" 22 1102 1112 "smt/solver_types.ml" 22 1102 1113
+)
+"smt/solver_types.ml" 22 1102 1134 "smt/solver_types.ml" 22 1102 1137
+type(
+  Hstring.t
+)
+ident(
+  int_ref agt "smt/solver_types.ml" 18 994 998 "smt/solver_types.ml" 18 994 1001
+)
+"smt/solver_types.ml" 22 1102 1116 "smt/solver_types.ml" 22 1102 1137
+call(
+  stack
+)
+type(
+  int
+)
+"smt/solver_types.ml" 22 1102 1138 "smt/solver_types.ml" 22 1102 1139
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/solver_types.ml" 22 1102 1140 "smt/solver_types.ml" 22 1102 1141
+type(
+  int
+)
+"smt/solver_types.ml" 22 1102 1116 "smt/solver_types.ml" 22 1102 1141
+type(
+  bool
+)
+"smt/solver_types.ml" 57 1807 1811 "smt/solver_types.ml" 57 1807 1820
+type(
+  Literal.LT.t
+)
+ident(
+  def dummy_lit "smt/solver_types.ml" 59 1874 1874 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 57 1807 1823 "smt/solver_types.ml" 57 1807 1838
+type(
+  Literal.LT.elt Literal.view -> Literal.LT.t
+)
+ident(
+  ext_ref Literal.LT.make
+)
+"smt/solver_types.ml" 57 1807 1851 "smt/solver_types.ml" 57 1807 1860
+type(
+  Literal.LT.elt
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/solver_types.ml" 57 1807 1861 "smt/solver_types.ml" 57 1807 1870
+type(
+  Literal.LT.elt
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/solver_types.ml" 57 1807 1839 "smt/solver_types.ml" 57 1807 1872
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 57 1807 1823 "smt/solver_types.ml" 57 1807 1872
+call(
+  stack
+)
+type(
+  Literal.LT.t
+)
+"smt/solver_types.ml" 59 1874 1882 "smt/solver_types.ml" 59 1874 1891
+type(
+  var
+)
+ident(
+  def dummy_var "smt/solver_types.ml" 59 1874 1874 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 60 1894 1904 "smt/solver_types.ml" 60 1894 1908
+type(
+  int
+)
+"smt/solver_types.ml" 61 1910 1919 "smt/solver_types.ml" 61 1910 1929
+type(
+  atom
+)
+ident(
+  int_ref dummy_atom "smt/solver_types.ml" 68 2044 2048 "smt/solver_types.ml" 68 2044 2058
+)
+"smt/solver_types.ml" 62 1931 1940 "smt/solver_types.ml" 62 1931 1950
+type(
+  atom
+)
+ident(
+  int_ref dummy_atom "smt/solver_types.ml" 68 2044 2048 "smt/solver_types.ml" 68 2044 2058
+)
+"smt/solver_types.ml" 63 1953 1965 "smt/solver_types.ml" 63 1953 1967
+type(
+  int
+)
+"smt/solver_types.ml" 64 1969 1982 "smt/solver_types.ml" 64 1969 1986
+type(
+  reason
+)
+"smt/solver_types.ml" 65 1988 2001 "smt/solver_types.ml" 65 1988 2004
+type(
+  float
+)
+"smt/solver_types.ml" 66 2006 2017 "smt/solver_types.ml" 66 2006 2022
+type(
+  bool
+)
+"smt/solver_types.ml" 67 2024 2039 "smt/solver_types.ml" 67 2024 2041
+type(
+  premise
+)
+"smt/solver_types.ml" 60 1894 1896 "smt/solver_types.ml" 67 2024 2043
+type(
+  var
+)
+"smt/solver_types.ml" 68 2044 2048 "smt/solver_types.ml" 68 2044 2058
+type(
+  atom
+)
+ident(
+  def dummy_atom "smt/solver_types.ml" 59 1874 1874 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 69 2062 2072 "smt/solver_types.ml" 69 2062 2081
+type(
+  var
+)
+ident(
+  int_ref dummy_var "smt/solver_types.ml" 59 1874 1882 "smt/solver_types.ml" 59 1874 1891
+)
+"smt/solver_types.ml" 70 2084 2094 "smt/solver_types.ml" 70 2084 2103
+type(
+  Literal.LT.t
+)
+ident(
+  int_ref dummy_lit "smt/solver_types.ml" 57 1807 1811 "smt/solver_types.ml" 57 1807 1820
+)
+"smt/solver_types.ml" 71 2105 2130 "smt/solver_types.ml" 71 2105 2142
+type(
+  clause
+)
+ident(
+  int_ref dummy_clause "smt/solver_types.ml" 75 2222 2226 "smt/solver_types.ml" 75 2222 2238
+)
+"smt/solver_types.ml" 71 2105 2149 "smt/solver_types.ml" 71 2105 2153
+type(
+  clause array
+)
+"smt/solver_types.ml" 71 2105 2158 "smt/solver_types.ml" 71 2105 2159
+type(
+  int
+)
+"smt/solver_types.ml" 71 2105 2119 "smt/solver_types.ml" 71 2105 2160
+type(
+  clause Vec.t
+)
+"smt/solver_types.ml" 72 2162 2172 "smt/solver_types.ml" 72 2162 2182
+type(
+  atom
+)
+ident(
+  int_ref dummy_atom "smt/solver_types.ml" 68 2044 2048 "smt/solver_types.ml" 68 2044 2058
+)
+"smt/solver_types.ml" 73 2184 2198 "smt/solver_types.ml" 73 2184 2203
+type(
+  bool
+)
+"smt/solver_types.ml" 74 2205 2215 "smt/solver_types.ml" 74 2205 2219
+type(
+  int
+)
+"smt/solver_types.ml" 69 2062 2064 "smt/solver_types.ml" 74 2205 2221
+type(
+  atom
+)
+"smt/solver_types.ml" 75 2222 2226 "smt/solver_types.ml" 75 2222 2238
+type(
+  clause
+)
+ident(
+  def dummy_clause "smt/solver_types.ml" 59 1874 1874 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 76 2242 2253 "smt/solver_types.ml" 76 2242 2255
+type(
+  string
+)
+"smt/solver_types.ml" 77 2258 2281 "smt/solver_types.ml" 77 2258 2291
+type(
+  atom
+)
+ident(
+  int_ref dummy_atom "smt/solver_types.ml" 68 2044 2048 "smt/solver_types.ml" 68 2044 2058
+)
+"smt/solver_types.ml" 77 2258 2298 "smt/solver_types.ml" 77 2258 2302
+type(
+  atom array
+)
+"smt/solver_types.ml" 77 2258 2307 "smt/solver_types.ml" 77 2258 2308
+type(
+  int
+)
+"smt/solver_types.ml" 77 2258 2270 "smt/solver_types.ml" 77 2258 2309
+type(
+  atom Vec.t
+)
+"smt/solver_types.ml" 78 2311 2326 "smt/solver_types.ml" 78 2311 2329
+type(
+  float
+)
+"smt/solver_types.ml" 79 2331 2345 "smt/solver_types.ml" 79 2331 2350
+type(
+  bool
+)
+"smt/solver_types.ml" 80 2352 2365 "smt/solver_types.ml" 80 2352 2370
+type(
+  bool
+)
+"smt/solver_types.ml" 81 2372 2387 "smt/solver_types.ml" 81 2372 2389
+type(
+  premise
+)
+"smt/solver_types.ml" 76 2242 2244 "smt/solver_types.ml" 81 2372 2391
+type(
+  clause
+)
+"smt/solver_types.ml" 86 2424 2428 "smt/solver_types.ml" 86 2424 2431
+type(
+  Hstring.t
+)
+ident(
+  def ale "smt/solver_types.ml" 87 2453 2453 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 86 2424 2434 "smt/solver_types.ml" 86 2424 2446
+type(
+  string -> Hstring.t
+)
+ident(
+  ext_ref Hstring.make
+)
+"smt/solver_types.ml" 86 2424 2447 "smt/solver_types.ml" 86 2424 2451
+type(
+  string
+)
+"smt/solver_types.ml" 86 2424 2434 "smt/solver_types.ml" 86 2424 2451
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/solver_types.ml" 87 2453 2457 "smt/solver_types.ml" 87 2453 2460
+type(
+  Hstring.t
+)
+ident(
+  def alt "smt/solver_types.ml" 88 2480 2480 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 87 2453 2463 "smt/solver_types.ml" 87 2453 2475
+type(
+  string -> Hstring.t
+)
+ident(
+  ext_ref Hstring.make
+)
+"smt/solver_types.ml" 87 2453 2476 "smt/solver_types.ml" 87 2453 2479
+type(
+  string
+)
+"smt/solver_types.ml" 87 2453 2463 "smt/solver_types.ml" 87 2453 2479
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/solver_types.ml" 88 2480 2484 "smt/solver_types.ml" 88 2480 2487
+type(
+  Hstring.t
+)
+ident(
+  def agt "smt/solver_types.ml" 89 2507 2507 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 88 2480 2490 "smt/solver_types.ml" 88 2480 2502
+type(
+  string -> Hstring.t
+)
+ident(
+  ext_ref Hstring.make
+)
+"smt/solver_types.ml" 88 2480 2503 "smt/solver_types.ml" 88 2480 2506
+type(
+  string
+)
+"smt/solver_types.ml" 88 2480 2490 "smt/solver_types.ml" 88 2480 2506
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/solver_types.ml" 89 2507 2511 "smt/solver_types.ml" 89 2507 2516
+type(
+  Hstring.t -> bool
+)
+ident(
+  def is_le "smt/solver_types.ml" 90 2547 2547 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 89 2507 2517 "smt/solver_types.ml" 89 2507 2518
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/solver_types.ml" 89 2507 2521 "smt/solver_types.ml" 89 2507 2546
+)
+"smt/solver_types.ml" 89 2507 2521 "smt/solver_types.ml" 89 2507 2536
+type(
+  Hstring.t -> Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.compare
+)
+"smt/solver_types.ml" 89 2507 2537 "smt/solver_types.ml" 89 2507 2538
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/solver_types.ml" 89 2507 2517 "smt/solver_types.ml" 89 2507 2518
+)
+"smt/solver_types.ml" 89 2507 2539 "smt/solver_types.ml" 89 2507 2542
+type(
+  Hstring.t
+)
+ident(
+  int_ref ale "smt/solver_types.ml" 86 2424 2428 "smt/solver_types.ml" 86 2424 2431
+)
+"smt/solver_types.ml" 89 2507 2521 "smt/solver_types.ml" 89 2507 2542
+call(
+  stack
+)
+type(
+  int
+)
+"smt/solver_types.ml" 89 2507 2543 "smt/solver_types.ml" 89 2507 2544
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/solver_types.ml" 89 2507 2545 "smt/solver_types.ml" 89 2507 2546
+type(
+  int
+)
+"smt/solver_types.ml" 89 2507 2521 "smt/solver_types.ml" 89 2507 2546
+type(
+  bool
+)
+"smt/solver_types.ml" 90 2547 2551 "smt/solver_types.ml" 90 2547 2556
+type(
+  Hstring.t -> bool
+)
+ident(
+  def is_lt "smt/solver_types.ml" 91 2587 2587 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 90 2547 2557 "smt/solver_types.ml" 90 2547 2558
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/solver_types.ml" 90 2547 2561 "smt/solver_types.ml" 90 2547 2586
+)
+"smt/solver_types.ml" 90 2547 2561 "smt/solver_types.ml" 90 2547 2576
+type(
+  Hstring.t -> Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.compare
+)
+"smt/solver_types.ml" 90 2547 2577 "smt/solver_types.ml" 90 2547 2578
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/solver_types.ml" 90 2547 2557 "smt/solver_types.ml" 90 2547 2558
+)
+"smt/solver_types.ml" 90 2547 2579 "smt/solver_types.ml" 90 2547 2582
+type(
+  Hstring.t
+)
+ident(
+  int_ref alt "smt/solver_types.ml" 87 2453 2457 "smt/solver_types.ml" 87 2453 2460
+)
+"smt/solver_types.ml" 90 2547 2561 "smt/solver_types.ml" 90 2547 2582
+call(
+  stack
+)
+type(
+  int
+)
+"smt/solver_types.ml" 90 2547 2583 "smt/solver_types.ml" 90 2547 2584
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/solver_types.ml" 90 2547 2585 "smt/solver_types.ml" 90 2547 2586
+type(
+  int
+)
+"smt/solver_types.ml" 90 2547 2561 "smt/solver_types.ml" 90 2547 2586
+type(
+  bool
+)
+"smt/solver_types.ml" 91 2587 2591 "smt/solver_types.ml" 91 2587 2596
+type(
+  Hstring.t -> bool
+)
+ident(
+  def is_gt "smt/solver_types.ml" 93 2628 2628 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 91 2587 2597 "smt/solver_types.ml" 91 2587 2598
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/solver_types.ml" 91 2587 2601 "smt/solver_types.ml" 91 2587 2626
+)
+"smt/solver_types.ml" 91 2587 2601 "smt/solver_types.ml" 91 2587 2616
+type(
+  Hstring.t -> Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.compare
+)
+"smt/solver_types.ml" 91 2587 2617 "smt/solver_types.ml" 91 2587 2618
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/solver_types.ml" 91 2587 2597 "smt/solver_types.ml" 91 2587 2598
+)
+"smt/solver_types.ml" 91 2587 2619 "smt/solver_types.ml" 91 2587 2622
+type(
+  Hstring.t
+)
+ident(
+  int_ref agt "smt/solver_types.ml" 88 2480 2484 "smt/solver_types.ml" 88 2480 2487
+)
+"smt/solver_types.ml" 91 2587 2601 "smt/solver_types.ml" 91 2587 2622
+call(
+  stack
+)
+type(
+  int
+)
+"smt/solver_types.ml" 91 2587 2623 "smt/solver_types.ml" 91 2587 2624
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/solver_types.ml" 91 2587 2625 "smt/solver_types.ml" 91 2587 2626
+type(
+  int
+)
+"smt/solver_types.ml" 91 2587 2601 "smt/solver_types.ml" 91 2587 2626
+type(
+  bool
+)
+"smt/solver_types.ml" 93 2628 2632 "smt/solver_types.ml" 93 2628 2643
+type(
+  Literal.LT.t -> Literal.LT.t * bool
+)
+ident(
+  def normal_form "smt/solver_types.ml" 141 4258 4258 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 93 2628 2644 "smt/solver_types.ml" 93 2628 2647
+type(
+  Literal.LT.t
+)
+ident(
+  def lit "smt/solver_types.ml" 94 2650 2652 "smt/solver_types.ml" 121 3663 3684
+)
+"smt/solver_types.ml" 94 2650 2658 "smt/solver_types.ml" 94 2650 2673
+type(
+  Literal.LT.t -> Literal.LT.elt Literal.view
+)
+ident(
+  ext_ref Literal.LT.view
+)
+"smt/solver_types.ml" 94 2650 2674 "smt/solver_types.ml" 94 2650 2677
+type(
+  Literal.LT.t
+)
+ident(
+  int_ref lit "smt/solver_types.ml" 93 2628 2644 "smt/solver_types.ml" 93 2628 2647
+)
+"smt/solver_types.ml" 94 2650 2658 "smt/solver_types.ml" 94 2650 2677
+call(
+  stack
+)
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 95 2683 2701 "smt/solver_types.ml" 95 2683 2703
+type(
+  Literal.LT.elt
+)
+ident(
+  def t1 "smt/solver_types.ml" 95 2683 2714 "smt/solver_types.ml" 96 2741 2795
+)
+"smt/solver_types.ml" 95 2683 2704 "smt/solver_types.ml" 95 2683 2706
+type(
+  Literal.LT.elt
+)
+ident(
+  def t2 "smt/solver_types.ml" 95 2683 2714 "smt/solver_types.ml" 96 2741 2795
+)
+"smt/solver_types.ml" 95 2683 2689 "smt/solver_types.ml" 95 2683 2707
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 95 2683 2714 "smt/solver_types.ml" 95 2683 2724
+type(
+  Literal.LT.elt -> Term.t -> bool
+)
+ident(
+  ext_ref Term.equal
+)
+"smt/solver_types.ml" 95 2683 2725 "smt/solver_types.ml" 95 2683 2727
+type(
+  Literal.LT.elt
+)
+ident(
+  int_ref t2 "smt/solver_types.ml" 95 2683 2704 "smt/solver_types.ml" 95 2683 2706
+)
+"smt/solver_types.ml" 95 2683 2728 "smt/solver_types.ml" 95 2683 2737
+type(
+  Term.t
+)
+ident(
+  ext_ref Term.faux
+)
+"smt/solver_types.ml" 95 2683 2714 "smt/solver_types.ml" 95 2683 2737
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/solver_types.ml" 96 2741 2747 "smt/solver_types.ml" 96 2741 2762
+type(
+  Literal.LT.elt Literal.view -> Literal.LT.t
+)
+ident(
+  ext_ref Literal.LT.make
+)
+"smt/solver_types.ml" 96 2741 2775 "smt/solver_types.ml" 96 2741 2777
+type(
+  Literal.LT.elt
+)
+ident(
+  int_ref t1 "smt/solver_types.ml" 95 2683 2701 "smt/solver_types.ml" 95 2683 2703
+)
+"smt/solver_types.ml" 96 2741 2778 "smt/solver_types.ml" 96 2741 2787
+type(
+  Literal.LT.elt
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/solver_types.ml" 96 2741 2763 "smt/solver_types.ml" 96 2741 2789
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 96 2741 2747 "smt/solver_types.ml" 96 2741 2789
+call(
+  stack
+)
+type(
+  Literal.LT.t
+)
+"smt/solver_types.ml" 96 2741 2791 "smt/solver_types.ml" 96 2741 2795
+type(
+  bool
+)
+"smt/solver_types.ml" 96 2741 2747 "smt/solver_types.ml" 96 2741 2795
+type(
+  Literal.LT.t * bool
+)
+"smt/solver_types.ml" 98 2797 2815 "smt/solver_types.ml" 98 2797 2817
+type(
+  Literal.LT.elt
+)
+ident(
+  def t1 "smt/solver_types.ml" 98 2797 2828 "smt/solver_types.ml" 99 2855 2909
+)
+"smt/solver_types.ml" 98 2797 2818 "smt/solver_types.ml" 98 2797 2820
+type(
+  Literal.LT.elt
+)
+ident(
+  def t2 "smt/solver_types.ml" 98 2797 2828 "smt/solver_types.ml" 99 2855 2909
+)
+"smt/solver_types.ml" 98 2797 2803 "smt/solver_types.ml" 98 2797 2821
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 98 2797 2828 "smt/solver_types.ml" 98 2797 2838
+type(
+  Literal.LT.elt -> Term.t -> bool
+)
+ident(
+  ext_ref Term.equal
+)
+"smt/solver_types.ml" 98 2797 2839 "smt/solver_types.ml" 98 2797 2841
+type(
+  Literal.LT.elt
+)
+ident(
+  int_ref t1 "smt/solver_types.ml" 98 2797 2815 "smt/solver_types.ml" 98 2797 2817
+)
+"smt/solver_types.ml" 98 2797 2842 "smt/solver_types.ml" 98 2797 2851
+type(
+  Term.t
+)
+ident(
+  ext_ref Term.faux
+)
+"smt/solver_types.ml" 98 2797 2828 "smt/solver_types.ml" 98 2797 2851
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/solver_types.ml" 99 2855 2861 "smt/solver_types.ml" 99 2855 2876
+type(
+  Literal.LT.elt Literal.view -> Literal.LT.t
+)
+ident(
+  ext_ref Literal.LT.make
+)
+"smt/solver_types.ml" 99 2855 2889 "smt/solver_types.ml" 99 2855 2891
+type(
+  Literal.LT.elt
+)
+ident(
+  int_ref t2 "smt/solver_types.ml" 98 2797 2818 "smt/solver_types.ml" 98 2797 2820
+)
+"smt/solver_types.ml" 99 2855 2892 "smt/solver_types.ml" 99 2855 2901
+type(
+  Literal.LT.elt
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/solver_types.ml" 99 2855 2877 "smt/solver_types.ml" 99 2855 2903
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 99 2855 2861 "smt/solver_types.ml" 99 2855 2903
+call(
+  stack
+)
+type(
+  Literal.LT.t
+)
+"smt/solver_types.ml" 99 2855 2905 "smt/solver_types.ml" 99 2855 2909
+type(
+  bool
+)
+"smt/solver_types.ml" 99 2855 2861 "smt/solver_types.ml" 99 2855 2909
+type(
+  Literal.LT.t * bool
+)
+"smt/solver_types.ml" 102 2912 2935 "smt/solver_types.ml" 102 2912 2940
+type(
+  bool
+)
+"smt/solver_types.ml" 102 2912 2943 "smt/solver_types.ml" 102 2912 2945
+type(
+  Literal.LT.elt
+)
+ident(
+  def t1 "smt/solver_types.ml" 102 2912 2957 "smt/solver_types.ml" 103 2984 3039
+)
+"smt/solver_types.ml" 102 2912 2946 "smt/solver_types.ml" 102 2912 2948
+type(
+  Literal.LT.elt
+)
+ident(
+  def t2 "smt/solver_types.ml" 102 2912 2957 "smt/solver_types.ml" 103 2984 3039
+)
+"smt/solver_types.ml" 102 2912 2942 "smt/solver_types.ml" 102 2912 2949
+type(
+  Literal.LT.elt list
+)
+"smt/solver_types.ml" 102 2912 2918 "smt/solver_types.ml" 102 2912 2950
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 102 2912 2957 "smt/solver_types.ml" 102 2912 2967
+type(
+  Literal.LT.elt -> Term.t -> bool
+)
+ident(
+  ext_ref Term.equal
+)
+"smt/solver_types.ml" 102 2912 2968 "smt/solver_types.ml" 102 2912 2970
+type(
+  Literal.LT.elt
+)
+ident(
+  int_ref t1 "smt/solver_types.ml" 102 2912 2943 "smt/solver_types.ml" 102 2912 2945
+)
+"smt/solver_types.ml" 102 2912 2971 "smt/solver_types.ml" 102 2912 2980
+type(
+  Term.t
+)
+ident(
+  ext_ref Term.faux
+)
+"smt/solver_types.ml" 102 2912 2957 "smt/solver_types.ml" 102 2912 2980
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/solver_types.ml" 103 2984 2990 "smt/solver_types.ml" 103 2984 3005
+type(
+  Literal.LT.elt Literal.view -> Literal.LT.t
+)
+ident(
+  ext_ref Literal.LT.make
+)
+"smt/solver_types.ml" 103 2984 3018 "smt/solver_types.ml" 103 2984 3020
+type(
+  Literal.LT.elt
+)
+ident(
+  int_ref t2 "smt/solver_types.ml" 102 2912 2946 "smt/solver_types.ml" 102 2912 2948
+)
+"smt/solver_types.ml" 103 2984 3021 "smt/solver_types.ml" 103 2984 3030
+type(
+  Literal.LT.elt
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/solver_types.ml" 103 2984 3006 "smt/solver_types.ml" 103 2984 3032
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 103 2984 2990 "smt/solver_types.ml" 103 2984 3032
+call(
+  stack
+)
+type(
+  Literal.LT.t
+)
+"smt/solver_types.ml" 103 2984 3034 "smt/solver_types.ml" 103 2984 3039
+type(
+  bool
+)
+"smt/solver_types.ml" 103 2984 2990 "smt/solver_types.ml" 103 2984 3039
+type(
+  Literal.LT.t * bool
+)
+"smt/solver_types.ml" 105 3041 3064 "smt/solver_types.ml" 105 3041 3069
+type(
+  bool
+)
+"smt/solver_types.ml" 105 3041 3072 "smt/solver_types.ml" 105 3041 3074
+type(
+  Literal.LT.elt
+)
+ident(
+  def t1 "smt/solver_types.ml" 105 3041 3086 "smt/solver_types.ml" 106 3113 3168
+)
+"smt/solver_types.ml" 105 3041 3075 "smt/solver_types.ml" 105 3041 3077
+type(
+  Literal.LT.elt
+)
+ident(
+  def t2 "smt/solver_types.ml" 105 3041 3086 "smt/solver_types.ml" 106 3113 3168
+)
+"smt/solver_types.ml" 105 3041 3071 "smt/solver_types.ml" 105 3041 3078
+type(
+  Literal.LT.elt list
+)
+"smt/solver_types.ml" 105 3041 3047 "smt/solver_types.ml" 105 3041 3079
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 105 3041 3086 "smt/solver_types.ml" 105 3041 3096
+type(
+  Literal.LT.elt -> Term.t -> bool
+)
+ident(
+  ext_ref Term.equal
+)
+"smt/solver_types.ml" 105 3041 3097 "smt/solver_types.ml" 105 3041 3099
+type(
+  Literal.LT.elt
+)
+ident(
+  int_ref t2 "smt/solver_types.ml" 105 3041 3075 "smt/solver_types.ml" 105 3041 3077
+)
+"smt/solver_types.ml" 105 3041 3100 "smt/solver_types.ml" 105 3041 3109
+type(
+  Term.t
+)
+ident(
+  ext_ref Term.faux
+)
+"smt/solver_types.ml" 105 3041 3086 "smt/solver_types.ml" 105 3041 3109
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/solver_types.ml" 106 3113 3119 "smt/solver_types.ml" 106 3113 3134
+type(
+  Literal.LT.elt Literal.view -> Literal.LT.t
+)
+ident(
+  ext_ref Literal.LT.make
+)
+"smt/solver_types.ml" 106 3113 3147 "smt/solver_types.ml" 106 3113 3149
+type(
+  Literal.LT.elt
+)
+ident(
+  int_ref t1 "smt/solver_types.ml" 105 3041 3072 "smt/solver_types.ml" 105 3041 3074
+)
+"smt/solver_types.ml" 106 3113 3150 "smt/solver_types.ml" 106 3113 3159
+type(
+  Literal.LT.elt
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/solver_types.ml" 106 3113 3135 "smt/solver_types.ml" 106 3113 3161
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 106 3113 3119 "smt/solver_types.ml" 106 3113 3161
+call(
+  stack
+)
+type(
+  Literal.LT.t
+)
+"smt/solver_types.ml" 106 3113 3163 "smt/solver_types.ml" 106 3113 3168
+type(
+  bool
+)
+"smt/solver_types.ml" 106 3113 3119 "smt/solver_types.ml" 106 3113 3168
+type(
+  Literal.LT.t * bool
+)
+"smt/solver_types.ml" 108 3170 3193 "smt/solver_types.ml" 108 3170 3198
+type(
+  bool
+)
+"smt/solver_types.ml" 108 3170 3201 "smt/solver_types.ml" 108 3170 3203
+type(
+  Literal.LT.elt
+)
+ident(
+  def t1 "smt/solver_types.ml" 108 3170 3215 "smt/solver_types.ml" 109 3242 3296
+)
+"smt/solver_types.ml" 108 3170 3204 "smt/solver_types.ml" 108 3170 3206
+type(
+  Literal.LT.elt
+)
+ident(
+  def t2 "smt/solver_types.ml" 108 3170 3215 "smt/solver_types.ml" 109 3242 3296
+)
+"smt/solver_types.ml" 108 3170 3200 "smt/solver_types.ml" 108 3170 3207
+type(
+  Literal.LT.elt list
+)
+"smt/solver_types.ml" 108 3170 3176 "smt/solver_types.ml" 108 3170 3208
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 108 3170 3215 "smt/solver_types.ml" 108 3170 3225
+type(
+  Literal.LT.elt -> Term.t -> bool
+)
+ident(
+  ext_ref Term.equal
+)
+"smt/solver_types.ml" 108 3170 3226 "smt/solver_types.ml" 108 3170 3228
+type(
+  Literal.LT.elt
+)
+ident(
+  int_ref t1 "smt/solver_types.ml" 108 3170 3201 "smt/solver_types.ml" 108 3170 3203
+)
+"smt/solver_types.ml" 108 3170 3229 "smt/solver_types.ml" 108 3170 3238
+type(
+  Term.t
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/solver_types.ml" 108 3170 3215 "smt/solver_types.ml" 108 3170 3238
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/solver_types.ml" 109 3242 3248 "smt/solver_types.ml" 109 3242 3263
+type(
+  Literal.LT.elt Literal.view -> Literal.LT.t
+)
+ident(
+  ext_ref Literal.LT.make
+)
+"smt/solver_types.ml" 109 3242 3276 "smt/solver_types.ml" 109 3242 3278
+type(
+  Literal.LT.elt
+)
+ident(
+  int_ref t2 "smt/solver_types.ml" 108 3170 3204 "smt/solver_types.ml" 108 3170 3206
+)
+"smt/solver_types.ml" 109 3242 3279 "smt/solver_types.ml" 109 3242 3288
+type(
+  Literal.LT.elt
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/solver_types.ml" 109 3242 3264 "smt/solver_types.ml" 109 3242 3290
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 109 3242 3248 "smt/solver_types.ml" 109 3242 3290
+call(
+  stack
+)
+type(
+  Literal.LT.t
+)
+"smt/solver_types.ml" 109 3242 3292 "smt/solver_types.ml" 109 3242 3296
+type(
+  bool
+)
+"smt/solver_types.ml" 109 3242 3248 "smt/solver_types.ml" 109 3242 3296
+type(
+  Literal.LT.t * bool
+)
+"smt/solver_types.ml" 111 3298 3321 "smt/solver_types.ml" 111 3298 3326
+type(
+  bool
+)
+"smt/solver_types.ml" 111 3298 3329 "smt/solver_types.ml" 111 3298 3331
+type(
+  Literal.LT.elt
+)
+ident(
+  def t1 "smt/solver_types.ml" 111 3298 3343 "smt/solver_types.ml" 112 3370 3424
+)
+"smt/solver_types.ml" 111 3298 3332 "smt/solver_types.ml" 111 3298 3334
+type(
+  Literal.LT.elt
+)
+ident(
+  def t2 "smt/solver_types.ml" 111 3298 3343 "smt/solver_types.ml" 112 3370 3424
+)
+"smt/solver_types.ml" 111 3298 3328 "smt/solver_types.ml" 111 3298 3335
+type(
+  Literal.LT.elt list
+)
+"smt/solver_types.ml" 111 3298 3304 "smt/solver_types.ml" 111 3298 3336
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 111 3298 3343 "smt/solver_types.ml" 111 3298 3353
+type(
+  Literal.LT.elt -> Term.t -> bool
+)
+ident(
+  ext_ref Term.equal
+)
+"smt/solver_types.ml" 111 3298 3354 "smt/solver_types.ml" 111 3298 3356
+type(
+  Literal.LT.elt
+)
+ident(
+  int_ref t2 "smt/solver_types.ml" 111 3298 3332 "smt/solver_types.ml" 111 3298 3334
+)
+"smt/solver_types.ml" 111 3298 3357 "smt/solver_types.ml" 111 3298 3366
+type(
+  Term.t
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/solver_types.ml" 111 3298 3343 "smt/solver_types.ml" 111 3298 3366
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/solver_types.ml" 112 3370 3376 "smt/solver_types.ml" 112 3370 3391
+type(
+  Literal.LT.elt Literal.view -> Literal.LT.t
+)
+ident(
+  ext_ref Literal.LT.make
+)
+"smt/solver_types.ml" 112 3370 3404 "smt/solver_types.ml" 112 3370 3406
+type(
+  Literal.LT.elt
+)
+ident(
+  int_ref t1 "smt/solver_types.ml" 111 3298 3329 "smt/solver_types.ml" 111 3298 3331
+)
+"smt/solver_types.ml" 112 3370 3407 "smt/solver_types.ml" 112 3370 3416
+type(
+  Literal.LT.elt
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/solver_types.ml" 112 3370 3392 "smt/solver_types.ml" 112 3370 3418
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 112 3370 3376 "smt/solver_types.ml" 112 3370 3418
+call(
+  stack
+)
+type(
+  Literal.LT.t
+)
+"smt/solver_types.ml" 112 3370 3420 "smt/solver_types.ml" 112 3370 3424
+type(
+  bool
+)
+"smt/solver_types.ml" 112 3370 3376 "smt/solver_types.ml" 112 3370 3424
+type(
+  Literal.LT.t * bool
+)
+"smt/solver_types.ml" 114 3426 3449 "smt/solver_types.ml" 114 3426 3454
+type(
+  bool
+)
+"smt/solver_types.ml" 114 3426 3456 "smt/solver_types.ml" 114 3426 3457
+type(
+  Literal.LT.elt
+)
+"smt/solver_types.ml" 114 3426 3458 "smt/solver_types.ml" 114 3426 3459
+type(
+  Literal.LT.elt
+)
+"smt/solver_types.ml" 114 3426 3455 "smt/solver_types.ml" 114 3426 3460
+type(
+  Literal.LT.elt list
+)
+"smt/solver_types.ml" 114 3426 3432 "smt/solver_types.ml" 114 3426 3461
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 114 3426 3465 "smt/solver_types.ml" 114 3426 3479
+type(
+  Literal.LT.t -> Literal.LT.t
+)
+ident(
+  ext_ref Literal.LT.neg
+)
+"smt/solver_types.ml" 114 3426 3480 "smt/solver_types.ml" 114 3426 3483
+type(
+  Literal.LT.t
+)
+ident(
+  int_ref lit "smt/solver_types.ml" 93 2628 2644 "smt/solver_types.ml" 93 2628 2647
+)
+"smt/solver_types.ml" 114 3426 3465 "smt/solver_types.ml" 114 3426 3483
+call(
+  stack
+)
+type(
+  Literal.LT.t
+)
+"smt/solver_types.ml" 114 3426 3485 "smt/solver_types.ml" 114 3426 3489
+type(
+  bool
+)
+"smt/solver_types.ml" 114 3426 3465 "smt/solver_types.ml" 114 3426 3489
+type(
+  Literal.LT.t * bool
+)
+"smt/solver_types.ml" 116 3491 3513 "smt/solver_types.ml" 116 3491 3517
+type(
+  bool
+)
+"smt/solver_types.ml" 116 3491 3518 "smt/solver_types.ml" 116 3491 3519
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/solver_types.ml" 116 3491 3534 "smt/solver_types.ml" 117 3545 3575
+)
+"smt/solver_types.ml" 116 3491 3521 "smt/solver_types.ml" 116 3491 3523
+type(
+  Literal.LT.elt
+)
+ident(
+  def t1 "smt/solver_types.ml" 116 3491 3534 "smt/solver_types.ml" 117 3545 3575
+)
+"smt/solver_types.ml" 116 3491 3524 "smt/solver_types.ml" 116 3491 3526
+type(
+  Literal.LT.elt
+)
+ident(
+  def t2 "smt/solver_types.ml" 116 3491 3534 "smt/solver_types.ml" 117 3545 3575
+)
+"smt/solver_types.ml" 116 3491 3520 "smt/solver_types.ml" 116 3491 3527
+type(
+  Literal.LT.elt list
+)
+"smt/solver_types.ml" 116 3491 3497 "smt/solver_types.ml" 116 3491 3528
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 116 3491 3534 "smt/solver_types.ml" 116 3491 3539
+type(
+  Hstring.t -> bool
+)
+ident(
+  int_ref is_gt "smt/solver_types.ml" 91 2587 2591 "smt/solver_types.ml" 91 2587 2596
+)
+"smt/solver_types.ml" 116 3491 3540 "smt/solver_types.ml" 116 3491 3541
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/solver_types.ml" 116 3491 3518 "smt/solver_types.ml" 116 3491 3519
+)
+"smt/solver_types.ml" 116 3491 3534 "smt/solver_types.ml" 116 3491 3541
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/solver_types.ml" 117 3545 3551 "smt/solver_types.ml" 117 3545 3565
+type(
+  Literal.LT.t -> Literal.LT.t
+)
+ident(
+  ext_ref Literal.LT.neg
+)
+"smt/solver_types.ml" 117 3545 3566 "smt/solver_types.ml" 117 3545 3569
+type(
+  Literal.LT.t
+)
+ident(
+  int_ref lit "smt/solver_types.ml" 93 2628 2644 "smt/solver_types.ml" 93 2628 2647
+)
+"smt/solver_types.ml" 117 3545 3551 "smt/solver_types.ml" 117 3545 3569
+call(
+  stack
+)
+type(
+  Literal.LT.t
+)
+"smt/solver_types.ml" 117 3545 3571 "smt/solver_types.ml" 117 3545 3575
+type(
+  bool
+)
+"smt/solver_types.ml" 117 3545 3551 "smt/solver_types.ml" 117 3545 3575
+type(
+  Literal.LT.t * bool
+)
+"smt/solver_types.ml" 119 3577 3599 "smt/solver_types.ml" 119 3577 3604
+type(
+  bool
+)
+"smt/solver_types.ml" 119 3577 3605 "smt/solver_types.ml" 119 3577 3606
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/solver_types.ml" 119 3577 3621 "smt/solver_types.ml" 120 3632 3662
+)
+"smt/solver_types.ml" 119 3577 3608 "smt/solver_types.ml" 119 3577 3610
+type(
+  Literal.LT.elt
+)
+ident(
+  def t1 "smt/solver_types.ml" 119 3577 3621 "smt/solver_types.ml" 120 3632 3662
+)
+"smt/solver_types.ml" 119 3577 3611 "smt/solver_types.ml" 119 3577 3613
+type(
+  Literal.LT.elt
+)
+ident(
+  def t2 "smt/solver_types.ml" 119 3577 3621 "smt/solver_types.ml" 120 3632 3662
+)
+"smt/solver_types.ml" 119 3577 3607 "smt/solver_types.ml" 119 3577 3614
+type(
+  Literal.LT.elt list
+)
+"smt/solver_types.ml" 119 3577 3583 "smt/solver_types.ml" 119 3577 3615
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 119 3577 3621 "smt/solver_types.ml" 119 3577 3626
+type(
+  Hstring.t -> bool
+)
+ident(
+  int_ref is_le "smt/solver_types.ml" 89 2507 2511 "smt/solver_types.ml" 89 2507 2516
+)
+"smt/solver_types.ml" 119 3577 3627 "smt/solver_types.ml" 119 3577 3628
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/solver_types.ml" 119 3577 3605 "smt/solver_types.ml" 119 3577 3606
+)
+"smt/solver_types.ml" 119 3577 3621 "smt/solver_types.ml" 119 3577 3628
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/solver_types.ml" 120 3632 3638 "smt/solver_types.ml" 120 3632 3652
+type(
+  Literal.LT.t -> Literal.LT.t
+)
+ident(
+  ext_ref Literal.LT.neg
+)
+"smt/solver_types.ml" 120 3632 3653 "smt/solver_types.ml" 120 3632 3656
+type(
+  Literal.LT.t
+)
+ident(
+  int_ref lit "smt/solver_types.ml" 93 2628 2644 "smt/solver_types.ml" 93 2628 2647
+)
+"smt/solver_types.ml" 120 3632 3638 "smt/solver_types.ml" 120 3632 3656
+call(
+  stack
+)
+type(
+  Literal.LT.t
+)
+"smt/solver_types.ml" 120 3632 3658 "smt/solver_types.ml" 120 3632 3662
+type(
+  bool
+)
+"smt/solver_types.ml" 120 3632 3638 "smt/solver_types.ml" 120 3632 3662
+type(
+  Literal.LT.t * bool
+)
+"smt/solver_types.ml" 121 3663 3669 "smt/solver_types.ml" 121 3663 3670
+type(
+  Literal.LT.elt Literal.view
+)
+"smt/solver_types.ml" 121 3663 3674 "smt/solver_types.ml" 121 3663 3677
+type(
+  Literal.LT.t
+)
+ident(
+  int_ref lit "smt/solver_types.ml" 93 2628 2644 "smt/solver_types.ml" 93 2628 2647
+)
+"smt/solver_types.ml" 121 3663 3679 "smt/solver_types.ml" 121 3663 3684
+type(
+  bool
+)
+"smt/solver_types.ml" 121 3663 3674 "smt/solver_types.ml" 121 3663 3684
+type(
+  Literal.LT.t * bool
+)
+"smt/solver_types.ml" 94 2650 2652 "smt/solver_types.ml" 121 3663 3684
+type(
+  Literal.LT.t * bool
+)
+"smt/solver_types.ml" 141 4258 4262 "smt/solver_types.ml" 141 4258 4272
+type(
+  int ref
+)
+ident(
+  def cpt_mk_var "smt/solver_types.ml" 142 4281 4281 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 141 4258 4275 "smt/solver_types.ml" 141 4258 4278
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"smt/solver_types.ml" 141 4258 4279 "smt/solver_types.ml" 141 4258 4280
+type(
+  int
+)
+"smt/solver_types.ml" 141 4258 4275 "smt/solver_types.ml" 141 4258 4280
+type(
+  int ref
+)
+"smt/solver_types.ml" 142 4281 4285 "smt/solver_types.ml" 142 4281 4287
+type(
+  var MA.t ref
+)
+ident(
+  def ma "smt/solver_types.ml" 143 4303 4303 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 142 4281 4290 "smt/solver_types.ml" 142 4281 4293
+type(
+  var MA.t -> var MA.t ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"smt/solver_types.ml" 142 4281 4294 "smt/solver_types.ml" 142 4281 4302
+type(
+  var MA.t
+)
+ident(
+  ext_ref MA.empty
+)
+"smt/solver_types.ml" 142 4281 4290 "smt/solver_types.ml" 142 4281 4302
+type(
+  var MA.t ref
+)
+"smt/solver_types.ml" 143 4303 4307 "smt/solver_types.ml" 143 4303 4315
+type(
+  MA.key -> var * bool
+)
+ident(
+  def make_var "smt/solver_types.ml" 177 5044 5044 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 144 4318 4324 "smt/solver_types.ml" 144 4318 4327
+type(
+  MA.key
+)
+ident(
+  def lit "smt/solver_types.ml" 145 4331 4335 "smt/solver_types.ml" 175 5024 5042
+)
+"smt/solver_types.ml" 145 4331 4339 "smt/solver_types.ml" 145 4331 4342
+type(
+  MA.key
+)
+ident(
+  def lit "smt/solver_types.ml" 146 4373 4377 "smt/solver_types.ml" 175 5024 5042
+)
+"smt/solver_types.ml" 145 4331 4344 "smt/solver_types.ml" 145 4331 4351
+type(
+  bool
+)
+ident(
+  def negated "smt/solver_types.ml" 146 4373 4377 "smt/solver_types.ml" 175 5024 5042
+)
+"smt/solver_types.ml" 145 4331 4339 "smt/solver_types.ml" 145 4331 4351
+type(
+  MA.key * bool
+)
+"smt/solver_types.ml" 145 4331 4354 "smt/solver_types.ml" 145 4331 4365
+type(
+  MA.key -> MA.key * bool
+)
+ident(
+  int_ref normal_form "smt/solver_types.ml" 93 2628 2632 "smt/solver_types.ml" 93 2628 2643
+)
+"smt/solver_types.ml" 145 4331 4366 "smt/solver_types.ml" 145 4331 4369
+type(
+  MA.key
+)
+ident(
+  int_ref lit "smt/solver_types.ml" 144 4318 4324 "smt/solver_types.ml" 144 4318 4327
+)
+"smt/solver_types.ml" 145 4331 4354 "smt/solver_types.ml" 145 4331 4369
+call(
+  stack
+)
+type(
+  MA.key * bool
+)
+"smt/solver_types.ml" 146 4373 4381 "smt/solver_types.ml" 146 4373 4388
+type(
+  MA.key -> var MA.t -> var
+)
+ident(
+  ext_ref MA.find
+)
+"smt/solver_types.ml" 146 4373 4389 "smt/solver_types.ml" 146 4373 4392
+type(
+  MA.key
+)
+ident(
+  int_ref lit "smt/solver_types.ml" 145 4331 4339 "smt/solver_types.ml" 145 4331 4342
+)
+"smt/solver_types.ml" 146 4373 4393 "smt/solver_types.ml" 146 4373 4394
+type(
+  var MA.t ref -> var MA.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"smt/solver_types.ml" 146 4373 4394 "smt/solver_types.ml" 146 4373 4396
+type(
+  var MA.t ref
+)
+ident(
+  int_ref ma "smt/solver_types.ml" 142 4281 4285 "smt/solver_types.ml" 142 4281 4287
+)
+"smt/solver_types.ml" 146 4373 4393 "smt/solver_types.ml" 146 4373 4396
+type(
+  var MA.t
+)
+"smt/solver_types.ml" 146 4373 4381 "smt/solver_types.ml" 146 4373 4396
+call(
+  stack
+)
+type(
+  var
+)
+"smt/solver_types.ml" 146 4373 4398 "smt/solver_types.ml" 146 4373 4405
+type(
+  bool
+)
+ident(
+  int_ref negated "smt/solver_types.ml" 145 4331 4344 "smt/solver_types.ml" 145 4331 4351
+)
+"smt/solver_types.ml" 146 4373 4381 "smt/solver_types.ml" 146 4373 4405
+type(
+  var * bool
+)
+"smt/solver_types.ml" 147 4407 4416 "smt/solver_types.ml" 147 4407 4425
+type(
+  exn
+)
+"smt/solver_types.ml" 148 4429 4439 "smt/solver_types.ml" 148 4429 4449
+type(
+  int
+)
+ident(
+  def cpt_fois_2 "smt/solver_types.ml" 149 4473 4479 "smt/solver_types.ml" 175 5024 5042
+)
+"smt/solver_types.ml" 148 4429 4452 "smt/solver_types.ml" 148 4429 4453
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"smt/solver_types.ml" 148 4429 4453 "smt/solver_types.ml" 148 4429 4463
+type(
+  int ref
+)
+ident(
+  int_ref cpt_mk_var "smt/solver_types.ml" 141 4258 4262 "smt/solver_types.ml" 141 4258 4272
+)
+"smt/solver_types.ml" 148 4429 4452 "smt/solver_types.ml" 148 4429 4463
+type(
+  int
+)
+"smt/solver_types.ml" 148 4429 4464 "smt/solver_types.ml" 148 4429 4467
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"smt/solver_types.ml" 148 4429 4468 "smt/solver_types.ml" 148 4429 4469
+type(
+  int
+)
+"smt/solver_types.ml" 148 4429 4452 "smt/solver_types.ml" 148 4429 4469
+type(
+  int
+)
+"smt/solver_types.ml" 149 4473 4487 "smt/solver_types.ml" 149 4473 4490
+type(
+  var
+)
+ident(
+  def var "smt/solver_types.ml" 149 4473 4479 "smt/solver_types.ml" 175 5024 5042
+)
+"smt/solver_types.ml" 150 4495 4504 "smt/solver_types.ml" 150 4495 4505
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"smt/solver_types.ml" 150 4495 4505 "smt/solver_types.ml" 150 4495 4515
+type(
+  int ref
+)
+ident(
+  int_ref cpt_mk_var "smt/solver_types.ml" 141 4258 4262 "smt/solver_types.ml" 141 4258 4272
+)
+"smt/solver_types.ml" 150 4495 4504 "smt/solver_types.ml" 150 4495 4515
+type(
+  int
+)
+"smt/solver_types.ml" 151 4518 4526 "smt/solver_types.ml" 151 4518 4528
+type(
+  atom
+)
+ident(
+  int_ref pa "smt/solver_types.ml" 159 4630 4640 "smt/solver_types.ml" 159 4630 4642
+)
+"smt/solver_types.ml" 152 4530 4538 "smt/solver_types.ml" 152 4530 4540
+type(
+  atom
+)
+ident(
+  int_ref na "smt/solver_types.ml" 166 4788 4798 "smt/solver_types.ml" 166 4788 4800
+)
+"smt/solver_types.ml" 153 4543 4554 "smt/solver_types.ml" 153 4543 4556
+type(
+  int
+)
+"smt/solver_types.ml" 154 4558 4570 "smt/solver_types.ml" 154 4558 4574
+type(
+  reason
+)
+"smt/solver_types.ml" 155 4576 4588 "smt/solver_types.ml" 155 4576 4590
+type(
+  float
+)
+"smt/solver_types.ml" 156 4592 4602 "smt/solver_types.ml" 156 4592 4607
+type(
+  bool
+)
+"smt/solver_types.ml" 157 4609 4623 "smt/solver_types.ml" 157 4609 4625
+type(
+  premise
+)
+"smt/solver_types.ml" 150 4495 4496 "smt/solver_types.ml" 158 4627 4629
+type(
+  var
+)
+"smt/solver_types.ml" 159 4630 4640 "smt/solver_types.ml" 159 4630 4642
+type(
+  atom
+)
+ident(
+  def pa "smt/solver_types.ml" 149 4473 4479 "smt/solver_types.ml" 175 5024 5042
+)
+"smt/solver_types.ml" 160 4646 4655 "smt/solver_types.ml" 160 4646 4658
+type(
+  var
+)
+ident(
+  int_ref var "smt/solver_types.ml" 149 4473 4487 "smt/solver_types.ml" 149 4473 4490
+)
+"smt/solver_types.ml" 161 4661 4670 "smt/solver_types.ml" 161 4661 4673
+type(
+  MA.key
+)
+ident(
+  int_ref lit "smt/solver_types.ml" 145 4331 4339 "smt/solver_types.ml" 145 4331 4342
+)
+"smt/solver_types.ml" 162 4675 4688 "smt/solver_types.ml" 162 4675 4696
+type(
+  int -> clause -> clause Vec.t
+)
+ident(
+  ext_ref Vec.make
+)
+"smt/solver_types.ml" 162 4675 4697 "smt/solver_types.ml" 162 4675 4699
+type(
+  int
+)
+"smt/solver_types.ml" 162 4675 4700 "smt/solver_types.ml" 162 4675 4712
+type(
+  clause
+)
+ident(
+  int_ref dummy_clause "smt/solver_types.ml" 75 2222 2226 "smt/solver_types.ml" 75 2222 2238
+)
+"smt/solver_types.ml" 162 4675 4688 "smt/solver_types.ml" 162 4675 4712
+call(
+  stack
+)
+type(
+  clause Vec.t
+)
+"smt/solver_types.ml" 163 4715 4724 "smt/solver_types.ml" 163 4715 4726
+type(
+  atom
+)
+ident(
+  int_ref na "smt/solver_types.ml" 166 4788 4798 "smt/solver_types.ml" 166 4788 4800
+)
+"smt/solver_types.ml" 164 4728 4741 "smt/solver_types.ml" 164 4728 4746
+type(
+  bool
+)
+"smt/solver_types.ml" 165 4748 4757 "smt/solver_types.ml" 165 4748 4767
+type(
+  int
+)
+ident(
+  int_ref cpt_fois_2 "smt/solver_types.ml" 148 4429 4439 "smt/solver_types.ml" 148 4429 4449
+)
+"smt/solver_types.ml" 160 4646 4647 "smt/solver_types.ml" 165 4748 4787
+type(
+  atom
+)
+"smt/solver_types.ml" 166 4788 4798 "smt/solver_types.ml" 166 4788 4800
+type(
+  atom
+)
+ident(
+  def na "smt/solver_types.ml" 149 4473 4479 "smt/solver_types.ml" 175 5024 5042
+)
+"smt/solver_types.ml" 167 4804 4813 "smt/solver_types.ml" 167 4804 4816
+type(
+  var
+)
+ident(
+  int_ref var "smt/solver_types.ml" 149 4473 4487 "smt/solver_types.ml" 149 4473 4490
+)
+"smt/solver_types.ml" 168 4818 4827 "smt/solver_types.ml" 168 4818 4841
+type(
+  MA.key -> Literal.LT.t
+)
+ident(
+  ext_ref Literal.LT.neg
+)
+"smt/solver_types.ml" 168 4818 4842 "smt/solver_types.ml" 168 4818 4845
+type(
+  MA.key
+)
+ident(
+  int_ref lit "smt/solver_types.ml" 145 4331 4339 "smt/solver_types.ml" 145 4331 4342
+)
+"smt/solver_types.ml" 168 4818 4827 "smt/solver_types.ml" 168 4818 4845
+call(
+  stack
+)
+type(
+  Literal.LT.t
+)
+"smt/solver_types.ml" 169 4847 4860 "smt/solver_types.ml" 169 4847 4868
+type(
+  int -> clause -> clause Vec.t
+)
+ident(
+  ext_ref Vec.make
+)
+"smt/solver_types.ml" 169 4847 4869 "smt/solver_types.ml" 169 4847 4871
+type(
+  int
+)
+"smt/solver_types.ml" 169 4847 4872 "smt/solver_types.ml" 169 4847 4884
+type(
+  clause
+)
+ident(
+  int_ref dummy_clause "smt/solver_types.ml" 75 2222 2226 "smt/solver_types.ml" 75 2222 2238
+)
+"smt/solver_types.ml" 169 4847 4860 "smt/solver_types.ml" 169 4847 4884
+call(
+  stack
+)
+type(
+  clause Vec.t
+)
+"smt/solver_types.ml" 170 4886 4895 "smt/solver_types.ml" 170 4886 4897
+type(
+  atom
+)
+ident(
+  int_ref pa "smt/solver_types.ml" 159 4630 4640 "smt/solver_types.ml" 159 4630 4642
+)
+"smt/solver_types.ml" 171 4899 4912 "smt/solver_types.ml" 171 4899 4917
+type(
+  bool
+)
+"smt/solver_types.ml" 172 4919 4928 "smt/solver_types.ml" 172 4919 4938
+type(
+  int
+)
+ident(
+  int_ref cpt_fois_2 "smt/solver_types.ml" 148 4429 4439 "smt/solver_types.ml" 148 4429 4449
+)
+"smt/solver_types.ml" 172 4919 4939 "smt/solver_types.ml" 172 4919 4940
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/solver_types.ml" 172 4919 4941 "smt/solver_types.ml" 172 4919 4942
+type(
+  int
+)
+"smt/solver_types.ml" 172 4919 4928 "smt/solver_types.ml" 172 4919 4942
+type(
+  int
+)
+"smt/solver_types.ml" 167 4804 4805 "smt/solver_types.ml" 172 4919 4964
+type(
+  atom
+)
+"smt/solver_types.ml" 173 4969 4975 "smt/solver_types.ml" 173 4969 4977
+type(
+  var MA.t ref
+)
+ident(
+  int_ref ma "smt/solver_types.ml" 142 4281 4285 "smt/solver_types.ml" 142 4281 4287
+)
+"smt/solver_types.ml" 173 4969 4978 "smt/solver_types.ml" 173 4969 4980
+type(
+  var MA.t ref -> var MA.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"smt/solver_types.ml" 173 4969 4981 "smt/solver_types.ml" 173 4969 4987
+type(
+  MA.key -> var -> var MA.t -> var MA.t
+)
+ident(
+  ext_ref MA.add
+)
+"smt/solver_types.ml" 173 4969 4988 "smt/solver_types.ml" 173 4969 4991
+type(
+  MA.key
+)
+ident(
+  int_ref lit "smt/solver_types.ml" 145 4331 4339 "smt/solver_types.ml" 145 4331 4342
+)
+"smt/solver_types.ml" 173 4969 4992 "smt/solver_types.ml" 173 4969 4995
+type(
+  var
+)
+ident(
+  int_ref var "smt/solver_types.ml" 149 4473 4487 "smt/solver_types.ml" 149 4473 4490
+)
+"smt/solver_types.ml" 173 4969 4996 "smt/solver_types.ml" 173 4969 4997
+type(
+  var MA.t ref -> var MA.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"smt/solver_types.ml" 173 4969 4997 "smt/solver_types.ml" 173 4969 4999
+type(
+  var MA.t ref
+)
+ident(
+  int_ref ma "smt/solver_types.ml" 142 4281 4285 "smt/solver_types.ml" 142 4281 4287
+)
+"smt/solver_types.ml" 173 4969 4996 "smt/solver_types.ml" 173 4969 4999
+type(
+  var MA.t
+)
+"smt/solver_types.ml" 173 4969 4981 "smt/solver_types.ml" 173 4969 4999
+call(
+  stack
+)
+type(
+  var MA.t
+)
+"smt/solver_types.ml" 173 4969 4975 "smt/solver_types.ml" 173 4969 4999
+type(
+  unit
+)
+"smt/solver_types.ml" 174 5001 5007 "smt/solver_types.ml" 174 5001 5011
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"smt/solver_types.ml" 174 5001 5012 "smt/solver_types.ml" 174 5001 5022
+type(
+  int ref
+)
+ident(
+  int_ref cpt_mk_var "smt/solver_types.ml" 141 4258 4262 "smt/solver_types.ml" 141 4258 4272
+)
+"smt/solver_types.ml" 174 5001 5007 "smt/solver_types.ml" 174 5001 5022
+type(
+  unit
+)
+"smt/solver_types.ml" 175 5024 5030 "smt/solver_types.ml" 175 5024 5033
+type(
+  var
+)
+ident(
+  int_ref var "smt/solver_types.ml" 149 4473 4487 "smt/solver_types.ml" 149 4473 4490
+)
+"smt/solver_types.ml" 175 5024 5035 "smt/solver_types.ml" 175 5024 5042
+type(
+  bool
+)
+ident(
+  int_ref negated "smt/solver_types.ml" 145 4331 4344 "smt/solver_types.ml" 145 4331 4351
+)
+"smt/solver_types.ml" 175 5024 5030 "smt/solver_types.ml" 175 5024 5042
+type(
+  var * bool
+)
+"smt/solver_types.ml" 174 5001 5007 "smt/solver_types.ml" 175 5024 5042
+type(
+  var * bool
+)
+"smt/solver_types.ml" 173 4969 4975 "smt/solver_types.ml" 175 5024 5042
+type(
+  var * bool
+)
+"smt/solver_types.ml" 149 4473 4479 "smt/solver_types.ml" 175 5024 5042
+type(
+  var * bool
+)
+"smt/solver_types.ml" 148 4429 4435 "smt/solver_types.ml" 175 5024 5042
+type(
+  var * bool
+)
+"smt/solver_types.ml" 146 4373 4377 "smt/solver_types.ml" 175 5024 5042
+type(
+  var * bool
+)
+"smt/solver_types.ml" 145 4331 4335 "smt/solver_types.ml" 175 5024 5042
+type(
+  var * bool
+)
+"smt/solver_types.ml" 144 4318 4320 "smt/solver_types.ml" 175 5024 5042
+type(
+  MA.key -> var * bool
+)
+"smt/solver_types.ml" 177 5044 5048 "smt/solver_types.ml" 177 5044 5062
+type(
+  unit -> int * var list
+)
+ident(
+  def made_vars_info "smt/solver_types.ml" 179 5126 5126 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 177 5044 5063 "smt/solver_types.ml" 177 5044 5065
+type(
+  unit
+)
+"smt/solver_types.ml" 177 5044 5068 "smt/solver_types.ml" 177 5044 5069
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"smt/solver_types.ml" 177 5044 5069 "smt/solver_types.ml" 177 5044 5079
+type(
+  int ref
+)
+ident(
+  int_ref cpt_mk_var "smt/solver_types.ml" 141 4258 4262 "smt/solver_types.ml" 141 4258 4272
+)
+"smt/solver_types.ml" 177 5044 5068 "smt/solver_types.ml" 177 5044 5079
+type(
+  int
+)
+"smt/solver_types.ml" 177 5044 5081 "smt/solver_types.ml" 177 5044 5088
+type(
+  (MA.key -> var -> var list -> var list) -> var MA.t -> var list -> var list
+)
+ident(
+  ext_ref MA.fold
+)
+"smt/solver_types.ml" 177 5044 5094 "smt/solver_types.ml" 177 5044 5097
+type(
+  MA.key
+)
+ident(
+  def lit "smt/solver_types.ml" 177 5044 5098 "smt/solver_types.ml" 177 5044 5117
+)
+"smt/solver_types.ml" 177 5044 5098 "smt/solver_types.ml" 177 5044 5101
+type(
+  var
+)
+ident(
+  def var "smt/solver_types.ml" 177 5044 5102 "smt/solver_types.ml" 177 5044 5117
+)
+"smt/solver_types.ml" 177 5044 5102 "smt/solver_types.ml" 177 5044 5105
+type(
+  var list
+)
+ident(
+  def acc "smt/solver_types.ml" 177 5044 5109 "smt/solver_types.ml" 177 5044 5117
+)
+"smt/solver_types.ml" 177 5044 5109 "smt/solver_types.ml" 177 5044 5112
+type(
+  var
+)
+ident(
+  int_ref var "smt/solver_types.ml" 177 5044 5098 "smt/solver_types.ml" 177 5044 5101
+)
+"smt/solver_types.ml" 177 5044 5114 "smt/solver_types.ml" 177 5044 5117
+type(
+  var list
+)
+ident(
+  int_ref acc "smt/solver_types.ml" 177 5044 5102 "smt/solver_types.ml" 177 5044 5105
+)
+"smt/solver_types.ml" 177 5044 5109 "smt/solver_types.ml" 177 5044 5117
+type(
+  var list
+)
+"smt/solver_types.ml" 177 5044 5089 "smt/solver_types.ml" 177 5044 5118
+type(
+  MA.key -> var -> var list -> var list
+)
+"smt/solver_types.ml" 177 5044 5118 "smt/solver_types.ml" 177 5044 5119
+type(
+  var MA.t ref -> var MA.t
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"smt/solver_types.ml" 177 5044 5119 "smt/solver_types.ml" 177 5044 5121
+type(
+  var MA.t ref
+)
+ident(
+  int_ref ma "smt/solver_types.ml" 142 4281 4285 "smt/solver_types.ml" 142 4281 4287
+)
+"smt/solver_types.ml" 177 5044 5118 "smt/solver_types.ml" 177 5044 5121
+type(
+  var MA.t
+)
+"smt/solver_types.ml" 177 5044 5122 "smt/solver_types.ml" 177 5044 5124
+type(
+  var list
+)
+"smt/solver_types.ml" 177 5044 5081 "smt/solver_types.ml" 177 5044 5124
+call(
+  stack
+)
+type(
+  var list
+)
+"smt/solver_types.ml" 177 5044 5068 "smt/solver_types.ml" 177 5044 5124
+type(
+  int * var list
+)
+"smt/solver_types.ml" 179 5126 5130 "smt/solver_types.ml" 179 5126 5138
+type(
+  MA.key -> atom
+)
+ident(
+  def add_atom "smt/solver_types.ml" 183 5221 5221 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 179 5126 5139 "smt/solver_types.ml" 179 5126 5142
+type(
+  MA.key
+)
+ident(
+  def lit "smt/solver_types.ml" 180 5145 5147 "smt/solver_types.ml" 181 5182 5218
+)
+"smt/solver_types.ml" 180 5145 5151 "smt/solver_types.ml" 180 5145 5154
+type(
+  var
+)
+ident(
+  def var "smt/solver_types.ml" 181 5182 5184 "smt/solver_types.ml" 181 5182 5218
+)
+"smt/solver_types.ml" 180 5145 5156 "smt/solver_types.ml" 180 5145 5163
+type(
+  bool
+)
+ident(
+  def negated "smt/solver_types.ml" 181 5182 5184 "smt/solver_types.ml" 181 5182 5218
+)
+"smt/solver_types.ml" 180 5145 5151 "smt/solver_types.ml" 180 5145 5163
+type(
+  var * bool
+)
+"smt/solver_types.ml" 180 5145 5166 "smt/solver_types.ml" 180 5145 5174
+type(
+  MA.key -> var * bool
+)
+ident(
+  int_ref make_var "smt/solver_types.ml" 143 4303 4307 "smt/solver_types.ml" 143 4303 4315
+)
+"smt/solver_types.ml" 180 5145 5175 "smt/solver_types.ml" 180 5145 5178
+type(
+  MA.key
+)
+ident(
+  int_ref lit "smt/solver_types.ml" 179 5126 5139 "smt/solver_types.ml" 179 5126 5142
+)
+"smt/solver_types.ml" 180 5145 5166 "smt/solver_types.ml" 180 5145 5178
+call(
+  stack
+)
+type(
+  var * bool
+)
+"smt/solver_types.ml" 181 5182 5187 "smt/solver_types.ml" 181 5182 5194
+type(
+  bool
+)
+ident(
+  int_ref negated "smt/solver_types.ml" 180 5145 5156 "smt/solver_types.ml" 180 5145 5163
+)
+"smt/solver_types.ml" 181 5182 5200 "smt/solver_types.ml" 181 5182 5203
+type(
+  var
+)
+ident(
+  int_ref var "smt/solver_types.ml" 180 5145 5151 "smt/solver_types.ml" 180 5145 5154
+)
+"smt/solver_types.ml" 181 5182 5200 "smt/solver_types.ml" 181 5182 5206
+type(
+  atom
+)
+"smt/solver_types.ml" 181 5182 5212 "smt/solver_types.ml" 181 5182 5215
+type(
+  var
+)
+ident(
+  int_ref var "smt/solver_types.ml" 180 5145 5151 "smt/solver_types.ml" 180 5145 5154
+)
+"smt/solver_types.ml" 181 5182 5212 "smt/solver_types.ml" 181 5182 5218
+type(
+  atom
+)
+"smt/solver_types.ml" 181 5182 5184 "smt/solver_types.ml" 181 5182 5218
+type(
+  atom
+)
+"smt/solver_types.ml" 180 5145 5147 "smt/solver_types.ml" 181 5182 5218
+type(
+  atom
+)
+"smt/solver_types.ml" 183 5221 5225 "smt/solver_types.ml" 183 5221 5236
+type(
+  string -> atom list -> int -> bool -> premise -> clause
+)
+ident(
+  def make_clause "smt/solver_types.ml" 192 5457 5457 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 183 5221 5237 "smt/solver_types.ml" 183 5221 5241
+type(
+  string
+)
+ident(
+  def name "smt/solver_types.ml" 183 5221 5242 "smt/solver_types.ml" 190 5428 5451
+)
+"smt/solver_types.ml" 183 5221 5242 "smt/solver_types.ml" 183 5221 5245
+type(
+  atom list
+)
+ident(
+  def ali "smt/solver_types.ml" 183 5221 5246 "smt/solver_types.ml" 190 5428 5451
+)
+"smt/solver_types.ml" 183 5221 5246 "smt/solver_types.ml" 183 5221 5252
+type(
+  int
+)
+ident(
+  def sz_ali "smt/solver_types.ml" 183 5221 5253 "smt/solver_types.ml" 190 5428 5451
+)
+"smt/solver_types.ml" 183 5221 5253 "smt/solver_types.ml" 183 5221 5262
+type(
+  bool
+)
+ident(
+  def is_learnt "smt/solver_types.ml" 183 5221 5263 "smt/solver_types.ml" 190 5428 5451
+)
+"smt/solver_types.ml" 183 5221 5263 "smt/solver_types.ml" 183 5221 5270
+type(
+  premise
+)
+ident(
+  def premise "smt/solver_types.ml" 184 5274 5276 "smt/solver_types.ml" 190 5428 5451
+)
+"smt/solver_types.ml" 184 5274 5280 "smt/solver_types.ml" 184 5274 5285
+type(
+  atom Vec.t
+)
+ident(
+  def atoms "smt/solver_types.ml" 185 5327 5329 "smt/solver_types.ml" 190 5428 5451
+)
+"smt/solver_types.ml" 184 5274 5288 "smt/solver_types.ml" 184 5274 5301
+type(
+  atom list -> int -> atom -> atom Vec.t
+)
+ident(
+  ext_ref Vec.from_list
+)
+"smt/solver_types.ml" 184 5274 5302 "smt/solver_types.ml" 184 5274 5305
+type(
+  atom list
+)
+ident(
+  int_ref ali "smt/solver_types.ml" 183 5221 5242 "smt/solver_types.ml" 183 5221 5245
+)
+"smt/solver_types.ml" 184 5274 5306 "smt/solver_types.ml" 184 5274 5312
+type(
+  int
+)
+ident(
+  int_ref sz_ali "smt/solver_types.ml" 183 5221 5246 "smt/solver_types.ml" 183 5221 5252
+)
+"smt/solver_types.ml" 184 5274 5313 "smt/solver_types.ml" 184 5274 5323
+type(
+  atom
+)
+ident(
+  int_ref dummy_atom "smt/solver_types.ml" 68 2044 2048 "smt/solver_types.ml" 68 2044 2058
+)
+"smt/solver_types.ml" 184 5274 5288 "smt/solver_types.ml" 184 5274 5323
+call(
+  stack
+)
+type(
+  atom Vec.t
+)
+"smt/solver_types.ml" 185 5327 5339 "smt/solver_types.ml" 185 5327 5343
+type(
+  string
+)
+ident(
+  int_ref name "smt/solver_types.ml" 183 5221 5237 "smt/solver_types.ml" 183 5221 5241
+)
+"smt/solver_types.ml" 186 5345 5357 "smt/solver_types.ml" 186 5345 5362
+type(
+  atom Vec.t
+)
+ident(
+  int_ref atoms "smt/solver_types.ml" 184 5274 5280 "smt/solver_types.ml" 184 5274 5285
+)
+"smt/solver_types.ml" 187 5364 5378 "smt/solver_types.ml" 187 5364 5383
+type(
+  bool
+)
+"smt/solver_types.ml" 188 5385 5398 "smt/solver_types.ml" 188 5385 5407
+type(
+  bool
+)
+ident(
+  int_ref is_learnt "smt/solver_types.ml" 183 5221 5253 "smt/solver_types.ml" 183 5221 5262
+)
+"smt/solver_types.ml" 189 5409 5424 "smt/solver_types.ml" 189 5409 5426
+type(
+  float
+)
+"smt/solver_types.ml" 190 5428 5443 "smt/solver_types.ml" 190 5428 5450
+type(
+  premise
+)
+ident(
+  int_ref premise "smt/solver_types.ml" 183 5221 5263 "smt/solver_types.ml" 183 5221 5270
+)
+"smt/solver_types.ml" 185 5327 5329 "smt/solver_types.ml" 190 5428 5451
+type(
+  clause
+)
+"smt/solver_types.ml" 184 5274 5276 "smt/solver_types.ml" 190 5428 5451
+type(
+  clause
+)
+"smt/solver_types.ml" 192 5457 5461 "smt/solver_types.ml" 192 5457 5472
+type(
+  unit -> string
+)
+ident(
+  def fresh_lname "smt/solver_types.ml" 196 5547 5547 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 193 5475 5481 "smt/solver_types.ml" 193 5475 5484
+type(
+  int ref
+)
+ident(
+  def cpt "smt/solver_types.ml" 194 5497 5499 "smt/solver_types.ml" 194 5497 5545
+)
+"smt/solver_types.ml" 193 5475 5487 "smt/solver_types.ml" 193 5475 5490
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"smt/solver_types.ml" 193 5475 5491 "smt/solver_types.ml" 193 5475 5492
+type(
+  int
+)
+"smt/solver_types.ml" 193 5475 5487 "smt/solver_types.ml" 193 5475 5492
+type(
+  int ref
+)
+"smt/solver_types.ml" 194 5497 5503 "smt/solver_types.ml" 194 5497 5505
+type(
+  unit
+)
+"smt/solver_types.ml" 194 5497 5509 "smt/solver_types.ml" 194 5497 5513
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"smt/solver_types.ml" 194 5497 5514 "smt/solver_types.ml" 194 5497 5517
+type(
+  int ref
+)
+ident(
+  int_ref cpt "smt/solver_types.ml" 193 5475 5481 "smt/solver_types.ml" 193 5475 5484
+)
+"smt/solver_types.ml" 194 5497 5509 "smt/solver_types.ml" 194 5497 5517
+type(
+  unit
+)
+"smt/solver_types.ml" 194 5497 5519 "smt/solver_types.ml" 194 5497 5522
+type(
+  string
+)
+"smt/solver_types.ml" 194 5497 5523 "smt/solver_types.ml" 194 5497 5524
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smt/solver_types.ml" 194 5497 5526 "smt/solver_types.ml" 194 5497 5539
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"smt/solver_types.ml" 194 5497 5540 "smt/solver_types.ml" 194 5497 5541
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"smt/solver_types.ml" 194 5497 5541 "smt/solver_types.ml" 194 5497 5544
+type(
+  int ref
+)
+ident(
+  int_ref cpt "smt/solver_types.ml" 193 5475 5481 "smt/solver_types.ml" 193 5475 5484
+)
+"smt/solver_types.ml" 194 5497 5540 "smt/solver_types.ml" 194 5497 5544
+type(
+  int
+)
+"smt/solver_types.ml" 194 5497 5525 "smt/solver_types.ml" 194 5497 5545
+call(
+  stack
+)
+type(
+  string
+)
+"smt/solver_types.ml" 194 5497 5519 "smt/solver_types.ml" 194 5497 5545
+call(
+  tail
+)
+type(
+  string
+)
+"smt/solver_types.ml" 194 5497 5509 "smt/solver_types.ml" 194 5497 5545
+type(
+  string
+)
+"smt/solver_types.ml" 194 5497 5499 "smt/solver_types.ml" 194 5497 5545
+type(
+  unit -> string
+)
+"smt/solver_types.ml" 193 5475 5477 "smt/solver_types.ml" 194 5497 5545
+type(
+  unit -> string
+)
+"smt/solver_types.ml" 196 5547 5551 "smt/solver_types.ml" 196 5547 5562
+type(
+  unit -> string
+)
+ident(
+  def fresh_dname "smt/solver_types.ml" 200 5641 5641 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 197 5565 5571 "smt/solver_types.ml" 197 5565 5574
+type(
+  int ref
+)
+ident(
+  def cpt "smt/solver_types.ml" 198 5587 5589 "smt/solver_types.ml" 198 5587 5635
+)
+"smt/solver_types.ml" 197 5565 5577 "smt/solver_types.ml" 197 5565 5580
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"smt/solver_types.ml" 197 5565 5581 "smt/solver_types.ml" 197 5565 5582
+type(
+  int
+)
+"smt/solver_types.ml" 197 5565 5577 "smt/solver_types.ml" 197 5565 5582
+type(
+  int ref
+)
+"smt/solver_types.ml" 198 5587 5593 "smt/solver_types.ml" 198 5587 5595
+type(
+  unit
+)
+"smt/solver_types.ml" 198 5587 5599 "smt/solver_types.ml" 198 5587 5603
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"smt/solver_types.ml" 198 5587 5604 "smt/solver_types.ml" 198 5587 5607
+type(
+  int ref
+)
+ident(
+  int_ref cpt "smt/solver_types.ml" 197 5565 5571 "smt/solver_types.ml" 197 5565 5574
+)
+"smt/solver_types.ml" 198 5587 5599 "smt/solver_types.ml" 198 5587 5607
+type(
+  unit
+)
+"smt/solver_types.ml" 198 5587 5609 "smt/solver_types.ml" 198 5587 5612
+type(
+  string
+)
+"smt/solver_types.ml" 198 5587 5613 "smt/solver_types.ml" 198 5587 5614
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smt/solver_types.ml" 198 5587 5616 "smt/solver_types.ml" 198 5587 5629
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"smt/solver_types.ml" 198 5587 5630 "smt/solver_types.ml" 198 5587 5631
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"smt/solver_types.ml" 198 5587 5631 "smt/solver_types.ml" 198 5587 5634
+type(
+  int ref
+)
+ident(
+  int_ref cpt "smt/solver_types.ml" 197 5565 5571 "smt/solver_types.ml" 197 5565 5574
+)
+"smt/solver_types.ml" 198 5587 5630 "smt/solver_types.ml" 198 5587 5634
+type(
+  int
+)
+"smt/solver_types.ml" 198 5587 5615 "smt/solver_types.ml" 198 5587 5635
+call(
+  stack
+)
+type(
+  string
+)
+"smt/solver_types.ml" 198 5587 5609 "smt/solver_types.ml" 198 5587 5635
+call(
+  tail
+)
+type(
+  string
+)
+"smt/solver_types.ml" 198 5587 5599 "smt/solver_types.ml" 198 5587 5635
+type(
+  string
+)
+"smt/solver_types.ml" 198 5587 5589 "smt/solver_types.ml" 198 5587 5635
+type(
+  unit -> string
+)
+"smt/solver_types.ml" 197 5565 5567 "smt/solver_types.ml" 198 5587 5635
+type(
+  unit -> string
+)
+"smt/solver_types.ml" 200 5641 5645 "smt/solver_types.ml" 200 5641 5655
+type(
+  unit -> string
+)
+ident(
+  def fresh_name "smt/solver_types.ml" 206 5732 5732 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 201 5658 5664 "smt/solver_types.ml" 201 5658 5667
+type(
+  int ref
+)
+ident(
+  def cpt "smt/solver_types.ml" 202 5680 5682 "smt/solver_types.ml" 202 5680 5728
+)
+"smt/solver_types.ml" 201 5658 5670 "smt/solver_types.ml" 201 5658 5673
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"smt/solver_types.ml" 201 5658 5674 "smt/solver_types.ml" 201 5658 5675
+type(
+  int
+)
+"smt/solver_types.ml" 201 5658 5670 "smt/solver_types.ml" 201 5658 5675
+type(
+  int ref
+)
+"smt/solver_types.ml" 202 5680 5686 "smt/solver_types.ml" 202 5680 5688
+type(
+  unit
+)
+"smt/solver_types.ml" 202 5680 5692 "smt/solver_types.ml" 202 5680 5696
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"smt/solver_types.ml" 202 5680 5697 "smt/solver_types.ml" 202 5680 5700
+type(
+  int ref
+)
+ident(
+  int_ref cpt "smt/solver_types.ml" 201 5658 5664 "smt/solver_types.ml" 201 5658 5667
+)
+"smt/solver_types.ml" 202 5680 5692 "smt/solver_types.ml" 202 5680 5700
+type(
+  unit
+)
+"smt/solver_types.ml" 202 5680 5702 "smt/solver_types.ml" 202 5680 5705
+type(
+  string
+)
+"smt/solver_types.ml" 202 5680 5706 "smt/solver_types.ml" 202 5680 5707
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smt/solver_types.ml" 202 5680 5709 "smt/solver_types.ml" 202 5680 5722
+type(
+  int -> string
+)
+ident(
+  ext_ref Pervasives.string_of_int
+)
+"smt/solver_types.ml" 202 5680 5723 "smt/solver_types.ml" 202 5680 5724
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"smt/solver_types.ml" 202 5680 5724 "smt/solver_types.ml" 202 5680 5727
+type(
+  int ref
+)
+ident(
+  int_ref cpt "smt/solver_types.ml" 201 5658 5664 "smt/solver_types.ml" 201 5658 5667
+)
+"smt/solver_types.ml" 202 5680 5723 "smt/solver_types.ml" 202 5680 5727
+type(
+  int
+)
+"smt/solver_types.ml" 202 5680 5708 "smt/solver_types.ml" 202 5680 5728
+call(
+  stack
+)
+type(
+  string
+)
+"smt/solver_types.ml" 202 5680 5702 "smt/solver_types.ml" 202 5680 5728
+call(
+  tail
+)
+type(
+  string
+)
+"smt/solver_types.ml" 202 5680 5692 "smt/solver_types.ml" 202 5680 5728
+type(
+  string
+)
+"smt/solver_types.ml" 202 5680 5682 "smt/solver_types.ml" 202 5680 5728
+type(
+  unit -> string
+)
+"smt/solver_types.ml" 201 5658 5660 "smt/solver_types.ml" 202 5680 5728
+type(
+  unit -> string
+)
+"smt/solver_types.ml" 208 5762 5768 "smt/solver_types.ml" 208 5762 5772
+type(
+  clause -> int
+)
+ident(
+  def size "smt/solver_types.ml" 209 5794 5796 "smt/solver_types.ml" 215 5970 5973
+)
+"smt/solver_types.ml" 208 5762 5773 "smt/solver_types.ml" 208 5762 5774
+type(
+  clause
+)
+ident(
+  def c "smt/solver_types.ml" 208 5762 5777 "smt/solver_types.ml" 208 5762 5793
+)
+"smt/solver_types.ml" 208 5762 5777 "smt/solver_types.ml" 208 5762 5785
+type(
+  atom Vec.t -> int
+)
+ident(
+  ext_ref Vec.size
+)
+"smt/solver_types.ml" 208 5762 5786 "smt/solver_types.ml" 208 5762 5787
+type(
+  clause
+)
+ident(
+  int_ref c "smt/solver_types.ml" 208 5762 5773 "smt/solver_types.ml" 208 5762 5774
+)
+"smt/solver_types.ml" 208 5762 5786 "smt/solver_types.ml" 208 5762 5793
+type(
+  atom Vec.t
+)
+"smt/solver_types.ml" 208 5762 5777 "smt/solver_types.ml" 208 5762 5793
+call(
+  tail
+)
+type(
+  int
+)
+"smt/solver_types.ml" 209 5794 5800 "smt/solver_types.ml" 209 5794 5803
+type(
+  clause -> unit
+)
+ident(
+  def pop "smt/solver_types.ml" 210 5824 5826 "smt/solver_types.ml" 215 5970 5973
+)
+"smt/solver_types.ml" 209 5794 5804 "smt/solver_types.ml" 209 5794 5805
+type(
+  clause
+)
+ident(
+  def c "smt/solver_types.ml" 209 5794 5808 "smt/solver_types.ml" 209 5794 5823
+)
+"smt/solver_types.ml" 209 5794 5808 "smt/solver_types.ml" 209 5794 5815
+type(
+  atom Vec.t -> unit
+)
+ident(
+  ext_ref Vec.pop
+)
+"smt/solver_types.ml" 209 5794 5816 "smt/solver_types.ml" 209 5794 5817
+type(
+  clause
+)
+ident(
+  int_ref c "smt/solver_types.ml" 209 5794 5804 "smt/solver_types.ml" 209 5794 5805
+)
+"smt/solver_types.ml" 209 5794 5816 "smt/solver_types.ml" 209 5794 5823
+type(
+  atom Vec.t
+)
+"smt/solver_types.ml" 209 5794 5808 "smt/solver_types.ml" 209 5794 5823
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/solver_types.ml" 210 5824 5830 "smt/solver_types.ml" 210 5824 5836
+type(
+  clause -> int -> unit
+)
+ident(
+  def shrink "smt/solver_types.ml" 211 5865 5867 "smt/solver_types.ml" 215 5970 5973
+)
+"smt/solver_types.ml" 210 5824 5837 "smt/solver_types.ml" 210 5824 5838
+type(
+  clause
+)
+ident(
+  def c "smt/solver_types.ml" 210 5824 5839 "smt/solver_types.ml" 210 5824 5864
+)
+"smt/solver_types.ml" 210 5824 5839 "smt/solver_types.ml" 210 5824 5840
+type(
+  int
+)
+ident(
+  def i "smt/solver_types.ml" 210 5824 5843 "smt/solver_types.ml" 210 5824 5864
+)
+"smt/solver_types.ml" 210 5824 5843 "smt/solver_types.ml" 210 5824 5853
+type(
+  atom Vec.t -> int -> unit
+)
+ident(
+  ext_ref Vec.shrink
+)
+"smt/solver_types.ml" 210 5824 5855 "smt/solver_types.ml" 210 5824 5856
+type(
+  clause
+)
+ident(
+  int_ref c "smt/solver_types.ml" 210 5824 5837 "smt/solver_types.ml" 210 5824 5838
+)
+"smt/solver_types.ml" 210 5824 5855 "smt/solver_types.ml" 210 5824 5862
+type(
+  atom Vec.t
+)
+"smt/solver_types.ml" 210 5824 5863 "smt/solver_types.ml" 210 5824 5864
+type(
+  int
+)
+ident(
+  int_ref i "smt/solver_types.ml" 210 5824 5839 "smt/solver_types.ml" 210 5824 5840
+)
+"smt/solver_types.ml" 210 5824 5843 "smt/solver_types.ml" 210 5824 5864
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/solver_types.ml" 211 5865 5871 "smt/solver_types.ml" 211 5865 5875
+type(
+  clause -> atom
+)
+ident(
+  def last "smt/solver_types.ml" 212 5897 5899 "smt/solver_types.ml" 215 5970 5973
+)
+"smt/solver_types.ml" 211 5865 5876 "smt/solver_types.ml" 211 5865 5877
+type(
+  clause
+)
+ident(
+  def c "smt/solver_types.ml" 211 5865 5880 "smt/solver_types.ml" 211 5865 5896
+)
+"smt/solver_types.ml" 211 5865 5880 "smt/solver_types.ml" 211 5865 5888
+type(
+  atom Vec.t -> atom
+)
+ident(
+  ext_ref Vec.last
+)
+"smt/solver_types.ml" 211 5865 5889 "smt/solver_types.ml" 211 5865 5890
+type(
+  clause
+)
+ident(
+  int_ref c "smt/solver_types.ml" 211 5865 5876 "smt/solver_types.ml" 211 5865 5877
+)
+"smt/solver_types.ml" 211 5865 5889 "smt/solver_types.ml" 211 5865 5896
+type(
+  atom Vec.t
+)
+"smt/solver_types.ml" 211 5865 5880 "smt/solver_types.ml" 211 5865 5896
+call(
+  tail
+)
+type(
+  atom
+)
+"smt/solver_types.ml" 212 5897 5903 "smt/solver_types.ml" 212 5897 5906
+type(
+  clause -> int -> atom
+)
+ident(
+  def get "smt/solver_types.ml" 213 5931 5933 "smt/solver_types.ml" 215 5970 5973
+)
+"smt/solver_types.ml" 212 5897 5907 "smt/solver_types.ml" 212 5897 5908
+type(
+  clause
+)
+ident(
+  def c "smt/solver_types.ml" 212 5897 5909 "smt/solver_types.ml" 212 5897 5930
+)
+"smt/solver_types.ml" 212 5897 5909 "smt/solver_types.ml" 212 5897 5910
+type(
+  int
+)
+ident(
+  def i "smt/solver_types.ml" 212 5897 5913 "smt/solver_types.ml" 212 5897 5930
+)
+"smt/solver_types.ml" 212 5897 5913 "smt/solver_types.ml" 212 5897 5920
+type(
+  atom Vec.t -> int -> atom
+)
+ident(
+  ext_ref Vec.get
+)
+"smt/solver_types.ml" 212 5897 5921 "smt/solver_types.ml" 212 5897 5922
+type(
+  clause
+)
+ident(
+  int_ref c "smt/solver_types.ml" 212 5897 5907 "smt/solver_types.ml" 212 5897 5908
+)
+"smt/solver_types.ml" 212 5897 5921 "smt/solver_types.ml" 212 5897 5928
+type(
+  atom Vec.t
+)
+"smt/solver_types.ml" 212 5897 5929 "smt/solver_types.ml" 212 5897 5930
+type(
+  int
+)
+ident(
+  int_ref i "smt/solver_types.ml" 212 5897 5909 "smt/solver_types.ml" 212 5897 5910
+)
+"smt/solver_types.ml" 212 5897 5913 "smt/solver_types.ml" 212 5897 5930
+call(
+  tail
+)
+type(
+  atom
+)
+"smt/solver_types.ml" 213 5931 5937 "smt/solver_types.ml" 213 5931 5940
+type(
+  clause -> int -> atom -> unit
+)
+ident(
+  def set "smt/solver_types.ml" 213 5931 5968 "smt/solver_types.ml" 215 5970 5973
+)
+"smt/solver_types.ml" 213 5931 5941 "smt/solver_types.ml" 213 5931 5942
+type(
+  clause
+)
+ident(
+  def c "smt/solver_types.ml" 213 5931 5943 "smt/solver_types.ml" 213 5931 5968
+)
+"smt/solver_types.ml" 213 5931 5943 "smt/solver_types.ml" 213 5931 5944
+type(
+  int
+)
+ident(
+  def i "smt/solver_types.ml" 213 5931 5945 "smt/solver_types.ml" 213 5931 5968
+)
+"smt/solver_types.ml" 213 5931 5945 "smt/solver_types.ml" 213 5931 5946
+type(
+  atom
+)
+ident(
+  def v "smt/solver_types.ml" 213 5931 5949 "smt/solver_types.ml" 213 5931 5968
+)
+"smt/solver_types.ml" 213 5931 5949 "smt/solver_types.ml" 213 5931 5956
+type(
+  atom Vec.t -> int -> atom -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"smt/solver_types.ml" 213 5931 5957 "smt/solver_types.ml" 213 5931 5958
+type(
+  clause
+)
+ident(
+  int_ref c "smt/solver_types.ml" 213 5931 5941 "smt/solver_types.ml" 213 5931 5942
+)
+"smt/solver_types.ml" 213 5931 5957 "smt/solver_types.ml" 213 5931 5964
+type(
+  atom Vec.t
+)
+"smt/solver_types.ml" 213 5931 5965 "smt/solver_types.ml" 213 5931 5966
+type(
+  int
+)
+ident(
+  int_ref i "smt/solver_types.ml" 213 5931 5943 "smt/solver_types.ml" 213 5931 5944
+)
+"smt/solver_types.ml" 213 5931 5967 "smt/solver_types.ml" 213 5931 5968
+type(
+  atom
+)
+ident(
+  int_ref v "smt/solver_types.ml" 213 5931 5945 "smt/solver_types.ml" 213 5931 5946
+)
+"smt/solver_types.ml" 213 5931 5949 "smt/solver_types.ml" 213 5931 5968
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/solver_types.ml" 217 5975 5979 "smt/solver_types.ml" 217 5975 5987
+type(
+  int -> float
+)
+ident(
+  def to_float "smt/solver_types.ml" 219 6008 6008 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 217 5975 5988 "smt/solver_types.ml" 217 5975 5989
+type(
+  int
+)
+ident(
+  def i "smt/solver_types.ml" 217 5975 5992 "smt/solver_types.ml" 217 5975 6006
+)
+"smt/solver_types.ml" 217 5975 5992 "smt/solver_types.ml" 217 5975 6004
+type(
+  int -> float
+)
+ident(
+  ext_ref Pervasives.float_of_int
+)
+"smt/solver_types.ml" 217 5975 6005 "smt/solver_types.ml" 217 5975 6006
+type(
+  int
+)
+ident(
+  int_ref i "smt/solver_types.ml" 217 5975 5988 "smt/solver_types.ml" 217 5975 5989
+)
+"smt/solver_types.ml" 217 5975 5992 "smt/solver_types.ml" 217 5975 6006
+type(
+  float
+)
+"smt/solver_types.ml" 219 6008 6012 "smt/solver_types.ml" 219 6008 6018
+type(
+  float -> int
+)
+ident(
+  def to_int "smt/solver_types.ml" 221 6039 6039 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 219 6008 6019 "smt/solver_types.ml" 219 6008 6020
+type(
+  float
+)
+ident(
+  def f "smt/solver_types.ml" 219 6008 6023 "smt/solver_types.ml" 219 6008 6037
+)
+"smt/solver_types.ml" 219 6008 6023 "smt/solver_types.ml" 219 6008 6035
+type(
+  float -> int
+)
+ident(
+  ext_ref Pervasives.int_of_float
+)
+"smt/solver_types.ml" 219 6008 6036 "smt/solver_types.ml" 219 6008 6037
+type(
+  float
+)
+ident(
+  int_ref f "smt/solver_types.ml" 219 6008 6019 "smt/solver_types.ml" 219 6008 6020
+)
+"smt/solver_types.ml" 219 6008 6023 "smt/solver_types.ml" 219 6008 6037
+type(
+  int
+)
+"smt/solver_types.ml" 221 6039 6043 "smt/solver_types.ml" 221 6039 6048
+type(
+  unit -> unit
+)
+ident(
+  def clear "smt/solver_types.ml" 223 6073 6089 "smt/solver_types.ml" 225 6091 6094
+)
+"smt/solver_types.ml" 221 6039 6049 "smt/solver_types.ml" 221 6039 6051
+type(
+  unit
+)
+"smt/solver_types.ml" 222 6054 6056 "smt/solver_types.ml" 222 6054 6066
+type(
+  int ref
+)
+ident(
+  int_ref cpt_mk_var "smt/solver_types.ml" 141 4258 4262 "smt/solver_types.ml" 141 4258 4272
+)
+"smt/solver_types.ml" 222 6054 6067 "smt/solver_types.ml" 222 6054 6069
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"smt/solver_types.ml" 222 6054 6070 "smt/solver_types.ml" 222 6054 6071
+type(
+  int
+)
+"smt/solver_types.ml" 222 6054 6056 "smt/solver_types.ml" 222 6054 6071
+type(
+  unit
+)
+"smt/solver_types.ml" 223 6073 6075 "smt/solver_types.ml" 223 6073 6077
+type(
+  var MA.t ref
+)
+ident(
+  int_ref ma "smt/solver_types.ml" 142 4281 4285 "smt/solver_types.ml" 142 4281 4287
+)
+"smt/solver_types.ml" 223 6073 6078 "smt/solver_types.ml" 223 6073 6080
+type(
+  var MA.t ref -> var MA.t -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"smt/solver_types.ml" 223 6073 6081 "smt/solver_types.ml" 223 6073 6089
+type(
+  var MA.t
+)
+ident(
+  ext_ref MA.empty
+)
+"smt/solver_types.ml" 223 6073 6075 "smt/solver_types.ml" 223 6073 6089
+type(
+  unit
+)
+"smt/solver_types.ml" 222 6054 6056 "smt/solver_types.ml" 223 6073 6089
+type(
+  unit
+)
+"smt/solver_types.ml" 231 6125 6131 "smt/solver_types.ml" 231 6125 6135
+type(
+  atom -> string
+)
+ident(
+  def sign "smt/solver_types.ml" 233 6179 6181 "smt/solver_types.ml" 273 7348 7351
+)
+"smt/solver_types.ml" 231 6125 6136 "smt/solver_types.ml" 231 6125 6137
+type(
+  atom
+)
+ident(
+  def a "smt/solver_types.ml" 231 6125 6140 "smt/solver_types.ml" 231 6125 6171
+)
+"smt/solver_types.ml" 231 6125 6143 "smt/solver_types.ml" 231 6125 6144
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 231 6125 6136 "smt/solver_types.ml" 231 6125 6137
+)
+"smt/solver_types.ml" 231 6125 6144 "smt/solver_types.ml" 231 6125 6146
+type(
+  atom -> atom -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"smt/solver_types.ml" 231 6125 6146 "smt/solver_types.ml" 231 6125 6147
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 231 6125 6136 "smt/solver_types.ml" 231 6125 6137
+)
+"smt/solver_types.ml" 231 6125 6146 "smt/solver_types.ml" 231 6125 6151
+type(
+  var
+)
+"smt/solver_types.ml" 231 6125 6146 "smt/solver_types.ml" 231 6125 6154
+type(
+  atom
+)
+"smt/solver_types.ml" 231 6125 6143 "smt/solver_types.ml" 231 6125 6154
+type(
+  bool
+)
+"smt/solver_types.ml" 231 6125 6160 "smt/solver_types.ml" 231 6125 6162
+type(
+  string
+)
+"smt/solver_types.ml" 231 6125 6168 "smt/solver_types.ml" 231 6125 6171
+type(
+  string
+)
+"smt/solver_types.ml" 231 6125 6140 "smt/solver_types.ml" 231 6125 6171
+type(
+  string
+)
+"smt/solver_types.ml" 233 6179 6185 "smt/solver_types.ml" 233 6179 6190
+type(
+  atom -> string
+)
+ident(
+  def level "smt/solver_types.ml" 241 6435 6437 "smt/solver_types.ml" 273 7348 7351
+)
+"smt/solver_types.ml" 233 6179 6191 "smt/solver_types.ml" 233 6179 6192
+type(
+  atom
+)
+ident(
+  def a "smt/solver_types.ml" 234 6195 6199 "smt/solver_types.ml" 239 6396 6433
+)
+"smt/solver_types.ml" 234 6195 6205 "smt/solver_types.ml" 234 6195 6206
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 233 6179 6191 "smt/solver_types.ml" 233 6179 6192
+)
+"smt/solver_types.ml" 234 6195 6205 "smt/solver_types.ml" 234 6195 6210
+type(
+  var
+)
+"smt/solver_types.ml" 234 6195 6205 "smt/solver_types.ml" 234 6195 6216
+type(
+  int
+)
+"smt/solver_types.ml" 234 6195 6218 "smt/solver_types.ml" 234 6195 6219
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 233 6179 6191 "smt/solver_types.ml" 233 6179 6192
+)
+"smt/solver_types.ml" 234 6195 6218 "smt/solver_types.ml" 234 6195 6223
+type(
+  var
+)
+"smt/solver_types.ml" 234 6195 6218 "smt/solver_types.ml" 234 6195 6230
+type(
+  reason
+)
+"smt/solver_types.ml" 234 6195 6205 "smt/solver_types.ml" 234 6195 6230
+type(
+  int * reason
+)
+"smt/solver_types.ml" 235 6237 6245 "smt/solver_types.ml" 235 6237 6246
+type(
+  int
+)
+ident(
+  def n "smt/solver_types.ml" 235 6237 6255 "smt/solver_types.ml" 235 6237 6276
+)
+"smt/solver_types.ml" 235 6237 6248 "smt/solver_types.ml" 235 6237 6249
+type(
+  reason
+)
+"smt/solver_types.ml" 235 6237 6245 "smt/solver_types.ml" 235 6237 6249
+type(
+  int * reason
+)
+"smt/solver_types.ml" 235 6237 6255 "smt/solver_types.ml" 235 6237 6256
+type(
+  int
+)
+ident(
+  int_ref n "smt/solver_types.ml" 235 6237 6245 "smt/solver_types.ml" 235 6237 6246
+)
+"smt/solver_types.ml" 235 6237 6257 "smt/solver_types.ml" 235 6237 6258
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"smt/solver_types.ml" 235 6237 6259 "smt/solver_types.ml" 235 6237 6260
+type(
+  int
+)
+"smt/solver_types.ml" 235 6237 6255 "smt/solver_types.ml" 235 6237 6260
+type(
+  bool
+)
+"smt/solver_types.ml" 235 6237 6271 "smt/solver_types.ml" 235 6237 6276
+type(
+  bool
+)
+"smt/solver_types.ml" 235 6237 6264 "smt/solver_types.ml" 235 6237 6276
+type(
+  string
+)
+"smt/solver_types.ml" 236 6277 6285 "smt/solver_types.ml" 236 6277 6286
+type(
+  int
+)
+"smt/solver_types.ml" 236 6277 6293 "smt/solver_types.ml" 236 6277 6294
+type(
+  clause
+)
+ident(
+  def c "smt/solver_types.ml" 236 6277 6298 "smt/solver_types.ml" 236 6277 6321
+)
+"smt/solver_types.ml" 236 6277 6288 "smt/solver_types.ml" 236 6277 6294
+type(
+  reason
+)
+"smt/solver_types.ml" 236 6277 6285 "smt/solver_types.ml" 236 6277 6294
+type(
+  int * reason
+)
+"smt/solver_types.ml" 236 6277 6298 "smt/solver_types.ml" 236 6277 6305
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"smt/solver_types.ml" 236 6277 6306 "smt/solver_types.ml" 236 6277 6314
+type(
+  (string -> string, unit, string) format
+)
+"smt/solver_types.ml" 236 6277 6315 "smt/solver_types.ml" 236 6277 6316
+type(
+  clause
+)
+ident(
+  int_ref c "smt/solver_types.ml" 236 6277 6293 "smt/solver_types.ml" 236 6277 6294
+)
+"smt/solver_types.ml" 236 6277 6315 "smt/solver_types.ml" 236 6277 6321
+type(
+  string
+)
+"smt/solver_types.ml" 236 6277 6298 "smt/solver_types.ml" 236 6277 6321
+call(
+  tail
+)
+type(
+  string
+)
+"smt/solver_types.ml" 237 6322 6330 "smt/solver_types.ml" 237 6322 6331
+type(
+  int
+)
+"smt/solver_types.ml" 237 6322 6333 "smt/solver_types.ml" 237 6322 6337
+type(
+  reason
+)
+"smt/solver_types.ml" 237 6322 6330 "smt/solver_types.ml" 237 6322 6337
+type(
+  int * reason
+)
+"smt/solver_types.ml" 237 6322 6343 "smt/solver_types.ml" 237 6322 6347
+type(
+  string
+)
+"smt/solver_types.ml" 238 6348 6356 "smt/solver_types.ml" 238 6348 6357
+type(
+  int
+)
+ident(
+  def n "smt/solver_types.ml" 238 6348 6369 "smt/solver_types.ml" 238 6348 6395
+)
+"smt/solver_types.ml" 238 6348 6364 "smt/solver_types.ml" 238 6348 6365
+type(
+  clause
+)
+ident(
+  def c "smt/solver_types.ml" 238 6348 6369 "smt/solver_types.ml" 238 6348 6395
+)
+"smt/solver_types.ml" 238 6348 6359 "smt/solver_types.ml" 238 6348 6365
+type(
+  reason
+)
+"smt/solver_types.ml" 238 6348 6356 "smt/solver_types.ml" 238 6348 6365
+type(
+  int * reason
+)
+"smt/solver_types.ml" 238 6348 6369 "smt/solver_types.ml" 238 6348 6376
+type(
+  (int -> string -> string, unit, string) format -> int -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"smt/solver_types.ml" 238 6348 6377 "smt/solver_types.ml" 238 6348 6386
+type(
+  (int -> string -> string, unit, string) format
+)
+"smt/solver_types.ml" 238 6348 6387 "smt/solver_types.ml" 238 6348 6388
+type(
+  int
+)
+ident(
+  int_ref n "smt/solver_types.ml" 238 6348 6356 "smt/solver_types.ml" 238 6348 6357
+)
+"smt/solver_types.ml" 238 6348 6389 "smt/solver_types.ml" 238 6348 6390
+type(
+  clause
+)
+ident(
+  int_ref c "smt/solver_types.ml" 238 6348 6364 "smt/solver_types.ml" 238 6348 6365
+)
+"smt/solver_types.ml" 238 6348 6389 "smt/solver_types.ml" 238 6348 6395
+type(
+  string
+)
+"smt/solver_types.ml" 238 6348 6369 "smt/solver_types.ml" 238 6348 6395
+call(
+  tail
+)
+type(
+  string
+)
+"smt/solver_types.ml" 239 6396 6404 "smt/solver_types.ml" 239 6396 6405
+type(
+  int
+)
+ident(
+  def n "smt/solver_types.ml" 239 6396 6417 "smt/solver_types.ml" 239 6396 6433
+)
+"smt/solver_types.ml" 239 6396 6407 "smt/solver_types.ml" 239 6396 6411
+type(
+  reason
+)
+"smt/solver_types.ml" 239 6396 6404 "smt/solver_types.ml" 239 6396 6411
+type(
+  int * reason
+)
+"smt/solver_types.ml" 239 6396 6417 "smt/solver_types.ml" 239 6396 6424
+type(
+  (int -> string, unit, string) format -> int -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"smt/solver_types.ml" 239 6396 6425 "smt/solver_types.ml" 239 6396 6431
+type(
+  (int -> string, unit, string) format
+)
+"smt/solver_types.ml" 239 6396 6432 "smt/solver_types.ml" 239 6396 6433
+type(
+  int
+)
+ident(
+  int_ref n "smt/solver_types.ml" 239 6396 6404 "smt/solver_types.ml" 239 6396 6405
+)
+"smt/solver_types.ml" 239 6396 6417 "smt/solver_types.ml" 239 6396 6433
+call(
+  tail
+)
+type(
+  string
+)
+"smt/solver_types.ml" 234 6195 6199 "smt/solver_types.ml" 239 6396 6433
+type(
+  string
+)
+"smt/solver_types.ml" 241 6435 6441 "smt/solver_types.ml" 241 6435 6446
+type(
+  atom -> string
+)
+ident(
+  def value "smt/solver_types.ml" 246 6570 6572 "smt/solver_types.ml" 273 7348 7351
+)
+"smt/solver_types.ml" 241 6435 6447 "smt/solver_types.ml" 241 6435 6448
+type(
+  atom
+)
+ident(
+  def a "smt/solver_types.ml" 242 6452 6456 "smt/solver_types.ml" 244 6557 6568
+)
+"smt/solver_types.ml" 242 6452 6459 "smt/solver_types.ml" 242 6452 6460
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 241 6435 6447 "smt/solver_types.ml" 241 6435 6448
+)
+"smt/solver_types.ml" 242 6452 6459 "smt/solver_types.ml" 242 6452 6468
+type(
+  bool
+)
+"smt/solver_types.ml" 242 6452 6474 "smt/solver_types.ml" 242 6452 6481
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"smt/solver_types.ml" 242 6452 6482 "smt/solver_types.ml" 242 6452 6489
+type(
+  (string -> string, unit, string) format
+)
+"smt/solver_types.ml" 242 6452 6491 "smt/solver_types.ml" 242 6452 6496
+type(
+  atom -> string
+)
+ident(
+  int_ref level "smt/solver_types.ml" 233 6179 6185 "smt/solver_types.ml" 233 6179 6190
+)
+"smt/solver_types.ml" 242 6452 6497 "smt/solver_types.ml" 242 6452 6498
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 241 6435 6447 "smt/solver_types.ml" 241 6435 6448
+)
+"smt/solver_types.ml" 242 6452 6490 "smt/solver_types.ml" 242 6452 6499
+call(
+  stack
+)
+type(
+  string
+)
+"smt/solver_types.ml" 242 6452 6474 "smt/solver_types.ml" 242 6452 6499
+call(
+  tail
+)
+type(
+  string
+)
+"smt/solver_types.ml" 243 6500 6512 "smt/solver_types.ml" 243 6500 6513
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 241 6435 6447 "smt/solver_types.ml" 241 6435 6448
+)
+"smt/solver_types.ml" 243 6500 6512 "smt/solver_types.ml" 243 6500 6517
+type(
+  atom
+)
+"smt/solver_types.ml" 243 6500 6512 "smt/solver_types.ml" 243 6500 6525
+type(
+  bool
+)
+"smt/solver_types.ml" 243 6500 6531 "smt/solver_types.ml" 243 6500 6538
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"smt/solver_types.ml" 243 6500 6539 "smt/solver_types.ml" 243 6500 6546
+type(
+  (string -> string, unit, string) format
+)
+"smt/solver_types.ml" 243 6500 6548 "smt/solver_types.ml" 243 6500 6553
+type(
+  atom -> string
+)
+ident(
+  int_ref level "smt/solver_types.ml" 233 6179 6185 "smt/solver_types.ml" 233 6179 6190
+)
+"smt/solver_types.ml" 243 6500 6554 "smt/solver_types.ml" 243 6500 6555
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 241 6435 6447 "smt/solver_types.ml" 241 6435 6448
+)
+"smt/solver_types.ml" 243 6500 6547 "smt/solver_types.ml" 243 6500 6556
+call(
+  stack
+)
+type(
+  string
+)
+"smt/solver_types.ml" 243 6500 6531 "smt/solver_types.ml" 243 6500 6556
+call(
+  tail
+)
+type(
+  string
+)
+"smt/solver_types.ml" 244 6557 6566 "smt/solver_types.ml" 244 6557 6568
+type(
+  string
+)
+"smt/solver_types.ml" 243 6500 6509 "smt/solver_types.ml" 244 6557 6568
+type(
+  string
+)
+"smt/solver_types.ml" 242 6452 6456 "smt/solver_types.ml" 244 6557 6568
+type(
+  string
+)
+"smt/solver_types.ml" 246 6570 6576 "smt/solver_types.ml" 246 6570 6589
+type(
+  atom -> string
+)
+ident(
+  def value_ms_like "smt/solver_types.ml" 251 6713 6715 "smt/solver_types.ml" 273 7348 7351
+)
+"smt/solver_types.ml" 246 6570 6590 "smt/solver_types.ml" 246 6570 6591
+type(
+  atom
+)
+ident(
+  def a "smt/solver_types.ml" 247 6595 6599 "smt/solver_types.ml" 249 6698 6711
+)
+"smt/solver_types.ml" 247 6595 6602 "smt/solver_types.ml" 247 6595 6603
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 246 6570 6590 "smt/solver_types.ml" 246 6570 6591
+)
+"smt/solver_types.ml" 247 6595 6602 "smt/solver_types.ml" 247 6595 6611
+type(
+  bool
+)
+"smt/solver_types.ml" 247 6595 6617 "smt/solver_types.ml" 247 6595 6624
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"smt/solver_types.ml" 247 6595 6625 "smt/solver_types.ml" 247 6595 6631
+type(
+  (string -> string, unit, string) format
+)
+"smt/solver_types.ml" 247 6595 6633 "smt/solver_types.ml" 247 6595 6638
+type(
+  atom -> string
+)
+ident(
+  int_ref level "smt/solver_types.ml" 233 6179 6185 "smt/solver_types.ml" 233 6179 6190
+)
+"smt/solver_types.ml" 247 6595 6639 "smt/solver_types.ml" 247 6595 6640
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 246 6570 6590 "smt/solver_types.ml" 246 6570 6591
+)
+"smt/solver_types.ml" 247 6595 6632 "smt/solver_types.ml" 247 6595 6641
+call(
+  stack
+)
+type(
+  string
+)
+"smt/solver_types.ml" 247 6595 6617 "smt/solver_types.ml" 247 6595 6641
+call(
+  tail
+)
+type(
+  string
+)
+"smt/solver_types.ml" 248 6642 6654 "smt/solver_types.ml" 248 6642 6655
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 246 6570 6590 "smt/solver_types.ml" 246 6570 6591
+)
+"smt/solver_types.ml" 248 6642 6654 "smt/solver_types.ml" 248 6642 6659
+type(
+  atom
+)
+"smt/solver_types.ml" 248 6642 6654 "smt/solver_types.ml" 248 6642 6667
+type(
+  bool
+)
+"smt/solver_types.ml" 248 6642 6673 "smt/solver_types.ml" 248 6642 6680
+type(
+  (string -> string, unit, string) format -> string -> string
+)
+ident(
+  ext_ref Format.sprintf
+)
+"smt/solver_types.ml" 248 6642 6681 "smt/solver_types.ml" 248 6642 6687
+type(
+  (string -> string, unit, string) format
+)
+"smt/solver_types.ml" 248 6642 6689 "smt/solver_types.ml" 248 6642 6694
+type(
+  atom -> string
+)
+ident(
+  int_ref level "smt/solver_types.ml" 233 6179 6185 "smt/solver_types.ml" 233 6179 6190
+)
+"smt/solver_types.ml" 248 6642 6695 "smt/solver_types.ml" 248 6642 6696
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 246 6570 6590 "smt/solver_types.ml" 246 6570 6591
+)
+"smt/solver_types.ml" 248 6642 6688 "smt/solver_types.ml" 248 6642 6697
+call(
+  stack
+)
+type(
+  string
+)
+"smt/solver_types.ml" 248 6642 6673 "smt/solver_types.ml" 248 6642 6697
+call(
+  tail
+)
+type(
+  string
+)
+"smt/solver_types.ml" 249 6698 6707 "smt/solver_types.ml" 249 6698 6711
+type(
+  string
+)
+"smt/solver_types.ml" 248 6642 6651 "smt/solver_types.ml" 249 6698 6711
+type(
+  string
+)
+"smt/solver_types.ml" 247 6595 6599 "smt/solver_types.ml" 249 6698 6711
+type(
+  string
+)
+"smt/solver_types.ml" 251 6713 6719 "smt/solver_types.ml" 251 6713 6726
+type(
+  Format.formatter -> clause list -> unit
+)
+ident(
+  def premise "smt/solver_types.ml" 254 6797 6799 "smt/solver_types.ml" 273 7348 7351
+)
+"smt/solver_types.ml" 251 6713 6727 "smt/solver_types.ml" 251 6713 6730
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/solver_types.ml" 251 6713 6731 "smt/solver_types.ml" 252 6736 6795
+)
+"smt/solver_types.ml" 251 6713 6731 "smt/solver_types.ml" 251 6713 6732
+type(
+  clause list
+)
+ident(
+  def v "smt/solver_types.ml" 252 6736 6740 "smt/solver_types.ml" 252 6736 6795
+)
+"smt/solver_types.ml" 252 6736 6740 "smt/solver_types.ml" 252 6736 6749
+type(
+  (clause -> unit) -> clause list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"smt/solver_types.ml" 252 6736 6761 "smt/solver_types.ml" 252 6736 6765
+type(
+  string
+)
+ident(
+  def name "smt/solver_types.ml" 252 6736 6770 "smt/solver_types.ml" 252 6736 6792
+)
+"smt/solver_types.ml" 252 6736 6755 "smt/solver_types.ml" 252 6736 6766
+type(
+  clause
+)
+"smt/solver_types.ml" 252 6736 6770 "smt/solver_types.ml" 252 6736 6777
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/solver_types.ml" 252 6736 6778 "smt/solver_types.ml" 252 6736 6781
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/solver_types.ml" 251 6713 6727 "smt/solver_types.ml" 251 6713 6730
+)
+"smt/solver_types.ml" 252 6736 6782 "smt/solver_types.ml" 252 6736 6787
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"smt/solver_types.ml" 252 6736 6788 "smt/solver_types.ml" 252 6736 6792
+type(
+  string
+)
+ident(
+  int_ref name "smt/solver_types.ml" 252 6736 6761 "smt/solver_types.ml" 252 6736 6765
+)
+"smt/solver_types.ml" 252 6736 6770 "smt/solver_types.ml" 252 6736 6792
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/solver_types.ml" 252 6736 6750 "smt/solver_types.ml" 252 6736 6793
+type(
+  clause -> unit
+)
+"smt/solver_types.ml" 252 6736 6794 "smt/solver_types.ml" 252 6736 6795
+type(
+  clause list
+)
+ident(
+  int_ref v "smt/solver_types.ml" 251 6713 6731 "smt/solver_types.ml" 251 6713 6732
+)
+"smt/solver_types.ml" 252 6736 6740 "smt/solver_types.ml" 252 6736 6795
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/solver_types.ml" 254 6797 6803 "smt/solver_types.ml" 254 6797 6807
+type(
+  Format.formatter -> atom -> unit
+)
+ident(
+  def atom "smt/solver_types.ml" 260 6961 6963 "smt/solver_types.ml" 273 7348 7351
+)
+"smt/solver_types.ml" 254 6797 6808 "smt/solver_types.ml" 254 6797 6811
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/solver_types.ml" 254 6797 6812 "smt/solver_types.ml" 257 6930 6958
+)
+"smt/solver_types.ml" 254 6797 6812 "smt/solver_types.ml" 254 6797 6813
+type(
+  atom
+)
+ident(
+  def a "smt/solver_types.ml" 255 6817 6821 "smt/solver_types.ml" 257 6930 6958
+)
+"smt/solver_types.ml" 255 6817 6821 "smt/solver_types.ml" 255 6817 6828
+type(
+  Format.formatter ->
+  (string ->
+   int ->
+   string ->
+   (Format.formatter -> Literal.LT.t -> unit) ->
+   Literal.LT.t -> (Format.formatter -> premise -> unit) -> premise -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  int ->
+  string ->
+  (Format.formatter -> Literal.LT.t -> unit) ->
+  Literal.LT.t -> (Format.formatter -> premise -> unit) -> premise -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/solver_types.ml" 255 6817 6829 "smt/solver_types.ml" 255 6817 6832
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/solver_types.ml" 254 6797 6808 "smt/solver_types.ml" 254 6797 6811
+)
+"smt/solver_types.ml" 255 6817 6833 "smt/solver_types.ml" 255 6817 6866
+type(
+  (string ->
+   int ->
+   string ->
+   (Format.formatter -> Literal.LT.t -> unit) ->
+   Literal.LT.t -> (Format.formatter -> premise -> unit) -> premise -> unit,
+   Format.formatter, unit)
+  format
+)
+"smt/solver_types.ml" 256 6868 6875 "smt/solver_types.ml" 256 6868 6879
+type(
+  atom -> string
+)
+ident(
+  int_ref sign "smt/solver_types.ml" 231 6125 6131 "smt/solver_types.ml" 231 6125 6135
+)
+"smt/solver_types.ml" 256 6868 6880 "smt/solver_types.ml" 256 6868 6881
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 254 6797 6812 "smt/solver_types.ml" 254 6797 6813
+)
+"smt/solver_types.ml" 256 6868 6874 "smt/solver_types.ml" 256 6868 6882
+call(
+  stack
+)
+type(
+  string
+)
+"smt/solver_types.ml" 256 6868 6884 "smt/solver_types.ml" 256 6868 6885
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 254 6797 6812 "smt/solver_types.ml" 254 6797 6813
+)
+"smt/solver_types.ml" 256 6868 6884 "smt/solver_types.ml" 256 6868 6889
+type(
+  var
+)
+"smt/solver_types.ml" 256 6868 6884 "smt/solver_types.ml" 256 6868 6893
+type(
+  int
+)
+"smt/solver_types.ml" 256 6868 6893 "smt/solver_types.ml" 256 6868 6894
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/solver_types.ml" 256 6868 6894 "smt/solver_types.ml" 256 6868 6895
+type(
+  int
+)
+"smt/solver_types.ml" 256 6868 6883 "smt/solver_types.ml" 256 6868 6896
+type(
+  int
+)
+"smt/solver_types.ml" 256 6868 6898 "smt/solver_types.ml" 256 6868 6903
+type(
+  atom -> string
+)
+ident(
+  int_ref value "smt/solver_types.ml" 241 6435 6441 "smt/solver_types.ml" 241 6435 6446
+)
+"smt/solver_types.ml" 256 6868 6904 "smt/solver_types.ml" 256 6868 6905
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 254 6797 6812 "smt/solver_types.ml" 254 6797 6813
+)
+"smt/solver_types.ml" 256 6868 6897 "smt/solver_types.ml" 256 6868 6906
+call(
+  stack
+)
+type(
+  string
+)
+"smt/solver_types.ml" 256 6868 6907 "smt/solver_types.ml" 256 6868 6923
+type(
+  Format.formatter -> Literal.LT.t -> unit
+)
+ident(
+  ext_ref Literal.LT.print
+)
+"smt/solver_types.ml" 256 6868 6924 "smt/solver_types.ml" 256 6868 6925
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 254 6797 6812 "smt/solver_types.ml" 254 6797 6813
+)
+"smt/solver_types.ml" 256 6868 6924 "smt/solver_types.ml" 256 6868 6929
+type(
+  Literal.LT.t
+)
+"smt/solver_types.ml" 257 6930 6936 "smt/solver_types.ml" 257 6930 6943
+type(
+  Format.formatter -> premise -> unit
+)
+ident(
+  int_ref premise "smt/solver_types.ml" 251 6713 6719 "smt/solver_types.ml" 251 6713 6726
+)
+"smt/solver_types.ml" 257 6930 6944 "smt/solver_types.ml" 257 6930 6945
+type(
+  atom
+)
+ident(
+  int_ref a "smt/solver_types.ml" 254 6797 6812 "smt/solver_types.ml" 254 6797 6813
+)
+"smt/solver_types.ml" 257 6930 6944 "smt/solver_types.ml" 257 6930 6949
+type(
+  var
+)
+"smt/solver_types.ml" 257 6930 6944 "smt/solver_types.ml" 257 6930 6958
+type(
+  premise
+)
+"smt/solver_types.ml" 255 6817 6821 "smt/solver_types.ml" 257 6930 6958
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/solver_types.ml" 260 6961 6967 "smt/solver_types.ml" 260 6961 6977
+type(
+  Format.formatter -> atom list -> unit
+)
+ident(
+  def atoms_list "smt/solver_types.ml" 261 7025 7027 "smt/solver_types.ml" 273 7348 7351
+)
+"smt/solver_types.ml" 260 6961 6978 "smt/solver_types.ml" 260 6961 6981
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/solver_types.ml" 260 6961 6982 "smt/solver_types.ml" 260 6961 7024
+)
+"smt/solver_types.ml" 260 6961 6982 "smt/solver_types.ml" 260 6961 6983
+type(
+  atom list
+)
+ident(
+  def l "smt/solver_types.ml" 260 6961 6986 "smt/solver_types.ml" 260 6961 7024
+)
+"smt/solver_types.ml" 260 6961 6986 "smt/solver_types.ml" 260 6961 6995
+type(
+  (atom -> unit) -> atom list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"smt/solver_types.ml" 260 6961 6997 "smt/solver_types.ml" 260 6961 7004
+type(
+  Format.formatter ->
+  ((Format.formatter -> atom -> unit) -> atom -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> atom -> unit) -> atom -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/solver_types.ml" 260 6961 7005 "smt/solver_types.ml" 260 6961 7008
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/solver_types.ml" 260 6961 6978 "smt/solver_types.ml" 260 6961 6981
+)
+"smt/solver_types.ml" 260 6961 7009 "smt/solver_types.ml" 260 6961 7016
+type(
+  ((Format.formatter -> atom -> unit) -> atom -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/solver_types.ml" 260 6961 7017 "smt/solver_types.ml" 260 6961 7021
+type(
+  Format.formatter -> atom -> unit
+)
+ident(
+  int_ref atom "smt/solver_types.ml" 254 6797 6803 "smt/solver_types.ml" 254 6797 6807
+)
+"smt/solver_types.ml" 260 6961 6996 "smt/solver_types.ml" 260 6961 7022
+call(
+  stack
+)
+type(
+  atom -> unit
+)
+"smt/solver_types.ml" 260 6961 7023 "smt/solver_types.ml" 260 6961 7024
+type(
+  atom list
+)
+ident(
+  int_ref l "smt/solver_types.ml" 260 6961 6982 "smt/solver_types.ml" 260 6961 6983
+)
+"smt/solver_types.ml" 260 6961 6986 "smt/solver_types.ml" 260 6961 7024
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/solver_types.ml" 261 7025 7031 "smt/solver_types.ml" 261 7025 7042
+type(
+  Format.formatter -> atom array -> unit
+)
+ident(
+  def atoms_array "smt/solver_types.ml" 263 7096 7098 "smt/solver_types.ml" 273 7348 7351
+)
+"smt/solver_types.ml" 261 7025 7043 "smt/solver_types.ml" 261 7025 7046
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/solver_types.ml" 261 7025 7047 "smt/solver_types.ml" 261 7025 7094
+)
+"smt/solver_types.ml" 261 7025 7047 "smt/solver_types.ml" 261 7025 7050
+type(
+  atom array
+)
+ident(
+  def arr "smt/solver_types.ml" 261 7025 7053 "smt/solver_types.ml" 261 7025 7094
+)
+"smt/solver_types.ml" 261 7025 7053 "smt/solver_types.ml" 261 7025 7063
+type(
+  (atom -> unit) -> atom array -> unit
+)
+ident(
+  ext_ref Array.iter
+)
+"smt/solver_types.ml" 261 7025 7065 "smt/solver_types.ml" 261 7025 7072
+type(
+  Format.formatter ->
+  ((Format.formatter -> atom -> unit) -> atom -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> atom -> unit) -> atom -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/solver_types.ml" 261 7025 7073 "smt/solver_types.ml" 261 7025 7076
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/solver_types.ml" 261 7025 7043 "smt/solver_types.ml" 261 7025 7046
+)
+"smt/solver_types.ml" 261 7025 7077 "smt/solver_types.ml" 261 7025 7084
+type(
+  ((Format.formatter -> atom -> unit) -> atom -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/solver_types.ml" 261 7025 7085 "smt/solver_types.ml" 261 7025 7089
+type(
+  Format.formatter -> atom -> unit
+)
+ident(
+  int_ref atom "smt/solver_types.ml" 254 6797 6803 "smt/solver_types.ml" 254 6797 6807
+)
+"smt/solver_types.ml" 261 7025 7064 "smt/solver_types.ml" 261 7025 7090
+call(
+  stack
+)
+type(
+  atom -> unit
+)
+"smt/solver_types.ml" 261 7025 7091 "smt/solver_types.ml" 261 7025 7094
+type(
+  atom array
+)
+ident(
+  int_ref arr "smt/solver_types.ml" 261 7025 7047 "smt/solver_types.ml" 261 7025 7050
+)
+"smt/solver_types.ml" 261 7025 7053 "smt/solver_types.ml" 261 7025 7094
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/solver_types.ml" 263 7096 7102 "smt/solver_types.ml" 263 7096 7111
+type(
+  Format.formatter -> atom Vec.t -> unit
+)
+ident(
+  def atoms_vec "smt/solver_types.ml" 268 7217 7219 "smt/solver_types.ml" 273 7348 7351
+)
+"smt/solver_types.ml" 263 7096 7112 "smt/solver_types.ml" 263 7096 7115
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/solver_types.ml" 263 7096 7116 "smt/solver_types.ml" 266 7207 7215
+)
+"smt/solver_types.ml" 263 7096 7116 "smt/solver_types.ml" 263 7096 7119
+type(
+  atom Vec.t
+)
+ident(
+  def vec "smt/solver_types.ml" 264 7123 7127 "smt/solver_types.ml" 266 7207 7215
+)
+"smt/solver_types.ml" 264 7123 7135 "smt/solver_types.ml" 264 7123 7136
+type(
+  int
+)
+"smt/solver_types.ml" 264 7123 7140 "smt/solver_types.ml" 264 7123 7148
+type(
+  atom Vec.t -> int
+)
+ident(
+  ext_ref Vec.size
+)
+"smt/solver_types.ml" 264 7123 7149 "smt/solver_types.ml" 264 7123 7152
+type(
+  atom Vec.t
+)
+ident(
+  int_ref vec "smt/solver_types.ml" 263 7096 7116 "smt/solver_types.ml" 263 7096 7119
+)
+"smt/solver_types.ml" 264 7123 7140 "smt/solver_types.ml" 264 7123 7152
+call(
+  stack
+)
+type(
+  int
+)
+"smt/solver_types.ml" 264 7123 7153 "smt/solver_types.ml" 264 7123 7154
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"smt/solver_types.ml" 264 7123 7155 "smt/solver_types.ml" 264 7123 7156
+type(
+  int
+)
+"smt/solver_types.ml" 264 7123 7140 "smt/solver_types.ml" 264 7123 7156
+type(
+  int
+)
+"smt/solver_types.ml" 265 7160 7166 "smt/solver_types.ml" 265 7160 7173
+type(
+  Format.formatter ->
+  ((Format.formatter -> atom -> unit) -> atom -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> atom -> unit) -> atom -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/solver_types.ml" 265 7160 7174 "smt/solver_types.ml" 265 7160 7177
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/solver_types.ml" 263 7096 7112 "smt/solver_types.ml" 263 7096 7115
+)
+"smt/solver_types.ml" 265 7160 7178 "smt/solver_types.ml" 265 7160 7185
+type(
+  ((Format.formatter -> atom -> unit) -> atom -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/solver_types.ml" 265 7160 7186 "smt/solver_types.ml" 265 7160 7190
+type(
+  Format.formatter -> atom -> unit
+)
+ident(
+  int_ref atom "smt/solver_types.ml" 254 6797 6803 "smt/solver_types.ml" 254 6797 6807
+)
+"smt/solver_types.ml" 265 7160 7192 "smt/solver_types.ml" 265 7160 7199
+type(
+  atom Vec.t -> int -> atom
+)
+ident(
+  ext_ref Vec.get
+)
+"smt/solver_types.ml" 265 7160 7200 "smt/solver_types.ml" 265 7160 7203
+type(
+  atom Vec.t
+)
+ident(
+  int_ref vec "smt/solver_types.ml" 263 7096 7116 "smt/solver_types.ml" 263 7096 7119
+)
+"smt/solver_types.ml" 265 7160 7204 "smt/solver_types.ml" 265 7160 7205
+type(
+  int
+)
+ident(
+  int_ref i "smt/solver_types.ml" 264 7123 7127 "smt/solver_types.ml" 266 7207 7215
+)
+"smt/solver_types.ml" 265 7160 7191 "smt/solver_types.ml" 265 7160 7206
+call(
+  stack
+)
+type(
+  atom
+)
+"smt/solver_types.ml" 265 7160 7166 "smt/solver_types.ml" 265 7160 7206
+call(
+  stack
+)
+type(
+  unit
+)
+"smt/solver_types.ml" 264 7123 7127 "smt/solver_types.ml" 266 7207 7215
+type(
+  unit
+)
+"smt/solver_types.ml" 268 7217 7223 "smt/solver_types.ml" 268 7217 7229
+type(
+  Format.formatter -> clause -> unit
+)
+ident(
+  def clause "smt/solver_types.ml" 269 7272 7344 "smt/solver_types.ml" 273 7348 7351
+)
+"smt/solver_types.ml" 268 7217 7230 "smt/solver_types.ml" 268 7217 7233
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/solver_types.ml" 268 7217 7234 "smt/solver_types.ml" 269 7272 7344
+)
+"smt/solver_types.ml" 268 7217 7240 "smt/solver_types.ml" 268 7217 7244
+type(
+  string
+)
+ident(
+  def name "smt/solver_types.ml" 269 7272 7276 "smt/solver_types.ml" 269 7272 7344
+)
+"smt/solver_types.ml" 268 7217 7252 "smt/solver_types.ml" 268 7217 7255
+type(
+  atom Vec.t
+)
+ident(
+  def arr "smt/solver_types.ml" 269 7272 7276 "smt/solver_types.ml" 269 7272 7344
+)
+"smt/solver_types.ml" 268 7217 7266 "smt/solver_types.ml" 268 7217 7268
+type(
+  premise
+)
+ident(
+  def cp "smt/solver_types.ml" 269 7272 7276 "smt/solver_types.ml" 269 7272 7344
+)
+"smt/solver_types.ml" 268 7217 7234 "smt/solver_types.ml" 268 7217 7269
+type(
+  clause
+)
+"smt/solver_types.ml" 269 7272 7276 "smt/solver_types.ml" 269 7272 7283
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> atom Vec.t -> unit) ->
+   atom Vec.t -> (Format.formatter -> premise -> unit) -> premise -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  (Format.formatter -> atom Vec.t -> unit) ->
+  atom Vec.t -> (Format.formatter -> premise -> unit) -> premise -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/solver_types.ml" 269 7272 7284 "smt/solver_types.ml" 269 7272 7287
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/solver_types.ml" 268 7217 7230 "smt/solver_types.ml" 268 7217 7233
+)
+"smt/solver_types.ml" 269 7272 7288 "smt/solver_types.ml" 269 7272 7314
+type(
+  (string ->
+   (Format.formatter -> atom Vec.t -> unit) ->
+   atom Vec.t -> (Format.formatter -> premise -> unit) -> premise -> unit,
+   Format.formatter, unit)
+  format
+)
+"smt/solver_types.ml" 269 7272 7315 "smt/solver_types.ml" 269 7272 7319
+type(
+  string
+)
+ident(
+  int_ref name "smt/solver_types.ml" 268 7217 7240 "smt/solver_types.ml" 268 7217 7244
+)
+"smt/solver_types.ml" 269 7272 7320 "smt/solver_types.ml" 269 7272 7329
+type(
+  Format.formatter -> atom Vec.t -> unit
+)
+ident(
+  int_ref atoms_vec "smt/solver_types.ml" 263 7096 7102 "smt/solver_types.ml" 263 7096 7111
+)
+"smt/solver_types.ml" 269 7272 7330 "smt/solver_types.ml" 269 7272 7333
+type(
+  atom Vec.t
+)
+ident(
+  int_ref arr "smt/solver_types.ml" 268 7217 7252 "smt/solver_types.ml" 268 7217 7255
+)
+"smt/solver_types.ml" 269 7272 7334 "smt/solver_types.ml" 269 7272 7341
+type(
+  Format.formatter -> premise -> unit
+)
+ident(
+  int_ref premise "smt/solver_types.ml" 251 6713 6719 "smt/solver_types.ml" 251 6713 6726
+)
+"smt/solver_types.ml" 269 7272 7342 "smt/solver_types.ml" 269 7272 7344
+type(
+  premise
+)
+ident(
+  int_ref cp "smt/solver_types.ml" 268 7217 7266 "smt/solver_types.ml" 268 7217 7268
+)
+"smt/solver_types.ml" 269 7272 7276 "smt/solver_types.ml" 269 7272 7344
+call(
+  tail
+)
+type(
+  unit
+)

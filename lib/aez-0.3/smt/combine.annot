@@ -1,0 +1,5073 @@
+"smt/combine.ml" 34 1198 1204 "smt/combine.ml" 34 1198 1212
+type(
+  r -> X1.t option
+)
+ident(
+  def extract1 "smt/combine.ml" 35 1253 1255 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 34 1198 1227 "smt/combine.ml" 34 1198 1228
+type(
+  X1.t
+)
+ident(
+  def r "smt/combine.ml" 34 1198 1234 "smt/combine.ml" 34 1198 1240
+)
+"smt/combine.ml" 34 1198 1224 "smt/combine.ml" 34 1198 1228
+type(
+  r
+)
+"smt/combine.ml" 34 1198 1239 "smt/combine.ml" 34 1198 1240
+type(
+  X1.t
+)
+ident(
+  int_ref r "smt/combine.ml" 34 1198 1227 "smt/combine.ml" 34 1198 1228
+)
+"smt/combine.ml" 34 1198 1234 "smt/combine.ml" 34 1198 1240
+type(
+  X1.t option
+)
+"smt/combine.ml" 34 1198 1243 "smt/combine.ml" 34 1198 1244
+type(
+  r
+)
+"smt/combine.ml" 34 1198 1248 "smt/combine.ml" 34 1198 1252
+type(
+  X1.t option
+)
+"smt/combine.ml" 34 1198 1215 "smt/combine.ml" 34 1198 1252
+type(
+  r -> X1.t option
+)
+"smt/combine.ml" 35 1253 1259 "smt/combine.ml" 35 1253 1267
+type(
+  r -> X5.t option
+)
+ident(
+  def extract5 "smt/combine.ml" 37 1311 1313 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 35 1253 1282 "smt/combine.ml" 35 1253 1283
+type(
+  X5.t
+)
+ident(
+  def r "smt/combine.ml" 35 1253 1289 "smt/combine.ml" 35 1253 1295
+)
+"smt/combine.ml" 35 1253 1279 "smt/combine.ml" 35 1253 1283
+type(
+  r
+)
+"smt/combine.ml" 35 1253 1294 "smt/combine.ml" 35 1253 1295
+type(
+  X5.t
+)
+ident(
+  int_ref r "smt/combine.ml" 35 1253 1282 "smt/combine.ml" 35 1253 1283
+)
+"smt/combine.ml" 35 1253 1289 "smt/combine.ml" 35 1253 1295
+type(
+  X5.t option
+)
+"smt/combine.ml" 35 1253 1298 "smt/combine.ml" 35 1253 1299
+type(
+  r
+)
+"smt/combine.ml" 35 1253 1303 "smt/combine.ml" 35 1253 1307
+type(
+  X5.t option
+)
+"smt/combine.ml" 35 1253 1270 "smt/combine.ml" 35 1253 1307
+type(
+  r -> X5.t option
+)
+"smt/combine.ml" 37 1311 1317 "smt/combine.ml" 37 1311 1323
+type(
+  X1.t -> r
+)
+ident(
+  def embed1 "smt/combine.ml" 38 1333 1335 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 37 1311 1324 "smt/combine.ml" 37 1311 1325
+type(
+  X1.t
+)
+ident(
+  def x "smt/combine.ml" 37 1311 1328 "smt/combine.ml" 37 1311 1332
+)
+"smt/combine.ml" 37 1311 1331 "smt/combine.ml" 37 1311 1332
+type(
+  X1.t
+)
+ident(
+  int_ref x "smt/combine.ml" 37 1311 1324 "smt/combine.ml" 37 1311 1325
+)
+"smt/combine.ml" 37 1311 1328 "smt/combine.ml" 37 1311 1332
+type(
+  r
+)
+"smt/combine.ml" 38 1333 1339 "smt/combine.ml" 38 1333 1345
+type(
+  X5.t -> r
+)
+ident(
+  def embed5 "smt/combine.ml" 40 1357 1359 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 38 1333 1346 "smt/combine.ml" 38 1333 1347
+type(
+  X5.t
+)
+ident(
+  def x "smt/combine.ml" 38 1333 1350 "smt/combine.ml" 38 1333 1354
+)
+"smt/combine.ml" 38 1333 1353 "smt/combine.ml" 38 1333 1354
+type(
+  X5.t
+)
+ident(
+  int_ref x "smt/combine.ml" 38 1333 1346 "smt/combine.ml" 38 1333 1347
+)
+"smt/combine.ml" 38 1333 1350 "smt/combine.ml" 38 1333 1354
+type(
+  r
+)
+"smt/combine.ml" 40 1357 1363 "smt/combine.ml" 40 1357 1369
+type(
+  r -> bool
+)
+ident(
+  def is_int "smt/combine.ml" 48 1536 1538 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 40 1357 1370 "smt/combine.ml" 40 1357 1371
+type(
+  r
+)
+ident(
+  def v "smt/combine.ml" 41 1375 1379 "smt/combine.ml" 46 1512 1528
+)
+"smt/combine.ml" 41 1375 1383 "smt/combine.ml" 41 1375 1385
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/combine.ml" 46 1512 1516 "smt/combine.ml" 46 1512 1528
+)
+"smt/combine.ml" 41 1375 1395 "smt/combine.ml" 41 1375 1396
+type(
+  r
+)
+ident(
+  int_ref v "smt/combine.ml" 40 1357 1370 "smt/combine.ml" 40 1357 1371
+)
+"smt/combine.ml" 42 1402 1413 "smt/combine.ml" 42 1402 1414
+type(
+  X1.t
+)
+ident(
+  def x "smt/combine.ml" 42 1402 1418 "smt/combine.ml" 42 1402 1432
+)
+"smt/combine.ml" 42 1402 1410 "smt/combine.ml" 42 1402 1414
+type(
+  r
+)
+"smt/combine.ml" 42 1402 1418 "smt/combine.ml" 42 1402 1430
+type(
+  X1.t -> Ty.t
+)
+ident(
+  ext_ref X1.type_info
+)
+"smt/combine.ml" 42 1402 1431 "smt/combine.ml" 42 1402 1432
+type(
+  X1.t
+)
+ident(
+  int_ref x "smt/combine.ml" 42 1402 1413 "smt/combine.ml" 42 1402 1414
+)
+"smt/combine.ml" 42 1402 1418 "smt/combine.ml" 42 1402 1432
+call(
+  stack
+)
+type(
+  Ty.t
+)
+"smt/combine.ml" 43 1433 1444 "smt/combine.ml" 43 1433 1445
+type(
+  X5.t
+)
+ident(
+  def x "smt/combine.ml" 43 1433 1449 "smt/combine.ml" 43 1433 1463
+)
+"smt/combine.ml" 43 1433 1441 "smt/combine.ml" 43 1433 1445
+type(
+  r
+)
+"smt/combine.ml" 43 1433 1449 "smt/combine.ml" 43 1433 1461
+type(
+  X5.t -> Ty.t
+)
+ident(
+  ext_ref X5.type_info
+)
+"smt/combine.ml" 43 1433 1462 "smt/combine.ml" 43 1433 1463
+type(
+  X5.t
+)
+ident(
+  int_ref x "smt/combine.ml" 43 1433 1444 "smt/combine.ml" 43 1433 1445
+)
+"smt/combine.ml" 43 1433 1449 "smt/combine.ml" 43 1433 1463
+call(
+  stack
+)
+type(
+  Ty.t
+)
+"smt/combine.ml" 44 1464 1477 "smt/combine.ml" 44 1464 1478
+type(
+  Term.t
+)
+ident(
+  def t "smt/combine.ml" 44 1464 1482 "smt/combine.ml" 44 1464 1503
+)
+"smt/combine.ml" 44 1464 1472 "smt/combine.ml" 44 1464 1478
+type(
+  r
+)
+"smt/combine.ml" 44 1464 1483 "smt/combine.ml" 44 1464 1492
+type(
+  Term.t -> Term.view
+)
+ident(
+  ext_ref Term.view
+)
+"smt/combine.ml" 44 1464 1493 "smt/combine.ml" 44 1464 1494
+type(
+  Term.t
+)
+ident(
+  int_ref t "smt/combine.ml" 44 1464 1477 "smt/combine.ml" 44 1464 1478
+)
+"smt/combine.ml" 44 1464 1482 "smt/combine.ml" 44 1464 1495
+call(
+  stack
+)
+type(
+  Term.view
+)
+"smt/combine.ml" 44 1464 1482 "smt/combine.ml" 44 1464 1503
+type(
+  Ty.t
+)
+"smt/combine.ml" 41 1375 1389 "smt/combine.ml" 44 1464 1503
+type(
+  Ty.t
+)
+"smt/combine.ml" 46 1512 1516 "smt/combine.ml" 46 1512 1518
+type(
+  Ty.t
+)
+ident(
+  int_ref ty "smt/combine.ml" 41 1375 1383 "smt/combine.ml" 41 1375 1385
+)
+"smt/combine.ml" 46 1512 1519 "smt/combine.ml" 46 1512 1520
+type(
+  Ty.t -> Ty.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/combine.ml" 46 1512 1521 "smt/combine.ml" 46 1512 1528
+type(
+  Ty.t
+)
+"smt/combine.ml" 46 1512 1516 "smt/combine.ml" 46 1512 1528
+type(
+  bool
+)
+"smt/combine.ml" 41 1375 1379 "smt/combine.ml" 46 1512 1528
+type(
+  bool
+)
+"smt/combine.ml" 48 1536 1546 "smt/combine.ml" 48 1536 1553
+type(
+  r -> r -> int
+)
+ident(
+  def compare "smt/combine.ml" 48 1536 1538 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 48 1536 1554 "smt/combine.ml" 48 1536 1555
+type(
+  r
+)
+ident(
+  def a "smt/combine.ml" 48 1536 1556 "smt/combine.ml" 50 1593 1630
+)
+"smt/combine.ml" 48 1536 1556 "smt/combine.ml" 48 1536 1557
+type(
+  r
+)
+ident(
+  def b "smt/combine.ml" 49 1561 1565 "smt/combine.ml" 50 1593 1630
+)
+"smt/combine.ml" 49 1561 1569 "smt/combine.ml" 49 1561 1570
+type(
+  int
+)
+ident(
+  def c "smt/combine.ml" 50 1593 1597 "smt/combine.ml" 50 1593 1630
+)
+"smt/combine.ml" 49 1561 1573 "smt/combine.ml" 49 1561 1584
+type(
+  r -> r -> int
+)
+ident(
+  int_ref compare_tag "smt/combine.ml" 52 1632 1638 "smt/combine.ml" 52 1632 1649
+)
+"smt/combine.ml" 49 1561 1585 "smt/combine.ml" 49 1561 1586
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 48 1536 1554 "smt/combine.ml" 48 1536 1555
+)
+"smt/combine.ml" 49 1561 1587 "smt/combine.ml" 49 1561 1588
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 48 1536 1556 "smt/combine.ml" 48 1536 1557
+)
+"smt/combine.ml" 49 1561 1573 "smt/combine.ml" 49 1561 1588
+call(
+  stack
+)
+type(
+  int
+)
+"smt/combine.ml" 50 1593 1600 "smt/combine.ml" 50 1593 1601
+type(
+  int
+)
+ident(
+  int_ref c "smt/combine.ml" 49 1561 1569 "smt/combine.ml" 49 1561 1570
+)
+"smt/combine.ml" 50 1593 1602 "smt/combine.ml" 50 1593 1603
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/combine.ml" 50 1593 1604 "smt/combine.ml" 50 1593 1605
+type(
+  int
+)
+"smt/combine.ml" 50 1593 1600 "smt/combine.ml" 50 1593 1605
+type(
+  bool
+)
+"smt/combine.ml" 50 1593 1611 "smt/combine.ml" 50 1593 1619
+type(
+  r -> r -> int
+)
+ident(
+  int_ref comparei "smt/combine.ml" 55 1717 1723 "smt/combine.ml" 55 1717 1731
+)
+"smt/combine.ml" 50 1593 1620 "smt/combine.ml" 50 1593 1621
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 48 1536 1554 "smt/combine.ml" 48 1536 1555
+)
+"smt/combine.ml" 50 1593 1622 "smt/combine.ml" 50 1593 1623
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 48 1536 1556 "smt/combine.ml" 48 1536 1557
+)
+"smt/combine.ml" 50 1593 1611 "smt/combine.ml" 50 1593 1623
+call(
+  tail
+)
+type(
+  int
+)
+"smt/combine.ml" 50 1593 1629 "smt/combine.ml" 50 1593 1630
+type(
+  int
+)
+ident(
+  int_ref c "smt/combine.ml" 49 1561 1569 "smt/combine.ml" 49 1561 1570
+)
+"smt/combine.ml" 50 1593 1597 "smt/combine.ml" 50 1593 1630
+type(
+  int
+)
+"smt/combine.ml" 49 1561 1565 "smt/combine.ml" 50 1593 1630
+type(
+  int
+)
+"smt/combine.ml" 52 1632 1638 "smt/combine.ml" 52 1632 1649
+type(
+  r -> r -> int
+)
+ident(
+  def compare_tag "smt/combine.ml" 48 1536 1538 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 52 1632 1650 "smt/combine.ml" 52 1632 1651
+type(
+  r
+)
+ident(
+  def a "smt/combine.ml" 52 1632 1652 "smt/combine.ml" 53 1657 1709
+)
+"smt/combine.ml" 52 1632 1652 "smt/combine.ml" 52 1632 1653
+type(
+  r
+)
+ident(
+  def b "smt/combine.ml" 53 1657 1661 "smt/combine.ml" 53 1657 1709
+)
+"smt/combine.ml" 53 1657 1661 "smt/combine.ml" 53 1657 1679
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"smt/combine.ml" 53 1657 1681 "smt/combine.ml" 53 1657 1691
+type(
+  r -> int
+)
+ident(
+  int_ref theory_num "smt/combine.ml" 62 1922 1928 "smt/combine.ml" 62 1922 1938
+)
+"smt/combine.ml" 53 1657 1692 "smt/combine.ml" 53 1657 1693
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 52 1632 1650 "smt/combine.ml" 52 1632 1651
+)
+"smt/combine.ml" 53 1657 1680 "smt/combine.ml" 53 1657 1694
+call(
+  stack
+)
+type(
+  int
+)
+"smt/combine.ml" 53 1657 1696 "smt/combine.ml" 53 1657 1706
+type(
+  r -> int
+)
+ident(
+  int_ref theory_num "smt/combine.ml" 62 1922 1928 "smt/combine.ml" 62 1922 1938
+)
+"smt/combine.ml" 53 1657 1707 "smt/combine.ml" 53 1657 1708
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 52 1632 1652 "smt/combine.ml" 52 1632 1653
+)
+"smt/combine.ml" 53 1657 1695 "smt/combine.ml" 53 1657 1709
+call(
+  stack
+)
+type(
+  int
+)
+"smt/combine.ml" 53 1657 1661 "smt/combine.ml" 53 1657 1709
+type(
+  int
+)
+"smt/combine.ml" 55 1717 1723 "smt/combine.ml" 55 1717 1731
+type(
+  r -> r -> int
+)
+ident(
+  def comparei "smt/combine.ml" 48 1536 1538 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 55 1717 1732 "smt/combine.ml" 55 1717 1733
+type(
+  r
+)
+ident(
+  def a "smt/combine.ml" 55 1717 1734 "smt/combine.ml" 60 1879 1920
+)
+"smt/combine.ml" 55 1717 1734 "smt/combine.ml" 55 1717 1735
+type(
+  r
+)
+ident(
+  def b "smt/combine.ml" 56 1739 1743 "smt/combine.ml" 60 1879 1920
+)
+"smt/combine.ml" 56 1739 1749 "smt/combine.ml" 56 1739 1750
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 55 1717 1732 "smt/combine.ml" 55 1717 1733
+)
+"smt/combine.ml" 56 1739 1752 "smt/combine.ml" 56 1739 1753
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 55 1717 1734 "smt/combine.ml" 55 1717 1735
+)
+"smt/combine.ml" 56 1739 1749 "smt/combine.ml" 56 1739 1753
+type(
+  r * r
+)
+"smt/combine.ml" 57 1759 1770 "smt/combine.ml" 57 1759 1771
+type(
+  X1.t
+)
+ident(
+  def x "smt/combine.ml" 57 1759 1781 "smt/combine.ml" 57 1759 1795
+)
+"smt/combine.ml" 57 1759 1767 "smt/combine.ml" 57 1759 1771
+type(
+  r
+)
+"smt/combine.ml" 57 1759 1776 "smt/combine.ml" 57 1759 1777
+type(
+  X1.t
+)
+ident(
+  def y "smt/combine.ml" 57 1759 1781 "smt/combine.ml" 57 1759 1795
+)
+"smt/combine.ml" 57 1759 1773 "smt/combine.ml" 57 1759 1777
+type(
+  r
+)
+"smt/combine.ml" 57 1759 1767 "smt/combine.ml" 57 1759 1777
+type(
+  r * r
+)
+"smt/combine.ml" 57 1759 1781 "smt/combine.ml" 57 1759 1791
+type(
+  X1.t -> X1.t -> int
+)
+ident(
+  ext_ref X1.compare
+)
+"smt/combine.ml" 57 1759 1792 "smt/combine.ml" 57 1759 1793
+type(
+  X1.t
+)
+ident(
+  int_ref x "smt/combine.ml" 57 1759 1770 "smt/combine.ml" 57 1759 1771
+)
+"smt/combine.ml" 57 1759 1794 "smt/combine.ml" 57 1759 1795
+type(
+  X1.t
+)
+ident(
+  int_ref y "smt/combine.ml" 57 1759 1776 "smt/combine.ml" 57 1759 1777
+)
+"smt/combine.ml" 57 1759 1781 "smt/combine.ml" 57 1759 1795
+call(
+  tail
+)
+type(
+  int
+)
+"smt/combine.ml" 58 1796 1807 "smt/combine.ml" 58 1796 1808
+type(
+  X5.t
+)
+ident(
+  def x "smt/combine.ml" 58 1796 1818 "smt/combine.ml" 58 1796 1832
+)
+"smt/combine.ml" 58 1796 1804 "smt/combine.ml" 58 1796 1808
+type(
+  r
+)
+"smt/combine.ml" 58 1796 1813 "smt/combine.ml" 58 1796 1814
+type(
+  X5.t
+)
+ident(
+  def y "smt/combine.ml" 58 1796 1818 "smt/combine.ml" 58 1796 1832
+)
+"smt/combine.ml" 58 1796 1810 "smt/combine.ml" 58 1796 1814
+type(
+  r
+)
+"smt/combine.ml" 58 1796 1804 "smt/combine.ml" 58 1796 1814
+type(
+  r * r
+)
+"smt/combine.ml" 58 1796 1818 "smt/combine.ml" 58 1796 1828
+type(
+  X5.t -> X5.t -> int
+)
+ident(
+  ext_ref X5.compare
+)
+"smt/combine.ml" 58 1796 1829 "smt/combine.ml" 58 1796 1830
+type(
+  X5.t
+)
+ident(
+  int_ref x "smt/combine.ml" 58 1796 1807 "smt/combine.ml" 58 1796 1808
+)
+"smt/combine.ml" 58 1796 1831 "smt/combine.ml" 58 1796 1832
+type(
+  X5.t
+)
+ident(
+  int_ref y "smt/combine.ml" 58 1796 1813 "smt/combine.ml" 58 1796 1814
+)
+"smt/combine.ml" 58 1796 1818 "smt/combine.ml" 58 1796 1832
+call(
+  tail
+)
+type(
+  int
+)
+"smt/combine.ml" 59 1833 1846 "smt/combine.ml" 59 1833 1847
+type(
+  Term.t
+)
+ident(
+  def x "smt/combine.ml" 59 1833 1862 "smt/combine.ml" 59 1833 1878
+)
+"smt/combine.ml" 59 1833 1841 "smt/combine.ml" 59 1833 1847
+type(
+  r
+)
+"smt/combine.ml" 59 1833 1856 "smt/combine.ml" 59 1833 1857
+type(
+  Term.t
+)
+ident(
+  def y "smt/combine.ml" 59 1833 1862 "smt/combine.ml" 59 1833 1878
+)
+"smt/combine.ml" 59 1833 1851 "smt/combine.ml" 59 1833 1857
+type(
+  r
+)
+"smt/combine.ml" 59 1833 1841 "smt/combine.ml" 59 1833 1857
+type(
+  r * r
+)
+"smt/combine.ml" 59 1833 1862 "smt/combine.ml" 59 1833 1874
+type(
+  Term.t -> Term.t -> int
+)
+ident(
+  ext_ref Term.compare
+)
+"smt/combine.ml" 59 1833 1875 "smt/combine.ml" 59 1833 1876
+type(
+  Term.t
+)
+ident(
+  int_ref x "smt/combine.ml" 59 1833 1846 "smt/combine.ml" 59 1833 1847
+)
+"smt/combine.ml" 59 1833 1877 "smt/combine.ml" 59 1833 1878
+type(
+  Term.t
+)
+ident(
+  int_ref y "smt/combine.ml" 59 1833 1856 "smt/combine.ml" 59 1833 1857
+)
+"smt/combine.ml" 59 1833 1862 "smt/combine.ml" 59 1833 1878
+call(
+  tail
+)
+type(
+  int
+)
+"smt/combine.ml" 60 1879 1887 "smt/combine.ml" 60 1879 1888
+type(
+  r * r
+)
+"smt/combine.ml" 60 1879 1915 "smt/combine.ml" 60 1879 1920
+type(
+  bool
+)
+"smt/combine.ml" 60 1879 1908 "smt/combine.ml" 60 1879 1920
+type(
+  int
+)
+"smt/combine.ml" 56 1739 1743 "smt/combine.ml" 60 1879 1920
+type(
+  int
+)
+"smt/combine.ml" 62 1922 1928 "smt/combine.ml" 62 1922 1938
+type(
+  r -> int
+)
+ident(
+  def theory_num "smt/combine.ml" 48 1536 1538 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 62 1922 1939 "smt/combine.ml" 62 1922 1940
+type(
+  r
+)
+ident(
+  def x "smt/combine.ml" 62 1922 1943 "smt/combine.ml" 62 1922 1963
+)
+"smt/combine.ml" 62 1922 1943 "smt/combine.ml" 62 1922 1950
+type(
+  Obj.t -> int
+)
+ident(
+  ext_ref Obj.tag
+)
+"smt/combine.ml" 62 1922 1952 "smt/combine.ml" 62 1922 1960
+type(
+  r -> Obj.t
+)
+ident(
+  ext_ref Obj.repr
+)
+"smt/combine.ml" 62 1922 1961 "smt/combine.ml" 62 1922 1962
+type(
+  r
+)
+ident(
+  int_ref x "smt/combine.ml" 62 1922 1939 "smt/combine.ml" 62 1922 1940
+)
+"smt/combine.ml" 62 1922 1951 "smt/combine.ml" 62 1922 1963
+type(
+  Obj.t
+)
+"smt/combine.ml" 62 1922 1943 "smt/combine.ml" 62 1922 1963
+type(
+  int
+)
+"smt/combine.ml" 64 1965 1971 "smt/combine.ml" 64 1965 1976
+type(
+  r -> r -> bool
+)
+ident(
+  def equal "smt/combine.ml" 66 2000 2002 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 64 1965 1977 "smt/combine.ml" 64 1965 1978
+type(
+  r
+)
+ident(
+  def a "smt/combine.ml" 64 1965 1979 "smt/combine.ml" 64 1965 1998
+)
+"smt/combine.ml" 64 1965 1979 "smt/combine.ml" 64 1965 1980
+type(
+  r
+)
+ident(
+  def b "smt/combine.ml" 64 1965 1983 "smt/combine.ml" 64 1965 1998
+)
+"smt/combine.ml" 64 1965 1983 "smt/combine.ml" 64 1965 1990
+type(
+  r -> r -> int
+)
+ident(
+  int_ref compare "smt/combine.ml" 48 1536 1546 "smt/combine.ml" 48 1536 1553
+)
+"smt/combine.ml" 64 1965 1991 "smt/combine.ml" 64 1965 1992
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 64 1965 1977 "smt/combine.ml" 64 1965 1978
+)
+"smt/combine.ml" 64 1965 1993 "smt/combine.ml" 64 1965 1994
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 64 1965 1979 "smt/combine.ml" 64 1965 1980
+)
+"smt/combine.ml" 64 1965 1983 "smt/combine.ml" 64 1965 1994
+call(
+  stack
+)
+type(
+  int
+)
+"smt/combine.ml" 64 1965 1995 "smt/combine.ml" 64 1965 1996
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/combine.ml" 64 1965 1997 "smt/combine.ml" 64 1965 1998
+type(
+  int
+)
+"smt/combine.ml" 64 1965 1983 "smt/combine.ml" 64 1965 1998
+type(
+  bool
+)
+"smt/combine.ml" 66 2000 2006 "smt/combine.ml" 66 2000 2010
+type(
+  r -> int
+)
+ident(
+  def hash "smt/combine.ml" 71 2101 2103 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 67 2022 2034 "smt/combine.ml" 67 2022 2035
+type(
+  Term.t
+)
+ident(
+  def t "smt/combine.ml" 67 2022 2039 "smt/combine.ml" 67 2022 2050
+)
+"smt/combine.ml" 67 2022 2028 "smt/combine.ml" 67 2022 2035
+type(
+  r
+)
+"smt/combine.ml" 67 2022 2039 "smt/combine.ml" 67 2022 2048
+type(
+  Term.t -> int
+)
+ident(
+  ext_ref Term.hash
+)
+"smt/combine.ml" 67 2022 2049 "smt/combine.ml" 67 2022 2050
+type(
+  Term.t
+)
+ident(
+  int_ref t "smt/combine.ml" 67 2022 2034 "smt/combine.ml" 67 2022 2035
+)
+"smt/combine.ml" 67 2022 2039 "smt/combine.ml" 67 2022 2050
+call(
+  tail
+)
+type(
+  int
+)
+"smt/combine.ml" 68 2052 2061 "smt/combine.ml" 68 2052 2062
+type(
+  X1.t
+)
+ident(
+  def x "smt/combine.ml" 68 2052 2066 "smt/combine.ml" 68 2052 2075
+)
+"smt/combine.ml" 68 2052 2058 "smt/combine.ml" 68 2052 2062
+type(
+  r
+)
+"smt/combine.ml" 68 2052 2066 "smt/combine.ml" 68 2052 2073
+type(
+  X1.t -> int
+)
+ident(
+  ext_ref X1.hash
+)
+"smt/combine.ml" 68 2052 2074 "smt/combine.ml" 68 2052 2075
+type(
+  X1.t
+)
+ident(
+  int_ref x "smt/combine.ml" 68 2052 2061 "smt/combine.ml" 68 2052 2062
+)
+"smt/combine.ml" 68 2052 2066 "smt/combine.ml" 68 2052 2075
+call(
+  tail
+)
+type(
+  int
+)
+"smt/combine.ml" 69 2076 2085 "smt/combine.ml" 69 2076 2086
+type(
+  X5.t
+)
+ident(
+  def x "smt/combine.ml" 69 2076 2090 "smt/combine.ml" 69 2076 2099
+)
+"smt/combine.ml" 69 2076 2082 "smt/combine.ml" 69 2076 2086
+type(
+  r
+)
+"smt/combine.ml" 69 2076 2090 "smt/combine.ml" 69 2076 2097
+type(
+  X5.t -> int
+)
+ident(
+  ext_ref X5.hash
+)
+"smt/combine.ml" 69 2076 2098 "smt/combine.ml" 69 2076 2099
+type(
+  X5.t
+)
+ident(
+  int_ref x "smt/combine.ml" 69 2076 2085 "smt/combine.ml" 69 2076 2086
+)
+"smt/combine.ml" 69 2076 2090 "smt/combine.ml" 69 2076 2099
+call(
+  tail
+)
+type(
+  int
+)
+"smt/combine.ml" 66 2000 2013 "smt/combine.ml" 69 2076 2099
+type(
+  r -> int
+)
+"smt/combine.ml" 71 2101 2146 "smt/combine.ml" 71 2101 2153
+type(
+  r -> r -> int
+)
+ident(
+  def compare "smt/combine.ml" 71 2101 2163 "smt/combine.ml" 71 2101 2167
+)
+"smt/combine.ml" 71 2101 2156 "smt/combine.ml" 71 2101 2163
+type(
+  r -> r -> int
+)
+ident(
+  int_ref compare "smt/combine.ml" 48 1536 1546 "smt/combine.ml" 48 1536 1553
+)
+"smt/combine.ml" 71 2101 2115 "smt/combine.ml" 71 2101 2168
+call(
+  stack
+)
+"smt/combine.ml" 73 2174 2180 "smt/combine.ml" 73 2174 2185
+type(
+  Format.formatter -> r -> unit
+)
+ident(
+  def print "smt/combine.ml" 79 2368 2370 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 73 2174 2186 "smt/combine.ml" 73 2174 2189
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/combine.ml" 73 2174 2190 "smt/combine.ml" 77 2306 2354
+)
+"smt/combine.ml" 73 2174 2190 "smt/combine.ml" 73 2174 2191
+type(
+  r
+)
+ident(
+  def r "smt/combine.ml" 74 2195 2199 "smt/combine.ml" 77 2306 2354
+)
+"smt/combine.ml" 74 2195 2205 "smt/combine.ml" 74 2195 2206
+type(
+  r
+)
+ident(
+  int_ref r "smt/combine.ml" 73 2174 2190 "smt/combine.ml" 73 2174 2191
+)
+"smt/combine.ml" 75 2212 2223 "smt/combine.ml" 75 2212 2224
+type(
+  X1.t
+)
+ident(
+  def t "smt/combine.ml" 75 2212 2231 "smt/combine.ml" 75 2212 2258
+)
+"smt/combine.ml" 75 2212 2220 "smt/combine.ml" 75 2212 2224
+type(
+  r
+)
+"smt/combine.ml" 75 2212 2231 "smt/combine.ml" 75 2212 2238
+type(
+  Format.formatter ->
+  ((Format.formatter -> X1.t -> unit) -> X1.t -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> X1.t -> unit) -> X1.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/combine.ml" 75 2212 2239 "smt/combine.ml" 75 2212 2242
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/combine.ml" 73 2174 2186 "smt/combine.ml" 73 2174 2189
+)
+"smt/combine.ml" 75 2212 2243 "smt/combine.ml" 75 2212 2247
+type(
+  ((Format.formatter -> X1.t -> unit) -> X1.t -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/combine.ml" 75 2212 2248 "smt/combine.ml" 75 2212 2256
+type(
+  Format.formatter -> X1.t -> unit
+)
+ident(
+  ext_ref X1.print
+)
+"smt/combine.ml" 75 2212 2257 "smt/combine.ml" 75 2212 2258
+type(
+  X1.t
+)
+ident(
+  int_ref t "smt/combine.ml" 75 2212 2223 "smt/combine.ml" 75 2212 2224
+)
+"smt/combine.ml" 75 2212 2231 "smt/combine.ml" 75 2212 2258
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/combine.ml" 76 2259 2270 "smt/combine.ml" 76 2259 2271
+type(
+  X5.t
+)
+ident(
+  def t "smt/combine.ml" 76 2259 2278 "smt/combine.ml" 76 2259 2305
+)
+"smt/combine.ml" 76 2259 2267 "smt/combine.ml" 76 2259 2271
+type(
+  r
+)
+"smt/combine.ml" 76 2259 2278 "smt/combine.ml" 76 2259 2285
+type(
+  Format.formatter ->
+  ((Format.formatter -> X5.t -> unit) -> X5.t -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> X5.t -> unit) -> X5.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/combine.ml" 76 2259 2286 "smt/combine.ml" 76 2259 2289
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/combine.ml" 73 2174 2186 "smt/combine.ml" 73 2174 2189
+)
+"smt/combine.ml" 76 2259 2290 "smt/combine.ml" 76 2259 2294
+type(
+  ((Format.formatter -> X5.t -> unit) -> X5.t -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/combine.ml" 76 2259 2295 "smt/combine.ml" 76 2259 2303
+type(
+  Format.formatter -> X5.t -> unit
+)
+ident(
+  ext_ref X5.print
+)
+"smt/combine.ml" 76 2259 2304 "smt/combine.ml" 76 2259 2305
+type(
+  X5.t
+)
+ident(
+  int_ref t "smt/combine.ml" 76 2259 2270 "smt/combine.ml" 76 2259 2271
+)
+"smt/combine.ml" 76 2259 2278 "smt/combine.ml" 76 2259 2305
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/combine.ml" 77 2306 2319 "smt/combine.ml" 77 2306 2320
+type(
+  Term.t
+)
+ident(
+  def t "smt/combine.ml" 77 2306 2325 "smt/combine.ml" 77 2306 2354
+)
+"smt/combine.ml" 77 2306 2314 "smt/combine.ml" 77 2306 2320
+type(
+  r
+)
+"smt/combine.ml" 77 2306 2325 "smt/combine.ml" 77 2306 2332
+type(
+  Format.formatter ->
+  ((Format.formatter -> Term.t -> unit) -> Term.t -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> Term.t -> unit) -> Term.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/combine.ml" 77 2306 2333 "smt/combine.ml" 77 2306 2336
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/combine.ml" 73 2174 2186 "smt/combine.ml" 73 2174 2189
+)
+"smt/combine.ml" 77 2306 2337 "smt/combine.ml" 77 2306 2341
+type(
+  ((Format.formatter -> Term.t -> unit) -> Term.t -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/combine.ml" 77 2306 2342 "smt/combine.ml" 77 2306 2352
+type(
+  Format.formatter -> Term.t -> unit
+)
+ident(
+  ext_ref Term.print
+)
+"smt/combine.ml" 77 2306 2353 "smt/combine.ml" 77 2306 2354
+type(
+  Term.t
+)
+ident(
+  int_ref t "smt/combine.ml" 77 2306 2319 "smt/combine.ml" 77 2306 2320
+)
+"smt/combine.ml" 77 2306 2325 "smt/combine.ml" 77 2306 2354
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/combine.ml" 74 2195 2199 "smt/combine.ml" 77 2306 2354
+type(
+  unit
+)
+"smt/combine.ml" 79 2368 2374 "smt/combine.ml" 79 2368 2380
+type(
+  r -> X1.r list
+)
+ident(
+  def leaves "smt/combine.ml" 85 2485 2487 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 79 2368 2381 "smt/combine.ml" 79 2368 2382
+type(
+  r
+)
+ident(
+  def r "smt/combine.ml" 80 2386 2390 "smt/combine.ml" 83 2462 2483
+)
+"smt/combine.ml" 80 2386 2396 "smt/combine.ml" 80 2386 2397
+type(
+  r
+)
+ident(
+  int_ref r "smt/combine.ml" 79 2368 2381 "smt/combine.ml" 79 2368 2382
+)
+"smt/combine.ml" 81 2404 2415 "smt/combine.ml" 81 2404 2416
+type(
+  X1.t
+)
+ident(
+  def t "smt/combine.ml" 81 2404 2420 "smt/combine.ml" 81 2404 2431
+)
+"smt/combine.ml" 81 2404 2412 "smt/combine.ml" 81 2404 2416
+type(
+  r
+)
+"smt/combine.ml" 81 2404 2420 "smt/combine.ml" 81 2404 2429
+type(
+  X1.t -> X1.r list
+)
+ident(
+  ext_ref X1.leaves
+)
+"smt/combine.ml" 81 2404 2430 "smt/combine.ml" 81 2404 2431
+type(
+  X1.t
+)
+ident(
+  int_ref t "smt/combine.ml" 81 2404 2415 "smt/combine.ml" 81 2404 2416
+)
+"smt/combine.ml" 81 2404 2420 "smt/combine.ml" 81 2404 2431
+call(
+  tail
+)
+type(
+  X1.r list
+)
+"smt/combine.ml" 82 2433 2444 "smt/combine.ml" 82 2433 2445
+type(
+  X5.t
+)
+ident(
+  def t "smt/combine.ml" 82 2433 2449 "smt/combine.ml" 82 2433 2460
+)
+"smt/combine.ml" 82 2433 2441 "smt/combine.ml" 82 2433 2445
+type(
+  r
+)
+"smt/combine.ml" 82 2433 2449 "smt/combine.ml" 82 2433 2458
+type(
+  X5.t -> X1.r list
+)
+ident(
+  ext_ref X5.leaves
+)
+"smt/combine.ml" 82 2433 2459 "smt/combine.ml" 82 2433 2460
+type(
+  X5.t
+)
+ident(
+  int_ref t "smt/combine.ml" 82 2433 2444 "smt/combine.ml" 82 2433 2445
+)
+"smt/combine.ml" 82 2433 2449 "smt/combine.ml" 82 2433 2460
+call(
+  tail
+)
+type(
+  X1.r list
+)
+"smt/combine.ml" 83 2462 2475 "smt/combine.ml" 83 2462 2476
+type(
+  Term.t
+)
+"smt/combine.ml" 83 2462 2470 "smt/combine.ml" 83 2462 2476
+type(
+  r
+)
+"smt/combine.ml" 83 2462 2481 "smt/combine.ml" 83 2462 2482
+type(
+  r
+)
+ident(
+  int_ref r "smt/combine.ml" 79 2368 2381 "smt/combine.ml" 79 2368 2382
+)
+"smt/combine.ml" 83 2462 2480 "smt/combine.ml" 83 2462 2483
+type(
+  X1.r list
+)
+"smt/combine.ml" 80 2386 2390 "smt/combine.ml" 83 2462 2483
+type(
+  X1.r list
+)
+"smt/combine.ml" 85 2485 2491 "smt/combine.ml" 85 2485 2501
+type(
+  Term.t -> r
+)
+ident(
+  def term_embed "smt/combine.ml" 87 2514 2516 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 85 2485 2502 "smt/combine.ml" 85 2485 2503
+type(
+  Term.t
+)
+ident(
+  def t "smt/combine.ml" 85 2485 2506 "smt/combine.ml" 85 2485 2512
+)
+"smt/combine.ml" 85 2485 2511 "smt/combine.ml" 85 2485 2512
+type(
+  Term.t
+)
+ident(
+  int_ref t "smt/combine.ml" 85 2485 2502 "smt/combine.ml" 85 2485 2503
+)
+"smt/combine.ml" 85 2485 2506 "smt/combine.ml" 85 2485 2512
+type(
+  r
+)
+"smt/combine.ml" 87 2514 2520 "smt/combine.ml" 87 2514 2532
+type(
+  r -> Term.t option
+)
+ident(
+  def term_extract "smt/combine.ml" 93 2652 2654 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 87 2514 2533 "smt/combine.ml" 87 2514 2534
+type(
+  r
+)
+ident(
+  def r "smt/combine.ml" 88 2538 2542 "smt/combine.ml" 91 2626 2650
+)
+"smt/combine.ml" 88 2538 2548 "smt/combine.ml" 88 2538 2549
+type(
+  r
+)
+ident(
+  int_ref r "smt/combine.ml" 87 2514 2533 "smt/combine.ml" 87 2514 2534
+)
+"smt/combine.ml" 89 2556 2567 "smt/combine.ml" 89 2556 2568
+type(
+  X1.t
+)
+"smt/combine.ml" 89 2556 2564 "smt/combine.ml" 89 2556 2568
+type(
+  r
+)
+"smt/combine.ml" 89 2556 2572 "smt/combine.ml" 89 2556 2587
+type(
+  X1.r -> Term.t option
+)
+ident(
+  ext_ref X1.term_extract
+)
+"smt/combine.ml" 89 2556 2588 "smt/combine.ml" 89 2556 2589
+type(
+  r
+)
+ident(
+  int_ref r "smt/combine.ml" 87 2514 2533 "smt/combine.ml" 87 2514 2534
+)
+"smt/combine.ml" 89 2556 2572 "smt/combine.ml" 89 2556 2589
+call(
+  tail
+)
+type(
+  Term.t option
+)
+"smt/combine.ml" 90 2591 2602 "smt/combine.ml" 90 2591 2603
+type(
+  X5.t
+)
+"smt/combine.ml" 90 2591 2599 "smt/combine.ml" 90 2591 2603
+type(
+  r
+)
+"smt/combine.ml" 90 2591 2607 "smt/combine.ml" 90 2591 2622
+type(
+  X5.r -> Term.t option
+)
+ident(
+  ext_ref X5.term_extract
+)
+"smt/combine.ml" 90 2591 2623 "smt/combine.ml" 90 2591 2624
+type(
+  r
+)
+ident(
+  int_ref r "smt/combine.ml" 87 2514 2533 "smt/combine.ml" 87 2514 2534
+)
+"smt/combine.ml" 90 2591 2607 "smt/combine.ml" 90 2591 2624
+call(
+  tail
+)
+type(
+  Term.t option
+)
+"smt/combine.ml" 91 2626 2639 "smt/combine.ml" 91 2626 2640
+type(
+  Term.t
+)
+ident(
+  def t "smt/combine.ml" 91 2626 2644 "smt/combine.ml" 91 2626 2650
+)
+"smt/combine.ml" 91 2626 2634 "smt/combine.ml" 91 2626 2640
+type(
+  r
+)
+"smt/combine.ml" 91 2626 2649 "smt/combine.ml" 91 2626 2650
+type(
+  Term.t
+)
+ident(
+  int_ref t "smt/combine.ml" 91 2626 2639 "smt/combine.ml" 91 2626 2640
+)
+"smt/combine.ml" 91 2626 2644 "smt/combine.ml" 91 2626 2650
+type(
+  Term.t option
+)
+"smt/combine.ml" 88 2538 2542 "smt/combine.ml" 91 2626 2650
+type(
+  Term.t option
+)
+"smt/combine.ml" 93 2652 2658 "smt/combine.ml" 93 2652 2663
+type(
+  r -> r -> r -> r
+)
+ident(
+  def subst "smt/combine.ml" 100 2832 2834 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 93 2652 2664 "smt/combine.ml" 93 2652 2665
+type(
+  r
+)
+ident(
+  def p "smt/combine.ml" 93 2652 2666 "smt/combine.ml" 98 2786 2830
+)
+"smt/combine.ml" 93 2652 2666 "smt/combine.ml" 93 2652 2667
+type(
+  r
+)
+ident(
+  def v "smt/combine.ml" 93 2652 2668 "smt/combine.ml" 98 2786 2830
+)
+"smt/combine.ml" 93 2652 2668 "smt/combine.ml" 93 2652 2669
+type(
+  r
+)
+ident(
+  def r "smt/combine.ml" 94 2673 2677 "smt/combine.ml" 98 2786 2830
+)
+"smt/combine.ml" 94 2673 2680 "smt/combine.ml" 94 2673 2685
+type(
+  r -> r -> bool
+)
+ident(
+  int_ref equal "smt/combine.ml" 64 1965 1971 "smt/combine.ml" 64 1965 1976
+)
+"smt/combine.ml" 94 2673 2686 "smt/combine.ml" 94 2673 2687
+type(
+  r
+)
+ident(
+  int_ref p "smt/combine.ml" 93 2652 2664 "smt/combine.ml" 93 2652 2665
+)
+"smt/combine.ml" 94 2673 2688 "smt/combine.ml" 94 2673 2689
+type(
+  r
+)
+ident(
+  int_ref v "smt/combine.ml" 93 2652 2666 "smt/combine.ml" 93 2652 2667
+)
+"smt/combine.ml" 94 2673 2680 "smt/combine.ml" 94 2673 2689
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/combine.ml" 94 2673 2695 "smt/combine.ml" 94 2673 2696
+type(
+  r
+)
+ident(
+  int_ref r "smt/combine.ml" 93 2652 2668 "smt/combine.ml" 93 2652 2669
+)
+"smt/combine.ml" 95 2698 2713 "smt/combine.ml" 95 2698 2714
+type(
+  r
+)
+ident(
+  int_ref r "smt/combine.ml" 93 2652 2668 "smt/combine.ml" 93 2652 2669
+)
+"smt/combine.ml" 96 2720 2731 "smt/combine.ml" 96 2720 2732
+type(
+  X1.t
+)
+ident(
+  def t "smt/combine.ml" 96 2720 2738 "smt/combine.ml" 96 2720 2752
+)
+"smt/combine.ml" 96 2720 2728 "smt/combine.ml" 96 2720 2732
+type(
+  r
+)
+"smt/combine.ml" 96 2720 2738 "smt/combine.ml" 96 2720 2746
+type(
+  X1.r -> X1.r -> X1.t -> X1.r
+)
+ident(
+  ext_ref X1.subst
+)
+"smt/combine.ml" 96 2720 2747 "smt/combine.ml" 96 2720 2748
+type(
+  r
+)
+ident(
+  int_ref p "smt/combine.ml" 93 2652 2664 "smt/combine.ml" 93 2652 2665
+)
+"smt/combine.ml" 96 2720 2749 "smt/combine.ml" 96 2720 2750
+type(
+  r
+)
+ident(
+  int_ref v "smt/combine.ml" 93 2652 2666 "smt/combine.ml" 93 2652 2667
+)
+"smt/combine.ml" 96 2720 2751 "smt/combine.ml" 96 2720 2752
+type(
+  X1.t
+)
+ident(
+  int_ref t "smt/combine.ml" 96 2720 2731 "smt/combine.ml" 96 2720 2732
+)
+"smt/combine.ml" 96 2720 2738 "smt/combine.ml" 96 2720 2752
+call(
+  tail
+)
+type(
+  X1.r
+)
+"smt/combine.ml" 97 2753 2764 "smt/combine.ml" 97 2753 2765
+type(
+  X5.t
+)
+ident(
+  def t "smt/combine.ml" 97 2753 2771 "smt/combine.ml" 97 2753 2785
+)
+"smt/combine.ml" 97 2753 2761 "smt/combine.ml" 97 2753 2765
+type(
+  r
+)
+"smt/combine.ml" 97 2753 2771 "smt/combine.ml" 97 2753 2779
+type(
+  X5.r -> X5.r -> X5.t -> X5.r
+)
+ident(
+  ext_ref X5.subst
+)
+"smt/combine.ml" 97 2753 2780 "smt/combine.ml" 97 2753 2781
+type(
+  r
+)
+ident(
+  int_ref p "smt/combine.ml" 93 2652 2664 "smt/combine.ml" 93 2652 2665
+)
+"smt/combine.ml" 97 2753 2782 "smt/combine.ml" 97 2753 2783
+type(
+  r
+)
+ident(
+  int_ref v "smt/combine.ml" 93 2652 2666 "smt/combine.ml" 93 2652 2667
+)
+"smt/combine.ml" 97 2753 2784 "smt/combine.ml" 97 2753 2785
+type(
+  X5.t
+)
+ident(
+  int_ref t "smt/combine.ml" 97 2753 2764 "smt/combine.ml" 97 2753 2765
+)
+"smt/combine.ml" 97 2753 2771 "smt/combine.ml" 97 2753 2785
+call(
+  tail
+)
+type(
+  X5.r
+)
+"smt/combine.ml" 98 2786 2799 "smt/combine.ml" 98 2786 2800
+type(
+  Term.t
+)
+"smt/combine.ml" 98 2786 2794 "smt/combine.ml" 98 2786 2800
+type(
+  r
+)
+"smt/combine.ml" 98 2786 2807 "smt/combine.ml" 98 2786 2812
+type(
+  r -> r -> bool
+)
+ident(
+  int_ref equal "smt/combine.ml" 64 1965 1971 "smt/combine.ml" 64 1965 1976
+)
+"smt/combine.ml" 98 2786 2813 "smt/combine.ml" 98 2786 2814
+type(
+  r
+)
+ident(
+  int_ref p "smt/combine.ml" 93 2652 2664 "smt/combine.ml" 93 2652 2665
+)
+"smt/combine.ml" 98 2786 2815 "smt/combine.ml" 98 2786 2816
+type(
+  r
+)
+ident(
+  int_ref r "smt/combine.ml" 93 2652 2668 "smt/combine.ml" 93 2652 2669
+)
+"smt/combine.ml" 98 2786 2807 "smt/combine.ml" 98 2786 2816
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/combine.ml" 98 2786 2822 "smt/combine.ml" 98 2786 2823
+type(
+  r
+)
+ident(
+  int_ref v "smt/combine.ml" 93 2652 2666 "smt/combine.ml" 93 2652 2667
+)
+"smt/combine.ml" 98 2786 2829 "smt/combine.ml" 98 2786 2830
+type(
+  r
+)
+ident(
+  int_ref r "smt/combine.ml" 93 2652 2668 "smt/combine.ml" 93 2652 2669
+)
+"smt/combine.ml" 98 2786 2804 "smt/combine.ml" 98 2786 2830
+type(
+  r
+)
+"smt/combine.ml" 95 2698 2707 "smt/combine.ml" 98 2786 2830
+type(
+  r
+)
+"smt/combine.ml" 94 2673 2677 "smt/combine.ml" 98 2786 2830
+type(
+  r
+)
+"smt/combine.ml" 100 2832 2838 "smt/combine.ml" 100 2832 2842
+type(
+  Term.t -> X1.r * Literal.LT.t list
+)
+ident(
+  def make "smt/combine.ml" 108 3071 3073 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 100 2832 2843 "smt/combine.ml" 100 2832 2844
+type(
+  Term.t
+)
+ident(
+  def t "smt/combine.ml" 101 2848 2852 "smt/combine.ml" 106 3041 3066
+)
+"smt/combine.ml" 101 2848 2864 "smt/combine.ml" 101 2848 2866
+type(
+  Symbols.t
+)
+ident(
+  def sb "smt/combine.ml" 102 2885 2889 "smt/combine.ml" 106 3041 3066
+)
+"smt/combine.ml" 101 2848 2856 "smt/combine.ml" 101 2848 2867
+type(
+  Term.view
+)
+"smt/combine.ml" 101 2848 2870 "smt/combine.ml" 101 2848 2879
+type(
+  Term.t -> Term.view
+)
+ident(
+  ext_ref Term.view
+)
+"smt/combine.ml" 101 2848 2880 "smt/combine.ml" 101 2848 2881
+type(
+  Term.t
+)
+ident(
+  int_ref t "smt/combine.ml" 100 2832 2843 "smt/combine.ml" 100 2832 2844
+)
+"smt/combine.ml" 101 2848 2870 "smt/combine.ml" 101 2848 2881
+call(
+  stack
+)
+type(
+  Term.view
+)
+"smt/combine.ml" 102 2885 2895 "smt/combine.ml" 102 2885 2910
+type(
+  Symbols.t -> bool
+)
+ident(
+  ext_ref X1.is_mine_symb
+)
+"smt/combine.ml" 102 2885 2911 "smt/combine.ml" 102 2885 2913
+type(
+  Symbols.t
+)
+ident(
+  int_ref sb "smt/combine.ml" 101 2848 2864 "smt/combine.ml" 101 2848 2866
+)
+"smt/combine.ml" 102 2885 2895 "smt/combine.ml" 102 2885 2913
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/combine.ml" 102 2885 2915 "smt/combine.ml" 102 2885 2930
+type(
+  Symbols.t -> bool
+)
+ident(
+  ext_ref X5.is_mine_symb
+)
+"smt/combine.ml" 102 2885 2931 "smt/combine.ml" 102 2885 2933
+type(
+  Symbols.t
+)
+ident(
+  int_ref sb "smt/combine.ml" 101 2848 2864 "smt/combine.ml" 101 2848 2866
+)
+"smt/combine.ml" 102 2885 2915 "smt/combine.ml" 102 2885 2933
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/combine.ml" 102 2885 2895 "smt/combine.ml" 102 2885 2933
+type(
+  bool * bool
+)
+"smt/combine.ml" 103 2939 2947 "smt/combine.ml" 103 2939 2951
+type(
+  bool
+)
+"smt/combine.ml" 103 2939 2953 "smt/combine.ml" 103 2939 2958
+type(
+  bool
+)
+"smt/combine.ml" 103 2939 2947 "smt/combine.ml" 103 2939 2958
+type(
+  bool * bool
+)
+"smt/combine.ml" 103 2939 2962 "smt/combine.ml" 103 2939 2969
+type(
+  Term.t -> X1.r * Literal.LT.t list
+)
+ident(
+  ext_ref X1.make
+)
+"smt/combine.ml" 103 2939 2970 "smt/combine.ml" 103 2939 2971
+type(
+  Term.t
+)
+ident(
+  int_ref t "smt/combine.ml" 100 2832 2843 "smt/combine.ml" 100 2832 2844
+)
+"smt/combine.ml" 103 2939 2962 "smt/combine.ml" 103 2939 2971
+call(
+  tail
+)
+type(
+  X1.r * Literal.LT.t list
+)
+"smt/combine.ml" 104 2972 2980 "smt/combine.ml" 104 2972 2985
+type(
+  bool
+)
+"smt/combine.ml" 104 2972 2987 "smt/combine.ml" 104 2972 2991
+type(
+  bool
+)
+"smt/combine.ml" 104 2972 2980 "smt/combine.ml" 104 2972 2991
+type(
+  bool * bool
+)
+"smt/combine.ml" 104 2972 2996 "smt/combine.ml" 104 2972 3003
+type(
+  Term.t -> X1.r * Literal.LT.t list
+)
+ident(
+  ext_ref X5.make
+)
+"smt/combine.ml" 104 2972 3004 "smt/combine.ml" 104 2972 3005
+type(
+  Term.t
+)
+ident(
+  int_ref t "smt/combine.ml" 100 2832 2843 "smt/combine.ml" 100 2832 2844
+)
+"smt/combine.ml" 104 2972 2996 "smt/combine.ml" 104 2972 3005
+call(
+  tail
+)
+type(
+  X1.r * Literal.LT.t list
+)
+"smt/combine.ml" 105 3006 3014 "smt/combine.ml" 105 3006 3019
+type(
+  bool
+)
+"smt/combine.ml" 105 3006 3021 "smt/combine.ml" 105 3006 3026
+type(
+  bool
+)
+"smt/combine.ml" 105 3006 3014 "smt/combine.ml" 105 3006 3026
+type(
+  bool * bool
+)
+"smt/combine.ml" 105 3006 3035 "smt/combine.ml" 105 3006 3036
+type(
+  Term.t
+)
+ident(
+  int_ref t "smt/combine.ml" 100 2832 2843 "smt/combine.ml" 100 2832 2844
+)
+"smt/combine.ml" 105 3006 3030 "smt/combine.ml" 105 3006 3036
+type(
+  r
+)
+"smt/combine.ml" 105 3006 3038 "smt/combine.ml" 105 3006 3040
+type(
+  Literal.LT.t list
+)
+"smt/combine.ml" 105 3006 3030 "smt/combine.ml" 105 3006 3040
+type(
+  r * Literal.LT.t list
+)
+"smt/combine.ml" 106 3041 3049 "smt/combine.ml" 106 3041 3050
+type(
+  bool * bool
+)
+"smt/combine.ml" 106 3041 3061 "smt/combine.ml" 106 3041 3066
+type(
+  bool
+)
+"smt/combine.ml" 106 3041 3054 "smt/combine.ml" 106 3041 3066
+type(
+  X1.r * Literal.LT.t list
+)
+"smt/combine.ml" 102 2885 2889 "smt/combine.ml" 106 3041 3066
+type(
+  X1.r * Literal.LT.t list
+)
+"smt/combine.ml" 101 2848 2852 "smt/combine.ml" 106 3041 3066
+type(
+  X1.r * Literal.LT.t list
+)
+"smt/combine.ml" 108 3071 3077 "smt/combine.ml" 108 3071 3094
+type(
+  Symbols.t -> bool
+)
+ident(
+  def fully_interpreted "smt/combine.ml" 115 3305 3307 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 108 3071 3095 "smt/combine.ml" 108 3071 3097
+type(
+  Symbols.t
+)
+ident(
+  def sb "smt/combine.ml" 109 3100 3104 "smt/combine.ml" 113 3278 3303
+)
+"smt/combine.ml" 109 3100 3110 "smt/combine.ml" 109 3100 3125
+type(
+  Symbols.t -> bool
+)
+ident(
+  ext_ref X1.is_mine_symb
+)
+"smt/combine.ml" 109 3100 3126 "smt/combine.ml" 109 3100 3128
+type(
+  Symbols.t
+)
+ident(
+  int_ref sb "smt/combine.ml" 108 3071 3095 "smt/combine.ml" 108 3071 3097
+)
+"smt/combine.ml" 109 3100 3110 "smt/combine.ml" 109 3100 3128
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/combine.ml" 109 3100 3130 "smt/combine.ml" 109 3100 3145
+type(
+  Symbols.t -> bool
+)
+ident(
+  ext_ref X5.is_mine_symb
+)
+"smt/combine.ml" 109 3100 3146 "smt/combine.ml" 109 3100 3148
+type(
+  Symbols.t
+)
+ident(
+  int_ref sb "smt/combine.ml" 108 3071 3095 "smt/combine.ml" 108 3071 3097
+)
+"smt/combine.ml" 109 3100 3130 "smt/combine.ml" 109 3100 3148
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/combine.ml" 109 3100 3110 "smt/combine.ml" 109 3100 3148
+type(
+  bool * bool
+)
+"smt/combine.ml" 110 3154 3162 "smt/combine.ml" 110 3154 3166
+type(
+  bool
+)
+"smt/combine.ml" 110 3154 3168 "smt/combine.ml" 110 3154 3173
+type(
+  bool
+)
+"smt/combine.ml" 110 3154 3162 "smt/combine.ml" 110 3154 3173
+type(
+  bool * bool
+)
+"smt/combine.ml" 110 3154 3177 "smt/combine.ml" 110 3154 3197
+type(
+  Symbols.t -> bool
+)
+ident(
+  ext_ref X1.fully_interpreted
+)
+"smt/combine.ml" 110 3154 3198 "smt/combine.ml" 110 3154 3200
+type(
+  Symbols.t
+)
+ident(
+  int_ref sb "smt/combine.ml" 108 3071 3095 "smt/combine.ml" 108 3071 3097
+)
+"smt/combine.ml" 110 3154 3177 "smt/combine.ml" 110 3154 3200
+call(
+  tail
+)
+type(
+  bool
+)
+"smt/combine.ml" 111 3201 3209 "smt/combine.ml" 111 3201 3214
+type(
+  bool
+)
+"smt/combine.ml" 111 3201 3216 "smt/combine.ml" 111 3201 3220
+type(
+  bool
+)
+"smt/combine.ml" 111 3201 3209 "smt/combine.ml" 111 3201 3220
+type(
+  bool * bool
+)
+"smt/combine.ml" 111 3201 3224 "smt/combine.ml" 111 3201 3244
+type(
+  Symbols.t -> bool
+)
+ident(
+  ext_ref X5.fully_interpreted
+)
+"smt/combine.ml" 111 3201 3245 "smt/combine.ml" 111 3201 3247
+type(
+  Symbols.t
+)
+ident(
+  int_ref sb "smt/combine.ml" 108 3071 3095 "smt/combine.ml" 108 3071 3097
+)
+"smt/combine.ml" 111 3201 3224 "smt/combine.ml" 111 3201 3247
+call(
+  tail
+)
+type(
+  bool
+)
+"smt/combine.ml" 112 3248 3256 "smt/combine.ml" 112 3248 3261
+type(
+  bool
+)
+"smt/combine.ml" 112 3248 3263 "smt/combine.ml" 112 3248 3268
+type(
+  bool
+)
+"smt/combine.ml" 112 3248 3256 "smt/combine.ml" 112 3248 3268
+type(
+  bool * bool
+)
+"smt/combine.ml" 112 3248 3272 "smt/combine.ml" 112 3248 3277
+type(
+  bool
+)
+"smt/combine.ml" 113 3278 3286 "smt/combine.ml" 113 3278 3287
+type(
+  bool * bool
+)
+"smt/combine.ml" 113 3278 3298 "smt/combine.ml" 113 3278 3303
+type(
+  bool
+)
+"smt/combine.ml" 113 3278 3291 "smt/combine.ml" 113 3278 3303
+type(
+  bool
+)
+"smt/combine.ml" 109 3100 3104 "smt/combine.ml" 113 3278 3303
+type(
+  bool
+)
+"smt/combine.ml" 115 3305 3311 "smt/combine.ml" 115 3305 3317
+type(
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+ident(
+  def add_mr "smt/combine.ml" 120 3437 3439 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 116 3320 3324 "smt/combine.ml" 116 3320 3338
+type(
+  (r list MR.t -> r * r -> r list MR.t) ->
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"smt/combine.ml" 117 3340 3351 "smt/combine.ml" 117 3340 3357
+type(
+  r list MR.t
+)
+ident(
+  def solved "smt/combine.ml" 117 3340 3358 "smt/combine.ml" 118 3368 3434
+)
+"smt/combine.ml" 117 3340 3359 "smt/combine.ml" 117 3340 3360
+type(
+  MR.key
+)
+ident(
+  def p "smt/combine.ml" 118 3368 3370 "smt/combine.ml" 118 3368 3434
+)
+"smt/combine.ml" 117 3340 3361 "smt/combine.ml" 117 3340 3362
+type(
+  r
+)
+ident(
+  def v "smt/combine.ml" 118 3368 3370 "smt/combine.ml" 118 3368 3434
+)
+"smt/combine.ml" 117 3340 3358 "smt/combine.ml" 117 3340 3363
+type(
+  r * r
+)
+"smt/combine.ml" 118 3368 3370 "smt/combine.ml" 118 3368 3376
+type(
+  MR.key -> r list -> r list MR.t -> r list MR.t
+)
+ident(
+  ext_ref MR.add
+)
+"smt/combine.ml" 118 3368 3377 "smt/combine.ml" 118 3368 3378
+type(
+  MR.key
+)
+ident(
+  int_ref p "smt/combine.ml" 117 3340 3359 "smt/combine.ml" 117 3340 3360
+)
+"smt/combine.ml" 118 3368 3380 "smt/combine.ml" 118 3368 3381
+type(
+  r
+)
+ident(
+  int_ref v "smt/combine.ml" 117 3340 3361 "smt/combine.ml" 117 3340 3362
+)
+"smt/combine.ml" 118 3368 3388 "smt/combine.ml" 118 3368 3395
+type(
+  MR.key -> r list MR.t -> r list
+)
+ident(
+  ext_ref MR.find
+)
+"smt/combine.ml" 118 3368 3396 "smt/combine.ml" 118 3368 3397
+type(
+  MR.key
+)
+ident(
+  int_ref p "smt/combine.ml" 117 3340 3359 "smt/combine.ml" 117 3340 3360
+)
+"smt/combine.ml" 118 3368 3398 "smt/combine.ml" 118 3368 3404
+type(
+  r list MR.t
+)
+ident(
+  int_ref solved "smt/combine.ml" 117 3340 3351 "smt/combine.ml" 117 3340 3357
+)
+"smt/combine.ml" 118 3368 3388 "smt/combine.ml" 118 3368 3404
+call(
+  stack
+)
+type(
+  r list
+)
+"smt/combine.ml" 118 3368 3410 "smt/combine.ml" 118 3368 3419
+type(
+  exn
+)
+"smt/combine.ml" 118 3368 3423 "smt/combine.ml" 118 3368 3425
+type(
+  r list
+)
+"smt/combine.ml" 118 3368 3383 "smt/combine.ml" 118 3368 3426
+type(
+  r list
+)
+"smt/combine.ml" 118 3368 3379 "smt/combine.ml" 118 3368 3427
+type(
+  r list
+)
+"smt/combine.ml" 118 3368 3428 "smt/combine.ml" 118 3368 3434
+type(
+  r list MR.t
+)
+ident(
+  int_ref solved "smt/combine.ml" 117 3340 3351 "smt/combine.ml" 117 3340 3357
+)
+"smt/combine.ml" 118 3368 3370 "smt/combine.ml" 118 3368 3434
+call(
+  tail
+)
+type(
+  r list MR.t
+)
+"smt/combine.ml" 117 3340 3346 "smt/combine.ml" 118 3368 3435
+type(
+  r list MR.t -> r * r -> r list MR.t
+)
+"smt/combine.ml" 116 3320 3324 "smt/combine.ml" 118 3368 3435
+call(
+  stack
+)
+type(
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+"smt/combine.ml" 120 3437 3443 "smt/combine.ml" 120 3437 3453
+type(
+  r -> bool
+)
+ident(
+  def unsolvable "smt/combine.ml" 125 3550 3552 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 121 3465 3474 "smt/combine.ml" 121 3465 3475
+type(
+  X1.t
+)
+ident(
+  def x "smt/combine.ml" 121 3465 3479 "smt/combine.ml" 121 3465 3494
+)
+"smt/combine.ml" 121 3465 3471 "smt/combine.ml" 121 3465 3475
+type(
+  r
+)
+"smt/combine.ml" 121 3465 3479 "smt/combine.ml" 121 3465 3492
+type(
+  X1.t -> bool
+)
+ident(
+  ext_ref X1.unsolvable
+)
+"smt/combine.ml" 121 3465 3493 "smt/combine.ml" 121 3465 3494
+type(
+  X1.t
+)
+ident(
+  int_ref x "smt/combine.ml" 121 3465 3474 "smt/combine.ml" 121 3465 3475
+)
+"smt/combine.ml" 121 3465 3479 "smt/combine.ml" 121 3465 3494
+call(
+  tail
+)
+type(
+  bool
+)
+"smt/combine.ml" 122 3495 3504 "smt/combine.ml" 122 3495 3505
+type(
+  X5.t
+)
+ident(
+  def x "smt/combine.ml" 122 3495 3509 "smt/combine.ml" 122 3495 3524
+)
+"smt/combine.ml" 122 3495 3501 "smt/combine.ml" 122 3495 3505
+type(
+  r
+)
+"smt/combine.ml" 122 3495 3509 "smt/combine.ml" 122 3495 3522
+type(
+  X5.t -> bool
+)
+ident(
+  ext_ref X5.unsolvable
+)
+"smt/combine.ml" 122 3495 3523 "smt/combine.ml" 122 3495 3524
+type(
+  X5.t
+)
+ident(
+  int_ref x "smt/combine.ml" 122 3495 3504 "smt/combine.ml" 122 3495 3505
+)
+"smt/combine.ml" 122 3495 3509 "smt/combine.ml" 122 3495 3524
+call(
+  tail
+)
+type(
+  bool
+)
+"smt/combine.ml" 123 3526 3537 "smt/combine.ml" 123 3526 3538
+type(
+  Term.t
+)
+"smt/combine.ml" 123 3526 3532 "smt/combine.ml" 123 3526 3538
+type(
+  r
+)
+"smt/combine.ml" 123 3526 3543 "smt/combine.ml" 123 3526 3547
+type(
+  bool
+)
+"smt/combine.ml" 120 3437 3456 "smt/combine.ml" 123 3526 3547
+type(
+  r -> bool
+)
+"smt/combine.ml" 125 3550 3556 "smt/combine.ml" 125 3550 3565
+type(
+  int -> (r * r) list -> (r * r) list * (r * r) list
+)
+ident(
+  def partition "smt/combine.ml" 131 3700 3702 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 125 3550 3566 "smt/combine.ml" 125 3550 3569
+type(
+  int
+)
+ident(
+  def tag "smt/combine.ml" 126 3573 3577 "smt/combine.ml" 129 3657 3698
+)
+"smt/combine.ml" 126 3573 3577 "smt/combine.ml" 126 3573 3591
+type(
+  (r * r -> bool) -> (r * r) list -> (r * r) list * (r * r) list
+)
+ident(
+  ext_ref List.partition
+)
+"smt/combine.ml" 127 3593 3605 "smt/combine.ml" 127 3593 3606
+type(
+  r
+)
+ident(
+  def u "smt/combine.ml" 128 3614 3616 "smt/combine.ml" 129 3657 3697
+)
+"smt/combine.ml" 127 3593 3607 "smt/combine.ml" 127 3593 3608
+type(
+  r
+)
+ident(
+  def t "smt/combine.ml" 128 3614 3616 "smt/combine.ml" 129 3657 3697
+)
+"smt/combine.ml" 127 3593 3604 "smt/combine.ml" 127 3593 3609
+type(
+  r * r
+)
+"smt/combine.ml" 128 3614 3617 "smt/combine.ml" 128 3614 3627
+type(
+  r -> int
+)
+ident(
+  int_ref theory_num "smt/combine.ml" 62 1922 1928 "smt/combine.ml" 62 1922 1938
+)
+"smt/combine.ml" 128 3614 3628 "smt/combine.ml" 128 3614 3629
+type(
+  r
+)
+ident(
+  int_ref u "smt/combine.ml" 127 3593 3605 "smt/combine.ml" 127 3593 3606
+)
+"smt/combine.ml" 128 3614 3617 "smt/combine.ml" 128 3614 3629
+call(
+  stack
+)
+type(
+  int
+)
+"smt/combine.ml" 128 3614 3630 "smt/combine.ml" 128 3614 3631
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/combine.ml" 128 3614 3632 "smt/combine.ml" 128 3614 3635
+type(
+  int
+)
+ident(
+  int_ref tag "smt/combine.ml" 125 3550 3566 "smt/combine.ml" 125 3550 3569
+)
+"smt/combine.ml" 128 3614 3617 "smt/combine.ml" 128 3614 3635
+type(
+  bool
+)
+"smt/combine.ml" 128 3614 3636 "smt/combine.ml" 128 3614 3638
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"smt/combine.ml" 128 3614 3639 "smt/combine.ml" 128 3614 3649
+type(
+  r -> bool
+)
+ident(
+  int_ref unsolvable "smt/combine.ml" 120 3437 3443 "smt/combine.ml" 120 3437 3453
+)
+"smt/combine.ml" 128 3614 3650 "smt/combine.ml" 128 3614 3651
+type(
+  r
+)
+ident(
+  int_ref u "smt/combine.ml" 127 3593 3605 "smt/combine.ml" 127 3593 3606
+)
+"smt/combine.ml" 128 3614 3639 "smt/combine.ml" 128 3614 3651
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/combine.ml" 128 3614 3616 "smt/combine.ml" 128 3614 3652
+type(
+  bool
+)
+"smt/combine.ml" 128 3614 3653 "smt/combine.ml" 128 3614 3655
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"smt/combine.ml" 129 3657 3662 "smt/combine.ml" 129 3657 3672
+type(
+  r -> int
+)
+ident(
+  int_ref theory_num "smt/combine.ml" 62 1922 1928 "smt/combine.ml" 62 1922 1938
+)
+"smt/combine.ml" 129 3657 3673 "smt/combine.ml" 129 3657 3674
+type(
+  r
+)
+ident(
+  int_ref t "smt/combine.ml" 127 3593 3607 "smt/combine.ml" 127 3593 3608
+)
+"smt/combine.ml" 129 3657 3662 "smt/combine.ml" 129 3657 3674
+call(
+  stack
+)
+type(
+  int
+)
+"smt/combine.ml" 129 3657 3675 "smt/combine.ml" 129 3657 3676
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/combine.ml" 129 3657 3677 "smt/combine.ml" 129 3657 3680
+type(
+  int
+)
+ident(
+  int_ref tag "smt/combine.ml" 125 3550 3566 "smt/combine.ml" 125 3550 3569
+)
+"smt/combine.ml" 129 3657 3662 "smt/combine.ml" 129 3657 3680
+type(
+  bool
+)
+"smt/combine.ml" 129 3657 3681 "smt/combine.ml" 129 3657 3683
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"smt/combine.ml" 129 3657 3684 "smt/combine.ml" 129 3657 3694
+type(
+  r -> bool
+)
+ident(
+  int_ref unsolvable "smt/combine.ml" 120 3437 3443 "smt/combine.ml" 120 3437 3453
+)
+"smt/combine.ml" 129 3657 3695 "smt/combine.ml" 129 3657 3696
+type(
+  r
+)
+ident(
+  int_ref t "smt/combine.ml" 127 3593 3607 "smt/combine.ml" 127 3593 3608
+)
+"smt/combine.ml" 129 3657 3684 "smt/combine.ml" 129 3657 3696
+call(
+  tail
+)
+type(
+  bool
+)
+"smt/combine.ml" 129 3657 3661 "smt/combine.ml" 129 3657 3697
+type(
+  bool
+)
+"smt/combine.ml" 128 3614 3616 "smt/combine.ml" 129 3657 3697
+type(
+  bool
+)
+"smt/combine.ml" 127 3593 3599 "smt/combine.ml" 129 3657 3698
+type(
+  r * r -> bool
+)
+"smt/combine.ml" 126 3573 3577 "smt/combine.ml" 129 3657 3698
+call(
+  tail
+)
+type(
+  (r * r) list -> (r * r) list * (r * r) list
+)
+"smt/combine.ml" 131 3700 3710 "smt/combine.ml" 131 3700 3720
+type(
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+ident(
+  def solve_list "smt/combine.ml" 131 3700 3702 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 131 3700 3722 "smt/combine.ml" 131 3700 3728
+type(
+  r list MR.t
+)
+ident(
+  def solved "smt/combine.ml" 131 3700 3729 "smt/combine.ml" 150 4337 4353
+)
+"smt/combine.ml" 131 3700 3729 "smt/combine.ml" 131 3700 3730
+type(
+  (r * r) list
+)
+ident(
+  def l "smt/combine.ml" 132 3733 3737 "smt/combine.ml" 150 4337 4353
+)
+"smt/combine.ml" 132 3733 3737 "smt/combine.ml" 132 3733 3751
+type(
+  (r list MR.t -> r * r -> r list MR.t) ->
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"smt/combine.ml" 133 3752 3763 "smt/combine.ml" 133 3752 3769
+type(
+  r list MR.t
+)
+ident(
+  def solved "smt/combine.ml" 133 3752 3770 "smt/combine.ml" 149 4294 4336
+)
+"smt/combine.ml" 133 3752 3771 "smt/combine.ml" 133 3752 3772
+type(
+  r
+)
+ident(
+  def a "smt/combine.ml" 134 3780 3782 "smt/combine.ml" 149 4294 4336
+)
+"smt/combine.ml" 133 3752 3773 "smt/combine.ml" 133 3752 3774
+type(
+  r
+)
+ident(
+  def b "smt/combine.ml" 134 3780 3782 "smt/combine.ml" 149 4294 4336
+)
+"smt/combine.ml" 133 3752 3770 "smt/combine.ml" 133 3752 3775
+type(
+  r * r
+)
+"smt/combine.ml" 134 3780 3786 "smt/combine.ml" 134 3780 3789
+type(
+  int
+)
+ident(
+  def cmp "smt/combine.ml" 135 3807 3809 "smt/combine.ml" 149 4294 4336
+)
+"smt/combine.ml" 134 3780 3792 "smt/combine.ml" 134 3780 3799
+type(
+  r -> r -> int
+)
+ident(
+  int_ref compare "smt/combine.ml" 48 1536 1546 "smt/combine.ml" 48 1536 1553
+)
+"smt/combine.ml" 134 3780 3800 "smt/combine.ml" 134 3780 3801
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 133 3752 3771 "smt/combine.ml" 133 3752 3772
+)
+"smt/combine.ml" 134 3780 3802 "smt/combine.ml" 134 3780 3803
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 133 3752 3773 "smt/combine.ml" 133 3752 3774
+)
+"smt/combine.ml" 134 3780 3792 "smt/combine.ml" 134 3780 3803
+call(
+  stack
+)
+type(
+  int
+)
+"smt/combine.ml" 135 3807 3812 "smt/combine.ml" 135 3807 3815
+type(
+  int
+)
+ident(
+  int_ref cmp "smt/combine.ml" 134 3780 3786 "smt/combine.ml" 134 3780 3789
+)
+"smt/combine.ml" 135 3807 3816 "smt/combine.ml" 135 3807 3817
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/combine.ml" 135 3807 3818 "smt/combine.ml" 135 3807 3819
+type(
+  int
+)
+"smt/combine.ml" 135 3807 3812 "smt/combine.ml" 135 3807 3819
+type(
+  bool
+)
+"smt/combine.ml" 135 3807 3825 "smt/combine.ml" 135 3807 3831
+type(
+  r list MR.t
+)
+ident(
+  int_ref solved "smt/combine.ml" 133 3752 3763 "smt/combine.ml" 133 3752 3769
+)
+"smt/combine.ml" 136 3837 3847 "smt/combine.ml" 136 3837 3848
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 133 3752 3771 "smt/combine.ml" 133 3752 3772
+)
+"smt/combine.ml" 136 3837 3851 "smt/combine.ml" 136 3837 3852
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 133 3752 3773 "smt/combine.ml" 133 3752 3774
+)
+"smt/combine.ml" 136 3837 3847 "smt/combine.ml" 136 3837 3852
+type(
+  r * r
+)
+"smt/combine.ml" 138 3893 3906 "smt/combine.ml" 138 3893 3907
+type(
+  Term.t
+)
+"smt/combine.ml" 138 3893 3901 "smt/combine.ml" 138 3893 3907
+type(
+  r
+)
+"smt/combine.ml" 138 3893 3915 "smt/combine.ml" 138 3893 3916
+type(
+  Term.t
+)
+"smt/combine.ml" 138 3893 3910 "smt/combine.ml" 138 3893 3916
+type(
+  r
+)
+"smt/combine.ml" 138 3893 3901 "smt/combine.ml" 138 3893 3916
+type(
+  r * r
+)
+"smt/combine.ml" 139 3922 3925 "smt/combine.ml" 139 3922 3931
+type(
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+ident(
+  int_ref add_mr "smt/combine.ml" 115 3305 3311 "smt/combine.ml" 115 3305 3317
+)
+"smt/combine.ml" 139 3922 3932 "smt/combine.ml" 139 3922 3938
+type(
+  r list MR.t
+)
+ident(
+  int_ref solved "smt/combine.ml" 133 3752 3763 "smt/combine.ml" 133 3752 3769
+)
+"smt/combine.ml" 139 3922 3940 "smt/combine.ml" 139 3922 3957
+type(
+  int -> r -> r -> (r * r) list
+)
+ident(
+  int_ref unsolvable_values "smt/combine.ml" 152 4355 4361 "smt/combine.ml" 152 4355 4378
+)
+"smt/combine.ml" 139 3922 3958 "smt/combine.ml" 139 3922 3961
+type(
+  int
+)
+ident(
+  int_ref cmp "smt/combine.ml" 134 3780 3786 "smt/combine.ml" 134 3780 3789
+)
+"smt/combine.ml" 139 3922 3963 "smt/combine.ml" 139 3922 3964
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 133 3752 3771 "smt/combine.ml" 133 3752 3772
+)
+"smt/combine.ml" 139 3922 3965 "smt/combine.ml" 139 3922 3966
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 133 3752 3773 "smt/combine.ml" 133 3752 3774
+)
+"smt/combine.ml" 139 3922 3939 "smt/combine.ml" 139 3922 3967
+call(
+  stack
+)
+type(
+  (r * r) list
+)
+"smt/combine.ml" 139 3922 3925 "smt/combine.ml" 139 3922 3967
+call(
+  tail
+)
+type(
+  r list MR.t
+)
+"smt/combine.ml" 142 4009 4018 "smt/combine.ml" 142 4009 4019
+type(
+  r
+)
+ident(
+  def a "smt/combine.ml" 143 4025 4047 "smt/combine.ml" 146 4213 4250
+)
+"smt/combine.ml" 142 4009 4021 "smt/combine.ml" 142 4009 4022
+type(
+  r
+)
+ident(
+  def b "smt/combine.ml" 143 4025 4047 "smt/combine.ml" 146 4213 4250
+)
+"smt/combine.ml" 142 4009 4017 "smt/combine.ml" 142 4009 4023
+type(
+  r * r
+)
+"smt/combine.ml" 143 4025 4047 "smt/combine.ml" 143 4025 4057
+type(
+  r -> bool
+)
+ident(
+  int_ref unsolvable "smt/combine.ml" 120 3437 3443 "smt/combine.ml" 120 3437 3453
+)
+"smt/combine.ml" 143 4025 4058 "smt/combine.ml" 143 4025 4059
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 142 4009 4018 "smt/combine.ml" 142 4009 4019
+)
+"smt/combine.ml" 143 4025 4047 "smt/combine.ml" 143 4025 4059
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/combine.ml" 143 4025 4060 "smt/combine.ml" 143 4025 4062
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"smt/combine.ml" 143 4025 4063 "smt/combine.ml" 143 4025 4073
+type(
+  r -> bool
+)
+ident(
+  int_ref unsolvable "smt/combine.ml" 120 3437 3443 "smt/combine.ml" 120 3437 3453
+)
+"smt/combine.ml" 143 4025 4074 "smt/combine.ml" 143 4025 4075
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 142 4009 4021 "smt/combine.ml" 142 4009 4022
+)
+"smt/combine.ml" 143 4025 4063 "smt/combine.ml" 143 4025 4075
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/combine.ml" 143 4025 4076 "smt/combine.ml" 143 4025 4078
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"smt/combine.ml" 143 4025 4080 "smt/combine.ml" 143 4025 4091
+type(
+  r -> r -> int
+)
+ident(
+  int_ref compare_tag "smt/combine.ml" 52 1632 1638 "smt/combine.ml" 52 1632 1649
+)
+"smt/combine.ml" 143 4025 4092 "smt/combine.ml" 143 4025 4093
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 142 4009 4018 "smt/combine.ml" 142 4009 4019
+)
+"smt/combine.ml" 143 4025 4094 "smt/combine.ml" 143 4025 4095
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 142 4009 4021 "smt/combine.ml" 142 4009 4022
+)
+"smt/combine.ml" 143 4025 4080 "smt/combine.ml" 143 4025 4095
+call(
+  stack
+)
+type(
+  int
+)
+"smt/combine.ml" 143 4025 4096 "smt/combine.ml" 143 4025 4097
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/combine.ml" 143 4025 4098 "smt/combine.ml" 143 4025 4099
+type(
+  int
+)
+"smt/combine.ml" 143 4025 4080 "smt/combine.ml" 143 4025 4099
+type(
+  bool
+)
+"smt/combine.ml" 143 4025 4063 "smt/combine.ml" 143 4025 4099
+type(
+  bool
+)
+"smt/combine.ml" 143 4025 4047 "smt/combine.ml" 143 4025 4099
+type(
+  bool
+)
+"smt/combine.ml" 144 4103 4110 "smt/combine.ml" 144 4103 4111
+type(
+  r
+)
+ident(
+  def a "smt/combine.ml" 145 4153 4156 "smt/combine.ml" 146 4213 4250
+)
+"smt/combine.ml" 144 4103 4112 "smt/combine.ml" 144 4103 4113
+type(
+  r
+)
+ident(
+  def b "smt/combine.ml" 145 4153 4156 "smt/combine.ml" 146 4213 4250
+)
+"smt/combine.ml" 144 4103 4110 "smt/combine.ml" 144 4103 4113
+type(
+  r * r
+)
+"smt/combine.ml" 144 4103 4119 "smt/combine.ml" 144 4103 4129
+type(
+  r -> bool
+)
+ident(
+  int_ref unsolvable "smt/combine.ml" 120 3437 3443 "smt/combine.ml" 120 3437 3453
+)
+"smt/combine.ml" 144 4103 4130 "smt/combine.ml" 144 4103 4131
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 142 4009 4018 "smt/combine.ml" 142 4009 4019
+)
+"smt/combine.ml" 144 4103 4119 "smt/combine.ml" 144 4103 4131
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/combine.ml" 144 4103 4137 "smt/combine.ml" 144 4103 4138
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 142 4009 4021 "smt/combine.ml" 142 4009 4022
+)
+"smt/combine.ml" 144 4103 4139 "smt/combine.ml" 144 4103 4140
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 142 4009 4018 "smt/combine.ml" 142 4009 4019
+)
+"smt/combine.ml" 144 4103 4137 "smt/combine.ml" 144 4103 4140
+type(
+  r * r
+)
+"smt/combine.ml" 144 4103 4146 "smt/combine.ml" 144 4103 4147
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 142 4009 4018 "smt/combine.ml" 142 4009 4019
+)
+"smt/combine.ml" 144 4103 4148 "smt/combine.ml" 144 4103 4149
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 142 4009 4021 "smt/combine.ml" 142 4009 4022
+)
+"smt/combine.ml" 144 4103 4146 "smt/combine.ml" 144 4103 4149
+type(
+  r * r
+)
+"smt/combine.ml" 144 4103 4116 "smt/combine.ml" 144 4103 4149
+type(
+  r * r
+)
+"smt/combine.ml" 145 4153 4160 "smt/combine.ml" 145 4153 4162
+type(
+  (r * r) list
+)
+ident(
+  def cp "smt/combine.ml" 146 4213 4216 "smt/combine.ml" 146 4213 4250
+)
+"smt/combine.ml" 145 4153 4165 "smt/combine.ml" 145 4153 4168
+type(
+  (r * r) list
+)
+ident(
+  def sol "smt/combine.ml" 146 4213 4216 "smt/combine.ml" 146 4213 4250
+)
+"smt/combine.ml" 145 4153 4160 "smt/combine.ml" 145 4153 4168
+type(
+  (r * r) list * (r * r) list
+)
+"smt/combine.ml" 145 4153 4171 "smt/combine.ml" 145 4153 4180
+type(
+  int -> (r * r) list -> (r * r) list * (r * r) list
+)
+ident(
+  int_ref partition "smt/combine.ml" 125 3550 3556 "smt/combine.ml" 125 3550 3565
+)
+"smt/combine.ml" 145 4153 4182 "smt/combine.ml" 145 4153 4192
+type(
+  r -> int
+)
+ident(
+  int_ref theory_num "smt/combine.ml" 62 1922 1928 "smt/combine.ml" 62 1922 1938
+)
+"smt/combine.ml" 145 4153 4193 "smt/combine.ml" 145 4153 4194
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 144 4103 4110 "smt/combine.ml" 144 4103 4111
+)
+"smt/combine.ml" 145 4153 4181 "smt/combine.ml" 145 4153 4195
+call(
+  stack
+)
+type(
+  int
+)
+"smt/combine.ml" 145 4153 4197 "smt/combine.ml" 145 4153 4203
+type(
+  r -> r -> (r * r) list
+)
+ident(
+  int_ref solvei "smt/combine.ml" 168 4892 4898 "smt/combine.ml" 168 4892 4904
+)
+"smt/combine.ml" 145 4153 4205 "smt/combine.ml" 145 4153 4206
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 144 4103 4112 "smt/combine.ml" 144 4103 4113
+)
+"smt/combine.ml" 145 4153 4207 "smt/combine.ml" 145 4153 4208
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 144 4103 4110 "smt/combine.ml" 144 4103 4111
+)
+"smt/combine.ml" 145 4153 4196 "smt/combine.ml" 145 4153 4209
+call(
+  stack
+)
+type(
+  (r * r) list
+)
+"smt/combine.ml" 145 4153 4171 "smt/combine.ml" 145 4153 4209
+call(
+  stack
+)
+type(
+  (r * r) list * (r * r) list
+)
+"smt/combine.ml" 146 4213 4216 "smt/combine.ml" 146 4213 4226
+type(
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+ident(
+  int_ref solve_list "smt/combine.ml" 131 3700 3710 "smt/combine.ml" 131 3700 3720
+)
+"smt/combine.ml" 146 4213 4229 "smt/combine.ml" 146 4213 4235
+type(
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+ident(
+  int_ref add_mr "smt/combine.ml" 115 3305 3311 "smt/combine.ml" 115 3305 3317
+)
+"smt/combine.ml" 146 4213 4236 "smt/combine.ml" 146 4213 4242
+type(
+  r list MR.t
+)
+ident(
+  int_ref solved "smt/combine.ml" 133 3752 3763 "smt/combine.ml" 133 3752 3769
+)
+"smt/combine.ml" 146 4213 4243 "smt/combine.ml" 146 4213 4245
+type(
+  (r * r) list
+)
+ident(
+  int_ref cp "smt/combine.ml" 145 4153 4160 "smt/combine.ml" 145 4153 4162
+)
+"smt/combine.ml" 146 4213 4228 "smt/combine.ml" 146 4213 4246
+call(
+  stack
+)
+type(
+  r list MR.t
+)
+"smt/combine.ml" 146 4213 4247 "smt/combine.ml" 146 4213 4250
+type(
+  (r * r) list
+)
+ident(
+  int_ref sol "smt/combine.ml" 145 4153 4165 "smt/combine.ml" 145 4153 4168
+)
+"smt/combine.ml" 146 4213 4216 "smt/combine.ml" 146 4213 4250
+call(
+  tail
+)
+type(
+  r list MR.t
+)
+"smt/combine.ml" 145 4153 4156 "smt/combine.ml" 146 4213 4250
+type(
+  r list MR.t
+)
+"smt/combine.ml" 144 4103 4106 "smt/combine.ml" 146 4213 4250
+type(
+  r list MR.t
+)
+"smt/combine.ml" 149 4294 4302 "smt/combine.ml" 149 4294 4303
+type(
+  r
+)
+ident(
+  def a "smt/combine.ml" 149 4294 4311 "smt/combine.ml" 149 4294 4336
+)
+"smt/combine.ml" 149 4294 4306 "smt/combine.ml" 149 4294 4307
+type(
+  r
+)
+ident(
+  def b "smt/combine.ml" 149 4294 4311 "smt/combine.ml" 149 4294 4336
+)
+"smt/combine.ml" 149 4294 4302 "smt/combine.ml" 149 4294 4307
+type(
+  r * r
+)
+"smt/combine.ml" 149 4294 4311 "smt/combine.ml" 149 4294 4324
+type(
+  r list MR.t -> r -> r -> r list MR.t
+)
+ident(
+  int_ref solve_theoryj "smt/combine.ml" 164 4719 4725 "smt/combine.ml" 164 4719 4738
+)
+"smt/combine.ml" 149 4294 4326 "smt/combine.ml" 149 4294 4332
+type(
+  r list MR.t
+)
+ident(
+  int_ref solved "smt/combine.ml" 133 3752 3763 "smt/combine.ml" 133 3752 3769
+)
+"smt/combine.ml" 149 4294 4333 "smt/combine.ml" 149 4294 4334
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 149 4294 4302 "smt/combine.ml" 149 4294 4303
+)
+"smt/combine.ml" 149 4294 4335 "smt/combine.ml" 149 4294 4336
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 149 4294 4306 "smt/combine.ml" 149 4294 4307
+)
+"smt/combine.ml" 149 4294 4311 "smt/combine.ml" 149 4294 4336
+call(
+  tail
+)
+type(
+  r list MR.t
+)
+"smt/combine.ml" 136 3837 3841 "smt/combine.ml" 149 4294 4336
+type(
+  r list MR.t
+)
+"smt/combine.ml" 135 3807 3809 "smt/combine.ml" 149 4294 4336
+type(
+  r list MR.t
+)
+"smt/combine.ml" 134 3780 3782 "smt/combine.ml" 149 4294 4336
+type(
+  r list MR.t
+)
+"smt/combine.ml" 133 3752 3758 "smt/combine.ml" 150 4337 4344
+type(
+  r list MR.t -> r * r -> r list MR.t
+)
+"smt/combine.ml" 150 4337 4345 "smt/combine.ml" 150 4337 4351
+type(
+  r list MR.t
+)
+ident(
+  int_ref solved "smt/combine.ml" 131 3700 3722 "smt/combine.ml" 131 3700 3728
+)
+"smt/combine.ml" 150 4337 4352 "smt/combine.ml" 150 4337 4353
+type(
+  (r * r) list
+)
+ident(
+  int_ref l "smt/combine.ml" 131 3700 3729 "smt/combine.ml" 131 3700 3730
+)
+"smt/combine.ml" 132 3733 3737 "smt/combine.ml" 150 4337 4353
+call(
+  tail
+)
+type(
+  r list MR.t
+)
+"smt/combine.ml" 152 4355 4361 "smt/combine.ml" 152 4355 4378
+type(
+  int -> r -> r -> (r * r) list
+)
+ident(
+  def unsolvable_values "smt/combine.ml" 131 3700 3702 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 152 4355 4379 "smt/combine.ml" 152 4355 4382
+type(
+  int
+)
+ident(
+  def cmp "smt/combine.ml" 152 4355 4383 "smt/combine.ml" 162 4661 4717
+)
+"smt/combine.ml" 152 4355 4383 "smt/combine.ml" 152 4355 4384
+type(
+  r
+)
+ident(
+  def a "smt/combine.ml" 152 4355 4385 "smt/combine.ml" 162 4661 4717
+)
+"smt/combine.ml" 152 4355 4385 "smt/combine.ml" 152 4355 4386
+type(
+  r
+)
+ident(
+  def b "smt/combine.ml" 153 4389 4393 "smt/combine.ml" 162 4661 4717
+)
+"smt/combine.ml" 153 4389 4399 "smt/combine.ml" 153 4389 4400
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 152 4355 4383 "smt/combine.ml" 152 4355 4384
+)
+"smt/combine.ml" 153 4389 4402 "smt/combine.ml" 153 4389 4403
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 152 4355 4385 "smt/combine.ml" 152 4355 4386
+)
+"smt/combine.ml" 153 4389 4399 "smt/combine.ml" 153 4389 4403
+type(
+  r * r
+)
+"smt/combine.ml" 155 4467 4478 "smt/combine.ml" 155 4467 4479
+type(
+  X1.t
+)
+"smt/combine.ml" 155 4467 4475 "smt/combine.ml" 155 4467 4479
+type(
+  r
+)
+"smt/combine.ml" 155 4467 4484 "smt/combine.ml" 155 4467 4485
+type(
+  X5.t
+)
+"smt/combine.ml" 155 4467 4481 "smt/combine.ml" 155 4467 4485
+type(
+  r
+)
+"smt/combine.ml" 155 4467 4475 "smt/combine.ml" 155 4467 4485
+type(
+  r * r
+)
+"smt/combine.ml" 156 4486 4497 "smt/combine.ml" 156 4486 4498
+type(
+  X5.t
+)
+"smt/combine.ml" 156 4486 4494 "smt/combine.ml" 156 4486 4498
+type(
+  r
+)
+"smt/combine.ml" 156 4486 4503 "smt/combine.ml" 156 4486 4504
+type(
+  X1.t
+)
+"smt/combine.ml" 156 4486 4500 "smt/combine.ml" 156 4486 4504
+type(
+  r
+)
+"smt/combine.ml" 156 4486 4494 "smt/combine.ml" 156 4486 4504
+type(
+  r * r
+)
+"smt/combine.ml" 155 4467 4475 "smt/combine.ml" 156 4486 4504
+type(
+  r * r
+)
+"smt/combine.ml" 157 4506 4523 "smt/combine.ml" 157 4506 4528
+type(
+  bool
+)
+"smt/combine.ml" 157 4506 4516 "smt/combine.ml" 157 4506 4528
+type(
+  (r * r) list
+)
+"smt/combine.ml" 160 4577 4588 "smt/combine.ml" 160 4577 4589
+type(
+  X1.t
+)
+"smt/combine.ml" 160 4577 4585 "smt/combine.ml" 160 4577 4589
+type(
+  r
+)
+"smt/combine.ml" 160 4577 4591 "smt/combine.ml" 160 4577 4592
+type(
+  r
+)
+"smt/combine.ml" 160 4577 4585 "smt/combine.ml" 160 4577 4592
+type(
+  r * r
+)
+"smt/combine.ml" 160 4577 4595 "smt/combine.ml" 160 4577 4596
+type(
+  r
+)
+"smt/combine.ml" 160 4577 4601 "smt/combine.ml" 160 4577 4602
+type(
+  X1.t
+)
+"smt/combine.ml" 160 4577 4598 "smt/combine.ml" 160 4577 4602
+type(
+  r
+)
+"smt/combine.ml" 160 4577 4595 "smt/combine.ml" 160 4577 4602
+type(
+  r * r
+)
+"smt/combine.ml" 160 4577 4585 "smt/combine.ml" 160 4577 4602
+type(
+  r * r
+)
+"smt/combine.ml" 160 4577 4606 "smt/combine.ml" 160 4577 4614
+type(
+  X1.r -> X1.r -> (r * r) list
+)
+ident(
+  ext_ref X1.solve
+)
+"smt/combine.ml" 160 4577 4615 "smt/combine.ml" 160 4577 4616
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 152 4355 4383 "smt/combine.ml" 152 4355 4384
+)
+"smt/combine.ml" 160 4577 4617 "smt/combine.ml" 160 4577 4618
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 152 4355 4385 "smt/combine.ml" 152 4355 4386
+)
+"smt/combine.ml" 160 4577 4606 "smt/combine.ml" 160 4577 4618
+call(
+  tail
+)
+type(
+  (r * r) list
+)
+"smt/combine.ml" 161 4619 4630 "smt/combine.ml" 161 4619 4631
+type(
+  X5.t
+)
+"smt/combine.ml" 161 4619 4627 "smt/combine.ml" 161 4619 4631
+type(
+  r
+)
+"smt/combine.ml" 161 4619 4633 "smt/combine.ml" 161 4619 4634
+type(
+  r
+)
+"smt/combine.ml" 161 4619 4627 "smt/combine.ml" 161 4619 4634
+type(
+  r * r
+)
+"smt/combine.ml" 161 4619 4637 "smt/combine.ml" 161 4619 4638
+type(
+  r
+)
+"smt/combine.ml" 161 4619 4643 "smt/combine.ml" 161 4619 4644
+type(
+  X5.t
+)
+"smt/combine.ml" 161 4619 4640 "smt/combine.ml" 161 4619 4644
+type(
+  r
+)
+"smt/combine.ml" 161 4619 4637 "smt/combine.ml" 161 4619 4644
+type(
+  r * r
+)
+"smt/combine.ml" 161 4619 4627 "smt/combine.ml" 161 4619 4644
+type(
+  r * r
+)
+"smt/combine.ml" 161 4619 4648 "smt/combine.ml" 161 4619 4656
+type(
+  X5.r -> X5.r -> (r * r) list
+)
+ident(
+  ext_ref X5.solve
+)
+"smt/combine.ml" 161 4619 4657 "smt/combine.ml" 161 4619 4658
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 152 4355 4383 "smt/combine.ml" 152 4355 4384
+)
+"smt/combine.ml" 161 4619 4659 "smt/combine.ml" 161 4619 4660
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 152 4355 4385 "smt/combine.ml" 152 4355 4386
+)
+"smt/combine.ml" 161 4619 4648 "smt/combine.ml" 161 4619 4660
+call(
+  tail
+)
+type(
+  (r * r) list
+)
+"smt/combine.ml" 162 4661 4674 "smt/combine.ml" 162 4661 4675
+type(
+  Term.t
+)
+"smt/combine.ml" 162 4661 4669 "smt/combine.ml" 162 4661 4675
+type(
+  r
+)
+"smt/combine.ml" 162 4661 4682 "smt/combine.ml" 162 4661 4683
+type(
+  Term.t
+)
+"smt/combine.ml" 162 4661 4677 "smt/combine.ml" 162 4661 4683
+type(
+  r
+)
+"smt/combine.ml" 162 4661 4669 "smt/combine.ml" 162 4661 4683
+type(
+  r * r
+)
+"smt/combine.ml" 162 4661 4691 "smt/combine.ml" 162 4661 4694
+type(
+  int
+)
+ident(
+  int_ref cmp "smt/combine.ml" 152 4355 4379 "smt/combine.ml" 152 4355 4382
+)
+"smt/combine.ml" 162 4661 4695 "smt/combine.ml" 162 4661 4696
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"smt/combine.ml" 162 4661 4697 "smt/combine.ml" 162 4661 4698
+type(
+  int
+)
+"smt/combine.ml" 162 4661 4691 "smt/combine.ml" 162 4661 4698
+type(
+  bool
+)
+"smt/combine.ml" 162 4661 4704 "smt/combine.ml" 162 4661 4705
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 152 4355 4383 "smt/combine.ml" 152 4355 4384
+)
+"smt/combine.ml" 162 4661 4706 "smt/combine.ml" 162 4661 4707
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 152 4355 4385 "smt/combine.ml" 152 4355 4386
+)
+"smt/combine.ml" 162 4661 4704 "smt/combine.ml" 162 4661 4707
+type(
+  r * r
+)
+"smt/combine.ml" 162 4661 4713 "smt/combine.ml" 162 4661 4714
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 152 4355 4385 "smt/combine.ml" 152 4355 4386
+)
+"smt/combine.ml" 162 4661 4715 "smt/combine.ml" 162 4661 4716
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 152 4355 4383 "smt/combine.ml" 152 4355 4384
+)
+"smt/combine.ml" 162 4661 4713 "smt/combine.ml" 162 4661 4716
+type(
+  r * r
+)
+"smt/combine.ml" 162 4661 4688 "smt/combine.ml" 162 4661 4716
+type(
+  r * r
+)
+"smt/combine.ml" 162 4661 4687 "smt/combine.ml" 162 4661 4717
+type(
+  (r * r) list
+)
+"smt/combine.ml" 153 4389 4393 "smt/combine.ml" 162 4661 4717
+type(
+  (r * r) list
+)
+"smt/combine.ml" 164 4719 4725 "smt/combine.ml" 164 4719 4738
+type(
+  r list MR.t -> r -> r -> r list MR.t
+)
+ident(
+  def solve_theoryj "smt/combine.ml" 131 3700 3702 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 164 4719 4739 "smt/combine.ml" 164 4719 4745
+type(
+  r list MR.t
+)
+ident(
+  def solved "smt/combine.ml" 164 4719 4746 "smt/combine.ml" 166 4818 4890
+)
+"smt/combine.ml" 164 4719 4746 "smt/combine.ml" 164 4719 4748
+type(
+  r
+)
+ident(
+  def xi "smt/combine.ml" 164 4719 4749 "smt/combine.ml" 166 4818 4890
+)
+"smt/combine.ml" 164 4719 4749 "smt/combine.ml" 164 4719 4751
+type(
+  r
+)
+ident(
+  def xj "smt/combine.ml" 165 4754 4758 "smt/combine.ml" 166 4818 4890
+)
+"smt/combine.ml" 165 4754 4762 "smt/combine.ml" 165 4754 4764
+type(
+  (r * r) list
+)
+ident(
+  def cp "smt/combine.ml" 166 4818 4822 "smt/combine.ml" 166 4818 4890
+)
+"smt/combine.ml" 165 4754 4767 "smt/combine.ml" 165 4754 4770
+type(
+  (r * r) list
+)
+ident(
+  def sol "smt/combine.ml" 166 4818 4822 "smt/combine.ml" 166 4818 4890
+)
+"smt/combine.ml" 165 4754 4762 "smt/combine.ml" 165 4754 4770
+type(
+  (r * r) list * (r * r) list
+)
+"smt/combine.ml" 165 4754 4773 "smt/combine.ml" 165 4754 4782
+type(
+  int -> (r * r) list -> (r * r) list * (r * r) list
+)
+ident(
+  int_ref partition "smt/combine.ml" 125 3550 3556 "smt/combine.ml" 125 3550 3565
+)
+"smt/combine.ml" 165 4754 4784 "smt/combine.ml" 165 4754 4794
+type(
+  r -> int
+)
+ident(
+  int_ref theory_num "smt/combine.ml" 62 1922 1928 "smt/combine.ml" 62 1922 1938
+)
+"smt/combine.ml" 165 4754 4795 "smt/combine.ml" 165 4754 4797
+type(
+  r
+)
+ident(
+  int_ref xj "smt/combine.ml" 164 4719 4749 "smt/combine.ml" 164 4719 4751
+)
+"smt/combine.ml" 165 4754 4783 "smt/combine.ml" 165 4754 4798
+call(
+  stack
+)
+type(
+  int
+)
+"smt/combine.ml" 165 4754 4800 "smt/combine.ml" 165 4754 4806
+type(
+  r -> r -> (r * r) list
+)
+ident(
+  int_ref solvei "smt/combine.ml" 168 4892 4898 "smt/combine.ml" 168 4892 4904
+)
+"smt/combine.ml" 165 4754 4808 "smt/combine.ml" 165 4754 4810
+type(
+  r
+)
+ident(
+  int_ref xi "smt/combine.ml" 164 4719 4746 "smt/combine.ml" 164 4719 4748
+)
+"smt/combine.ml" 165 4754 4811 "smt/combine.ml" 165 4754 4813
+type(
+  r
+)
+ident(
+  int_ref xj "smt/combine.ml" 164 4719 4749 "smt/combine.ml" 164 4719 4751
+)
+"smt/combine.ml" 165 4754 4799 "smt/combine.ml" 165 4754 4814
+call(
+  stack
+)
+type(
+  (r * r) list
+)
+"smt/combine.ml" 165 4754 4773 "smt/combine.ml" 165 4754 4814
+call(
+  stack
+)
+type(
+  (r * r) list * (r * r) list
+)
+"smt/combine.ml" 166 4818 4822 "smt/combine.ml" 166 4818 4832
+type(
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+ident(
+  int_ref solve_list "smt/combine.ml" 131 3700 3710 "smt/combine.ml" 131 3700 3720
+)
+"smt/combine.ml" 166 4818 4835 "smt/combine.ml" 166 4818 4841
+type(
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+ident(
+  int_ref add_mr "smt/combine.ml" 115 3305 3311 "smt/combine.ml" 115 3305 3317
+)
+"smt/combine.ml" 166 4818 4842 "smt/combine.ml" 166 4818 4848
+type(
+  r list MR.t
+)
+ident(
+  int_ref solved "smt/combine.ml" 164 4719 4739 "smt/combine.ml" 164 4719 4745
+)
+"smt/combine.ml" 166 4818 4849 "smt/combine.ml" 166 4818 4851
+type(
+  (r * r) list
+)
+ident(
+  int_ref cp "smt/combine.ml" 165 4754 4762 "smt/combine.ml" 165 4754 4764
+)
+"smt/combine.ml" 166 4818 4834 "smt/combine.ml" 166 4818 4852
+call(
+  stack
+)
+type(
+  r list MR.t
+)
+"smt/combine.ml" 166 4818 4854 "smt/combine.ml" 166 4818 4866
+type(
+  (r * r -> r * r) -> (r * r) list -> (r * r) list
+)
+ident(
+  ext_ref List.rev_map
+)
+"smt/combine.ml" 166 4818 4873 "smt/combine.ml" 166 4818 4874
+type(
+  r
+)
+ident(
+  def x "smt/combine.ml" 166 4818 4881 "smt/combine.ml" 166 4818 4884
+)
+"smt/combine.ml" 166 4818 4875 "smt/combine.ml" 166 4818 4876
+type(
+  r
+)
+ident(
+  def y "smt/combine.ml" 166 4818 4881 "smt/combine.ml" 166 4818 4884
+)
+"smt/combine.ml" 166 4818 4872 "smt/combine.ml" 166 4818 4877
+type(
+  r * r
+)
+"smt/combine.ml" 166 4818 4881 "smt/combine.ml" 166 4818 4882
+type(
+  r
+)
+ident(
+  int_ref y "smt/combine.ml" 166 4818 4875 "smt/combine.ml" 166 4818 4876
+)
+"smt/combine.ml" 166 4818 4883 "smt/combine.ml" 166 4818 4884
+type(
+  r
+)
+ident(
+  int_ref x "smt/combine.ml" 166 4818 4873 "smt/combine.ml" 166 4818 4874
+)
+"smt/combine.ml" 166 4818 4881 "smt/combine.ml" 166 4818 4884
+type(
+  r * r
+)
+"smt/combine.ml" 166 4818 4867 "smt/combine.ml" 166 4818 4885
+type(
+  r * r -> r * r
+)
+"smt/combine.ml" 166 4818 4886 "smt/combine.ml" 166 4818 4889
+type(
+  (r * r) list
+)
+ident(
+  int_ref sol "smt/combine.ml" 165 4754 4767 "smt/combine.ml" 165 4754 4770
+)
+"smt/combine.ml" 166 4818 4853 "smt/combine.ml" 166 4818 4890
+call(
+  stack
+)
+type(
+  (r * r) list
+)
+"smt/combine.ml" 166 4818 4822 "smt/combine.ml" 166 4818 4890
+call(
+  tail
+)
+type(
+  r list MR.t
+)
+"smt/combine.ml" 165 4754 4758 "smt/combine.ml" 166 4818 4890
+type(
+  r list MR.t
+)
+"smt/combine.ml" 168 4892 4898 "smt/combine.ml" 168 4892 4904
+type(
+  r -> r -> (r * r) list
+)
+ident(
+  def solvei "smt/combine.ml" 131 3700 3702 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 168 4892 4906 "smt/combine.ml" 168 4892 4907
+type(
+  r
+)
+ident(
+  def a "smt/combine.ml" 168 4892 4908 "smt/combine.ml" 172 4989 5019
+)
+"smt/combine.ml" 168 4892 4908 "smt/combine.ml" 168 4892 4909
+type(
+  r
+)
+ident(
+  def b "smt/combine.ml" 169 4912 4916 "smt/combine.ml" 172 4989 5019
+)
+"smt/combine.ml" 169 4912 4922 "smt/combine.ml" 169 4912 4923
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 168 4892 4908 "smt/combine.ml" 168 4892 4909
+)
+"smt/combine.ml" 170 4929 4940 "smt/combine.ml" 170 4929 4941
+type(
+  X1.t
+)
+"smt/combine.ml" 170 4929 4937 "smt/combine.ml" 170 4929 4941
+type(
+  r
+)
+"smt/combine.ml" 170 4929 4945 "smt/combine.ml" 170 4929 4953
+type(
+  X1.r -> X1.r -> (r * r) list
+)
+ident(
+  ext_ref X1.solve
+)
+"smt/combine.ml" 170 4929 4955 "smt/combine.ml" 170 4929 4956
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 168 4892 4906 "smt/combine.ml" 168 4892 4907
+)
+"smt/combine.ml" 170 4929 4957 "smt/combine.ml" 170 4929 4958
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 168 4892 4908 "smt/combine.ml" 168 4892 4909
+)
+"smt/combine.ml" 170 4929 4945 "smt/combine.ml" 170 4929 4958
+call(
+  tail
+)
+type(
+  (r * r) list
+)
+"smt/combine.ml" 171 4959 4970 "smt/combine.ml" 171 4959 4971
+type(
+  X5.t
+)
+"smt/combine.ml" 171 4959 4967 "smt/combine.ml" 171 4959 4971
+type(
+  r
+)
+"smt/combine.ml" 171 4959 4975 "smt/combine.ml" 171 4959 4983
+type(
+  X5.r -> X5.r -> (r * r) list
+)
+ident(
+  ext_ref X5.solve
+)
+"smt/combine.ml" 171 4959 4985 "smt/combine.ml" 171 4959 4986
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 168 4892 4906 "smt/combine.ml" 168 4892 4907
+)
+"smt/combine.ml" 171 4959 4987 "smt/combine.ml" 171 4959 4988
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 168 4892 4908 "smt/combine.ml" 168 4892 4909
+)
+"smt/combine.ml" 171 4959 4975 "smt/combine.ml" 171 4959 4988
+call(
+  tail
+)
+type(
+  (r * r) list
+)
+"smt/combine.ml" 172 4989 5002 "smt/combine.ml" 172 4989 5003
+type(
+  Term.t
+)
+"smt/combine.ml" 172 4989 4997 "smt/combine.ml" 172 4989 5003
+type(
+  r
+)
+"smt/combine.ml" 172 4989 5014 "smt/combine.ml" 172 4989 5019
+type(
+  bool
+)
+"smt/combine.ml" 172 4989 5007 "smt/combine.ml" 172 4989 5019
+type(
+  (r * r) list
+)
+"smt/combine.ml" 169 4912 4916 "smt/combine.ml" 172 4989 5019
+type(
+  (r * r) list
+)
+"smt/combine.ml" 174 5021 5031 "smt/combine.ml" 174 5021 5040
+type(
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+ident(
+  def solve_rec "smt/combine.ml" 174 5021 5023 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 174 5021 5042 "smt/combine.ml" 174 5021 5044
+type(
+  r list MR.t
+)
+ident(
+  def mt "smt/combine.ml" 174 5021 5045 "smt/combine.ml" 185 5303 5347
+)
+"smt/combine.ml" 174 5021 5045 "smt/combine.ml" 174 5021 5047
+type(
+  (r * r) list
+)
+ident(
+  def ab "smt/combine.ml" 175 5051 5055 "smt/combine.ml" 185 5303 5347
+)
+"smt/combine.ml" 175 5051 5059 "smt/combine.ml" 175 5051 5061
+type(
+  r list MR.t
+)
+ident(
+  def mr "smt/combine.ml" 176 5085 5089 "smt/combine.ml" 185 5303 5347
+)
+"smt/combine.ml" 175 5051 5064 "smt/combine.ml" 175 5051 5074
+type(
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+ident(
+  int_ref solve_list "smt/combine.ml" 131 3700 3710 "smt/combine.ml" 131 3700 3720
+)
+"smt/combine.ml" 175 5051 5076 "smt/combine.ml" 175 5051 5078
+type(
+  r list MR.t
+)
+ident(
+  int_ref mt "smt/combine.ml" 174 5021 5042 "smt/combine.ml" 174 5021 5044
+)
+"smt/combine.ml" 175 5051 5079 "smt/combine.ml" 175 5051 5081
+type(
+  (r * r) list
+)
+ident(
+  int_ref ab "smt/combine.ml" 174 5021 5045 "smt/combine.ml" 174 5021 5047
+)
+"smt/combine.ml" 175 5051 5064 "smt/combine.ml" 175 5051 5081
+call(
+  stack
+)
+type(
+  r list MR.t
+)
+"smt/combine.ml" 176 5085 5093 "smt/combine.ml" 176 5085 5095
+type(
+  r list MR.t
+)
+ident(
+  def mr "smt/combine.ml" 185 5303 5307 "smt/combine.ml" 185 5303 5347
+)
+"smt/combine.ml" 176 5085 5098 "smt/combine.ml" 176 5085 5100
+type(
+  (r * r) list
+)
+ident(
+  def ab "smt/combine.ml" 185 5303 5307 "smt/combine.ml" 185 5303 5347
+)
+"smt/combine.ml" 176 5085 5093 "smt/combine.ml" 176 5085 5100
+type(
+  r list MR.t * (r * r) list
+)
+"smt/combine.ml" 177 5104 5110 "smt/combine.ml" 177 5104 5117
+type(
+  (MR.key ->
+   r list -> r list MR.t * (r * r) list -> r list MR.t * (r * r) list) ->
+  r list MR.t -> r list MR.t * (r * r) list -> r list MR.t * (r * r) list
+)
+ident(
+  ext_ref MR.fold
+)
+"smt/combine.ml" 178 5119 5125 "smt/combine.ml" 178 5119 5126
+type(
+  MR.key
+)
+ident(
+  def p "smt/combine.ml" 178 5119 5127 "smt/combine.ml" 182 5222 5279
+)
+"smt/combine.ml" 178 5119 5127 "smt/combine.ml" 178 5119 5129
+type(
+  r list
+)
+ident(
+  def lr "smt/combine.ml" 178 5119 5130 "smt/combine.ml" 182 5222 5279
+)
+"smt/combine.ml" 178 5119 5132 "smt/combine.ml" 178 5119 5134
+type(
+  r list MR.t
+)
+ident(
+  def mt "smt/combine.ml" 178 5119 5150 "smt/combine.ml" 182 5222 5279
+)
+"smt/combine.ml" 178 5119 5135 "smt/combine.ml" 178 5119 5137
+type(
+  (r * r) list
+)
+ident(
+  def ab "smt/combine.ml" 178 5119 5150 "smt/combine.ml" 182 5222 5279
+)
+"smt/combine.ml" 178 5119 5131 "smt/combine.ml" 178 5119 5138
+type(
+  r list MR.t * (r * r) list
+)
+"smt/combine.ml" 178 5119 5142 "smt/combine.ml" 178 5119 5145
+ident(
+  def acc "smt/combine.ml" 178 5119 5150 "smt/combine.ml" 182 5222 5279
+)
+"smt/combine.ml" 178 5119 5130 "smt/combine.ml" 178 5119 5146
+type(
+  r list MR.t * (r * r) list
+)
+"smt/combine.ml" 178 5119 5156 "smt/combine.ml" 178 5119 5158
+type(
+  r list
+)
+ident(
+  int_ref lr "smt/combine.ml" 178 5119 5127 "smt/combine.ml" 178 5119 5129
+)
+"smt/combine.ml" 179 5164 5170 "smt/combine.ml" 179 5164 5172
+type(
+  r list
+)
+"smt/combine.ml" 179 5164 5183 "smt/combine.ml" 179 5164 5188
+type(
+  bool
+)
+"smt/combine.ml" 179 5164 5176 "smt/combine.ml" 179 5164 5188
+type(
+  r list MR.t * (r * r) list
+)
+"smt/combine.ml" 180 5189 5196 "smt/combine.ml" 180 5189 5197
+type(
+  r
+)
+"smt/combine.ml" 180 5189 5195 "smt/combine.ml" 180 5189 5198
+type(
+  r list
+)
+"smt/combine.ml" 180 5189 5202 "smt/combine.ml" 180 5189 5205
+type(
+  r list MR.t * (r * r) list
+)
+ident(
+  int_ref acc "smt/combine.ml" 178 5119 5130 "smt/combine.ml" 178 5119 5146
+)
+"smt/combine.ml" 181 5206 5212 "smt/combine.ml" 181 5206 5213
+type(
+  r
+)
+ident(
+  def x "smt/combine.ml" 182 5222 5230 "smt/combine.ml" 182 5222 5279
+)
+"smt/combine.ml" 181 5206 5215 "smt/combine.ml" 181 5206 5217
+type(
+  r list
+)
+ident(
+  def lx "smt/combine.ml" 182 5222 5230 "smt/combine.ml" 182 5222 5279
+)
+"smt/combine.ml" 181 5206 5212 "smt/combine.ml" 181 5206 5217
+type(
+  r list
+)
+"smt/combine.ml" 182 5222 5230 "smt/combine.ml" 182 5222 5236
+type(
+  MR.key -> r list -> r list MR.t -> r list MR.t
+)
+ident(
+  ext_ref MR.add
+)
+"smt/combine.ml" 182 5222 5237 "smt/combine.ml" 182 5222 5238
+type(
+  MR.key
+)
+ident(
+  int_ref p "smt/combine.ml" 178 5119 5125 "smt/combine.ml" 178 5119 5126
+)
+"smt/combine.ml" 182 5222 5240 "smt/combine.ml" 182 5222 5241
+type(
+  r
+)
+ident(
+  int_ref x "smt/combine.ml" 181 5206 5212 "smt/combine.ml" 181 5206 5213
+)
+"smt/combine.ml" 182 5222 5239 "smt/combine.ml" 182 5222 5242
+type(
+  r list
+)
+"smt/combine.ml" 182 5222 5243 "smt/combine.ml" 182 5222 5245
+type(
+  r list MR.t
+)
+ident(
+  int_ref mr "smt/combine.ml" 175 5051 5059 "smt/combine.ml" 175 5051 5061
+)
+"smt/combine.ml" 182 5222 5230 "smt/combine.ml" 182 5222 5245
+call(
+  stack
+)
+type(
+  r list MR.t
+)
+"smt/combine.ml" 182 5222 5248 "smt/combine.ml" 182 5222 5260
+type(
+  (r -> r * r) -> r list -> (r * r) list
+)
+ident(
+  ext_ref List.rev_map
+)
+"smt/combine.ml" 182 5222 5266 "smt/combine.ml" 182 5222 5267
+type(
+  r
+)
+ident(
+  def y "smt/combine.ml" 182 5222 5270 "smt/combine.ml" 182 5222 5275
+)
+"smt/combine.ml" 182 5222 5271 "smt/combine.ml" 182 5222 5272
+type(
+  r
+)
+ident(
+  int_ref x "smt/combine.ml" 181 5206 5212 "smt/combine.ml" 181 5206 5213
+)
+"smt/combine.ml" 182 5222 5273 "smt/combine.ml" 182 5222 5274
+type(
+  r
+)
+ident(
+  int_ref y "smt/combine.ml" 182 5222 5266 "smt/combine.ml" 182 5222 5267
+)
+"smt/combine.ml" 182 5222 5270 "smt/combine.ml" 182 5222 5275
+type(
+  r * r
+)
+"smt/combine.ml" 182 5222 5261 "smt/combine.ml" 182 5222 5276
+type(
+  r -> r * r
+)
+"smt/combine.ml" 182 5222 5277 "smt/combine.ml" 182 5222 5279
+type(
+  r list
+)
+ident(
+  int_ref lx "smt/combine.ml" 181 5206 5215 "smt/combine.ml" 181 5206 5217
+)
+"smt/combine.ml" 182 5222 5248 "smt/combine.ml" 182 5222 5279
+call(
+  stack
+)
+type(
+  (r * r) list
+)
+"smt/combine.ml" 182 5222 5230 "smt/combine.ml" 182 5222 5279
+type(
+  r list MR.t * (r * r) list
+)
+"smt/combine.ml" 178 5119 5150 "smt/combine.ml" 182 5222 5279
+type(
+  r list MR.t * (r * r) list
+)
+"smt/combine.ml" 178 5119 5120 "smt/combine.ml" 182 5222 5280
+type(
+  MR.key ->
+  r list -> r list MR.t * (r * r) list -> r list MR.t * (r * r) list
+)
+"smt/combine.ml" 183 5283 5284 "smt/combine.ml" 183 5283 5286
+type(
+  r list MR.t
+)
+ident(
+  int_ref mr "smt/combine.ml" 175 5051 5059 "smt/combine.ml" 175 5051 5061
+)
+"smt/combine.ml" 183 5283 5288 "smt/combine.ml" 183 5283 5290
+type(
+  r list MR.t
+)
+ident(
+  int_ref mr "smt/combine.ml" 175 5051 5059 "smt/combine.ml" 175 5051 5061
+)
+"smt/combine.ml" 183 5283 5291 "smt/combine.ml" 183 5283 5293
+type(
+  (r * r) list
+)
+"smt/combine.ml" 183 5283 5287 "smt/combine.ml" 183 5283 5294
+type(
+  r list MR.t * (r * r) list
+)
+"smt/combine.ml" 177 5104 5110 "smt/combine.ml" 183 5283 5294
+call(
+  stack
+)
+type(
+  r list MR.t * (r * r) list
+)
+"smt/combine.ml" 185 5303 5310 "smt/combine.ml" 185 5303 5312
+type(
+  (r * r) list
+)
+ident(
+  int_ref ab "smt/combine.ml" 176 5085 5098 "smt/combine.ml" 176 5085 5100
+)
+"smt/combine.ml" 185 5303 5313 "smt/combine.ml" 185 5303 5314
+type(
+  (r * r) list -> (r * r) list -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/combine.ml" 185 5303 5315 "smt/combine.ml" 185 5303 5317
+type(
+  (r * r) list
+)
+"smt/combine.ml" 185 5303 5310 "smt/combine.ml" 185 5303 5317
+type(
+  bool
+)
+"smt/combine.ml" 185 5303 5323 "smt/combine.ml" 185 5303 5325
+type(
+  r list MR.t
+)
+ident(
+  int_ref mr "smt/combine.ml" 176 5085 5093 "smt/combine.ml" 176 5085 5095
+)
+"smt/combine.ml" 185 5303 5331 "smt/combine.ml" 185 5303 5340
+type(
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+ident(
+  int_ref solve_rec "smt/combine.ml" 174 5021 5031 "smt/combine.ml" 174 5021 5040
+)
+"smt/combine.ml" 185 5303 5342 "smt/combine.ml" 185 5303 5344
+type(
+  r list MR.t
+)
+ident(
+  int_ref mr "smt/combine.ml" 176 5085 5093 "smt/combine.ml" 176 5085 5095
+)
+"smt/combine.ml" 185 5303 5345 "smt/combine.ml" 185 5303 5347
+type(
+  (r * r) list
+)
+ident(
+  int_ref ab "smt/combine.ml" 176 5085 5098 "smt/combine.ml" 176 5085 5100
+)
+"smt/combine.ml" 185 5303 5331 "smt/combine.ml" 185 5303 5347
+call(
+  tail
+)
+type(
+  r list MR.t
+)
+"smt/combine.ml" 185 5303 5307 "smt/combine.ml" 185 5303 5347
+type(
+  r list MR.t
+)
+"smt/combine.ml" 176 5085 5089 "smt/combine.ml" 185 5303 5347
+type(
+  r list MR.t
+)
+"smt/combine.ml" 175 5051 5055 "smt/combine.ml" 185 5303 5347
+type(
+  r list MR.t
+)
+"smt/combine.ml" 187 5355 5361 "smt/combine.ml" 187 5355 5366
+type(
+  r -> r -> (MR.key * r) list
+)
+ident(
+  def solve "smt/combine.ml" 193 5506 5508 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 187 5355 5368 "smt/combine.ml" 187 5355 5369
+type(
+  r
+)
+ident(
+  def a "smt/combine.ml" 187 5355 5370 "smt/combine.ml" 191 5468 5504
+)
+"smt/combine.ml" 187 5355 5370 "smt/combine.ml" 187 5355 5371
+type(
+  r
+)
+ident(
+  def b "smt/combine.ml" 188 5374 5378 "smt/combine.ml" 191 5468 5504
+)
+"smt/combine.ml" 188 5374 5378 "smt/combine.ml" 188 5374 5385
+type(
+  (MR.key -> r list -> (MR.key * r) list -> (MR.key * r) list) ->
+  r list MR.t -> (MR.key * r) list -> (MR.key * r) list
+)
+ident(
+  ext_ref MR.fold
+)
+"smt/combine.ml" 189 5387 5398 "smt/combine.ml" 189 5387 5399
+type(
+  MR.key
+)
+ident(
+  def p "smt/combine.ml" 189 5387 5400 "smt/combine.ml" 190 5411 5465
+)
+"smt/combine.ml" 189 5387 5400 "smt/combine.ml" 189 5387 5402
+type(
+  r list
+)
+ident(
+  def lr "smt/combine.ml" 189 5387 5403 "smt/combine.ml" 190 5411 5465
+)
+"smt/combine.ml" 189 5387 5403 "smt/combine.ml" 189 5387 5406
+type(
+  (MR.key * r) list
+)
+ident(
+  def ret "smt/combine.ml" 190 5411 5413 "smt/combine.ml" 190 5411 5465
+)
+"smt/combine.ml" 190 5411 5419 "smt/combine.ml" 190 5411 5421
+type(
+  r list
+)
+ident(
+  int_ref lr "smt/combine.ml" 189 5387 5400 "smt/combine.ml" 189 5387 5402
+)
+"smt/combine.ml" 190 5411 5428 "smt/combine.ml" 190 5411 5429
+type(
+  r
+)
+ident(
+  def r "smt/combine.ml" 190 5411 5434 "smt/combine.ml" 190 5411 5445
+)
+"smt/combine.ml" 190 5411 5427 "smt/combine.ml" 190 5411 5430
+type(
+  r list
+)
+"smt/combine.ml" 190 5411 5435 "smt/combine.ml" 190 5411 5436
+type(
+  MR.key
+)
+ident(
+  int_ref p "smt/combine.ml" 189 5387 5398 "smt/combine.ml" 189 5387 5399
+)
+"smt/combine.ml" 190 5411 5438 "smt/combine.ml" 190 5411 5439
+type(
+  r
+)
+ident(
+  int_ref r "smt/combine.ml" 190 5411 5428 "smt/combine.ml" 190 5411 5429
+)
+"smt/combine.ml" 190 5411 5434 "smt/combine.ml" 190 5411 5440
+type(
+  MR.key * r
+)
+"smt/combine.ml" 190 5411 5442 "smt/combine.ml" 190 5411 5445
+type(
+  (MR.key * r) list
+)
+ident(
+  int_ref ret "smt/combine.ml" 189 5387 5403 "smt/combine.ml" 189 5387 5406
+)
+"smt/combine.ml" 190 5411 5434 "smt/combine.ml" 190 5411 5445
+type(
+  (MR.key * r) list
+)
+"smt/combine.ml" 190 5411 5448 "smt/combine.ml" 190 5411 5449
+type(
+  r list
+)
+"smt/combine.ml" 190 5411 5460 "smt/combine.ml" 190 5411 5465
+type(
+  bool
+)
+"smt/combine.ml" 190 5411 5453 "smt/combine.ml" 190 5411 5465
+type(
+  (MR.key * r) list
+)
+"smt/combine.ml" 190 5411 5413 "smt/combine.ml" 190 5411 5465
+type(
+  (MR.key * r) list
+)
+"smt/combine.ml" 189 5387 5393 "smt/combine.ml" 190 5411 5466
+type(
+  MR.key -> r list -> (MR.key * r) list -> (MR.key * r) list
+)
+"smt/combine.ml" 191 5468 5475 "smt/combine.ml" 191 5468 5484
+type(
+  r list MR.t -> (r * r) list -> r list MR.t
+)
+ident(
+  int_ref solve_rec "smt/combine.ml" 174 5021 5031 "smt/combine.ml" 174 5021 5040
+)
+"smt/combine.ml" 191 5468 5486 "smt/combine.ml" 191 5468 5494
+type(
+  r list MR.t
+)
+ident(
+  ext_ref MR.empty
+)
+"smt/combine.ml" 191 5468 5496 "smt/combine.ml" 191 5468 5497
+type(
+  r
+)
+ident(
+  int_ref a "smt/combine.ml" 187 5355 5368 "smt/combine.ml" 187 5355 5369
+)
+"smt/combine.ml" 191 5468 5498 "smt/combine.ml" 191 5468 5499
+type(
+  r
+)
+ident(
+  int_ref b "smt/combine.ml" 187 5355 5370 "smt/combine.ml" 187 5355 5371
+)
+"smt/combine.ml" 191 5468 5496 "smt/combine.ml" 191 5468 5499
+type(
+  r * r
+)
+"smt/combine.ml" 191 5468 5495 "smt/combine.ml" 191 5468 5500
+type(
+  (r * r) list
+)
+"smt/combine.ml" 191 5468 5474 "smt/combine.ml" 191 5468 5501
+call(
+  stack
+)
+type(
+  r list MR.t
+)
+"smt/combine.ml" 191 5468 5502 "smt/combine.ml" 191 5468 5504
+type(
+  (MR.key * r) list
+)
+"smt/combine.ml" 188 5374 5378 "smt/combine.ml" 191 5468 5504
+call(
+  tail
+)
+type(
+  (MR.key * r) list
+)
+"smt/combine.ml" 193 5506 5516 "smt/combine.ml" 193 5506 5525
+type(
+  r -> Ty.t
+)
+ident(
+  def type_info "smt/combine.ml" 193 5506 5508 "smt/combine.ml" 233 6457 6460
+)
+"smt/combine.ml" 194 5537 5546 "smt/combine.ml" 194 5537 5547
+type(
+  X1.t
+)
+ident(
+  def t "smt/combine.ml" 194 5537 5553 "smt/combine.ml" 194 5537 5567
+)
+"smt/combine.ml" 194 5537 5543 "smt/combine.ml" 194 5537 5547
+type(
+  r
+)
+"smt/combine.ml" 194 5537 5553 "smt/combine.ml" 194 5537 5565
+type(
+  X1.t -> Ty.t
+)
+ident(
+  ext_ref X1.type_info
+)
+"smt/combine.ml" 194 5537 5566 "smt/combine.ml" 194 5537 5567
+type(
+  X1.t
+)
+ident(
+  int_ref t "smt/combine.ml" 194 5537 5546 "smt/combine.ml" 194 5537 5547
+)
+"smt/combine.ml" 194 5537 5553 "smt/combine.ml" 194 5537 5567
+call(
+  tail
+)
+type(
+  Ty.t
+)
+"smt/combine.ml" 195 5568 5577 "smt/combine.ml" 195 5568 5578
+type(
+  X5.t
+)
+ident(
+  def t "smt/combine.ml" 195 5568 5584 "smt/combine.ml" 195 5568 5598
+)
+"smt/combine.ml" 195 5568 5574 "smt/combine.ml" 195 5568 5578
+type(
+  r
+)
+"smt/combine.ml" 195 5568 5584 "smt/combine.ml" 195 5568 5596
+type(
+  X5.t -> Ty.t
+)
+ident(
+  ext_ref X5.type_info
+)
+"smt/combine.ml" 195 5568 5597 "smt/combine.ml" 195 5568 5598
+type(
+  X5.t
+)
+ident(
+  int_ref t "smt/combine.ml" 195 5568 5577 "smt/combine.ml" 195 5568 5578
+)
+"smt/combine.ml" 195 5568 5584 "smt/combine.ml" 195 5568 5598
+call(
+  tail
+)
+type(
+  Ty.t
+)
+"smt/combine.ml" 196 5599 5610 "smt/combine.ml" 196 5599 5611
+type(
+  Term.t
+)
+ident(
+  def t "smt/combine.ml" 196 5599 5615 "smt/combine.ml" 196 5599 5653
+)
+"smt/combine.ml" 196 5599 5605 "smt/combine.ml" 196 5599 5611
+type(
+  r
+)
+"smt/combine.ml" 196 5599 5630 "smt/combine.ml" 196 5599 5632
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/combine.ml" 196 5599 5651 "smt/combine.ml" 196 5599 5653
+)
+"smt/combine.ml" 196 5599 5619 "smt/combine.ml" 196 5599 5633
+type(
+  Term.view
+)
+"smt/combine.ml" 196 5599 5636 "smt/combine.ml" 196 5599 5645
+type(
+  Term.t -> Term.view
+)
+ident(
+  ext_ref Term.view
+)
+"smt/combine.ml" 196 5599 5646 "smt/combine.ml" 196 5599 5647
+type(
+  Term.t
+)
+ident(
+  int_ref t "smt/combine.ml" 196 5599 5610 "smt/combine.ml" 196 5599 5611
+)
+"smt/combine.ml" 196 5599 5636 "smt/combine.ml" 196 5599 5647
+call(
+  stack
+)
+type(
+  Term.view
+)
+"smt/combine.ml" 196 5599 5651 "smt/combine.ml" 196 5599 5653
+type(
+  Ty.t
+)
+ident(
+  int_ref ty "smt/combine.ml" 196 5599 5630 "smt/combine.ml" 196 5599 5632
+)
+"smt/combine.ml" 196 5599 5615 "smt/combine.ml" 196 5599 5653
+type(
+  Ty.t
+)
+"smt/combine.ml" 193 5506 5528 "smt/combine.ml" 196 5599 5653
+type(
+  r -> Ty.t
+)
+"smt/combine.ml" 207 5779 5787 "smt/combine.ml" 207 5779 5792
+type(
+  'a -> t
+)
+ident(
+  def empty "smt/combine.ml" 212 5865 5869 "smt/combine.ml" 231 6450 6455
+)
+"smt/combine.ml" 207 5779 5793 "smt/combine.ml" 207 5779 5794
+type(
+  'a
+)
+"smt/combine.ml" 208 5799 5808 "smt/combine.ml" 208 5799 5820
+type(
+  unit -> X1.Rel.t
+)
+ident(
+  ext_ref X1.Rel.empty
+)
+"smt/combine.ml" 208 5799 5821 "smt/combine.ml" 208 5799 5823
+type(
+  unit
+)
+"smt/combine.ml" 208 5799 5808 "smt/combine.ml" 208 5799 5823
+call(
+  stack
+)
+type(
+  X1.Rel.t
+)
+"smt/combine.ml" 209 5826 5835 "smt/combine.ml" 209 5826 5847
+type(
+  unit -> X5.Rel.t
+)
+ident(
+  ext_ref X5.Rel.empty
+)
+"smt/combine.ml" 209 5826 5848 "smt/combine.ml" 209 5826 5850
+type(
+  unit
+)
+"smt/combine.ml" 209 5826 5835 "smt/combine.ml" 209 5826 5850
+call(
+  stack
+)
+type(
+  X5.Rel.t
+)
+"smt/combine.ml" 207 5779 5797 "smt/combine.ml" 210 5852 5857
+type(
+  t
+)
+"smt/combine.ml" 212 5865 5873 "smt/combine.ml" 212 5865 5879
+type(
+  t -> X5.Rel.r Sig.input list -> t * X1.Rel.r Sig.result
+)
+ident(
+  def assume "smt/combine.ml" 218 6110 6114 "smt/combine.ml" 231 6450 6455
+)
+"smt/combine.ml" 212 5865 5880 "smt/combine.ml" 212 5865 5883
+type(
+  t
+)
+ident(
+  def env "smt/combine.ml" 212 5865 5884 "smt/combine.ml" 216 6065 6107
+)
+"smt/combine.ml" 212 5865 5884 "smt/combine.ml" 212 5865 5886
+type(
+  X5.Rel.r Sig.input list
+)
+ident(
+  def sa "smt/combine.ml" 213 5890 5896 "smt/combine.ml" 216 6065 6107
+)
+"smt/combine.ml" 213 5890 5900 "smt/combine.ml" 213 5890 5904
+type(
+  X1.Rel.t
+)
+ident(
+  def env1 "smt/combine.ml" 214 5964 5970 "smt/combine.ml" 216 6065 6107
+)
+"smt/combine.ml" 213 5890 5917 "smt/combine.ml" 213 5890 5919
+type(
+  (X1.Rel.r Sig.literal * Explanation.t) list
+)
+ident(
+  def a1 "smt/combine.ml" 214 5964 5970 "smt/combine.ml" 216 6065 6107
+)
+"smt/combine.ml" 213 5890 5930 "smt/combine.ml" 213 5890 5933
+type(
+  (X1.Rel.r Sig.literal * Explanation.t) list
+)
+ident(
+  def rm1 "smt/combine.ml" 214 5964 5970 "smt/combine.ml" 216 6065 6107
+)
+"smt/combine.ml" 213 5890 5906 "smt/combine.ml" 213 5890 5934
+type(
+  X1.Rel.r Sig.result
+)
+"smt/combine.ml" 213 5890 5900 "smt/combine.ml" 213 5890 5934
+type(
+  X1.Rel.t * X1.Rel.r Sig.result
+)
+"smt/combine.ml" 213 5890 5937 "smt/combine.ml" 213 5890 5950
+type(
+  X1.Rel.t -> X5.Rel.r Sig.input list -> X1.Rel.t * X1.Rel.r Sig.result
+)
+ident(
+  ext_ref X1.Rel.assume
+)
+"smt/combine.ml" 213 5890 5951 "smt/combine.ml" 213 5890 5954
+type(
+  t
+)
+ident(
+  int_ref env "smt/combine.ml" 212 5865 5880 "smt/combine.ml" 212 5865 5883
+)
+"smt/combine.ml" 213 5890 5951 "smt/combine.ml" 213 5890 5957
+type(
+  X1.Rel.t
+)
+"smt/combine.ml" 213 5890 5958 "smt/combine.ml" 213 5890 5960
+type(
+  X5.Rel.r Sig.input list
+)
+ident(
+  int_ref sa "smt/combine.ml" 212 5865 5884 "smt/combine.ml" 212 5865 5886
+)
+"smt/combine.ml" 213 5890 5937 "smt/combine.ml" 213 5890 5960
+call(
+  stack
+)
+type(
+  X1.Rel.t * X1.Rel.r Sig.result
+)
+"smt/combine.ml" 214 5964 5974 "smt/combine.ml" 214 5964 5978
+type(
+  X5.Rel.t
+)
+ident(
+  def env5 "smt/combine.ml" 215 6038 6044 "smt/combine.ml" 216 6065 6107
+)
+"smt/combine.ml" 214 5964 5991 "smt/combine.ml" 214 5964 5993
+type(
+  (X5.Rel.r Sig.literal * Explanation.t) list
+)
+ident(
+  def a5 "smt/combine.ml" 215 6038 6044 "smt/combine.ml" 216 6065 6107
+)
+"smt/combine.ml" 214 5964 6004 "smt/combine.ml" 214 5964 6007
+type(
+  (X5.Rel.r Sig.literal * Explanation.t) list
+)
+ident(
+  def rm5 "smt/combine.ml" 215 6038 6044 "smt/combine.ml" 216 6065 6107
+)
+"smt/combine.ml" 214 5964 5980 "smt/combine.ml" 214 5964 6008
+type(
+  X5.Rel.r Sig.result
+)
+"smt/combine.ml" 214 5964 5974 "smt/combine.ml" 214 5964 6008
+type(
+  X5.Rel.t * X5.Rel.r Sig.result
+)
+"smt/combine.ml" 214 5964 6011 "smt/combine.ml" 214 5964 6024
+type(
+  X5.Rel.t -> X5.Rel.r Sig.input list -> X5.Rel.t * X5.Rel.r Sig.result
+)
+ident(
+  ext_ref X5.Rel.assume
+)
+"smt/combine.ml" 214 5964 6025 "smt/combine.ml" 214 5964 6028
+type(
+  t
+)
+ident(
+  int_ref env "smt/combine.ml" 212 5865 5880 "smt/combine.ml" 212 5865 5883
+)
+"smt/combine.ml" 214 5964 6025 "smt/combine.ml" 214 5964 6031
+type(
+  X5.Rel.t
+)
+"smt/combine.ml" 214 5964 6032 "smt/combine.ml" 214 5964 6034
+type(
+  X5.Rel.r Sig.input list
+)
+ident(
+  int_ref sa "smt/combine.ml" 212 5865 5884 "smt/combine.ml" 212 5865 5886
+)
+"smt/combine.ml" 214 5964 6011 "smt/combine.ml" 214 5964 6034
+call(
+  stack
+)
+type(
+  X5.Rel.t * X5.Rel.r Sig.result
+)
+"smt/combine.ml" 215 6038 6048 "smt/combine.ml" 215 6038 6052
+type(
+  X1.Rel.t
+)
+ident(
+  int_ref env1 "smt/combine.ml" 213 5890 5900 "smt/combine.ml" 213 5890 5904
+)
+"smt/combine.ml" 215 6038 6057 "smt/combine.ml" 215 6038 6061
+type(
+  X5.Rel.t
+)
+ident(
+  int_ref env5 "smt/combine.ml" 214 5964 5974 "smt/combine.ml" 214 5964 5978
+)
+"smt/combine.ml" 215 6038 6044 "smt/combine.ml" 215 6038 6062
+type(
+  t
+)
+"smt/combine.ml" 216 6065 6082 "smt/combine.ml" 216 6065 6084
+type(
+  (X1.Rel.r Sig.literal * Explanation.t) list
+)
+ident(
+  int_ref a1 "smt/combine.ml" 213 5890 5917 "smt/combine.ml" 213 5890 5919
+)
+"smt/combine.ml" 216 6065 6084 "smt/combine.ml" 216 6065 6085
+type(
+  (X1.Rel.r Sig.literal * Explanation.t) list ->
+  (X1.Rel.r Sig.literal * Explanation.t) list ->
+  (X1.Rel.r Sig.literal * Explanation.t) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"smt/combine.ml" 216 6065 6085 "smt/combine.ml" 216 6065 6087
+type(
+  (X1.Rel.r Sig.literal * Explanation.t) list
+)
+ident(
+  int_ref a5 "smt/combine.ml" 214 5964 5991 "smt/combine.ml" 214 5964 5993
+)
+"smt/combine.ml" 216 6065 6082 "smt/combine.ml" 216 6065 6087
+call(
+  stack
+)
+type(
+  (X1.Rel.r Sig.literal * Explanation.t) list
+)
+"smt/combine.ml" 216 6065 6098 "smt/combine.ml" 216 6065 6101
+type(
+  (X1.Rel.r Sig.literal * Explanation.t) list
+)
+ident(
+  int_ref rm1 "smt/combine.ml" 213 5890 5930 "smt/combine.ml" 213 5890 5933
+)
+"smt/combine.ml" 216 6065 6101 "smt/combine.ml" 216 6065 6102
+type(
+  (X1.Rel.r Sig.literal * Explanation.t) list ->
+  (X1.Rel.r Sig.literal * Explanation.t) list ->
+  (X1.Rel.r Sig.literal * Explanation.t) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"smt/combine.ml" 216 6065 6102 "smt/combine.ml" 216 6065 6105
+type(
+  (X1.Rel.r Sig.literal * Explanation.t) list
+)
+ident(
+  int_ref rm5 "smt/combine.ml" 214 5964 6004 "smt/combine.ml" 214 5964 6007
+)
+"smt/combine.ml" 216 6065 6098 "smt/combine.ml" 216 6065 6105
+call(
+  stack
+)
+type(
+  (X1.Rel.r Sig.literal * Explanation.t) list
+)
+"smt/combine.ml" 216 6065 6071 "smt/combine.ml" 216 6065 6107
+type(
+  X1.Rel.r Sig.result
+)
+"smt/combine.ml" 215 6038 6044 "smt/combine.ml" 216 6065 6107
+type(
+  t * X1.Rel.r Sig.result
+)
+"smt/combine.ml" 214 5964 5970 "smt/combine.ml" 216 6065 6107
+type(
+  t * X1.Rel.r Sig.result
+)
+"smt/combine.ml" 213 5890 5896 "smt/combine.ml" 216 6065 6107
+type(
+  t * X1.Rel.r Sig.result
+)
+"smt/combine.ml" 218 6110 6118 "smt/combine.ml" 218 6110 6123
+type(
+  t -> X1.Rel.r Sig.input -> Sig.answer
+)
+ident(
+  def query "smt/combine.ml" 223 6232 6236 "smt/combine.ml" 231 6450 6455
+)
+"smt/combine.ml" 218 6110 6124 "smt/combine.ml" 218 6110 6127
+type(
+  t
+)
+ident(
+  def env "smt/combine.ml" 218 6110 6128 "smt/combine.ml" 221 6195 6225
+)
+"smt/combine.ml" 218 6110 6128 "smt/combine.ml" 218 6110 6129
+type(
+  X1.Rel.r Sig.input
+)
+ident(
+  def a "smt/combine.ml" 219 6133 6139 "smt/combine.ml" 221 6195 6225
+)
+"smt/combine.ml" 219 6133 6145 "smt/combine.ml" 219 6133 6157
+type(
+  X1.Rel.t -> X1.Rel.r Sig.input -> Sig.answer
+)
+ident(
+  ext_ref X1.Rel.query
+)
+"smt/combine.ml" 219 6133 6158 "smt/combine.ml" 219 6133 6161
+type(
+  t
+)
+ident(
+  int_ref env "smt/combine.ml" 218 6110 6124 "smt/combine.ml" 218 6110 6127
+)
+"smt/combine.ml" 219 6133 6158 "smt/combine.ml" 219 6133 6164
+type(
+  X1.Rel.t
+)
+"smt/combine.ml" 219 6133 6165 "smt/combine.ml" 219 6133 6166
+type(
+  X1.Rel.r Sig.input
+)
+ident(
+  int_ref a "smt/combine.ml" 218 6110 6128 "smt/combine.ml" 218 6110 6129
+)
+"smt/combine.ml" 219 6133 6145 "smt/combine.ml" 219 6133 6166
+call(
+  stack
+)
+type(
+  Sig.answer
+)
+"smt/combine.ml" 220 6172 6179 "smt/combine.ml" 220 6172 6180
+type(
+  Explanation.t
+)
+"smt/combine.ml" 220 6172 6175 "smt/combine.ml" 220 6172 6180
+type(
+  Sig.answer
+)
+"smt/combine.ml" 220 6172 6184 "smt/combine.ml" 220 6172 6187
+ident(
+  def ans "smt/combine.ml" 220 6172 6191 "smt/combine.ml" 220 6172 6194
+)
+"smt/combine.ml" 220 6172 6175 "smt/combine.ml" 220 6172 6187
+type(
+  Sig.answer
+)
+"smt/combine.ml" 220 6172 6191 "smt/combine.ml" 220 6172 6194
+type(
+  Sig.answer
+)
+ident(
+  int_ref ans "smt/combine.ml" 220 6172 6175 "smt/combine.ml" 220 6172 6187
+)
+"smt/combine.ml" 221 6195 6198 "smt/combine.ml" 221 6195 6200
+type(
+  Sig.answer
+)
+"smt/combine.ml" 221 6195 6204 "smt/combine.ml" 221 6195 6216
+type(
+  X5.Rel.t -> X5.Rel.r Sig.input -> Sig.answer
+)
+ident(
+  ext_ref X5.Rel.query
+)
+"smt/combine.ml" 221 6195 6217 "smt/combine.ml" 221 6195 6220
+type(
+  t
+)
+ident(
+  int_ref env "smt/combine.ml" 218 6110 6124 "smt/combine.ml" 218 6110 6127
+)
+"smt/combine.ml" 221 6195 6217 "smt/combine.ml" 221 6195 6223
+type(
+  X5.Rel.t
+)
+"smt/combine.ml" 221 6195 6224 "smt/combine.ml" 221 6195 6225
+type(
+  X1.Rel.r Sig.input
+)
+ident(
+  int_ref a "smt/combine.ml" 218 6110 6128 "smt/combine.ml" 218 6110 6129
+)
+"smt/combine.ml" 221 6195 6204 "smt/combine.ml" 221 6195 6225
+call(
+  tail
+)
+type(
+  Sig.answer
+)
+"smt/combine.ml" 219 6133 6139 "smt/combine.ml" 221 6195 6225
+type(
+  Sig.answer
+)
+"smt/combine.ml" 223 6232 6240 "smt/combine.ml" 223 6232 6250
+type(
+  t -> (X1.Rel.r Literal.view * Explanation.t * Num.num) list
+)
+ident(
+  def case_split "smt/combine.ml" 228 6367 6371 "smt/combine.ml" 231 6450 6455
+)
+"smt/combine.ml" 223 6232 6251 "smt/combine.ml" 223 6232 6254
+type(
+  t
+)
+ident(
+  def env "smt/combine.ml" 224 6258 6264 "smt/combine.ml" 226 6348 6365
+)
+"smt/combine.ml" 224 6258 6268 "smt/combine.ml" 224 6258 6272
+type(
+  (X1.Rel.r Literal.view * Explanation.t * Num.num) list
+)
+ident(
+  def seq1 "smt/combine.ml" 225 6303 6309 "smt/combine.ml" 226 6348 6365
+)
+"smt/combine.ml" 224 6258 6275 "smt/combine.ml" 224 6258 6292
+type(
+  X1.Rel.t -> (X1.Rel.r Literal.view * Explanation.t * Num.num) list
+)
+ident(
+  ext_ref X1.Rel.case_split
+)
+"smt/combine.ml" 224 6258 6293 "smt/combine.ml" 224 6258 6296
+type(
+  t
+)
+ident(
+  int_ref env "smt/combine.ml" 223 6232 6251 "smt/combine.ml" 223 6232 6254
+)
+"smt/combine.ml" 224 6258 6293 "smt/combine.ml" 224 6258 6299
+type(
+  X1.Rel.t
+)
+"smt/combine.ml" 224 6258 6275 "smt/combine.ml" 224 6258 6299
+call(
+  stack
+)
+type(
+  (X1.Rel.r Literal.view * Explanation.t * Num.num) list
+)
+"smt/combine.ml" 225 6303 6313 "smt/combine.ml" 225 6303 6317
+type(
+  (X5.Rel.r Literal.view * Explanation.t * Num.num) list
+)
+ident(
+  def seq5 "smt/combine.ml" 226 6348 6354 "smt/combine.ml" 226 6348 6365
+)
+"smt/combine.ml" 225 6303 6320 "smt/combine.ml" 225 6303 6337
+type(
+  X5.Rel.t -> (X5.Rel.r Literal.view * Explanation.t * Num.num) list
+)
+ident(
+  ext_ref X5.Rel.case_split
+)
+"smt/combine.ml" 225 6303 6338 "smt/combine.ml" 225 6303 6341
+type(
+  t
+)
+ident(
+  int_ref env "smt/combine.ml" 223 6232 6251 "smt/combine.ml" 223 6232 6254
+)
+"smt/combine.ml" 225 6303 6338 "smt/combine.ml" 225 6303 6344
+type(
+  X5.Rel.t
+)
+"smt/combine.ml" 225 6303 6320 "smt/combine.ml" 225 6303 6344
+call(
+  stack
+)
+type(
+  (X5.Rel.r Literal.view * Explanation.t * Num.num) list
+)
+"smt/combine.ml" 226 6348 6354 "smt/combine.ml" 226 6348 6358
+type(
+  (X1.Rel.r Literal.view * Explanation.t * Num.num) list
+)
+ident(
+  int_ref seq1 "smt/combine.ml" 224 6258 6268 "smt/combine.ml" 224 6258 6272
+)
+"smt/combine.ml" 226 6348 6359 "smt/combine.ml" 226 6348 6360
+type(
+  (X1.Rel.r Literal.view * Explanation.t * Num.num) list ->
+  (X1.Rel.r Literal.view * Explanation.t * Num.num) list ->
+  (X1.Rel.r Literal.view * Explanation.t * Num.num) list
+)
+ident(
+  ext_ref Pervasives.( @ )
+)
+"smt/combine.ml" 226 6348 6361 "smt/combine.ml" 226 6348 6365
+type(
+  (X1.Rel.r Literal.view * Explanation.t * Num.num) list
+)
+ident(
+  int_ref seq5 "smt/combine.ml" 225 6303 6313 "smt/combine.ml" 225 6303 6317
+)
+"smt/combine.ml" 226 6348 6354 "smt/combine.ml" 226 6348 6365
+call(
+  tail
+)
+type(
+  (X1.Rel.r Literal.view * Explanation.t * Num.num) list
+)
+"smt/combine.ml" 225 6303 6309 "smt/combine.ml" 226 6348 6365
+type(
+  (X1.Rel.r Literal.view * Explanation.t * Num.num) list
+)
+"smt/combine.ml" 224 6258 6264 "smt/combine.ml" 226 6348 6365
+type(
+  (X1.Rel.r Literal.view * Explanation.t * Num.num) list
+)
+"smt/combine.ml" 228 6367 6375 "smt/combine.ml" 228 6367 6378
+type(
+  t -> X1.Rel.r -> t
+)
+ident(
+  def add "smt/combine.ml" 230 6418 6449 "smt/combine.ml" 231 6450 6455
+)
+"smt/combine.ml" 228 6367 6379 "smt/combine.ml" 228 6367 6382
+type(
+  t
+)
+ident(
+  def env "smt/combine.ml" 228 6367 6383 "smt/combine.ml" 230 6418 6449
+)
+"smt/combine.ml" 228 6367 6383 "smt/combine.ml" 228 6367 6384
+type(
+  X1.Rel.r
+)
+ident(
+  def r "smt/combine.ml" 229 6387 6393 "smt/combine.ml" 230 6418 6449
+)
+"smt/combine.ml" 229 6387 6397 "smt/combine.ml" 229 6387 6407
+type(
+  X1.Rel.t -> X1.Rel.r -> X1.Rel.t
+)
+ident(
+  ext_ref X1.Rel.add
+)
+"smt/combine.ml" 229 6387 6408 "smt/combine.ml" 229 6387 6411
+type(
+  t
+)
+ident(
+  int_ref env "smt/combine.ml" 228 6367 6379 "smt/combine.ml" 228 6367 6382
+)
+"smt/combine.ml" 229 6387 6408 "smt/combine.ml" 229 6387 6414
+type(
+  X1.Rel.t
+)
+"smt/combine.ml" 229 6387 6415 "smt/combine.ml" 229 6387 6416
+type(
+  X1.Rel.r
+)
+ident(
+  int_ref r "smt/combine.ml" 228 6367 6383 "smt/combine.ml" 228 6367 6384
+)
+"smt/combine.ml" 229 6387 6397 "smt/combine.ml" 229 6387 6416
+call(
+  stack
+)
+type(
+  X1.Rel.t
+)
+"smt/combine.ml" 230 6418 6428 "smt/combine.ml" 230 6418 6438
+type(
+  X5.Rel.t -> X5.Rel.r -> X5.Rel.t
+)
+ident(
+  ext_ref X5.Rel.add
+)
+"smt/combine.ml" 230 6418 6439 "smt/combine.ml" 230 6418 6442
+type(
+  t
+)
+ident(
+  int_ref env "smt/combine.ml" 228 6367 6379 "smt/combine.ml" 228 6367 6382
+)
+"smt/combine.ml" 230 6418 6439 "smt/combine.ml" 230 6418 6445
+type(
+  X5.Rel.t
+)
+"smt/combine.ml" 230 6418 6446 "smt/combine.ml" 230 6418 6447
+type(
+  X1.Rel.r
+)
+ident(
+  int_ref r "smt/combine.ml" 228 6367 6383 "smt/combine.ml" 228 6367 6384
+)
+"smt/combine.ml" 230 6418 6428 "smt/combine.ml" 230 6418 6447
+call(
+  stack
+)
+type(
+  X5.Rel.t
+)
+"smt/combine.ml" 229 6387 6393 "smt/combine.ml" 230 6418 6449
+type(
+  t
+)
+"smt/combine.ml" 235 6462 6504 "smt/combine.ml" 235 6462 6518
+call(
+  stack
+)
+"smt/combine.ml" 242 6658 6669 "smt/combine.ml" 242 6658 6676
+type(
+  CX.r -> X1.t option
+)
+ident(
+  def extract "smt/combine.ml" 243 6691 6698 "smt/combine.ml" 245 6786 6794
+)
+"smt/combine.ml" 242 6658 6679 "smt/combine.ml" 242 6658 6690
+type(
+  CX.r -> X1.t option
+)
+ident(
+  int_ref CX.extract1 "smt/combine.ml" 20 984 986 "smt/combine.ml" 20 984 1017
+)
+"smt/combine.ml" 243 6691 6702 "smt/combine.ml" 243 6691 6707
+type(
+  X1.t -> CX.r
+)
+ident(
+  def embed "smt/combine.ml" 244 6721 6728 "smt/combine.ml" 245 6786 6794
+)
+"smt/combine.ml" 243 6691 6711 "smt/combine.ml" 243 6691 6720
+type(
+  X1.t -> CX.r
+)
+ident(
+  int_ref CX.embed1 "smt/combine.ml" 21 1018 1020 "smt/combine.ml" 21 1018 1042
+)
+"smt/combine.ml" 244 6721 6732 "smt/combine.ml" 244 6721 6738
+type(
+  'b -> 'c -> 'd -> 'b * 'e Sig.result
+)
+ident(
+  def assume "smt/combine.ml" 244 6721 6784 "smt/combine.ml" 245 6786 6794
+)
+"smt/combine.ml" 244 6721 6739 "smt/combine.ml" 244 6721 6742
+type(
+  'b
+)
+ident(
+  def env "smt/combine.ml" 244 6721 6743 "smt/combine.ml" 244 6721 6784
+)
+"smt/combine.ml" 244 6721 6743 "smt/combine.ml" 244 6721 6744
+type(
+  'c
+)
+"smt/combine.ml" 244 6721 6745 "smt/combine.ml" 244 6721 6746
+type(
+  'd
+)
+"smt/combine.ml" 244 6721 6749 "smt/combine.ml" 244 6721 6752
+type(
+  'b
+)
+ident(
+  int_ref env "smt/combine.ml" 244 6721 6739 "smt/combine.ml" 244 6721 6742
+)
+"smt/combine.ml" 244 6721 6768 "smt/combine.ml" 244 6721 6770
+type(
+  ('e Sig.literal * Explanation.t) list
+)
+"smt/combine.ml" 244 6721 6781 "smt/combine.ml" 244 6721 6783
+type(
+  ('e Sig.literal * Explanation.t) list
+)
+"smt/combine.ml" 244 6721 6754 "smt/combine.ml" 244 6721 6784
+type(
+  'e Sig.result
+)
+"smt/combine.ml" 244 6721 6749 "smt/combine.ml" 244 6721 6784
+type(
+  'b * 'e Sig.result
+)
+"smt/combine.ml" 238 6581 6583 "smt/combine.ml" 245 6786 6795
+call(
+  stack
+)
+"smt/combine.ml" 251 6910 6921 "smt/combine.ml" 251 6910 6928
+type(
+  r -> X5.t option
+)
+ident(
+  def extract "smt/combine.ml" 252 6940 6947 "smt/combine.ml" 253 6966 6974
+)
+"smt/combine.ml" 251 6910 6931 "smt/combine.ml" 251 6910 6939
+type(
+  r -> X5.t option
+)
+ident(
+  int_ref extract5 "smt/combine.ml" 23 1044 1046 "smt/combine.ml" 23 1044 1077
+)
+"smt/combine.ml" 252 6940 6951 "smt/combine.ml" 252 6940 6956
+type(
+  X5.t -> r
+)
+ident(
+  def embed "smt/combine.ml" 252 6940 6965 "smt/combine.ml" 253 6966 6974
+)
+"smt/combine.ml" 252 6940 6959 "smt/combine.ml" 252 6940 6965
+type(
+  X5.t -> r
+)
+ident(
+  int_ref embed5 "smt/combine.ml" 24 1078 1080 "smt/combine.ml" 24 1078 1102
+)
+"smt/combine.ml" 248 6869 6871 "smt/combine.ml" 253 6966 6975
+call(
+  stack
+)

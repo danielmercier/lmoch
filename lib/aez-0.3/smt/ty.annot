@@ -1,0 +1,958 @@
+"smt/ty.ml" 23 1044 1048 "smt/ty.ml" 23 1044 1052
+type(
+  t -> int
+)
+ident(
+  def hash "smt/ty.ml" 34 1258 1258 "smt/ty.ml" 1 0 -1
+)
+"smt/ty.ml" 23 1044 1053 "smt/ty.ml" 23 1044 1054
+type(
+  t
+)
+ident(
+  def t "smt/ty.ml" 24 1057 1059 "smt/ty.ml" 32 1231 1256
+)
+"smt/ty.ml" 24 1057 1065 "smt/ty.ml" 24 1057 1066
+type(
+  t
+)
+ident(
+  int_ref t "smt/ty.ml" 23 1044 1053 "smt/ty.ml" 23 1044 1054
+)
+"smt/ty.ml" 25 1072 1088 "smt/ty.ml" 25 1072 1089
+type(
+  Hstring.t
+)
+ident(
+  def s "smt/ty.ml" 25 1072 1093 "smt/ty.ml" 25 1072 1107
+)
+"smt/ty.ml" 25 1072 1078 "smt/ty.ml" 25 1072 1089
+type(
+  t
+)
+"smt/ty.ml" 25 1072 1093 "smt/ty.ml" 25 1072 1105
+type(
+  Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.hash
+)
+"smt/ty.ml" 25 1072 1106 "smt/ty.ml" 25 1072 1107
+type(
+  Hstring.t
+)
+ident(
+  int_ref s "smt/ty.ml" 25 1072 1088 "smt/ty.ml" 25 1072 1089
+)
+"smt/ty.ml" 25 1072 1093 "smt/ty.ml" 25 1072 1107
+call(
+  tail
+)
+type(
+  int
+)
+"smt/ty.ml" 26 1108 1120 "smt/ty.ml" 26 1108 1121
+type(
+  Hstring.t
+)
+ident(
+  def s "smt/ty.ml" 27 1130 1131 "smt/ty.ml" 31 1224 1230
+)
+"smt/ty.ml" 26 1108 1123 "smt/ty.ml" 26 1108 1124
+type(
+  Hstring.t list
+)
+ident(
+  def l "smt/ty.ml" 27 1130 1131 "smt/ty.ml" 31 1224 1230
+)
+"smt/ty.ml" 26 1108 1114 "smt/ty.ml" 26 1108 1125
+type(
+  t
+)
+"smt/ty.ml" 27 1130 1135 "smt/ty.ml" 27 1130 1136
+type(
+  int
+)
+ident(
+  def h "smt/ty.ml" 31 1224 1225 "smt/ty.ml" 31 1224 1230
+)
+"smt/ty.ml" 28 1140 1143 "smt/ty.ml" 28 1140 1157
+type(
+  (int -> Hstring.t -> int) -> int -> Hstring.t list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"smt/ty.ml" 29 1159 1169 "smt/ty.ml" 29 1159 1170
+type(
+  int
+)
+ident(
+  def h "smt/ty.ml" 29 1159 1171 "smt/ty.ml" 29 1159 1199
+)
+"smt/ty.ml" 29 1159 1171 "smt/ty.ml" 29 1159 1172
+type(
+  Hstring.t
+)
+ident(
+  def x "smt/ty.ml" 29 1159 1176 "smt/ty.ml" 29 1159 1199
+)
+"smt/ty.ml" 29 1159 1176 "smt/ty.ml" 29 1159 1178
+type(
+  int
+)
+"smt/ty.ml" 29 1159 1179 "smt/ty.ml" 29 1159 1180
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"smt/ty.ml" 29 1159 1181 "smt/ty.ml" 29 1159 1182
+type(
+  int
+)
+ident(
+  int_ref h "smt/ty.ml" 29 1159 1169 "smt/ty.ml" 29 1159 1170
+)
+"smt/ty.ml" 29 1159 1176 "smt/ty.ml" 29 1159 1182
+type(
+  int
+)
+"smt/ty.ml" 29 1159 1183 "smt/ty.ml" 29 1159 1184
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/ty.ml" 29 1159 1185 "smt/ty.ml" 29 1159 1197
+type(
+  Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.hash
+)
+"smt/ty.ml" 29 1159 1198 "smt/ty.ml" 29 1159 1199
+type(
+  Hstring.t
+)
+ident(
+  int_ref x "smt/ty.ml" 29 1159 1171 "smt/ty.ml" 29 1159 1172
+)
+"smt/ty.ml" 29 1159 1185 "smt/ty.ml" 29 1159 1199
+call(
+  stack
+)
+type(
+  int
+)
+"smt/ty.ml" 29 1159 1176 "smt/ty.ml" 29 1159 1199
+type(
+  int
+)
+"smt/ty.ml" 29 1159 1164 "smt/ty.ml" 29 1159 1200
+type(
+  int -> Hstring.t -> int
+)
+"smt/ty.ml" 29 1159 1202 "smt/ty.ml" 29 1159 1214
+type(
+  Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.hash
+)
+"smt/ty.ml" 29 1159 1215 "smt/ty.ml" 29 1159 1216
+type(
+  Hstring.t
+)
+ident(
+  int_ref s "smt/ty.ml" 26 1108 1120 "smt/ty.ml" 26 1108 1121
+)
+"smt/ty.ml" 29 1159 1201 "smt/ty.ml" 29 1159 1217
+call(
+  stack
+)
+type(
+  int
+)
+"smt/ty.ml" 29 1159 1218 "smt/ty.ml" 29 1159 1219
+type(
+  Hstring.t list
+)
+ident(
+  int_ref l "smt/ty.ml" 26 1108 1123 "smt/ty.ml" 26 1108 1124
+)
+"smt/ty.ml" 28 1140 1143 "smt/ty.ml" 29 1159 1219
+call(
+  stack
+)
+type(
+  int
+)
+"smt/ty.ml" 31 1224 1225 "smt/ty.ml" 31 1224 1228
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"smt/ty.ml" 31 1224 1229 "smt/ty.ml" 31 1224 1230
+type(
+  int
+)
+ident(
+  int_ref h "smt/ty.ml" 27 1130 1135 "smt/ty.ml" 27 1130 1136
+)
+"smt/ty.ml" 31 1224 1225 "smt/ty.ml" 31 1224 1230
+call(
+  tail
+)
+type(
+  int
+)
+"smt/ty.ml" 27 1130 1131 "smt/ty.ml" 31 1224 1230
+type(
+  int
+)
+"smt/ty.ml" 32 1231 1237 "smt/ty.ml" 32 1231 1238
+type(
+  t
+)
+"smt/ty.ml" 32 1231 1242 "smt/ty.ml" 32 1231 1254
+type(
+  t -> int
+)
+ident(
+  ext_ref Hashtbl.hash
+)
+"smt/ty.ml" 32 1231 1255 "smt/ty.ml" 32 1231 1256
+type(
+  t
+)
+ident(
+  int_ref t "smt/ty.ml" 23 1044 1053 "smt/ty.ml" 23 1044 1054
+)
+"smt/ty.ml" 32 1231 1242 "smt/ty.ml" 32 1231 1256
+call(
+  tail
+)
+type(
+  int
+)
+"smt/ty.ml" 24 1057 1059 "smt/ty.ml" 32 1231 1256
+type(
+  int
+)
+"smt/ty.ml" 34 1258 1262 "smt/ty.ml" 34 1258 1267
+type(
+  t -> t -> bool
+)
+ident(
+  def equal "smt/ty.ml" 42 1462 1462 "smt/ty.ml" 1 0 -1
+)
+"smt/ty.ml" 34 1258 1268 "smt/ty.ml" 34 1258 1270
+type(
+  t
+)
+ident(
+  def t1 "smt/ty.ml" 34 1258 1271 "smt/ty.ml" 40 1443 1459
+)
+"smt/ty.ml" 34 1258 1271 "smt/ty.ml" 34 1258 1273
+type(
+  t
+)
+ident(
+  def t2 "smt/ty.ml" 35 1277 1279 "smt/ty.ml" 40 1443 1459
+)
+"smt/ty.ml" 35 1277 1285 "smt/ty.ml" 35 1277 1287
+type(
+  t
+)
+ident(
+  int_ref t1 "smt/ty.ml" 34 1258 1268 "smt/ty.ml" 34 1258 1270
+)
+"smt/ty.ml" 35 1277 1289 "smt/ty.ml" 35 1277 1291
+type(
+  t
+)
+ident(
+  int_ref t2 "smt/ty.ml" 34 1258 1271 "smt/ty.ml" 34 1258 1273
+)
+"smt/ty.ml" 35 1277 1285 "smt/ty.ml" 35 1277 1291
+type(
+  t * t
+)
+"smt/ty.ml" 36 1297 1313 "smt/ty.ml" 36 1297 1315
+type(
+  Hstring.t
+)
+ident(
+  def s1 "smt/ty.ml" 38 1367 1368 "smt/ty.ml" 38 1367 1387
+)
+"smt/ty.ml" 36 1297 1303 "smt/ty.ml" 36 1297 1315
+type(
+  t
+)
+"smt/ty.ml" 36 1297 1327 "smt/ty.ml" 36 1297 1329
+type(
+  Hstring.t
+)
+ident(
+  def s2 "smt/ty.ml" 38 1367 1368 "smt/ty.ml" 38 1367 1387
+)
+"smt/ty.ml" 36 1297 1317 "smt/ty.ml" 36 1297 1329
+type(
+  t
+)
+"smt/ty.ml" 36 1297 1303 "smt/ty.ml" 36 1297 1329
+type(
+  t * t
+)
+"smt/ty.ml" 37 1331 1343 "smt/ty.ml" 37 1331 1345
+type(
+  Hstring.t
+)
+ident(
+  def s1 "smt/ty.ml" 38 1367 1368 "smt/ty.ml" 38 1367 1387
+)
+"smt/ty.ml" 37 1331 1347 "smt/ty.ml" 37 1331 1348
+type(
+  Hstring.t list
+)
+"smt/ty.ml" 37 1331 1337 "smt/ty.ml" 37 1331 1349
+type(
+  t
+)
+"smt/ty.ml" 37 1331 1357 "smt/ty.ml" 37 1331 1359
+type(
+  Hstring.t
+)
+ident(
+  def s2 "smt/ty.ml" 38 1367 1368 "smt/ty.ml" 38 1367 1387
+)
+"smt/ty.ml" 37 1331 1361 "smt/ty.ml" 37 1331 1362
+type(
+  Hstring.t list
+)
+"smt/ty.ml" 37 1331 1351 "smt/ty.ml" 37 1331 1363
+type(
+  t
+)
+"smt/ty.ml" 37 1331 1337 "smt/ty.ml" 37 1331 1363
+type(
+  t * t
+)
+"smt/ty.ml" 36 1297 1303 "smt/ty.ml" 37 1331 1363
+type(
+  t * t
+)
+"smt/ty.ml" 38 1367 1368 "smt/ty.ml" 38 1367 1381
+type(
+  Hstring.t -> Hstring.t -> bool
+)
+ident(
+  ext_ref Hstring.equal
+)
+"smt/ty.ml" 38 1367 1382 "smt/ty.ml" 38 1367 1384
+type(
+  Hstring.t
+)
+ident(
+  int_ref s1 "smt/ty.ml" 36 1297 1313 "smt/ty.ml" 36 1297 1315
+)
+"smt/ty.ml" 38 1367 1385 "smt/ty.ml" 38 1367 1387
+type(
+  Hstring.t
+)
+ident(
+  int_ref s2 "smt/ty.ml" 36 1297 1327 "smt/ty.ml" 36 1297 1329
+)
+"smt/ty.ml" 38 1367 1368 "smt/ty.ml" 38 1367 1387
+call(
+  tail
+)
+type(
+  bool
+)
+"smt/ty.ml" 39 1388 1394 "smt/ty.ml" 39 1388 1398
+type(
+  t
+)
+"smt/ty.ml" 39 1388 1400 "smt/ty.ml" 39 1388 1404
+type(
+  t
+)
+"smt/ty.ml" 39 1388 1394 "smt/ty.ml" 39 1388 1404
+type(
+  t * t
+)
+"smt/ty.ml" 39 1388 1407 "smt/ty.ml" 39 1388 1412
+type(
+  t
+)
+"smt/ty.ml" 39 1388 1414 "smt/ty.ml" 39 1388 1419
+type(
+  t
+)
+"smt/ty.ml" 39 1388 1407 "smt/ty.ml" 39 1388 1419
+type(
+  t * t
+)
+"smt/ty.ml" 39 1388 1394 "smt/ty.ml" 39 1388 1419
+type(
+  t * t
+)
+"smt/ty.ml" 39 1388 1422 "smt/ty.ml" 39 1388 1427
+type(
+  t
+)
+"smt/ty.ml" 39 1388 1429 "smt/ty.ml" 39 1388 1434
+type(
+  t
+)
+"smt/ty.ml" 39 1388 1422 "smt/ty.ml" 39 1388 1434
+type(
+  t * t
+)
+"smt/ty.ml" 39 1388 1394 "smt/ty.ml" 39 1388 1434
+type(
+  t * t
+)
+"smt/ty.ml" 39 1388 1438 "smt/ty.ml" 39 1388 1442
+type(
+  bool
+)
+"smt/ty.ml" 40 1443 1449 "smt/ty.ml" 40 1443 1450
+type(
+  t * t
+)
+"smt/ty.ml" 40 1443 1454 "smt/ty.ml" 40 1443 1459
+type(
+  bool
+)
+"smt/ty.ml" 35 1277 1279 "smt/ty.ml" 40 1443 1459
+type(
+  bool
+)
+"smt/ty.ml" 42 1462 1466 "smt/ty.ml" 42 1462 1473
+type(
+  t -> t -> int
+)
+ident(
+  def compare "smt/ty.ml" 52 1753 1753 "smt/ty.ml" 1 0 -1
+)
+"smt/ty.ml" 42 1462 1474 "smt/ty.ml" 42 1462 1476
+type(
+  t
+)
+ident(
+  def t1 "smt/ty.ml" 42 1462 1477 "smt/ty.ml" 50 1711 1751
+)
+"smt/ty.ml" 42 1462 1477 "smt/ty.ml" 42 1462 1479
+type(
+  t
+)
+ident(
+  def t2 "smt/ty.ml" 43 1483 1485 "smt/ty.ml" 50 1711 1751
+)
+"smt/ty.ml" 43 1483 1491 "smt/ty.ml" 43 1483 1493
+type(
+  t
+)
+ident(
+  int_ref t1 "smt/ty.ml" 42 1462 1474 "smt/ty.ml" 42 1462 1476
+)
+"smt/ty.ml" 43 1483 1495 "smt/ty.ml" 43 1483 1497
+type(
+  t
+)
+ident(
+  int_ref t2 "smt/ty.ml" 42 1462 1477 "smt/ty.ml" 42 1462 1479
+)
+"smt/ty.ml" 43 1483 1491 "smt/ty.ml" 43 1483 1497
+type(
+  t * t
+)
+"smt/ty.ml" 44 1503 1519 "smt/ty.ml" 44 1503 1521
+type(
+  Hstring.t
+)
+ident(
+  def s1 "smt/ty.ml" 45 1539 1540 "smt/ty.ml" 45 1539 1561
+)
+"smt/ty.ml" 44 1503 1509 "smt/ty.ml" 44 1503 1521
+type(
+  t
+)
+"smt/ty.ml" 44 1503 1533 "smt/ty.ml" 44 1503 1535
+type(
+  Hstring.t
+)
+ident(
+  def s2 "smt/ty.ml" 45 1539 1540 "smt/ty.ml" 45 1539 1561
+)
+"smt/ty.ml" 44 1503 1523 "smt/ty.ml" 44 1503 1535
+type(
+  t
+)
+"smt/ty.ml" 44 1503 1509 "smt/ty.ml" 44 1503 1535
+type(
+  t * t
+)
+"smt/ty.ml" 45 1539 1540 "smt/ty.ml" 45 1539 1555
+type(
+  Hstring.t -> Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.compare
+)
+"smt/ty.ml" 45 1539 1556 "smt/ty.ml" 45 1539 1558
+type(
+  Hstring.t
+)
+ident(
+  int_ref s1 "smt/ty.ml" 44 1503 1519 "smt/ty.ml" 44 1503 1521
+)
+"smt/ty.ml" 45 1539 1559 "smt/ty.ml" 45 1539 1561
+type(
+  Hstring.t
+)
+ident(
+  int_ref s2 "smt/ty.ml" 44 1503 1533 "smt/ty.ml" 44 1503 1535
+)
+"smt/ty.ml" 45 1539 1540 "smt/ty.ml" 45 1539 1561
+call(
+  tail
+)
+type(
+  int
+)
+"smt/ty.ml" 46 1563 1579 "smt/ty.ml" 46 1563 1580
+type(
+  Hstring.t
+)
+"smt/ty.ml" 46 1563 1569 "smt/ty.ml" 46 1563 1580
+type(
+  t
+)
+"smt/ty.ml" 46 1563 1582 "smt/ty.ml" 46 1563 1583
+type(
+  t
+)
+"smt/ty.ml" 46 1563 1569 "smt/ty.ml" 46 1563 1583
+type(
+  t * t
+)
+"smt/ty.ml" 46 1563 1587 "smt/ty.ml" 46 1563 1589
+type(
+  int
+)
+"smt/ty.ml" 46 1563 1592 "smt/ty.ml" 46 1563 1593
+type(
+  t
+)
+"smt/ty.ml" 46 1563 1606 "smt/ty.ml" 46 1563 1607
+type(
+  Hstring.t
+)
+"smt/ty.ml" 46 1563 1596 "smt/ty.ml" 46 1563 1607
+type(
+  t
+)
+"smt/ty.ml" 46 1563 1592 "smt/ty.ml" 46 1563 1607
+type(
+  t * t
+)
+"smt/ty.ml" 46 1563 1611 "smt/ty.ml" 46 1563 1612
+type(
+  int
+)
+"smt/ty.ml" 47 1613 1625 "smt/ty.ml" 47 1613 1627
+type(
+  Hstring.t
+)
+ident(
+  def s1 "smt/ty.ml" 48 1648 1649 "smt/ty.ml" 48 1648 1670
+)
+"smt/ty.ml" 47 1613 1629 "smt/ty.ml" 47 1613 1630
+type(
+  Hstring.t list
+)
+"smt/ty.ml" 47 1613 1619 "smt/ty.ml" 47 1613 1631
+type(
+  t
+)
+"smt/ty.ml" 47 1613 1638 "smt/ty.ml" 47 1613 1640
+type(
+  Hstring.t
+)
+ident(
+  def s2 "smt/ty.ml" 48 1648 1649 "smt/ty.ml" 48 1648 1670
+)
+"smt/ty.ml" 47 1613 1642 "smt/ty.ml" 47 1613 1643
+type(
+  Hstring.t list
+)
+"smt/ty.ml" 47 1613 1633 "smt/ty.ml" 47 1613 1644
+type(
+  t
+)
+"smt/ty.ml" 47 1613 1619 "smt/ty.ml" 47 1613 1644
+type(
+  t * t
+)
+"smt/ty.ml" 48 1648 1649 "smt/ty.ml" 48 1648 1664
+type(
+  Hstring.t -> Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.compare
+)
+"smt/ty.ml" 48 1648 1665 "smt/ty.ml" 48 1648 1667
+type(
+  Hstring.t
+)
+ident(
+  int_ref s1 "smt/ty.ml" 47 1613 1625 "smt/ty.ml" 47 1613 1627
+)
+"smt/ty.ml" 48 1648 1668 "smt/ty.ml" 48 1648 1670
+type(
+  Hstring.t
+)
+ident(
+  int_ref s2 "smt/ty.ml" 47 1613 1638 "smt/ty.ml" 47 1613 1640
+)
+"smt/ty.ml" 48 1648 1649 "smt/ty.ml" 48 1648 1670
+call(
+  tail
+)
+type(
+  int
+)
+"smt/ty.ml" 49 1671 1682 "smt/ty.ml" 49 1671 1683
+type(
+  Hstring.t list
+)
+type(
+  Hstring.t
+)
+"smt/ty.ml" 49 1671 1677 "smt/ty.ml" 49 1671 1683
+type(
+  t
+)
+"smt/ty.ml" 49 1671 1685 "smt/ty.ml" 49 1671 1686
+type(
+  t
+)
+"smt/ty.ml" 49 1671 1677 "smt/ty.ml" 49 1671 1686
+type(
+  t * t
+)
+"smt/ty.ml" 49 1671 1690 "smt/ty.ml" 49 1671 1692
+type(
+  int
+)
+"smt/ty.ml" 49 1671 1695 "smt/ty.ml" 49 1671 1696
+type(
+  t
+)
+"smt/ty.ml" 49 1671 1704 "smt/ty.ml" 49 1671 1705
+type(
+  Hstring.t list
+)
+type(
+  Hstring.t
+)
+"smt/ty.ml" 49 1671 1699 "smt/ty.ml" 49 1671 1705
+type(
+  t
+)
+"smt/ty.ml" 49 1671 1695 "smt/ty.ml" 49 1671 1705
+type(
+  t * t
+)
+"smt/ty.ml" 49 1671 1709 "smt/ty.ml" 49 1671 1710
+type(
+  int
+)
+"smt/ty.ml" 50 1711 1717 "smt/ty.ml" 50 1711 1719
+type(
+  t
+)
+ident(
+  def t1 "smt/ty.ml" 50 1711 1727 "smt/ty.ml" 50 1711 1751
+)
+"smt/ty.ml" 50 1711 1721 "smt/ty.ml" 50 1711 1723
+type(
+  t
+)
+ident(
+  def t2 "smt/ty.ml" 50 1711 1727 "smt/ty.ml" 50 1711 1751
+)
+"smt/ty.ml" 50 1711 1717 "smt/ty.ml" 50 1711 1723
+type(
+  t * t
+)
+"smt/ty.ml" 50 1711 1727 "smt/ty.ml" 50 1711 1745
+type(
+  t -> t -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"smt/ty.ml" 50 1711 1746 "smt/ty.ml" 50 1711 1748
+type(
+  t
+)
+ident(
+  int_ref t1 "smt/ty.ml" 50 1711 1717 "smt/ty.ml" 50 1711 1719
+)
+"smt/ty.ml" 50 1711 1749 "smt/ty.ml" 50 1711 1751
+type(
+  t
+)
+ident(
+  int_ref t2 "smt/ty.ml" 50 1711 1721 "smt/ty.ml" 50 1711 1723
+)
+"smt/ty.ml" 50 1711 1727 "smt/ty.ml" 50 1711 1751
+type(
+  int
+)
+"smt/ty.ml" 43 1483 1485 "smt/ty.ml" 50 1711 1751
+type(
+  int
+)
+"smt/ty.ml" 52 1753 1757 "smt/ty.ml" 52 1753 1762
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "smt/ty.ml" 58 1944 1998 "smt/ty.ml" 1 0 -1
+)
+"smt/ty.ml" 52 1753 1763 "smt/ty.ml" 52 1753 1766
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/ty.ml" 52 1753 1767 "smt/ty.ml" 58 1944 1998
+)
+"smt/ty.ml" 52 1753 1767 "smt/ty.ml" 52 1753 1769
+type(
+  t
+)
+ident(
+  def ty "smt/ty.ml" 53 1773 1775 "smt/ty.ml" 58 1944 1998
+)
+"smt/ty.ml" 53 1773 1781 "smt/ty.ml" 53 1773 1783
+type(
+  t
+)
+ident(
+  int_ref ty "smt/ty.ml" 52 1753 1767 "smt/ty.ml" 52 1753 1769
+)
+"smt/ty.ml" 54 1789 1795 "smt/ty.ml" 54 1789 1799
+type(
+  t
+)
+"smt/ty.ml" 54 1789 1803 "smt/ty.ml" 54 1789 1810
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/ty.ml" 54 1789 1811 "smt/ty.ml" 54 1789 1814
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/ty.ml" 52 1753 1763 "smt/ty.ml" 52 1753 1766
+)
+"smt/ty.ml" 54 1789 1815 "smt/ty.ml" 54 1789 1820
+type(
+  (unit, Format.formatter, unit) format
+)
+"smt/ty.ml" 54 1789 1803 "smt/ty.ml" 54 1789 1820
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/ty.ml" 55 1821 1827 "smt/ty.ml" 55 1821 1832
+type(
+  t
+)
+"smt/ty.ml" 55 1821 1836 "smt/ty.ml" 55 1821 1843
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/ty.ml" 55 1821 1844 "smt/ty.ml" 55 1821 1847
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/ty.ml" 52 1753 1763 "smt/ty.ml" 52 1753 1766
+)
+"smt/ty.ml" 55 1821 1848 "smt/ty.ml" 55 1821 1854
+type(
+  (unit, Format.formatter, unit) format
+)
+"smt/ty.ml" 55 1821 1836 "smt/ty.ml" 55 1821 1854
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/ty.ml" 56 1855 1861 "smt/ty.ml" 56 1855 1866
+type(
+  t
+)
+"smt/ty.ml" 56 1855 1870 "smt/ty.ml" 56 1855 1877
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/ty.ml" 56 1855 1878 "smt/ty.ml" 56 1855 1881
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/ty.ml" 52 1753 1763 "smt/ty.ml" 52 1753 1766
+)
+"smt/ty.ml" 56 1855 1882 "smt/ty.ml" 56 1855 1888
+type(
+  (unit, Format.formatter, unit) format
+)
+"smt/ty.ml" 56 1855 1870 "smt/ty.ml" 56 1855 1888
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/ty.ml" 57 1889 1905 "smt/ty.ml" 57 1889 1906
+type(
+  Hstring.t
+)
+ident(
+  def s "smt/ty.ml" 57 1889 1910 "smt/ty.ml" 57 1889 1943
+)
+"smt/ty.ml" 57 1889 1895 "smt/ty.ml" 57 1889 1906
+type(
+  t
+)
+"smt/ty.ml" 57 1889 1910 "smt/ty.ml" 57 1889 1917
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/ty.ml" 57 1889 1918 "smt/ty.ml" 57 1889 1921
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/ty.ml" 52 1753 1763 "smt/ty.ml" 52 1753 1766
+)
+"smt/ty.ml" 57 1889 1922 "smt/ty.ml" 57 1889 1926
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"smt/ty.ml" 57 1889 1928 "smt/ty.ml" 57 1889 1940
+type(
+  Hstring.t -> string
+)
+ident(
+  ext_ref Hstring.view
+)
+"smt/ty.ml" 57 1889 1941 "smt/ty.ml" 57 1889 1942
+type(
+  Hstring.t
+)
+ident(
+  int_ref s "smt/ty.ml" 57 1889 1905 "smt/ty.ml" 57 1889 1906
+)
+"smt/ty.ml" 57 1889 1927 "smt/ty.ml" 57 1889 1943
+call(
+  stack
+)
+type(
+  string
+)
+"smt/ty.ml" 57 1889 1910 "smt/ty.ml" 57 1889 1943
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/ty.ml" 58 1944 1956 "smt/ty.ml" 58 1944 1957
+type(
+  Hstring.t
+)
+ident(
+  def s "smt/ty.ml" 58 1944 1965 "smt/ty.ml" 58 1944 1998
+)
+"smt/ty.ml" 58 1944 1959 "smt/ty.ml" 58 1944 1960
+type(
+  Hstring.t list
+)
+"smt/ty.ml" 58 1944 1950 "smt/ty.ml" 58 1944 1961
+type(
+  t
+)
+"smt/ty.ml" 58 1944 1965 "smt/ty.ml" 58 1944 1972
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/ty.ml" 58 1944 1973 "smt/ty.ml" 58 1944 1976
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/ty.ml" 52 1753 1763 "smt/ty.ml" 52 1753 1766
+)
+"smt/ty.ml" 58 1944 1977 "smt/ty.ml" 58 1944 1981
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"smt/ty.ml" 58 1944 1983 "smt/ty.ml" 58 1944 1995
+type(
+  Hstring.t -> string
+)
+ident(
+  ext_ref Hstring.view
+)
+"smt/ty.ml" 58 1944 1996 "smt/ty.ml" 58 1944 1997
+type(
+  Hstring.t
+)
+ident(
+  int_ref s "smt/ty.ml" 58 1944 1956 "smt/ty.ml" 58 1944 1957
+)
+"smt/ty.ml" 58 1944 1982 "smt/ty.ml" 58 1944 1998
+type(
+  string
+)
+"smt/ty.ml" 58 1944 1965 "smt/ty.ml" 58 1944 1998
+type(
+  unit
+)
+"smt/ty.ml" 53 1773 1775 "smt/ty.ml" 58 1944 1998
+type(
+  unit
+)

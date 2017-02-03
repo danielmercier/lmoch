@@ -1,0 +1,1425 @@
+"smt/symbols.ml" 30 1189 1193 "smt/symbols.ml" 30 1189 1197
+type(
+  ?kind:name_kind -> Hstring.t -> t
+)
+ident(
+  def name "smt/symbols.ml" 31 1231 1231 "smt/symbols.ml" 1 0 -1
+)
+"smt/symbols.ml" 30 1189 1200 "smt/symbols.ml" 30 1189 1204
+type(
+  name_kind
+)
+"smt/symbols.ml" 30 1189 1205 "smt/symbols.ml" 30 1189 1210
+type(
+  name_kind
+)
+type(
+  name_kind
+)
+ident(
+  int_ref *sth* "smt/symbols.ml" 30 1189 1205 "smt/symbols.ml" 30 1189 1210
+)
+type(
+  name_kind option
+)
+type(
+  name_kind option
+)
+type(
+  name_kind
+)
+"smt/symbols.ml" 30 1189 1212 "smt/symbols.ml" 30 1189 1213
+type(
+  Hstring.t
+)
+ident(
+  def s "smt/symbols.ml" 30 1189 1216 "smt/symbols.ml" 30 1189 1230
+)
+"smt/symbols.ml" 30 1189 1222 "smt/symbols.ml" 30 1189 1223
+type(
+  Hstring.t
+)
+ident(
+  int_ref s "smt/symbols.ml" 30 1189 1212 "smt/symbols.ml" 30 1189 1213
+)
+"smt/symbols.ml" 30 1189 1225 "smt/symbols.ml" 30 1189 1229
+type(
+  name_kind
+)
+ident(
+  int_ref kind "smt/symbols.ml" 30 1189 1200 "smt/symbols.ml" 30 1189 1204
+)
+"smt/symbols.ml" 30 1189 1216 "smt/symbols.ml" 30 1189 1230
+type(
+  t
+)
+"smt/symbols.ml" 31 1231 1235 "smt/symbols.ml" 31 1231 1238
+type(
+  string -> t
+)
+ident(
+  def var "smt/symbols.ml" 32 1264 1264 "smt/symbols.ml" 1 0 -1
+)
+"smt/symbols.ml" 31 1231 1239 "smt/symbols.ml" 31 1231 1240
+type(
+  string
+)
+ident(
+  def s "smt/symbols.ml" 31 1231 1243 "smt/symbols.ml" 31 1231 1263
+)
+"smt/symbols.ml" 31 1231 1248 "smt/symbols.ml" 31 1231 1260
+type(
+  string -> Hstring.t
+)
+ident(
+  ext_ref Hstring.make
+)
+"smt/symbols.ml" 31 1231 1261 "smt/symbols.ml" 31 1231 1262
+type(
+  string
+)
+ident(
+  int_ref s "smt/symbols.ml" 31 1231 1239 "smt/symbols.ml" 31 1231 1240
+)
+"smt/symbols.ml" 31 1231 1247 "smt/symbols.ml" 31 1231 1263
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/symbols.ml" 31 1231 1243 "smt/symbols.ml" 31 1231 1263
+type(
+  t
+)
+"smt/symbols.ml" 32 1264 1268 "smt/symbols.ml" 32 1264 1271
+type(
+  string -> t
+)
+ident(
+  def int "smt/symbols.ml" 33 1297 1297 "smt/symbols.ml" 1 0 -1
+)
+"smt/symbols.ml" 32 1264 1272 "smt/symbols.ml" 32 1264 1273
+type(
+  string
+)
+ident(
+  def i "smt/symbols.ml" 32 1264 1276 "smt/symbols.ml" 32 1264 1296
+)
+"smt/symbols.ml" 32 1264 1281 "smt/symbols.ml" 32 1264 1293
+type(
+  string -> Hstring.t
+)
+ident(
+  ext_ref Hstring.make
+)
+"smt/symbols.ml" 32 1264 1294 "smt/symbols.ml" 32 1264 1295
+type(
+  string
+)
+ident(
+  int_ref i "smt/symbols.ml" 32 1264 1272 "smt/symbols.ml" 32 1264 1273
+)
+"smt/symbols.ml" 32 1264 1280 "smt/symbols.ml" 32 1264 1296
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/symbols.ml" 32 1264 1276 "smt/symbols.ml" 32 1264 1296
+type(
+  t
+)
+"smt/symbols.ml" 33 1297 1301 "smt/symbols.ml" 33 1297 1305
+type(
+  string -> t
+)
+ident(
+  def real "smt/symbols.ml" 36 1334 1334 "smt/symbols.ml" 1 0 -1
+)
+"smt/symbols.ml" 33 1297 1306 "smt/symbols.ml" 33 1297 1307
+type(
+  string
+)
+ident(
+  def r "smt/symbols.ml" 33 1297 1310 "smt/symbols.ml" 33 1297 1331
+)
+"smt/symbols.ml" 33 1297 1316 "smt/symbols.ml" 33 1297 1328
+type(
+  string -> Hstring.t
+)
+ident(
+  ext_ref Hstring.make
+)
+"smt/symbols.ml" 33 1297 1329 "smt/symbols.ml" 33 1297 1330
+type(
+  string
+)
+ident(
+  int_ref r "smt/symbols.ml" 33 1297 1306 "smt/symbols.ml" 33 1297 1307
+)
+"smt/symbols.ml" 33 1297 1315 "smt/symbols.ml" 33 1297 1331
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/symbols.ml" 33 1297 1310 "smt/symbols.ml" 33 1297 1331
+type(
+  t
+)
+"smt/symbols.ml" 36 1334 1338 "smt/symbols.ml" 36 1334 1343
+type(
+  t -> bool
+)
+ident(
+  def is_ac "smt/symbols.ml" 40 1405 1405 "smt/symbols.ml" 1 0 -1
+)
+"smt/symbols.ml" 37 1355 1364 "smt/symbols.ml" 37 1355 1365
+type(
+  Hstring.t
+)
+"smt/symbols.ml" 37 1355 1367 "smt/symbols.ml" 37 1355 1369
+type(
+  name_kind
+)
+"smt/symbols.ml" 37 1355 1359 "smt/symbols.ml" 37 1355 1370
+type(
+  t
+)
+"smt/symbols.ml" 37 1355 1374 "smt/symbols.ml" 37 1355 1378
+type(
+  bool
+)
+"smt/symbols.ml" 38 1379 1383 "smt/symbols.ml" 38 1379 1384
+type(
+  t
+)
+"smt/symbols.ml" 38 1379 1398 "smt/symbols.ml" 38 1379 1403
+type(
+  bool
+)
+"smt/symbols.ml" 36 1334 1346 "smt/symbols.ml" 38 1379 1403
+type(
+  t -> bool
+)
+"smt/symbols.ml" 40 1405 1409 "smt/symbols.ml" 40 1405 1421
+type(
+  name_kind -> name_kind -> int
+)
+ident(
+  def compare_kind "smt/symbols.ml" 49 1617 1617 "smt/symbols.ml" 1 0 -1
+)
+"smt/symbols.ml" 40 1405 1422 "smt/symbols.ml" 40 1405 1424
+type(
+  name_kind
+)
+ident(
+  def k1 "smt/symbols.ml" 40 1405 1425 "smt/symbols.ml" 47 1582 1615
+)
+"smt/symbols.ml" 40 1405 1425 "smt/symbols.ml" 40 1405 1427
+type(
+  name_kind
+)
+ident(
+  def k2 "smt/symbols.ml" 40 1405 1430 "smt/symbols.ml" 47 1582 1615
+)
+"smt/symbols.ml" 40 1405 1436 "smt/symbols.ml" 40 1405 1438
+type(
+  name_kind
+)
+ident(
+  int_ref k1 "smt/symbols.ml" 40 1405 1422 "smt/symbols.ml" 40 1405 1424
+)
+"smt/symbols.ml" 40 1405 1440 "smt/symbols.ml" 40 1405 1442
+type(
+  name_kind
+)
+ident(
+  int_ref k2 "smt/symbols.ml" 40 1405 1425 "smt/symbols.ml" 40 1405 1427
+)
+"smt/symbols.ml" 40 1405 1436 "smt/symbols.ml" 40 1405 1442
+type(
+  name_kind * name_kind
+)
+"smt/symbols.ml" 41 1448 1452 "smt/symbols.ml" 41 1448 1454
+type(
+  name_kind
+)
+"smt/symbols.ml" 41 1448 1459 "smt/symbols.ml" 41 1448 1461
+type(
+  name_kind
+)
+"smt/symbols.ml" 41 1448 1452 "smt/symbols.ml" 41 1448 1461
+type(
+  name_kind * name_kind
+)
+"smt/symbols.ml" 41 1448 1468 "smt/symbols.ml" 41 1448 1469
+type(
+  int
+)
+"smt/symbols.ml" 42 1470 1474 "smt/symbols.ml" 42 1470 1476
+type(
+  name_kind
+)
+"smt/symbols.ml" 42 1470 1481 "smt/symbols.ml" 42 1470 1482
+type(
+  name_kind
+)
+"smt/symbols.ml" 42 1470 1474 "smt/symbols.ml" 42 1470 1482
+type(
+  name_kind * name_kind
+)
+"smt/symbols.ml" 42 1470 1490 "smt/symbols.ml" 42 1470 1491
+type(
+  int
+)
+"smt/symbols.ml" 43 1492 1496 "smt/symbols.ml" 43 1492 1497
+type(
+  name_kind
+)
+"smt/symbols.ml" 43 1492 1503 "smt/symbols.ml" 43 1492 1505
+type(
+  name_kind
+)
+"smt/symbols.ml" 43 1492 1496 "smt/symbols.ml" 43 1492 1505
+type(
+  name_kind * name_kind
+)
+"smt/symbols.ml" 43 1492 1512 "smt/symbols.ml" 43 1492 1514
+type(
+  int
+)
+"smt/symbols.ml" 44 1515 1519 "smt/symbols.ml" 44 1515 1524
+type(
+  name_kind
+)
+"smt/symbols.ml" 44 1515 1526 "smt/symbols.ml" 44 1515 1531
+type(
+  name_kind
+)
+"smt/symbols.ml" 44 1515 1519 "smt/symbols.ml" 44 1515 1531
+type(
+  name_kind * name_kind
+)
+"smt/symbols.ml" 44 1515 1535 "smt/symbols.ml" 44 1515 1536
+type(
+  int
+)
+"smt/symbols.ml" 45 1537 1541 "smt/symbols.ml" 45 1537 1546
+type(
+  name_kind
+)
+"smt/symbols.ml" 45 1537 1548 "smt/symbols.ml" 45 1537 1549
+type(
+  name_kind
+)
+"smt/symbols.ml" 45 1537 1541 "smt/symbols.ml" 45 1537 1549
+type(
+  name_kind * name_kind
+)
+"smt/symbols.ml" 45 1537 1557 "smt/symbols.ml" 45 1537 1558
+type(
+  int
+)
+"smt/symbols.ml" 46 1559 1563 "smt/symbols.ml" 46 1559 1564
+type(
+  name_kind
+)
+"smt/symbols.ml" 46 1559 1570 "smt/symbols.ml" 46 1559 1575
+type(
+  name_kind
+)
+"smt/symbols.ml" 46 1559 1563 "smt/symbols.ml" 46 1559 1575
+type(
+  name_kind * name_kind
+)
+"smt/symbols.ml" 46 1559 1579 "smt/symbols.ml" 46 1559 1581
+type(
+  int
+)
+"smt/symbols.ml" 47 1582 1586 "smt/symbols.ml" 47 1582 1597
+type(
+  name_kind
+)
+"smt/symbols.ml" 47 1582 1599 "smt/symbols.ml" 47 1582 1610
+type(
+  name_kind
+)
+"smt/symbols.ml" 47 1582 1586 "smt/symbols.ml" 47 1582 1610
+type(
+  name_kind * name_kind
+)
+"smt/symbols.ml" 47 1582 1614 "smt/symbols.ml" 47 1582 1615
+type(
+  int
+)
+"smt/symbols.ml" 40 1405 1430 "smt/symbols.ml" 47 1582 1615
+type(
+  int
+)
+"smt/symbols.ml" 49 1617 1621 "smt/symbols.ml" 49 1617 1628
+type(
+  t -> t -> int
+)
+ident(
+  def compare "smt/symbols.ml" 63 2016 2016 "smt/symbols.ml" 1 0 -1
+)
+"smt/symbols.ml" 49 1617 1629 "smt/symbols.ml" 49 1617 1631
+type(
+  t
+)
+ident(
+  def s1 "smt/symbols.ml" 49 1617 1632 "smt/symbols.ml" 61 1978 2012
+)
+"smt/symbols.ml" 49 1617 1632 "smt/symbols.ml" 49 1617 1634
+type(
+  t
+)
+ident(
+  def s2 "smt/symbols.ml" 49 1617 1638 "smt/symbols.ml" 61 1978 2012
+)
+"smt/symbols.ml" 49 1617 1644 "smt/symbols.ml" 49 1617 1646
+type(
+  t
+)
+ident(
+  int_ref s1 "smt/symbols.ml" 49 1617 1629 "smt/symbols.ml" 49 1617 1631
+)
+"smt/symbols.ml" 49 1617 1648 "smt/symbols.ml" 49 1617 1650
+type(
+  t
+)
+ident(
+  int_ref s2 "smt/symbols.ml" 49 1617 1632 "smt/symbols.ml" 49 1617 1634
+)
+"smt/symbols.ml" 49 1617 1644 "smt/symbols.ml" 49 1617 1650
+type(
+  t * t
+)
+"smt/symbols.ml" 50 1656 1666 "smt/symbols.ml" 50 1656 1668
+type(
+  Hstring.t
+)
+ident(
+  def n1 "smt/symbols.ml" 51 1691 1697 "smt/symbols.ml" 52 1727 1775
+)
+"smt/symbols.ml" 50 1656 1669 "smt/symbols.ml" 50 1656 1671
+type(
+  name_kind
+)
+ident(
+  def k1 "smt/symbols.ml" 51 1691 1697 "smt/symbols.ml" 52 1727 1775
+)
+"smt/symbols.ml" 50 1656 1660 "smt/symbols.ml" 50 1656 1672
+type(
+  t
+)
+"smt/symbols.ml" 50 1656 1680 "smt/symbols.ml" 50 1656 1682
+type(
+  Hstring.t
+)
+ident(
+  def n2 "smt/symbols.ml" 51 1691 1697 "smt/symbols.ml" 52 1727 1775
+)
+"smt/symbols.ml" 50 1656 1683 "smt/symbols.ml" 50 1656 1685
+type(
+  name_kind
+)
+ident(
+  def k2 "smt/symbols.ml" 51 1691 1697 "smt/symbols.ml" 52 1727 1775
+)
+"smt/symbols.ml" 50 1656 1674 "smt/symbols.ml" 50 1656 1686
+type(
+  t
+)
+"smt/symbols.ml" 50 1656 1660 "smt/symbols.ml" 50 1656 1686
+type(
+  t * t
+)
+"smt/symbols.ml" 51 1691 1701 "smt/symbols.ml" 51 1691 1702
+type(
+  int
+)
+ident(
+  def c "smt/symbols.ml" 52 1727 1733 "smt/symbols.ml" 52 1727 1775
+)
+"smt/symbols.ml" 51 1691 1705 "smt/symbols.ml" 51 1691 1717
+type(
+  name_kind -> name_kind -> int
+)
+ident(
+  int_ref compare_kind "smt/symbols.ml" 40 1405 1409 "smt/symbols.ml" 40 1405 1421
+)
+"smt/symbols.ml" 51 1691 1718 "smt/symbols.ml" 51 1691 1720
+type(
+  name_kind
+)
+ident(
+  int_ref k1 "smt/symbols.ml" 50 1656 1669 "smt/symbols.ml" 50 1656 1671
+)
+"smt/symbols.ml" 51 1691 1721 "smt/symbols.ml" 51 1691 1723
+type(
+  name_kind
+)
+ident(
+  int_ref k2 "smt/symbols.ml" 50 1656 1683 "smt/symbols.ml" 50 1656 1685
+)
+"smt/symbols.ml" 51 1691 1705 "smt/symbols.ml" 51 1691 1723
+call(
+  stack
+)
+type(
+  int
+)
+"smt/symbols.ml" 52 1727 1736 "smt/symbols.ml" 52 1727 1737
+type(
+  int
+)
+ident(
+  int_ref c "smt/symbols.ml" 51 1691 1701 "smt/symbols.ml" 51 1691 1702
+)
+"smt/symbols.ml" 52 1727 1738 "smt/symbols.ml" 52 1727 1739
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/symbols.ml" 52 1727 1740 "smt/symbols.ml" 52 1727 1741
+type(
+  int
+)
+"smt/symbols.ml" 52 1727 1736 "smt/symbols.ml" 52 1727 1741
+type(
+  bool
+)
+"smt/symbols.ml" 52 1727 1747 "smt/symbols.ml" 52 1727 1762
+type(
+  Hstring.t -> Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.compare
+)
+"smt/symbols.ml" 52 1727 1763 "smt/symbols.ml" 52 1727 1765
+type(
+  Hstring.t
+)
+ident(
+  int_ref n1 "smt/symbols.ml" 50 1656 1666 "smt/symbols.ml" 50 1656 1668
+)
+"smt/symbols.ml" 52 1727 1766 "smt/symbols.ml" 52 1727 1768
+type(
+  Hstring.t
+)
+ident(
+  int_ref n2 "smt/symbols.ml" 50 1656 1680 "smt/symbols.ml" 50 1656 1682
+)
+"smt/symbols.ml" 52 1727 1747 "smt/symbols.ml" 52 1727 1768
+call(
+  tail
+)
+type(
+  int
+)
+"smt/symbols.ml" 52 1727 1774 "smt/symbols.ml" 52 1727 1775
+type(
+  int
+)
+ident(
+  int_ref c "smt/symbols.ml" 51 1691 1701 "smt/symbols.ml" 51 1691 1702
+)
+"smt/symbols.ml" 52 1727 1733 "smt/symbols.ml" 52 1727 1775
+type(
+  int
+)
+"smt/symbols.ml" 51 1691 1697 "smt/symbols.ml" 52 1727 1775
+type(
+  int
+)
+"smt/symbols.ml" 53 1776 1785 "smt/symbols.ml" 53 1776 1786
+type(
+  name_kind
+)
+type(
+  Hstring.t
+)
+"smt/symbols.ml" 53 1776 1780 "smt/symbols.ml" 53 1776 1786
+type(
+  t
+)
+"smt/symbols.ml" 53 1776 1788 "smt/symbols.ml" 53 1776 1789
+type(
+  t
+)
+"smt/symbols.ml" 53 1776 1780 "smt/symbols.ml" 53 1776 1789
+type(
+  t * t
+)
+"smt/symbols.ml" 53 1776 1794 "smt/symbols.ml" 53 1776 1796
+type(
+  int
+)
+"smt/symbols.ml" 54 1797 1801 "smt/symbols.ml" 54 1797 1802
+type(
+  t
+)
+"smt/symbols.ml" 54 1797 1809 "smt/symbols.ml" 54 1797 1810
+type(
+  name_kind
+)
+type(
+  Hstring.t
+)
+"smt/symbols.ml" 54 1797 1804 "smt/symbols.ml" 54 1797 1810
+type(
+  t
+)
+"smt/symbols.ml" 54 1797 1801 "smt/symbols.ml" 54 1797 1810
+type(
+  t * t
+)
+"smt/symbols.ml" 54 1797 1814 "smt/symbols.ml" 54 1797 1815
+type(
+  int
+)
+"smt/symbols.ml" 55 1816 1824 "smt/symbols.ml" 55 1816 1826
+type(
+  Hstring.t
+)
+ident(
+  def n1 "smt/symbols.ml" 55 1816 1838 "smt/symbols.ml" 55 1816 1859
+)
+"smt/symbols.ml" 55 1816 1820 "smt/symbols.ml" 55 1816 1826
+type(
+  t
+)
+"smt/symbols.ml" 55 1816 1832 "smt/symbols.ml" 55 1816 1834
+type(
+  Hstring.t
+)
+ident(
+  def n2 "smt/symbols.ml" 55 1816 1838 "smt/symbols.ml" 55 1816 1859
+)
+"smt/symbols.ml" 55 1816 1828 "smt/symbols.ml" 55 1816 1834
+type(
+  t
+)
+"smt/symbols.ml" 55 1816 1820 "smt/symbols.ml" 55 1816 1834
+type(
+  t * t
+)
+"smt/symbols.ml" 55 1816 1838 "smt/symbols.ml" 55 1816 1853
+type(
+  Hstring.t -> Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.compare
+)
+"smt/symbols.ml" 55 1816 1854 "smt/symbols.ml" 55 1816 1856
+type(
+  Hstring.t
+)
+ident(
+  int_ref n1 "smt/symbols.ml" 55 1816 1824 "smt/symbols.ml" 55 1816 1826
+)
+"smt/symbols.ml" 55 1816 1857 "smt/symbols.ml" 55 1816 1859
+type(
+  Hstring.t
+)
+ident(
+  int_ref n2 "smt/symbols.ml" 55 1816 1832 "smt/symbols.ml" 55 1816 1834
+)
+"smt/symbols.ml" 55 1816 1838 "smt/symbols.ml" 55 1816 1859
+call(
+  tail
+)
+type(
+  int
+)
+"smt/symbols.ml" 56 1860 1868 "smt/symbols.ml" 56 1860 1869
+type(
+  Hstring.t
+)
+"smt/symbols.ml" 56 1860 1864 "smt/symbols.ml" 56 1860 1869
+type(
+  t
+)
+"smt/symbols.ml" 56 1860 1871 "smt/symbols.ml" 56 1860 1872
+type(
+  t
+)
+"smt/symbols.ml" 56 1860 1864 "smt/symbols.ml" 56 1860 1872
+type(
+  t * t
+)
+"smt/symbols.ml" 56 1860 1876 "smt/symbols.ml" 56 1860 1878
+type(
+  int
+)
+"smt/symbols.ml" 57 1879 1883 "smt/symbols.ml" 57 1879 1884
+type(
+  t
+)
+"smt/symbols.ml" 57 1879 1890 "smt/symbols.ml" 57 1879 1891
+type(
+  Hstring.t
+)
+"smt/symbols.ml" 57 1879 1886 "smt/symbols.ml" 57 1879 1891
+type(
+  t
+)
+"smt/symbols.ml" 57 1879 1883 "smt/symbols.ml" 57 1879 1891
+type(
+  t * t
+)
+"smt/symbols.ml" 57 1879 1895 "smt/symbols.ml" 57 1879 1896
+type(
+  int
+)
+"smt/symbols.ml" 58 1897 1905 "smt/symbols.ml" 58 1897 1907
+type(
+  Hstring.t
+)
+ident(
+  def i1 "smt/symbols.ml" 58 1897 1919 "smt/symbols.ml" 58 1897 1940
+)
+"smt/symbols.ml" 58 1897 1901 "smt/symbols.ml" 58 1897 1907
+type(
+  t
+)
+"smt/symbols.ml" 58 1897 1913 "smt/symbols.ml" 58 1897 1915
+type(
+  Hstring.t
+)
+ident(
+  def i2 "smt/symbols.ml" 58 1897 1919 "smt/symbols.ml" 58 1897 1940
+)
+"smt/symbols.ml" 58 1897 1909 "smt/symbols.ml" 58 1897 1915
+type(
+  t
+)
+"smt/symbols.ml" 58 1897 1901 "smt/symbols.ml" 58 1897 1915
+type(
+  t * t
+)
+"smt/symbols.ml" 58 1897 1919 "smt/symbols.ml" 58 1897 1934
+type(
+  Hstring.t -> Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.compare
+)
+"smt/symbols.ml" 58 1897 1935 "smt/symbols.ml" 58 1897 1937
+type(
+  Hstring.t
+)
+ident(
+  int_ref i1 "smt/symbols.ml" 58 1897 1905 "smt/symbols.ml" 58 1897 1907
+)
+"smt/symbols.ml" 58 1897 1938 "smt/symbols.ml" 58 1897 1940
+type(
+  Hstring.t
+)
+ident(
+  int_ref i2 "smt/symbols.ml" 58 1897 1913 "smt/symbols.ml" 58 1897 1915
+)
+"smt/symbols.ml" 58 1897 1919 "smt/symbols.ml" 58 1897 1940
+call(
+  tail
+)
+type(
+  int
+)
+"smt/symbols.ml" 59 1941 1949 "smt/symbols.ml" 59 1941 1950
+type(
+  Hstring.t
+)
+"smt/symbols.ml" 59 1941 1945 "smt/symbols.ml" 59 1941 1950
+type(
+  t
+)
+"smt/symbols.ml" 59 1941 1952 "smt/symbols.ml" 59 1941 1953
+type(
+  t
+)
+"smt/symbols.ml" 59 1941 1945 "smt/symbols.ml" 59 1941 1953
+type(
+  t * t
+)
+"smt/symbols.ml" 59 1941 1957 "smt/symbols.ml" 59 1941 1959
+type(
+  int
+)
+"smt/symbols.ml" 60 1960 1964 "smt/symbols.ml" 60 1960 1965
+type(
+  t
+)
+"smt/symbols.ml" 60 1960 1971 "smt/symbols.ml" 60 1960 1972
+type(
+  Hstring.t
+)
+"smt/symbols.ml" 60 1960 1967 "smt/symbols.ml" 60 1960 1972
+type(
+  t
+)
+"smt/symbols.ml" 60 1960 1964 "smt/symbols.ml" 60 1960 1972
+type(
+  t * t
+)
+"smt/symbols.ml" 60 1960 1976 "smt/symbols.ml" 60 1960 1977
+type(
+  int
+)
+"smt/symbols.ml" 61 1978 1982 "smt/symbols.ml" 61 1978 1983
+type(
+  t * t
+)
+"smt/symbols.ml" 61 1978 1988 "smt/symbols.ml" 61 1978 2006
+type(
+  t -> t -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"smt/symbols.ml" 61 1978 2007 "smt/symbols.ml" 61 1978 2009
+type(
+  t
+)
+ident(
+  int_ref s1 "smt/symbols.ml" 49 1617 1629 "smt/symbols.ml" 49 1617 1631
+)
+"smt/symbols.ml" 61 1978 2010 "smt/symbols.ml" 61 1978 2012
+type(
+  t
+)
+ident(
+  int_ref s2 "smt/symbols.ml" 49 1617 1632 "smt/symbols.ml" 49 1617 1634
+)
+"smt/symbols.ml" 61 1978 1988 "smt/symbols.ml" 61 1978 2012
+type(
+  int
+)
+"smt/symbols.ml" 49 1617 1638 "smt/symbols.ml" 61 1978 2012
+type(
+  int
+)
+"smt/symbols.ml" 63 2016 2020 "smt/symbols.ml" 63 2016 2025
+type(
+  t -> t -> bool
+)
+ident(
+  def equal "smt/symbols.ml" 65 2053 2053 "smt/symbols.ml" 1 0 -1
+)
+"smt/symbols.ml" 63 2016 2026 "smt/symbols.ml" 63 2016 2028
+type(
+  t
+)
+ident(
+  def s1 "smt/symbols.ml" 63 2016 2029 "smt/symbols.ml" 63 2016 2051
+)
+"smt/symbols.ml" 63 2016 2029 "smt/symbols.ml" 63 2016 2031
+type(
+  t
+)
+ident(
+  def s2 "smt/symbols.ml" 63 2016 2034 "smt/symbols.ml" 63 2016 2051
+)
+"smt/symbols.ml" 63 2016 2034 "smt/symbols.ml" 63 2016 2041
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "smt/symbols.ml" 49 1617 1621 "smt/symbols.ml" 49 1617 1628
+)
+"smt/symbols.ml" 63 2016 2042 "smt/symbols.ml" 63 2016 2044
+type(
+  t
+)
+ident(
+  int_ref s1 "smt/symbols.ml" 63 2016 2026 "smt/symbols.ml" 63 2016 2028
+)
+"smt/symbols.ml" 63 2016 2045 "smt/symbols.ml" 63 2016 2047
+type(
+  t
+)
+ident(
+  int_ref s2 "smt/symbols.ml" 63 2016 2029 "smt/symbols.ml" 63 2016 2031
+)
+"smt/symbols.ml" 63 2016 2034 "smt/symbols.ml" 63 2016 2047
+call(
+  stack
+)
+type(
+  int
+)
+"smt/symbols.ml" 63 2016 2048 "smt/symbols.ml" 63 2016 2049
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/symbols.ml" 63 2016 2050 "smt/symbols.ml" 63 2016 2051
+type(
+  int
+)
+"smt/symbols.ml" 63 2016 2034 "smt/symbols.ml" 63 2016 2051
+type(
+  bool
+)
+"smt/symbols.ml" 65 2053 2057 "smt/symbols.ml" 65 2053 2061
+type(
+  t -> int
+)
+ident(
+  def hash "smt/symbols.ml" 71 2229 2229 "smt/symbols.ml" 1 0 -1
+)
+"smt/symbols.ml" 66 2073 2083 "smt/symbols.ml" 66 2073 2084
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/symbols.ml" 66 2073 2092 "smt/symbols.ml" 66 2073 2115
+)
+"smt/symbols.ml" 66 2073 2085 "smt/symbols.ml" 66 2073 2087
+type(
+  name_kind
+)
+"smt/symbols.ml" 66 2073 2077 "smt/symbols.ml" 66 2073 2088
+type(
+  t
+)
+"smt/symbols.ml" 66 2073 2092 "smt/symbols.ml" 66 2073 2104
+type(
+  Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.hash
+)
+"smt/symbols.ml" 66 2073 2105 "smt/symbols.ml" 66 2073 2106
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/symbols.ml" 66 2073 2083 "smt/symbols.ml" 66 2073 2084
+)
+"smt/symbols.ml" 66 2073 2092 "smt/symbols.ml" 66 2073 2106
+call(
+  stack
+)
+type(
+  int
+)
+"smt/symbols.ml" 66 2073 2107 "smt/symbols.ml" 66 2073 2108
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"smt/symbols.ml" 66 2073 2109 "smt/symbols.ml" 66 2073 2111
+type(
+  int
+)
+"smt/symbols.ml" 66 2073 2092 "smt/symbols.ml" 66 2073 2111
+type(
+  int
+)
+"smt/symbols.ml" 66 2073 2112 "smt/symbols.ml" 66 2073 2113
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/symbols.ml" 66 2073 2114 "smt/symbols.ml" 66 2073 2115
+type(
+  int
+)
+"smt/symbols.ml" 66 2073 2092 "smt/symbols.ml" 66 2073 2115
+type(
+  int
+)
+"smt/symbols.ml" 67 2116 2126 "smt/symbols.ml" 67 2116 2127
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/symbols.ml" 67 2116 2134 "smt/symbols.ml" 67 2116 2153
+)
+"smt/symbols.ml" 67 2116 2128 "smt/symbols.ml" 67 2116 2129
+type(
+  name_kind
+)
+"smt/symbols.ml" 67 2116 2120 "smt/symbols.ml" 67 2116 2130
+type(
+  t
+)
+"smt/symbols.ml" 67 2116 2134 "smt/symbols.ml" 67 2116 2146
+type(
+  Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.hash
+)
+"smt/symbols.ml" 67 2116 2147 "smt/symbols.ml" 67 2116 2148
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/symbols.ml" 67 2116 2126 "smt/symbols.ml" 67 2116 2127
+)
+"smt/symbols.ml" 67 2116 2134 "smt/symbols.ml" 67 2116 2148
+call(
+  stack
+)
+type(
+  int
+)
+"smt/symbols.ml" 67 2116 2149 "smt/symbols.ml" 67 2116 2150
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"smt/symbols.ml" 67 2116 2151 "smt/symbols.ml" 67 2116 2153
+type(
+  int
+)
+"smt/symbols.ml" 67 2116 2134 "smt/symbols.ml" 67 2116 2153
+type(
+  int
+)
+"smt/symbols.ml" 68 2154 2162 "smt/symbols.ml" 68 2154 2163
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/symbols.ml" 68 2154 2179 "smt/symbols.ml" 68 2154 2202
+)
+"smt/symbols.ml" 68 2154 2158 "smt/symbols.ml" 68 2154 2163
+type(
+  t
+)
+"smt/symbols.ml" 68 2154 2179 "smt/symbols.ml" 68 2154 2191
+type(
+  Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.hash
+)
+"smt/symbols.ml" 68 2154 2192 "smt/symbols.ml" 68 2154 2193
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/symbols.ml" 68 2154 2162 "smt/symbols.ml" 68 2154 2163
+)
+"smt/symbols.ml" 68 2154 2179 "smt/symbols.ml" 68 2154 2193
+call(
+  stack
+)
+type(
+  int
+)
+"smt/symbols.ml" 68 2154 2194 "smt/symbols.ml" 68 2154 2195
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"smt/symbols.ml" 68 2154 2196 "smt/symbols.ml" 68 2154 2198
+type(
+  int
+)
+"smt/symbols.ml" 68 2154 2179 "smt/symbols.ml" 68 2154 2198
+type(
+  int
+)
+"smt/symbols.ml" 68 2154 2199 "smt/symbols.ml" 68 2154 2200
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/symbols.ml" 68 2154 2201 "smt/symbols.ml" 68 2154 2202
+type(
+  int
+)
+"smt/symbols.ml" 68 2154 2179 "smt/symbols.ml" 68 2154 2202
+type(
+  int
+)
+"smt/symbols.ml" 69 2203 2207 "smt/symbols.ml" 69 2203 2208
+type(
+  t
+)
+ident(
+  def s "smt/symbols.ml" 69 2203 2212 "smt/symbols.ml" 69 2203 2226
+)
+"smt/symbols.ml" 69 2203 2212 "smt/symbols.ml" 69 2203 2224
+type(
+  t -> int
+)
+ident(
+  ext_ref Hashtbl.hash
+)
+"smt/symbols.ml" 69 2203 2225 "smt/symbols.ml" 69 2203 2226
+type(
+  t
+)
+ident(
+  int_ref s "smt/symbols.ml" 69 2203 2207 "smt/symbols.ml" 69 2203 2208
+)
+"smt/symbols.ml" 69 2203 2212 "smt/symbols.ml" 69 2203 2226
+call(
+  tail
+)
+type(
+  int
+)
+"smt/symbols.ml" 65 2053 2064 "smt/symbols.ml" 69 2203 2226
+type(
+  t -> int
+)
+"smt/symbols.ml" 71 2229 2233 "smt/symbols.ml" 71 2229 2242
+type(
+  t -> string
+)
+ident(
+  def to_string "smt/symbols.ml" 84 2524 2524 "smt/symbols.ml" 1 0 -1
+)
+"smt/symbols.ml" 72 2255 2265 "smt/symbols.ml" 72 2255 2266
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/symbols.ml" 72 2255 2273 "smt/symbols.ml" 72 2255 2287
+)
+"smt/symbols.ml" 72 2255 2267 "smt/symbols.ml" 72 2255 2268
+type(
+  name_kind
+)
+"smt/symbols.ml" 72 2255 2259 "smt/symbols.ml" 72 2255 2269
+type(
+  t
+)
+"smt/symbols.ml" 72 2255 2273 "smt/symbols.ml" 72 2255 2285
+type(
+  Hstring.t -> string
+)
+ident(
+  ext_ref Hstring.view
+)
+"smt/symbols.ml" 72 2255 2286 "smt/symbols.ml" 72 2255 2287
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/symbols.ml" 72 2255 2265 "smt/symbols.ml" 72 2255 2266
+)
+"smt/symbols.ml" 72 2255 2273 "smt/symbols.ml" 72 2255 2287
+call(
+  tail
+)
+type(
+  string
+)
+"smt/symbols.ml" 73 2288 2296 "smt/symbols.ml" 73 2288 2297
+type(
+  Hstring.t
+)
+ident(
+  def x "smt/symbols.ml" 73 2288 2301 "smt/symbols.ml" 73 2288 2326
+)
+"smt/symbols.ml" 73 2288 2292 "smt/symbols.ml" 73 2288 2297
+type(
+  t
+)
+"smt/symbols.ml" 73 2288 2301 "smt/symbols.ml" 73 2288 2309
+type(
+  string
+)
+"smt/symbols.ml" 73 2288 2309 "smt/symbols.ml" 73 2288 2310
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smt/symbols.ml" 73 2288 2311 "smt/symbols.ml" 73 2288 2323
+type(
+  Hstring.t -> string
+)
+ident(
+  ext_ref Hstring.view
+)
+"smt/symbols.ml" 73 2288 2324 "smt/symbols.ml" 73 2288 2325
+type(
+  Hstring.t
+)
+ident(
+  int_ref x "smt/symbols.ml" 73 2288 2296 "smt/symbols.ml" 73 2288 2297
+)
+"smt/symbols.ml" 73 2288 2310 "smt/symbols.ml" 73 2288 2326
+call(
+  stack
+)
+type(
+  string
+)
+"smt/symbols.ml" 73 2288 2301 "smt/symbols.ml" 73 2288 2326
+call(
+  tail
+)
+type(
+  string
+)
+"smt/symbols.ml" 74 2327 2335 "smt/symbols.ml" 74 2327 2336
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/symbols.ml" 74 2327 2340 "smt/symbols.ml" 74 2327 2354
+)
+"smt/symbols.ml" 74 2327 2331 "smt/symbols.ml" 74 2327 2336
+type(
+  t
+)
+"smt/symbols.ml" 74 2327 2340 "smt/symbols.ml" 74 2327 2352
+type(
+  Hstring.t -> string
+)
+ident(
+  ext_ref Hstring.view
+)
+"smt/symbols.ml" 74 2327 2353 "smt/symbols.ml" 74 2327 2354
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/symbols.ml" 74 2327 2335 "smt/symbols.ml" 74 2327 2336
+)
+"smt/symbols.ml" 74 2327 2340 "smt/symbols.ml" 74 2327 2354
+type(
+  string
+)
+"smt/symbols.ml" 75 2355 2364 "smt/symbols.ml" 75 2355 2365
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/symbols.ml" 75 2355 2369 "smt/symbols.ml" 75 2355 2383
+)
+"smt/symbols.ml" 75 2355 2359 "smt/symbols.ml" 75 2355 2365
+type(
+  t
+)
+"smt/symbols.ml" 75 2355 2369 "smt/symbols.ml" 75 2355 2381
+type(
+  Hstring.t -> string
+)
+ident(
+  ext_ref Hstring.view
+)
+"smt/symbols.ml" 75 2355 2382 "smt/symbols.ml" 75 2355 2383
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/symbols.ml" 75 2355 2364 "smt/symbols.ml" 75 2355 2365
+)
+"smt/symbols.ml" 75 2355 2369 "smt/symbols.ml" 75 2355 2383
+type(
+  string
+)
+"smt/symbols.ml" 76 2384 2391 "smt/symbols.ml" 76 2384 2395
+type(
+  operator
+)
+"smt/symbols.ml" 76 2384 2388 "smt/symbols.ml" 76 2384 2395
+type(
+  t
+)
+"smt/symbols.ml" 76 2384 2399 "smt/symbols.ml" 76 2384 2402
+type(
+  string
+)
+"smt/symbols.ml" 77 2404 2411 "smt/symbols.ml" 77 2404 2416
+type(
+  operator
+)
+"smt/symbols.ml" 77 2404 2408 "smt/symbols.ml" 77 2404 2416
+type(
+  t
+)
+"smt/symbols.ml" 77 2404 2420 "smt/symbols.ml" 77 2404 2423
+type(
+  string
+)
+"smt/symbols.ml" 78 2425 2432 "smt/symbols.ml" 78 2425 2436
+type(
+  operator
+)
+"smt/symbols.ml" 78 2425 2429 "smt/symbols.ml" 78 2425 2436
+type(
+  t
+)
+"smt/symbols.ml" 78 2425 2440 "smt/symbols.ml" 78 2425 2443
+type(
+  string
+)
+"smt/symbols.ml" 79 2444 2451 "smt/symbols.ml" 79 2444 2454
+type(
+  operator
+)
+"smt/symbols.ml" 79 2444 2448 "smt/symbols.ml" 79 2444 2454
+type(
+  t
+)
+"smt/symbols.ml" 79 2444 2458 "smt/symbols.ml" 79 2444 2461
+type(
+  string
+)
+"smt/symbols.ml" 80 2462 2469 "smt/symbols.ml" 80 2462 2475
+type(
+  operator
+)
+"smt/symbols.ml" 80 2462 2466 "smt/symbols.ml" 80 2462 2475
+type(
+  t
+)
+"smt/symbols.ml" 80 2462 2479 "smt/symbols.ml" 80 2462 2482
+type(
+  string
+)
+"smt/symbols.ml" 81 2483 2487 "smt/symbols.ml" 81 2483 2491
+type(
+  t
+)
+"smt/symbols.ml" 81 2483 2495 "smt/symbols.ml" 81 2483 2501
+type(
+  string
+)
+"smt/symbols.ml" 82 2502 2506 "smt/symbols.ml" 82 2502 2511
+type(
+  t
+)
+"smt/symbols.ml" 82 2502 2515 "smt/symbols.ml" 82 2502 2522
+type(
+  string
+)
+"smt/symbols.ml" 71 2229 2246 "smt/symbols.ml" 82 2502 2522
+type(
+  t -> string
+)
+"smt/symbols.ml" 84 2524 2528 "smt/symbols.ml" 84 2524 2533
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "smt/symbols.ml" 86 2581 2581 "smt/symbols.ml" 1 0 -1
+)
+"smt/symbols.ml" 84 2524 2534 "smt/symbols.ml" 84 2524 2537
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/symbols.ml" 84 2524 2538 "smt/symbols.ml" 84 2524 2579
+)
+"smt/symbols.ml" 84 2524 2538 "smt/symbols.ml" 84 2524 2539
+type(
+  t
+)
+ident(
+  def s "smt/symbols.ml" 84 2524 2542 "smt/symbols.ml" 84 2524 2579
+)
+"smt/symbols.ml" 84 2524 2542 "smt/symbols.ml" 84 2524 2556
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/symbols.ml" 84 2524 2557 "smt/symbols.ml" 84 2524 2560
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/symbols.ml" 84 2524 2534 "smt/symbols.ml" 84 2524 2537
+)
+"smt/symbols.ml" 84 2524 2561 "smt/symbols.ml" 84 2524 2565
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"smt/symbols.ml" 84 2524 2567 "smt/symbols.ml" 84 2524 2576
+type(
+  t -> string
+)
+ident(
+  int_ref to_string "smt/symbols.ml" 71 2229 2233 "smt/symbols.ml" 71 2229 2242
+)
+"smt/symbols.ml" 84 2524 2577 "smt/symbols.ml" 84 2524 2578
+type(
+  t
+)
+ident(
+  int_ref s "smt/symbols.ml" 84 2524 2538 "smt/symbols.ml" 84 2524 2539
+)
+"smt/symbols.ml" 84 2524 2566 "smt/symbols.ml" 84 2524 2579
+call(
+  stack
+)
+type(
+  string
+)
+"smt/symbols.ml" 84 2524 2542 "smt/symbols.ml" 84 2524 2579
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/symbols.ml" 87 2594 2638 "smt/symbols.ml" 87 2594 2645
+type(
+  t -> t -> int
+)
+ident(
+  def compare "smt/symbols.ml" 87 2594 2653 "smt/symbols.ml" 87 2594 2657
+)
+"smt/symbols.ml" 87 2594 2646 "smt/symbols.ml" 87 2594 2653
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "smt/symbols.ml" 49 1617 1621 "smt/symbols.ml" 49 1617 1628
+)
+"smt/symbols.ml" 87 2594 2596 "smt/symbols.ml" 87 2594 2658
+call(
+  stack
+)
+"smt/symbols.ml" 90 2674 2718 "smt/symbols.ml" 90 2674 2725
+type(
+  t -> t -> int
+)
+ident(
+  def compare "smt/symbols.ml" 90 2674 2733 "smt/symbols.ml" 90 2674 2737
+)
+"smt/symbols.ml" 90 2674 2726 "smt/symbols.ml" 90 2674 2733
+type(
+  t -> t -> int
+)
+ident(
+  int_ref compare "smt/symbols.ml" 49 1617 1621 "smt/symbols.ml" 49 1617 1628
+)
+"smt/symbols.ml" 90 2674 2676 "smt/symbols.ml" 90 2674 2738
+call(
+  stack
+)

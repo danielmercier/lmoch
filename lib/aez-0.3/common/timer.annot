@@ -1,0 +1,233 @@
+"common/timer.ml" 24 1087 1093 "common/timer.ml" 24 1087 1094
+type(
+  float ref
+)
+ident(
+  def u "common/timer.ml" 26 1106 1108 "common/timer.ml" 35 1259 1262
+)
+"common/timer.ml" 24 1087 1097 "common/timer.ml" 24 1087 1100
+type(
+  float -> float ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"common/timer.ml" 24 1087 1101 "common/timer.ml" 24 1087 1104
+type(
+  float
+)
+"common/timer.ml" 24 1087 1097 "common/timer.ml" 24 1087 1104
+type(
+  float ref
+)
+"common/timer.ml" 26 1106 1112 "common/timer.ml" 26 1106 1115
+type(
+  float ref
+)
+ident(
+  def cpt "common/timer.ml" 28 1131 1133 "common/timer.ml" 35 1259 1262
+)
+"common/timer.ml" 26 1106 1118 "common/timer.ml" 26 1106 1121
+type(
+  float -> float ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"common/timer.ml" 26 1106 1122 "common/timer.ml" 26 1106 1125
+type(
+  float
+)
+"common/timer.ml" 26 1106 1118 "common/timer.ml" 26 1106 1125
+type(
+  float ref
+)
+"common/timer.ml" 28 1131 1137 "common/timer.ml" 28 1131 1142
+type(
+  unit -> unit
+)
+ident(
+  def start "common/timer.ml" 30 1172 1174 "common/timer.ml" 35 1259 1262
+)
+"common/timer.ml" 28 1131 1143 "common/timer.ml" 28 1131 1145
+type(
+  unit
+)
+"common/timer.ml" 28 1131 1148 "common/timer.ml" 28 1131 1149
+type(
+  float ref
+)
+ident(
+  int_ref u "common/timer.ml" 24 1087 1093 "common/timer.ml" 24 1087 1094
+)
+"common/timer.ml" 28 1131 1149 "common/timer.ml" 28 1131 1151
+type(
+  float ref -> float -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"common/timer.ml" 28 1131 1152 "common/timer.ml" 28 1131 1157
+type(
+  unit -> Unix.process_times
+)
+ident(
+  ext_ref Unix.times
+)
+"common/timer.ml" 28 1131 1157 "common/timer.ml" 28 1131 1159
+type(
+  unit
+)
+"common/timer.ml" 28 1131 1151 "common/timer.ml" 28 1131 1160
+call(
+  stack
+)
+type(
+  Unix.process_times
+)
+"common/timer.ml" 28 1131 1151 "common/timer.ml" 28 1131 1170
+type(
+  float
+)
+"common/timer.ml" 28 1131 1148 "common/timer.ml" 28 1131 1170
+type(
+  unit
+)
+"common/timer.ml" 30 1172 1178 "common/timer.ml" 30 1172 1183
+type(
+  unit -> unit
+)
+ident(
+  def pause "common/timer.ml" 32 1233 1235 "common/timer.ml" 35 1259 1262
+)
+"common/timer.ml" 30 1172 1184 "common/timer.ml" 30 1172 1186
+type(
+  unit
+)
+"common/timer.ml" 30 1172 1189 "common/timer.ml" 30 1172 1192
+type(
+  float ref
+)
+ident(
+  int_ref cpt "common/timer.ml" 26 1106 1112 "common/timer.ml" 26 1106 1115
+)
+"common/timer.ml" 30 1172 1193 "common/timer.ml" 30 1172 1195
+type(
+  float ref -> float -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"common/timer.ml" 30 1172 1196 "common/timer.ml" 30 1172 1197
+type(
+  float ref -> float
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/timer.ml" 30 1172 1197 "common/timer.ml" 30 1172 1200
+type(
+  float ref
+)
+ident(
+  int_ref cpt "common/timer.ml" 26 1106 1112 "common/timer.ml" 26 1106 1115
+)
+"common/timer.ml" 30 1172 1196 "common/timer.ml" 30 1172 1200
+type(
+  float
+)
+"common/timer.ml" 30 1172 1201 "common/timer.ml" 30 1172 1203
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( +. )
+)
+"common/timer.ml" 30 1172 1206 "common/timer.ml" 30 1172 1211
+type(
+  unit -> Unix.process_times
+)
+ident(
+  ext_ref Unix.times
+)
+"common/timer.ml" 30 1172 1211 "common/timer.ml" 30 1172 1213
+type(
+  unit
+)
+"common/timer.ml" 30 1172 1205 "common/timer.ml" 30 1172 1214
+call(
+  stack
+)
+type(
+  Unix.process_times
+)
+"common/timer.ml" 30 1172 1205 "common/timer.ml" 30 1172 1224
+type(
+  float
+)
+"common/timer.ml" 30 1172 1225 "common/timer.ml" 30 1172 1227
+type(
+  float -> float -> float
+)
+ident(
+  ext_ref Pervasives.( -. )
+)
+"common/timer.ml" 30 1172 1228 "common/timer.ml" 30 1172 1229
+type(
+  float ref -> float
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/timer.ml" 30 1172 1229 "common/timer.ml" 30 1172 1230
+type(
+  float ref
+)
+ident(
+  int_ref u "common/timer.ml" 24 1087 1093 "common/timer.ml" 24 1087 1094
+)
+"common/timer.ml" 30 1172 1228 "common/timer.ml" 30 1172 1230
+type(
+  float
+)
+"common/timer.ml" 30 1172 1204 "common/timer.ml" 30 1172 1231
+type(
+  float
+)
+"common/timer.ml" 30 1172 1196 "common/timer.ml" 30 1172 1231
+type(
+  float
+)
+"common/timer.ml" 30 1172 1189 "common/timer.ml" 30 1172 1231
+type(
+  unit
+)
+"common/timer.ml" 32 1233 1239 "common/timer.ml" 32 1233 1242
+type(
+  unit -> float
+)
+ident(
+  def get "common/timer.ml" 33 1249 1257 "common/timer.ml" 35 1259 1262
+)
+"common/timer.ml" 32 1233 1243 "common/timer.ml" 32 1233 1245
+type(
+  unit
+)
+"common/timer.ml" 33 1249 1253 "common/timer.ml" 33 1249 1254
+type(
+  float ref -> float
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/timer.ml" 33 1249 1254 "common/timer.ml" 33 1249 1257
+type(
+  float ref
+)
+ident(
+  int_ref cpt "common/timer.ml" 26 1106 1112 "common/timer.ml" 26 1106 1115
+)
+"common/timer.ml" 33 1249 1253 "common/timer.ml" 33 1249 1257
+type(
+  float
+)

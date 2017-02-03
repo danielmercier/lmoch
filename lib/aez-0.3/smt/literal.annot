@@ -1,0 +1,3650 @@
+"smt/literal.ml" 59 1754 1762 "smt/literal.ml" 59 1754 1767
+type(
+  X.t view -> X.t view -> bool
+)
+ident(
+  def equal "smt/literal.ml" 77 2321 2325 "smt/literal.ml" 87 2691 2696
+)
+"smt/literal.ml" 59 1754 1768 "smt/literal.ml" 59 1754 1770
+type(
+  X.t view
+)
+ident(
+  def a1 "smt/literal.ml" 59 1754 1771 "smt/literal.ml" 75 2301 2314
+)
+"smt/literal.ml" 59 1754 1771 "smt/literal.ml" 59 1754 1773
+type(
+  X.t view
+)
+ident(
+  def a2 "smt/literal.ml" 60 1777 1783 "smt/literal.ml" 75 2301 2314
+)
+"smt/literal.ml" 60 1777 1789 "smt/literal.ml" 60 1777 1791
+type(
+  X.t view
+)
+ident(
+  int_ref a1 "smt/literal.ml" 59 1754 1768 "smt/literal.ml" 59 1754 1770
+)
+"smt/literal.ml" 60 1777 1793 "smt/literal.ml" 60 1777 1795
+type(
+  X.t view
+)
+ident(
+  int_ref a2 "smt/literal.ml" 59 1754 1771 "smt/literal.ml" 59 1754 1773
+)
+"smt/literal.ml" 60 1777 1789 "smt/literal.ml" 60 1777 1795
+type(
+  X.t view * X.t view
+)
+"smt/literal.ml" 61 1801 1807 "smt/literal.ml" 61 1801 1809
+type(
+  X.t
+)
+ident(
+  def t1 "smt/literal.ml" 62 1831 1836 "smt/literal.ml" 63 1884 1933
+)
+"smt/literal.ml" 61 1801 1811 "smt/literal.ml" 61 1801 1813
+type(
+  X.t
+)
+ident(
+  def t2 "smt/literal.ml" 62 1831 1836 "smt/literal.ml" 63 1884 1933
+)
+"smt/literal.ml" 61 1801 1804 "smt/literal.ml" 61 1801 1814
+type(
+  X.t view
+)
+"smt/literal.ml" 61 1801 1819 "smt/literal.ml" 61 1801 1821
+type(
+  X.t
+)
+ident(
+  def u1 "smt/literal.ml" 62 1831 1836 "smt/literal.ml" 63 1884 1933
+)
+"smt/literal.ml" 61 1801 1823 "smt/literal.ml" 61 1801 1825
+type(
+  X.t
+)
+ident(
+  def u2 "smt/literal.ml" 62 1831 1836 "smt/literal.ml" 63 1884 1933
+)
+"smt/literal.ml" 61 1801 1816 "smt/literal.ml" 61 1801 1826
+type(
+  X.t view
+)
+"smt/literal.ml" 61 1801 1804 "smt/literal.ml" 61 1801 1826
+type(
+  X.t view * X.t view
+)
+"smt/literal.ml" 62 1831 1837 "smt/literal.ml" 62 1831 1846
+type(
+  X.t -> X.t -> int
+)
+ident(
+  int_ref X.compare "smt/literal.ml" 23 1088 1090 "smt/literal.ml" 23 1088 1117
+)
+"smt/literal.ml" 62 1831 1847 "smt/literal.ml" 62 1831 1849
+type(
+  X.t
+)
+ident(
+  int_ref t1 "smt/literal.ml" 61 1801 1807 "smt/literal.ml" 61 1801 1809
+)
+"smt/literal.ml" 62 1831 1850 "smt/literal.ml" 62 1831 1852
+type(
+  X.t
+)
+ident(
+  int_ref u1 "smt/literal.ml" 61 1801 1819 "smt/literal.ml" 61 1801 1821
+)
+"smt/literal.ml" 62 1831 1837 "smt/literal.ml" 62 1831 1852
+call(
+  stack
+)
+type(
+  int
+)
+"smt/literal.ml" 62 1831 1853 "smt/literal.ml" 62 1831 1854
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/literal.ml" 62 1831 1855 "smt/literal.ml" 62 1831 1856
+type(
+  int
+)
+"smt/literal.ml" 62 1831 1837 "smt/literal.ml" 62 1831 1856
+type(
+  bool
+)
+"smt/literal.ml" 62 1831 1857 "smt/literal.ml" 62 1831 1859
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"smt/literal.ml" 62 1831 1860 "smt/literal.ml" 62 1831 1869
+type(
+  X.t -> X.t -> int
+)
+ident(
+  int_ref X.compare "smt/literal.ml" 23 1088 1090 "smt/literal.ml" 23 1088 1117
+)
+"smt/literal.ml" 62 1831 1870 "smt/literal.ml" 62 1831 1872
+type(
+  X.t
+)
+ident(
+  int_ref t2 "smt/literal.ml" 61 1801 1811 "smt/literal.ml" 61 1801 1813
+)
+"smt/literal.ml" 62 1831 1873 "smt/literal.ml" 62 1831 1875
+type(
+  X.t
+)
+ident(
+  int_ref u2 "smt/literal.ml" 61 1801 1823 "smt/literal.ml" 61 1801 1825
+)
+"smt/literal.ml" 62 1831 1860 "smt/literal.ml" 62 1831 1875
+call(
+  stack
+)
+type(
+  int
+)
+"smt/literal.ml" 62 1831 1876 "smt/literal.ml" 62 1831 1877
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/literal.ml" 62 1831 1878 "smt/literal.ml" 62 1831 1879
+type(
+  int
+)
+"smt/literal.ml" 62 1831 1860 "smt/literal.ml" 62 1831 1879
+type(
+  bool
+)
+"smt/literal.ml" 62 1831 1836 "smt/literal.ml" 62 1831 1880
+type(
+  bool
+)
+"smt/literal.ml" 62 1831 1881 "smt/literal.ml" 62 1831 1883
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"smt/literal.ml" 63 1884 1890 "smt/literal.ml" 63 1884 1899
+type(
+  X.t -> X.t -> int
+)
+ident(
+  int_ref X.compare "smt/literal.ml" 23 1088 1090 "smt/literal.ml" 23 1088 1117
+)
+"smt/literal.ml" 63 1884 1900 "smt/literal.ml" 63 1884 1902
+type(
+  X.t
+)
+ident(
+  int_ref t1 "smt/literal.ml" 61 1801 1807 "smt/literal.ml" 61 1801 1809
+)
+"smt/literal.ml" 63 1884 1903 "smt/literal.ml" 63 1884 1905
+type(
+  X.t
+)
+ident(
+  int_ref u2 "smt/literal.ml" 61 1801 1823 "smt/literal.ml" 61 1801 1825
+)
+"smt/literal.ml" 63 1884 1890 "smt/literal.ml" 63 1884 1905
+call(
+  stack
+)
+type(
+  int
+)
+"smt/literal.ml" 63 1884 1906 "smt/literal.ml" 63 1884 1907
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/literal.ml" 63 1884 1908 "smt/literal.ml" 63 1884 1909
+type(
+  int
+)
+"smt/literal.ml" 63 1884 1890 "smt/literal.ml" 63 1884 1909
+type(
+  bool
+)
+"smt/literal.ml" 63 1884 1910 "smt/literal.ml" 63 1884 1912
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"smt/literal.ml" 63 1884 1913 "smt/literal.ml" 63 1884 1922
+type(
+  X.t -> X.t -> int
+)
+ident(
+  int_ref X.compare "smt/literal.ml" 23 1088 1090 "smt/literal.ml" 23 1088 1117
+)
+"smt/literal.ml" 63 1884 1923 "smt/literal.ml" 63 1884 1925
+type(
+  X.t
+)
+ident(
+  int_ref t2 "smt/literal.ml" 61 1801 1811 "smt/literal.ml" 61 1801 1813
+)
+"smt/literal.ml" 63 1884 1926 "smt/literal.ml" 63 1884 1928
+type(
+  X.t
+)
+ident(
+  int_ref u1 "smt/literal.ml" 61 1801 1819 "smt/literal.ml" 61 1801 1821
+)
+"smt/literal.ml" 63 1884 1913 "smt/literal.ml" 63 1884 1928
+call(
+  stack
+)
+type(
+  int
+)
+"smt/literal.ml" 63 1884 1929 "smt/literal.ml" 63 1884 1930
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/literal.ml" 63 1884 1931 "smt/literal.ml" 63 1884 1932
+type(
+  int
+)
+"smt/literal.ml" 63 1884 1913 "smt/literal.ml" 63 1884 1932
+type(
+  bool
+)
+"smt/literal.ml" 63 1884 1889 "smt/literal.ml" 63 1884 1933
+type(
+  bool
+)
+"smt/literal.ml" 62 1831 1836 "smt/literal.ml" 63 1884 1933
+type(
+  bool
+)
+"smt/literal.ml" 64 1934 1947 "smt/literal.ml" 64 1934 1949
+type(
+  bool
+)
+ident(
+  def b1 "smt/literal.ml" 65 1977 1982 "smt/literal.ml" 68 2063 2102
+)
+"smt/literal.ml" 64 1934 1950 "smt/literal.ml" 64 1934 1953
+type(
+  X.t list
+)
+ident(
+  def lt1 "smt/literal.ml" 65 1977 1982 "smt/literal.ml" 68 2063 2102
+)
+"smt/literal.ml" 64 1934 1937 "smt/literal.ml" 64 1934 1954
+type(
+  X.t view
+)
+"smt/literal.ml" 64 1934 1966 "smt/literal.ml" 64 1934 1968
+type(
+  bool
+)
+ident(
+  def b2 "smt/literal.ml" 65 1977 1982 "smt/literal.ml" 68 2063 2102
+)
+"smt/literal.ml" 64 1934 1969 "smt/literal.ml" 64 1934 1972
+type(
+  X.t list
+)
+ident(
+  def lt2 "smt/literal.ml" 65 1977 1982 "smt/literal.ml" 68 2063 2102
+)
+"smt/literal.ml" 64 1934 1956 "smt/literal.ml" 64 1934 1973
+type(
+  X.t view
+)
+"smt/literal.ml" 64 1934 1937 "smt/literal.ml" 64 1934 1973
+type(
+  X.t view * X.t view
+)
+"smt/literal.ml" 66 1988 1996 "smt/literal.ml" 66 1988 1998
+type(
+  bool
+)
+ident(
+  int_ref b1 "smt/literal.ml" 64 1934 1947 "smt/literal.ml" 64 1934 1949
+)
+"smt/literal.ml" 66 1988 1999 "smt/literal.ml" 66 1988 2000
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/literal.ml" 66 1988 2001 "smt/literal.ml" 66 1988 2003
+type(
+  bool
+)
+ident(
+  int_ref b2 "smt/literal.ml" 64 1934 1966 "smt/literal.ml" 64 1934 1968
+)
+"smt/literal.ml" 66 1988 1996 "smt/literal.ml" 66 1988 2003
+type(
+  bool
+)
+"smt/literal.ml" 66 1988 2004 "smt/literal.ml" 66 1988 2006
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"smt/literal.ml" 67 2008 2010 "smt/literal.ml" 67 2008 2023
+type(
+  (X.t -> X.t -> bool) -> X.t list -> X.t list -> bool
+)
+ident(
+  ext_ref List.for_all2
+)
+"smt/literal.ml" 67 2008 2029 "smt/literal.ml" 67 2008 2030
+type(
+  X.t
+)
+ident(
+  def x "smt/literal.ml" 67 2008 2031 "smt/literal.ml" 67 2008 2053
+)
+"smt/literal.ml" 67 2008 2031 "smt/literal.ml" 67 2008 2032
+type(
+  X.t
+)
+ident(
+  def y "smt/literal.ml" 67 2008 2036 "smt/literal.ml" 67 2008 2053
+)
+"smt/literal.ml" 67 2008 2036 "smt/literal.ml" 67 2008 2045
+type(
+  X.t -> X.t -> int
+)
+ident(
+  int_ref X.compare "smt/literal.ml" 23 1088 1090 "smt/literal.ml" 23 1088 1117
+)
+"smt/literal.ml" 67 2008 2046 "smt/literal.ml" 67 2008 2047
+type(
+  X.t
+)
+ident(
+  int_ref x "smt/literal.ml" 67 2008 2029 "smt/literal.ml" 67 2008 2030
+)
+"smt/literal.ml" 67 2008 2048 "smt/literal.ml" 67 2008 2049
+type(
+  X.t
+)
+ident(
+  int_ref y "smt/literal.ml" 67 2008 2031 "smt/literal.ml" 67 2008 2032
+)
+"smt/literal.ml" 67 2008 2036 "smt/literal.ml" 67 2008 2049
+call(
+  stack
+)
+type(
+  int
+)
+"smt/literal.ml" 67 2008 2050 "smt/literal.ml" 67 2008 2051
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/literal.ml" 67 2008 2052 "smt/literal.ml" 67 2008 2053
+type(
+  int
+)
+"smt/literal.ml" 67 2008 2036 "smt/literal.ml" 67 2008 2053
+type(
+  bool
+)
+"smt/literal.ml" 67 2008 2024 "smt/literal.ml" 67 2008 2054
+type(
+  X.t -> X.t -> bool
+)
+"smt/literal.ml" 67 2008 2055 "smt/literal.ml" 67 2008 2058
+type(
+  X.t list
+)
+ident(
+  int_ref lt1 "smt/literal.ml" 64 1934 1950 "smt/literal.ml" 64 1934 1953
+)
+"smt/literal.ml" 67 2008 2059 "smt/literal.ml" 67 2008 2062
+type(
+  X.t list
+)
+ident(
+  int_ref lt2 "smt/literal.ml" 64 1934 1969 "smt/literal.ml" 64 1934 1972
+)
+"smt/literal.ml" 67 2008 2010 "smt/literal.ml" 67 2008 2062
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/literal.ml" 66 1988 1996 "smt/literal.ml" 67 2008 2062
+type(
+  bool
+)
+"smt/literal.ml" 68 2063 2091 "smt/literal.ml" 68 2063 2092
+type(
+  string
+)
+"smt/literal.ml" 68 2063 2074 "smt/literal.ml" 68 2063 2092
+type(
+  exn
+)
+"smt/literal.ml" 68 2063 2096 "smt/literal.ml" 68 2063 2101
+type(
+  bool
+)
+"smt/literal.ml" 65 1977 1982 "smt/literal.ml" 68 2063 2102
+type(
+  bool
+)
+"smt/literal.ml" 69 2103 2114 "smt/literal.ml" 69 2103 2116
+type(
+  bool
+)
+ident(
+  def b1 "smt/literal.ml" 70 2151 2156 "smt/literal.ml" 74 2261 2300
+)
+"smt/literal.ml" 69 2103 2118 "smt/literal.ml" 69 2103 2120
+type(
+  Hstring.t
+)
+ident(
+  def n1 "smt/literal.ml" 70 2151 2156 "smt/literal.ml" 74 2261 2300
+)
+"smt/literal.ml" 69 2103 2122 "smt/literal.ml" 69 2103 2124
+type(
+  X.t list
+)
+ident(
+  def l1 "smt/literal.ml" 70 2151 2156 "smt/literal.ml" 74 2261 2300
+)
+"smt/literal.ml" 69 2103 2106 "smt/literal.ml" 69 2103 2125
+type(
+  X.t view
+)
+"smt/literal.ml" 69 2103 2135 "smt/literal.ml" 69 2103 2137
+type(
+  bool
+)
+ident(
+  def b2 "smt/literal.ml" 70 2151 2156 "smt/literal.ml" 74 2261 2300
+)
+"smt/literal.ml" 69 2103 2139 "smt/literal.ml" 69 2103 2141
+type(
+  Hstring.t
+)
+ident(
+  def n2 "smt/literal.ml" 70 2151 2156 "smt/literal.ml" 74 2261 2300
+)
+"smt/literal.ml" 69 2103 2143 "smt/literal.ml" 69 2103 2145
+type(
+  X.t list
+)
+ident(
+  def l2 "smt/literal.ml" 70 2151 2156 "smt/literal.ml" 74 2261 2300
+)
+"smt/literal.ml" 69 2103 2127 "smt/literal.ml" 69 2103 2146
+type(
+  X.t view
+)
+"smt/literal.ml" 69 2103 2106 "smt/literal.ml" 69 2103 2146
+type(
+  X.t view * X.t view
+)
+"smt/literal.ml" 71 2162 2170 "smt/literal.ml" 71 2162 2172
+type(
+  bool
+)
+ident(
+  int_ref b1 "smt/literal.ml" 69 2103 2114 "smt/literal.ml" 69 2103 2116
+)
+"smt/literal.ml" 71 2162 2173 "smt/literal.ml" 71 2162 2174
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/literal.ml" 71 2162 2175 "smt/literal.ml" 71 2162 2177
+type(
+  bool
+)
+ident(
+  int_ref b2 "smt/literal.ml" 69 2103 2135 "smt/literal.ml" 69 2103 2137
+)
+"smt/literal.ml" 71 2162 2170 "smt/literal.ml" 71 2162 2177
+type(
+  bool
+)
+"smt/literal.ml" 71 2162 2178 "smt/literal.ml" 71 2162 2180
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"smt/literal.ml" 71 2162 2181 "smt/literal.ml" 71 2162 2194
+type(
+  Hstring.t -> Hstring.t -> bool
+)
+ident(
+  ext_ref Hstring.equal
+)
+"smt/literal.ml" 71 2162 2195 "smt/literal.ml" 71 2162 2197
+type(
+  Hstring.t
+)
+ident(
+  int_ref n1 "smt/literal.ml" 69 2103 2118 "smt/literal.ml" 69 2103 2120
+)
+"smt/literal.ml" 71 2162 2198 "smt/literal.ml" 71 2162 2200
+type(
+  Hstring.t
+)
+ident(
+  int_ref n2 "smt/literal.ml" 69 2103 2139 "smt/literal.ml" 69 2103 2141
+)
+"smt/literal.ml" 71 2162 2181 "smt/literal.ml" 71 2162 2200
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/literal.ml" 72 2202 2204 "smt/literal.ml" 72 2202 2206
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"smt/literal.ml" 73 2208 2210 "smt/literal.ml" 73 2208 2223
+type(
+  (X.t -> X.t -> bool) -> X.t list -> X.t list -> bool
+)
+ident(
+  ext_ref List.for_all2
+)
+"smt/literal.ml" 73 2208 2229 "smt/literal.ml" 73 2208 2230
+type(
+  X.t
+)
+ident(
+  def x "smt/literal.ml" 73 2208 2231 "smt/literal.ml" 73 2208 2253
+)
+"smt/literal.ml" 73 2208 2231 "smt/literal.ml" 73 2208 2232
+type(
+  X.t
+)
+ident(
+  def y "smt/literal.ml" 73 2208 2236 "smt/literal.ml" 73 2208 2253
+)
+"smt/literal.ml" 73 2208 2236 "smt/literal.ml" 73 2208 2245
+type(
+  X.t -> X.t -> int
+)
+ident(
+  int_ref X.compare "smt/literal.ml" 23 1088 1090 "smt/literal.ml" 23 1088 1117
+)
+"smt/literal.ml" 73 2208 2246 "smt/literal.ml" 73 2208 2247
+type(
+  X.t
+)
+ident(
+  int_ref x "smt/literal.ml" 73 2208 2229 "smt/literal.ml" 73 2208 2230
+)
+"smt/literal.ml" 73 2208 2248 "smt/literal.ml" 73 2208 2249
+type(
+  X.t
+)
+ident(
+  int_ref y "smt/literal.ml" 73 2208 2231 "smt/literal.ml" 73 2208 2232
+)
+"smt/literal.ml" 73 2208 2236 "smt/literal.ml" 73 2208 2249
+call(
+  stack
+)
+type(
+  int
+)
+"smt/literal.ml" 73 2208 2250 "smt/literal.ml" 73 2208 2251
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/literal.ml" 73 2208 2252 "smt/literal.ml" 73 2208 2253
+type(
+  int
+)
+"smt/literal.ml" 73 2208 2236 "smt/literal.ml" 73 2208 2253
+type(
+  bool
+)
+"smt/literal.ml" 73 2208 2224 "smt/literal.ml" 73 2208 2254
+type(
+  X.t -> X.t -> bool
+)
+"smt/literal.ml" 73 2208 2255 "smt/literal.ml" 73 2208 2257
+type(
+  X.t list
+)
+ident(
+  int_ref l1 "smt/literal.ml" 69 2103 2122 "smt/literal.ml" 69 2103 2124
+)
+"smt/literal.ml" 73 2208 2258 "smt/literal.ml" 73 2208 2260
+type(
+  X.t list
+)
+ident(
+  int_ref l2 "smt/literal.ml" 69 2103 2143 "smt/literal.ml" 69 2103 2145
+)
+"smt/literal.ml" 73 2208 2210 "smt/literal.ml" 73 2208 2260
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/literal.ml" 71 2162 2181 "smt/literal.ml" 73 2208 2260
+type(
+  bool
+)
+"smt/literal.ml" 71 2162 2170 "smt/literal.ml" 73 2208 2260
+type(
+  bool
+)
+"smt/literal.ml" 74 2261 2289 "smt/literal.ml" 74 2261 2290
+type(
+  string
+)
+"smt/literal.ml" 74 2261 2272 "smt/literal.ml" 74 2261 2290
+type(
+  exn
+)
+"smt/literal.ml" 74 2261 2294 "smt/literal.ml" 74 2261 2299
+type(
+  bool
+)
+"smt/literal.ml" 70 2151 2156 "smt/literal.ml" 74 2261 2300
+type(
+  bool
+)
+"smt/literal.ml" 75 2301 2304 "smt/literal.ml" 75 2301 2305
+type(
+  X.t view * X.t view
+)
+"smt/literal.ml" 75 2301 2309 "smt/literal.ml" 75 2301 2314
+type(
+  bool
+)
+"smt/literal.ml" 60 1777 1783 "smt/literal.ml" 75 2301 2314
+type(
+  bool
+)
+"smt/literal.ml" 77 2321 2329 "smt/literal.ml" 77 2321 2333
+type(
+  X.t view -> int
+)
+ident(
+  def hash "smt/literal.ml" 86 2629 2690 "smt/literal.ml" 87 2691 2696
+)
+"smt/literal.ml" 77 2321 2334 "smt/literal.ml" 77 2321 2335
+type(
+  X.t view
+)
+ident(
+  def a "smt/literal.ml" 77 2321 2338 "smt/literal.ml" 86 2629 2690
+)
+"smt/literal.ml" 77 2321 2344 "smt/literal.ml" 77 2321 2345
+type(
+  X.t view
+)
+ident(
+  int_ref a "smt/literal.ml" 77 2321 2334 "smt/literal.ml" 77 2321 2335
+)
+"smt/literal.ml" 78 2351 2362 "smt/literal.ml" 78 2351 2364
+type(
+  X.t
+)
+ident(
+  def t1 "smt/literal.ml" 78 2351 2373 "smt/literal.ml" 78 2351 2407
+)
+"smt/literal.ml" 78 2351 2366 "smt/literal.ml" 78 2351 2368
+type(
+  X.t
+)
+ident(
+  def t2 "smt/literal.ml" 78 2351 2373 "smt/literal.ml" 78 2351 2407
+)
+"smt/literal.ml" 78 2351 2359 "smt/literal.ml" 78 2351 2369
+type(
+  X.t view
+)
+"smt/literal.ml" 78 2351 2373 "smt/literal.ml" 78 2351 2376
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"smt/literal.ml" 78 2351 2378 "smt/literal.ml" 78 2351 2380
+type(
+  int
+)
+"smt/literal.ml" 78 2351 2381 "smt/literal.ml" 78 2351 2382
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"smt/literal.ml" 78 2351 2384 "smt/literal.ml" 78 2351 2390
+type(
+  X.t -> int
+)
+ident(
+  int_ref X.hash "smt/literal.ml" 24 1118 1120 "smt/literal.ml" 24 1118 1140
+)
+"smt/literal.ml" 78 2351 2391 "smt/literal.ml" 78 2351 2393
+type(
+  X.t
+)
+ident(
+  int_ref t1 "smt/literal.ml" 78 2351 2362 "smt/literal.ml" 78 2351 2364
+)
+"smt/literal.ml" 78 2351 2384 "smt/literal.ml" 78 2351 2393
+call(
+  stack
+)
+type(
+  int
+)
+"smt/literal.ml" 78 2351 2394 "smt/literal.ml" 78 2351 2395
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/literal.ml" 78 2351 2396 "smt/literal.ml" 78 2351 2402
+type(
+  X.t -> int
+)
+ident(
+  int_ref X.hash "smt/literal.ml" 24 1118 1120 "smt/literal.ml" 24 1118 1140
+)
+"smt/literal.ml" 78 2351 2403 "smt/literal.ml" 78 2351 2405
+type(
+  X.t
+)
+ident(
+  int_ref t2 "smt/literal.ml" 78 2351 2366 "smt/literal.ml" 78 2351 2368
+)
+"smt/literal.ml" 78 2351 2396 "smt/literal.ml" 78 2351 2405
+call(
+  stack
+)
+type(
+  int
+)
+"smt/literal.ml" 78 2351 2383 "smt/literal.ml" 78 2351 2406
+type(
+  int
+)
+"smt/literal.ml" 78 2351 2377 "smt/literal.ml" 78 2351 2407
+type(
+  int
+)
+"smt/literal.ml" 78 2351 2373 "smt/literal.ml" 78 2351 2407
+call(
+  tail
+)
+type(
+  int
+)
+"smt/literal.ml" 79 2408 2426 "smt/literal.ml" 79 2408 2427
+type(
+  bool
+)
+ident(
+  def b "smt/literal.ml" 80 2435 2438 "smt/literal.ml" 81 2469 2535
+)
+"smt/literal.ml" 79 2408 2428 "smt/literal.ml" 79 2408 2430
+type(
+  X.t list
+)
+ident(
+  def lt "smt/literal.ml" 80 2435 2438 "smt/literal.ml" 81 2469 2535
+)
+"smt/literal.ml" 79 2408 2416 "smt/literal.ml" 79 2408 2431
+type(
+  X.t view
+)
+"smt/literal.ml" 80 2435 2442 "smt/literal.ml" 80 2435 2443
+type(
+  int
+)
+ident(
+  def x "smt/literal.ml" 81 2469 2472 "smt/literal.ml" 81 2469 2535
+)
+"smt/literal.ml" 80 2435 2449 "smt/literal.ml" 80 2435 2450
+type(
+  bool
+)
+ident(
+  int_ref b "smt/literal.ml" 79 2408 2426 "smt/literal.ml" 79 2408 2427
+)
+"smt/literal.ml" 80 2435 2456 "smt/literal.ml" 80 2435 2457
+type(
+  int
+)
+"smt/literal.ml" 80 2435 2463 "smt/literal.ml" 80 2435 2465
+type(
+  int
+)
+"smt/literal.ml" 80 2435 2446 "smt/literal.ml" 80 2435 2465
+type(
+  int
+)
+"smt/literal.ml" 81 2469 2472 "smt/literal.ml" 81 2469 2475
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"smt/literal.ml" 81 2469 2477 "smt/literal.ml" 81 2469 2479
+type(
+  int
+)
+"smt/literal.ml" 81 2469 2480 "smt/literal.ml" 81 2469 2481
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"smt/literal.ml" 81 2469 2482 "smt/literal.ml" 81 2469 2496
+type(
+  (int -> X.t -> int) -> int -> X.t list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"smt/literal.ml" 81 2469 2502 "smt/literal.ml" 81 2469 2505
+type(
+  int
+)
+ident(
+  def acc "smt/literal.ml" 81 2469 2506 "smt/literal.ml" 81 2469 2527
+)
+"smt/literal.ml" 81 2469 2506 "smt/literal.ml" 81 2469 2507
+type(
+  X.t
+)
+ident(
+  def t "smt/literal.ml" 81 2469 2511 "smt/literal.ml" 81 2469 2527
+)
+"smt/literal.ml" 81 2469 2512 "smt/literal.ml" 81 2469 2518
+type(
+  X.t -> int
+)
+ident(
+  int_ref X.hash "smt/literal.ml" 24 1118 1120 "smt/literal.ml" 24 1118 1140
+)
+"smt/literal.ml" 81 2469 2519 "smt/literal.ml" 81 2469 2520
+type(
+  X.t
+)
+ident(
+  int_ref t "smt/literal.ml" 81 2469 2506 "smt/literal.ml" 81 2469 2507
+)
+"smt/literal.ml" 81 2469 2511 "smt/literal.ml" 81 2469 2521
+call(
+  stack
+)
+type(
+  int
+)
+"smt/literal.ml" 81 2469 2522 "smt/literal.ml" 81 2469 2523
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/literal.ml" 81 2469 2524 "smt/literal.ml" 81 2469 2527
+type(
+  int
+)
+ident(
+  int_ref acc "smt/literal.ml" 81 2469 2502 "smt/literal.ml" 81 2469 2505
+)
+"smt/literal.ml" 81 2469 2511 "smt/literal.ml" 81 2469 2527
+type(
+  int
+)
+"smt/literal.ml" 81 2469 2497 "smt/literal.ml" 81 2469 2529
+type(
+  int -> X.t -> int
+)
+"smt/literal.ml" 81 2469 2530 "smt/literal.ml" 81 2469 2531
+type(
+  int
+)
+ident(
+  int_ref x "smt/literal.ml" 80 2435 2442 "smt/literal.ml" 80 2435 2443
+)
+"smt/literal.ml" 81 2469 2532 "smt/literal.ml" 81 2469 2534
+type(
+  X.t list
+)
+ident(
+  int_ref lt "smt/literal.ml" 79 2408 2428 "smt/literal.ml" 79 2408 2430
+)
+"smt/literal.ml" 81 2469 2482 "smt/literal.ml" 81 2469 2534
+call(
+  stack
+)
+type(
+  int
+)
+"smt/literal.ml" 81 2469 2476 "smt/literal.ml" 81 2469 2535
+type(
+  int
+)
+"smt/literal.ml" 81 2469 2472 "smt/literal.ml" 81 2469 2535
+call(
+  tail
+)
+type(
+  int
+)
+"smt/literal.ml" 80 2435 2438 "smt/literal.ml" 81 2469 2535
+type(
+  int
+)
+"smt/literal.ml" 82 2536 2552 "smt/literal.ml" 82 2536 2553
+type(
+  bool
+)
+ident(
+  def b "smt/literal.ml" 83 2565 2568 "smt/literal.ml" 86 2629 2690
+)
+"smt/literal.ml" 82 2536 2555 "smt/literal.ml" 82 2536 2556
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/literal.ml" 83 2565 2568 "smt/literal.ml" 86 2629 2690
+)
+"smt/literal.ml" 82 2536 2558 "smt/literal.ml" 82 2536 2559
+type(
+  X.t list
+)
+ident(
+  def l "smt/literal.ml" 83 2565 2568 "smt/literal.ml" 86 2629 2690
+)
+"smt/literal.ml" 82 2536 2544 "smt/literal.ml" 82 2536 2560
+type(
+  X.t view
+)
+"smt/literal.ml" 83 2565 2572 "smt/literal.ml" 83 2565 2573
+type(
+  int
+)
+ident(
+  def x "smt/literal.ml" 84 2599 2602 "smt/literal.ml" 86 2629 2690
+)
+"smt/literal.ml" 83 2565 2579 "smt/literal.ml" 83 2565 2580
+type(
+  bool
+)
+ident(
+  int_ref b "smt/literal.ml" 82 2536 2552 "smt/literal.ml" 82 2536 2553
+)
+"smt/literal.ml" 83 2565 2586 "smt/literal.ml" 83 2565 2587
+type(
+  int
+)
+"smt/literal.ml" 83 2565 2593 "smt/literal.ml" 83 2565 2595
+type(
+  int
+)
+"smt/literal.ml" 83 2565 2576 "smt/literal.ml" 83 2565 2595
+type(
+  int
+)
+"smt/literal.ml" 84 2599 2602 "smt/literal.ml" 84 2599 2605
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"smt/literal.ml" 85 2607 2613 "smt/literal.ml" 85 2607 2627
+type(
+  (int -> X.t -> int) -> int -> X.t list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"smt/literal.ml" 86 2629 2642 "smt/literal.ml" 86 2629 2645
+type(
+  int
+)
+ident(
+  def acc "smt/literal.ml" 86 2629 2646 "smt/literal.ml" 86 2629 2667
+)
+"smt/literal.ml" 86 2629 2646 "smt/literal.ml" 86 2629 2647
+type(
+  X.t
+)
+ident(
+  def t "smt/literal.ml" 86 2629 2650 "smt/literal.ml" 86 2629 2667
+)
+"smt/literal.ml" 86 2629 2650 "smt/literal.ml" 86 2629 2653
+type(
+  int
+)
+ident(
+  int_ref acc "smt/literal.ml" 86 2629 2642 "smt/literal.ml" 86 2629 2645
+)
+"smt/literal.ml" 86 2629 2653 "smt/literal.ml" 86 2629 2654
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"smt/literal.ml" 86 2629 2654 "smt/literal.ml" 86 2629 2656
+type(
+  int
+)
+"smt/literal.ml" 86 2629 2650 "smt/literal.ml" 86 2629 2656
+type(
+  int
+)
+"smt/literal.ml" 86 2629 2657 "smt/literal.ml" 86 2629 2658
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/literal.ml" 86 2629 2659 "smt/literal.ml" 86 2629 2665
+type(
+  X.t -> int
+)
+ident(
+  int_ref X.hash "smt/literal.ml" 24 1118 1120 "smt/literal.ml" 24 1118 1140
+)
+"smt/literal.ml" 86 2629 2666 "smt/literal.ml" 86 2629 2667
+type(
+  X.t
+)
+ident(
+  int_ref t "smt/literal.ml" 86 2629 2646 "smt/literal.ml" 86 2629 2647
+)
+"smt/literal.ml" 86 2629 2659 "smt/literal.ml" 86 2629 2667
+call(
+  stack
+)
+type(
+  int
+)
+"smt/literal.ml" 86 2629 2650 "smt/literal.ml" 86 2629 2667
+type(
+  int
+)
+"smt/literal.ml" 86 2629 2637 "smt/literal.ml" 86 2629 2668
+type(
+  int -> X.t -> int
+)
+"smt/literal.ml" 86 2629 2670 "smt/literal.ml" 86 2629 2682
+type(
+  Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.hash
+)
+"smt/literal.ml" 86 2629 2683 "smt/literal.ml" 86 2629 2684
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/literal.ml" 82 2536 2555 "smt/literal.ml" 82 2536 2556
+)
+"smt/literal.ml" 86 2629 2670 "smt/literal.ml" 86 2629 2684
+call(
+  stack
+)
+type(
+  int
+)
+"smt/literal.ml" 86 2629 2684 "smt/literal.ml" 86 2629 2685
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/literal.ml" 86 2629 2685 "smt/literal.ml" 86 2629 2686
+type(
+  int
+)
+ident(
+  int_ref x "smt/literal.ml" 83 2565 2572 "smt/literal.ml" 83 2565 2573
+)
+"smt/literal.ml" 86 2629 2669 "smt/literal.ml" 86 2629 2687
+type(
+  int
+)
+"smt/literal.ml" 86 2629 2688 "smt/literal.ml" 86 2629 2689
+type(
+  X.t list
+)
+ident(
+  int_ref l "smt/literal.ml" 82 2536 2558 "smt/literal.ml" 82 2536 2559
+)
+"smt/literal.ml" 85 2607 2612 "smt/literal.ml" 86 2629 2690
+call(
+  stack
+)
+type(
+  int
+)
+"smt/literal.ml" 84 2599 2602 "smt/literal.ml" 86 2629 2690
+call(
+  tail
+)
+type(
+  int
+)
+"smt/literal.ml" 83 2565 2568 "smt/literal.ml" 86 2629 2690
+type(
+  int
+)
+"smt/literal.ml" 77 2321 2338 "smt/literal.ml" 86 2629 2690
+type(
+  int
+)
+"smt/literal.ml" 89 2698 2711 "smt/literal.ml" 89 2698 2725
+call(
+  stack
+)
+"smt/literal.ml" 91 2727 2733 "smt/literal.ml" 91 2727 2740
+type(
+  'a Hashcons.hash_consed -> 'b Hashcons.hash_consed -> int
+)
+ident(
+  def compare "smt/literal.ml" 92 2782 2784 "smt/literal.ml" 163 4953 4956
+)
+"smt/literal.ml" 91 2727 2741 "smt/literal.ml" 91 2727 2743
+type(
+  'a Hashcons.hash_consed
+)
+ident(
+  def a1 "smt/literal.ml" 91 2727 2744 "smt/literal.ml" 91 2727 2781
+)
+"smt/literal.ml" 91 2727 2744 "smt/literal.ml" 91 2727 2746
+type(
+  'b Hashcons.hash_consed
+)
+ident(
+  def a2 "smt/literal.ml" 91 2727 2749 "smt/literal.ml" 91 2727 2781
+)
+"smt/literal.ml" 91 2727 2749 "smt/literal.ml" 91 2727 2767
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"smt/literal.ml" 91 2727 2768 "smt/literal.ml" 91 2727 2770
+type(
+  'a Hashcons.hash_consed
+)
+ident(
+  int_ref a1 "smt/literal.ml" 91 2727 2741 "smt/literal.ml" 91 2727 2743
+)
+"smt/literal.ml" 91 2727 2768 "smt/literal.ml" 91 2727 2774
+type(
+  int
+)
+"smt/literal.ml" 91 2727 2775 "smt/literal.ml" 91 2727 2777
+type(
+  'b Hashcons.hash_consed
+)
+ident(
+  int_ref a2 "smt/literal.ml" 91 2727 2744 "smt/literal.ml" 91 2727 2746
+)
+"smt/literal.ml" 91 2727 2775 "smt/literal.ml" 91 2727 2781
+type(
+  int
+)
+"smt/literal.ml" 91 2727 2749 "smt/literal.ml" 91 2727 2781
+type(
+  int
+)
+"smt/literal.ml" 92 2782 2788 "smt/literal.ml" 92 2782 2793
+type(
+  'c -> 'c -> bool
+)
+ident(
+  def equal "smt/literal.ml" 93 2811 2813 "smt/literal.ml" 163 4953 4956
+)
+"smt/literal.ml" 92 2782 2794 "smt/literal.ml" 92 2782 2796
+type(
+  'c
+)
+ident(
+  def a1 "smt/literal.ml" 92 2782 2797 "smt/literal.ml" 92 2782 2810
+)
+"smt/literal.ml" 92 2782 2797 "smt/literal.ml" 92 2782 2799
+type(
+  'c
+)
+ident(
+  def a2 "smt/literal.ml" 92 2782 2802 "smt/literal.ml" 92 2782 2810
+)
+"smt/literal.ml" 92 2782 2802 "smt/literal.ml" 92 2782 2804
+type(
+  'c
+)
+ident(
+  int_ref a1 "smt/literal.ml" 92 2782 2794 "smt/literal.ml" 92 2782 2796
+)
+"smt/literal.ml" 92 2782 2805 "smt/literal.ml" 92 2782 2807
+type(
+  'c -> 'c -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"smt/literal.ml" 92 2782 2808 "smt/literal.ml" 92 2782 2810
+type(
+  'c
+)
+ident(
+  int_ref a2 "smt/literal.ml" 92 2782 2797 "smt/literal.ml" 92 2782 2799
+)
+"smt/literal.ml" 92 2782 2802 "smt/literal.ml" 92 2782 2810
+type(
+  bool
+)
+"smt/literal.ml" 93 2811 2817 "smt/literal.ml" 93 2811 2821
+type(
+  'd Hashcons.hash_consed -> int
+)
+ident(
+  def hash "smt/literal.ml" 95 2835 2837 "smt/literal.ml" 163 4953 4956
+)
+"smt/literal.ml" 93 2811 2822 "smt/literal.ml" 93 2811 2824
+type(
+  'd Hashcons.hash_consed
+)
+ident(
+  def a1 "smt/literal.ml" 93 2811 2827 "smt/literal.ml" 93 2811 2833
+)
+"smt/literal.ml" 93 2811 2827 "smt/literal.ml" 93 2811 2829
+type(
+  'd Hashcons.hash_consed
+)
+ident(
+  int_ref a1 "smt/literal.ml" 93 2811 2822 "smt/literal.ml" 93 2811 2824
+)
+"smt/literal.ml" 93 2811 2827 "smt/literal.ml" 93 2811 2833
+type(
+  int
+)
+"smt/literal.ml" 98 2890 2898 "smt/literal.ml" 98 2890 2905
+type(
+  'e Hashcons.hash_consed -> 'f Hashcons.hash_consed -> int
+)
+ident(
+  def compare "smt/literal.ml" 99 2914 2918 "smt/literal.ml" 101 2956 2961
+)
+"smt/literal.ml" 98 2890 2906 "smt/literal.ml" 98 2890 2913
+type(
+  'e Hashcons.hash_consed -> 'f Hashcons.hash_consed -> int
+)
+ident(
+  int_ref compare "smt/literal.ml" 91 2727 2733 "smt/literal.ml" 91 2727 2740
+)
+"smt/literal.ml" 99 2914 2922 "smt/literal.ml" 99 2914 2927
+type(
+  'g -> 'g -> bool
+)
+ident(
+  def equal "smt/literal.ml" 100 2936 2940 "smt/literal.ml" 101 2956 2961
+)
+"smt/literal.ml" 99 2914 2930 "smt/literal.ml" 99 2914 2935
+type(
+  'g -> 'g -> bool
+)
+ident(
+  int_ref equal "smt/literal.ml" 92 2782 2788 "smt/literal.ml" 92 2782 2793
+)
+"smt/literal.ml" 100 2936 2944 "smt/literal.ml" 100 2936 2948
+type(
+  'h Hashcons.hash_consed -> int
+)
+ident(
+  def hash "smt/literal.ml" 100 2936 2955 "smt/literal.ml" 101 2956 2961
+)
+"smt/literal.ml" 100 2936 2951 "smt/literal.ml" 100 2936 2955
+type(
+  'h Hashcons.hash_consed -> int
+)
+ident(
+  int_ref hash "smt/literal.ml" 93 2811 2817 "smt/literal.ml" 93 2811 2821
+)
+"smt/literal.ml" 103 2963 2969 "smt/literal.ml" 103 2963 2973
+type(
+  H.key -> H.key Hashcons.hash_consed
+)
+ident(
+  def make "smt/literal.ml" 104 2991 2993 "smt/literal.ml" 163 4953 4956
+)
+"smt/literal.ml" 103 2963 2974 "smt/literal.ml" 103 2963 2975
+type(
+  H.key
+)
+ident(
+  def t "smt/literal.ml" 103 2963 2978 "smt/literal.ml" 103 2963 2990
+)
+"smt/literal.ml" 103 2963 2978 "smt/literal.ml" 103 2963 2988
+type(
+  H.key -> H.key Hashcons.hash_consed
+)
+ident(
+  ext_ref H.hashcons
+)
+"smt/literal.ml" 103 2963 2989 "smt/literal.ml" 103 2963 2990
+type(
+  H.key
+)
+ident(
+  int_ref t "smt/literal.ml" 103 2963 2974 "smt/literal.ml" 103 2963 2975
+)
+"smt/literal.ml" 103 2963 2978 "smt/literal.ml" 103 2963 2990
+call(
+  tail
+)
+type(
+  H.key Hashcons.hash_consed
+)
+"smt/literal.ml" 104 2991 2997 "smt/literal.ml" 104 2991 3001
+type(
+  'i Hashcons.hash_consed -> 'i
+)
+ident(
+  def view "smt/literal.ml" 106 3014 3016 "smt/literal.ml" 163 4953 4956
+)
+"smt/literal.ml" 104 2991 3002 "smt/literal.ml" 104 2991 3003
+type(
+  'i Hashcons.hash_consed
+)
+ident(
+  def a "smt/literal.ml" 104 2991 3006 "smt/literal.ml" 104 2991 3012
+)
+"smt/literal.ml" 104 2991 3006 "smt/literal.ml" 104 2991 3007
+type(
+  'i Hashcons.hash_consed
+)
+ident(
+  int_ref a "smt/literal.ml" 104 2991 3002 "smt/literal.ml" 104 2991 3003
+)
+"smt/literal.ml" 104 2991 3006 "smt/literal.ml" 104 2991 3012
+type(
+  'i
+)
+"smt/literal.ml" 106 3014 3020 "smt/literal.ml" 106 3014 3023
+type(
+  X.t view Hashcons.hash_consed -> H.key Hashcons.hash_consed
+)
+ident(
+  def neg "smt/literal.ml" 114 3353 3355 "smt/literal.ml" 163 4953 4956
+)
+"smt/literal.ml" 106 3014 3024 "smt/literal.ml" 106 3014 3025
+type(
+  X.t view Hashcons.hash_consed
+)
+ident(
+  def a "smt/literal.ml" 106 3014 3028 "smt/literal.ml" 112 3297 3351
+)
+"smt/literal.ml" 106 3014 3034 "smt/literal.ml" 106 3014 3038
+type(
+  X.t view Hashcons.hash_consed -> X.t view
+)
+ident(
+  int_ref view "smt/literal.ml" 104 2991 2997 "smt/literal.ml" 104 2991 3001
+)
+"smt/literal.ml" 106 3014 3039 "smt/literal.ml" 106 3014 3040
+type(
+  X.t view Hashcons.hash_consed
+)
+ident(
+  int_ref a "smt/literal.ml" 106 3014 3024 "smt/literal.ml" 106 3014 3025
+)
+"smt/literal.ml" 106 3014 3034 "smt/literal.ml" 106 3014 3040
+call(
+  stack
+)
+type(
+  X.t view
+)
+"smt/literal.ml" 107 3046 3055 "smt/literal.ml" 107 3046 3056
+type(
+  X.t
+)
+ident(
+  def x "smt/literal.ml" 107 3046 3064 "smt/literal.ml" 107 3046 3094
+)
+"smt/literal.ml" 107 3046 3058 "smt/literal.ml" 107 3046 3059
+type(
+  X.t
+)
+ident(
+  def y "smt/literal.ml" 107 3046 3064 "smt/literal.ml" 107 3046 3094
+)
+"smt/literal.ml" 107 3046 3052 "smt/literal.ml" 107 3046 3060
+type(
+  X.t view
+)
+"smt/literal.ml" 107 3046 3064 "smt/literal.ml" 107 3046 3068
+type(
+  H.key -> H.key Hashcons.hash_consed
+)
+ident(
+  int_ref make "smt/literal.ml" 103 2963 2969 "smt/literal.ml" 103 2963 2973
+)
+"smt/literal.ml" 107 3046 3080 "smt/literal.ml" 107 3046 3085
+type(
+  bool
+)
+"smt/literal.ml" 107 3046 3087 "smt/literal.ml" 107 3046 3088
+type(
+  X.t
+)
+ident(
+  int_ref x "smt/literal.ml" 107 3046 3055 "smt/literal.ml" 107 3046 3056
+)
+"smt/literal.ml" 107 3046 3090 "smt/literal.ml" 107 3046 3091
+type(
+  X.t
+)
+ident(
+  int_ref y "smt/literal.ml" 107 3046 3058 "smt/literal.ml" 107 3046 3059
+)
+"smt/literal.ml" 107 3046 3086 "smt/literal.ml" 107 3046 3092
+type(
+  X.t list
+)
+"smt/literal.ml" 107 3046 3069 "smt/literal.ml" 107 3046 3094
+type(
+  H.key
+)
+"smt/literal.ml" 107 3046 3064 "smt/literal.ml" 107 3046 3094
+call(
+  tail
+)
+type(
+  H.key Hashcons.hash_consed
+)
+"smt/literal.ml" 108 3095 3111 "smt/literal.ml" 108 3095 3116
+type(
+  bool
+)
+"smt/literal.ml" 108 3095 3119 "smt/literal.ml" 108 3095 3120
+type(
+  X.t
+)
+ident(
+  def x "smt/literal.ml" 108 3095 3129 "smt/literal.ml" 108 3095 3145
+)
+"smt/literal.ml" 108 3095 3122 "smt/literal.ml" 108 3095 3123
+type(
+  X.t
+)
+ident(
+  def y "smt/literal.ml" 108 3095 3129 "smt/literal.ml" 108 3095 3145
+)
+"smt/literal.ml" 108 3095 3118 "smt/literal.ml" 108 3095 3124
+type(
+  X.t list
+)
+"smt/literal.ml" 108 3095 3101 "smt/literal.ml" 108 3095 3125
+type(
+  X.t view
+)
+"smt/literal.ml" 108 3095 3129 "smt/literal.ml" 108 3095 3133
+type(
+  H.key -> H.key Hashcons.hash_consed
+)
+ident(
+  int_ref make "smt/literal.ml" 103 2963 2969 "smt/literal.ml" 103 2963 2973
+)
+"smt/literal.ml" 108 3095 3139 "smt/literal.ml" 108 3095 3140
+type(
+  X.t
+)
+ident(
+  int_ref x "smt/literal.ml" 108 3095 3119 "smt/literal.ml" 108 3095 3120
+)
+"smt/literal.ml" 108 3095 3142 "smt/literal.ml" 108 3095 3143
+type(
+  X.t
+)
+ident(
+  int_ref y "smt/literal.ml" 108 3095 3122 "smt/literal.ml" 108 3095 3123
+)
+"smt/literal.ml" 108 3095 3134 "smt/literal.ml" 108 3095 3145
+type(
+  H.key
+)
+"smt/literal.ml" 108 3095 3129 "smt/literal.ml" 108 3095 3145
+call(
+  tail
+)
+type(
+  H.key Hashcons.hash_consed
+)
+"smt/literal.ml" 109 3146 3162 "smt/literal.ml" 109 3146 3166
+type(
+  bool
+)
+"smt/literal.ml" 109 3146 3169 "smt/literal.ml" 109 3146 3170
+type(
+  X.t
+)
+ident(
+  def x "smt/literal.ml" 109 3146 3179 "smt/literal.ml" 109 3146 3209
+)
+"smt/literal.ml" 109 3146 3172 "smt/literal.ml" 109 3146 3173
+type(
+  X.t
+)
+ident(
+  def y "smt/literal.ml" 109 3146 3179 "smt/literal.ml" 109 3146 3209
+)
+"smt/literal.ml" 109 3146 3168 "smt/literal.ml" 109 3146 3174
+type(
+  X.t list
+)
+"smt/literal.ml" 109 3146 3152 "smt/literal.ml" 109 3146 3175
+type(
+  X.t view
+)
+"smt/literal.ml" 109 3146 3179 "smt/literal.ml" 109 3146 3183
+type(
+  H.key -> H.key Hashcons.hash_consed
+)
+ident(
+  int_ref make "smt/literal.ml" 103 2963 2969 "smt/literal.ml" 103 2963 2973
+)
+"smt/literal.ml" 109 3146 3195 "smt/literal.ml" 109 3146 3200
+type(
+  bool
+)
+"smt/literal.ml" 109 3146 3202 "smt/literal.ml" 109 3146 3203
+type(
+  X.t
+)
+ident(
+  int_ref x "smt/literal.ml" 109 3146 3169 "smt/literal.ml" 109 3146 3170
+)
+"smt/literal.ml" 109 3146 3205 "smt/literal.ml" 109 3146 3206
+type(
+  X.t
+)
+ident(
+  int_ref y "smt/literal.ml" 109 3146 3172 "smt/literal.ml" 109 3146 3173
+)
+"smt/literal.ml" 109 3146 3201 "smt/literal.ml" 109 3146 3207
+type(
+  X.t list
+)
+"smt/literal.ml" 109 3146 3184 "smt/literal.ml" 109 3146 3209
+type(
+  H.key
+)
+"smt/literal.ml" 109 3146 3179 "smt/literal.ml" 109 3146 3209
+call(
+  tail
+)
+type(
+  H.key Hashcons.hash_consed
+)
+"smt/literal.ml" 110 3210 3226 "smt/literal.ml" 110 3210 3231
+type(
+  bool
+)
+"smt/literal.ml" 110 3210 3233 "smt/literal.ml" 110 3210 3234
+type(
+  X.t list
+)
+ident(
+  def l "smt/literal.ml" 110 3210 3239 "smt/literal.ml" 110 3210 3263
+)
+"smt/literal.ml" 110 3210 3216 "smt/literal.ml" 110 3210 3235
+type(
+  X.t view
+)
+"smt/literal.ml" 110 3210 3239 "smt/literal.ml" 110 3210 3243
+type(
+  H.key -> H.key Hashcons.hash_consed
+)
+ident(
+  int_ref make "smt/literal.ml" 103 2963 2969 "smt/literal.ml" 103 2963 2973
+)
+"smt/literal.ml" 110 3210 3255 "smt/literal.ml" 110 3210 3259
+type(
+  bool
+)
+"smt/literal.ml" 110 3210 3260 "smt/literal.ml" 110 3210 3261
+type(
+  X.t list
+)
+ident(
+  int_ref l "smt/literal.ml" 110 3210 3233 "smt/literal.ml" 110 3210 3234
+)
+"smt/literal.ml" 110 3210 3244 "smt/literal.ml" 110 3210 3263
+type(
+  H.key
+)
+"smt/literal.ml" 110 3210 3239 "smt/literal.ml" 110 3210 3263
+call(
+  tail
+)
+type(
+  H.key Hashcons.hash_consed
+)
+"smt/literal.ml" 111 3264 3279 "smt/literal.ml" 111 3264 3280
+type(
+  X.t list
+)
+type(
+  bool
+)
+"smt/literal.ml" 111 3264 3270 "smt/literal.ml" 111 3264 3280
+type(
+  X.t view
+)
+"smt/literal.ml" 111 3264 3291 "smt/literal.ml" 111 3264 3296
+type(
+  bool
+)
+"smt/literal.ml" 111 3264 3284 "smt/literal.ml" 111 3264 3296
+type(
+  H.key Hashcons.hash_consed
+)
+"smt/literal.ml" 112 3297 3311 "smt/literal.ml" 112 3297 3312
+type(
+  bool
+)
+ident(
+  def b "smt/literal.ml" 112 3297 3323 "smt/literal.ml" 112 3297 3351
+)
+"smt/literal.ml" 112 3297 3314 "smt/literal.ml" 112 3297 3315
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/literal.ml" 112 3297 3323 "smt/literal.ml" 112 3297 3351
+)
+"smt/literal.ml" 112 3297 3317 "smt/literal.ml" 112 3297 3318
+type(
+  X.t list
+)
+ident(
+  def l "smt/literal.ml" 112 3297 3323 "smt/literal.ml" 112 3297 3351
+)
+"smt/literal.ml" 112 3297 3303 "smt/literal.ml" 112 3297 3319
+type(
+  X.t view
+)
+"smt/literal.ml" 112 3297 3323 "smt/literal.ml" 112 3297 3327
+type(
+  H.key -> H.key Hashcons.hash_consed
+)
+ident(
+  int_ref make "smt/literal.ml" 103 2963 2969 "smt/literal.ml" 103 2963 2973
+)
+"smt/literal.ml" 112 3297 3338 "smt/literal.ml" 112 3297 3341
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"smt/literal.ml" 112 3297 3342 "smt/literal.ml" 112 3297 3343
+type(
+  bool
+)
+ident(
+  int_ref b "smt/literal.ml" 112 3297 3311 "smt/literal.ml" 112 3297 3312
+)
+"smt/literal.ml" 112 3297 3338 "smt/literal.ml" 112 3297 3343
+type(
+  bool
+)
+"smt/literal.ml" 112 3297 3345 "smt/literal.ml" 112 3297 3346
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/literal.ml" 112 3297 3314 "smt/literal.ml" 112 3297 3315
+)
+"smt/literal.ml" 112 3297 3348 "smt/literal.ml" 112 3297 3349
+type(
+  X.t list
+)
+ident(
+  int_ref l "smt/literal.ml" 112 3297 3317 "smt/literal.ml" 112 3297 3318
+)
+"smt/literal.ml" 112 3297 3328 "smt/literal.ml" 112 3297 3351
+type(
+  H.key
+)
+"smt/literal.ml" 112 3297 3323 "smt/literal.ml" 112 3297 3351
+call(
+  tail
+)
+type(
+  H.key Hashcons.hash_consed
+)
+"smt/literal.ml" 106 3014 3028 "smt/literal.ml" 112 3297 3351
+type(
+  H.key Hashcons.hash_consed
+)
+"smt/literal.ml" 114 3353 3371 "smt/literal.ml" 114 3353 3386
+call(
+  stack
+)
+"smt/literal.ml" 116 3392 3398 "smt/literal.ml" 116 3392 3404
+type(
+  Hstring.t Labels.t
+)
+ident(
+  def labels "smt/literal.ml" 118 3433 3435 "smt/literal.ml" 163 4953 4956
+)
+"smt/literal.ml" 116 3392 3407 "smt/literal.ml" 116 3392 3420
+type(
+  int -> Hstring.t Labels.t
+)
+ident(
+  ext_ref Labels.create
+)
+"smt/literal.ml" 116 3392 3421 "smt/literal.ml" 116 3392 3427
+type(
+  int
+)
+"smt/literal.ml" 116 3392 3407 "smt/literal.ml" 116 3392 3427
+call(
+  stack
+)
+type(
+  Hstring.t Labels.t
+)
+"smt/literal.ml" 118 3433 3439 "smt/literal.ml" 118 3433 3448
+type(
+  Hstring.t -> Labels.key -> unit
+)
+ident(
+  def add_label "smt/literal.ml" 120 3490 3492 "smt/literal.ml" 163 4953 4956
+)
+"smt/literal.ml" 118 3433 3449 "smt/literal.ml" 118 3433 3452
+type(
+  Hstring.t
+)
+ident(
+  def lbl "smt/literal.ml" 118 3433 3453 "smt/literal.ml" 118 3433 3484
+)
+"smt/literal.ml" 118 3433 3453 "smt/literal.ml" 118 3433 3454
+type(
+  Labels.key
+)
+ident(
+  def t "smt/literal.ml" 118 3433 3457 "smt/literal.ml" 118 3433 3484
+)
+"smt/literal.ml" 118 3433 3457 "smt/literal.ml" 118 3433 3471
+type(
+  Hstring.t Labels.t -> Labels.key -> Hstring.t -> unit
+)
+ident(
+  ext_ref Labels.replace
+)
+"smt/literal.ml" 118 3433 3472 "smt/literal.ml" 118 3433 3478
+type(
+  Hstring.t Labels.t
+)
+ident(
+  int_ref labels "smt/literal.ml" 116 3392 3398 "smt/literal.ml" 116 3392 3404
+)
+"smt/literal.ml" 118 3433 3479 "smt/literal.ml" 118 3433 3480
+type(
+  Labels.key
+)
+ident(
+  int_ref t "smt/literal.ml" 118 3433 3453 "smt/literal.ml" 118 3433 3454
+)
+"smt/literal.ml" 118 3433 3481 "smt/literal.ml" 118 3433 3484
+type(
+  Hstring.t
+)
+ident(
+  int_ref lbl "smt/literal.ml" 118 3433 3449 "smt/literal.ml" 118 3433 3452
+)
+"smt/literal.ml" 118 3433 3457 "smt/literal.ml" 118 3433 3484
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/literal.ml" 120 3490 3496 "smt/literal.ml" 120 3490 3501
+type(
+  Labels.key -> Hstring.t
+)
+ident(
+  def label "smt/literal.ml" 122 3564 3566 "smt/literal.ml" 163 4953 4956
+)
+"smt/literal.ml" 120 3490 3502 "smt/literal.ml" 120 3490 3503
+type(
+  Labels.key
+)
+ident(
+  def t "smt/literal.ml" 120 3490 3506 "smt/literal.ml" 120 3490 3562
+)
+"smt/literal.ml" 120 3490 3510 "smt/literal.ml" 120 3490 3521
+type(
+  Hstring.t Labels.t -> Labels.key -> Hstring.t
+)
+ident(
+  ext_ref Labels.find
+)
+"smt/literal.ml" 120 3490 3522 "smt/literal.ml" 120 3490 3528
+type(
+  Hstring.t Labels.t
+)
+ident(
+  int_ref labels "smt/literal.ml" 116 3392 3398 "smt/literal.ml" 116 3392 3404
+)
+"smt/literal.ml" 120 3490 3529 "smt/literal.ml" 120 3490 3530
+type(
+  Labels.key
+)
+ident(
+  int_ref t "smt/literal.ml" 120 3490 3502 "smt/literal.ml" 120 3490 3503
+)
+"smt/literal.ml" 120 3490 3510 "smt/literal.ml" 120 3490 3530
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/literal.ml" 120 3490 3536 "smt/literal.ml" 120 3490 3545
+type(
+  exn
+)
+"smt/literal.ml" 120 3490 3549 "smt/literal.ml" 120 3490 3562
+type(
+  Hstring.t
+)
+ident(
+  ext_ref Hstring.empty
+)
+"smt/literal.ml" 120 3490 3506 "smt/literal.ml" 120 3490 3562
+type(
+  Hstring.t
+)
+"smt/literal.ml" 122 3564 3570 "smt/literal.ml" 122 3564 3580
+type(
+  Format.formatter -> X.t list -> unit
+)
+ident(
+  def print_list "smt/literal.ml" 128 3717 3719 "smt/literal.ml" 163 4953 4956
+)
+"smt/literal.ml" 122 3564 3581 "smt/literal.ml" 122 3564 3584
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/literal.ml" 122 3564 3587 "smt/literal.ml" 126 3663 3711
+)
+"smt/literal.ml" 123 3596 3602 "smt/literal.ml" 123 3596 3604
+type(
+  X.t list
+)
+"smt/literal.ml" 123 3596 3608 "smt/literal.ml" 123 3596 3610
+type(
+  unit
+)
+"smt/literal.ml" 124 3611 3617 "smt/literal.ml" 124 3611 3618
+type(
+  X.t
+)
+ident(
+  def z "smt/literal.ml" 125 3627 3628 "smt/literal.ml" 126 3663 3711
+)
+"smt/literal.ml" 124 3611 3622 "smt/literal.ml" 124 3611 3623
+type(
+  X.t list
+)
+ident(
+  def l "smt/literal.ml" 125 3627 3628 "smt/literal.ml" 126 3663 3711
+)
+"smt/literal.ml" 124 3611 3617 "smt/literal.ml" 124 3611 3623
+type(
+  X.t list
+)
+"smt/literal.ml" 125 3627 3628 "smt/literal.ml" 125 3627 3642
+type(
+  Format.formatter ->
+  ((Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> X.t -> unit) -> X.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/literal.ml" 125 3627 3643 "smt/literal.ml" 125 3627 3646
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/literal.ml" 122 3564 3581 "smt/literal.ml" 122 3564 3584
+)
+"smt/literal.ml" 125 3627 3647 "smt/literal.ml" 125 3627 3651
+type(
+  ((Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter, unit)
+  format
+)
+"smt/literal.ml" 125 3627 3652 "smt/literal.ml" 125 3627 3659
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 125 3627 3660 "smt/literal.ml" 125 3627 3661
+type(
+  X.t
+)
+ident(
+  int_ref z "smt/literal.ml" 124 3611 3617 "smt/literal.ml" 124 3611 3618
+)
+"smt/literal.ml" 125 3627 3628 "smt/literal.ml" 125 3627 3661
+call(
+  stack
+)
+type(
+  unit
+)
+"smt/literal.ml" 126 3663 3664 "smt/literal.ml" 126 3663 3673
+type(
+  (X.t -> unit) -> X.t list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"smt/literal.ml" 126 3663 3675 "smt/literal.ml" 126 3663 3689
+type(
+  Format.formatter ->
+  ((Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> X.t -> unit) -> X.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/literal.ml" 126 3663 3690 "smt/literal.ml" 126 3663 3693
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/literal.ml" 122 3564 3581 "smt/literal.ml" 122 3564 3584
+)
+"smt/literal.ml" 126 3663 3694 "smt/literal.ml" 126 3663 3700
+type(
+  ((Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter, unit)
+  format
+)
+"smt/literal.ml" 126 3663 3701 "smt/literal.ml" 126 3663 3708
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 126 3663 3674 "smt/literal.ml" 126 3663 3709
+call(
+  stack
+)
+type(
+  X.t -> unit
+)
+"smt/literal.ml" 126 3663 3710 "smt/literal.ml" 126 3663 3711
+type(
+  X.t list
+)
+ident(
+  int_ref l "smt/literal.ml" 124 3611 3622 "smt/literal.ml" 124 3611 3623
+)
+"smt/literal.ml" 126 3663 3664 "smt/literal.ml" 126 3663 3711
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/literal.ml" 125 3627 3628 "smt/literal.ml" 126 3663 3711
+type(
+  unit
+)
+"smt/literal.ml" 122 3564 3587 "smt/literal.ml" 126 3663 3711
+type(
+  X.t list -> unit
+)
+"smt/literal.ml" 128 3717 3723 "smt/literal.ml" 128 3717 3726
+type(
+  Hstring.t
+)
+ident(
+  def ale "smt/literal.ml" 129 3748 3750 "smt/literal.ml" 163 4953 4956
+)
+"smt/literal.ml" 128 3717 3729 "smt/literal.ml" 128 3717 3741
+type(
+  string -> Hstring.t
+)
+ident(
+  ext_ref Hstring.make
+)
+"smt/literal.ml" 128 3717 3742 "smt/literal.ml" 128 3717 3746
+type(
+  string
+)
+"smt/literal.ml" 128 3717 3729 "smt/literal.ml" 128 3717 3746
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/literal.ml" 129 3748 3754 "smt/literal.ml" 129 3748 3757
+type(
+  Hstring.t
+)
+ident(
+  def alt "smt/literal.ml" 131 3778 3780 "smt/literal.ml" 163 4953 4956
+)
+"smt/literal.ml" 129 3748 3760 "smt/literal.ml" 129 3748 3772
+type(
+  string -> Hstring.t
+)
+ident(
+  ext_ref Hstring.make
+)
+"smt/literal.ml" 129 3748 3773 "smt/literal.ml" 129 3748 3776
+type(
+  string
+)
+"smt/literal.ml" 129 3748 3760 "smt/literal.ml" 129 3748 3776
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/literal.ml" 131 3778 3784 "smt/literal.ml" 131 3778 3789
+type(
+  Format.formatter -> Labels.key -> unit
+)
+ident(
+  def print "smt/literal.ml" 160 4898 4900 "smt/literal.ml" 163 4953 4956
+)
+"smt/literal.ml" 131 3778 3790 "smt/literal.ml" 131 3778 3793
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/literal.ml" 131 3778 3794 "smt/literal.ml" 158 4867 4892
+)
+"smt/literal.ml" 131 3778 3794 "smt/literal.ml" 131 3778 3795
+type(
+  Labels.key
+)
+ident(
+  def a "smt/literal.ml" 132 3799 3803 "smt/literal.ml" 158 4867 4892
+)
+"smt/literal.ml" 132 3799 3807 "smt/literal.ml" 132 3799 3810
+type(
+  string
+)
+ident(
+  def lbl "smt/literal.ml" 133 3839 3843 "smt/literal.ml" 158 4867 4892
+)
+"smt/literal.ml" 132 3799 3813 "smt/literal.ml" 132 3799 3825
+type(
+  Hstring.t -> string
+)
+ident(
+  ext_ref Hstring.view
+)
+"smt/literal.ml" 132 3799 3827 "smt/literal.ml" 132 3799 3832
+type(
+  Labels.key -> Hstring.t
+)
+ident(
+  int_ref label "smt/literal.ml" 120 3490 3496 "smt/literal.ml" 120 3490 3501
+)
+"smt/literal.ml" 132 3799 3833 "smt/literal.ml" 132 3799 3834
+type(
+  Labels.key
+)
+ident(
+  int_ref a "smt/literal.ml" 131 3778 3794 "smt/literal.ml" 131 3778 3795
+)
+"smt/literal.ml" 132 3799 3826 "smt/literal.ml" 132 3799 3835
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/literal.ml" 132 3799 3813 "smt/literal.ml" 132 3799 3835
+call(
+  stack
+)
+type(
+  string
+)
+"smt/literal.ml" 133 3839 3847 "smt/literal.ml" 133 3839 3850
+type(
+  string
+)
+ident(
+  def lbl "smt/literal.ml" 134 3890 3894 "smt/literal.ml" 158 4867 4892
+)
+"smt/literal.ml" 133 3839 3856 "smt/literal.ml" 133 3839 3859
+type(
+  string
+)
+ident(
+  int_ref lbl "smt/literal.ml" 132 3799 3807 "smt/literal.ml" 132 3799 3810
+)
+"smt/literal.ml" 133 3839 3860 "smt/literal.ml" 133 3839 3861
+type(
+  string -> string -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/literal.ml" 133 3839 3862 "smt/literal.ml" 133 3839 3864
+type(
+  string
+)
+"smt/literal.ml" 133 3839 3856 "smt/literal.ml" 133 3839 3864
+type(
+  bool
+)
+"smt/literal.ml" 133 3839 3870 "smt/literal.ml" 133 3839 3873
+type(
+  string
+)
+ident(
+  int_ref lbl "smt/literal.ml" 132 3799 3807 "smt/literal.ml" 132 3799 3810
+)
+"smt/literal.ml" 133 3839 3879 "smt/literal.ml" 133 3839 3882
+type(
+  string
+)
+ident(
+  int_ref lbl "smt/literal.ml" 132 3799 3807 "smt/literal.ml" 132 3799 3810
+)
+"smt/literal.ml" 133 3839 3882 "smt/literal.ml" 133 3839 3883
+type(
+  string -> string -> string
+)
+ident(
+  ext_ref Pervasives.( ^ )
+)
+"smt/literal.ml" 133 3839 3883 "smt/literal.ml" 133 3839 3886
+type(
+  string
+)
+"smt/literal.ml" 133 3839 3879 "smt/literal.ml" 133 3839 3886
+call(
+  stack
+)
+type(
+  string
+)
+"smt/literal.ml" 133 3839 3853 "smt/literal.ml" 133 3839 3886
+type(
+  string
+)
+"smt/literal.ml" 134 3890 3900 "smt/literal.ml" 134 3890 3904
+type(
+  Labels.key -> X.t view
+)
+ident(
+  int_ref view "smt/literal.ml" 104 2991 2997 "smt/literal.ml" 104 2991 3001
+)
+"smt/literal.ml" 134 3890 3905 "smt/literal.ml" 134 3890 3906
+type(
+  Labels.key
+)
+ident(
+  int_ref a "smt/literal.ml" 131 3778 3794 "smt/literal.ml" 131 3778 3795
+)
+"smt/literal.ml" 134 3890 3900 "smt/literal.ml" 134 3890 3906
+call(
+  stack
+)
+type(
+  X.t view
+)
+"smt/literal.ml" 135 3912 3924 "smt/literal.ml" 135 3912 3926
+type(
+  X.t
+)
+ident(
+  def z1 "smt/literal.ml" 136 3936 3939 "smt/literal.ml" 137 3985 4047
+)
+"smt/literal.ml" 135 3912 3928 "smt/literal.ml" 135 3912 3930
+type(
+  X.t
+)
+ident(
+  def z2 "smt/literal.ml" 136 3936 3939 "smt/literal.ml" 137 3985 4047
+)
+"smt/literal.ml" 135 3912 3920 "smt/literal.ml" 135 3912 3931
+type(
+  X.t view
+)
+"smt/literal.ml" 136 3936 3942 "smt/literal.ml" 136 3936 3947
+type(
+  X.t -> X.t -> bool
+)
+ident(
+  int_ref equal "smt/literal.ml" 92 2782 2788 "smt/literal.ml" 92 2782 2793
+)
+"smt/literal.ml" 136 3936 3948 "smt/literal.ml" 136 3936 3950
+type(
+  X.t
+)
+ident(
+  int_ref z1 "smt/literal.ml" 135 3912 3924 "smt/literal.ml" 135 3912 3926
+)
+"smt/literal.ml" 136 3936 3951 "smt/literal.ml" 136 3936 3953
+type(
+  X.t
+)
+ident(
+  int_ref z2 "smt/literal.ml" 135 3912 3928 "smt/literal.ml" 135 3912 3930
+)
+"smt/literal.ml" 136 3936 3942 "smt/literal.ml" 136 3936 3953
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/literal.ml" 136 3936 3959 "smt/literal.ml" 136 3936 3973
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/literal.ml" 136 3936 3974 "smt/literal.ml" 136 3936 3977
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/literal.ml" 131 3778 3790 "smt/literal.ml" 131 3778 3793
+)
+"smt/literal.ml" 136 3936 3978 "smt/literal.ml" 136 3936 3984
+type(
+  (unit, Format.formatter, unit) format
+)
+"smt/literal.ml" 136 3936 3959 "smt/literal.ml" 136 3936 3984
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/literal.ml" 137 3985 3993 "smt/literal.ml" 137 3985 4007
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> X.t -> unit) ->
+   X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter,
+   unit)
+  format ->
+  string ->
+  (Format.formatter -> X.t -> unit) ->
+  X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/literal.ml" 137 3985 4008 "smt/literal.ml" 137 3985 4011
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/literal.ml" 131 3778 3790 "smt/literal.ml" 131 3778 3793
+)
+"smt/literal.ml" 137 3985 4012 "smt/literal.ml" 137 3985 4021
+type(
+  (string ->
+   (Format.formatter -> X.t -> unit) ->
+   X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/literal.ml" 137 3985 4022 "smt/literal.ml" 137 3985 4025
+type(
+  string
+)
+ident(
+  int_ref lbl "smt/literal.ml" 133 3839 3847 "smt/literal.ml" 133 3839 3850
+)
+"smt/literal.ml" 137 3985 4026 "smt/literal.ml" 137 3985 4033
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 137 3985 4034 "smt/literal.ml" 137 3985 4036
+type(
+  X.t
+)
+ident(
+  int_ref z1 "smt/literal.ml" 135 3912 3924 "smt/literal.ml" 135 3912 3926
+)
+"smt/literal.ml" 137 3985 4037 "smt/literal.ml" 137 3985 4044
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 137 3985 4045 "smt/literal.ml" 137 3985 4047
+type(
+  X.t
+)
+ident(
+  int_ref z2 "smt/literal.ml" 135 3912 3928 "smt/literal.ml" 135 3912 3930
+)
+"smt/literal.ml" 137 3985 3993 "smt/literal.ml" 137 3985 4047
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/literal.ml" 136 3936 3939 "smt/literal.ml" 137 3985 4047
+type(
+  unit
+)
+"smt/literal.ml" 138 4048 4066 "smt/literal.ml" 138 4048 4067
+type(
+  bool
+)
+ident(
+  def b "smt/literal.ml" 139 4080 4083 "smt/literal.ml" 141 4164 4225
+)
+"smt/literal.ml" 138 4048 4069 "smt/literal.ml" 138 4048 4070
+type(
+  X.t
+)
+ident(
+  def z "smt/literal.ml" 139 4080 4083 "smt/literal.ml" 141 4164 4225
+)
+"smt/literal.ml" 138 4048 4072 "smt/literal.ml" 138 4048 4073
+type(
+  X.t list
+)
+ident(
+  def l "smt/literal.ml" 139 4080 4083 "smt/literal.ml" 141 4164 4225
+)
+"smt/literal.ml" 138 4048 4068 "smt/literal.ml" 138 4048 4074
+type(
+  X.t list
+)
+"smt/literal.ml" 138 4048 4056 "smt/literal.ml" 138 4048 4075
+type(
+  X.t view
+)
+"smt/literal.ml" 139 4080 4087 "smt/literal.ml" 139 4080 4088
+type(
+  string
+)
+ident(
+  def b "smt/literal.ml" 140 4116 4119 "smt/literal.ml" 141 4164 4225
+)
+"smt/literal.ml" 139 4080 4094 "smt/literal.ml" 139 4080 4095
+type(
+  bool
+)
+ident(
+  int_ref b "smt/literal.ml" 138 4048 4066 "smt/literal.ml" 138 4048 4067
+)
+"smt/literal.ml" 139 4080 4101 "smt/literal.ml" 139 4080 4104
+type(
+  string
+)
+"smt/literal.ml" 139 4080 4110 "smt/literal.ml" 139 4080 4112
+type(
+  string
+)
+"smt/literal.ml" 139 4080 4091 "smt/literal.ml" 139 4080 4112
+type(
+  string
+)
+"smt/literal.ml" 140 4116 4119 "smt/literal.ml" 140 4116 4133
+type(
+  Format.formatter ->
+  (string -> string -> (Format.formatter -> X.t -> unit) -> X.t -> unit,
+   Format.formatter, unit)
+  format ->
+  string -> string -> (Format.formatter -> X.t -> unit) -> X.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/literal.ml" 140 4116 4134 "smt/literal.ml" 140 4116 4137
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/literal.ml" 131 3778 3790 "smt/literal.ml" 131 3778 3793
+)
+"smt/literal.ml" 140 4116 4138 "smt/literal.ml" 140 4116 4146
+type(
+  (string -> string -> (Format.formatter -> X.t -> unit) -> X.t -> unit,
+   Format.formatter, unit)
+  format
+)
+"smt/literal.ml" 140 4116 4147 "smt/literal.ml" 140 4116 4150
+type(
+  string
+)
+ident(
+  int_ref lbl "smt/literal.ml" 133 3839 3847 "smt/literal.ml" 133 3839 3850
+)
+"smt/literal.ml" 140 4116 4151 "smt/literal.ml" 140 4116 4152
+type(
+  string
+)
+ident(
+  int_ref b "smt/literal.ml" 139 4080 4087 "smt/literal.ml" 139 4080 4088
+)
+"smt/literal.ml" 140 4116 4153 "smt/literal.ml" 140 4116 4160
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 140 4116 4161 "smt/literal.ml" 140 4116 4162
+type(
+  X.t
+)
+ident(
+  int_ref z "smt/literal.ml" 138 4048 4069 "smt/literal.ml" 138 4048 4070
+)
+"smt/literal.ml" 140 4116 4119 "smt/literal.ml" 140 4116 4162
+call(
+  stack
+)
+type(
+  unit
+)
+"smt/literal.ml" 141 4164 4167 "smt/literal.ml" 141 4164 4176
+type(
+  (X.t -> unit) -> X.t list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"smt/literal.ml" 141 4164 4182 "smt/literal.ml" 141 4164 4183
+type(
+  X.t
+)
+ident(
+  def x "smt/literal.ml" 141 4164 4187 "smt/literal.ml" 141 4164 4222
+)
+"smt/literal.ml" 141 4164 4187 "smt/literal.ml" 141 4164 4201
+type(
+  Format.formatter ->
+  ((Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> X.t -> unit) -> X.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/literal.ml" 141 4164 4202 "smt/literal.ml" 141 4164 4205
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/literal.ml" 131 3778 3790 "smt/literal.ml" 131 3778 3793
+)
+"smt/literal.ml" 141 4164 4206 "smt/literal.ml" 141 4164 4212
+type(
+  ((Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter, unit)
+  format
+)
+"smt/literal.ml" 141 4164 4213 "smt/literal.ml" 141 4164 4220
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 141 4164 4221 "smt/literal.ml" 141 4164 4222
+type(
+  X.t
+)
+ident(
+  int_ref x "smt/literal.ml" 141 4164 4182 "smt/literal.ml" 141 4164 4183
+)
+"smt/literal.ml" 141 4164 4187 "smt/literal.ml" 141 4164 4222
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/literal.ml" 141 4164 4177 "smt/literal.ml" 141 4164 4223
+type(
+  X.t -> unit
+)
+"smt/literal.ml" 141 4164 4224 "smt/literal.ml" 141 4164 4225
+type(
+  X.t list
+)
+ident(
+  int_ref l "smt/literal.ml" 138 4048 4072 "smt/literal.ml" 138 4048 4073
+)
+"smt/literal.ml" 141 4164 4167 "smt/literal.ml" 141 4164 4225
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/literal.ml" 140 4116 4119 "smt/literal.ml" 141 4164 4225
+type(
+  unit
+)
+"smt/literal.ml" 139 4080 4083 "smt/literal.ml" 141 4164 4225
+type(
+  unit
+)
+"smt/literal.ml" 143 4227 4244 "smt/literal.ml" 143 4227 4248
+type(
+  bool
+)
+"smt/literal.ml" 143 4227 4250 "smt/literal.ml" 143 4227 4251
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/literal.ml" 143 4227 4267 "smt/literal.ml" 144 4290 4351
+)
+"smt/literal.ml" 143 4227 4254 "smt/literal.ml" 143 4227 4256
+type(
+  X.t
+)
+ident(
+  def v1 "smt/literal.ml" 143 4227 4267 "smt/literal.ml" 144 4290 4351
+)
+"smt/literal.ml" 143 4227 4257 "smt/literal.ml" 143 4227 4259
+type(
+  X.t
+)
+ident(
+  def v2 "smt/literal.ml" 143 4227 4267 "smt/literal.ml" 144 4290 4351
+)
+"smt/literal.ml" 143 4227 4253 "smt/literal.ml" 143 4227 4260
+type(
+  X.t list
+)
+"smt/literal.ml" 143 4227 4235 "smt/literal.ml" 143 4227 4261
+type(
+  X.t view
+)
+"smt/literal.ml" 143 4227 4267 "smt/literal.ml" 143 4227 4280
+type(
+  Hstring.t -> Hstring.t -> bool
+)
+ident(
+  ext_ref Hstring.equal
+)
+"smt/literal.ml" 143 4227 4281 "smt/literal.ml" 143 4227 4282
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/literal.ml" 143 4227 4250 "smt/literal.ml" 143 4227 4251
+)
+"smt/literal.ml" 143 4227 4283 "smt/literal.ml" 143 4227 4286
+type(
+  Hstring.t
+)
+ident(
+  int_ref ale "smt/literal.ml" 128 3717 3723 "smt/literal.ml" 128 3717 3726
+)
+"smt/literal.ml" 143 4227 4267 "smt/literal.ml" 143 4227 4286
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/literal.ml" 144 4290 4293 "smt/literal.ml" 144 4290 4307
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> X.t -> unit) ->
+   X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter,
+   unit)
+  format ->
+  string ->
+  (Format.formatter -> X.t -> unit) ->
+  X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/literal.ml" 144 4290 4308 "smt/literal.ml" 144 4290 4311
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/literal.ml" 131 3778 3790 "smt/literal.ml" 131 3778 3793
+)
+"smt/literal.ml" 144 4290 4312 "smt/literal.ml" 144 4290 4325
+type(
+  (string ->
+   (Format.formatter -> X.t -> unit) ->
+   X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/literal.ml" 144 4290 4326 "smt/literal.ml" 144 4290 4329
+type(
+  string
+)
+ident(
+  int_ref lbl "smt/literal.ml" 133 3839 3847 "smt/literal.ml" 133 3839 3850
+)
+"smt/literal.ml" 144 4290 4330 "smt/literal.ml" 144 4290 4337
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 144 4290 4338 "smt/literal.ml" 144 4290 4340
+type(
+  X.t
+)
+ident(
+  int_ref v1 "smt/literal.ml" 143 4227 4254 "smt/literal.ml" 143 4227 4256
+)
+"smt/literal.ml" 144 4290 4341 "smt/literal.ml" 144 4290 4348
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 144 4290 4349 "smt/literal.ml" 144 4290 4351
+type(
+  X.t
+)
+ident(
+  int_ref v2 "smt/literal.ml" 143 4227 4257 "smt/literal.ml" 143 4227 4259
+)
+"smt/literal.ml" 144 4290 4293 "smt/literal.ml" 144 4290 4351
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/literal.ml" 146 4353 4370 "smt/literal.ml" 146 4353 4374
+type(
+  bool
+)
+"smt/literal.ml" 146 4353 4376 "smt/literal.ml" 146 4353 4377
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/literal.ml" 146 4353 4393 "smt/literal.ml" 147 4416 4476
+)
+"smt/literal.ml" 146 4353 4380 "smt/literal.ml" 146 4353 4382
+type(
+  X.t
+)
+ident(
+  def v1 "smt/literal.ml" 146 4353 4393 "smt/literal.ml" 147 4416 4476
+)
+"smt/literal.ml" 146 4353 4383 "smt/literal.ml" 146 4353 4385
+type(
+  X.t
+)
+ident(
+  def v2 "smt/literal.ml" 146 4353 4393 "smt/literal.ml" 147 4416 4476
+)
+"smt/literal.ml" 146 4353 4379 "smt/literal.ml" 146 4353 4386
+type(
+  X.t list
+)
+"smt/literal.ml" 146 4353 4361 "smt/literal.ml" 146 4353 4387
+type(
+  X.t view
+)
+"smt/literal.ml" 146 4353 4393 "smt/literal.ml" 146 4353 4406
+type(
+  Hstring.t -> Hstring.t -> bool
+)
+ident(
+  ext_ref Hstring.equal
+)
+"smt/literal.ml" 146 4353 4407 "smt/literal.ml" 146 4353 4408
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/literal.ml" 146 4353 4376 "smt/literal.ml" 146 4353 4377
+)
+"smt/literal.ml" 146 4353 4409 "smt/literal.ml" 146 4353 4412
+type(
+  Hstring.t
+)
+ident(
+  int_ref alt "smt/literal.ml" 129 3748 3754 "smt/literal.ml" 129 3748 3757
+)
+"smt/literal.ml" 146 4353 4393 "smt/literal.ml" 146 4353 4412
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/literal.ml" 147 4416 4419 "smt/literal.ml" 147 4416 4433
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> X.t -> unit) ->
+   X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter,
+   unit)
+  format ->
+  string ->
+  (Format.formatter -> X.t -> unit) ->
+  X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/literal.ml" 147 4416 4434 "smt/literal.ml" 147 4416 4437
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/literal.ml" 131 3778 3790 "smt/literal.ml" 131 3778 3793
+)
+"smt/literal.ml" 147 4416 4438 "smt/literal.ml" 147 4416 4450
+type(
+  (string ->
+   (Format.formatter -> X.t -> unit) ->
+   X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/literal.ml" 147 4416 4451 "smt/literal.ml" 147 4416 4454
+type(
+  string
+)
+ident(
+  int_ref lbl "smt/literal.ml" 133 3839 3847 "smt/literal.ml" 133 3839 3850
+)
+"smt/literal.ml" 147 4416 4455 "smt/literal.ml" 147 4416 4462
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 147 4416 4463 "smt/literal.ml" 147 4416 4465
+type(
+  X.t
+)
+ident(
+  int_ref v1 "smt/literal.ml" 146 4353 4380 "smt/literal.ml" 146 4353 4382
+)
+"smt/literal.ml" 147 4416 4466 "smt/literal.ml" 147 4416 4473
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 147 4416 4474 "smt/literal.ml" 147 4416 4476
+type(
+  X.t
+)
+ident(
+  int_ref v2 "smt/literal.ml" 146 4353 4383 "smt/literal.ml" 146 4353 4385
+)
+"smt/literal.ml" 147 4416 4419 "smt/literal.ml" 147 4416 4476
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/literal.ml" 149 4478 4495 "smt/literal.ml" 149 4478 4500
+type(
+  bool
+)
+"smt/literal.ml" 149 4478 4502 "smt/literal.ml" 149 4478 4503
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/literal.ml" 149 4478 4519 "smt/literal.ml" 150 4542 4602
+)
+"smt/literal.ml" 149 4478 4506 "smt/literal.ml" 149 4478 4508
+type(
+  X.t
+)
+ident(
+  def v1 "smt/literal.ml" 149 4478 4519 "smt/literal.ml" 150 4542 4602
+)
+"smt/literal.ml" 149 4478 4509 "smt/literal.ml" 149 4478 4511
+type(
+  X.t
+)
+ident(
+  def v2 "smt/literal.ml" 149 4478 4519 "smt/literal.ml" 150 4542 4602
+)
+"smt/literal.ml" 149 4478 4505 "smt/literal.ml" 149 4478 4512
+type(
+  X.t list
+)
+"smt/literal.ml" 149 4478 4486 "smt/literal.ml" 149 4478 4513
+type(
+  X.t view
+)
+"smt/literal.ml" 149 4478 4519 "smt/literal.ml" 149 4478 4532
+type(
+  Hstring.t -> Hstring.t -> bool
+)
+ident(
+  ext_ref Hstring.equal
+)
+"smt/literal.ml" 149 4478 4533 "smt/literal.ml" 149 4478 4534
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/literal.ml" 149 4478 4502 "smt/literal.ml" 149 4478 4503
+)
+"smt/literal.ml" 149 4478 4535 "smt/literal.ml" 149 4478 4538
+type(
+  Hstring.t
+)
+ident(
+  int_ref ale "smt/literal.ml" 128 3717 3723 "smt/literal.ml" 128 3717 3726
+)
+"smt/literal.ml" 149 4478 4519 "smt/literal.ml" 149 4478 4538
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/literal.ml" 150 4542 4545 "smt/literal.ml" 150 4542 4559
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> X.t -> unit) ->
+   X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter,
+   unit)
+  format ->
+  string ->
+  (Format.formatter -> X.t -> unit) ->
+  X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/literal.ml" 150 4542 4560 "smt/literal.ml" 150 4542 4563
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/literal.ml" 131 3778 3790 "smt/literal.ml" 131 3778 3793
+)
+"smt/literal.ml" 150 4542 4564 "smt/literal.ml" 150 4542 4576
+type(
+  (string ->
+   (Format.formatter -> X.t -> unit) ->
+   X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/literal.ml" 150 4542 4577 "smt/literal.ml" 150 4542 4580
+type(
+  string
+)
+ident(
+  int_ref lbl "smt/literal.ml" 133 3839 3847 "smt/literal.ml" 133 3839 3850
+)
+"smt/literal.ml" 150 4542 4581 "smt/literal.ml" 150 4542 4588
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 150 4542 4589 "smt/literal.ml" 150 4542 4591
+type(
+  X.t
+)
+ident(
+  int_ref v1 "smt/literal.ml" 149 4478 4506 "smt/literal.ml" 149 4478 4508
+)
+"smt/literal.ml" 150 4542 4592 "smt/literal.ml" 150 4542 4599
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 150 4542 4600 "smt/literal.ml" 150 4542 4602
+type(
+  X.t
+)
+ident(
+  int_ref v2 "smt/literal.ml" 149 4478 4509 "smt/literal.ml" 149 4478 4511
+)
+"smt/literal.ml" 150 4542 4545 "smt/literal.ml" 150 4542 4602
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/literal.ml" 152 4604 4621 "smt/literal.ml" 152 4604 4626
+type(
+  bool
+)
+"smt/literal.ml" 152 4604 4628 "smt/literal.ml" 152 4604 4629
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/literal.ml" 152 4604 4645 "smt/literal.ml" 153 4668 4729
+)
+"smt/literal.ml" 152 4604 4632 "smt/literal.ml" 152 4604 4634
+type(
+  X.t
+)
+ident(
+  def v1 "smt/literal.ml" 152 4604 4645 "smt/literal.ml" 153 4668 4729
+)
+"smt/literal.ml" 152 4604 4635 "smt/literal.ml" 152 4604 4637
+type(
+  X.t
+)
+ident(
+  def v2 "smt/literal.ml" 152 4604 4645 "smt/literal.ml" 153 4668 4729
+)
+"smt/literal.ml" 152 4604 4631 "smt/literal.ml" 152 4604 4638
+type(
+  X.t list
+)
+"smt/literal.ml" 152 4604 4612 "smt/literal.ml" 152 4604 4639
+type(
+  X.t view
+)
+"smt/literal.ml" 152 4604 4645 "smt/literal.ml" 152 4604 4658
+type(
+  Hstring.t -> Hstring.t -> bool
+)
+ident(
+  ext_ref Hstring.equal
+)
+"smt/literal.ml" 152 4604 4659 "smt/literal.ml" 152 4604 4660
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/literal.ml" 152 4604 4628 "smt/literal.ml" 152 4604 4629
+)
+"smt/literal.ml" 152 4604 4661 "smt/literal.ml" 152 4604 4664
+type(
+  Hstring.t
+)
+ident(
+  int_ref alt "smt/literal.ml" 129 3748 3754 "smt/literal.ml" 129 3748 3757
+)
+"smt/literal.ml" 152 4604 4645 "smt/literal.ml" 152 4604 4664
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/literal.ml" 153 4668 4671 "smt/literal.ml" 153 4668 4685
+type(
+  Format.formatter ->
+  (string ->
+   (Format.formatter -> X.t -> unit) ->
+   X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter,
+   unit)
+  format ->
+  string ->
+  (Format.formatter -> X.t -> unit) ->
+  X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/literal.ml" 153 4668 4686 "smt/literal.ml" 153 4668 4689
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/literal.ml" 131 3778 3790 "smt/literal.ml" 131 3778 3793
+)
+"smt/literal.ml" 153 4668 4690 "smt/literal.ml" 153 4668 4703
+type(
+  (string ->
+   (Format.formatter -> X.t -> unit) ->
+   X.t -> (Format.formatter -> X.t -> unit) -> X.t -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/literal.ml" 153 4668 4704 "smt/literal.ml" 153 4668 4707
+type(
+  string
+)
+ident(
+  int_ref lbl "smt/literal.ml" 133 3839 3847 "smt/literal.ml" 133 3839 3850
+)
+"smt/literal.ml" 153 4668 4708 "smt/literal.ml" 153 4668 4715
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 153 4668 4716 "smt/literal.ml" 153 4668 4718
+type(
+  X.t
+)
+ident(
+  int_ref v1 "smt/literal.ml" 152 4604 4632 "smt/literal.ml" 152 4604 4634
+)
+"smt/literal.ml" 153 4668 4719 "smt/literal.ml" 153 4668 4726
+type(
+  Format.formatter -> X.t -> unit
+)
+ident(
+  int_ref X.print "smt/literal.ml" 25 1141 1143 "smt/literal.ml" 25 1141 1184
+)
+"smt/literal.ml" 153 4668 4727 "smt/literal.ml" 153 4668 4729
+type(
+  X.t
+)
+ident(
+  int_ref v2 "smt/literal.ml" 152 4604 4635 "smt/literal.ml" 152 4604 4637
+)
+"smt/literal.ml" 153 4668 4671 "smt/literal.ml" 153 4668 4729
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/literal.ml" 155 4731 4748 "smt/literal.ml" 155 4731 4749
+type(
+  bool
+)
+ident(
+  def b "smt/literal.ml" 156 4760 4763 "smt/literal.ml" 157 4796 4866
+)
+"smt/literal.ml" 155 4731 4751 "smt/literal.ml" 155 4731 4752
+type(
+  Hstring.t
+)
+ident(
+  def n "smt/literal.ml" 156 4760 4763 "smt/literal.ml" 157 4796 4866
+)
+"smt/literal.ml" 155 4731 4754 "smt/literal.ml" 155 4731 4755
+type(
+  X.t list
+)
+ident(
+  def l "smt/literal.ml" 156 4760 4763 "smt/literal.ml" 157 4796 4866
+)
+"smt/literal.ml" 155 4731 4739 "smt/literal.ml" 155 4731 4756
+type(
+  X.t view
+)
+"smt/literal.ml" 156 4760 4767 "smt/literal.ml" 156 4760 4768
+type(
+  string
+)
+ident(
+  def b "smt/literal.ml" 157 4796 4799 "smt/literal.ml" 157 4796 4866
+)
+"smt/literal.ml" 156 4760 4774 "smt/literal.ml" 156 4760 4775
+type(
+  bool
+)
+ident(
+  int_ref b "smt/literal.ml" 155 4731 4748 "smt/literal.ml" 155 4731 4749
+)
+"smt/literal.ml" 156 4760 4781 "smt/literal.ml" 156 4760 4783
+type(
+  string
+)
+"smt/literal.ml" 156 4760 4789 "smt/literal.ml" 156 4760 4792
+type(
+  string
+)
+"smt/literal.ml" 156 4760 4771 "smt/literal.ml" 156 4760 4792
+type(
+  string
+)
+"smt/literal.ml" 157 4796 4799 "smt/literal.ml" 157 4796 4813
+type(
+  Format.formatter ->
+  (string ->
+   string ->
+   string -> (Format.formatter -> X.t list -> unit) -> X.t list -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  string ->
+  string -> (Format.formatter -> X.t list -> unit) -> X.t list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/literal.ml" 157 4796 4814 "smt/literal.ml" 157 4796 4817
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/literal.ml" 131 3778 3790 "smt/literal.ml" 131 3778 3793
+)
+"smt/literal.ml" 157 4796 4818 "smt/literal.ml" 157 4796 4830
+type(
+  (string ->
+   string ->
+   string -> (Format.formatter -> X.t list -> unit) -> X.t list -> unit,
+   Format.formatter, unit)
+  format
+)
+"smt/literal.ml" 157 4796 4831 "smt/literal.ml" 157 4796 4834
+type(
+  string
+)
+ident(
+  int_ref lbl "smt/literal.ml" 133 3839 3847 "smt/literal.ml" 133 3839 3850
+)
+"smt/literal.ml" 157 4796 4835 "smt/literal.ml" 157 4796 4836
+type(
+  string
+)
+ident(
+  int_ref b "smt/literal.ml" 156 4760 4767 "smt/literal.ml" 156 4760 4768
+)
+"smt/literal.ml" 157 4796 4838 "smt/literal.ml" 157 4796 4850
+type(
+  Hstring.t -> string
+)
+ident(
+  ext_ref Hstring.view
+)
+"smt/literal.ml" 157 4796 4851 "smt/literal.ml" 157 4796 4852
+type(
+  Hstring.t
+)
+ident(
+  int_ref n "smt/literal.ml" 155 4731 4751 "smt/literal.ml" 155 4731 4752
+)
+"smt/literal.ml" 157 4796 4837 "smt/literal.ml" 157 4796 4853
+call(
+  stack
+)
+type(
+  string
+)
+"smt/literal.ml" 157 4796 4854 "smt/literal.ml" 157 4796 4864
+type(
+  Format.formatter -> X.t list -> unit
+)
+ident(
+  int_ref print_list "smt/literal.ml" 122 3564 3570 "smt/literal.ml" 122 3564 3580
+)
+"smt/literal.ml" 157 4796 4865 "smt/literal.ml" 157 4796 4866
+type(
+  X.t list
+)
+ident(
+  int_ref l "smt/literal.ml" 155 4731 4754 "smt/literal.ml" 155 4731 4755
+)
+"smt/literal.ml" 157 4796 4799 "smt/literal.ml" 157 4796 4866
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/literal.ml" 156 4760 4763 "smt/literal.ml" 157 4796 4866
+type(
+  unit
+)
+"smt/literal.ml" 158 4867 4875 "smt/literal.ml" 158 4867 4876
+type(
+  X.t view
+)
+"smt/literal.ml" 158 4867 4887 "smt/literal.ml" 158 4867 4892
+type(
+  bool
+)
+"smt/literal.ml" 158 4867 4880 "smt/literal.ml" 158 4867 4892
+type(
+  unit
+)
+"smt/literal.ml" 134 3890 3894 "smt/literal.ml" 158 4867 4892
+type(
+  unit
+)
+"smt/literal.ml" 133 3839 3843 "smt/literal.ml" 158 4867 4892
+type(
+  unit
+)
+"smt/literal.ml" 132 3799 3803 "smt/literal.ml" 158 4867 4892
+type(
+  unit
+)
+"smt/literal.ml" 160 4898 4913 "smt/literal.ml" 160 4898 4924
+call(
+  stack
+)
+"smt/literal.ml" 161 4925 4940 "smt/literal.ml" 161 4925 4951
+call(
+  stack
+)
+"smt/literal.ml" 182 5250 5263 "smt/literal.ml" 182 5250 5273
+call(
+  stack
+)
+"smt/literal.ml" 185 5287 5293 "smt/literal.ml" 185 5287 5300
+type(
+  elt -> t
+)
+ident(
+  def mk_pred "smt/literal.ml" 187 5337 5339 "smt/literal.ml" 209 5936 5939
+)
+"smt/literal.ml" 185 5287 5301 "smt/literal.ml" 185 5287 5302
+type(
+  elt
+)
+ident(
+  def t "smt/literal.ml" 185 5287 5305 "smt/literal.ml" 185 5287 5330
+)
+"smt/literal.ml" 185 5287 5305 "smt/literal.ml" 185 5287 5309
+type(
+  elt view -> t
+)
+ident(
+  int_ref make "smt/literal.ml" 32 1231 1233 "smt/literal.ml" 32 1231 1257
+)
+"smt/literal.ml" 185 5287 5315 "smt/literal.ml" 185 5287 5316
+type(
+  elt
+)
+ident(
+  int_ref t "smt/literal.ml" 185 5287 5301 "smt/literal.ml" 185 5287 5302
+)
+"smt/literal.ml" 185 5287 5318 "smt/literal.ml" 185 5287 5327
+type(
+  elt
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/literal.ml" 185 5287 5310 "smt/literal.ml" 185 5287 5330
+type(
+  elt view
+)
+"smt/literal.ml" 185 5287 5305 "smt/literal.ml" 185 5287 5330
+call(
+  tail
+)
+type(
+  t
+)
+"smt/literal.ml" 187 5337 5343 "smt/literal.ml" 187 5337 5347
+type(
+  t
+)
+ident(
+  def vrai "smt/literal.ml" 188 5368 5370 "smt/literal.ml" 209 5936 5939
+)
+"smt/literal.ml" 187 5337 5350 "smt/literal.ml" 187 5337 5357
+type(
+  elt -> t
+)
+ident(
+  int_ref mk_pred "smt/literal.ml" 185 5287 5293 "smt/literal.ml" 185 5287 5300
+)
+"smt/literal.ml" 187 5337 5358 "smt/literal.ml" 187 5337 5367
+type(
+  elt
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/literal.ml" 187 5337 5350 "smt/literal.ml" 187 5337 5367
+call(
+  stack
+)
+type(
+  t
+)
+"smt/literal.ml" 188 5368 5374 "smt/literal.ml" 188 5368 5378
+type(
+  t
+)
+ident(
+  def faux "smt/literal.ml" 190 5400 5402 "smt/literal.ml" 209 5936 5939
+)
+"smt/literal.ml" 188 5368 5381 "smt/literal.ml" 188 5368 5388
+type(
+  elt -> t
+)
+ident(
+  int_ref mk_pred "smt/literal.ml" 185 5287 5293 "smt/literal.ml" 185 5287 5300
+)
+"smt/literal.ml" 188 5368 5389 "smt/literal.ml" 188 5368 5398
+type(
+  elt
+)
+ident(
+  ext_ref Term.faux
+)
+"smt/literal.ml" 188 5368 5381 "smt/literal.ml" 188 5368 5398
+call(
+  stack
+)
+type(
+  t
+)
+"smt/literal.ml" 190 5400 5406 "smt/literal.ml" 190 5400 5409
+type(
+  t -> t
+)
+ident(
+  def neg "smt/literal.ml" 205 5807 5808 "smt/literal.ml" 209 5936 5939
+)
+"smt/literal.ml" 190 5400 5410 "smt/literal.ml" 190 5400 5411
+type(
+  t
+)
+ident(
+  def a "smt/literal.ml" 190 5400 5414 "smt/literal.ml" 195 5596 5614
+)
+"smt/literal.ml" 190 5400 5420 "smt/literal.ml" 190 5400 5424
+type(
+  t -> elt view
+)
+ident(
+  int_ref view "smt/literal.ml" 33 1258 1260 "smt/literal.ml" 33 1258 1284
+)
+"smt/literal.ml" 190 5400 5425 "smt/literal.ml" 190 5400 5426
+type(
+  t
+)
+ident(
+  int_ref a "smt/literal.ml" 190 5400 5410 "smt/literal.ml" 190 5400 5411
+)
+"smt/literal.ml" 190 5400 5420 "smt/literal.ml" 190 5400 5426
+call(
+  stack
+)
+type(
+  elt view
+)
+"smt/literal.ml" 191 5432 5441 "smt/literal.ml" 191 5432 5443
+type(
+  elt
+)
+ident(
+  def t1 "smt/literal.ml" 191 5432 5454 "smt/literal.ml" 192 5482 5513
+)
+"smt/literal.ml" 191 5432 5445 "smt/literal.ml" 191 5432 5447
+type(
+  elt
+)
+ident(
+  def t2 "smt/literal.ml" 191 5432 5454 "smt/literal.ml" 192 5482 5513
+)
+"smt/literal.ml" 191 5432 5438 "smt/literal.ml" 191 5432 5448
+type(
+  elt view
+)
+"smt/literal.ml" 191 5432 5454 "smt/literal.ml" 191 5432 5464
+type(
+  elt -> Term.t -> bool
+)
+ident(
+  ext_ref Term.equal
+)
+"smt/literal.ml" 191 5432 5465 "smt/literal.ml" 191 5432 5467
+type(
+  elt
+)
+ident(
+  int_ref t2 "smt/literal.ml" 191 5432 5445 "smt/literal.ml" 191 5432 5447
+)
+"smt/literal.ml" 191 5432 5468 "smt/literal.ml" 191 5432 5477
+type(
+  Term.t
+)
+ident(
+  ext_ref Term.faux
+)
+"smt/literal.ml" 191 5432 5454 "smt/literal.ml" 191 5432 5477
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/literal.ml" 192 5482 5488 "smt/literal.ml" 192 5482 5492
+type(
+  elt view -> t
+)
+ident(
+  int_ref make "smt/literal.ml" 32 1231 1233 "smt/literal.ml" 32 1231 1257
+)
+"smt/literal.ml" 192 5482 5498 "smt/literal.ml" 192 5482 5500
+type(
+  elt
+)
+ident(
+  int_ref t1 "smt/literal.ml" 191 5432 5441 "smt/literal.ml" 191 5432 5443
+)
+"smt/literal.ml" 192 5482 5502 "smt/literal.ml" 192 5482 5511
+type(
+  elt
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/literal.ml" 192 5482 5493 "smt/literal.ml" 192 5482 5513
+type(
+  elt view
+)
+"smt/literal.ml" 192 5482 5488 "smt/literal.ml" 192 5482 5513
+call(
+  tail
+)
+type(
+  t
+)
+"smt/literal.ml" 193 5514 5523 "smt/literal.ml" 193 5514 5525
+type(
+  elt
+)
+ident(
+  def t1 "smt/literal.ml" 193 5514 5536 "smt/literal.ml" 194 5564 5595
+)
+"smt/literal.ml" 193 5514 5527 "smt/literal.ml" 193 5514 5529
+type(
+  elt
+)
+ident(
+  def t2 "smt/literal.ml" 193 5514 5536 "smt/literal.ml" 194 5564 5595
+)
+"smt/literal.ml" 193 5514 5520 "smt/literal.ml" 193 5514 5530
+type(
+  elt view
+)
+"smt/literal.ml" 193 5514 5536 "smt/literal.ml" 193 5514 5546
+type(
+  elt -> Term.t -> bool
+)
+ident(
+  ext_ref Term.equal
+)
+"smt/literal.ml" 193 5514 5547 "smt/literal.ml" 193 5514 5549
+type(
+  elt
+)
+ident(
+  int_ref t2 "smt/literal.ml" 193 5514 5527 "smt/literal.ml" 193 5514 5529
+)
+"smt/literal.ml" 193 5514 5550 "smt/literal.ml" 193 5514 5559
+type(
+  Term.t
+)
+ident(
+  ext_ref Term.vrai
+)
+"smt/literal.ml" 193 5514 5536 "smt/literal.ml" 193 5514 5559
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/literal.ml" 194 5564 5570 "smt/literal.ml" 194 5564 5574
+type(
+  elt view -> t
+)
+ident(
+  int_ref make "smt/literal.ml" 32 1231 1233 "smt/literal.ml" 32 1231 1257
+)
+"smt/literal.ml" 194 5564 5580 "smt/literal.ml" 194 5564 5582
+type(
+  elt
+)
+ident(
+  int_ref t1 "smt/literal.ml" 193 5514 5523 "smt/literal.ml" 193 5514 5525
+)
+"smt/literal.ml" 194 5564 5584 "smt/literal.ml" 194 5564 5593
+type(
+  elt
+)
+ident(
+  ext_ref Term.faux
+)
+"smt/literal.ml" 194 5564 5575 "smt/literal.ml" 194 5564 5595
+type(
+  elt view
+)
+"smt/literal.ml" 194 5564 5570 "smt/literal.ml" 194 5564 5595
+call(
+  tail
+)
+type(
+  t
+)
+"smt/literal.ml" 195 5596 5602 "smt/literal.ml" 195 5596 5603
+type(
+  elt view
+)
+"smt/literal.ml" 195 5596 5607 "smt/literal.ml" 195 5596 5612
+type(
+  L.t -> L.t
+)
+ident(
+  int_ref L.neg "smt/literal.ml" 35 1286 1288 "smt/literal.ml" 35 1286 1304
+)
+"smt/literal.ml" 195 5596 5613 "smt/literal.ml" 195 5596 5614
+type(
+  t
+)
+ident(
+  int_ref a "smt/literal.ml" 190 5400 5410 "smt/literal.ml" 190 5400 5411
+)
+"smt/literal.ml" 195 5596 5607 "smt/literal.ml" 195 5596 5614
+call(
+  tail
+)
+type(
+  L.t
+)
+"smt/literal.ml" 190 5400 5414 "smt/literal.ml" 195 5596 5614
+type(
+  t
+)

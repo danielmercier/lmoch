@@ -1,0 +1,1621 @@
+"smt/term.ml" 24 1076 1082 "smt/term.ml" 24 1076 1087
+type(
+  view -> view -> bool
+)
+ident(
+  def equal "smt/term.ml" 30 1233 1235 "smt/term.ml" 35 1382 1385
+)
+"smt/term.ml" 24 1076 1088 "smt/term.ml" 24 1076 1090
+type(
+  view
+)
+ident(
+  def t1 "smt/term.ml" 24 1076 1091 "smt/term.ml" 28 1191 1225
+)
+"smt/term.ml" 24 1076 1091 "smt/term.ml" 24 1076 1093
+type(
+  view
+)
+ident(
+  def t2 "smt/term.ml" 24 1076 1096 "smt/term.ml" 28 1191 1225
+)
+"smt/term.ml" 25 1100 1104 "smt/term.ml" 25 1100 1112
+type(
+  Sy.t -> Sy.t -> bool
+)
+ident(
+  ext_ref Sy.equal
+)
+"smt/term.ml" 25 1100 1113 "smt/term.ml" 25 1100 1115
+type(
+  view
+)
+ident(
+  int_ref t1 "smt/term.ml" 24 1076 1088 "smt/term.ml" 24 1076 1090
+)
+"smt/term.ml" 25 1100 1113 "smt/term.ml" 25 1100 1117
+type(
+  Sy.t
+)
+"smt/term.ml" 25 1100 1118 "smt/term.ml" 25 1100 1120
+type(
+  view
+)
+ident(
+  int_ref t2 "smt/term.ml" 24 1076 1091 "smt/term.ml" 24 1076 1093
+)
+"smt/term.ml" 25 1100 1118 "smt/term.ml" 25 1100 1122
+type(
+  Sy.t
+)
+"smt/term.ml" 25 1100 1104 "smt/term.ml" 25 1100 1122
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/term.ml" 26 1124 1128 "smt/term.ml" 26 1124 1130
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"smt/term.ml" 26 1124 1131 "smt/term.ml" 26 1124 1144
+type(
+  (t -> t -> bool) -> t list -> t list -> bool
+)
+ident(
+  ext_ref List.for_all2
+)
+"smt/term.ml" 26 1124 1145 "smt/term.ml" 26 1124 1149
+type(
+  t -> t -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"smt/term.ml" 26 1124 1150 "smt/term.ml" 26 1124 1152
+type(
+  view
+)
+ident(
+  int_ref t1 "smt/term.ml" 24 1076 1088 "smt/term.ml" 24 1076 1090
+)
+"smt/term.ml" 26 1124 1150 "smt/term.ml" 26 1124 1155
+type(
+  t list
+)
+"smt/term.ml" 26 1124 1156 "smt/term.ml" 26 1124 1158
+type(
+  view
+)
+ident(
+  int_ref t2 "smt/term.ml" 24 1076 1091 "smt/term.ml" 24 1076 1093
+)
+"smt/term.ml" 26 1124 1156 "smt/term.ml" 26 1124 1161
+type(
+  t list
+)
+"smt/term.ml" 26 1124 1131 "smt/term.ml" 26 1124 1161
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/term.ml" 27 1163 1167 "smt/term.ml" 27 1163 1169
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"smt/term.ml" 27 1163 1170 "smt/term.ml" 27 1163 1178
+type(
+  Ty.t -> Ty.t -> bool
+)
+ident(
+  ext_ref Ty.equal
+)
+"smt/term.ml" 27 1163 1179 "smt/term.ml" 27 1163 1181
+type(
+  view
+)
+ident(
+  int_ref t1 "smt/term.ml" 24 1076 1088 "smt/term.ml" 24 1076 1090
+)
+"smt/term.ml" 27 1163 1179 "smt/term.ml" 27 1163 1184
+type(
+  Ty.t
+)
+"smt/term.ml" 27 1163 1185 "smt/term.ml" 27 1163 1187
+type(
+  view
+)
+ident(
+  int_ref t2 "smt/term.ml" 24 1076 1091 "smt/term.ml" 24 1076 1093
+)
+"smt/term.ml" 27 1163 1185 "smt/term.ml" 27 1163 1190
+type(
+  Ty.t
+)
+"smt/term.ml" 27 1163 1170 "smt/term.ml" 27 1163 1190
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/term.ml" 26 1124 1131 "smt/term.ml" 27 1163 1190
+type(
+  bool
+)
+"smt/term.ml" 25 1100 1104 "smt/term.ml" 27 1163 1190
+type(
+  bool
+)
+"smt/term.ml" 28 1191 1215 "smt/term.ml" 28 1191 1216
+type(
+  string
+)
+"smt/term.ml" 28 1191 1198 "smt/term.ml" 28 1191 1216
+type(
+  exn
+)
+"smt/term.ml" 28 1191 1220 "smt/term.ml" 28 1191 1225
+type(
+  bool
+)
+"smt/term.ml" 24 1076 1096 "smt/term.ml" 28 1191 1225
+type(
+  bool
+)
+"smt/term.ml" 30 1233 1239 "smt/term.ml" 30 1233 1243
+type(
+  view -> int
+)
+ident(
+  def hash "smt/term.ml" 34 1345 1347 "smt/term.ml" 35 1382 1385
+)
+"smt/term.ml" 30 1233 1244 "smt/term.ml" 30 1233 1245
+type(
+  view
+)
+ident(
+  def t "smt/term.ml" 31 1248 1252 "smt/term.ml" 33 1335 1344
+)
+"smt/term.ml" 31 1248 1252 "smt/term.ml" 31 1248 1255
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"smt/term.ml" 31 1248 1257 "smt/term.ml" 31 1248 1271
+type(
+  (int -> t -> int) -> int -> t list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"smt/term.ml" 32 1273 1282 "smt/term.ml" 32 1273 1285
+type(
+  int
+)
+ident(
+  def acc "smt/term.ml" 32 1273 1286 "smt/term.ml" 32 1273 1303
+)
+"smt/term.ml" 32 1273 1286 "smt/term.ml" 32 1273 1287
+type(
+  t
+)
+ident(
+  def x "smt/term.ml" 32 1273 1290 "smt/term.ml" 32 1273 1303
+)
+"smt/term.ml" 32 1273 1290 "smt/term.ml" 32 1273 1293
+type(
+  int
+)
+ident(
+  int_ref acc "smt/term.ml" 32 1273 1282 "smt/term.ml" 32 1273 1285
+)
+"smt/term.ml" 32 1273 1293 "smt/term.ml" 32 1273 1294
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"smt/term.ml" 32 1273 1294 "smt/term.ml" 32 1273 1296
+type(
+  int
+)
+"smt/term.ml" 32 1273 1290 "smt/term.ml" 32 1273 1296
+type(
+  int
+)
+"smt/term.ml" 32 1273 1297 "smt/term.ml" 32 1273 1298
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/term.ml" 32 1273 1298 "smt/term.ml" 32 1273 1299
+type(
+  t
+)
+ident(
+  int_ref x "smt/term.ml" 32 1273 1286 "smt/term.ml" 32 1273 1287
+)
+"smt/term.ml" 32 1273 1298 "smt/term.ml" 32 1273 1303
+type(
+  int
+)
+"smt/term.ml" 32 1273 1290 "smt/term.ml" 32 1273 1303
+type(
+  int
+)
+"smt/term.ml" 32 1273 1277 "smt/term.ml" 32 1273 1304
+type(
+  int -> t -> int
+)
+"smt/term.ml" 32 1273 1306 "smt/term.ml" 32 1273 1313
+type(
+  Sy.t -> int
+)
+ident(
+  ext_ref Sy.hash
+)
+"smt/term.ml" 32 1273 1314 "smt/term.ml" 32 1273 1315
+type(
+  view
+)
+ident(
+  int_ref t "smt/term.ml" 30 1233 1244 "smt/term.ml" 30 1233 1245
+)
+"smt/term.ml" 32 1273 1314 "smt/term.ml" 32 1273 1317
+type(
+  Sy.t
+)
+"smt/term.ml" 32 1273 1306 "smt/term.ml" 32 1273 1317
+call(
+  stack
+)
+type(
+  int
+)
+"smt/term.ml" 32 1273 1318 "smt/term.ml" 32 1273 1319
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/term.ml" 32 1273 1320 "smt/term.ml" 32 1273 1327
+type(
+  Ty.t -> int
+)
+ident(
+  ext_ref Ty.hash
+)
+"smt/term.ml" 32 1273 1328 "smt/term.ml" 32 1273 1329
+type(
+  view
+)
+ident(
+  int_ref t "smt/term.ml" 30 1233 1244 "smt/term.ml" 30 1233 1245
+)
+"smt/term.ml" 32 1273 1328 "smt/term.ml" 32 1273 1332
+type(
+  Ty.t
+)
+"smt/term.ml" 32 1273 1320 "smt/term.ml" 32 1273 1332
+call(
+  stack
+)
+type(
+  int
+)
+"smt/term.ml" 32 1273 1305 "smt/term.ml" 32 1273 1333
+type(
+  int
+)
+"smt/term.ml" 33 1335 1339 "smt/term.ml" 33 1335 1340
+type(
+  view
+)
+ident(
+  int_ref t "smt/term.ml" 30 1233 1244 "smt/term.ml" 30 1233 1245
+)
+"smt/term.ml" 33 1335 1339 "smt/term.ml" 33 1335 1343
+type(
+  t list
+)
+"smt/term.ml" 31 1248 1256 "smt/term.ml" 33 1335 1344
+call(
+  stack
+)
+type(
+  int
+)
+"smt/term.ml" 31 1248 1252 "smt/term.ml" 33 1335 1344
+call(
+  tail
+)
+type(
+  int
+)
+"smt/term.ml" 34 1345 1351 "smt/term.ml" 34 1345 1354
+type(
+  int -> view -> view
+)
+ident(
+  def tag "smt/term.ml" 34 1345 1381 "smt/term.ml" 35 1382 1385
+)
+"smt/term.ml" 34 1345 1355 "smt/term.ml" 34 1345 1358
+type(
+  int
+)
+ident(
+  def tag "smt/term.ml" 34 1345 1359 "smt/term.ml" 34 1345 1381
+)
+"smt/term.ml" 34 1345 1359 "smt/term.ml" 34 1345 1360
+type(
+  view
+)
+ident(
+  def x "smt/term.ml" 34 1345 1363 "smt/term.ml" 34 1345 1381
+)
+"smt/term.ml" 34 1345 1364 "smt/term.ml" 34 1345 1365
+type(
+  view
+)
+ident(
+  int_ref x "smt/term.ml" 34 1345 1359 "smt/term.ml" 34 1345 1360
+)
+"smt/term.ml" 34 1345 1377 "smt/term.ml" 34 1345 1380
+type(
+  int
+)
+ident(
+  int_ref tag "smt/term.ml" 34 1345 1355 "smt/term.ml" 34 1345 1358
+)
+"smt/term.ml" 34 1345 1363 "smt/term.ml" 34 1345 1381
+type(
+  view
+)
+"smt/term.ml" 37 1387 1398 "smt/term.ml" 37 1387 1405
+call(
+  stack
+)
+"smt/term.ml" 39 1409 1413 "smt/term.ml" 39 1409 1417
+type(
+  'a -> 'a
+)
+ident(
+  def view "smt/term.ml" 41 1425 1425 "smt/term.ml" 1 0 -1
+)
+"smt/term.ml" 39 1409 1418 "smt/term.ml" 39 1409 1419
+type(
+  'a
+)
+ident(
+  def t "smt/term.ml" 39 1409 1422 "smt/term.ml" 39 1409 1423
+)
+"smt/term.ml" 39 1409 1422 "smt/term.ml" 39 1409 1423
+type(
+  'a
+)
+ident(
+  int_ref t "smt/term.ml" 39 1409 1418 "smt/term.ml" 39 1409 1419
+)
+"smt/term.ml" 41 1425 1433 "smt/term.ml" 41 1425 1438
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "smt/term.ml" 41 1425 1425 "smt/term.ml" 1 0 -1
+)
+"smt/term.ml" 41 1425 1439 "smt/term.ml" 41 1425 1442
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/term.ml" 41 1425 1443 "smt/term.ml" 47 1630 1688
+)
+"smt/term.ml" 41 1425 1443 "smt/term.ml" 41 1425 1444
+type(
+  t
+)
+ident(
+  def t "smt/term.ml" 42 1448 1450 "smt/term.ml" 47 1630 1688
+)
+"smt/term.ml" 42 1448 1457 "smt/term.ml" 42 1448 1458
+type(
+  Sy.t
+)
+ident(
+  def x "smt/term.ml" 43 1485 1487 "smt/term.ml" 47 1630 1688
+)
+"smt/term.ml" 42 1448 1463 "smt/term.ml" 42 1448 1464
+type(
+  t list
+)
+ident(
+  def l "smt/term.ml" 43 1485 1487 "smt/term.ml" 47 1630 1688
+)
+"smt/term.ml" 42 1448 1469 "smt/term.ml" 42 1448 1471
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/term.ml" 43 1485 1487 "smt/term.ml" 47 1630 1688
+)
+"smt/term.ml" 42 1448 1454 "smt/term.ml" 42 1448 1472
+type(
+  t
+)
+"smt/term.ml" 42 1448 1475 "smt/term.ml" 42 1448 1479
+type(
+  t -> t
+)
+ident(
+  int_ref view "smt/term.ml" 39 1409 1413 "smt/term.ml" 39 1409 1417
+)
+"smt/term.ml" 42 1448 1480 "smt/term.ml" 42 1448 1481
+type(
+  t
+)
+ident(
+  int_ref t "smt/term.ml" 41 1425 1443 "smt/term.ml" 41 1425 1444
+)
+"smt/term.ml" 42 1448 1475 "smt/term.ml" 42 1448 1481
+call(
+  stack
+)
+type(
+  t
+)
+"smt/term.ml" 43 1485 1493 "smt/term.ml" 43 1485 1494
+type(
+  Sy.t
+)
+ident(
+  int_ref x "smt/term.ml" 42 1448 1457 "smt/term.ml" 42 1448 1458
+)
+"smt/term.ml" 43 1485 1496 "smt/term.ml" 43 1485 1497
+type(
+  t list
+)
+ident(
+  int_ref l "smt/term.ml" 42 1448 1463 "smt/term.ml" 42 1448 1464
+)
+"smt/term.ml" 43 1485 1493 "smt/term.ml" 43 1485 1497
+type(
+  Sy.t * t list
+)
+"smt/term.ml" 44 1503 1515 "smt/term.ml" 44 1503 1517
+type(
+  Sy.operator
+)
+ident(
+  def op "smt/term.ml" 45 1532 1533 "smt/term.ml" 45 1532 1586
+)
+"smt/term.ml" 44 1503 1509 "smt/term.ml" 44 1503 1517
+type(
+  Sy.t
+)
+"smt/term.ml" 44 1503 1520 "smt/term.ml" 44 1503 1522
+type(
+  t
+)
+ident(
+  def e1 "smt/term.ml" 45 1532 1533 "smt/term.ml" 45 1532 1586
+)
+"smt/term.ml" 44 1503 1524 "smt/term.ml" 44 1503 1526
+type(
+  t
+)
+ident(
+  def e2 "smt/term.ml" 45 1532 1533 "smt/term.ml" 45 1532 1586
+)
+"smt/term.ml" 44 1503 1519 "smt/term.ml" 44 1503 1527
+type(
+  t list
+)
+"smt/term.ml" 44 1503 1509 "smt/term.ml" 44 1503 1527
+type(
+  Sy.t * t list
+)
+"smt/term.ml" 45 1532 1533 "smt/term.ml" 45 1532 1540
+type(
+  Format.formatter ->
+  ((Format.formatter -> t -> unit) ->
+   t ->
+   (Format.formatter -> Sy.t -> unit) ->
+   Sy.t -> (Format.formatter -> t -> unit) -> t -> unit, Format.formatter,
+   unit)
+  format ->
+  (Format.formatter -> t -> unit) ->
+  t ->
+  (Format.formatter -> Sy.t -> unit) ->
+  Sy.t -> (Format.formatter -> t -> unit) -> t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/term.ml" 45 1532 1541 "smt/term.ml" 45 1532 1544
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/term.ml" 41 1425 1439 "smt/term.ml" 41 1425 1442
+)
+"smt/term.ml" 45 1532 1545 "smt/term.ml" 45 1532 1557
+type(
+  ((Format.formatter -> t -> unit) ->
+   t ->
+   (Format.formatter -> Sy.t -> unit) ->
+   Sy.t -> (Format.formatter -> t -> unit) -> t -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/term.ml" 45 1532 1558 "smt/term.ml" 45 1532 1563
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  int_ref print "smt/term.ml" 41 1425 1433 "smt/term.ml" 41 1425 1438
+)
+"smt/term.ml" 45 1532 1564 "smt/term.ml" 45 1532 1566
+type(
+  t
+)
+ident(
+  int_ref e1 "smt/term.ml" 44 1503 1520 "smt/term.ml" 44 1503 1522
+)
+"smt/term.ml" 45 1532 1567 "smt/term.ml" 45 1532 1575
+type(
+  Format.formatter -> Sy.t -> unit
+)
+ident(
+  ext_ref Sy.print
+)
+"smt/term.ml" 45 1532 1576 "smt/term.ml" 45 1532 1577
+type(
+  Sy.t
+)
+ident(
+  int_ref x "smt/term.ml" 42 1448 1457 "smt/term.ml" 42 1448 1458
+)
+"smt/term.ml" 45 1532 1578 "smt/term.ml" 45 1532 1583
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  int_ref print "smt/term.ml" 41 1425 1433 "smt/term.ml" 41 1425 1438
+)
+"smt/term.ml" 45 1532 1584 "smt/term.ml" 45 1532 1586
+type(
+  t
+)
+ident(
+  int_ref e2 "smt/term.ml" 44 1503 1524 "smt/term.ml" 44 1503 1526
+)
+"smt/term.ml" 45 1532 1533 "smt/term.ml" 45 1532 1586
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/term.ml" 46 1587 1593 "smt/term.ml" 46 1587 1594
+type(
+  Sy.t
+)
+"smt/term.ml" 46 1587 1596 "smt/term.ml" 46 1587 1598
+type(
+  t list
+)
+"smt/term.ml" 46 1587 1593 "smt/term.ml" 46 1587 1598
+type(
+  Sy.t * t list
+)
+"smt/term.ml" 46 1587 1602 "smt/term.ml" 46 1587 1609
+type(
+  Format.formatter ->
+  ((Format.formatter -> Sy.t -> unit) -> Sy.t -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> Sy.t -> unit) -> Sy.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/term.ml" 46 1587 1610 "smt/term.ml" 46 1587 1613
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/term.ml" 41 1425 1439 "smt/term.ml" 41 1425 1442
+)
+"smt/term.ml" 46 1587 1614 "smt/term.ml" 46 1587 1618
+type(
+  ((Format.formatter -> Sy.t -> unit) -> Sy.t -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/term.ml" 46 1587 1619 "smt/term.ml" 46 1587 1627
+type(
+  Format.formatter -> Sy.t -> unit
+)
+ident(
+  ext_ref Sy.print
+)
+"smt/term.ml" 46 1587 1628 "smt/term.ml" 46 1587 1629
+type(
+  Sy.t
+)
+ident(
+  int_ref x "smt/term.ml" 42 1448 1457 "smt/term.ml" 42 1448 1458
+)
+"smt/term.ml" 46 1587 1602 "smt/term.ml" 46 1587 1629
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/term.ml" 47 1630 1636 "smt/term.ml" 47 1630 1637
+type(
+  Sy.t
+)
+"smt/term.ml" 47 1630 1639 "smt/term.ml" 47 1630 1640
+type(
+  t list
+)
+"smt/term.ml" 47 1630 1636 "smt/term.ml" 47 1630 1640
+type(
+  Sy.t * t list
+)
+"smt/term.ml" 47 1630 1644 "smt/term.ml" 47 1630 1651
+type(
+  Format.formatter ->
+  ((Format.formatter -> Sy.t -> unit) ->
+   Sy.t -> (Format.formatter -> t list -> unit) -> t list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> Sy.t -> unit) ->
+  Sy.t -> (Format.formatter -> t list -> unit) -> t list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/term.ml" 47 1630 1652 "smt/term.ml" 47 1630 1655
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/term.ml" 41 1425 1439 "smt/term.ml" 41 1425 1442
+)
+"smt/term.ml" 47 1630 1656 "smt/term.ml" 47 1630 1664
+type(
+  ((Format.formatter -> Sy.t -> unit) ->
+   Sy.t -> (Format.formatter -> t list -> unit) -> t list -> unit,
+   Format.formatter, unit)
+  format
+)
+"smt/term.ml" 47 1630 1665 "smt/term.ml" 47 1630 1673
+type(
+  Format.formatter -> Sy.t -> unit
+)
+ident(
+  ext_ref Sy.print
+)
+"smt/term.ml" 47 1630 1674 "smt/term.ml" 47 1630 1675
+type(
+  Sy.t
+)
+ident(
+  int_ref x "smt/term.ml" 42 1448 1457 "smt/term.ml" 42 1448 1458
+)
+"smt/term.ml" 47 1630 1676 "smt/term.ml" 47 1630 1686
+type(
+  Format.formatter -> t list -> unit
+)
+ident(
+  int_ref print_list "smt/term.ml" 49 1690 1694 "smt/term.ml" 49 1690 1704
+)
+"smt/term.ml" 47 1630 1687 "smt/term.ml" 47 1630 1688
+type(
+  t list
+)
+ident(
+  int_ref l "smt/term.ml" 42 1448 1463 "smt/term.ml" 42 1448 1464
+)
+"smt/term.ml" 47 1630 1644 "smt/term.ml" 47 1630 1688
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/term.ml" 43 1485 1487 "smt/term.ml" 47 1630 1688
+type(
+  unit
+)
+"smt/term.ml" 42 1448 1450 "smt/term.ml" 47 1630 1688
+type(
+  unit
+)
+"smt/term.ml" 49 1690 1694 "smt/term.ml" 49 1690 1704
+type(
+  Format.formatter -> t list -> unit
+)
+ident(
+  def print_list "smt/term.ml" 41 1425 1425 "smt/term.ml" 1 0 -1
+)
+"smt/term.ml" 49 1690 1705 "smt/term.ml" 49 1690 1708
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/term.ml" 49 1690 1711 "smt/term.ml" 52 1756 1815
+)
+"smt/term.ml" 50 1720 1724 "smt/term.ml" 50 1720 1726
+type(
+  t list
+)
+"smt/term.ml" 50 1720 1730 "smt/term.ml" 50 1720 1732
+type(
+  unit
+)
+"smt/term.ml" 51 1733 1738 "smt/term.ml" 51 1733 1739
+type(
+  t
+)
+ident(
+  def t "smt/term.ml" 51 1733 1744 "smt/term.ml" 51 1733 1755
+)
+"smt/term.ml" 51 1733 1737 "smt/term.ml" 51 1733 1740
+type(
+  t list
+)
+"smt/term.ml" 51 1733 1744 "smt/term.ml" 51 1733 1749
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  int_ref print "smt/term.ml" 41 1425 1433 "smt/term.ml" 41 1425 1438
+)
+"smt/term.ml" 51 1733 1750 "smt/term.ml" 51 1733 1753
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/term.ml" 49 1690 1705 "smt/term.ml" 49 1690 1708
+)
+"smt/term.ml" 51 1733 1754 "smt/term.ml" 51 1733 1755
+type(
+  t
+)
+ident(
+  int_ref t "smt/term.ml" 51 1733 1738 "smt/term.ml" 51 1733 1739
+)
+"smt/term.ml" 51 1733 1744 "smt/term.ml" 51 1733 1755
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/term.ml" 52 1756 1760 "smt/term.ml" 52 1756 1761
+type(
+  t
+)
+ident(
+  def t "smt/term.ml" 52 1756 1768 "smt/term.ml" 52 1756 1815
+)
+"smt/term.ml" 52 1756 1763 "smt/term.ml" 52 1756 1764
+type(
+  t list
+)
+ident(
+  def l "smt/term.ml" 52 1756 1768 "smt/term.ml" 52 1756 1815
+)
+"smt/term.ml" 52 1756 1760 "smt/term.ml" 52 1756 1764
+type(
+  t list
+)
+"smt/term.ml" 52 1756 1768 "smt/term.ml" 52 1756 1782
+type(
+  Format.formatter ->
+  ((Format.formatter -> t -> unit) ->
+   t -> (Format.formatter -> t list -> unit) -> t list -> unit,
+   Format.formatter, unit)
+  format ->
+  (Format.formatter -> t -> unit) ->
+  t -> (Format.formatter -> t list -> unit) -> t list -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/term.ml" 52 1756 1783 "smt/term.ml" 52 1756 1786
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/term.ml" 49 1690 1705 "smt/term.ml" 49 1690 1708
+)
+"smt/term.ml" 52 1756 1787 "smt/term.ml" 52 1756 1794
+type(
+  ((Format.formatter -> t -> unit) ->
+   t -> (Format.formatter -> t list -> unit) -> t list -> unit,
+   Format.formatter, unit)
+  format
+)
+"smt/term.ml" 52 1756 1795 "smt/term.ml" 52 1756 1800
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  int_ref print "smt/term.ml" 41 1425 1433 "smt/term.ml" 41 1425 1438
+)
+"smt/term.ml" 52 1756 1801 "smt/term.ml" 52 1756 1802
+type(
+  t
+)
+ident(
+  int_ref t "smt/term.ml" 52 1756 1760 "smt/term.ml" 52 1756 1761
+)
+"smt/term.ml" 52 1756 1803 "smt/term.ml" 52 1756 1813
+type(
+  Format.formatter -> t list -> unit
+)
+ident(
+  int_ref print_list "smt/term.ml" 49 1690 1694 "smt/term.ml" 49 1690 1704
+)
+"smt/term.ml" 52 1756 1814 "smt/term.ml" 52 1756 1815
+type(
+  t list
+)
+ident(
+  int_ref l "smt/term.ml" 52 1756 1763 "smt/term.ml" 52 1756 1764
+)
+"smt/term.ml" 52 1756 1768 "smt/term.ml" 52 1756 1815
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/term.ml" 49 1690 1711 "smt/term.ml" 52 1756 1815
+type(
+  t list -> unit
+)
+"smt/term.ml" 54 1817 1821 "smt/term.ml" 54 1817 1828
+type(
+  view -> view -> int
+)
+ident(
+  def compare "smt/term.ml" 63 2089 2089 "smt/term.ml" 1 0 -1
+)
+"smt/term.ml" 54 1817 1829 "smt/term.ml" 54 1817 1831
+type(
+  view
+)
+ident(
+  def t1 "smt/term.ml" 54 1817 1832 "smt/term.ml" 61 2073 2087
+)
+"smt/term.ml" 54 1817 1832 "smt/term.ml" 54 1817 1834
+type(
+  view
+)
+ident(
+  def t2 "smt/term.ml" 55 1837 1839 "smt/term.ml" 61 2073 2087
+)
+"smt/term.ml" 55 1837 1843 "smt/term.ml" 55 1837 1844
+type(
+  int
+)
+ident(
+  def c "smt/term.ml" 56 1883 1885 "smt/term.ml" 61 2073 2087
+)
+"smt/term.ml" 55 1837 1847 "smt/term.ml" 55 1837 1865
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"smt/term.ml" 55 1837 1866 "smt/term.ml" 55 1837 1868
+type(
+  view
+)
+ident(
+  int_ref t2 "smt/term.ml" 54 1817 1832 "smt/term.ml" 54 1817 1834
+)
+"smt/term.ml" 55 1837 1866 "smt/term.ml" 55 1837 1872
+type(
+  int
+)
+"smt/term.ml" 55 1837 1873 "smt/term.ml" 55 1837 1875
+type(
+  view
+)
+ident(
+  int_ref t1 "smt/term.ml" 54 1817 1829 "smt/term.ml" 54 1817 1831
+)
+"smt/term.ml" 55 1837 1873 "smt/term.ml" 55 1837 1879
+type(
+  int
+)
+"smt/term.ml" 55 1837 1847 "smt/term.ml" 55 1837 1879
+type(
+  int
+)
+"smt/term.ml" 56 1883 1888 "smt/term.ml" 56 1883 1889
+type(
+  int
+)
+ident(
+  int_ref c "smt/term.ml" 55 1837 1843 "smt/term.ml" 55 1837 1844
+)
+"smt/term.ml" 56 1883 1890 "smt/term.ml" 56 1883 1891
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/term.ml" 56 1883 1892 "smt/term.ml" 56 1883 1893
+type(
+  int
+)
+"smt/term.ml" 56 1883 1888 "smt/term.ml" 56 1883 1893
+type(
+  bool
+)
+"smt/term.ml" 56 1883 1899 "smt/term.ml" 56 1883 1900
+type(
+  int
+)
+ident(
+  int_ref c "smt/term.ml" 55 1837 1843 "smt/term.ml" 55 1837 1844
+)
+"smt/term.ml" 57 1906 1915 "smt/term.ml" 57 1906 1919
+type(
+  view -> view
+)
+ident(
+  int_ref view "smt/term.ml" 39 1409 1413 "smt/term.ml" 39 1409 1417
+)
+"smt/term.ml" 57 1906 1920 "smt/term.ml" 57 1906 1922
+type(
+  view
+)
+ident(
+  int_ref t1 "smt/term.ml" 54 1817 1829 "smt/term.ml" 54 1817 1831
+)
+"smt/term.ml" 57 1906 1914 "smt/term.ml" 57 1906 1923
+call(
+  stack
+)
+type(
+  view
+)
+"smt/term.ml" 57 1906 1914 "smt/term.ml" 57 1906 1925
+type(
+  Sy.t
+)
+"smt/term.ml" 57 1906 1928 "smt/term.ml" 57 1906 1932
+type(
+  view -> view
+)
+ident(
+  int_ref view "smt/term.ml" 39 1409 1413 "smt/term.ml" 39 1409 1417
+)
+"smt/term.ml" 57 1906 1933 "smt/term.ml" 57 1906 1935
+type(
+  view
+)
+ident(
+  int_ref t2 "smt/term.ml" 54 1817 1832 "smt/term.ml" 54 1817 1834
+)
+"smt/term.ml" 57 1906 1927 "smt/term.ml" 57 1906 1936
+call(
+  stack
+)
+type(
+  view
+)
+"smt/term.ml" 57 1906 1927 "smt/term.ml" 57 1906 1938
+type(
+  Sy.t
+)
+"smt/term.ml" 57 1906 1914 "smt/term.ml" 57 1906 1938
+type(
+  Sy.t * Sy.t
+)
+"smt/term.ml" 58 1944 1951 "smt/term.ml" 58 1944 1958
+type(
+  Sy.t
+)
+"smt/term.ml" 58 1944 1961 "smt/term.ml" 58 1944 1969
+type(
+  Sy.t
+)
+"smt/term.ml" 58 1944 1950 "smt/term.ml" 58 1944 1971
+type(
+  Sy.t
+)
+"smt/term.ml" 58 1944 1974 "smt/term.ml" 58 1944 1981
+type(
+  Sy.t
+)
+"smt/term.ml" 58 1944 1984 "smt/term.ml" 58 1944 1992
+type(
+  Sy.t
+)
+"smt/term.ml" 58 1944 1973 "smt/term.ml" 58 1944 1994
+type(
+  Sy.t
+)
+"smt/term.ml" 58 1944 1950 "smt/term.ml" 58 1944 1994
+type(
+  Sy.t * Sy.t
+)
+"smt/term.ml" 58 1944 1998 "smt/term.ml" 58 1944 1999
+type(
+  int
+)
+ident(
+  int_ref c "smt/term.ml" 55 1837 1843 "smt/term.ml" 55 1837 1844
+)
+"smt/term.ml" 59 2000 2007 "smt/term.ml" 59 2000 2014
+type(
+  Sy.t
+)
+"smt/term.ml" 59 2000 2017 "smt/term.ml" 59 2000 2025
+type(
+  Sy.t
+)
+"smt/term.ml" 59 2000 2006 "smt/term.ml" 59 2000 2027
+type(
+  Sy.t
+)
+"smt/term.ml" 59 2000 2029 "smt/term.ml" 59 2000 2030
+type(
+  Sy.t
+)
+"smt/term.ml" 59 2000 2006 "smt/term.ml" 59 2000 2030
+type(
+  Sy.t * Sy.t
+)
+"smt/term.ml" 59 2000 2034 "smt/term.ml" 59 2000 2036
+type(
+  int
+)
+"smt/term.ml" 60 2037 2043 "smt/term.ml" 60 2037 2044
+type(
+  Sy.t
+)
+"smt/term.ml" 60 2037 2047 "smt/term.ml" 60 2037 2054
+type(
+  Sy.t
+)
+"smt/term.ml" 60 2037 2057 "smt/term.ml" 60 2037 2065
+type(
+  Sy.t
+)
+"smt/term.ml" 60 2037 2046 "smt/term.ml" 60 2037 2067
+type(
+  Sy.t
+)
+"smt/term.ml" 60 2037 2043 "smt/term.ml" 60 2037 2067
+type(
+  Sy.t * Sy.t
+)
+"smt/term.ml" 60 2037 2071 "smt/term.ml" 60 2037 2072
+type(
+  int
+)
+"smt/term.ml" 61 2073 2079 "smt/term.ml" 61 2073 2080
+type(
+  Sy.t
+)
+"smt/term.ml" 61 2073 2081 "smt/term.ml" 61 2073 2082
+type(
+  Sy.t
+)
+"smt/term.ml" 61 2073 2079 "smt/term.ml" 61 2073 2082
+type(
+  Sy.t * Sy.t
+)
+"smt/term.ml" 61 2073 2086 "smt/term.ml" 61 2073 2087
+type(
+  int
+)
+ident(
+  int_ref c "smt/term.ml" 55 1837 1843 "smt/term.ml" 55 1837 1844
+)
+"smt/term.ml" 57 1906 1908 "smt/term.ml" 61 2073 2087
+type(
+  int
+)
+"smt/term.ml" 56 1883 1885 "smt/term.ml" 61 2073 2087
+type(
+  int
+)
+"smt/term.ml" 55 1837 1839 "smt/term.ml" 61 2073 2087
+type(
+  int
+)
+"smt/term.ml" 63 2089 2093 "smt/term.ml" 63 2089 2097
+type(
+  Sy.t -> t list -> Ty.t -> T.t
+)
+ident(
+  def make "smt/term.ml" 65 2160 2160 "smt/term.ml" 1 0 -1
+)
+"smt/term.ml" 63 2089 2098 "smt/term.ml" 63 2089 2099
+type(
+  Sy.t
+)
+ident(
+  def s "smt/term.ml" 63 2089 2100 "smt/term.ml" 63 2089 2158
+)
+"smt/term.ml" 63 2089 2100 "smt/term.ml" 63 2089 2101
+type(
+  t list
+)
+ident(
+  def l "smt/term.ml" 63 2089 2102 "smt/term.ml" 63 2089 2158
+)
+"smt/term.ml" 63 2089 2102 "smt/term.ml" 63 2089 2104
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/term.ml" 63 2089 2107 "smt/term.ml" 63 2089 2158
+)
+"smt/term.ml" 63 2089 2107 "smt/term.ml" 63 2089 2117
+type(
+  T.t -> T.t
+)
+ident(
+  ext_ref T.hashcons
+)
+"smt/term.ml" 63 2089 2121 "smt/term.ml" 63 2089 2122
+type(
+  Sy.t
+)
+ident(
+  int_ref s "smt/term.ml" 63 2089 2098 "smt/term.ml" 63 2089 2099
+)
+"smt/term.ml" 63 2089 2126 "smt/term.ml" 63 2089 2127
+type(
+  t list
+)
+ident(
+  int_ref l "smt/term.ml" 63 2089 2100 "smt/term.ml" 63 2089 2101
+)
+"smt/term.ml" 63 2089 2131 "smt/term.ml" 63 2089 2133
+type(
+  Ty.t
+)
+ident(
+  int_ref ty "smt/term.ml" 63 2089 2102 "smt/term.ml" 63 2089 2104
+)
+"smt/term.ml" 63 2089 2138 "smt/term.ml" 63 2089 2139
+type(
+  int
+)
+"smt/term.ml" 63 2089 2118 "smt/term.ml" 63 2089 2158
+type(
+  T.t
+)
+"smt/term.ml" 63 2089 2107 "smt/term.ml" 63 2089 2158
+call(
+  tail
+)
+type(
+  T.t
+)
+"smt/term.ml" 65 2160 2164 "smt/term.ml" 65 2160 2168
+type(
+  T.t
+)
+ident(
+  def vrai "smt/term.ml" 66 2198 2198 "smt/term.ml" 1 0 -1
+)
+"smt/term.ml" 65 2160 2171 "smt/term.ml" 65 2160 2175
+type(
+  Sy.t -> t list -> Ty.t -> T.t
+)
+ident(
+  int_ref make "smt/term.ml" 63 2089 2093 "smt/term.ml" 63 2089 2097
+)
+"smt/term.ml" 65 2160 2176 "smt/term.ml" 65 2160 2185
+type(
+  Sy.t
+)
+"smt/term.ml" 65 2160 2186 "smt/term.ml" 65 2160 2188
+type(
+  t list
+)
+"smt/term.ml" 65 2160 2189 "smt/term.ml" 65 2160 2197
+type(
+  Ty.t
+)
+"smt/term.ml" 65 2160 2171 "smt/term.ml" 65 2160 2197
+call(
+  stack
+)
+type(
+  T.t
+)
+"smt/term.ml" 66 2198 2202 "smt/term.ml" 66 2198 2206
+type(
+  T.t
+)
+ident(
+  def faux "smt/term.ml" 68 2238 2238 "smt/term.ml" 1 0 -1
+)
+"smt/term.ml" 66 2198 2209 "smt/term.ml" 66 2198 2213
+type(
+  Sy.t -> t list -> Ty.t -> T.t
+)
+ident(
+  int_ref make "smt/term.ml" 63 2089 2093 "smt/term.ml" 63 2089 2097
+)
+"smt/term.ml" 66 2198 2214 "smt/term.ml" 66 2198 2224
+type(
+  Sy.t
+)
+"smt/term.ml" 66 2198 2225 "smt/term.ml" 66 2198 2227
+type(
+  t list
+)
+"smt/term.ml" 66 2198 2228 "smt/term.ml" 66 2198 2236
+type(
+  Ty.t
+)
+"smt/term.ml" 66 2198 2209 "smt/term.ml" 66 2198 2236
+call(
+  stack
+)
+type(
+  T.t
+)
+"smt/term.ml" 68 2238 2242 "smt/term.ml" 68 2238 2245
+type(
+  string -> T.t
+)
+ident(
+  def int "smt/term.ml" 69 2277 2277 "smt/term.ml" 1 0 -1
+)
+"smt/term.ml" 68 2238 2246 "smt/term.ml" 68 2238 2247
+type(
+  string
+)
+ident(
+  def i "smt/term.ml" 68 2238 2250 "smt/term.ml" 68 2238 2276
+)
+"smt/term.ml" 68 2238 2250 "smt/term.ml" 68 2238 2254
+type(
+  Sy.t -> t list -> Ty.t -> T.t
+)
+ident(
+  int_ref make "smt/term.ml" 63 2089 2093 "smt/term.ml" 63 2089 2097
+)
+"smt/term.ml" 68 2238 2256 "smt/term.ml" 68 2238 2262
+type(
+  string -> Sy.t
+)
+ident(
+  ext_ref Sy.int
+)
+"smt/term.ml" 68 2238 2263 "smt/term.ml" 68 2238 2264
+type(
+  string
+)
+ident(
+  int_ref i "smt/term.ml" 68 2238 2246 "smt/term.ml" 68 2238 2247
+)
+"smt/term.ml" 68 2238 2255 "smt/term.ml" 68 2238 2265
+call(
+  stack
+)
+type(
+  Sy.t
+)
+"smt/term.ml" 68 2238 2266 "smt/term.ml" 68 2238 2268
+type(
+  t list
+)
+"smt/term.ml" 68 2238 2269 "smt/term.ml" 68 2238 2276
+type(
+  Ty.t
+)
+"smt/term.ml" 68 2238 2250 "smt/term.ml" 68 2238 2276
+call(
+  tail
+)
+type(
+  T.t
+)
+"smt/term.ml" 69 2277 2281 "smt/term.ml" 69 2277 2285
+type(
+  string -> T.t
+)
+ident(
+  def real "smt/term.ml" 71 2320 2320 "smt/term.ml" 1 0 -1
+)
+"smt/term.ml" 69 2277 2286 "smt/term.ml" 69 2277 2287
+type(
+  string
+)
+ident(
+  def r "smt/term.ml" 69 2277 2290 "smt/term.ml" 69 2277 2318
+)
+"smt/term.ml" 69 2277 2290 "smt/term.ml" 69 2277 2294
+type(
+  Sy.t -> t list -> Ty.t -> T.t
+)
+ident(
+  int_ref make "smt/term.ml" 63 2089 2093 "smt/term.ml" 63 2089 2097
+)
+"smt/term.ml" 69 2277 2296 "smt/term.ml" 69 2277 2303
+type(
+  string -> Sy.t
+)
+ident(
+  ext_ref Sy.real
+)
+"smt/term.ml" 69 2277 2304 "smt/term.ml" 69 2277 2305
+type(
+  string
+)
+ident(
+  int_ref r "smt/term.ml" 69 2277 2286 "smt/term.ml" 69 2277 2287
+)
+"smt/term.ml" 69 2277 2295 "smt/term.ml" 69 2277 2306
+call(
+  stack
+)
+type(
+  Sy.t
+)
+"smt/term.ml" 69 2277 2307 "smt/term.ml" 69 2277 2309
+type(
+  t list
+)
+"smt/term.ml" 69 2277 2310 "smt/term.ml" 69 2277 2318
+type(
+  Ty.t
+)
+"smt/term.ml" 69 2277 2290 "smt/term.ml" 69 2277 2318
+call(
+  tail
+)
+type(
+  T.t
+)
+"smt/term.ml" 71 2320 2324 "smt/term.ml" 71 2320 2330
+type(
+  view -> bool
+)
+ident(
+  def is_int "smt/term.ml" 72 2356 2356 "smt/term.ml" 1 0 -1
+)
+"smt/term.ml" 71 2320 2331 "smt/term.ml" 71 2320 2332
+type(
+  view
+)
+ident(
+  def t "smt/term.ml" 71 2320 2335 "smt/term.ml" 71 2320 2355
+)
+"smt/term.ml" 71 2320 2336 "smt/term.ml" 71 2320 2340
+type(
+  view -> view
+)
+ident(
+  int_ref view "smt/term.ml" 39 1409 1413 "smt/term.ml" 39 1409 1417
+)
+"smt/term.ml" 71 2320 2341 "smt/term.ml" 71 2320 2342
+type(
+  view
+)
+ident(
+  int_ref t "smt/term.ml" 71 2320 2331 "smt/term.ml" 71 2320 2332
+)
+"smt/term.ml" 71 2320 2335 "smt/term.ml" 71 2320 2343
+call(
+  stack
+)
+type(
+  view
+)
+"smt/term.ml" 71 2320 2335 "smt/term.ml" 71 2320 2346
+type(
+  Ty.t
+)
+"smt/term.ml" 71 2320 2346 "smt/term.ml" 71 2320 2347
+type(
+  Ty.t -> Ty.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/term.ml" 71 2320 2348 "smt/term.ml" 71 2320 2355
+type(
+  Ty.t
+)
+"smt/term.ml" 71 2320 2335 "smt/term.ml" 71 2320 2355
+type(
+  bool
+)
+"smt/term.ml" 72 2356 2360 "smt/term.ml" 72 2356 2367
+type(
+  view -> bool
+)
+ident(
+  def is_real "smt/term.ml" 74 2395 2395 "smt/term.ml" 1 0 -1
+)
+"smt/term.ml" 72 2356 2368 "smt/term.ml" 72 2356 2369
+type(
+  view
+)
+ident(
+  def t "smt/term.ml" 72 2356 2372 "smt/term.ml" 72 2356 2393
+)
+"smt/term.ml" 72 2356 2373 "smt/term.ml" 72 2356 2377
+type(
+  view -> view
+)
+ident(
+  int_ref view "smt/term.ml" 39 1409 1413 "smt/term.ml" 39 1409 1417
+)
+"smt/term.ml" 72 2356 2378 "smt/term.ml" 72 2356 2379
+type(
+  view
+)
+ident(
+  int_ref t "smt/term.ml" 72 2356 2368 "smt/term.ml" 72 2356 2369
+)
+"smt/term.ml" 72 2356 2372 "smt/term.ml" 72 2356 2380
+call(
+  stack
+)
+type(
+  view
+)
+"smt/term.ml" 72 2356 2372 "smt/term.ml" 72 2356 2383
+type(
+  Ty.t
+)
+"smt/term.ml" 72 2356 2383 "smt/term.ml" 72 2356 2384
+type(
+  Ty.t -> Ty.t -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/term.ml" 72 2356 2385 "smt/term.ml" 72 2356 2393
+type(
+  Ty.t
+)
+"smt/term.ml" 72 2356 2372 "smt/term.ml" 72 2356 2393
+type(
+  bool
+)
+"smt/term.ml" 74 2395 2399 "smt/term.ml" 74 2395 2404
+type(
+  'a -> 'a -> bool
+)
+ident(
+  def equal "smt/term.ml" 76 2426 2426 "smt/term.ml" 1 0 -1
+)
+"smt/term.ml" 74 2395 2405 "smt/term.ml" 74 2395 2407
+type(
+  'a
+)
+ident(
+  def t1 "smt/term.ml" 74 2395 2408 "smt/term.ml" 74 2395 2422
+)
+"smt/term.ml" 74 2395 2408 "smt/term.ml" 74 2395 2410
+type(
+  'a
+)
+ident(
+  def t2 "smt/term.ml" 74 2395 2414 "smt/term.ml" 74 2395 2422
+)
+"smt/term.ml" 74 2395 2414 "smt/term.ml" 74 2395 2416
+type(
+  'a
+)
+ident(
+  int_ref t1 "smt/term.ml" 74 2395 2405 "smt/term.ml" 74 2395 2407
+)
+"smt/term.ml" 74 2395 2417 "smt/term.ml" 74 2395 2419
+type(
+  'a -> 'a -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"smt/term.ml" 74 2395 2420 "smt/term.ml" 74 2395 2422
+type(
+  'a
+)
+ident(
+  int_ref t2 "smt/term.ml" 74 2395 2408 "smt/term.ml" 74 2395 2410
+)
+"smt/term.ml" 74 2395 2414 "smt/term.ml" 74 2395 2422
+type(
+  bool
+)
+"smt/term.ml" 76 2426 2430 "smt/term.ml" 76 2426 2434
+type(
+  view -> int
+)
+ident(
+  def hash "smt/term.ml" 78 2448 2448 "smt/term.ml" 1 0 -1
+)
+"smt/term.ml" 76 2426 2435 "smt/term.ml" 76 2426 2436
+type(
+  view
+)
+ident(
+  def t "smt/term.ml" 76 2426 2439 "smt/term.ml" 76 2426 2444
+)
+"smt/term.ml" 76 2426 2439 "smt/term.ml" 76 2426 2440
+type(
+  view
+)
+ident(
+  int_ref t "smt/term.ml" 76 2426 2435 "smt/term.ml" 76 2426 2436
+)
+"smt/term.ml" 76 2426 2439 "smt/term.ml" 76 2426 2444
+type(
+  int
+)
+"smt/term.ml" 79 2462 2506 "smt/term.ml" 79 2462 2513
+type(
+  view -> view -> int
+)
+ident(
+  def compare "smt/term.ml" 79 2462 2521 "smt/term.ml" 79 2462 2525
+)
+"smt/term.ml" 79 2462 2514 "smt/term.ml" 79 2462 2521
+type(
+  view -> view -> int
+)
+ident(
+  int_ref compare "smt/term.ml" 54 1817 1821 "smt/term.ml" 54 1817 1828
+)
+"smt/term.ml" 79 2462 2464 "smt/term.ml" 79 2462 2526
+call(
+  stack
+)
+"smt/term.ml" 82 2546 2590 "smt/term.ml" 82 2546 2597
+type(
+  view -> view -> int
+)
+ident(
+  def compare "smt/term.ml" 82 2546 2605 "smt/term.ml" 82 2546 2609
+)
+"smt/term.ml" 82 2546 2598 "smt/term.ml" 82 2546 2605
+type(
+  view -> view -> int
+)
+ident(
+  int_ref compare "smt/term.ml" 54 1817 1821 "smt/term.ml" 54 1817 1828
+)
+"smt/term.ml" 82 2546 2548 "smt/term.ml" 82 2546 2610
+call(
+  stack
+)

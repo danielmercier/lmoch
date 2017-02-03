@@ -1,0 +1,967 @@
+"common/hashcons.ml" 43 1885 1899 "common/hashcons.ml" 43 1885 1912
+call(
+  stack
+)
+"common/hashcons.ml" 45 1914 1920 "common/hashcons.ml" 45 1914 1928
+type(
+  int ref
+)
+ident(
+  def next_tag "common/hashcons.ml" 47 1938 1940 "common/hashcons.ml" 58 2161 2164
+)
+"common/hashcons.ml" 45 1914 1931 "common/hashcons.ml" 45 1914 1934
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"common/hashcons.ml" 45 1914 1935 "common/hashcons.ml" 45 1914 1936
+type(
+  int
+)
+"common/hashcons.ml" 45 1914 1931 "common/hashcons.ml" 45 1914 1936
+type(
+  int ref
+)
+"common/hashcons.ml" 47 1938 1944 "common/hashcons.ml" 47 1938 1950
+type(
+  WH.t
+)
+ident(
+  def htable "common/hashcons.ml" 49 1969 1971 "common/hashcons.ml" 58 2161 2164
+)
+"common/hashcons.ml" 47 1938 1953 "common/hashcons.ml" 47 1938 1962
+type(
+  int -> WH.t
+)
+ident(
+  ext_ref WH.create
+)
+"common/hashcons.ml" 47 1938 1963 "common/hashcons.ml" 47 1938 1967
+type(
+  int
+)
+"common/hashcons.ml" 47 1938 1953 "common/hashcons.ml" 47 1938 1967
+call(
+  stack
+)
+type(
+  WH.t
+)
+"common/hashcons.ml" 49 1969 1975 "common/hashcons.ml" 49 1969 1983
+type(
+  H.t -> WH.data
+)
+ident(
+  def hashcons "common/hashcons.ml" 55 2095 2097 "common/hashcons.ml" 58 2161 2164
+)
+"common/hashcons.ml" 49 1969 1984 "common/hashcons.ml" 49 1969 1985
+type(
+  H.t
+)
+ident(
+  def d "common/hashcons.ml" 50 1988 1992 "common/hashcons.ml" 53 2088 2093
+)
+"common/hashcons.ml" 50 1988 1996 "common/hashcons.ml" 50 1988 1997
+type(
+  H.t
+)
+ident(
+  def d "common/hashcons.ml" 51 2021 2025 "common/hashcons.ml" 53 2088 2093
+)
+"common/hashcons.ml" 50 1988 2000 "common/hashcons.ml" 50 1988 2005
+type(
+  int -> H.t -> H.t
+)
+ident(
+  int_ref H.tag "common/hashcons.ml" 28 1614 1618 "common/hashcons.ml" 28 1614 1641
+)
+"common/hashcons.ml" 50 1988 2006 "common/hashcons.ml" 50 1988 2007
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/hashcons.ml" 50 1988 2007 "common/hashcons.ml" 50 1988 2015
+type(
+  int ref
+)
+ident(
+  int_ref next_tag "common/hashcons.ml" 45 1914 1920 "common/hashcons.ml" 45 1914 1928
+)
+"common/hashcons.ml" 50 1988 2006 "common/hashcons.ml" 50 1988 2015
+type(
+  int
+)
+"common/hashcons.ml" 50 1988 2016 "common/hashcons.ml" 50 1988 2017
+type(
+  H.t
+)
+ident(
+  int_ref d "common/hashcons.ml" 49 1969 1984 "common/hashcons.ml" 49 1969 1985
+)
+"common/hashcons.ml" 50 1988 2000 "common/hashcons.ml" 50 1988 2017
+call(
+  stack
+)
+type(
+  H.t
+)
+"common/hashcons.ml" 51 2021 2029 "common/hashcons.ml" 51 2021 2030
+type(
+  WH.data
+)
+ident(
+  def o "common/hashcons.ml" 52 2054 2058 "common/hashcons.ml" 53 2088 2093
+)
+"common/hashcons.ml" 51 2021 2033 "common/hashcons.ml" 51 2021 2041
+type(
+  WH.t -> WH.data -> WH.data
+)
+ident(
+  ext_ref WH.merge
+)
+"common/hashcons.ml" 51 2021 2042 "common/hashcons.ml" 51 2021 2048
+type(
+  WH.t
+)
+ident(
+  int_ref htable "common/hashcons.ml" 47 1938 1944 "common/hashcons.ml" 47 1938 1950
+)
+"common/hashcons.ml" 51 2021 2049 "common/hashcons.ml" 51 2021 2050
+type(
+  WH.data
+)
+ident(
+  int_ref d "common/hashcons.ml" 50 1988 1996 "common/hashcons.ml" 50 1988 1997
+)
+"common/hashcons.ml" 51 2021 2033 "common/hashcons.ml" 51 2021 2050
+call(
+  stack
+)
+type(
+  WH.data
+)
+"common/hashcons.ml" 52 2054 2061 "common/hashcons.ml" 52 2054 2062
+type(
+  WH.data
+)
+ident(
+  int_ref o "common/hashcons.ml" 51 2021 2029 "common/hashcons.ml" 51 2021 2030
+)
+"common/hashcons.ml" 52 2054 2063 "common/hashcons.ml" 52 2054 2065
+type(
+  WH.data -> WH.data -> bool
+)
+ident(
+  ext_ref Pervasives.( == )
+)
+"common/hashcons.ml" 52 2054 2066 "common/hashcons.ml" 52 2054 2067
+type(
+  WH.data
+)
+ident(
+  int_ref d "common/hashcons.ml" 50 1988 1996 "common/hashcons.ml" 50 1988 1997
+)
+"common/hashcons.ml" 52 2054 2061 "common/hashcons.ml" 52 2054 2067
+type(
+  bool
+)
+"common/hashcons.ml" 52 2054 2073 "common/hashcons.ml" 52 2054 2077
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"common/hashcons.ml" 52 2054 2078 "common/hashcons.ml" 52 2054 2086
+type(
+  int ref
+)
+ident(
+  int_ref next_tag "common/hashcons.ml" 45 1914 1920 "common/hashcons.ml" 45 1914 1928
+)
+"common/hashcons.ml" 52 2054 2073 "common/hashcons.ml" 52 2054 2086
+type(
+  unit
+)
+"common/hashcons.ml" 52 2054 2058 "common/hashcons.ml" 52 2054 2086
+type(
+  unit
+)
+"common/hashcons.ml" 53 2088 2092 "common/hashcons.ml" 53 2088 2093
+type(
+  WH.data
+)
+ident(
+  int_ref o "common/hashcons.ml" 51 2021 2029 "common/hashcons.ml" 51 2021 2030
+)
+"common/hashcons.ml" 52 2054 2058 "common/hashcons.ml" 53 2088 2093
+type(
+  WH.data
+)
+"common/hashcons.ml" 51 2021 2025 "common/hashcons.ml" 53 2088 2093
+type(
+  WH.data
+)
+"common/hashcons.ml" 50 1988 1992 "common/hashcons.ml" 53 2088 2093
+type(
+  WH.data
+)
+"common/hashcons.ml" 55 2095 2101 "common/hashcons.ml" 55 2095 2105
+type(
+  (WH.data -> unit) -> unit
+)
+ident(
+  def iter "common/hashcons.ml" 57 2128 2130 "common/hashcons.ml" 58 2161 2164
+)
+"common/hashcons.ml" 55 2095 2106 "common/hashcons.ml" 55 2095 2107
+type(
+  WH.data -> unit
+)
+ident(
+  def f "common/hashcons.ml" 55 2095 2110 "common/hashcons.ml" 55 2095 2126
+)
+"common/hashcons.ml" 55 2095 2110 "common/hashcons.ml" 55 2095 2117
+type(
+  (WH.data -> unit) -> WH.t -> unit
+)
+ident(
+  ext_ref WH.iter
+)
+"common/hashcons.ml" 55 2095 2118 "common/hashcons.ml" 55 2095 2119
+type(
+  WH.data -> unit
+)
+ident(
+  int_ref f "common/hashcons.ml" 55 2095 2106 "common/hashcons.ml" 55 2095 2107
+)
+"common/hashcons.ml" 55 2095 2120 "common/hashcons.ml" 55 2095 2126
+type(
+  WH.t
+)
+ident(
+  int_ref htable "common/hashcons.ml" 47 1938 1944 "common/hashcons.ml" 47 1938 1950
+)
+"common/hashcons.ml" 55 2095 2110 "common/hashcons.ml" 55 2095 2126
+call(
+  tail
+)
+type(
+  unit
+)
+"common/hashcons.ml" 57 2128 2134 "common/hashcons.ml" 57 2128 2139
+type(
+  unit -> int * int * int * int * int * int
+)
+ident(
+  def stats "common/hashcons.ml" 57 2128 2160 "common/hashcons.ml" 58 2161 2164
+)
+"common/hashcons.ml" 57 2128 2140 "common/hashcons.ml" 57 2128 2142
+type(
+  unit
+)
+"common/hashcons.ml" 57 2128 2145 "common/hashcons.ml" 57 2128 2153
+type(
+  WH.t -> int * int * int * int * int * int
+)
+ident(
+  ext_ref WH.stats
+)
+"common/hashcons.ml" 57 2128 2154 "common/hashcons.ml" 57 2128 2160
+type(
+  WH.t
+)
+ident(
+  int_ref htable "common/hashcons.ml" 47 1938 1944 "common/hashcons.ml" 47 1938 1950
+)
+"common/hashcons.ml" 57 2128 2145 "common/hashcons.ml" 57 2128 2160
+call(
+  tail
+)
+type(
+  int * int * int * int * int * int
+)
+"common/hashcons.ml" 60 2166 2170 "common/hashcons.ml" 60 2166 2177
+type(
+  int -> int -> int
+)
+ident(
+  def combine "common/hashcons.ml" 61 2202 2202 "common/hashcons.ml" 1 0 -1
+)
+"common/hashcons.ml" 60 2166 2178 "common/hashcons.ml" 60 2166 2181
+type(
+  int
+)
+ident(
+  def acc "common/hashcons.ml" 60 2166 2182 "common/hashcons.ml" 60 2166 2201
+)
+"common/hashcons.ml" 60 2166 2182 "common/hashcons.ml" 60 2166 2183
+type(
+  int
+)
+ident(
+  def n "common/hashcons.ml" 60 2166 2186 "common/hashcons.ml" 60 2166 2201
+)
+"common/hashcons.ml" 60 2166 2186 "common/hashcons.ml" 60 2166 2187
+type(
+  int
+)
+ident(
+  int_ref n "common/hashcons.ml" 60 2166 2182 "common/hashcons.ml" 60 2166 2183
+)
+"common/hashcons.ml" 60 2166 2188 "common/hashcons.ml" 60 2166 2189
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"common/hashcons.ml" 60 2166 2190 "common/hashcons.ml" 60 2166 2195
+type(
+  int
+)
+"common/hashcons.ml" 60 2166 2186 "common/hashcons.ml" 60 2166 2195
+type(
+  int
+)
+"common/hashcons.ml" 60 2166 2196 "common/hashcons.ml" 60 2166 2197
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"common/hashcons.ml" 60 2166 2198 "common/hashcons.ml" 60 2166 2201
+type(
+  int
+)
+ident(
+  int_ref acc "common/hashcons.ml" 60 2166 2178 "common/hashcons.ml" 60 2166 2181
+)
+"common/hashcons.ml" 60 2166 2186 "common/hashcons.ml" 60 2166 2201
+type(
+  int
+)
+"common/hashcons.ml" 61 2202 2206 "common/hashcons.ml" 61 2202 2214
+type(
+  int -> int -> int -> int
+)
+ident(
+  def combine2 "common/hashcons.ml" 62 2255 2255 "common/hashcons.ml" 1 0 -1
+)
+"common/hashcons.ml" 61 2202 2215 "common/hashcons.ml" 61 2202 2218
+type(
+  int
+)
+ident(
+  def acc "common/hashcons.ml" 61 2202 2219 "common/hashcons.ml" 61 2202 2254
+)
+"common/hashcons.ml" 61 2202 2219 "common/hashcons.ml" 61 2202 2221
+type(
+  int
+)
+ident(
+  def n1 "common/hashcons.ml" 61 2202 2222 "common/hashcons.ml" 61 2202 2254
+)
+"common/hashcons.ml" 61 2202 2222 "common/hashcons.ml" 61 2202 2224
+type(
+  int
+)
+ident(
+  def n2 "common/hashcons.ml" 61 2202 2227 "common/hashcons.ml" 61 2202 2254
+)
+"common/hashcons.ml" 61 2202 2227 "common/hashcons.ml" 61 2202 2234
+type(
+  int -> int -> int
+)
+ident(
+  int_ref combine "common/hashcons.ml" 60 2166 2170 "common/hashcons.ml" 60 2166 2177
+)
+"common/hashcons.ml" 61 2202 2235 "common/hashcons.ml" 61 2202 2238
+type(
+  int
+)
+ident(
+  int_ref acc "common/hashcons.ml" 61 2202 2215 "common/hashcons.ml" 61 2202 2218
+)
+"common/hashcons.ml" 61 2202 2240 "common/hashcons.ml" 61 2202 2247
+type(
+  int -> int -> int
+)
+ident(
+  int_ref combine "common/hashcons.ml" 60 2166 2170 "common/hashcons.ml" 60 2166 2177
+)
+"common/hashcons.ml" 61 2202 2248 "common/hashcons.ml" 61 2202 2250
+type(
+  int
+)
+ident(
+  int_ref n1 "common/hashcons.ml" 61 2202 2219 "common/hashcons.ml" 61 2202 2221
+)
+"common/hashcons.ml" 61 2202 2251 "common/hashcons.ml" 61 2202 2253
+type(
+  int
+)
+ident(
+  int_ref n2 "common/hashcons.ml" 61 2202 2222 "common/hashcons.ml" 61 2202 2224
+)
+"common/hashcons.ml" 61 2202 2239 "common/hashcons.ml" 61 2202 2254
+call(
+  stack
+)
+type(
+  int
+)
+"common/hashcons.ml" 61 2202 2227 "common/hashcons.ml" 61 2202 2254
+call(
+  tail
+)
+type(
+  int
+)
+"common/hashcons.ml" 62 2255 2259 "common/hashcons.ml" 62 2255 2267
+type(
+  int -> int -> int -> int -> int
+)
+ident(
+  def combine3 "common/hashcons.ml" 63 2324 2324 "common/hashcons.ml" 1 0 -1
+)
+"common/hashcons.ml" 62 2255 2268 "common/hashcons.ml" 62 2255 2271
+type(
+  int
+)
+ident(
+  def acc "common/hashcons.ml" 62 2255 2272 "common/hashcons.ml" 62 2255 2323
+)
+"common/hashcons.ml" 62 2255 2272 "common/hashcons.ml" 62 2255 2274
+type(
+  int
+)
+ident(
+  def n1 "common/hashcons.ml" 62 2255 2275 "common/hashcons.ml" 62 2255 2323
+)
+"common/hashcons.ml" 62 2255 2275 "common/hashcons.ml" 62 2255 2277
+type(
+  int
+)
+ident(
+  def n2 "common/hashcons.ml" 62 2255 2278 "common/hashcons.ml" 62 2255 2323
+)
+"common/hashcons.ml" 62 2255 2278 "common/hashcons.ml" 62 2255 2280
+type(
+  int
+)
+ident(
+  def n3 "common/hashcons.ml" 62 2255 2283 "common/hashcons.ml" 62 2255 2323
+)
+"common/hashcons.ml" 62 2255 2283 "common/hashcons.ml" 62 2255 2290
+type(
+  int -> int -> int
+)
+ident(
+  int_ref combine "common/hashcons.ml" 60 2166 2170 "common/hashcons.ml" 60 2166 2177
+)
+"common/hashcons.ml" 62 2255 2291 "common/hashcons.ml" 62 2255 2294
+type(
+  int
+)
+ident(
+  int_ref acc "common/hashcons.ml" 62 2255 2268 "common/hashcons.ml" 62 2255 2271
+)
+"common/hashcons.ml" 62 2255 2296 "common/hashcons.ml" 62 2255 2303
+type(
+  int -> int -> int
+)
+ident(
+  int_ref combine "common/hashcons.ml" 60 2166 2170 "common/hashcons.ml" 60 2166 2177
+)
+"common/hashcons.ml" 62 2255 2304 "common/hashcons.ml" 62 2255 2306
+type(
+  int
+)
+ident(
+  int_ref n1 "common/hashcons.ml" 62 2255 2272 "common/hashcons.ml" 62 2255 2274
+)
+"common/hashcons.ml" 62 2255 2308 "common/hashcons.ml" 62 2255 2315
+type(
+  int -> int -> int
+)
+ident(
+  int_ref combine "common/hashcons.ml" 60 2166 2170 "common/hashcons.ml" 60 2166 2177
+)
+"common/hashcons.ml" 62 2255 2316 "common/hashcons.ml" 62 2255 2318
+type(
+  int
+)
+ident(
+  int_ref n2 "common/hashcons.ml" 62 2255 2275 "common/hashcons.ml" 62 2255 2277
+)
+"common/hashcons.ml" 62 2255 2319 "common/hashcons.ml" 62 2255 2321
+type(
+  int
+)
+ident(
+  int_ref n3 "common/hashcons.ml" 62 2255 2278 "common/hashcons.ml" 62 2255 2280
+)
+"common/hashcons.ml" 62 2255 2307 "common/hashcons.ml" 62 2255 2322
+call(
+  stack
+)
+type(
+  int
+)
+"common/hashcons.ml" 62 2255 2295 "common/hashcons.ml" 62 2255 2323
+call(
+  stack
+)
+type(
+  int
+)
+"common/hashcons.ml" 62 2255 2283 "common/hashcons.ml" 62 2255 2323
+call(
+  tail
+)
+type(
+  int
+)
+"common/hashcons.ml" 63 2324 2328 "common/hashcons.ml" 63 2324 2340
+type(
+  ('a -> int) -> int -> 'a list -> int
+)
+ident(
+  def combine_list "common/hashcons.ml" 64 2393 2393 "common/hashcons.ml" 1 0 -1
+)
+"common/hashcons.ml" 63 2324 2341 "common/hashcons.ml" 63 2324 2342
+type(
+  'a -> int
+)
+ident(
+  def f "common/hashcons.ml" 63 2324 2345 "common/hashcons.ml" 63 2324 2392
+)
+"common/hashcons.ml" 63 2324 2345 "common/hashcons.ml" 63 2324 2359
+type(
+  (int -> 'a -> int) -> int -> 'a list -> int
+)
+ident(
+  ext_ref List.fold_left
+)
+"common/hashcons.ml" 63 2324 2365 "common/hashcons.ml" 63 2324 2368
+type(
+  int
+)
+ident(
+  def acc "common/hashcons.ml" 63 2324 2369 "common/hashcons.ml" 63 2324 2391
+)
+"common/hashcons.ml" 63 2324 2369 "common/hashcons.ml" 63 2324 2370
+type(
+  'a
+)
+ident(
+  def x "common/hashcons.ml" 63 2324 2374 "common/hashcons.ml" 63 2324 2391
+)
+"common/hashcons.ml" 63 2324 2374 "common/hashcons.ml" 63 2324 2381
+type(
+  int -> int -> int
+)
+ident(
+  int_ref combine "common/hashcons.ml" 60 2166 2170 "common/hashcons.ml" 60 2166 2177
+)
+"common/hashcons.ml" 63 2324 2382 "common/hashcons.ml" 63 2324 2385
+type(
+  int
+)
+ident(
+  int_ref acc "common/hashcons.ml" 63 2324 2365 "common/hashcons.ml" 63 2324 2368
+)
+"common/hashcons.ml" 63 2324 2387 "common/hashcons.ml" 63 2324 2388
+type(
+  'a -> int
+)
+ident(
+  int_ref f "common/hashcons.ml" 63 2324 2341 "common/hashcons.ml" 63 2324 2342
+)
+"common/hashcons.ml" 63 2324 2389 "common/hashcons.ml" 63 2324 2390
+type(
+  'a
+)
+ident(
+  int_ref x "common/hashcons.ml" 63 2324 2369 "common/hashcons.ml" 63 2324 2370
+)
+"common/hashcons.ml" 63 2324 2386 "common/hashcons.ml" 63 2324 2391
+call(
+  stack
+)
+type(
+  int
+)
+"common/hashcons.ml" 63 2324 2374 "common/hashcons.ml" 63 2324 2391
+call(
+  tail
+)
+type(
+  int
+)
+"common/hashcons.ml" 63 2324 2360 "common/hashcons.ml" 63 2324 2392
+type(
+  int -> 'a -> int
+)
+"common/hashcons.ml" 63 2324 2345 "common/hashcons.ml" 63 2324 2392
+call(
+  tail
+)
+type(
+  int -> 'a list -> int
+)
+"common/hashcons.ml" 64 2393 2397 "common/hashcons.ml" 64 2393 2411
+type(
+  ('a -> int) -> 'a option -> int
+)
+ident(
+  def combine_option "common/hashcons.ml" 65 2457 2457 "common/hashcons.ml" 1 0 -1
+)
+"common/hashcons.ml" 64 2393 2412 "common/hashcons.ml" 64 2393 2413
+type(
+  'a -> int
+)
+ident(
+  def h "common/hashcons.ml" 64 2393 2416 "common/hashcons.ml" 64 2393 2456
+)
+"common/hashcons.ml" 64 2393 2425 "common/hashcons.ml" 64 2393 2429
+type(
+  'a option
+)
+"common/hashcons.ml" 64 2393 2433 "common/hashcons.ml" 64 2393 2434
+type(
+  int
+)
+"common/hashcons.ml" 64 2393 2442 "common/hashcons.ml" 64 2393 2443
+type(
+  'a
+)
+ident(
+  def s "common/hashcons.ml" 64 2393 2447 "common/hashcons.ml" 64 2393 2456
+)
+"common/hashcons.ml" 64 2393 2437 "common/hashcons.ml" 64 2393 2443
+type(
+  'a option
+)
+"common/hashcons.ml" 64 2393 2448 "common/hashcons.ml" 64 2393 2449
+type(
+  'a -> int
+)
+ident(
+  int_ref h "common/hashcons.ml" 64 2393 2412 "common/hashcons.ml" 64 2393 2413
+)
+"common/hashcons.ml" 64 2393 2450 "common/hashcons.ml" 64 2393 2451
+type(
+  'a
+)
+ident(
+  int_ref s "common/hashcons.ml" 64 2393 2442 "common/hashcons.ml" 64 2393 2443
+)
+"common/hashcons.ml" 64 2393 2447 "common/hashcons.ml" 64 2393 2452
+call(
+  stack
+)
+type(
+  int
+)
+"common/hashcons.ml" 64 2393 2453 "common/hashcons.ml" 64 2393 2454
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"common/hashcons.ml" 64 2393 2455 "common/hashcons.ml" 64 2393 2456
+type(
+  int
+)
+"common/hashcons.ml" 64 2393 2447 "common/hashcons.ml" 64 2393 2456
+type(
+  int
+)
+"common/hashcons.ml" 64 2393 2416 "common/hashcons.ml" 64 2393 2456
+type(
+  'a option -> int
+)
+"common/hashcons.ml" 65 2457 2461 "common/hashcons.ml" 65 2457 2473
+type(
+  ('a -> int) -> ('b -> int) -> 'a * 'b -> int
+)
+ident(
+  def combine_pair "common/hashcons.ml" 67 2515 2515 "common/hashcons.ml" 1 0 -1
+)
+"common/hashcons.ml" 65 2457 2474 "common/hashcons.ml" 65 2457 2476
+type(
+  'a -> int
+)
+ident(
+  def h1 "common/hashcons.ml" 65 2457 2477 "common/hashcons.ml" 65 2457 2513
+)
+"common/hashcons.ml" 65 2457 2477 "common/hashcons.ml" 65 2457 2479
+type(
+  'b -> int
+)
+ident(
+  def h2 "common/hashcons.ml" 65 2457 2480 "common/hashcons.ml" 65 2457 2513
+)
+"common/hashcons.ml" 65 2457 2481 "common/hashcons.ml" 65 2457 2483
+type(
+  'a
+)
+ident(
+  def a1 "common/hashcons.ml" 65 2457 2490 "common/hashcons.ml" 65 2457 2513
+)
+"common/hashcons.ml" 65 2457 2484 "common/hashcons.ml" 65 2457 2486
+type(
+  'b
+)
+ident(
+  def a2 "common/hashcons.ml" 65 2457 2490 "common/hashcons.ml" 65 2457 2513
+)
+"common/hashcons.ml" 65 2457 2480 "common/hashcons.ml" 65 2457 2487
+type(
+  'a * 'b
+)
+"common/hashcons.ml" 65 2457 2490 "common/hashcons.ml" 65 2457 2497
+type(
+  int -> int -> int
+)
+ident(
+  int_ref combine "common/hashcons.ml" 60 2166 2170 "common/hashcons.ml" 60 2166 2177
+)
+"common/hashcons.ml" 65 2457 2499 "common/hashcons.ml" 65 2457 2501
+type(
+  'a -> int
+)
+ident(
+  int_ref h1 "common/hashcons.ml" 65 2457 2474 "common/hashcons.ml" 65 2457 2476
+)
+"common/hashcons.ml" 65 2457 2502 "common/hashcons.ml" 65 2457 2504
+type(
+  'a
+)
+ident(
+  int_ref a1 "common/hashcons.ml" 65 2457 2481 "common/hashcons.ml" 65 2457 2483
+)
+"common/hashcons.ml" 65 2457 2498 "common/hashcons.ml" 65 2457 2505
+call(
+  stack
+)
+type(
+  int
+)
+"common/hashcons.ml" 65 2457 2507 "common/hashcons.ml" 65 2457 2509
+type(
+  'b -> int
+)
+ident(
+  int_ref h2 "common/hashcons.ml" 65 2457 2477 "common/hashcons.ml" 65 2457 2479
+)
+"common/hashcons.ml" 65 2457 2510 "common/hashcons.ml" 65 2457 2512
+type(
+  'b
+)
+ident(
+  int_ref a2 "common/hashcons.ml" 65 2457 2484 "common/hashcons.ml" 65 2457 2486
+)
+"common/hashcons.ml" 65 2457 2506 "common/hashcons.ml" 65 2457 2513
+call(
+  stack
+)
+type(
+  int
+)
+"common/hashcons.ml" 65 2457 2490 "common/hashcons.ml" 65 2457 2513
+call(
+  tail
+)
+type(
+  int
+)
+"common/hashcons.ml" 90 3014 3022 "common/hashcons.ml" 90 3014 3026
+type(
+  H.t hash_consed -> int
+)
+ident(
+  def hash "common/hashcons.ml" 91 3045 3049 "common/hashcons.ml" 93 3122 3127
+)
+"common/hashcons.ml" 90 3014 3027 "common/hashcons.ml" 90 3014 3028
+type(
+  H.t hash_consed
+)
+ident(
+  def x "common/hashcons.ml" 90 3014 3031 "common/hashcons.ml" 90 3014 3044
+)
+"common/hashcons.ml" 90 3014 3031 "common/hashcons.ml" 90 3014 3037
+type(
+  H.t -> int
+)
+ident(
+  int_ref H.hash "common/hashcons.ml" 75 2647 2651 "common/hashcons.ml" 75 2647 2670
+)
+"common/hashcons.ml" 90 3014 3038 "common/hashcons.ml" 90 3014 3039
+type(
+  H.t hash_consed
+)
+ident(
+  int_ref x "common/hashcons.ml" 90 3014 3027 "common/hashcons.ml" 90 3014 3028
+)
+"common/hashcons.ml" 90 3014 3038 "common/hashcons.ml" 90 3014 3044
+type(
+  H.t
+)
+"common/hashcons.ml" 90 3014 3031 "common/hashcons.ml" 90 3014 3044
+call(
+  tail
+)
+type(
+  int
+)
+"common/hashcons.ml" 91 3045 3053 "common/hashcons.ml" 91 3045 3058
+type(
+  H.t hash_consed -> H.t hash_consed -> bool
+)
+ident(
+  def equal "common/hashcons.ml" 92 3087 3091 "common/hashcons.ml" 93 3122 3127
+)
+"common/hashcons.ml" 91 3045 3059 "common/hashcons.ml" 91 3045 3060
+type(
+  H.t hash_consed
+)
+ident(
+  def x "common/hashcons.ml" 91 3045 3061 "common/hashcons.ml" 91 3045 3086
+)
+"common/hashcons.ml" 91 3045 3061 "common/hashcons.ml" 91 3045 3062
+type(
+  H.t hash_consed
+)
+ident(
+  def y "common/hashcons.ml" 91 3045 3065 "common/hashcons.ml" 91 3045 3086
+)
+"common/hashcons.ml" 91 3045 3065 "common/hashcons.ml" 91 3045 3072
+type(
+  H.t -> H.t -> bool
+)
+ident(
+  int_ref H.equal "common/hashcons.ml" 74 2616 2620 "common/hashcons.ml" 74 2616 2646
+)
+"common/hashcons.ml" 91 3045 3073 "common/hashcons.ml" 91 3045 3074
+type(
+  H.t hash_consed
+)
+ident(
+  int_ref x "common/hashcons.ml" 91 3045 3059 "common/hashcons.ml" 91 3045 3060
+)
+"common/hashcons.ml" 91 3045 3073 "common/hashcons.ml" 91 3045 3079
+type(
+  H.t
+)
+"common/hashcons.ml" 91 3045 3080 "common/hashcons.ml" 91 3045 3081
+type(
+  H.t hash_consed
+)
+ident(
+  int_ref y "common/hashcons.ml" 91 3045 3061 "common/hashcons.ml" 91 3045 3062
+)
+"common/hashcons.ml" 91 3045 3080 "common/hashcons.ml" 91 3045 3086
+type(
+  H.t
+)
+"common/hashcons.ml" 91 3045 3065 "common/hashcons.ml" 91 3045 3086
+call(
+  tail
+)
+type(
+  bool
+)
+"common/hashcons.ml" 92 3087 3095 "common/hashcons.ml" 92 3087 3098
+type(
+  int -> 'a hash_consed -> 'a hash_consed
+)
+ident(
+  def tag "common/hashcons.ml" 92 3087 3121 "common/hashcons.ml" 93 3122 3127
+)
+"common/hashcons.ml" 92 3087 3099 "common/hashcons.ml" 92 3087 3100
+type(
+  int
+)
+ident(
+  def i "common/hashcons.ml" 92 3087 3101 "common/hashcons.ml" 92 3087 3121
+)
+"common/hashcons.ml" 92 3087 3101 "common/hashcons.ml" 92 3087 3102
+type(
+  'a hash_consed
+)
+ident(
+  def x "common/hashcons.ml" 92 3087 3105 "common/hashcons.ml" 92 3087 3121
+)
+"common/hashcons.ml" 92 3087 3106 "common/hashcons.ml" 92 3087 3107
+type(
+  'a hash_consed
+)
+ident(
+  int_ref x "common/hashcons.ml" 92 3087 3101 "common/hashcons.ml" 92 3087 3102
+)
+"common/hashcons.ml" 92 3087 3119 "common/hashcons.ml" 92 3087 3120
+type(
+  int
+)
+ident(
+  int_ref i "common/hashcons.ml" 92 3087 3099 "common/hashcons.ml" 92 3087 3100
+)
+"common/hashcons.ml" 92 3087 3105 "common/hashcons.ml" 92 3087 3121
+type(
+  'a hash_consed
+)
+"common/hashcons.ml" 88 2960 2973 "common/hashcons.ml" 93 3122 3128
+call(
+  stack
+)
+"common/hashcons.ml" 96 3158 3164 "common/hashcons.ml" 96 3158 3172
+type(
+  H.t -> M.t
+)
+ident(
+  def hashcons "common/hashcons.ml" 96 3158 3208 "common/hashcons.ml" 97 3209 3212
+)
+"common/hashcons.ml" 96 3158 3173 "common/hashcons.ml" 96 3158 3174
+type(
+  H.t
+)
+ident(
+  def x "common/hashcons.ml" 96 3158 3177 "common/hashcons.ml" 96 3158 3208
+)
+"common/hashcons.ml" 96 3158 3177 "common/hashcons.ml" 96 3158 3187
+type(
+  M.t -> M.t
+)
+ident(
+  int_ref M.hashcons "common/hashcons.ml" 34 1682 1686 "common/hashcons.ml" 34 1682 1707
+)
+"common/hashcons.ml" 96 3158 3195 "common/hashcons.ml" 96 3158 3197
+type(
+  int
+)
+"common/hashcons.ml" 96 3158 3206 "common/hashcons.ml" 96 3158 3207
+type(
+  H.t
+)
+ident(
+  int_ref x "common/hashcons.ml" 96 3158 3173 "common/hashcons.ml" 96 3158 3174
+)
+"common/hashcons.ml" 96 3158 3188 "common/hashcons.ml" 96 3158 3208
+type(
+  M.t
+)
+"common/hashcons.ml" 96 3158 3177 "common/hashcons.ml" 96 3158 3208
+call(
+  tail
+)
+type(
+  M.t
+)

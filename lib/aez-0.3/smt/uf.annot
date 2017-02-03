@@ -1,0 +1,7390 @@
+"smt/uf.ml" 56 1883 1898 "smt/uf.ml" 56 1883 1945
+call(
+  stack
+)
+"smt/uf.ml" 59 1973 2022 "smt/uf.ml" 59 1973 2029
+type(
+  R.r -> R.r -> int
+)
+ident(
+  def compare "smt/uf.ml" 59 1973 2041 "smt/uf.ml" 59 1973 2045
+)
+"smt/uf.ml" 59 1973 2032 "smt/uf.ml" 59 1973 2041
+type(
+  R.r -> R.r -> int
+)
+ident(
+  ext_ref R.compare
+)
+"smt/uf.ml" 59 1973 1989 "smt/uf.ml" 59 1973 2046
+call(
+  stack
+)
+"smt/uf.ml" 61 2048 2097 "smt/uf.ml" 61 2048 2104
+type(
+  R.r -> R.r -> int
+)
+ident(
+  def compare "smt/uf.ml" 61 2048 2116 "smt/uf.ml" 61 2048 2120
+)
+"smt/uf.ml" 61 2048 2107 "smt/uf.ml" 61 2048 2116
+type(
+  R.r -> R.r -> int
+)
+ident(
+  ext_ref R.compare
+)
+"smt/uf.ml" 61 2048 2064 "smt/uf.ml" 61 2048 2121
+call(
+  stack
+)
+"smt/uf.ml" 65 2181 2189 "smt/uf.ml" 65 2181 2196
+type(
+  R.r * R.r -> R.r * R.r -> int
+)
+ident(
+  def compare "smt/uf.ml" 68 2277 2306 "smt/uf.ml" 69 2307 2312
+)
+"smt/uf.ml" 65 2181 2198 "smt/uf.ml" 65 2181 2200
+type(
+  R.r
+)
+ident(
+  def r1 "smt/uf.ml" 65 2181 2207 "smt/uf.ml" 68 2277 2306
+)
+"smt/uf.ml" 65 2181 2202 "smt/uf.ml" 65 2181 2205
+type(
+  R.r
+)
+ident(
+  def r1' "smt/uf.ml" 65 2181 2207 "smt/uf.ml" 68 2277 2306
+)
+"smt/uf.ml" 65 2181 2197 "smt/uf.ml" 65 2181 2206
+type(
+  R.r * R.r
+)
+"smt/uf.ml" 65 2181 2208 "smt/uf.ml" 65 2181 2210
+type(
+  R.r
+)
+ident(
+  def r2 "smt/uf.ml" 66 2220 2226 "smt/uf.ml" 68 2277 2306
+)
+"smt/uf.ml" 65 2181 2212 "smt/uf.ml" 65 2181 2215
+type(
+  R.r
+)
+ident(
+  def r2' "smt/uf.ml" 66 2220 2226 "smt/uf.ml" 68 2277 2306
+)
+"smt/uf.ml" 65 2181 2207 "smt/uf.ml" 65 2181 2216
+type(
+  R.r * R.r
+)
+"smt/uf.ml" 66 2220 2230 "smt/uf.ml" 66 2220 2231
+type(
+  int
+)
+ident(
+  def c "smt/uf.ml" 67 2253 2259 "smt/uf.ml" 68 2277 2306
+)
+"smt/uf.ml" 66 2220 2234 "smt/uf.ml" 66 2220 2243
+type(
+  R.r -> R.r -> int
+)
+ident(
+  ext_ref R.compare
+)
+"smt/uf.ml" 66 2220 2244 "smt/uf.ml" 66 2220 2246
+type(
+  R.r
+)
+ident(
+  int_ref r1 "smt/uf.ml" 65 2181 2198 "smt/uf.ml" 65 2181 2200
+)
+"smt/uf.ml" 66 2220 2247 "smt/uf.ml" 66 2220 2249
+type(
+  R.r
+)
+ident(
+  int_ref r2 "smt/uf.ml" 65 2181 2208 "smt/uf.ml" 65 2181 2210
+)
+"smt/uf.ml" 66 2220 2234 "smt/uf.ml" 66 2220 2249
+call(
+  stack
+)
+type(
+  int
+)
+"smt/uf.ml" 67 2253 2262 "smt/uf.ml" 67 2253 2263
+type(
+  int
+)
+ident(
+  int_ref c "smt/uf.ml" 66 2220 2230 "smt/uf.ml" 66 2220 2231
+)
+"smt/uf.ml" 67 2253 2264 "smt/uf.ml" 67 2253 2266
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"smt/uf.ml" 67 2253 2267 "smt/uf.ml" 67 2253 2268
+type(
+  int
+)
+"smt/uf.ml" 67 2253 2262 "smt/uf.ml" 67 2253 2268
+type(
+  bool
+)
+"smt/uf.ml" 67 2253 2274 "smt/uf.ml" 67 2253 2275
+type(
+  int
+)
+ident(
+  int_ref c "smt/uf.ml" 66 2220 2230 "smt/uf.ml" 66 2220 2231
+)
+"smt/uf.ml" 68 2277 2289 "smt/uf.ml" 68 2277 2298
+type(
+  R.r -> R.r -> int
+)
+ident(
+  ext_ref R.compare
+)
+"smt/uf.ml" 68 2277 2299 "smt/uf.ml" 68 2277 2302
+type(
+  R.r
+)
+ident(
+  int_ref r1' "smt/uf.ml" 65 2181 2202 "smt/uf.ml" 65 2181 2205
+)
+"smt/uf.ml" 68 2277 2303 "smt/uf.ml" 68 2277 2306
+type(
+  R.r
+)
+ident(
+  int_ref r2' "smt/uf.ml" 65 2181 2212 "smt/uf.ml" 65 2181 2215
+)
+"smt/uf.ml" 68 2277 2289 "smt/uf.ml" 68 2277 2306
+call(
+  tail
+)
+type(
+  int
+)
+"smt/uf.ml" 67 2253 2259 "smt/uf.ml" 68 2277 2306
+type(
+  int
+)
+"smt/uf.ml" 66 2220 2226 "smt/uf.ml" 68 2277 2306
+type(
+  int
+)
+"smt/uf.ml" 63 2123 2140 "smt/uf.ml" 69 2307 2313
+call(
+  stack
+)
+"smt/uf.ml" 92 2734 2740 "smt/uf.ml" 92 2734 2745
+type(
+  t
+)
+ident(
+  def empty "smt/uf.ml" 100 2880 2882 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 93 2751 2763 "smt/uf.ml" 93 2751 2773
+type(
+  R.r MapT.t
+)
+ident(
+  ext_ref MapT.empty
+)
+"smt/uf.ml" 94 2776 2787 "smt/uf.ml" 94 2776 2797
+type(
+  (R.r * Ex.t) MapR.t
+)
+ident(
+  ext_ref MapR.empty
+)
+"smt/uf.ml" 95 2799 2813 "smt/uf.ml" 95 2799 2823
+type(
+  SetT.t MapR.t
+)
+ident(
+  ext_ref MapR.empty
+)
+"smt/uf.ml" 96 2826 2838 "smt/uf.ml" 96 2826 2848
+type(
+  SetR.t MapR.t
+)
+ident(
+  ext_ref MapR.empty
+)
+"smt/uf.ml" 97 2850 2861 "smt/uf.ml" 97 2850 2871
+type(
+  Ex.t MapL.t MapR.t
+)
+ident(
+  ext_ref MapR.empty
+)
+"smt/uf.ml" 92 2734 2748 "smt/uf.ml" 98 2873 2876
+type(
+  t
+)
+"smt/uf.ml" 102 2903 2911 "smt/uf.ml" 102 2903 2914
+type(
+  t -> MapT.key -> bool
+)
+ident(
+  def mem "smt/uf.ml" 104 2950 2954 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 102 2903 2915 "smt/uf.ml" 102 2903 2918
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 102 2903 2919 "smt/uf.ml" 102 2903 2942
+)
+"smt/uf.ml" 102 2903 2919 "smt/uf.ml" 102 2903 2920
+type(
+  MapT.key
+)
+ident(
+  def t "smt/uf.ml" 102 2903 2923 "smt/uf.ml" 102 2903 2942
+)
+"smt/uf.ml" 102 2903 2923 "smt/uf.ml" 102 2903 2931
+type(
+  MapT.key -> R.r MapT.t -> bool
+)
+ident(
+  ext_ref MapT.mem
+)
+"smt/uf.ml" 102 2903 2932 "smt/uf.ml" 102 2903 2933
+type(
+  MapT.key
+)
+ident(
+  int_ref t "smt/uf.ml" 102 2903 2919 "smt/uf.ml" 102 2903 2920
+)
+"smt/uf.ml" 102 2903 2934 "smt/uf.ml" 102 2903 2937
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 102 2903 2915 "smt/uf.ml" 102 2903 2918
+)
+"smt/uf.ml" 102 2903 2934 "smt/uf.ml" 102 2903 2942
+type(
+  R.r MapT.t
+)
+"smt/uf.ml" 102 2903 2923 "smt/uf.ml" 102 2903 2942
+call(
+  tail
+)
+type(
+  bool
+)
+"smt/uf.ml" 104 2950 2958 "smt/uf.ml" 104 2950 2969
+type(
+  MapT.key -> t -> R.r * Ex.t
+)
+ident(
+  def lookup_by_t "smt/uf.ml" 109 3107 3111 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 104 2950 2970 "smt/uf.ml" 104 2950 2971
+type(
+  MapT.key
+)
+ident(
+  def t "smt/uf.ml" 104 2950 2972 "smt/uf.ml" 107 3055 3068
+)
+"smt/uf.ml" 104 2950 2972 "smt/uf.ml" 104 2950 2975
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 105 2978 2984 "smt/uf.ml" 107 3055 3068
+)
+"smt/uf.ml" 105 2978 2988 "smt/uf.ml" 105 2978 2997
+type(
+  MapR.key -> (R.r * Ex.t) MapR.t -> R.r * Ex.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 105 2978 2999 "smt/uf.ml" 105 2978 3008
+type(
+  MapT.key -> R.r MapT.t -> R.r
+)
+ident(
+  ext_ref MapT.find
+)
+"smt/uf.ml" 105 2978 3009 "smt/uf.ml" 105 2978 3010
+type(
+  MapT.key
+)
+ident(
+  int_ref t "smt/uf.ml" 104 2950 2970 "smt/uf.ml" 104 2950 2971
+)
+"smt/uf.ml" 105 2978 3011 "smt/uf.ml" 105 2978 3014
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 104 2950 2972 "smt/uf.ml" 104 2950 2975
+)
+"smt/uf.ml" 105 2978 3011 "smt/uf.ml" 105 2978 3019
+type(
+  R.r MapT.t
+)
+"smt/uf.ml" 105 2978 2998 "smt/uf.ml" 105 2978 3020
+call(
+  stack
+)
+type(
+  R.r
+)
+"smt/uf.ml" 105 2978 3021 "smt/uf.ml" 105 2978 3024
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 104 2950 2972 "smt/uf.ml" 104 2950 2975
+)
+"smt/uf.ml" 105 2978 3021 "smt/uf.ml" 105 2978 3029
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 105 2978 2988 "smt/uf.ml" 105 2978 3029
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 106 3030 3041 "smt/uf.ml" 106 3030 3050
+type(
+  exn
+)
+"smt/uf.ml" 107 3055 3063 "smt/uf.ml" 107 3055 3068
+type(
+  bool
+)
+"smt/uf.ml" 107 3055 3056 "smt/uf.ml" 107 3055 3068
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 105 2978 2984 "smt/uf.ml" 107 3055 3068
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 109 3107 3115 "smt/uf.ml" 109 3107 3126
+type(
+  MapR.key -> t -> R.r * Ex.t
+)
+ident(
+  def lookup_by_r "smt/uf.ml" 112 3199 3203 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 109 3107 3127 "smt/uf.ml" 109 3107 3128
+type(
+  MapR.key
+)
+ident(
+  def r "smt/uf.ml" 109 3107 3129 "smt/uf.ml" 110 3136 3196
+)
+"smt/uf.ml" 109 3107 3129 "smt/uf.ml" 109 3107 3132
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 110 3136 3142 "smt/uf.ml" 110 3136 3196
+)
+"smt/uf.ml" 110 3136 3146 "smt/uf.ml" 110 3136 3155
+type(
+  MapR.key -> (R.r * Ex.t) MapR.t -> R.r * Ex.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 110 3136 3156 "smt/uf.ml" 110 3136 3157
+type(
+  MapR.key
+)
+ident(
+  int_ref r "smt/uf.ml" 109 3107 3127 "smt/uf.ml" 109 3107 3128
+)
+"smt/uf.ml" 110 3136 3158 "smt/uf.ml" 110 3136 3161
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 109 3107 3129 "smt/uf.ml" 109 3107 3132
+)
+"smt/uf.ml" 110 3136 3158 "smt/uf.ml" 110 3136 3166
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 110 3136 3146 "smt/uf.ml" 110 3136 3166
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 110 3136 3172 "smt/uf.ml" 110 3136 3181
+type(
+  exn
+)
+"smt/uf.ml" 110 3136 3185 "smt/uf.ml" 110 3136 3186
+type(
+  MapR.key
+)
+ident(
+  int_ref r "smt/uf.ml" 109 3107 3127 "smt/uf.ml" 109 3107 3128
+)
+"smt/uf.ml" 110 3136 3188 "smt/uf.ml" 110 3136 3196
+type(
+  Ex.t
+)
+ident(
+  ext_ref Ex.empty
+)
+"smt/uf.ml" 110 3136 3185 "smt/uf.ml" 110 3136 3196
+type(
+  MapR.key * Ex.t
+)
+"smt/uf.ml" 110 3136 3142 "smt/uf.ml" 110 3136 3196
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 112 3199 3207 "smt/uf.ml" 112 3199 3222
+type(
+  t -> MapR.key -> Ex.t MapL.t
+)
+ident(
+  def lookup_for_neqs "smt/uf.ml" 115 3293 3297 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 112 3199 3223 "smt/uf.ml" 112 3199 3226
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 112 3199 3227 "smt/uf.ml" 113 3231 3290
+)
+"smt/uf.ml" 112 3199 3227 "smt/uf.ml" 112 3199 3228
+type(
+  MapR.key
+)
+ident(
+  def r "smt/uf.ml" 113 3231 3237 "smt/uf.ml" 113 3231 3290
+)
+"smt/uf.ml" 113 3231 3241 "smt/uf.ml" 113 3231 3250
+type(
+  MapR.key -> Ex.t MapL.t MapR.t -> Ex.t MapL.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 113 3231 3251 "smt/uf.ml" 113 3231 3252
+type(
+  MapR.key
+)
+ident(
+  int_ref r "smt/uf.ml" 112 3199 3227 "smt/uf.ml" 112 3199 3228
+)
+"smt/uf.ml" 113 3231 3253 "smt/uf.ml" 113 3231 3256
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 112 3199 3223 "smt/uf.ml" 112 3199 3226
+)
+"smt/uf.ml" 113 3231 3253 "smt/uf.ml" 113 3231 3261
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 113 3231 3241 "smt/uf.ml" 113 3231 3261
+call(
+  stack
+)
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 113 3231 3267 "smt/uf.ml" 113 3231 3276
+type(
+  exn
+)
+"smt/uf.ml" 113 3231 3280 "smt/uf.ml" 113 3231 3290
+type(
+  Ex.t MapL.t
+)
+ident(
+  ext_ref MapL.empty
+)
+"smt/uf.ml" 113 3231 3237 "smt/uf.ml" 113 3231 3290
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 115 3293 3301 "smt/uf.ml" 115 3293 3315
+type(
+  SetT.elt -> MapR.key -> SetT.t MapR.t -> SetT.t MapR.t
+)
+ident(
+  def add_to_classes "smt/uf.ml" 120 3430 3434 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 115 3293 3316 "smt/uf.ml" 115 3293 3317
+type(
+  SetT.elt
+)
+ident(
+  def t "smt/uf.ml" 115 3293 3318 "smt/uf.ml" 118 3419 3427
+)
+"smt/uf.ml" 115 3293 3318 "smt/uf.ml" 115 3293 3319
+type(
+  MapR.key
+)
+ident(
+  def r "smt/uf.ml" 115 3293 3320 "smt/uf.ml" 118 3419 3427
+)
+"smt/uf.ml" 115 3293 3320 "smt/uf.ml" 115 3293 3327
+type(
+  SetT.t MapR.t
+)
+ident(
+  def classes "smt/uf.ml" 116 3332 3338 "smt/uf.ml" 118 3419 3427
+)
+"smt/uf.ml" 116 3332 3338 "smt/uf.ml" 116 3332 3346
+type(
+  MapR.key -> SetT.t -> SetT.t MapR.t -> SetT.t MapR.t
+)
+ident(
+  ext_ref MapR.add
+)
+"smt/uf.ml" 116 3332 3347 "smt/uf.ml" 116 3332 3348
+type(
+  MapR.key
+)
+ident(
+  int_ref r "smt/uf.ml" 115 3293 3318 "smt/uf.ml" 115 3293 3319
+)
+"smt/uf.ml" 117 3350 3352 "smt/uf.ml" 117 3350 3360
+type(
+  SetT.elt -> SetT.t -> SetT.t
+)
+ident(
+  ext_ref SetT.add
+)
+"smt/uf.ml" 117 3350 3361 "smt/uf.ml" 117 3350 3362
+type(
+  SetT.elt
+)
+ident(
+  int_ref t "smt/uf.ml" 115 3293 3316 "smt/uf.ml" 115 3293 3317
+)
+"smt/uf.ml" 117 3350 3368 "smt/uf.ml" 117 3350 3377
+type(
+  MapR.key -> SetT.t MapR.t -> SetT.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 117 3350 3378 "smt/uf.ml" 117 3350 3379
+type(
+  MapR.key
+)
+ident(
+  int_ref r "smt/uf.ml" 115 3293 3318 "smt/uf.ml" 115 3293 3319
+)
+"smt/uf.ml" 117 3350 3380 "smt/uf.ml" 117 3350 3387
+type(
+  SetT.t MapR.t
+)
+ident(
+  int_ref classes "smt/uf.ml" 115 3293 3320 "smt/uf.ml" 115 3293 3327
+)
+"smt/uf.ml" 117 3350 3368 "smt/uf.ml" 117 3350 3387
+call(
+  stack
+)
+type(
+  SetT.t
+)
+"smt/uf.ml" 117 3350 3393 "smt/uf.ml" 117 3350 3402
+type(
+  exn
+)
+"smt/uf.ml" 117 3350 3406 "smt/uf.ml" 117 3350 3416
+type(
+  SetT.t
+)
+ident(
+  ext_ref SetT.empty
+)
+"smt/uf.ml" 117 3350 3363 "smt/uf.ml" 117 3350 3417
+type(
+  SetT.t
+)
+"smt/uf.ml" 117 3350 3351 "smt/uf.ml" 117 3350 3418
+call(
+  stack
+)
+type(
+  SetT.t
+)
+"smt/uf.ml" 118 3419 3420 "smt/uf.ml" 118 3419 3427
+type(
+  SetT.t MapR.t
+)
+ident(
+  int_ref classes "smt/uf.ml" 115 3293 3320 "smt/uf.ml" 115 3293 3327
+)
+"smt/uf.ml" 116 3332 3338 "smt/uf.ml" 118 3419 3427
+call(
+  tail
+)
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 120 3430 3438 "smt/uf.ml" 120 3430 3452
+type(
+  MapR.key -> MapR.key -> SetT.t MapR.t -> SetT.t MapR.t
+)
+ident(
+  def update_classes "smt/uf.ml" 125 3675 3679 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 120 3430 3453 "smt/uf.ml" 120 3430 3454
+type(
+  MapR.key
+)
+ident(
+  def c "smt/uf.ml" 120 3430 3455 "smt/uf.ml" 123 3612 3672
+)
+"smt/uf.ml" 120 3430 3455 "smt/uf.ml" 120 3430 3457
+type(
+  MapR.key
+)
+ident(
+  def nc "smt/uf.ml" 120 3430 3458 "smt/uf.ml" 123 3612 3672
+)
+"smt/uf.ml" 120 3430 3458 "smt/uf.ml" 120 3430 3465
+type(
+  SetT.t MapR.t
+)
+ident(
+  def classes "smt/uf.ml" 121 3469 3475 "smt/uf.ml" 123 3612 3672
+)
+"smt/uf.ml" 121 3469 3479 "smt/uf.ml" 121 3469 3481
+type(
+  SetT.t
+)
+ident(
+  def s1 "smt/uf.ml" 122 3540 3546 "smt/uf.ml" 123 3612 3672
+)
+"smt/uf.ml" 121 3469 3488 "smt/uf.ml" 121 3469 3497
+type(
+  MapR.key -> SetT.t MapR.t -> SetT.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 121 3469 3498 "smt/uf.ml" 121 3469 3499
+type(
+  MapR.key
+)
+ident(
+  int_ref c "smt/uf.ml" 120 3430 3453 "smt/uf.ml" 120 3430 3454
+)
+"smt/uf.ml" 121 3469 3500 "smt/uf.ml" 121 3469 3507
+type(
+  SetT.t MapR.t
+)
+ident(
+  int_ref classes "smt/uf.ml" 120 3430 3458 "smt/uf.ml" 120 3430 3465
+)
+"smt/uf.ml" 121 3469 3488 "smt/uf.ml" 121 3469 3507
+call(
+  stack
+)
+type(
+  SetT.t
+)
+"smt/uf.ml" 121 3469 3513 "smt/uf.ml" 121 3469 3522
+type(
+  exn
+)
+"smt/uf.ml" 121 3469 3526 "smt/uf.ml" 121 3469 3536
+type(
+  SetT.t
+)
+ident(
+  ext_ref SetT.empty
+)
+"smt/uf.ml" 121 3469 3484 "smt/uf.ml" 121 3469 3536
+type(
+  SetT.t
+)
+"smt/uf.ml" 122 3540 3550 "smt/uf.ml" 122 3540 3552
+type(
+  SetT.t
+)
+ident(
+  def s2 "smt/uf.ml" 123 3612 3618 "smt/uf.ml" 123 3612 3672
+)
+"smt/uf.ml" 122 3540 3559 "smt/uf.ml" 122 3540 3568
+type(
+  MapR.key -> SetT.t MapR.t -> SetT.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 122 3540 3569 "smt/uf.ml" 122 3540 3571
+type(
+  MapR.key
+)
+ident(
+  int_ref nc "smt/uf.ml" 120 3430 3455 "smt/uf.ml" 120 3430 3457
+)
+"smt/uf.ml" 122 3540 3572 "smt/uf.ml" 122 3540 3579
+type(
+  SetT.t MapR.t
+)
+ident(
+  int_ref classes "smt/uf.ml" 120 3430 3458 "smt/uf.ml" 120 3430 3465
+)
+"smt/uf.ml" 122 3540 3559 "smt/uf.ml" 122 3540 3579
+call(
+  stack
+)
+type(
+  SetT.t
+)
+"smt/uf.ml" 122 3540 3585 "smt/uf.ml" 122 3540 3594
+type(
+  exn
+)
+"smt/uf.ml" 122 3540 3598 "smt/uf.ml" 122 3540 3608
+type(
+  SetT.t
+)
+ident(
+  ext_ref SetT.empty
+)
+"smt/uf.ml" 122 3540 3555 "smt/uf.ml" 122 3540 3608
+type(
+  SetT.t
+)
+"smt/uf.ml" 123 3612 3618 "smt/uf.ml" 123 3612 3629
+type(
+  MapR.key -> SetT.t MapR.t -> SetT.t MapR.t
+)
+ident(
+  ext_ref MapR.remove
+)
+"smt/uf.ml" 123 3612 3630 "smt/uf.ml" 123 3612 3631
+type(
+  MapR.key
+)
+ident(
+  int_ref c "smt/uf.ml" 120 3430 3453 "smt/uf.ml" 120 3430 3454
+)
+"smt/uf.ml" 123 3612 3633 "smt/uf.ml" 123 3612 3641
+type(
+  MapR.key -> SetT.t -> SetT.t MapR.t -> SetT.t MapR.t
+)
+ident(
+  ext_ref MapR.add
+)
+"smt/uf.ml" 123 3612 3642 "smt/uf.ml" 123 3612 3644
+type(
+  MapR.key
+)
+ident(
+  int_ref nc "smt/uf.ml" 120 3430 3455 "smt/uf.ml" 120 3430 3457
+)
+"smt/uf.ml" 123 3612 3646 "smt/uf.ml" 123 3612 3656
+type(
+  SetT.t -> SetT.t -> SetT.t
+)
+ident(
+  ext_ref SetT.union
+)
+"smt/uf.ml" 123 3612 3657 "smt/uf.ml" 123 3612 3659
+type(
+  SetT.t
+)
+ident(
+  int_ref s1 "smt/uf.ml" 121 3469 3479 "smt/uf.ml" 121 3469 3481
+)
+"smt/uf.ml" 123 3612 3660 "smt/uf.ml" 123 3612 3662
+type(
+  SetT.t
+)
+ident(
+  int_ref s2 "smt/uf.ml" 122 3540 3550 "smt/uf.ml" 122 3540 3552
+)
+"smt/uf.ml" 123 3612 3645 "smt/uf.ml" 123 3612 3663
+call(
+  stack
+)
+type(
+  SetT.t
+)
+"smt/uf.ml" 123 3612 3664 "smt/uf.ml" 123 3612 3671
+type(
+  SetT.t MapR.t
+)
+ident(
+  int_ref classes "smt/uf.ml" 120 3430 3458 "smt/uf.ml" 120 3430 3465
+)
+"smt/uf.ml" 123 3612 3632 "smt/uf.ml" 123 3612 3672
+call(
+  stack
+)
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 123 3612 3618 "smt/uf.ml" 123 3612 3672
+call(
+  tail
+)
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 122 3540 3546 "smt/uf.ml" 123 3612 3672
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 121 3469 3475 "smt/uf.ml" 123 3612 3672
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 125 3675 3683 "smt/uf.ml" 125 3675 3695
+type(
+  SetR.elt -> R.r -> SetR.t MapR.t -> SetR.t MapR.t
+)
+ident(
+  def add_to_gamma "smt/uf.ml" 132 3913 3917 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 125 3675 3696 "smt/uf.ml" 125 3675 3697
+type(
+  SetR.elt
+)
+ident(
+  def r "smt/uf.ml" 125 3675 3698 "smt/uf.ml" 129 3810 3864
+)
+"smt/uf.ml" 125 3675 3698 "smt/uf.ml" 125 3675 3699
+type(
+  R.r
+)
+ident(
+  def c "smt/uf.ml" 125 3675 3700 "smt/uf.ml" 129 3810 3864
+)
+"smt/uf.ml" 125 3675 3700 "smt/uf.ml" 125 3675 3705
+type(
+  SetR.t MapR.t
+)
+ident(
+  def gamma "smt/uf.ml" 126 3709 3715 "smt/uf.ml" 129 3810 3864
+)
+"smt/uf.ml" 126 3709 3715 "smt/uf.ml" 126 3709 3726
+type(
+  (SetR.t MapR.t -> MapR.key -> SetR.t MapR.t) ->
+  SetR.t MapR.t -> MapR.key list -> SetR.t MapR.t
+)
+ident(
+  ext_ref L.fold_left
+)
+"smt/uf.ml" 127 3727 3733 "smt/uf.ml" 127 3727 3738
+type(
+  SetR.t MapR.t
+)
+ident(
+  def gamma "smt/uf.ml" 127 3727 3739 "smt/uf.ml" 129 3810 3844
+)
+"smt/uf.ml" 127 3727 3739 "smt/uf.ml" 127 3727 3740
+type(
+  MapR.key
+)
+ident(
+  def x "smt/uf.ml" 128 3745 3748 "smt/uf.ml" 129 3810 3844
+)
+"smt/uf.ml" 128 3745 3752 "smt/uf.ml" 128 3745 3753
+type(
+  SetR.t
+)
+ident(
+  def s "smt/uf.ml" 129 3810 3813 "smt/uf.ml" 129 3810 3844
+)
+"smt/uf.ml" 128 3745 3760 "smt/uf.ml" 128 3745 3769
+type(
+  MapR.key -> SetR.t MapR.t -> SetR.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 128 3745 3770 "smt/uf.ml" 128 3745 3771
+type(
+  MapR.key
+)
+ident(
+  int_ref x "smt/uf.ml" 127 3727 3739 "smt/uf.ml" 127 3727 3740
+)
+"smt/uf.ml" 128 3745 3772 "smt/uf.ml" 128 3745 3777
+type(
+  SetR.t MapR.t
+)
+ident(
+  int_ref gamma "smt/uf.ml" 127 3727 3733 "smt/uf.ml" 127 3727 3738
+)
+"smt/uf.ml" 128 3745 3760 "smt/uf.ml" 128 3745 3777
+call(
+  stack
+)
+type(
+  SetR.t
+)
+"smt/uf.ml" 128 3745 3783 "smt/uf.ml" 128 3745 3792
+type(
+  exn
+)
+"smt/uf.ml" 128 3745 3796 "smt/uf.ml" 128 3745 3806
+type(
+  SetR.t
+)
+ident(
+  ext_ref SetR.empty
+)
+"smt/uf.ml" 128 3745 3756 "smt/uf.ml" 128 3745 3806
+type(
+  SetR.t
+)
+"smt/uf.ml" 129 3810 3813 "smt/uf.ml" 129 3810 3821
+type(
+  MapR.key -> SetR.t -> SetR.t MapR.t -> SetR.t MapR.t
+)
+ident(
+  ext_ref MapR.add
+)
+"smt/uf.ml" 129 3810 3822 "smt/uf.ml" 129 3810 3823
+type(
+  MapR.key
+)
+ident(
+  int_ref x "smt/uf.ml" 127 3727 3739 "smt/uf.ml" 127 3727 3740
+)
+"smt/uf.ml" 129 3810 3825 "smt/uf.ml" 129 3810 3833
+type(
+  SetR.elt -> SetR.t -> SetR.t
+)
+ident(
+  ext_ref SetR.add
+)
+"smt/uf.ml" 129 3810 3834 "smt/uf.ml" 129 3810 3835
+type(
+  SetR.elt
+)
+ident(
+  int_ref r "smt/uf.ml" 125 3675 3696 "smt/uf.ml" 125 3675 3697
+)
+"smt/uf.ml" 129 3810 3836 "smt/uf.ml" 129 3810 3837
+type(
+  SetR.t
+)
+ident(
+  int_ref s "smt/uf.ml" 128 3745 3752 "smt/uf.ml" 128 3745 3753
+)
+"smt/uf.ml" 129 3810 3824 "smt/uf.ml" 129 3810 3838
+call(
+  stack
+)
+type(
+  SetR.t
+)
+"smt/uf.ml" 129 3810 3839 "smt/uf.ml" 129 3810 3844
+type(
+  SetR.t MapR.t
+)
+ident(
+  int_ref gamma "smt/uf.ml" 127 3727 3733 "smt/uf.ml" 127 3727 3738
+)
+"smt/uf.ml" 129 3810 3813 "smt/uf.ml" 129 3810 3844
+call(
+  tail
+)
+type(
+  SetR.t MapR.t
+)
+"smt/uf.ml" 128 3745 3748 "smt/uf.ml" 129 3810 3844
+type(
+  SetR.t MapR.t
+)
+"smt/uf.ml" 127 3727 3728 "smt/uf.ml" 129 3810 3845
+type(
+  SetR.t MapR.t -> MapR.key -> SetR.t MapR.t
+)
+"smt/uf.ml" 129 3810 3846 "smt/uf.ml" 129 3810 3851
+type(
+  SetR.t MapR.t
+)
+ident(
+  int_ref gamma "smt/uf.ml" 125 3675 3700 "smt/uf.ml" 125 3675 3705
+)
+"smt/uf.ml" 129 3810 3853 "smt/uf.ml" 129 3810 3861
+type(
+  R.r -> MapR.key list
+)
+ident(
+  ext_ref R.leaves
+)
+"smt/uf.ml" 129 3810 3862 "smt/uf.ml" 129 3810 3863
+type(
+  R.r
+)
+ident(
+  int_ref c "smt/uf.ml" 125 3675 3698 "smt/uf.ml" 125 3675 3699
+)
+"smt/uf.ml" 129 3810 3852 "smt/uf.ml" 129 3810 3864
+call(
+  stack
+)
+type(
+  MapR.key list
+)
+"smt/uf.ml" 126 3709 3715 "smt/uf.ml" 129 3810 3864
+call(
+  tail
+)
+type(
+  SetR.t MapR.t
+)
+"smt/uf.ml" 132 3913 3921 "smt/uf.ml" 132 3913 3932
+type(
+  MapR.key -> MapR.key -> Ex.t -> t -> Ex.t MapL.t MapR.t
+)
+ident(
+  def update_neqs "smt/uf.ml" 148 4385 4389 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 132 3913 3933 "smt/uf.ml" 132 3913 3935
+type(
+  MapR.key
+)
+ident(
+  def r1 "smt/uf.ml" 132 3913 3936 "smt/uf.ml" 146 4333 4383
+)
+"smt/uf.ml" 132 3913 3936 "smt/uf.ml" 132 3913 3938
+type(
+  MapR.key
+)
+ident(
+  def r2 "smt/uf.ml" 132 3913 3939 "smt/uf.ml" 146 4333 4383
+)
+"smt/uf.ml" 132 3913 3939 "smt/uf.ml" 132 3913 3942
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/uf.ml" 132 3913 3943 "smt/uf.ml" 146 4333 4383
+)
+"smt/uf.ml" 132 3913 3943 "smt/uf.ml" 132 3913 3946
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 133 3950 3956 "smt/uf.ml" 146 4333 4383
+)
+"smt/uf.ml" 133 3950 3960 "smt/uf.ml" 133 3950 3965
+type(
+  Ex.t MapL.t
+)
+ident(
+  def nq_r1 "smt/uf.ml" 134 3994 4000 "smt/uf.ml" 146 4333 4383
+)
+"smt/uf.ml" 133 3950 3968 "smt/uf.ml" 133 3950 3983
+type(
+  t -> MapR.key -> Ex.t MapL.t
+)
+ident(
+  int_ref lookup_for_neqs "smt/uf.ml" 112 3199 3207 "smt/uf.ml" 112 3199 3222
+)
+"smt/uf.ml" 133 3950 3984 "smt/uf.ml" 133 3950 3987
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 132 3913 3943 "smt/uf.ml" 132 3913 3946
+)
+"smt/uf.ml" 133 3950 3988 "smt/uf.ml" 133 3950 3990
+type(
+  MapR.key
+)
+ident(
+  int_ref r1 "smt/uf.ml" 132 3913 3933 "smt/uf.ml" 132 3913 3935
+)
+"smt/uf.ml" 133 3950 3968 "smt/uf.ml" 133 3950 3990
+call(
+  stack
+)
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 134 3994 4004 "smt/uf.ml" 134 3994 4009
+type(
+  Ex.t MapL.t
+)
+ident(
+  def nq_r2 "smt/uf.ml" 135 4038 4044 "smt/uf.ml" 146 4333 4383
+)
+"smt/uf.ml" 134 3994 4012 "smt/uf.ml" 134 3994 4027
+type(
+  t -> MapR.key -> Ex.t MapL.t
+)
+ident(
+  int_ref lookup_for_neqs "smt/uf.ml" 112 3199 3207 "smt/uf.ml" 112 3199 3222
+)
+"smt/uf.ml" 134 3994 4028 "smt/uf.ml" 134 3994 4031
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 132 3913 3943 "smt/uf.ml" 132 3913 3946
+)
+"smt/uf.ml" 134 3994 4032 "smt/uf.ml" 134 3994 4034
+type(
+  MapR.key
+)
+ident(
+  int_ref r2 "smt/uf.ml" 132 3913 3936 "smt/uf.ml" 132 3913 3938
+)
+"smt/uf.ml" 134 3994 4012 "smt/uf.ml" 134 3994 4034
+call(
+  stack
+)
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 135 4038 4048 "smt/uf.ml" 135 4038 4052
+type(
+  Ex.t MapL.t
+)
+ident(
+  def mapl "smt/uf.ml" 146 4333 4339 "smt/uf.ml" 146 4333 4383
+)
+"smt/uf.ml" 136 4056 4057 "smt/uf.ml" 136 4056 4066
+type(
+  (MapL.key -> Ex.t -> Ex.t MapL.t -> Ex.t MapL.t) ->
+  Ex.t MapL.t -> Ex.t MapL.t -> Ex.t MapL.t
+)
+ident(
+  ext_ref MapL.fold
+)
+"smt/uf.ml" 137 4067 4075 "smt/uf.ml" 137 4067 4077
+type(
+  MapL.key
+)
+ident(
+  def l1 "smt/uf.ml" 137 4067 4078 "smt/uf.ml" 143 4263 4306
+)
+"smt/uf.ml" 137 4067 4078 "smt/uf.ml" 137 4067 4081
+type(
+  Ex.t
+)
+ident(
+  def ex1 "smt/uf.ml" 137 4067 4082 "smt/uf.ml" 143 4263 4306
+)
+"smt/uf.ml" 137 4067 4082 "smt/uf.ml" 137 4067 4086
+type(
+  Ex.t MapL.t
+)
+ident(
+  def mapl "smt/uf.ml" 138 4092 4098 "smt/uf.ml" 143 4263 4306
+)
+"smt/uf.ml" 139 4103 4115 "smt/uf.ml" 139 4103 4118
+type(
+  Ex.t
+)
+ident(
+  def ex2 "smt/uf.ml" 140 4142 4150 "smt/uf.ml" 141 4206 4237
+)
+"smt/uf.ml" 139 4103 4121 "smt/uf.ml" 139 4103 4130
+type(
+  MapL.key -> Ex.t MapL.t -> Ex.t
+)
+ident(
+  ext_ref MapL.find
+)
+"smt/uf.ml" 139 4103 4131 "smt/uf.ml" 139 4103 4133
+type(
+  MapL.key
+)
+ident(
+  int_ref l1 "smt/uf.ml" 137 4067 4075 "smt/uf.ml" 137 4067 4077
+)
+"smt/uf.ml" 139 4103 4134 "smt/uf.ml" 139 4103 4138
+type(
+  Ex.t MapL.t
+)
+ident(
+  int_ref mapl "smt/uf.ml" 137 4067 4082 "smt/uf.ml" 137 4067 4086
+)
+"smt/uf.ml" 139 4103 4121 "smt/uf.ml" 139 4103 4138
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 140 4142 4154 "smt/uf.ml" 140 4142 4156
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/uf.ml" 141 4206 4214 "smt/uf.ml" 141 4206 4237
+)
+"smt/uf.ml" 140 4142 4159 "smt/uf.ml" 140 4142 4167
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 140 4142 4169 "smt/uf.ml" 140 4142 4177
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 140 4142 4178 "smt/uf.ml" 140 4142 4181
+type(
+  Ex.t
+)
+ident(
+  int_ref ex1 "smt/uf.ml" 137 4067 4078 "smt/uf.ml" 137 4067 4081
+)
+"smt/uf.ml" 140 4142 4182 "smt/uf.ml" 140 4142 4185
+type(
+  Ex.t
+)
+ident(
+  int_ref ex2 "smt/uf.ml" 139 4103 4115 "smt/uf.ml" 139 4103 4118
+)
+"smt/uf.ml" 140 4142 4168 "smt/uf.ml" 140 4142 4186
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 140 4142 4187 "smt/uf.ml" 140 4142 4190
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 132 3913 3939 "smt/uf.ml" 132 3913 3942
+)
+"smt/uf.ml" 140 4142 4159 "smt/uf.ml" 140 4142 4190
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 141 4206 4214 "smt/uf.ml" 141 4206 4219
+type(
+  exn -> Ex.t MapL.t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/uf.ml" 141 4206 4234 "smt/uf.ml" 141 4206 4236
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/uf.ml" 140 4142 4154 "smt/uf.ml" 140 4142 4156
+)
+"smt/uf.ml" 141 4206 4220 "smt/uf.ml" 141 4206 4237
+type(
+  exn
+)
+"smt/uf.ml" 141 4206 4214 "smt/uf.ml" 141 4206 4237
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 140 4142 4150 "smt/uf.ml" 141 4206 4237
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 139 4103 4111 "smt/uf.ml" 141 4206 4237
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 142 4238 4249 "smt/uf.ml" 142 4238 4258
+type(
+  exn
+)
+"smt/uf.ml" 143 4263 4271 "smt/uf.ml" 143 4263 4279
+type(
+  MapL.key -> Ex.t -> Ex.t MapL.t -> Ex.t MapL.t
+)
+ident(
+  ext_ref MapL.add
+)
+"smt/uf.ml" 143 4263 4280 "smt/uf.ml" 143 4263 4282
+type(
+  MapL.key
+)
+ident(
+  int_ref l1 "smt/uf.ml" 137 4067 4075 "smt/uf.ml" 137 4067 4077
+)
+"smt/uf.ml" 143 4263 4284 "smt/uf.ml" 143 4263 4292
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 143 4263 4293 "smt/uf.ml" 143 4263 4296
+type(
+  Ex.t
+)
+ident(
+  int_ref ex1 "smt/uf.ml" 137 4067 4078 "smt/uf.ml" 137 4067 4081
+)
+"smt/uf.ml" 143 4263 4297 "smt/uf.ml" 143 4263 4300
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 132 3913 3939 "smt/uf.ml" 132 3913 3942
+)
+"smt/uf.ml" 143 4263 4283 "smt/uf.ml" 143 4263 4301
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 143 4263 4302 "smt/uf.ml" 143 4263 4306
+type(
+  Ex.t MapL.t
+)
+ident(
+  int_ref mapl "smt/uf.ml" 137 4067 4082 "smt/uf.ml" 137 4067 4086
+)
+"smt/uf.ml" 143 4263 4271 "smt/uf.ml" 143 4263 4306
+call(
+  tail
+)
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 138 4092 4098 "smt/uf.ml" 143 4263 4306
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 137 4067 4070 "smt/uf.ml" 143 4263 4307
+type(
+  MapL.key -> Ex.t -> Ex.t MapL.t -> Ex.t MapL.t
+)
+"smt/uf.ml" 144 4309 4312 "smt/uf.ml" 144 4309 4317
+type(
+  Ex.t MapL.t
+)
+ident(
+  int_ref nq_r1 "smt/uf.ml" 133 3950 3960 "smt/uf.ml" 133 3950 3965
+)
+"smt/uf.ml" 144 4309 4318 "smt/uf.ml" 144 4309 4323
+type(
+  Ex.t MapL.t
+)
+ident(
+  int_ref nq_r2 "smt/uf.ml" 134 3994 4004 "smt/uf.ml" 134 3994 4009
+)
+"smt/uf.ml" 136 4056 4057 "smt/uf.ml" 144 4309 4323
+call(
+  stack
+)
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 146 4333 4339 "smt/uf.ml" 146 4333 4347
+type(
+  MapR.key -> Ex.t MapL.t -> Ex.t MapL.t MapR.t -> Ex.t MapL.t MapR.t
+)
+ident(
+  ext_ref MapR.add
+)
+"smt/uf.ml" 146 4333 4348 "smt/uf.ml" 146 4333 4350
+type(
+  MapR.key
+)
+ident(
+  int_ref r2 "smt/uf.ml" 132 3913 3936 "smt/uf.ml" 132 3913 3938
+)
+"smt/uf.ml" 146 4333 4351 "smt/uf.ml" 146 4333 4355
+type(
+  Ex.t MapL.t
+)
+ident(
+  int_ref mapl "smt/uf.ml" 135 4038 4048 "smt/uf.ml" 135 4038 4052
+)
+"smt/uf.ml" 146 4333 4357 "smt/uf.ml" 146 4333 4365
+type(
+  MapR.key -> Ex.t MapL.t -> Ex.t MapL.t MapR.t -> Ex.t MapL.t MapR.t
+)
+ident(
+  ext_ref MapR.add
+)
+"smt/uf.ml" 146 4333 4366 "smt/uf.ml" 146 4333 4368
+type(
+  MapR.key
+)
+ident(
+  int_ref r1 "smt/uf.ml" 132 3913 3933 "smt/uf.ml" 132 3913 3935
+)
+"smt/uf.ml" 146 4333 4369 "smt/uf.ml" 146 4333 4373
+type(
+  Ex.t MapL.t
+)
+ident(
+  int_ref mapl "smt/uf.ml" 135 4038 4048 "smt/uf.ml" 135 4038 4052
+)
+"smt/uf.ml" 146 4333 4374 "smt/uf.ml" 146 4333 4377
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 132 3913 3943 "smt/uf.ml" 132 3913 3946
+)
+"smt/uf.ml" 146 4333 4374 "smt/uf.ml" 146 4333 4382
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 146 4333 4356 "smt/uf.ml" 146 4333 4383
+call(
+  stack
+)
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 146 4333 4339 "smt/uf.ml" 146 4333 4383
+call(
+  tail
+)
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 135 4038 4044 "smt/uf.ml" 146 4333 4383
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 134 3994 4000 "smt/uf.ml" 146 4333 4383
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 133 3950 3956 "smt/uf.ml" 146 4333 4383
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 148 4385 4393 "smt/uf.ml" 148 4385 4406
+type(
+  R.r -> SetR.t
+)
+ident(
+  def filter_leaves "smt/uf.ml" 151 4482 4486 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 148 4385 4407 "smt/uf.ml" 148 4385 4408
+type(
+  R.r
+)
+ident(
+  def r "smt/uf.ml" 149 4412 4418 "smt/uf.ml" 149 4412 4479
+)
+"smt/uf.ml" 149 4412 4418 "smt/uf.ml" 149 4412 4429
+type(
+  (SetR.t -> SetR.elt -> SetR.t) -> SetR.t -> SetR.elt list -> SetR.t
+)
+ident(
+  ext_ref L.fold_left
+)
+"smt/uf.ml" 149 4412 4435 "smt/uf.ml" 149 4412 4436
+type(
+  SetR.t
+)
+ident(
+  def p "smt/uf.ml" 149 4412 4437 "smt/uf.ml" 149 4412 4454
+)
+"smt/uf.ml" 149 4412 4437 "smt/uf.ml" 149 4412 4438
+type(
+  SetR.elt
+)
+ident(
+  def r "smt/uf.ml" 149 4412 4442 "smt/uf.ml" 149 4412 4454
+)
+"smt/uf.ml" 149 4412 4442 "smt/uf.ml" 149 4412 4450
+type(
+  SetR.elt -> SetR.t -> SetR.t
+)
+ident(
+  ext_ref SetR.add
+)
+"smt/uf.ml" 149 4412 4451 "smt/uf.ml" 149 4412 4452
+type(
+  SetR.elt
+)
+ident(
+  int_ref r "smt/uf.ml" 149 4412 4437 "smt/uf.ml" 149 4412 4438
+)
+"smt/uf.ml" 149 4412 4453 "smt/uf.ml" 149 4412 4454
+type(
+  SetR.t
+)
+ident(
+  int_ref p "smt/uf.ml" 149 4412 4435 "smt/uf.ml" 149 4412 4436
+)
+"smt/uf.ml" 149 4412 4442 "smt/uf.ml" 149 4412 4454
+call(
+  tail
+)
+type(
+  SetR.t
+)
+"smt/uf.ml" 149 4412 4430 "smt/uf.ml" 149 4412 4455
+type(
+  SetR.t -> SetR.elt -> SetR.t
+)
+"smt/uf.ml" 149 4412 4456 "smt/uf.ml" 149 4412 4466
+type(
+  SetR.t
+)
+ident(
+  ext_ref SetR.empty
+)
+"smt/uf.ml" 149 4412 4468 "smt/uf.ml" 149 4412 4476
+type(
+  R.r -> SetR.elt list
+)
+ident(
+  ext_ref R.leaves
+)
+"smt/uf.ml" 149 4412 4477 "smt/uf.ml" 149 4412 4478
+type(
+  R.r
+)
+ident(
+  int_ref r "smt/uf.ml" 148 4385 4407 "smt/uf.ml" 148 4385 4408
+)
+"smt/uf.ml" 149 4412 4467 "smt/uf.ml" 149 4412 4479
+call(
+  stack
+)
+type(
+  SetR.elt list
+)
+"smt/uf.ml" 149 4412 4418 "smt/uf.ml" 149 4412 4479
+call(
+  tail
+)
+type(
+  SetR.t
+)
+"smt/uf.ml" 151 4482 4490 "smt/uf.ml" 151 4482 4501
+type(
+  SetR.t -> t -> (SetR.elt * R.r) list * Ex.t
+)
+ident(
+  def canon_empty "smt/uf.ml" 158 4684 4688 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 151 4482 4502 "smt/uf.ml" 151 4482 4504
+type(
+  SetR.t
+)
+ident(
+  def st "smt/uf.ml" 151 4482 4505 "smt/uf.ml" 156 4664 4682
+)
+"smt/uf.ml" 151 4482 4505 "smt/uf.ml" 151 4482 4508
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 152 4513 4519 "smt/uf.ml" 156 4664 4682
+)
+"smt/uf.ml" 152 4513 4519 "smt/uf.ml" 152 4513 4528
+type(
+  (SetR.elt -> (SetR.elt * R.r) list * Ex.t -> (SetR.elt * R.r) list * Ex.t) ->
+  SetR.t -> (SetR.elt * R.r) list * Ex.t -> (SetR.elt * R.r) list * Ex.t
+)
+ident(
+  ext_ref SetR.fold
+)
+"smt/uf.ml" 153 4529 4535 "smt/uf.ml" 153 4529 4536
+type(
+  SetR.elt
+)
+ident(
+  def p "smt/uf.ml" 153 4529 4537 "smt/uf.ml" 155 4604 4662
+)
+"smt/uf.ml" 153 4529 4539 "smt/uf.ml" 153 4529 4540
+type(
+  (SetR.elt * R.r) list
+)
+ident(
+  def z "smt/uf.ml" 154 4558 4568 "smt/uf.ml" 155 4604 4662
+)
+"smt/uf.ml" 153 4529 4542 "smt/uf.ml" 153 4529 4544
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/uf.ml" 154 4558 4568 "smt/uf.ml" 155 4604 4662
+)
+"smt/uf.ml" 153 4529 4538 "smt/uf.ml" 153 4529 4545
+type(
+  (SetR.elt * R.r) list * Ex.t
+)
+"smt/uf.ml" 153 4529 4549 "smt/uf.ml" 153 4529 4552
+ident(
+  def acc "smt/uf.ml" 154 4558 4568 "smt/uf.ml" 155 4604 4662
+)
+"smt/uf.ml" 153 4529 4537 "smt/uf.ml" 153 4529 4553
+type(
+  (SetR.elt * R.r) list * Ex.t
+)
+"smt/uf.ml" 154 4558 4572 "smt/uf.ml" 154 4558 4573
+type(
+  R.r
+)
+ident(
+  def q "smt/uf.ml" 155 4604 4607 "smt/uf.ml" 155 4604 4662
+)
+"smt/uf.ml" 154 4558 4575 "smt/uf.ml" 154 4558 4579
+type(
+  Ex.t
+)
+ident(
+  def ex_q "smt/uf.ml" 155 4604 4607 "smt/uf.ml" 155 4604 4662
+)
+"smt/uf.ml" 154 4558 4572 "smt/uf.ml" 154 4558 4579
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 154 4558 4582 "smt/uf.ml" 154 4558 4593
+type(
+  MapR.key -> t -> R.r * Ex.t
+)
+ident(
+  int_ref lookup_by_r "smt/uf.ml" 109 3107 3115 "smt/uf.ml" 109 3107 3126
+)
+"smt/uf.ml" 154 4558 4594 "smt/uf.ml" 154 4558 4595
+type(
+  SetR.elt
+)
+ident(
+  int_ref p "smt/uf.ml" 153 4529 4535 "smt/uf.ml" 153 4529 4536
+)
+"smt/uf.ml" 154 4558 4596 "smt/uf.ml" 154 4558 4599
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 151 4482 4505 "smt/uf.ml" 151 4482 4508
+)
+"smt/uf.ml" 154 4558 4582 "smt/uf.ml" 154 4558 4599
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 155 4604 4610 "smt/uf.ml" 155 4604 4617
+type(
+  R.r -> R.r -> bool
+)
+ident(
+  ext_ref R.equal
+)
+"smt/uf.ml" 155 4604 4618 "smt/uf.ml" 155 4604 4619
+type(
+  SetR.elt
+)
+ident(
+  int_ref p "smt/uf.ml" 153 4529 4535 "smt/uf.ml" 153 4529 4536
+)
+"smt/uf.ml" 155 4604 4620 "smt/uf.ml" 155 4604 4621
+type(
+  R.r
+)
+ident(
+  int_ref q "smt/uf.ml" 154 4558 4572 "smt/uf.ml" 154 4558 4573
+)
+"smt/uf.ml" 155 4604 4610 "smt/uf.ml" 155 4604 4621
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 155 4604 4627 "smt/uf.ml" 155 4604 4630
+type(
+  (SetR.elt * R.r) list * Ex.t
+)
+ident(
+  int_ref acc "smt/uf.ml" 153 4529 4537 "smt/uf.ml" 153 4529 4553
+)
+"smt/uf.ml" 155 4604 4637 "smt/uf.ml" 155 4604 4638
+type(
+  SetR.elt
+)
+ident(
+  int_ref p "smt/uf.ml" 153 4529 4535 "smt/uf.ml" 153 4529 4536
+)
+"smt/uf.ml" 155 4604 4639 "smt/uf.ml" 155 4604 4640
+type(
+  R.r
+)
+ident(
+  int_ref q "smt/uf.ml" 154 4558 4572 "smt/uf.ml" 154 4558 4573
+)
+"smt/uf.ml" 155 4604 4636 "smt/uf.ml" 155 4604 4641
+type(
+  SetR.elt * R.r
+)
+"smt/uf.ml" 155 4604 4643 "smt/uf.ml" 155 4604 4644
+type(
+  (SetR.elt * R.r) list
+)
+ident(
+  int_ref z "smt/uf.ml" 153 4529 4539 "smt/uf.ml" 153 4529 4540
+)
+"smt/uf.ml" 155 4604 4636 "smt/uf.ml" 155 4604 4644
+type(
+  (SetR.elt * R.r) list
+)
+"smt/uf.ml" 155 4604 4646 "smt/uf.ml" 155 4604 4654
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 155 4604 4655 "smt/uf.ml" 155 4604 4659
+type(
+  Ex.t
+)
+ident(
+  int_ref ex_q "smt/uf.ml" 154 4558 4575 "smt/uf.ml" 154 4558 4579
+)
+"smt/uf.ml" 155 4604 4660 "smt/uf.ml" 155 4604 4662
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/uf.ml" 153 4529 4542 "smt/uf.ml" 153 4529 4544
+)
+"smt/uf.ml" 155 4604 4646 "smt/uf.ml" 155 4604 4662
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 155 4604 4636 "smt/uf.ml" 155 4604 4662
+type(
+  (SetR.elt * R.r) list * Ex.t
+)
+"smt/uf.ml" 155 4604 4607 "smt/uf.ml" 155 4604 4662
+type(
+  (SetR.elt * R.r) list * Ex.t
+)
+"smt/uf.ml" 154 4558 4568 "smt/uf.ml" 155 4604 4662
+type(
+  (SetR.elt * R.r) list * Ex.t
+)
+"smt/uf.ml" 153 4529 4530 "smt/uf.ml" 155 4604 4663
+type(
+  SetR.elt -> (SetR.elt * R.r) list * Ex.t -> (SetR.elt * R.r) list * Ex.t
+)
+"smt/uf.ml" 156 4664 4665 "smt/uf.ml" 156 4664 4667
+type(
+  SetR.t
+)
+ident(
+  int_ref st "smt/uf.ml" 151 4482 4502 "smt/uf.ml" 151 4482 4504
+)
+"smt/uf.ml" 156 4664 4669 "smt/uf.ml" 156 4664 4671
+type(
+  (SetR.elt * R.r) list
+)
+"smt/uf.ml" 156 4664 4673 "smt/uf.ml" 156 4664 4681
+type(
+  Ex.t
+)
+ident(
+  ext_ref Ex.empty
+)
+"smt/uf.ml" 156 4664 4668 "smt/uf.ml" 156 4664 4682
+type(
+  (SetR.elt * R.r) list * Ex.t
+)
+"smt/uf.ml" 152 4513 4519 "smt/uf.ml" 156 4664 4682
+call(
+  tail
+)
+type(
+  (SetR.elt * R.r) list * Ex.t
+)
+"smt/uf.ml" 158 4684 4692 "smt/uf.ml" 158 4684 4701
+type(
+  R.r -> (R.r * R.r) list -> R.r
+)
+ident(
+  def canon_aux "smt/uf.ml" 160 4757 4761 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 158 4684 4702 "smt/uf.ml" 158 4684 4704
+type(
+  R.r
+)
+ident(
+  def rx "smt/uf.ml" 158 4684 4707 "smt/uf.ml" 158 4684 4755
+)
+"smt/uf.ml" 158 4684 4707 "smt/uf.ml" 158 4684 4721
+type(
+  (R.r -> R.r * R.r -> R.r) -> R.r -> (R.r * R.r) list -> R.r
+)
+ident(
+  ext_ref List.fold_left
+)
+"smt/uf.ml" 158 4684 4727 "smt/uf.ml" 158 4684 4728
+type(
+  R.r
+)
+ident(
+  def r "smt/uf.ml" 158 4684 4729 "smt/uf.ml" 158 4684 4751
+)
+"smt/uf.ml" 158 4684 4730 "smt/uf.ml" 158 4684 4731
+type(
+  R.r
+)
+ident(
+  def p "smt/uf.ml" 158 4684 4738 "smt/uf.ml" 158 4684 4751
+)
+"smt/uf.ml" 158 4684 4732 "smt/uf.ml" 158 4684 4733
+type(
+  R.r
+)
+ident(
+  def v "smt/uf.ml" 158 4684 4738 "smt/uf.ml" 158 4684 4751
+)
+"smt/uf.ml" 158 4684 4729 "smt/uf.ml" 158 4684 4734
+type(
+  R.r * R.r
+)
+"smt/uf.ml" 158 4684 4738 "smt/uf.ml" 158 4684 4745
+type(
+  R.r -> R.r -> R.r -> R.r
+)
+ident(
+  ext_ref R.subst
+)
+"smt/uf.ml" 158 4684 4746 "smt/uf.ml" 158 4684 4747
+type(
+  R.r
+)
+ident(
+  int_ref p "smt/uf.ml" 158 4684 4730 "smt/uf.ml" 158 4684 4731
+)
+"smt/uf.ml" 158 4684 4748 "smt/uf.ml" 158 4684 4749
+type(
+  R.r
+)
+ident(
+  int_ref v "smt/uf.ml" 158 4684 4732 "smt/uf.ml" 158 4684 4733
+)
+"smt/uf.ml" 158 4684 4750 "smt/uf.ml" 158 4684 4751
+type(
+  R.r
+)
+ident(
+  int_ref r "smt/uf.ml" 158 4684 4727 "smt/uf.ml" 158 4684 4728
+)
+"smt/uf.ml" 158 4684 4738 "smt/uf.ml" 158 4684 4751
+call(
+  tail
+)
+type(
+  R.r
+)
+"smt/uf.ml" 158 4684 4722 "smt/uf.ml" 158 4684 4752
+type(
+  R.r -> R.r * R.r -> R.r
+)
+"smt/uf.ml" 158 4684 4753 "smt/uf.ml" 158 4684 4755
+type(
+  R.r
+)
+ident(
+  int_ref rx "smt/uf.ml" 158 4684 4702 "smt/uf.ml" 158 4684 4704
+)
+"smt/uf.ml" 158 4684 4707 "smt/uf.ml" 158 4684 4755
+call(
+  tail
+)
+type(
+  (R.r * R.r) list -> R.r
+)
+"smt/uf.ml" 160 4757 4769 "smt/uf.ml" 160 4757 4774
+type(
+  t -> R.r -> Ex.t -> R.r * Ex.t
+)
+ident(
+  def canon "smt/uf.ml" 160 4757 4761 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 160 4757 4775 "smt/uf.ml" 160 4757 4778
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 160 4757 4779 "smt/uf.ml" 165 4953 5013
+)
+"smt/uf.ml" 160 4757 4779 "smt/uf.ml" 160 4757 4780
+type(
+  R.r
+)
+ident(
+  def r "smt/uf.ml" 160 4757 4781 "smt/uf.ml" 165 4953 5013
+)
+"smt/uf.ml" 160 4757 4781 "smt/uf.ml" 160 4757 4785
+type(
+  Ex.t
+)
+ident(
+  def ex_r "smt/uf.ml" 161 4789 4795 "smt/uf.ml" 165 4953 5013
+)
+"smt/uf.ml" 161 4789 4799 "smt/uf.ml" 161 4789 4801
+type(
+  SetR.t
+)
+ident(
+  def se "smt/uf.ml" 162 4823 4829 "smt/uf.ml" 165 4953 5013
+)
+"smt/uf.ml" 161 4789 4804 "smt/uf.ml" 161 4789 4817
+type(
+  R.r -> SetR.t
+)
+ident(
+  int_ref filter_leaves "smt/uf.ml" 148 4385 4393 "smt/uf.ml" 148 4385 4406
+)
+"smt/uf.ml" 161 4789 4818 "smt/uf.ml" 161 4789 4819
+type(
+  R.r
+)
+ident(
+  int_ref r "smt/uf.ml" 160 4757 4779 "smt/uf.ml" 160 4757 4780
+)
+"smt/uf.ml" 161 4789 4804 "smt/uf.ml" 161 4789 4819
+call(
+  stack
+)
+type(
+  SetR.t
+)
+"smt/uf.ml" 162 4823 4833 "smt/uf.ml" 162 4823 4838
+type(
+  (SetR.elt * R.r) list
+)
+ident(
+  def subst "smt/uf.ml" 163 4873 4879 "smt/uf.ml" 165 4953 5013
+)
+"smt/uf.ml" 162 4823 4840 "smt/uf.ml" 162 4823 4848
+type(
+  Ex.t
+)
+ident(
+  def ex_subst "smt/uf.ml" 163 4873 4879 "smt/uf.ml" 165 4953 5013
+)
+"smt/uf.ml" 162 4823 4833 "smt/uf.ml" 162 4823 4848
+type(
+  (SetR.elt * R.r) list * Ex.t
+)
+"smt/uf.ml" 162 4823 4851 "smt/uf.ml" 162 4823 4862
+type(
+  SetR.t -> t -> (SetR.elt * R.r) list * Ex.t
+)
+ident(
+  int_ref canon_empty "smt/uf.ml" 151 4482 4490 "smt/uf.ml" 151 4482 4501
+)
+"smt/uf.ml" 162 4823 4863 "smt/uf.ml" 162 4823 4865
+type(
+  SetR.t
+)
+ident(
+  int_ref se "smt/uf.ml" 161 4789 4799 "smt/uf.ml" 161 4789 4801
+)
+"smt/uf.ml" 162 4823 4866 "smt/uf.ml" 162 4823 4869
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 160 4757 4775 "smt/uf.ml" 160 4757 4778
+)
+"smt/uf.ml" 162 4823 4851 "smt/uf.ml" 162 4823 4869
+call(
+  stack
+)
+type(
+  (SetR.elt * R.r) list * Ex.t
+)
+"smt/uf.ml" 163 4873 4883 "smt/uf.ml" 163 4873 4885
+type(
+  R.r
+)
+ident(
+  def r2 "smt/uf.ml" 164 4909 4915 "smt/uf.ml" 165 4953 5013
+)
+"smt/uf.ml" 163 4873 4888 "smt/uf.ml" 163 4873 4897
+type(
+  R.r -> (R.r * R.r) list -> R.r
+)
+ident(
+  int_ref canon_aux "smt/uf.ml" 158 4684 4692 "smt/uf.ml" 158 4684 4701
+)
+"smt/uf.ml" 163 4873 4898 "smt/uf.ml" 163 4873 4899
+type(
+  R.r
+)
+ident(
+  int_ref r "smt/uf.ml" 160 4757 4779 "smt/uf.ml" 160 4757 4780
+)
+"smt/uf.ml" 163 4873 4900 "smt/uf.ml" 163 4873 4905
+type(
+  (R.r * R.r) list
+)
+ident(
+  int_ref subst "smt/uf.ml" 162 4823 4833 "smt/uf.ml" 162 4823 4838
+)
+"smt/uf.ml" 163 4873 4888 "smt/uf.ml" 163 4873 4905
+call(
+  stack
+)
+type(
+  R.r
+)
+"smt/uf.ml" 164 4909 4919 "smt/uf.ml" 164 4909 4924
+type(
+  Ex.t
+)
+ident(
+  def ex_r2 "smt/uf.ml" 165 4953 4959 "smt/uf.ml" 165 4953 5013
+)
+"smt/uf.ml" 164 4909 4927 "smt/uf.ml" 164 4909 4935
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 164 4909 4936 "smt/uf.ml" 164 4909 4940
+type(
+  Ex.t
+)
+ident(
+  int_ref ex_r "smt/uf.ml" 160 4757 4781 "smt/uf.ml" 160 4757 4785
+)
+"smt/uf.ml" 164 4909 4941 "smt/uf.ml" 164 4909 4949
+type(
+  Ex.t
+)
+ident(
+  int_ref ex_subst "smt/uf.ml" 162 4823 4840 "smt/uf.ml" 162 4823 4848
+)
+"smt/uf.ml" 164 4909 4927 "smt/uf.ml" 164 4909 4949
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 165 4953 4962 "smt/uf.ml" 165 4953 4969
+type(
+  R.r -> R.r -> bool
+)
+ident(
+  ext_ref R.equal
+)
+"smt/uf.ml" 165 4953 4970 "smt/uf.ml" 165 4953 4971
+type(
+  R.r
+)
+ident(
+  int_ref r "smt/uf.ml" 160 4757 4779 "smt/uf.ml" 160 4757 4780
+)
+"smt/uf.ml" 165 4953 4972 "smt/uf.ml" 165 4953 4974
+type(
+  R.r
+)
+ident(
+  int_ref r2 "smt/uf.ml" 163 4873 4883 "smt/uf.ml" 163 4873 4885
+)
+"smt/uf.ml" 165 4953 4962 "smt/uf.ml" 165 4953 4974
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 165 4953 4980 "smt/uf.ml" 165 4953 4982
+type(
+  R.r
+)
+ident(
+  int_ref r2 "smt/uf.ml" 163 4873 4883 "smt/uf.ml" 163 4873 4885
+)
+"smt/uf.ml" 165 4953 4984 "smt/uf.ml" 165 4953 4989
+type(
+  Ex.t
+)
+ident(
+  int_ref ex_r2 "smt/uf.ml" 164 4909 4919 "smt/uf.ml" 164 4909 4924
+)
+"smt/uf.ml" 165 4953 4980 "smt/uf.ml" 165 4953 4989
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 165 4953 4995 "smt/uf.ml" 165 4953 5000
+type(
+  t -> R.r -> Ex.t -> R.r * Ex.t
+)
+ident(
+  int_ref canon "smt/uf.ml" 160 4757 4769 "smt/uf.ml" 160 4757 4774
+)
+"smt/uf.ml" 165 4953 5001 "smt/uf.ml" 165 4953 5004
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 160 4757 4775 "smt/uf.ml" 160 4757 4778
+)
+"smt/uf.ml" 165 4953 5005 "smt/uf.ml" 165 4953 5007
+type(
+  R.r
+)
+ident(
+  int_ref r2 "smt/uf.ml" 163 4873 4883 "smt/uf.ml" 163 4873 4885
+)
+"smt/uf.ml" 165 4953 5008 "smt/uf.ml" 165 4953 5013
+type(
+  Ex.t
+)
+ident(
+  int_ref ex_r2 "smt/uf.ml" 164 4909 4919 "smt/uf.ml" 164 4909 4924
+)
+"smt/uf.ml" 165 4953 4995 "smt/uf.ml" 165 4953 5013
+call(
+  tail
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 165 4953 4959 "smt/uf.ml" 165 4953 5013
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 164 4909 4915 "smt/uf.ml" 165 4953 5013
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 163 4873 4879 "smt/uf.ml" 165 4953 5013
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 162 4823 4829 "smt/uf.ml" 165 4953 5013
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 161 4789 4795 "smt/uf.ml" 165 4953 5013
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 167 5015 5023 "smt/uf.ml" 167 5015 5034
+type(
+  t -> R.r -> R.r * Ex.t
+)
+ident(
+  def normal_form "smt/uf.ml" 169 5065 5069 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 167 5015 5035 "smt/uf.ml" 167 5015 5038
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 167 5015 5039 "smt/uf.ml" 167 5015 5063
+)
+"smt/uf.ml" 167 5015 5039 "smt/uf.ml" 167 5015 5040
+type(
+  R.r
+)
+ident(
+  def r "smt/uf.ml" 167 5015 5043 "smt/uf.ml" 167 5015 5063
+)
+"smt/uf.ml" 167 5015 5043 "smt/uf.ml" 167 5015 5048
+type(
+  t -> R.r -> Ex.t -> R.r * Ex.t
+)
+ident(
+  int_ref canon "smt/uf.ml" 160 4757 4769 "smt/uf.ml" 160 4757 4774
+)
+"smt/uf.ml" 167 5015 5049 "smt/uf.ml" 167 5015 5052
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 167 5015 5035 "smt/uf.ml" 167 5015 5038
+)
+"smt/uf.ml" 167 5015 5053 "smt/uf.ml" 167 5015 5054
+type(
+  R.r
+)
+ident(
+  int_ref r "smt/uf.ml" 167 5015 5039 "smt/uf.ml" 167 5015 5040
+)
+"smt/uf.ml" 167 5015 5055 "smt/uf.ml" 167 5015 5063
+type(
+  Ex.t
+)
+ident(
+  ext_ref Ex.empty
+)
+"smt/uf.ml" 167 5015 5043 "smt/uf.ml" 167 5015 5063
+call(
+  tail
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 169 5065 5073 "smt/uf.ml" 169 5065 5092
+type(
+  t -> MapR.key -> R.r * Ex.t
+)
+ident(
+  def find_or_normal_form "smt/uf.ml" 172 5169 5173 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 169 5065 5093 "smt/uf.ml" 169 5065 5096
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 169 5065 5097 "smt/uf.ml" 170 5101 5167
+)
+"smt/uf.ml" 169 5065 5097 "smt/uf.ml" 169 5065 5098
+type(
+  MapR.key
+)
+ident(
+  def r "smt/uf.ml" 170 5101 5107 "smt/uf.ml" 170 5101 5167
+)
+"smt/uf.ml" 170 5101 5111 "smt/uf.ml" 170 5101 5120
+type(
+  MapR.key -> (R.r * Ex.t) MapR.t -> R.r * Ex.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 170 5101 5121 "smt/uf.ml" 170 5101 5122
+type(
+  MapR.key
+)
+ident(
+  int_ref r "smt/uf.ml" 169 5065 5097 "smt/uf.ml" 169 5065 5098
+)
+"smt/uf.ml" 170 5101 5123 "smt/uf.ml" 170 5101 5126
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 169 5065 5093 "smt/uf.ml" 169 5065 5096
+)
+"smt/uf.ml" 170 5101 5123 "smt/uf.ml" 170 5101 5131
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 170 5101 5111 "smt/uf.ml" 170 5101 5131
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 170 5101 5137 "smt/uf.ml" 170 5101 5146
+type(
+  exn
+)
+"smt/uf.ml" 170 5101 5150 "smt/uf.ml" 170 5101 5161
+type(
+  t -> R.r -> R.r * Ex.t
+)
+ident(
+  int_ref normal_form "smt/uf.ml" 167 5015 5023 "smt/uf.ml" 167 5015 5034
+)
+"smt/uf.ml" 170 5101 5162 "smt/uf.ml" 170 5101 5165
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 169 5065 5093 "smt/uf.ml" 169 5065 5096
+)
+"smt/uf.ml" 170 5101 5166 "smt/uf.ml" 170 5101 5167
+type(
+  MapR.key
+)
+ident(
+  int_ref r "smt/uf.ml" 169 5065 5097 "smt/uf.ml" 169 5065 5098
+)
+"smt/uf.ml" 170 5101 5150 "smt/uf.ml" 170 5101 5167
+call(
+  tail
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 170 5101 5107 "smt/uf.ml" 170 5101 5167
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 172 5169 5177 "smt/uf.ml" 172 5169 5186
+type(
+  t -> MapR.key -> t
+)
+ident(
+  def init_leaf "smt/uf.ml" 189 5637 5641 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 172 5169 5187 "smt/uf.ml" 172 5169 5190
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 172 5169 5191 "smt/uf.ml" 187 5586 5624
+)
+"smt/uf.ml" 172 5169 5191 "smt/uf.ml" 172 5169 5192
+type(
+  MapR.key
+)
+ident(
+  def p "smt/uf.ml" 173 5196 5202 "smt/uf.ml" 187 5586 5624
+)
+"smt/uf.ml" 173 5196 5206 "smt/uf.ml" 173 5196 5213
+type(
+  bool
+)
+ident(
+  def in_repr "smt/uf.ml" 174 5239 5245 "smt/uf.ml" 187 5586 5624
+)
+"smt/uf.ml" 173 5196 5216 "smt/uf.ml" 173 5196 5224
+type(
+  MapR.key -> (R.r * Ex.t) MapR.t -> bool
+)
+ident(
+  ext_ref MapR.mem
+)
+"smt/uf.ml" 173 5196 5225 "smt/uf.ml" 173 5196 5226
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 172 5169 5191 "smt/uf.ml" 172 5169 5192
+)
+"smt/uf.ml" 173 5196 5227 "smt/uf.ml" 173 5196 5230
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 172 5169 5187 "smt/uf.ml" 172 5169 5190
+)
+"smt/uf.ml" 173 5196 5227 "smt/uf.ml" 173 5196 5235
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 173 5196 5216 "smt/uf.ml" 173 5196 5235
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 174 5239 5249 "smt/uf.ml" 174 5239 5256
+type(
+  bool
+)
+ident(
+  def in_neqs "smt/uf.ml" 175 5282 5288 "smt/uf.ml" 187 5586 5624
+)
+"smt/uf.ml" 174 5239 5259 "smt/uf.ml" 174 5239 5267
+type(
+  MapR.key -> Ex.t MapL.t MapR.t -> bool
+)
+ident(
+  ext_ref MapR.mem
+)
+"smt/uf.ml" 174 5239 5268 "smt/uf.ml" 174 5239 5269
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 172 5169 5191 "smt/uf.ml" 172 5169 5192
+)
+"smt/uf.ml" 174 5239 5270 "smt/uf.ml" 174 5239 5273
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 172 5169 5187 "smt/uf.ml" 172 5169 5190
+)
+"smt/uf.ml" 174 5239 5270 "smt/uf.ml" 174 5239 5278
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 174 5239 5259 "smt/uf.ml" 174 5239 5278
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 175 5282 5290 "smt/uf.ml" 175 5282 5293
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 172 5169 5187 "smt/uf.ml" 172 5169 5190
+)
+"smt/uf.ml" 177 5311 5317 "smt/uf.ml" 177 5311 5324
+type(
+  bool
+)
+ident(
+  int_ref in_repr "smt/uf.ml" 173 5196 5206 "smt/uf.ml" 173 5196 5213
+)
+"smt/uf.ml" 177 5311 5330 "smt/uf.ml" 177 5311 5333
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 172 5169 5187 "smt/uf.ml" 172 5169 5190
+)
+"smt/uf.ml" 177 5311 5330 "smt/uf.ml" 177 5311 5338
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 178 5340 5348 "smt/uf.ml" 178 5340 5356
+type(
+  MapR.key -> R.r * Ex.t -> (R.r * Ex.t) MapR.t -> (R.r * Ex.t) MapR.t
+)
+ident(
+  ext_ref MapR.add
+)
+"smt/uf.ml" 178 5340 5357 "smt/uf.ml" 178 5340 5358
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 172 5169 5191 "smt/uf.ml" 172 5169 5192
+)
+"smt/uf.ml" 178 5340 5360 "smt/uf.ml" 178 5340 5361
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 172 5169 5191 "smt/uf.ml" 172 5169 5192
+)
+"smt/uf.ml" 178 5340 5363 "smt/uf.ml" 178 5340 5371
+type(
+  Ex.t
+)
+ident(
+  ext_ref Ex.empty
+)
+"smt/uf.ml" 178 5340 5359 "smt/uf.ml" 178 5340 5372
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 178 5340 5373 "smt/uf.ml" 178 5340 5376
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 172 5169 5187 "smt/uf.ml" 172 5169 5190
+)
+"smt/uf.ml" 178 5340 5373 "smt/uf.ml" 178 5340 5381
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 178 5340 5348 "smt/uf.ml" 178 5340 5381
+call(
+  stack
+)
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 177 5311 5314 "smt/uf.ml" 178 5340 5381
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 180 5395 5401 "smt/uf.ml" 180 5395 5408
+type(
+  bool
+)
+ident(
+  int_ref in_repr "smt/uf.ml" 173 5196 5206 "smt/uf.ml" 173 5196 5213
+)
+"smt/uf.ml" 180 5395 5414 "smt/uf.ml" 180 5395 5417
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 172 5169 5187 "smt/uf.ml" 172 5169 5190
+)
+"smt/uf.ml" 180 5395 5414 "smt/uf.ml" 180 5395 5425
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 181 5426 5434 "smt/uf.ml" 181 5426 5448
+type(
+  MapR.key -> MapR.key -> SetT.t MapR.t -> SetT.t MapR.t
+)
+ident(
+  int_ref update_classes "smt/uf.ml" 120 3430 3438 "smt/uf.ml" 120 3430 3452
+)
+"smt/uf.ml" 181 5426 5449 "smt/uf.ml" 181 5426 5450
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 172 5169 5191 "smt/uf.ml" 172 5169 5192
+)
+"smt/uf.ml" 181 5426 5451 "smt/uf.ml" 181 5426 5452
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 172 5169 5191 "smt/uf.ml" 172 5169 5192
+)
+"smt/uf.ml" 181 5426 5453 "smt/uf.ml" 181 5426 5456
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 172 5169 5187 "smt/uf.ml" 172 5169 5190
+)
+"smt/uf.ml" 181 5426 5453 "smt/uf.ml" 181 5426 5464
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 181 5426 5434 "smt/uf.ml" 181 5426 5464
+call(
+  stack
+)
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 180 5395 5398 "smt/uf.ml" 181 5426 5464
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 183 5478 5484 "smt/uf.ml" 183 5478 5491
+type(
+  bool
+)
+ident(
+  int_ref in_repr "smt/uf.ml" 173 5196 5206 "smt/uf.ml" 173 5196 5213
+)
+"smt/uf.ml" 183 5478 5497 "smt/uf.ml" 183 5478 5500
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 172 5169 5187 "smt/uf.ml" 172 5169 5190
+)
+"smt/uf.ml" 183 5478 5497 "smt/uf.ml" 183 5478 5506
+type(
+  SetR.t MapR.t
+)
+"smt/uf.ml" 184 5507 5515 "smt/uf.ml" 184 5507 5527
+type(
+  SetR.elt -> R.r -> SetR.t MapR.t -> SetR.t MapR.t
+)
+ident(
+  int_ref add_to_gamma "smt/uf.ml" 125 3675 3683 "smt/uf.ml" 125 3675 3695
+)
+"smt/uf.ml" 184 5507 5528 "smt/uf.ml" 184 5507 5529
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 172 5169 5191 "smt/uf.ml" 172 5169 5192
+)
+"smt/uf.ml" 184 5507 5530 "smt/uf.ml" 184 5507 5531
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 172 5169 5191 "smt/uf.ml" 172 5169 5192
+)
+"smt/uf.ml" 184 5507 5532 "smt/uf.ml" 184 5507 5535
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 172 5169 5187 "smt/uf.ml" 172 5169 5190
+)
+"smt/uf.ml" 184 5507 5532 "smt/uf.ml" 184 5507 5541
+type(
+  SetR.t MapR.t
+)
+"smt/uf.ml" 184 5507 5515 "smt/uf.ml" 184 5507 5541
+call(
+  stack
+)
+type(
+  SetR.t MapR.t
+)
+"smt/uf.ml" 183 5478 5481 "smt/uf.ml" 184 5507 5541
+type(
+  SetR.t MapR.t
+)
+"smt/uf.ml" 186 5557 5563 "smt/uf.ml" 186 5557 5570
+type(
+  bool
+)
+ident(
+  int_ref in_neqs "smt/uf.ml" 174 5239 5249 "smt/uf.ml" 174 5239 5256
+)
+"smt/uf.ml" 186 5557 5576 "smt/uf.ml" 186 5557 5579
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 172 5169 5187 "smt/uf.ml" 172 5169 5190
+)
+"smt/uf.ml" 186 5557 5576 "smt/uf.ml" 186 5557 5584
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 187 5586 5594 "smt/uf.ml" 187 5586 5605
+type(
+  MapR.key -> MapR.key -> Ex.t -> t -> Ex.t MapL.t MapR.t
+)
+ident(
+  int_ref update_neqs "smt/uf.ml" 132 3913 3921 "smt/uf.ml" 132 3913 3932
+)
+"smt/uf.ml" 187 5586 5606 "smt/uf.ml" 187 5586 5607
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 172 5169 5191 "smt/uf.ml" 172 5169 5192
+)
+"smt/uf.ml" 187 5586 5608 "smt/uf.ml" 187 5586 5609
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 172 5169 5191 "smt/uf.ml" 172 5169 5192
+)
+"smt/uf.ml" 187 5586 5610 "smt/uf.ml" 187 5586 5618
+type(
+  Ex.t
+)
+ident(
+  ext_ref Ex.empty
+)
+"smt/uf.ml" 187 5586 5619 "smt/uf.ml" 187 5586 5622
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 172 5169 5187 "smt/uf.ml" 172 5169 5190
+)
+"smt/uf.ml" 187 5586 5594 "smt/uf.ml" 187 5586 5622
+call(
+  stack
+)
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 186 5557 5560 "smt/uf.ml" 187 5586 5622
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 175 5282 5288 "smt/uf.ml" 187 5586 5624
+type(
+  t
+)
+"smt/uf.ml" 174 5239 5245 "smt/uf.ml" 187 5586 5624
+type(
+  t
+)
+"smt/uf.ml" 173 5196 5202 "smt/uf.ml" 187 5586 5624
+type(
+  t
+)
+"smt/uf.ml" 189 5637 5645 "smt/uf.ml" 189 5637 5654
+type(
+  t -> MapT.key -> t * Literal.LT.t list
+)
+ident(
+  def init_term "smt/uf.ml" 201 6041 6045 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 189 5637 5655 "smt/uf.ml" 189 5637 5658
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 189 5637 5659 "smt/uf.ml" 198 5987 6032
+)
+"smt/uf.ml" 189 5637 5659 "smt/uf.ml" 189 5637 5660
+type(
+  MapT.key
+)
+ident(
+  def t "smt/uf.ml" 190 5664 5670 "smt/uf.ml" 198 5987 6032
+)
+"smt/uf.ml" 190 5664 5674 "smt/uf.ml" 190 5664 5677
+type(
+  R.r
+)
+ident(
+  def mkr "smt/uf.ml" 191 5697 5703 "smt/uf.ml" 198 5987 6032
+)
+"smt/uf.ml" 190 5664 5679 "smt/uf.ml" 190 5664 5682
+type(
+  Literal.LT.t list
+)
+ident(
+  def ctx "smt/uf.ml" 191 5697 5703 "smt/uf.ml" 198 5987 6032
+)
+"smt/uf.ml" 190 5664 5674 "smt/uf.ml" 190 5664 5682
+type(
+  R.r * Literal.LT.t list
+)
+"smt/uf.ml" 190 5664 5685 "smt/uf.ml" 190 5664 5691
+type(
+  MapT.key -> R.r * Literal.LT.t list
+)
+ident(
+  ext_ref R.make
+)
+"smt/uf.ml" 190 5664 5692 "smt/uf.ml" 190 5664 5693
+type(
+  MapT.key
+)
+ident(
+  int_ref t "smt/uf.ml" 189 5637 5659 "smt/uf.ml" 189 5637 5660
+)
+"smt/uf.ml" 190 5664 5685 "smt/uf.ml" 190 5664 5693
+call(
+  stack
+)
+type(
+  R.r * Literal.LT.t list
+)
+"smt/uf.ml" 191 5697 5707 "smt/uf.ml" 191 5697 5709
+type(
+  R.r
+)
+ident(
+  def rp "smt/uf.ml" 192 5739 5745 "smt/uf.ml" 198 5987 6032
+)
+"smt/uf.ml" 191 5697 5711 "smt/uf.ml" 191 5697 5713
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/uf.ml" 192 5739 5745 "smt/uf.ml" 198 5987 6032
+)
+"smt/uf.ml" 191 5697 5707 "smt/uf.ml" 191 5697 5713
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 191 5697 5716 "smt/uf.ml" 191 5697 5727
+type(
+  t -> R.r -> R.r * Ex.t
+)
+ident(
+  int_ref normal_form "smt/uf.ml" 167 5015 5023 "smt/uf.ml" 167 5015 5034
+)
+"smt/uf.ml" 191 5697 5728 "smt/uf.ml" 191 5697 5731
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 189 5637 5655 "smt/uf.ml" 189 5637 5658
+)
+"smt/uf.ml" 191 5697 5732 "smt/uf.ml" 191 5697 5735
+type(
+  R.r
+)
+ident(
+  int_ref mkr "smt/uf.ml" 190 5664 5674 "smt/uf.ml" 190 5664 5677
+)
+"smt/uf.ml" 191 5697 5716 "smt/uf.ml" 191 5697 5735
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 192 5739 5757 "smt/uf.ml" 192 5739 5765
+type(
+  MapT.key -> R.r -> R.r MapT.t -> R.r MapT.t
+)
+ident(
+  ext_ref MapT.add
+)
+"smt/uf.ml" 192 5739 5766 "smt/uf.ml" 192 5739 5767
+type(
+  MapT.key
+)
+ident(
+  int_ref t "smt/uf.ml" 189 5637 5659 "smt/uf.ml" 189 5637 5660
+)
+"smt/uf.ml" 192 5739 5768 "smt/uf.ml" 192 5739 5771
+type(
+  R.r
+)
+ident(
+  int_ref mkr "smt/uf.ml" 190 5664 5674 "smt/uf.ml" 190 5664 5677
+)
+"smt/uf.ml" 192 5739 5772 "smt/uf.ml" 192 5739 5775
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 189 5637 5655 "smt/uf.ml" 189 5637 5658
+)
+"smt/uf.ml" 192 5739 5772 "smt/uf.ml" 192 5739 5780
+type(
+  R.r MapT.t
+)
+"smt/uf.ml" 192 5739 5757 "smt/uf.ml" 192 5739 5780
+call(
+  stack
+)
+type(
+  R.r MapT.t
+)
+"smt/uf.ml" 193 5783 5794 "smt/uf.ml" 193 5783 5802
+type(
+  MapR.key -> R.r * Ex.t -> (R.r * Ex.t) MapR.t -> (R.r * Ex.t) MapR.t
+)
+ident(
+  ext_ref MapR.add
+)
+"smt/uf.ml" 193 5783 5803 "smt/uf.ml" 193 5783 5806
+type(
+  R.r
+)
+ident(
+  int_ref mkr "smt/uf.ml" 190 5664 5674 "smt/uf.ml" 190 5664 5677
+)
+"smt/uf.ml" 193 5783 5808 "smt/uf.ml" 193 5783 5810
+type(
+  R.r
+)
+ident(
+  int_ref rp "smt/uf.ml" 191 5697 5707 "smt/uf.ml" 191 5697 5709
+)
+"smt/uf.ml" 193 5783 5811 "smt/uf.ml" 193 5783 5813
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/uf.ml" 191 5697 5711 "smt/uf.ml" 191 5697 5713
+)
+"smt/uf.ml" 193 5783 5807 "smt/uf.ml" 193 5783 5814
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 193 5783 5815 "smt/uf.ml" 193 5783 5818
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 189 5637 5655 "smt/uf.ml" 189 5637 5658
+)
+"smt/uf.ml" 193 5783 5815 "smt/uf.ml" 193 5783 5823
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 193 5783 5794 "smt/uf.ml" 193 5783 5823
+call(
+  stack
+)
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 194 5825 5836 "smt/uf.ml" 194 5825 5850
+type(
+  SetT.elt -> MapR.key -> SetT.t MapR.t -> SetT.t MapR.t
+)
+ident(
+  int_ref add_to_classes "smt/uf.ml" 115 3293 3301 "smt/uf.ml" 115 3293 3315
+)
+"smt/uf.ml" 194 5825 5851 "smt/uf.ml" 194 5825 5852
+type(
+  MapT.key
+)
+ident(
+  int_ref t "smt/uf.ml" 189 5637 5659 "smt/uf.ml" 189 5637 5660
+)
+"smt/uf.ml" 194 5825 5853 "smt/uf.ml" 194 5825 5855
+type(
+  R.r
+)
+ident(
+  int_ref rp "smt/uf.ml" 191 5697 5707 "smt/uf.ml" 191 5697 5709
+)
+"smt/uf.ml" 194 5825 5856 "smt/uf.ml" 194 5825 5859
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 189 5637 5655 "smt/uf.ml" 189 5637 5658
+)
+"smt/uf.ml" 194 5825 5856 "smt/uf.ml" 194 5825 5867
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 194 5825 5836 "smt/uf.ml" 194 5825 5867
+call(
+  stack
+)
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 195 5869 5880 "smt/uf.ml" 195 5869 5892
+type(
+  SetR.elt -> R.r -> SetR.t MapR.t -> SetR.t MapR.t
+)
+ident(
+  int_ref add_to_gamma "smt/uf.ml" 125 3675 3683 "smt/uf.ml" 125 3675 3695
+)
+"smt/uf.ml" 195 5869 5893 "smt/uf.ml" 195 5869 5896
+type(
+  R.r
+)
+ident(
+  int_ref mkr "smt/uf.ml" 190 5664 5674 "smt/uf.ml" 190 5664 5677
+)
+"smt/uf.ml" 195 5869 5897 "smt/uf.ml" 195 5869 5899
+type(
+  R.r
+)
+ident(
+  int_ref rp "smt/uf.ml" 191 5697 5707 "smt/uf.ml" 191 5697 5709
+)
+"smt/uf.ml" 195 5869 5900 "smt/uf.ml" 195 5869 5903
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 189 5637 5655 "smt/uf.ml" 189 5637 5658
+)
+"smt/uf.ml" 195 5869 5900 "smt/uf.ml" 195 5869 5909
+type(
+  SetR.t MapR.t
+)
+"smt/uf.ml" 195 5869 5880 "smt/uf.ml" 195 5869 5909
+call(
+  stack
+)
+type(
+  SetR.t MapR.t
+)
+"smt/uf.ml" 197 5923 5929 "smt/uf.ml" 197 5923 5937
+type(
+  MapR.key -> Ex.t MapL.t MapR.t -> bool
+)
+ident(
+  ext_ref MapR.mem
+)
+"smt/uf.ml" 197 5923 5938 "smt/uf.ml" 197 5923 5940
+type(
+  R.r
+)
+ident(
+  int_ref rp "smt/uf.ml" 191 5697 5707 "smt/uf.ml" 191 5697 5709
+)
+"smt/uf.ml" 197 5923 5941 "smt/uf.ml" 197 5923 5944
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 189 5637 5655 "smt/uf.ml" 189 5637 5658
+)
+"smt/uf.ml" 197 5923 5941 "smt/uf.ml" 197 5923 5949
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 197 5923 5929 "smt/uf.ml" 197 5923 5949
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 197 5923 5955 "smt/uf.ml" 197 5923 5958
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 189 5637 5655 "smt/uf.ml" 189 5637 5658
+)
+"smt/uf.ml" 197 5923 5955 "smt/uf.ml" 197 5923 5963
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 198 5987 5995 "smt/uf.ml" 198 5987 6003
+type(
+  MapR.key -> Ex.t MapL.t -> Ex.t MapL.t MapR.t -> Ex.t MapL.t MapR.t
+)
+ident(
+  ext_ref MapR.add
+)
+"smt/uf.ml" 198 5987 6004 "smt/uf.ml" 198 5987 6006
+type(
+  R.r
+)
+ident(
+  int_ref rp "smt/uf.ml" 191 5697 5707 "smt/uf.ml" 191 5697 5709
+)
+"smt/uf.ml" 198 5987 6007 "smt/uf.ml" 198 5987 6017
+type(
+  Ex.t MapL.t
+)
+ident(
+  ext_ref MapL.empty
+)
+"smt/uf.ml" 198 5987 6018 "smt/uf.ml" 198 5987 6021
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 189 5637 5655 "smt/uf.ml" 189 5637 5658
+)
+"smt/uf.ml" 198 5987 6018 "smt/uf.ml" 198 5987 6026
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 198 5987 5995 "smt/uf.ml" 198 5987 6026
+call(
+  stack
+)
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 197 5923 5926 "smt/uf.ml" 198 5987 6026
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 192 5739 5745 "smt/uf.ml" 198 5987 6027
+type(
+  t
+)
+"smt/uf.ml" 198 5987 6029 "smt/uf.ml" 198 5987 6032
+type(
+  Literal.LT.t list
+)
+ident(
+  int_ref ctx "smt/uf.ml" 190 5664 5679 "smt/uf.ml" 190 5664 5682
+)
+"smt/uf.ml" 192 5739 5745 "smt/uf.ml" 198 5987 6032
+type(
+  t * Literal.LT.t list
+)
+"smt/uf.ml" 191 5697 5703 "smt/uf.ml" 198 5987 6032
+type(
+  t * Literal.LT.t list
+)
+"smt/uf.ml" 190 5664 5670 "smt/uf.ml" 198 5987 6032
+type(
+  t * Literal.LT.t list
+)
+"smt/uf.ml" 201 6041 6049 "smt/uf.ml" 201 6041 6059
+type(
+  Ex.t -> SetRR.t -> t -> t
+)
+ident(
+  def update_aux "smt/uf.ml" 209 6239 6243 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 201 6041 6060 "smt/uf.ml" 201 6041 6063
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/uf.ml" 201 6041 6064 "smt/uf.ml" 207 6229 6237
+)
+"smt/uf.ml" 201 6041 6064 "smt/uf.ml" 201 6041 6067
+type(
+  SetRR.t
+)
+ident(
+  def set "smt/uf.ml" 201 6041 6068 "smt/uf.ml" 207 6229 6237
+)
+"smt/uf.ml" 201 6041 6068 "smt/uf.ml" 201 6041 6071
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 202 6074 6080 "smt/uf.ml" 207 6229 6237
+)
+"smt/uf.ml" 202 6074 6080 "smt/uf.ml" 202 6074 6090
+type(
+  (SetRR.elt -> t -> t) -> SetRR.t -> t -> t
+)
+ident(
+  ext_ref SetRR.fold
+)
+"smt/uf.ml" 203 6092 6099 "smt/uf.ml" 203 6092 6101
+type(
+  R.r
+)
+ident(
+  def rr "smt/uf.ml" 203 6092 6108 "smt/uf.ml" 206 6175 6227
+)
+"smt/uf.ml" 203 6092 6103 "smt/uf.ml" 203 6092 6106
+type(
+  R.r
+)
+ident(
+  def nrr "smt/uf.ml" 203 6092 6108 "smt/uf.ml" 206 6175 6227
+)
+"smt/uf.ml" 203 6092 6098 "smt/uf.ml" 203 6092 6107
+type(
+  SetRR.elt
+)
+"smt/uf.ml" 203 6092 6108 "smt/uf.ml" 203 6092 6111
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 204 6116 6120 "smt/uf.ml" 206 6175 6227
+)
+"smt/uf.ml" 204 6116 6122 "smt/uf.ml" 204 6116 6125
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 203 6092 6108 "smt/uf.ml" 203 6092 6111
+)
+"smt/uf.ml" 205 6131 6146 "smt/uf.ml" 205 6131 6157
+type(
+  MapR.key -> MapR.key -> Ex.t -> t -> Ex.t MapL.t MapR.t
+)
+ident(
+  int_ref update_neqs "smt/uf.ml" 132 3913 3921 "smt/uf.ml" 132 3913 3932
+)
+"smt/uf.ml" 205 6131 6158 "smt/uf.ml" 205 6131 6160
+type(
+  R.r
+)
+ident(
+  int_ref rr "smt/uf.ml" 203 6092 6099 "smt/uf.ml" 203 6092 6101
+)
+"smt/uf.ml" 205 6131 6161 "smt/uf.ml" 205 6131 6164
+type(
+  R.r
+)
+ident(
+  int_ref nrr "smt/uf.ml" 203 6092 6103 "smt/uf.ml" 203 6092 6106
+)
+"smt/uf.ml" 205 6131 6165 "smt/uf.ml" 205 6131 6168
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 201 6041 6060 "smt/uf.ml" 201 6041 6063
+)
+"smt/uf.ml" 205 6131 6169 "smt/uf.ml" 205 6131 6172
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 203 6092 6108 "smt/uf.ml" 203 6092 6111
+)
+"smt/uf.ml" 205 6131 6146 "smt/uf.ml" 205 6131 6172
+call(
+  stack
+)
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 206 6175 6193 "smt/uf.ml" 206 6175 6207
+type(
+  MapR.key -> MapR.key -> SetT.t MapR.t -> SetT.t MapR.t
+)
+ident(
+  int_ref update_classes "smt/uf.ml" 120 3430 3438 "smt/uf.ml" 120 3430 3452
+)
+"smt/uf.ml" 206 6175 6208 "smt/uf.ml" 206 6175 6210
+type(
+  R.r
+)
+ident(
+  int_ref rr "smt/uf.ml" 203 6092 6099 "smt/uf.ml" 203 6092 6101
+)
+"smt/uf.ml" 206 6175 6211 "smt/uf.ml" 206 6175 6214
+type(
+  R.r
+)
+ident(
+  int_ref nrr "smt/uf.ml" 203 6092 6103 "smt/uf.ml" 203 6092 6106
+)
+"smt/uf.ml" 206 6175 6215 "smt/uf.ml" 206 6175 6218
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 203 6092 6108 "smt/uf.ml" 203 6092 6111
+)
+"smt/uf.ml" 206 6175 6215 "smt/uf.ml" 206 6175 6226
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 206 6175 6193 "smt/uf.ml" 206 6175 6226
+call(
+  stack
+)
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 204 6116 6120 "smt/uf.ml" 206 6175 6227
+type(
+  t
+)
+"smt/uf.ml" 203 6092 6093 "smt/uf.ml" 206 6175 6228
+type(
+  SetRR.elt -> t -> t
+)
+"smt/uf.ml" 207 6229 6230 "smt/uf.ml" 207 6229 6233
+type(
+  SetRR.t
+)
+ident(
+  int_ref set "smt/uf.ml" 201 6041 6064 "smt/uf.ml" 201 6041 6067
+)
+"smt/uf.ml" 207 6229 6234 "smt/uf.ml" 207 6229 6237
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 201 6041 6068 "smt/uf.ml" 201 6041 6071
+)
+"smt/uf.ml" 202 6074 6080 "smt/uf.ml" 207 6229 6237
+call(
+  tail
+)
+type(
+  t
+)
+"smt/uf.ml" 209 6239 6247 "smt/uf.ml" 209 6239 6261
+type(
+  t -> MapR.key * R.r * Ex.t -> t * (SetR.elt * R.r * Ex.t) list
+)
+ident(
+  def apply_sigma_uf "smt/uf.ml" 232 7013 7017 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 209 6239 6262 "smt/uf.ml" 209 6239 6265
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 209 6239 6266 "smt/uf.ml" 230 6972 7008
+)
+"smt/uf.ml" 209 6239 6267 "smt/uf.ml" 209 6239 6268
+type(
+  MapR.key
+)
+ident(
+  def p "smt/uf.ml" 210 6280 6286 "smt/uf.ml" 230 6972 7008
+)
+"smt/uf.ml" 209 6239 6270 "smt/uf.ml" 209 6239 6271
+type(
+  R.r
+)
+ident(
+  def v "smt/uf.ml" 210 6280 6286 "smt/uf.ml" 230 6972 7008
+)
+"smt/uf.ml" 209 6239 6273 "smt/uf.ml" 209 6239 6276
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/uf.ml" 210 6280 6286 "smt/uf.ml" 230 6972 7008
+)
+"smt/uf.ml" 209 6239 6266 "smt/uf.ml" 209 6239 6277
+type(
+  MapR.key * R.r * Ex.t
+)
+"smt/uf.ml" 210 6280 6294 "smt/uf.ml" 210 6280 6302
+type(
+  MapR.key -> SetR.t MapR.t -> bool
+)
+ident(
+  ext_ref MapR.mem
+)
+"smt/uf.ml" 210 6280 6303 "smt/uf.ml" 210 6280 6304
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 209 6239 6267 "smt/uf.ml" 209 6239 6268
+)
+"smt/uf.ml" 210 6280 6305 "smt/uf.ml" 210 6280 6308
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 209 6239 6262 "smt/uf.ml" 209 6239 6265
+)
+"smt/uf.ml" 210 6280 6305 "smt/uf.ml" 210 6280 6314
+type(
+  SetR.t MapR.t
+)
+"smt/uf.ml" 210 6280 6293 "smt/uf.ml" 210 6280 6315
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 210 6280 6286 "smt/uf.ml" 210 6280 6315
+type(
+  unit
+)
+"smt/uf.ml" 211 6317 6327 "smt/uf.ml" 211 6317 6332
+type(
+  SetR.t
+)
+ident(
+  def use_p "smt/uf.ml" 212 6360 6366 "smt/uf.ml" 230 6972 7008
+)
+"smt/uf.ml" 211 6317 6335 "smt/uf.ml" 211 6317 6344
+type(
+  MapR.key -> SetR.t MapR.t -> SetR.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 211 6317 6345 "smt/uf.ml" 211 6317 6346
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 209 6239 6267 "smt/uf.ml" 209 6239 6268
+)
+"smt/uf.ml" 211 6317 6347 "smt/uf.ml" 211 6317 6350
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 209 6239 6262 "smt/uf.ml" 209 6239 6265
+)
+"smt/uf.ml" 211 6317 6347 "smt/uf.ml" 211 6317 6356
+type(
+  SetR.t MapR.t
+)
+"smt/uf.ml" 211 6317 6335 "smt/uf.ml" 211 6317 6356
+call(
+  stack
+)
+type(
+  SetR.t
+)
+"smt/uf.ml" 213 6371 6376 "smt/uf.ml" 213 6371 6379
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 228 6933 6934 "smt/uf.ml" 228 6933 6968
+)
+"smt/uf.ml" 213 6371 6381 "smt/uf.ml" 213 6371 6384
+type(
+  (SetR.elt * R.r * Ex.t) list
+)
+ident(
+  def tch "smt/uf.ml" 228 6933 6934 "smt/uf.ml" 228 6933 6968
+)
+"smt/uf.ml" 213 6371 6386 "smt/uf.ml" 213 6371 6396
+type(
+  SetRR.t
+)
+ident(
+  def neqs_to_up "smt/uf.ml" 228 6933 6934 "smt/uf.ml" 228 6933 6968
+)
+"smt/uf.ml" 213 6371 6376 "smt/uf.ml" 213 6371 6396
+type(
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t
+)
+"smt/uf.ml" 213 6371 6399 "smt/uf.ml" 213 6371 6408
+type(
+  (SetR.elt ->
+   t * (SetR.elt * R.r * Ex.t) list * SetRR.t ->
+   t * (SetR.elt * R.r * Ex.t) list * SetRR.t) ->
+  SetR.t ->
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t ->
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t
+)
+ident(
+  ext_ref SetR.fold
+)
+"smt/uf.ml" 214 6410 6418 "smt/uf.ml" 214 6410 6419
+type(
+  SetR.elt
+)
+ident(
+  def r "smt/uf.ml" 214 6410 6420 "smt/uf.ml" 225 6769 6835
+)
+"smt/uf.ml" 214 6410 6421 "smt/uf.ml" 214 6410 6424
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 215 6451 6457 "smt/uf.ml" 225 6769 6835
+)
+"smt/uf.ml" 214 6410 6426 "smt/uf.ml" 214 6410 6433
+type(
+  (SetR.elt * R.r * Ex.t) list
+)
+ident(
+  def touched "smt/uf.ml" 215 6451 6457 "smt/uf.ml" 225 6769 6835
+)
+"smt/uf.ml" 214 6410 6435 "smt/uf.ml" 214 6410 6445
+type(
+  SetRR.t
+)
+ident(
+  def neqs_to_up "smt/uf.ml" 215 6451 6457 "smt/uf.ml" 225 6769 6835
+)
+"smt/uf.ml" 214 6410 6420 "smt/uf.ml" 214 6410 6446
+type(
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t
+)
+"smt/uf.ml" 215 6451 6461 "smt/uf.ml" 215 6451 6463
+type(
+  R.r
+)
+ident(
+  def rr "smt/uf.ml" 216 6494 6500 "smt/uf.ml" 225 6769 6835
+)
+"smt/uf.ml" 215 6451 6465 "smt/uf.ml" 215 6451 6467
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/uf.ml" 216 6494 6500 "smt/uf.ml" 225 6769 6835
+)
+"smt/uf.ml" 215 6451 6461 "smt/uf.ml" 215 6451 6467
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 215 6451 6470 "smt/uf.ml" 215 6451 6479
+type(
+  MapR.key -> (R.r * Ex.t) MapR.t -> R.r * Ex.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 215 6451 6480 "smt/uf.ml" 215 6451 6481
+type(
+  SetR.elt
+)
+ident(
+  int_ref r "smt/uf.ml" 214 6410 6418 "smt/uf.ml" 214 6410 6419
+)
+"smt/uf.ml" 215 6451 6482 "smt/uf.ml" 215 6451 6485
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 214 6410 6421 "smt/uf.ml" 214 6410 6424
+)
+"smt/uf.ml" 215 6451 6482 "smt/uf.ml" 215 6451 6490
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 215 6451 6470 "smt/uf.ml" 215 6451 6490
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 216 6494 6504 "smt/uf.ml" 216 6494 6507
+type(
+  R.r
+)
+ident(
+  def nrr "smt/uf.ml" 217 6528 6534 "smt/uf.ml" 225 6769 6835
+)
+"smt/uf.ml" 216 6494 6510 "smt/uf.ml" 216 6494 6517
+type(
+  R.r -> R.r -> R.r -> R.r
+)
+ident(
+  ext_ref R.subst
+)
+"smt/uf.ml" 216 6494 6518 "smt/uf.ml" 216 6494 6519
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 209 6239 6267 "smt/uf.ml" 209 6239 6268
+)
+"smt/uf.ml" 216 6494 6520 "smt/uf.ml" 216 6494 6521
+type(
+  R.r
+)
+ident(
+  int_ref v "smt/uf.ml" 209 6239 6270 "smt/uf.ml" 209 6239 6271
+)
+"smt/uf.ml" 216 6494 6522 "smt/uf.ml" 216 6494 6524
+type(
+  R.r
+)
+ident(
+  int_ref rr "smt/uf.ml" 215 6451 6461 "smt/uf.ml" 215 6451 6463
+)
+"smt/uf.ml" 216 6494 6510 "smt/uf.ml" 216 6494 6524
+call(
+  stack
+)
+type(
+  R.r
+)
+"smt/uf.ml" 217 6528 6537 "smt/uf.ml" 217 6528 6544
+type(
+  R.r -> R.r -> bool
+)
+ident(
+  ext_ref R.equal
+)
+"smt/uf.ml" 217 6528 6545 "smt/uf.ml" 217 6528 6547
+type(
+  R.r
+)
+ident(
+  int_ref rr "smt/uf.ml" 215 6451 6461 "smt/uf.ml" 215 6451 6463
+)
+"smt/uf.ml" 217 6528 6548 "smt/uf.ml" 217 6528 6551
+type(
+  R.r
+)
+ident(
+  int_ref nrr "smt/uf.ml" 216 6494 6504 "smt/uf.ml" 216 6494 6507
+)
+"smt/uf.ml" 217 6528 6537 "smt/uf.ml" 217 6528 6551
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 217 6528 6557 "smt/uf.ml" 217 6528 6560
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 214 6410 6421 "smt/uf.ml" 214 6410 6424
+)
+"smt/uf.ml" 217 6528 6562 "smt/uf.ml" 217 6528 6569
+type(
+  (SetR.elt * R.r * Ex.t) list
+)
+ident(
+  int_ref touched "smt/uf.ml" 214 6410 6426 "smt/uf.ml" 214 6410 6433
+)
+"smt/uf.ml" 217 6528 6571 "smt/uf.ml" 217 6528 6581
+type(
+  SetRR.t
+)
+ident(
+  int_ref neqs_to_up "smt/uf.ml" 214 6410 6435 "smt/uf.ml" 214 6410 6445
+)
+"smt/uf.ml" 217 6528 6557 "smt/uf.ml" 217 6528 6581
+type(
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t
+)
+"smt/uf.ml" 219 6594 6606 "smt/uf.ml" 219 6594 6608
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/uf.ml" 220 6631 6646 "smt/uf.ml" 225 6769 6835
+)
+"smt/uf.ml" 219 6594 6612 "smt/uf.ml" 219 6594 6620
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 219 6594 6621 "smt/uf.ml" 219 6594 6623
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/uf.ml" 215 6451 6465 "smt/uf.ml" 215 6451 6467
+)
+"smt/uf.ml" 219 6594 6624 "smt/uf.ml" 219 6594 6627
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 209 6239 6273 "smt/uf.ml" 209 6239 6276
+)
+"smt/uf.ml" 219 6594 6612 "smt/uf.ml" 219 6594 6627
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 220 6631 6650 "smt/uf.ml" 220 6631 6653
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 225 6769 6777 "smt/uf.ml" 225 6769 6835
+)
+"smt/uf.ml" 221 6657 6661 "smt/uf.ml" 221 6657 6664
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 214 6410 6421 "smt/uf.ml" 214 6410 6424
+)
+"smt/uf.ml" 222 6670 6682 "smt/uf.ml" 222 6670 6690
+type(
+  MapR.key -> R.r * Ex.t -> (R.r * Ex.t) MapR.t -> (R.r * Ex.t) MapR.t
+)
+ident(
+  ext_ref MapR.add
+)
+"smt/uf.ml" 222 6670 6691 "smt/uf.ml" 222 6670 6692
+type(
+  SetR.elt
+)
+ident(
+  int_ref r "smt/uf.ml" 214 6410 6418 "smt/uf.ml" 214 6410 6419
+)
+"smt/uf.ml" 222 6670 6694 "smt/uf.ml" 222 6670 6697
+type(
+  R.r
+)
+ident(
+  int_ref nrr "smt/uf.ml" 216 6494 6504 "smt/uf.ml" 216 6494 6507
+)
+"smt/uf.ml" 222 6670 6699 "smt/uf.ml" 222 6670 6701
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/uf.ml" 219 6594 6606 "smt/uf.ml" 219 6594 6608
+)
+"smt/uf.ml" 222 6670 6693 "smt/uf.ml" 222 6670 6702
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 222 6670 6703 "smt/uf.ml" 222 6670 6706
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 214 6410 6421 "smt/uf.ml" 214 6410 6424
+)
+"smt/uf.ml" 222 6670 6703 "smt/uf.ml" 222 6670 6711
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 222 6670 6682 "smt/uf.ml" 222 6670 6711
+call(
+  stack
+)
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 223 6713 6726 "smt/uf.ml" 223 6713 6738
+type(
+  SetR.elt -> R.r -> SetR.t MapR.t -> SetR.t MapR.t
+)
+ident(
+  int_ref add_to_gamma "smt/uf.ml" 125 3675 3683 "smt/uf.ml" 125 3675 3695
+)
+"smt/uf.ml" 223 6713 6739 "smt/uf.ml" 223 6713 6740
+type(
+  SetR.elt
+)
+ident(
+  int_ref r "smt/uf.ml" 214 6410 6418 "smt/uf.ml" 214 6410 6419
+)
+"smt/uf.ml" 223 6713 6741 "smt/uf.ml" 223 6713 6744
+type(
+  R.r
+)
+ident(
+  int_ref nrr "smt/uf.ml" 216 6494 6504 "smt/uf.ml" 216 6494 6507
+)
+"smt/uf.ml" 223 6713 6745 "smt/uf.ml" 223 6713 6748
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 214 6410 6421 "smt/uf.ml" 214 6410 6424
+)
+"smt/uf.ml" 223 6713 6745 "smt/uf.ml" 223 6713 6754
+type(
+  SetR.t MapR.t
+)
+"smt/uf.ml" 223 6713 6726 "smt/uf.ml" 223 6713 6754
+call(
+  stack
+)
+type(
+  SetR.t MapR.t
+)
+"smt/uf.ml" 221 6657 6660 "smt/uf.ml" 223 6713 6756
+type(
+  t
+)
+"smt/uf.ml" 225 6769 6777 "smt/uf.ml" 225 6769 6780
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 220 6631 6650 "smt/uf.ml" 220 6631 6653
+)
+"smt/uf.ml" 225 6769 6783 "smt/uf.ml" 225 6769 6784
+type(
+  SetR.elt
+)
+ident(
+  int_ref r "smt/uf.ml" 214 6410 6418 "smt/uf.ml" 214 6410 6419
+)
+"smt/uf.ml" 225 6769 6786 "smt/uf.ml" 225 6769 6789
+type(
+  R.r
+)
+ident(
+  int_ref nrr "smt/uf.ml" 216 6494 6504 "smt/uf.ml" 216 6494 6507
+)
+"smt/uf.ml" 225 6769 6791 "smt/uf.ml" 225 6769 6793
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/uf.ml" 219 6594 6606 "smt/uf.ml" 219 6594 6608
+)
+"smt/uf.ml" 225 6769 6782 "smt/uf.ml" 225 6769 6794
+type(
+  SetR.elt * R.r * Ex.t
+)
+"smt/uf.ml" 225 6769 6796 "smt/uf.ml" 225 6769 6803
+type(
+  (SetR.elt * R.r * Ex.t) list
+)
+ident(
+  int_ref touched "smt/uf.ml" 214 6410 6426 "smt/uf.ml" 214 6410 6433
+)
+"smt/uf.ml" 225 6769 6782 "smt/uf.ml" 225 6769 6803
+type(
+  (SetR.elt * R.r * Ex.t) list
+)
+"smt/uf.ml" 225 6769 6805 "smt/uf.ml" 225 6769 6814
+type(
+  SetRR.elt -> SetRR.t -> SetRR.t
+)
+ident(
+  ext_ref SetRR.add
+)
+"smt/uf.ml" 225 6769 6816 "smt/uf.ml" 225 6769 6818
+type(
+  R.r
+)
+ident(
+  int_ref rr "smt/uf.ml" 215 6451 6461 "smt/uf.ml" 215 6451 6463
+)
+"smt/uf.ml" 225 6769 6820 "smt/uf.ml" 225 6769 6823
+type(
+  R.r
+)
+ident(
+  int_ref nrr "smt/uf.ml" 216 6494 6504 "smt/uf.ml" 216 6494 6507
+)
+"smt/uf.ml" 225 6769 6815 "smt/uf.ml" 225 6769 6824
+type(
+  SetRR.elt
+)
+"smt/uf.ml" 225 6769 6825 "smt/uf.ml" 225 6769 6835
+type(
+  SetRR.t
+)
+ident(
+  int_ref neqs_to_up "smt/uf.ml" 214 6410 6435 "smt/uf.ml" 214 6410 6445
+)
+"smt/uf.ml" 225 6769 6805 "smt/uf.ml" 225 6769 6835
+call(
+  stack
+)
+type(
+  SetRR.t
+)
+"smt/uf.ml" 225 6769 6777 "smt/uf.ml" 225 6769 6835
+type(
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t
+)
+"smt/uf.ml" 220 6631 6646 "smt/uf.ml" 225 6769 6835
+type(
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t
+)
+"smt/uf.ml" 219 6594 6602 "smt/uf.ml" 225 6769 6835
+type(
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t
+)
+"smt/uf.ml" 217 6528 6534 "smt/uf.ml" 225 6769 6835
+type(
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t
+)
+"smt/uf.ml" 216 6494 6500 "smt/uf.ml" 225 6769 6835
+type(
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t
+)
+"smt/uf.ml" 215 6451 6457 "smt/uf.ml" 225 6769 6835
+type(
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t
+)
+"smt/uf.ml" 214 6410 6413 "smt/uf.ml" 226 6836 6840
+type(
+  SetR.elt ->
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t ->
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t
+)
+"smt/uf.ml" 226 6836 6841 "smt/uf.ml" 226 6836 6846
+type(
+  SetR.t
+)
+ident(
+  int_ref use_p "smt/uf.ml" 211 6317 6327 "smt/uf.ml" 211 6317 6332
+)
+"smt/uf.ml" 226 6836 6848 "smt/uf.ml" 226 6836 6851
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 209 6239 6262 "smt/uf.ml" 209 6239 6265
+)
+"smt/uf.ml" 226 6836 6853 "smt/uf.ml" 226 6836 6855
+type(
+  (SetR.elt * R.r * Ex.t) list
+)
+"smt/uf.ml" 226 6836 6857 "smt/uf.ml" 226 6836 6868
+type(
+  SetRR.t
+)
+ident(
+  ext_ref SetRR.empty
+)
+"smt/uf.ml" 226 6836 6847 "smt/uf.ml" 226 6836 6869
+type(
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t
+)
+"smt/uf.ml" 213 6371 6399 "smt/uf.ml" 226 6836 6869
+call(
+  stack
+)
+type(
+  t * (SetR.elt * R.r * Ex.t) list * SetRR.t
+)
+"smt/uf.ml" 228 6933 6934 "smt/uf.ml" 228 6933 6944
+type(
+  Ex.t -> SetRR.t -> t -> t
+)
+ident(
+  int_ref update_aux "smt/uf.ml" 201 6041 6049 "smt/uf.ml" 201 6041 6059
+)
+"smt/uf.ml" 228 6933 6945 "smt/uf.ml" 228 6933 6948
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 209 6239 6273 "smt/uf.ml" 209 6239 6276
+)
+"smt/uf.ml" 228 6933 6949 "smt/uf.ml" 228 6933 6959
+type(
+  SetRR.t
+)
+ident(
+  int_ref neqs_to_up "smt/uf.ml" 213 6371 6386 "smt/uf.ml" 213 6371 6396
+)
+"smt/uf.ml" 228 6933 6960 "smt/uf.ml" 228 6933 6963
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 213 6371 6376 "smt/uf.ml" 213 6371 6379
+)
+"smt/uf.ml" 228 6933 6934 "smt/uf.ml" 228 6933 6963
+call(
+  stack
+)
+type(
+  t
+)
+"smt/uf.ml" 228 6933 6965 "smt/uf.ml" 228 6933 6968
+type(
+  (SetR.elt * R.r * Ex.t) list
+)
+ident(
+  int_ref tch "smt/uf.ml" 213 6371 6381 "smt/uf.ml" 213 6371 6384
+)
+"smt/uf.ml" 228 6933 6934 "smt/uf.ml" 228 6933 6968
+type(
+  t * (SetR.elt * R.r * Ex.t) list
+)
+"smt/uf.ml" 213 6371 6372 "smt/uf.ml" 228 6933 6968
+type(
+  t * (SetR.elt * R.r * Ex.t) list
+)
+"smt/uf.ml" 230 6972 6983 "smt/uf.ml" 230 6972 6992
+type(
+  exn
+)
+"smt/uf.ml" 230 6972 7003 "smt/uf.ml" 230 6972 7008
+type(
+  bool
+)
+"smt/uf.ml" 230 6972 6996 "smt/uf.ml" 230 6972 7008
+type(
+  t * (SetR.elt * R.r * Ex.t) list
+)
+"smt/uf.ml" 212 6360 6366 "smt/uf.ml" 230 6972 7008
+type(
+  t * (SetR.elt * R.r * Ex.t) list
+)
+"smt/uf.ml" 211 6317 6323 "smt/uf.ml" 230 6972 7008
+type(
+  t * (SetR.elt * R.r * Ex.t) list
+)
+"smt/uf.ml" 210 6280 6286 "smt/uf.ml" 230 6972 7008
+type(
+  t * (SetR.elt * R.r * Ex.t) list
+)
+"smt/uf.ml" 232 7013 7021 "smt/uf.ml" 232 7013 7032
+type(
+  'a ->
+  t ->
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list ->
+  MapR.key * R.r * Ex.t ->
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  def apply_sigma "smt/uf.ml" 235 7160 7195 "smt/uf.ml" 237 7198 7203
+)
+"smt/uf.ml" 232 7013 7033 "smt/uf.ml" 232 7013 7036
+type(
+  'a
+)
+ident(
+  def eqs "smt/uf.ml" 232 7013 7037 "smt/uf.ml" 235 7160 7195
+)
+"smt/uf.ml" 232 7013 7037 "smt/uf.ml" 232 7013 7040
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 232 7013 7041 "smt/uf.ml" 235 7160 7195
+)
+"smt/uf.ml" 232 7013 7041 "smt/uf.ml" 232 7013 7044
+type(
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  def tch "smt/uf.ml" 232 7013 7045 "smt/uf.ml" 235 7160 7195
+)
+"smt/uf.ml" 232 7013 7047 "smt/uf.ml" 232 7013 7048
+type(
+  MapR.key
+)
+ident(
+  def p "smt/uf.ml" 233 7071 7077 "smt/uf.ml" 235 7160 7195
+)
+"smt/uf.ml" 232 7013 7050 "smt/uf.ml" 232 7013 7051
+type(
+  R.r
+)
+ident(
+  def v "smt/uf.ml" 233 7071 7077 "smt/uf.ml" 235 7160 7195
+)
+"smt/uf.ml" 232 7013 7053 "smt/uf.ml" 232 7013 7056
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/uf.ml" 233 7071 7077 "smt/uf.ml" 235 7160 7195
+)
+"smt/uf.ml" 232 7013 7046 "smt/uf.ml" 232 7013 7057
+type(
+  MapR.key * R.r * Ex.t
+)
+"smt/uf.ml" 232 7013 7061 "smt/uf.ml" 232 7013 7066
+ident(
+  def sigma "smt/uf.ml" 233 7071 7077 "smt/uf.ml" 235 7160 7195
+)
+"smt/uf.ml" 232 7013 7045 "smt/uf.ml" 232 7013 7067
+type(
+  MapR.key * R.r * Ex.t
+)
+"smt/uf.ml" 233 7071 7081 "smt/uf.ml" 233 7071 7084
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 234 7106 7112 "smt/uf.ml" 235 7160 7195
+)
+"smt/uf.ml" 233 7071 7087 "smt/uf.ml" 233 7071 7096
+type(
+  t -> MapR.key -> t
+)
+ident(
+  int_ref init_leaf "smt/uf.ml" 172 5169 5177 "smt/uf.ml" 172 5169 5186
+)
+"smt/uf.ml" 233 7071 7097 "smt/uf.ml" 233 7071 7100
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 232 7013 7037 "smt/uf.ml" 232 7013 7040
+)
+"smt/uf.ml" 233 7071 7101 "smt/uf.ml" 233 7071 7102
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 232 7013 7047 "smt/uf.ml" 232 7013 7048
+)
+"smt/uf.ml" 233 7071 7087 "smt/uf.ml" 233 7071 7102
+call(
+  stack
+)
+type(
+  t
+)
+"smt/uf.ml" 234 7106 7116 "smt/uf.ml" 234 7106 7119
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 235 7160 7166 "smt/uf.ml" 235 7160 7195
+)
+"smt/uf.ml" 234 7106 7121 "smt/uf.ml" 234 7106 7128
+type(
+  (SetR.elt * R.r * Ex.t) list
+)
+ident(
+  def touched "smt/uf.ml" 235 7160 7166 "smt/uf.ml" 235 7160 7195
+)
+"smt/uf.ml" 234 7106 7116 "smt/uf.ml" 234 7106 7128
+type(
+  t * (SetR.elt * R.r * Ex.t) list
+)
+"smt/uf.ml" 234 7106 7131 "smt/uf.ml" 234 7106 7145
+type(
+  t -> MapR.key * R.r * Ex.t -> t * (SetR.elt * R.r * Ex.t) list
+)
+ident(
+  int_ref apply_sigma_uf "smt/uf.ml" 209 6239 6247 "smt/uf.ml" 209 6239 6261
+)
+"smt/uf.ml" 234 7106 7146 "smt/uf.ml" 234 7106 7149
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 233 7071 7081 "smt/uf.ml" 233 7071 7084
+)
+"smt/uf.ml" 234 7106 7150 "smt/uf.ml" 234 7106 7155
+type(
+  MapR.key * R.r * Ex.t
+)
+ident(
+  int_ref sigma "smt/uf.ml" 232 7013 7045 "smt/uf.ml" 232 7013 7067
+)
+"smt/uf.ml" 234 7106 7131 "smt/uf.ml" 234 7106 7155
+call(
+  stack
+)
+type(
+  t * (SetR.elt * R.r * Ex.t) list
+)
+"smt/uf.ml" 235 7160 7166 "smt/uf.ml" 235 7160 7169
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 234 7106 7116 "smt/uf.ml" 234 7106 7119
+)
+"smt/uf.ml" 235 7160 7173 "smt/uf.ml" 235 7160 7174
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 232 7013 7047 "smt/uf.ml" 232 7013 7048
+)
+"smt/uf.ml" 235 7160 7176 "smt/uf.ml" 235 7160 7183
+type(
+  (SetR.elt * R.r * Ex.t) list
+)
+ident(
+  int_ref touched "smt/uf.ml" 234 7106 7121 "smt/uf.ml" 234 7106 7128
+)
+"smt/uf.ml" 235 7160 7185 "smt/uf.ml" 235 7160 7186
+type(
+  R.r
+)
+ident(
+  int_ref v "smt/uf.ml" 232 7013 7050 "smt/uf.ml" 232 7013 7051
+)
+"smt/uf.ml" 235 7160 7172 "smt/uf.ml" 235 7160 7187
+type(
+  MapR.key * (SetR.elt * R.r * Ex.t) list * R.r
+)
+"smt/uf.ml" 235 7160 7191 "smt/uf.ml" 235 7160 7194
+type(
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  int_ref tch "smt/uf.ml" 232 7013 7041 "smt/uf.ml" 232 7013 7044
+)
+"smt/uf.ml" 235 7160 7171 "smt/uf.ml" 235 7160 7195
+type(
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 235 7160 7166 "smt/uf.ml" 235 7160 7195
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 234 7106 7112 "smt/uf.ml" 235 7160 7195
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 233 7071 7077 "smt/uf.ml" 235 7160 7195
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 239 7209 7215 "smt/uf.ml" 239 7209 7218
+type(
+  t -> MapT.key -> t * Literal.LT.t list
+)
+ident(
+  def add "smt/uf.ml" 242 7293 7295 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 239 7209 7219 "smt/uf.ml" 239 7209 7222
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 239 7209 7223 "smt/uf.ml" 240 7227 7291
+)
+"smt/uf.ml" 239 7209 7223 "smt/uf.ml" 239 7209 7224
+type(
+  MapT.key
+)
+ident(
+  def t "smt/uf.ml" 240 7227 7231 "smt/uf.ml" 240 7227 7291
+)
+"smt/uf.ml" 240 7227 7234 "smt/uf.ml" 240 7227 7242
+type(
+  MapT.key -> R.r MapT.t -> bool
+)
+ident(
+  ext_ref MapT.mem
+)
+"smt/uf.ml" 240 7227 7243 "smt/uf.ml" 240 7227 7244
+type(
+  MapT.key
+)
+ident(
+  int_ref t "smt/uf.ml" 239 7209 7223 "smt/uf.ml" 239 7209 7224
+)
+"smt/uf.ml" 240 7227 7245 "smt/uf.ml" 240 7227 7248
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 239 7209 7219 "smt/uf.ml" 239 7209 7222
+)
+"smt/uf.ml" 240 7227 7245 "smt/uf.ml" 240 7227 7253
+type(
+  R.r MapT.t
+)
+"smt/uf.ml" 240 7227 7234 "smt/uf.ml" 240 7227 7253
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 240 7227 7259 "smt/uf.ml" 240 7227 7262
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 239 7209 7219 "smt/uf.ml" 239 7209 7222
+)
+"smt/uf.ml" 240 7227 7264 "smt/uf.ml" 240 7227 7266
+type(
+  Literal.LT.t list
+)
+"smt/uf.ml" 240 7227 7259 "smt/uf.ml" 240 7227 7266
+type(
+  t * Literal.LT.t list
+)
+"smt/uf.ml" 240 7227 7272 "smt/uf.ml" 240 7227 7285
+type(
+  t -> MapT.key -> t * Literal.LT.t list
+)
+ident(
+  int_ref Env.init_term "smt/uf.ml" 189 5637 5645 "smt/uf.ml" 189 5637 5654
+)
+"smt/uf.ml" 240 7227 7286 "smt/uf.ml" 240 7227 7289
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 239 7209 7219 "smt/uf.ml" 239 7209 7222
+)
+"smt/uf.ml" 240 7227 7290 "smt/uf.ml" 240 7227 7291
+type(
+  MapT.key
+)
+ident(
+  int_ref t "smt/uf.ml" 239 7209 7223 "smt/uf.ml" 239 7209 7224
+)
+"smt/uf.ml" 240 7227 7272 "smt/uf.ml" 240 7227 7291
+call(
+  tail
+)
+type(
+  t * Literal.LT.t list
+)
+"smt/uf.ml" 240 7227 7231 "smt/uf.ml" 240 7227 7291
+type(
+  t * Literal.LT.t list
+)
+"smt/uf.ml" 242 7293 7299 "smt/uf.ml" 242 7293 7307
+type(
+  'b ->
+  Ex.t ->
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list ->
+  MapR.key * MapR.key ->
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  def ac_solve "smt/uf.ml" 251 7729 7731 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 242 7293 7308 "smt/uf.ml" 242 7293 7311
+type(
+  'b
+)
+ident(
+  def eqs "smt/uf.ml" 242 7293 7312 "smt/uf.ml" 249 7683 7727
+)
+"smt/uf.ml" 242 7293 7312 "smt/uf.ml" 242 7293 7315
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/uf.ml" 242 7293 7316 "smt/uf.ml" 249 7683 7727
+)
+"smt/uf.ml" 242 7293 7317 "smt/uf.ml" 242 7293 7320
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 242 7293 7327 "smt/uf.ml" 249 7683 7727
+)
+"smt/uf.ml" 242 7293 7322 "smt/uf.ml" 242 7293 7325
+type(
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  def tch "smt/uf.ml" 242 7293 7327 "smt/uf.ml" 249 7683 7727
+)
+"smt/uf.ml" 242 7293 7316 "smt/uf.ml" 242 7293 7326
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 242 7293 7328 "smt/uf.ml" 242 7293 7329
+type(
+  MapR.key
+)
+ident(
+  def p "smt/uf.ml" 245 7491 7495 "smt/uf.ml" 249 7683 7727
+)
+"smt/uf.ml" 242 7293 7331 "smt/uf.ml" 242 7293 7332
+type(
+  MapR.key
+)
+ident(
+  def v "smt/uf.ml" 245 7491 7495 "smt/uf.ml" 249 7683 7727
+)
+"smt/uf.ml" 242 7293 7327 "smt/uf.ml" 242 7293 7333
+type(
+  MapR.key * MapR.key
+)
+"smt/uf.ml" 245 7491 7499 "smt/uf.ml" 245 7491 7501
+type(
+  R.r
+)
+ident(
+  def rv "smt/uf.ml" 248 7647 7651 "smt/uf.ml" 249 7683 7727
+)
+"smt/uf.ml" 245 7491 7503 "smt/uf.ml" 245 7491 7508
+type(
+  Ex.t
+)
+ident(
+  def ex_rv "smt/uf.ml" 248 7647 7651 "smt/uf.ml" 249 7683 7727
+)
+"smt/uf.ml" 245 7491 7499 "smt/uf.ml" 245 7491 7508
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 245 7491 7511 "smt/uf.ml" 245 7491 7534
+type(
+  t -> MapR.key -> R.r * Ex.t
+)
+ident(
+  int_ref Env.find_or_normal_form "smt/uf.ml" 169 5065 5073 "smt/uf.ml" 169 5065 5092
+)
+"smt/uf.ml" 245 7491 7535 "smt/uf.ml" 245 7491 7538
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 242 7293 7317 "smt/uf.ml" 242 7293 7320
+)
+"smt/uf.ml" 245 7491 7539 "smt/uf.ml" 245 7491 7540
+type(
+  MapR.key
+)
+ident(
+  int_ref v "smt/uf.ml" 242 7293 7331 "smt/uf.ml" 242 7293 7332
+)
+"smt/uf.ml" 245 7491 7511 "smt/uf.ml" 245 7491 7540
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 248 7647 7655 "smt/uf.ml" 248 7647 7658
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/uf.ml" 249 7683 7687 "smt/uf.ml" 249 7683 7727
+)
+"smt/uf.ml" 248 7647 7661 "smt/uf.ml" 248 7647 7669
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 248 7647 7670 "smt/uf.ml" 248 7647 7675
+type(
+  Ex.t
+)
+ident(
+  int_ref ex_rv "smt/uf.ml" 245 7491 7503 "smt/uf.ml" 245 7491 7508
+)
+"smt/uf.ml" 248 7647 7676 "smt/uf.ml" 248 7647 7679
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 242 7293 7312 "smt/uf.ml" 242 7293 7315
+)
+"smt/uf.ml" 248 7647 7661 "smt/uf.ml" 248 7647 7679
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 249 7683 7687 "smt/uf.ml" 249 7683 7702
+type(
+  'b ->
+  t ->
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list ->
+  MapR.key * R.r * Ex.t ->
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  int_ref Env.apply_sigma "smt/uf.ml" 232 7013 7021 "smt/uf.ml" 232 7013 7032
+)
+"smt/uf.ml" 249 7683 7703 "smt/uf.ml" 249 7683 7706
+type(
+  'b
+)
+ident(
+  int_ref eqs "smt/uf.ml" 242 7293 7308 "smt/uf.ml" 242 7293 7311
+)
+"smt/uf.ml" 249 7683 7707 "smt/uf.ml" 249 7683 7710
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 242 7293 7317 "smt/uf.ml" 242 7293 7320
+)
+"smt/uf.ml" 249 7683 7711 "smt/uf.ml" 249 7683 7714
+type(
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  int_ref tch "smt/uf.ml" 242 7293 7322 "smt/uf.ml" 242 7293 7325
+)
+"smt/uf.ml" 249 7683 7716 "smt/uf.ml" 249 7683 7717
+type(
+  MapR.key
+)
+ident(
+  int_ref p "smt/uf.ml" 242 7293 7328 "smt/uf.ml" 242 7293 7329
+)
+"smt/uf.ml" 249 7683 7719 "smt/uf.ml" 249 7683 7721
+type(
+  R.r
+)
+ident(
+  int_ref rv "smt/uf.ml" 245 7491 7499 "smt/uf.ml" 245 7491 7501
+)
+"smt/uf.ml" 249 7683 7723 "smt/uf.ml" 249 7683 7726
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 248 7647 7655 "smt/uf.ml" 248 7647 7658
+)
+"smt/uf.ml" 249 7683 7715 "smt/uf.ml" 249 7683 7727
+type(
+  MapR.key * R.r * Ex.t
+)
+"smt/uf.ml" 249 7683 7687 "smt/uf.ml" 249 7683 7727
+call(
+  tail
+)
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 248 7647 7651 "smt/uf.ml" 249 7683 7727
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 245 7491 7495 "smt/uf.ml" 249 7683 7727
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 251 7729 7735 "smt/uf.ml" 251 7729 7742
+type(
+  t -> MapR.key -> MapR.key -> Ex.t -> (R.r * R.r) list
+)
+ident(
+  def x_solve "smt/uf.ml" 266 8153 8155 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 251 7729 7743 "smt/uf.ml" 251 7729 7746
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 251 7729 7747 "smt/uf.ml" 264 8134 8143
+)
+"smt/uf.ml" 251 7729 7747 "smt/uf.ml" 251 7729 7749
+type(
+  MapR.key
+)
+ident(
+  def r1 "smt/uf.ml" 251 7729 7750 "smt/uf.ml" 264 8134 8143
+)
+"smt/uf.ml" 251 7729 7750 "smt/uf.ml" 251 7729 7752
+type(
+  MapR.key
+)
+ident(
+  def r2 "smt/uf.ml" 251 7729 7753 "smt/uf.ml" 264 8134 8143
+)
+"smt/uf.ml" 251 7729 7753 "smt/uf.ml" 251 7729 7756
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/uf.ml" 252 7760 7764 "smt/uf.ml" 264 8134 8143
+)
+"smt/uf.ml" 252 7760 7768 "smt/uf.ml" 252 7760 7771
+type(
+  R.r
+)
+ident(
+  def rr1 "smt/uf.ml" 253 7815 7819 "smt/uf.ml" 264 8134 8143
+)
+"smt/uf.ml" 252 7760 7773 "smt/uf.ml" 252 7760 7778
+type(
+  Ex.t
+)
+ident(
+  def ex_r1 "smt/uf.ml" 253 7815 7819 "smt/uf.ml" 264 8134 8143
+)
+"smt/uf.ml" 252 7760 7768 "smt/uf.ml" 252 7760 7778
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 252 7760 7781 "smt/uf.ml" 252 7760 7804
+type(
+  t -> MapR.key -> R.r * Ex.t
+)
+ident(
+  int_ref Env.find_or_normal_form "smt/uf.ml" 169 5065 5073 "smt/uf.ml" 169 5065 5092
+)
+"smt/uf.ml" 252 7760 7805 "smt/uf.ml" 252 7760 7808
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 251 7729 7743 "smt/uf.ml" 251 7729 7746
+)
+"smt/uf.ml" 252 7760 7809 "smt/uf.ml" 252 7760 7811
+type(
+  MapR.key
+)
+ident(
+  int_ref r1 "smt/uf.ml" 251 7729 7747 "smt/uf.ml" 251 7729 7749
+)
+"smt/uf.ml" 252 7760 7781 "smt/uf.ml" 252 7760 7811
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 253 7815 7823 "smt/uf.ml" 253 7815 7826
+type(
+  R.r
+)
+ident(
+  def rr2 "smt/uf.ml" 254 7870 7874 "smt/uf.ml" 264 8134 8143
+)
+"smt/uf.ml" 253 7815 7828 "smt/uf.ml" 253 7815 7833
+type(
+  Ex.t
+)
+ident(
+  def ex_r2 "smt/uf.ml" 254 7870 7874 "smt/uf.ml" 264 8134 8143
+)
+"smt/uf.ml" 253 7815 7823 "smt/uf.ml" 253 7815 7833
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 253 7815 7836 "smt/uf.ml" 253 7815 7859
+type(
+  t -> MapR.key -> R.r * Ex.t
+)
+ident(
+  int_ref Env.find_or_normal_form "smt/uf.ml" 169 5065 5073 "smt/uf.ml" 169 5065 5092
+)
+"smt/uf.ml" 253 7815 7860 "smt/uf.ml" 253 7815 7863
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 251 7729 7743 "smt/uf.ml" 251 7729 7746
+)
+"smt/uf.ml" 253 7815 7864 "smt/uf.ml" 253 7815 7866
+type(
+  MapR.key
+)
+ident(
+  int_ref r2 "smt/uf.ml" 251 7729 7750 "smt/uf.ml" 251 7729 7752
+)
+"smt/uf.ml" 253 7815 7836 "smt/uf.ml" 253 7815 7866
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 254 7870 7878 "smt/uf.ml" 254 7870 7881
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/uf.ml" 255 7923 7927 "smt/uf.ml" 264 8134 8143
+)
+"smt/uf.ml" 254 7870 7884 "smt/uf.ml" 254 7870 7892
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 254 7870 7893 "smt/uf.ml" 254 7870 7896
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 251 7729 7753 "smt/uf.ml" 251 7729 7756
+)
+"smt/uf.ml" 254 7870 7898 "smt/uf.ml" 254 7870 7906
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 254 7870 7907 "smt/uf.ml" 254 7870 7912
+type(
+  Ex.t
+)
+ident(
+  int_ref ex_r1 "smt/uf.ml" 252 7760 7773 "smt/uf.ml" 252 7760 7778
+)
+"smt/uf.ml" 254 7870 7913 "smt/uf.ml" 254 7870 7918
+type(
+  Ex.t
+)
+ident(
+  int_ref ex_r2 "smt/uf.ml" 253 7815 7828 "smt/uf.ml" 253 7815 7833
+)
+"smt/uf.ml" 254 7870 7897 "smt/uf.ml" 254 7870 7919
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 254 7870 7884 "smt/uf.ml" 254 7870 7919
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 255 7923 7930 "smt/uf.ml" 255 7923 7937
+type(
+  R.r -> R.r -> bool
+)
+ident(
+  ext_ref R.equal
+)
+"smt/uf.ml" 255 7923 7938 "smt/uf.ml" 255 7923 7941
+type(
+  R.r
+)
+ident(
+  int_ref rr1 "smt/uf.ml" 252 7760 7768 "smt/uf.ml" 252 7760 7771
+)
+"smt/uf.ml" 255 7923 7942 "smt/uf.ml" 255 7923 7945
+type(
+  R.r
+)
+ident(
+  int_ref rr2 "smt/uf.ml" 253 7815 7823 "smt/uf.ml" 253 7815 7826
+)
+"smt/uf.ml" 255 7923 7930 "smt/uf.ml" 255 7923 7945
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 255 7923 7951 "smt/uf.ml" 257 7984 7991
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 260 8014 8015 "smt/uf.ml" 260 8014 8021
+type(
+  Ex.t MapL.t MapR.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"smt/uf.ml" 260 8014 8023 "smt/uf.ml" 260 8014 8038
+type(
+  MapR.key -> MapR.key -> Ex.t -> t -> Ex.t MapL.t MapR.t
+)
+ident(
+  int_ref Env.update_neqs "smt/uf.ml" 132 3913 3921 "smt/uf.ml" 132 3913 3932
+)
+"smt/uf.ml" 260 8014 8039 "smt/uf.ml" 260 8014 8042
+type(
+  R.r
+)
+ident(
+  int_ref rr1 "smt/uf.ml" 252 7760 7768 "smt/uf.ml" 252 7760 7771
+)
+"smt/uf.ml" 260 8014 8043 "smt/uf.ml" 260 8014 8046
+type(
+  R.r
+)
+ident(
+  int_ref rr2 "smt/uf.ml" 253 7815 7823 "smt/uf.ml" 253 7815 7826
+)
+"smt/uf.ml" 260 8014 8047 "smt/uf.ml" 260 8014 8050
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 254 7870 7878 "smt/uf.ml" 254 7870 7881
+)
+"smt/uf.ml" 260 8014 8051 "smt/uf.ml" 260 8014 8054
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 251 7729 7743 "smt/uf.ml" 251 7729 7746
+)
+"smt/uf.ml" 260 8014 8022 "smt/uf.ml" 260 8014 8055
+call(
+  stack
+)
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 260 8014 8015 "smt/uf.ml" 260 8014 8055
+type(
+  unit
+)
+"smt/uf.ml" 261 8057 8069 "smt/uf.ml" 261 8057 8076
+type(
+  R.r -> R.r -> (R.r * R.r) list
+)
+ident(
+  ext_ref R.solve
+)
+"smt/uf.ml" 261 8057 8077 "smt/uf.ml" 261 8057 8080
+type(
+  R.r
+)
+ident(
+  int_ref rr1 "smt/uf.ml" 252 7760 7768 "smt/uf.ml" 252 7760 7771
+)
+"smt/uf.ml" 261 8057 8081 "smt/uf.ml" 261 8057 8084
+type(
+  R.r
+)
+ident(
+  int_ref rr2 "smt/uf.ml" 253 7815 7823 "smt/uf.ml" 253 7815 7826
+)
+"smt/uf.ml" 261 8057 8069 "smt/uf.ml" 261 8057 8084
+call(
+  stack
+)
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 262 8086 8092 "smt/uf.ml" 262 8086 8102
+type(
+  exn
+)
+"smt/uf.ml" 263 8106 8109 "smt/uf.ml" 263 8106 8114
+type(
+  exn -> (R.r * R.r) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/uf.ml" 263 8106 8129 "smt/uf.ml" 263 8106 8132
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 254 7870 7878 "smt/uf.ml" 254 7870 7881
+)
+"smt/uf.ml" 263 8106 8115 "smt/uf.ml" 263 8106 8133
+type(
+  exn
+)
+"smt/uf.ml" 263 8106 8109 "smt/uf.ml" 263 8106 8133
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 261 8057 8065 "smt/uf.ml" 263 8106 8133
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 259 8002 8008 "smt/uf.ml" 264 8134 8143
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 255 7923 7927 "smt/uf.ml" 264 8134 8143
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 254 7870 7874 "smt/uf.ml" 264 8134 8143
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 253 7815 7819 "smt/uf.ml" 264 8134 8143
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 252 7760 7764 "smt/uf.ml" 264 8134 8143
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 266 8153 8163 "smt/uf.ml" 266 8153 8167
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t ->
+  t ->
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list ->
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  def ac_x "smt/uf.ml" 266 8153 8155 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 266 8153 8168 "smt/uf.ml" 266 8153 8171
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t
+)
+ident(
+  def eqs "smt/uf.ml" 266 8153 8172 "smt/uf.ml" 272 8388 8410
+)
+"smt/uf.ml" 266 8153 8172 "smt/uf.ml" 266 8153 8175
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 266 8153 8176 "smt/uf.ml" 272 8388 8410
+)
+"smt/uf.ml" 266 8153 8176 "smt/uf.ml" 266 8153 8179
+type(
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  def tch "smt/uf.ml" 267 8183 8187 "smt/uf.ml" 272 8388 8410
+)
+"smt/uf.ml" 267 8183 8190 "smt/uf.ml" 267 8183 8204
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t -> bool
+)
+ident(
+  ext_ref Queue.is_empty
+)
+"smt/uf.ml" 267 8183 8205 "smt/uf.ml" 267 8183 8208
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t
+)
+ident(
+  int_ref eqs "smt/uf.ml" 266 8153 8168 "smt/uf.ml" 266 8153 8171
+)
+"smt/uf.ml" 267 8183 8190 "smt/uf.ml" 267 8183 8208
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 267 8183 8214 "smt/uf.ml" 267 8183 8217
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 266 8153 8172 "smt/uf.ml" 266 8153 8175
+)
+"smt/uf.ml" 267 8183 8219 "smt/uf.ml" 267 8183 8222
+type(
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  int_ref tch "smt/uf.ml" 266 8153 8176 "smt/uf.ml" 266 8153 8179
+)
+"smt/uf.ml" 267 8183 8214 "smt/uf.ml" 267 8183 8222
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 269 8233 8243 "smt/uf.ml" 269 8233 8245
+type(
+  MapR.key
+)
+ident(
+  def r1 "smt/uf.ml" 270 8274 8280 "smt/uf.ml" 272 8388 8410
+)
+"smt/uf.ml" 269 8233 8247 "smt/uf.ml" 269 8233 8249
+type(
+  MapR.key
+)
+ident(
+  def r2 "smt/uf.ml" 270 8274 8280 "smt/uf.ml" 272 8388 8410
+)
+"smt/uf.ml" 269 8233 8251 "smt/uf.ml" 269 8233 8254
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/uf.ml" 270 8274 8280 "smt/uf.ml" 272 8388 8410
+)
+"smt/uf.ml" 269 8233 8243 "smt/uf.ml" 269 8233 8254
+type(
+  MapR.key * MapR.key * Ex.t
+)
+"smt/uf.ml" 269 8233 8257 "smt/uf.ml" 269 8233 8266
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t -> MapR.key * MapR.key * Ex.t
+)
+ident(
+  ext_ref Queue.pop
+)
+"smt/uf.ml" 269 8233 8267 "smt/uf.ml" 269 8233 8270
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t
+)
+ident(
+  int_ref eqs "smt/uf.ml" 266 8153 8168 "smt/uf.ml" 266 8153 8171
+)
+"smt/uf.ml" 269 8233 8257 "smt/uf.ml" 269 8233 8270
+call(
+  stack
+)
+type(
+  MapR.key * MapR.key * Ex.t
+)
+"smt/uf.ml" 270 8274 8284 "smt/uf.ml" 270 8274 8287
+type(
+  (R.r * R.r) list
+)
+ident(
+  def sbs "smt/uf.ml" 271 8315 8321 "smt/uf.ml" 272 8388 8410
+)
+"smt/uf.ml" 270 8274 8290 "smt/uf.ml" 270 8274 8297
+type(
+  t -> MapR.key -> MapR.key -> Ex.t -> (R.r * R.r) list
+)
+ident(
+  int_ref x_solve "smt/uf.ml" 251 7729 7735 "smt/uf.ml" 251 7729 7742
+)
+"smt/uf.ml" 270 8274 8298 "smt/uf.ml" 270 8274 8301
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 266 8153 8172 "smt/uf.ml" 266 8153 8175
+)
+"smt/uf.ml" 270 8274 8302 "smt/uf.ml" 270 8274 8304
+type(
+  MapR.key
+)
+ident(
+  int_ref r1 "smt/uf.ml" 269 8233 8243 "smt/uf.ml" 269 8233 8245
+)
+"smt/uf.ml" 270 8274 8305 "smt/uf.ml" 270 8274 8307
+type(
+  MapR.key
+)
+ident(
+  int_ref r2 "smt/uf.ml" 269 8233 8247 "smt/uf.ml" 269 8233 8249
+)
+"smt/uf.ml" 270 8274 8308 "smt/uf.ml" 270 8274 8311
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 269 8233 8251 "smt/uf.ml" 269 8233 8254
+)
+"smt/uf.ml" 270 8274 8290 "smt/uf.ml" 270 8274 8311
+call(
+  stack
+)
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 271 8315 8325 "smt/uf.ml" 271 8315 8328
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 272 8388 8394 "smt/uf.ml" 272 8388 8410
+)
+"smt/uf.ml" 271 8315 8330 "smt/uf.ml" 271 8315 8333
+type(
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  def tch "smt/uf.ml" 272 8388 8394 "smt/uf.ml" 272 8388 8410
+)
+"smt/uf.ml" 271 8315 8325 "smt/uf.ml" 271 8315 8333
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 271 8315 8336 "smt/uf.ml" 271 8315 8350
+type(
+  (t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list ->
+   MapR.key * MapR.key ->
+   t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list) ->
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list ->
+  (MapR.key * MapR.key) list ->
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"smt/uf.ml" 271 8315 8352 "smt/uf.ml" 271 8315 8360
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t ->
+  Ex.t ->
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list ->
+  MapR.key * MapR.key ->
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  int_ref ac_solve "smt/uf.ml" 242 7293 7299 "smt/uf.ml" 242 7293 7307
+)
+"smt/uf.ml" 271 8315 8361 "smt/uf.ml" 271 8315 8364
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t
+)
+ident(
+  int_ref eqs "smt/uf.ml" 266 8153 8168 "smt/uf.ml" 266 8153 8171
+)
+"smt/uf.ml" 271 8315 8365 "smt/uf.ml" 271 8315 8368
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 269 8233 8251 "smt/uf.ml" 269 8233 8254
+)
+"smt/uf.ml" 271 8315 8351 "smt/uf.ml" 271 8315 8369
+call(
+  stack
+)
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list ->
+  MapR.key * MapR.key ->
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 271 8315 8371 "smt/uf.ml" 271 8315 8374
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 266 8153 8172 "smt/uf.ml" 266 8153 8175
+)
+"smt/uf.ml" 271 8315 8376 "smt/uf.ml" 271 8315 8379
+type(
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  int_ref tch "smt/uf.ml" 266 8153 8176 "smt/uf.ml" 266 8153 8179
+)
+"smt/uf.ml" 271 8315 8370 "smt/uf.ml" 271 8315 8380
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 271 8315 8381 "smt/uf.ml" 271 8315 8384
+type(
+  (MapR.key * MapR.key) list
+)
+ident(
+  int_ref sbs "smt/uf.ml" 270 8274 8284 "smt/uf.ml" 270 8274 8287
+)
+"smt/uf.ml" 271 8315 8336 "smt/uf.ml" 271 8315 8384
+call(
+  stack
+)
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 272 8388 8394 "smt/uf.ml" 272 8388 8398
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t ->
+  t ->
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list ->
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  int_ref ac_x "smt/uf.ml" 266 8153 8163 "smt/uf.ml" 266 8153 8167
+)
+"smt/uf.ml" 272 8388 8399 "smt/uf.ml" 272 8388 8402
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t
+)
+ident(
+  int_ref eqs "smt/uf.ml" 266 8153 8168 "smt/uf.ml" 266 8153 8171
+)
+"smt/uf.ml" 272 8388 8403 "smt/uf.ml" 272 8388 8406
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 271 8315 8325 "smt/uf.ml" 271 8315 8328
+)
+"smt/uf.ml" 272 8388 8407 "smt/uf.ml" 272 8388 8410
+type(
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  int_ref tch "smt/uf.ml" 271 8315 8330 "smt/uf.ml" 271 8315 8333
+)
+"smt/uf.ml" 272 8388 8394 "smt/uf.ml" 272 8388 8410
+call(
+  tail
+)
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 271 8315 8321 "smt/uf.ml" 272 8388 8410
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 270 8274 8280 "smt/uf.ml" 272 8388 8410
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 269 8233 8239 "smt/uf.ml" 272 8388 8410
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 267 8183 8187 "smt/uf.ml" 272 8388 8410
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 274 8418 8424 "smt/uf.ml" 274 8418 8429
+type(
+  t ->
+  MapR.key ->
+  MapR.key ->
+  Ex.t -> t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  def union "smt/uf.ml" 279 8552 8554 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 274 8418 8430 "smt/uf.ml" 274 8418 8433
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 274 8418 8434 "smt/uf.ml" 277 8525 8550
+)
+"smt/uf.ml" 274 8418 8434 "smt/uf.ml" 274 8418 8436
+type(
+  MapR.key
+)
+ident(
+  def r1 "smt/uf.ml" 274 8418 8437 "smt/uf.ml" 277 8525 8550
+)
+"smt/uf.ml" 274 8418 8437 "smt/uf.ml" 274 8418 8439
+type(
+  MapR.key
+)
+ident(
+  def r2 "smt/uf.ml" 274 8418 8440 "smt/uf.ml" 277 8525 8550
+)
+"smt/uf.ml" 274 8418 8440 "smt/uf.ml" 274 8418 8443
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/uf.ml" 275 8446 8450 "smt/uf.ml" 277 8525 8550
+)
+"smt/uf.ml" 275 8446 8454 "smt/uf.ml" 275 8446 8463
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t
+)
+ident(
+  def equations "smt/uf.ml" 276 8486 8490 "smt/uf.ml" 277 8525 8550
+)
+"smt/uf.ml" 275 8446 8466 "smt/uf.ml" 275 8446 8478
+type(
+  unit -> (MapR.key * MapR.key * Ex.t) Queue.t
+)
+ident(
+  ext_ref Queue.create
+)
+"smt/uf.ml" 275 8446 8479 "smt/uf.ml" 275 8446 8481
+type(
+  unit
+)
+"smt/uf.ml" 275 8446 8466 "smt/uf.ml" 275 8446 8481
+call(
+  stack
+)
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t
+)
+"smt/uf.ml" 276 8486 8490 "smt/uf.ml" 276 8486 8500
+type(
+  MapR.key * MapR.key * Ex.t -> (MapR.key * MapR.key * Ex.t) Queue.t -> unit
+)
+ident(
+  ext_ref Queue.push
+)
+"smt/uf.ml" 276 8486 8502 "smt/uf.ml" 276 8486 8504
+type(
+  MapR.key
+)
+ident(
+  int_ref r1 "smt/uf.ml" 274 8418 8434 "smt/uf.ml" 274 8418 8436
+)
+"smt/uf.ml" 276 8486 8505 "smt/uf.ml" 276 8486 8507
+type(
+  MapR.key
+)
+ident(
+  int_ref r2 "smt/uf.ml" 274 8418 8437 "smt/uf.ml" 274 8418 8439
+)
+"smt/uf.ml" 276 8486 8509 "smt/uf.ml" 276 8486 8512
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 274 8418 8440 "smt/uf.ml" 274 8418 8443
+)
+"smt/uf.ml" 276 8486 8501 "smt/uf.ml" 276 8486 8513
+type(
+  MapR.key * MapR.key * Ex.t
+)
+"smt/uf.ml" 276 8486 8514 "smt/uf.ml" 276 8486 8523
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t
+)
+ident(
+  int_ref equations "smt/uf.ml" 275 8446 8454 "smt/uf.ml" 275 8446 8463
+)
+"smt/uf.ml" 276 8486 8490 "smt/uf.ml" 276 8486 8523
+call(
+  stack
+)
+type(
+  unit
+)
+"smt/uf.ml" 277 8525 8529 "smt/uf.ml" 277 8525 8533
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t ->
+  t ->
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list ->
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  int_ref ac_x "smt/uf.ml" 266 8153 8163 "smt/uf.ml" 266 8153 8167
+)
+"smt/uf.ml" 277 8525 8534 "smt/uf.ml" 277 8525 8543
+type(
+  (MapR.key * MapR.key * Ex.t) Queue.t
+)
+ident(
+  int_ref equations "smt/uf.ml" 275 8446 8454 "smt/uf.ml" 275 8446 8463
+)
+"smt/uf.ml" 277 8525 8544 "smt/uf.ml" 277 8525 8547
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 274 8418 8430 "smt/uf.ml" 274 8418 8433
+)
+"smt/uf.ml" 277 8525 8548 "smt/uf.ml" 277 8525 8550
+type(
+  (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 277 8525 8529 "smt/uf.ml" 277 8525 8550
+call(
+  tail
+)
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 276 8486 8490 "smt/uf.ml" 277 8525 8550
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 275 8446 8450 "smt/uf.ml" 277 8525 8550
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 279 8552 8562 "smt/uf.ml" 279 8552 8570
+type(
+  t -> MapR.key list -> Ex.t -> t
+)
+ident(
+  def distinct "smt/uf.ml" 279 8552 8554 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 279 8552 8571 "smt/uf.ml" 279 8552 8574
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 279 8552 8575 "smt/uf.ml" 319 9779 9794
+)
+"smt/uf.ml" 279 8552 8575 "smt/uf.ml" 279 8552 8577
+type(
+  MapR.key list
+)
+ident(
+  def rl "smt/uf.ml" 279 8552 8578 "smt/uf.ml" 319 9779 9794
+)
+"smt/uf.ml" 279 8552 8578 "smt/uf.ml" 279 8552 8581
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/uf.ml" 280 8584 8588 "smt/uf.ml" 319 9779 9794
+)
+"smt/uf.ml" 280 8584 8592 "smt/uf.ml" 280 8584 8593
+type(
+  Lit.t
+)
+ident(
+  def d "smt/uf.ml" 281 8638 8642 "smt/uf.ml" 319 9779 9794
+)
+"smt/uf.ml" 280 8584 8596 "smt/uf.ml" 280 8584 8604
+type(
+  Lit.elt Literal.view -> Lit.t
+)
+ident(
+  ext_ref Lit.make
+)
+"smt/uf.ml" 280 8584 8624 "smt/uf.ml" 280 8584 8629
+type(
+  bool
+)
+"smt/uf.ml" 280 8584 8630 "smt/uf.ml" 280 8584 8632
+type(
+  MapR.key list
+)
+ident(
+  int_ref rl "smt/uf.ml" 279 8552 8575 "smt/uf.ml" 279 8552 8577
+)
+"smt/uf.ml" 280 8584 8605 "smt/uf.ml" 280 8584 8634
+type(
+  Lit.elt Literal.view
+)
+"smt/uf.ml" 280 8584 8596 "smt/uf.ml" 280 8584 8634
+call(
+  stack
+)
+type(
+  Lit.t
+)
+"smt/uf.ml" 281 8638 8646 "smt/uf.ml" 281 8638 8649
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 305 9349 9353 "smt/uf.ml" 319 9779 9794
+)
+"smt/uf.ml" 281 8638 8651 "smt/uf.ml" 281 8638 8652
+type(
+  Ex.t MapR.t
+)
+"smt/uf.ml" 281 8638 8654 "smt/uf.ml" 281 8638 8659
+type(
+  (R.r * Ex.t * Ex.t MapR.t) list
+)
+ident(
+  def newds "smt/uf.ml" 305 9349 9353 "smt/uf.ml" 319 9779 9794
+)
+"smt/uf.ml" 281 8638 8646 "smt/uf.ml" 281 8638 8659
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 282 8663 8669 "smt/uf.ml" 282 8663 8683
+type(
+  (t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list ->
+   MapR.key -> t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list) ->
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list ->
+  MapR.key list -> t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"smt/uf.ml" 283 8684 8691 "smt/uf.ml" 283 8684 8694
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 283 8684 8709 "smt/uf.ml" 300 9250 9311
+)
+"smt/uf.ml" 283 8684 8696 "smt/uf.ml" 283 8684 8700
+type(
+  Ex.t MapR.t
+)
+ident(
+  def mapr "smt/uf.ml" 283 8684 8709 "smt/uf.ml" 300 9250 9311
+)
+"smt/uf.ml" 283 8684 8702 "smt/uf.ml" 283 8684 8707
+type(
+  (R.r * Ex.t * Ex.t MapR.t) list
+)
+ident(
+  def newds "smt/uf.ml" 283 8684 8709 "smt/uf.ml" 300 9250 9311
+)
+"smt/uf.ml" 283 8684 8690 "smt/uf.ml" 283 8684 8708
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 283 8684 8709 "smt/uf.ml" 283 8684 8710
+type(
+  MapR.key
+)
+ident(
+  def r "smt/uf.ml" 284 8715 8719 "smt/uf.ml" 300 9250 9311
+)
+"smt/uf.ml" 284 8715 8723 "smt/uf.ml" 284 8715 8725
+type(
+  R.r
+)
+ident(
+  def rr "smt/uf.ml" 285 8766 8770 "smt/uf.ml" 300 9250 9311
+)
+"smt/uf.ml" 284 8715 8727 "smt/uf.ml" 284 8715 8729
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/uf.ml" 285 8766 8770 "smt/uf.ml" 300 9250 9311
+)
+"smt/uf.ml" 284 8715 8723 "smt/uf.ml" 284 8715 8729
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 284 8715 8732 "smt/uf.ml" 284 8715 8755
+type(
+  t -> MapR.key -> R.r * Ex.t
+)
+ident(
+  int_ref Env.find_or_normal_form "smt/uf.ml" 169 5065 5073 "smt/uf.ml" 169 5065 5092
+)
+"smt/uf.ml" 284 8715 8756 "smt/uf.ml" 284 8715 8759
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 283 8684 8691 "smt/uf.ml" 283 8684 8694
+)
+"smt/uf.ml" 284 8715 8760 "smt/uf.ml" 284 8715 8761
+type(
+  MapR.key
+)
+ident(
+  int_ref r "smt/uf.ml" 283 8684 8709 "smt/uf.ml" 283 8684 8710
+)
+"smt/uf.ml" 284 8715 8732 "smt/uf.ml" 284 8715 8761
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 286 8774 8784 "smt/uf.ml" 286 8774 8787
+type(
+  Ex.t
+)
+ident(
+  def exr "smt/uf.ml" 287 8811 8817 "smt/uf.ml" 287 8811 8855
+)
+"smt/uf.ml" 286 8774 8790 "smt/uf.ml" 286 8774 8799
+type(
+  MapR.key -> Ex.t MapR.t -> Ex.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 286 8774 8800 "smt/uf.ml" 286 8774 8802
+type(
+  R.r
+)
+ident(
+  int_ref rr "smt/uf.ml" 284 8715 8723 "smt/uf.ml" 284 8715 8725
+)
+"smt/uf.ml" 286 8774 8803 "smt/uf.ml" 286 8774 8807
+type(
+  Ex.t MapR.t
+)
+ident(
+  int_ref mapr "smt/uf.ml" 283 8684 8696 "smt/uf.ml" 283 8684 8700
+)
+"smt/uf.ml" 286 8774 8790 "smt/uf.ml" 286 8774 8807
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 287 8811 8817 "smt/uf.ml" 287 8811 8822
+type(
+  exn -> t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/uf.ml" 287 8811 8838 "smt/uf.ml" 287 8811 8846
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 287 8811 8847 "smt/uf.ml" 287 8811 8849
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/uf.ml" 284 8715 8727 "smt/uf.ml" 284 8715 8729
+)
+"smt/uf.ml" 287 8811 8850 "smt/uf.ml" 287 8811 8853
+type(
+  Ex.t
+)
+ident(
+  int_ref exr "smt/uf.ml" 286 8774 8784 "smt/uf.ml" 286 8774 8787
+)
+"smt/uf.ml" 287 8811 8837 "smt/uf.ml" 287 8811 8854
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 287 8811 8823 "smt/uf.ml" 287 8811 8855
+type(
+  exn
+)
+"smt/uf.ml" 287 8811 8817 "smt/uf.ml" 287 8811 8855
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 286 8774 8780 "smt/uf.ml" 287 8811 8855
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 288 8856 8865 "smt/uf.ml" 288 8856 8874
+type(
+  exn
+)
+"smt/uf.ml" 289 8878 8888 "smt/uf.ml" 289 8878 8891
+type(
+  Ex.t
+)
+ident(
+  def uex "smt/uf.ml" 290 8913 8919 "smt/uf.ml" 300 9250 9311
+)
+"smt/uf.ml" 289 8878 8894 "smt/uf.ml" 289 8878 8902
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 289 8878 8903 "smt/uf.ml" 289 8878 8905
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/uf.ml" 284 8715 8727 "smt/uf.ml" 284 8715 8729
+)
+"smt/uf.ml" 289 8878 8906 "smt/uf.ml" 289 8878 8909
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 279 8552 8578 "smt/uf.ml" 279 8552 8581
+)
+"smt/uf.ml" 289 8878 8894 "smt/uf.ml" 289 8878 8909
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 290 8913 8923 "smt/uf.ml" 290 8913 8927
+type(
+  Ex.t MapL.t
+)
+ident(
+  def mdis "smt/uf.ml" 292 8997 9003 "smt/uf.ml" 300 9250 9311
+)
+"smt/uf.ml" 291 8931 8943 "smt/uf.ml" 291 8931 8952
+type(
+  MapR.key -> Ex.t MapL.t MapR.t -> Ex.t MapL.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 291 8931 8953 "smt/uf.ml" 291 8931 8955
+type(
+  R.r
+)
+ident(
+  int_ref rr "smt/uf.ml" 284 8715 8723 "smt/uf.ml" 284 8715 8725
+)
+"smt/uf.ml" 291 8931 8956 "smt/uf.ml" 291 8931 8959
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 283 8684 8691 "smt/uf.ml" 283 8684 8694
+)
+"smt/uf.ml" 291 8931 8956 "smt/uf.ml" 291 8931 8964
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 291 8931 8943 "smt/uf.ml" 291 8931 8964
+call(
+  stack
+)
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 291 8931 8970 "smt/uf.ml" 291 8931 8979
+type(
+  exn
+)
+"smt/uf.ml" 291 8931 8983 "smt/uf.ml" 291 8931 8993
+type(
+  Ex.t MapL.t
+)
+ident(
+  ext_ref MapL.empty
+)
+"smt/uf.ml" 291 8931 8939 "smt/uf.ml" 291 8931 8993
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 292 8997 9007 "smt/uf.ml" 292 8997 9011
+type(
+  Ex.t MapL.t
+)
+ident(
+  def mdis "smt/uf.ml" 298 9140 9146 "smt/uf.ml" 300 9250 9311
+)
+"smt/uf.ml" 294 9028 9031 "smt/uf.ml" 294 9028 9039
+type(
+  MapL.key -> Ex.t -> Ex.t MapL.t -> Ex.t MapL.t
+)
+ident(
+  ext_ref MapL.add
+)
+"smt/uf.ml" 294 9028 9040 "smt/uf.ml" 294 9028 9041
+type(
+  MapL.key
+)
+ident(
+  int_ref d "smt/uf.ml" 280 8584 8592 "smt/uf.ml" 280 8584 8593
+)
+"smt/uf.ml" 294 9028 9043 "smt/uf.ml" 294 9028 9051
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.merge
+)
+"smt/uf.ml" 294 9028 9052 "smt/uf.ml" 294 9028 9055
+type(
+  Ex.t
+)
+ident(
+  int_ref uex "smt/uf.ml" 289 8878 8888 "smt/uf.ml" 289 8878 8891
+)
+"smt/uf.ml" 294 9028 9057 "smt/uf.ml" 294 9028 9066
+type(
+  MapL.key -> Ex.t MapL.t -> Ex.t
+)
+ident(
+  ext_ref MapL.find
+)
+"smt/uf.ml" 294 9028 9067 "smt/uf.ml" 294 9028 9068
+type(
+  MapL.key
+)
+ident(
+  int_ref d "smt/uf.ml" 280 8584 8592 "smt/uf.ml" 280 8584 8593
+)
+"smt/uf.ml" 294 9028 9069 "smt/uf.ml" 294 9028 9073
+type(
+  Ex.t MapL.t
+)
+ident(
+  int_ref mdis "smt/uf.ml" 290 8913 8923 "smt/uf.ml" 290 8913 8927
+)
+"smt/uf.ml" 294 9028 9056 "smt/uf.ml" 294 9028 9074
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 294 9028 9042 "smt/uf.ml" 294 9028 9075
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 294 9028 9076 "smt/uf.ml" 294 9028 9080
+type(
+  Ex.t MapL.t
+)
+ident(
+  int_ref mdis "smt/uf.ml" 290 8913 8923 "smt/uf.ml" 290 8913 8927
+)
+"smt/uf.ml" 294 9028 9031 "smt/uf.ml" 294 9028 9080
+call(
+  stack
+)
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 295 9081 9094 "smt/uf.ml" 295 9081 9103
+type(
+  exn
+)
+"smt/uf.ml" 296 9108 9111 "smt/uf.ml" 296 9108 9119
+type(
+  MapL.key -> Ex.t -> Ex.t MapL.t -> Ex.t MapL.t
+)
+ident(
+  ext_ref MapL.add
+)
+"smt/uf.ml" 296 9108 9120 "smt/uf.ml" 296 9108 9121
+type(
+  MapL.key
+)
+ident(
+  int_ref d "smt/uf.ml" 280 8584 8592 "smt/uf.ml" 280 8584 8593
+)
+"smt/uf.ml" 296 9108 9122 "smt/uf.ml" 296 9108 9125
+type(
+  Ex.t
+)
+ident(
+  int_ref uex "smt/uf.ml" 289 8878 8888 "smt/uf.ml" 289 8878 8891
+)
+"smt/uf.ml" 296 9108 9126 "smt/uf.ml" 296 9108 9130
+type(
+  Ex.t MapL.t
+)
+ident(
+  int_ref mdis "smt/uf.ml" 290 8913 8923 "smt/uf.ml" 290 8913 8927
+)
+"smt/uf.ml" 296 9108 9111 "smt/uf.ml" 296 9108 9130
+call(
+  stack
+)
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 293 9015 9023 "smt/uf.ml" 296 9108 9130
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 298 9140 9150 "smt/uf.ml" 298 9140 9153
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 299 9180 9193 "smt/uf.ml" 300 9250 9311
+)
+"smt/uf.ml" 298 9140 9156 "smt/uf.ml" 298 9140 9169
+type(
+  t -> MapR.key -> t
+)
+ident(
+  int_ref Env.init_leaf "smt/uf.ml" 172 5169 5177 "smt/uf.ml" 172 5169 5186
+)
+"smt/uf.ml" 298 9140 9170 "smt/uf.ml" 298 9140 9173
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 283 8684 8691 "smt/uf.ml" 283 8684 8694
+)
+"smt/uf.ml" 298 9140 9174 "smt/uf.ml" 298 9140 9176
+type(
+  R.r
+)
+ident(
+  int_ref rr "smt/uf.ml" 284 8715 8723 "smt/uf.ml" 284 8715 8725
+)
+"smt/uf.ml" 298 9140 9156 "smt/uf.ml" 298 9140 9176
+call(
+  stack
+)
+type(
+  t
+)
+"smt/uf.ml" 299 9180 9197 "smt/uf.ml" 299 9180 9200
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 300 9250 9263 "smt/uf.ml" 300 9250 9311
+)
+"smt/uf.ml" 299 9180 9204 "smt/uf.ml" 299 9180 9207
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 298 9140 9150 "smt/uf.ml" 298 9140 9153
+)
+"smt/uf.ml" 299 9180 9220 "smt/uf.ml" 299 9180 9228
+type(
+  MapR.key -> Ex.t MapL.t -> Ex.t MapL.t MapR.t -> Ex.t MapL.t MapR.t
+)
+ident(
+  ext_ref MapR.add
+)
+"smt/uf.ml" 299 9180 9229 "smt/uf.ml" 299 9180 9231
+type(
+  R.r
+)
+ident(
+  int_ref rr "smt/uf.ml" 284 8715 8723 "smt/uf.ml" 284 8715 8725
+)
+"smt/uf.ml" 299 9180 9232 "smt/uf.ml" 299 9180 9236
+type(
+  Ex.t MapL.t
+)
+ident(
+  int_ref mdis "smt/uf.ml" 292 8997 9007 "smt/uf.ml" 292 8997 9011
+)
+"smt/uf.ml" 299 9180 9237 "smt/uf.ml" 299 9180 9240
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 298 9140 9150 "smt/uf.ml" 298 9140 9153
+)
+"smt/uf.ml" 299 9180 9237 "smt/uf.ml" 299 9180 9245
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 299 9180 9220 "smt/uf.ml" 299 9180 9245
+call(
+  stack
+)
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 299 9180 9203 "smt/uf.ml" 299 9180 9246
+type(
+  t
+)
+"smt/uf.ml" 300 9250 9263 "smt/uf.ml" 300 9250 9266
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 299 9180 9197 "smt/uf.ml" 299 9180 9200
+)
+"smt/uf.ml" 300 9250 9268 "smt/uf.ml" 300 9250 9276
+type(
+  MapR.key -> Ex.t -> Ex.t MapR.t -> Ex.t MapR.t
+)
+ident(
+  ext_ref MapR.add
+)
+"smt/uf.ml" 300 9250 9277 "smt/uf.ml" 300 9250 9279
+type(
+  R.r
+)
+ident(
+  int_ref rr "smt/uf.ml" 284 8715 8723 "smt/uf.ml" 284 8715 8725
+)
+"smt/uf.ml" 300 9250 9280 "smt/uf.ml" 300 9250 9283
+type(
+  Ex.t
+)
+ident(
+  int_ref uex "smt/uf.ml" 289 8878 8888 "smt/uf.ml" 289 8878 8891
+)
+"smt/uf.ml" 300 9250 9284 "smt/uf.ml" 300 9250 9288
+type(
+  Ex.t MapR.t
+)
+ident(
+  int_ref mapr "smt/uf.ml" 283 8684 8696 "smt/uf.ml" 283 8684 8700
+)
+"smt/uf.ml" 300 9250 9268 "smt/uf.ml" 300 9250 9288
+call(
+  stack
+)
+type(
+  Ex.t MapR.t
+)
+"smt/uf.ml" 300 9250 9291 "smt/uf.ml" 300 9250 9293
+type(
+  R.r
+)
+ident(
+  int_ref rr "smt/uf.ml" 284 8715 8723 "smt/uf.ml" 284 8715 8725
+)
+"smt/uf.ml" 300 9250 9295 "smt/uf.ml" 300 9250 9297
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/uf.ml" 284 8715 8727 "smt/uf.ml" 284 8715 8729
+)
+"smt/uf.ml" 300 9250 9299 "smt/uf.ml" 300 9250 9303
+type(
+  Ex.t MapR.t
+)
+ident(
+  int_ref mapr "smt/uf.ml" 283 8684 8696 "smt/uf.ml" 283 8684 8700
+)
+"smt/uf.ml" 300 9250 9290 "smt/uf.ml" 300 9250 9304
+type(
+  R.r * Ex.t * Ex.t MapR.t
+)
+"smt/uf.ml" 300 9250 9306 "smt/uf.ml" 300 9250 9311
+type(
+  (R.r * Ex.t * Ex.t MapR.t) list
+)
+ident(
+  int_ref newds "smt/uf.ml" 283 8684 8702 "smt/uf.ml" 283 8684 8707
+)
+"smt/uf.ml" 300 9250 9290 "smt/uf.ml" 300 9250 9311
+type(
+  (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 300 9250 9263 "smt/uf.ml" 300 9250 9311
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 299 9180 9193 "smt/uf.ml" 300 9250 9311
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 298 9140 9146 "smt/uf.ml" 300 9250 9311
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 292 8997 9003 "smt/uf.ml" 300 9250 9311
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 290 8913 8919 "smt/uf.ml" 300 9250 9311
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 289 8878 8884 "smt/uf.ml" 300 9250 9311
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 285 8766 8770 "smt/uf.ml" 300 9250 9311
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 284 8715 8719 "smt/uf.ml" 300 9250 9311
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 283 8684 8685 "smt/uf.ml" 301 9312 9314
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list ->
+  MapR.key -> t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 302 9315 9317 "smt/uf.ml" 302 9315 9320
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 279 8552 8571 "smt/uf.ml" 279 8552 8574
+)
+"smt/uf.ml" 302 9315 9322 "smt/uf.ml" 302 9315 9332
+type(
+  Ex.t MapR.t
+)
+ident(
+  ext_ref MapR.empty
+)
+"smt/uf.ml" 302 9315 9334 "smt/uf.ml" 302 9315 9336
+type(
+  (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 302 9315 9316 "smt/uf.ml" 302 9315 9337
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 303 9338 9339 "smt/uf.ml" 303 9338 9341
+type(
+  MapR.key list
+)
+ident(
+  int_ref rl "smt/uf.ml" 279 8552 8575 "smt/uf.ml" 279 8552 8577
+)
+"smt/uf.ml" 282 8663 8669 "smt/uf.ml" 303 9338 9341
+call(
+  stack
+)
+type(
+  t * Ex.t MapR.t * (R.r * Ex.t * Ex.t MapR.t) list
+)
+"smt/uf.ml" 305 9349 9353 "smt/uf.ml" 305 9349 9367
+type(
+  (t -> R.r * Ex.t * Ex.t MapR.t -> t) ->
+  t -> (R.r * Ex.t * Ex.t MapR.t) list -> t
+)
+ident(
+  ext_ref List.fold_left
+)
+"smt/uf.ml" 306 9369 9380 "smt/uf.ml" 306 9369 9383
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 306 9369 9384 "smt/uf.ml" 318 9737 9777
+)
+"smt/uf.ml" 306 9369 9385 "smt/uf.ml" 306 9369 9387
+type(
+  R.r
+)
+ident(
+  def r1 "smt/uf.ml" 307 9404 9406 "smt/uf.ml" 318 9737 9777
+)
+"smt/uf.ml" 306 9369 9389 "smt/uf.ml" 306 9369 9392
+type(
+  Ex.t
+)
+ident(
+  def ex1 "smt/uf.ml" 307 9404 9406 "smt/uf.ml" 318 9737 9777
+)
+"smt/uf.ml" 306 9369 9394 "smt/uf.ml" 306 9369 9398
+type(
+  Ex.t MapR.t
+)
+ident(
+  def mapr "smt/uf.ml" 307 9404 9406 "smt/uf.ml" 318 9737 9777
+)
+"smt/uf.ml" 306 9369 9384 "smt/uf.ml" 306 9369 9399
+type(
+  R.r * Ex.t * Ex.t MapR.t
+)
+"smt/uf.ml" 307 9404 9406 "smt/uf.ml" 307 9404 9415
+type(
+  (MapR.key -> Ex.t -> t -> t) -> Ex.t MapR.t -> t -> t
+)
+ident(
+  ext_ref MapR.fold
+)
+"smt/uf.ml" 307 9404 9421 "smt/uf.ml" 307 9404 9423
+type(
+  MapR.key
+)
+ident(
+  def r2 "smt/uf.ml" 307 9404 9424 "smt/uf.ml" 318 9737 9767
+)
+"smt/uf.ml" 307 9404 9424 "smt/uf.ml" 307 9404 9427
+type(
+  Ex.t
+)
+ident(
+  def ex2 "smt/uf.ml" 307 9404 9428 "smt/uf.ml" 318 9737 9767
+)
+"smt/uf.ml" 307 9404 9428 "smt/uf.ml" 307 9404 9431
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 308 9436 9444 "smt/uf.ml" 318 9737 9767
+)
+"smt/uf.ml" 308 9436 9448 "smt/uf.ml" 308 9436 9450
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/uf.ml" 309 9488 9496 "smt/uf.ml" 318 9737 9767
+)
+"smt/uf.ml" 308 9436 9453 "smt/uf.ml" 308 9436 9461
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 308 9436 9462 "smt/uf.ml" 308 9436 9465
+type(
+  Ex.t
+)
+ident(
+  int_ref ex1 "smt/uf.ml" 306 9369 9389 "smt/uf.ml" 306 9369 9392
+)
+"smt/uf.ml" 308 9436 9467 "smt/uf.ml" 308 9436 9475
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 308 9436 9476 "smt/uf.ml" 308 9436 9479
+type(
+  Ex.t
+)
+ident(
+  int_ref ex2 "smt/uf.ml" 307 9404 9424 "smt/uf.ml" 307 9404 9427
+)
+"smt/uf.ml" 308 9436 9480 "smt/uf.ml" 308 9436 9483
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/uf.ml" 279 8552 8578 "smt/uf.ml" 279 8552 8581
+)
+"smt/uf.ml" 308 9436 9466 "smt/uf.ml" 308 9436 9484
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 308 9436 9453 "smt/uf.ml" 308 9436 9484
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 309 9488 9506 "smt/uf.ml" 309 9488 9513
+type(
+  R.r -> R.r -> (R.r * R.r) list
+)
+ident(
+  ext_ref R.solve
+)
+"smt/uf.ml" 309 9488 9514 "smt/uf.ml" 309 9488 9516
+type(
+  R.r
+)
+ident(
+  int_ref r1 "smt/uf.ml" 306 9369 9385 "smt/uf.ml" 306 9369 9387
+)
+"smt/uf.ml" 309 9488 9517 "smt/uf.ml" 309 9488 9519
+type(
+  MapR.key
+)
+ident(
+  int_ref r2 "smt/uf.ml" 307 9404 9421 "smt/uf.ml" 307 9404 9423
+)
+"smt/uf.ml" 309 9488 9506 "smt/uf.ml" 309 9488 9519
+call(
+  stack
+)
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 310 9525 9531 "smt/uf.ml" 310 9525 9532
+type(
+  R.r
+)
+ident(
+  def a "smt/uf.ml" 311 9541 9548 "smt/uf.ml" 314 9646 9677
+)
+"smt/uf.ml" 310 9525 9534 "smt/uf.ml" 310 9525 9535
+type(
+  R.r
+)
+ident(
+  def b "smt/uf.ml" 311 9541 9548 "smt/uf.ml" 314 9646 9677
+)
+"smt/uf.ml" 310 9525 9531 "smt/uf.ml" 310 9525 9535
+type(
+  R.r * R.r
+)
+"smt/uf.ml" 310 9525 9530 "smt/uf.ml" 310 9525 9536
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 311 9541 9552 "smt/uf.ml" 311 9541 9559
+type(
+  R.r -> R.r -> bool
+)
+ident(
+  ext_ref R.equal
+)
+"smt/uf.ml" 311 9541 9560 "smt/uf.ml" 311 9541 9561
+type(
+  R.r
+)
+ident(
+  int_ref a "smt/uf.ml" 310 9525 9531 "smt/uf.ml" 310 9525 9532
+)
+"smt/uf.ml" 311 9541 9562 "smt/uf.ml" 311 9541 9564
+type(
+  R.r
+)
+ident(
+  int_ref r1 "smt/uf.ml" 306 9369 9385 "smt/uf.ml" 306 9369 9387
+)
+"smt/uf.ml" 311 9541 9552 "smt/uf.ml" 311 9541 9564
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 311 9541 9565 "smt/uf.ml" 311 9541 9567
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"smt/uf.ml" 311 9541 9568 "smt/uf.ml" 311 9541 9575
+type(
+  R.r -> R.r -> bool
+)
+ident(
+  ext_ref R.equal
+)
+"smt/uf.ml" 311 9541 9576 "smt/uf.ml" 311 9541 9577
+type(
+  R.r
+)
+ident(
+  int_ref b "smt/uf.ml" 310 9525 9534 "smt/uf.ml" 310 9525 9535
+)
+"smt/uf.ml" 311 9541 9578 "smt/uf.ml" 311 9541 9580
+type(
+  MapR.key
+)
+ident(
+  int_ref r2 "smt/uf.ml" 307 9404 9421 "smt/uf.ml" 307 9404 9423
+)
+"smt/uf.ml" 311 9541 9568 "smt/uf.ml" 311 9541 9580
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 311 9541 9551 "smt/uf.ml" 311 9541 9581
+type(
+  bool
+)
+"smt/uf.ml" 311 9541 9582 "smt/uf.ml" 311 9541 9584
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"smt/uf.ml" 312 9585 9595 "smt/uf.ml" 312 9585 9602
+type(
+  R.r -> R.r -> bool
+)
+ident(
+  ext_ref R.equal
+)
+"smt/uf.ml" 312 9585 9603 "smt/uf.ml" 312 9585 9604
+type(
+  R.r
+)
+ident(
+  int_ref a "smt/uf.ml" 310 9525 9531 "smt/uf.ml" 310 9525 9532
+)
+"smt/uf.ml" 312 9585 9605 "smt/uf.ml" 312 9585 9607
+type(
+  MapR.key
+)
+ident(
+  int_ref r2 "smt/uf.ml" 307 9404 9421 "smt/uf.ml" 307 9404 9423
+)
+"smt/uf.ml" 312 9585 9595 "smt/uf.ml" 312 9585 9607
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 312 9585 9608 "smt/uf.ml" 312 9585 9610
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"smt/uf.ml" 312 9585 9611 "smt/uf.ml" 312 9585 9618
+type(
+  R.r -> R.r -> bool
+)
+ident(
+  ext_ref R.equal
+)
+"smt/uf.ml" 312 9585 9619 "smt/uf.ml" 312 9585 9620
+type(
+  R.r
+)
+ident(
+  int_ref b "smt/uf.ml" 310 9525 9534 "smt/uf.ml" 310 9525 9535
+)
+"smt/uf.ml" 312 9585 9621 "smt/uf.ml" 312 9585 9623
+type(
+  R.r
+)
+ident(
+  int_ref r1 "smt/uf.ml" 306 9369 9385 "smt/uf.ml" 306 9369 9387
+)
+"smt/uf.ml" 312 9585 9611 "smt/uf.ml" 312 9585 9623
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 312 9585 9594 "smt/uf.ml" 312 9585 9624
+type(
+  bool
+)
+"smt/uf.ml" 311 9541 9551 "smt/uf.ml" 312 9585 9624
+type(
+  bool
+)
+"smt/uf.ml" 312 9585 9630 "smt/uf.ml" 312 9585 9633
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 307 9404 9428 "smt/uf.ml" 307 9404 9431
+)
+"smt/uf.ml" 314 9646 9655 "smt/uf.ml" 314 9646 9663
+type(
+  t -> MapR.key list -> Ex.t -> t
+)
+ident(
+  int_ref distinct "smt/uf.ml" 279 8552 8562 "smt/uf.ml" 279 8552 8570
+)
+"smt/uf.ml" 314 9646 9664 "smt/uf.ml" 314 9646 9667
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 307 9404 9428 "smt/uf.ml" 307 9404 9431
+)
+"smt/uf.ml" 314 9646 9669 "smt/uf.ml" 314 9646 9670
+type(
+  R.r
+)
+ident(
+  int_ref a "smt/uf.ml" 310 9525 9531 "smt/uf.ml" 310 9525 9532
+)
+"smt/uf.ml" 314 9646 9672 "smt/uf.ml" 314 9646 9673
+type(
+  R.r
+)
+ident(
+  int_ref b "smt/uf.ml" 310 9525 9534 "smt/uf.ml" 310 9525 9535
+)
+"smt/uf.ml" 314 9646 9668 "smt/uf.ml" 314 9646 9674
+type(
+  MapR.key list
+)
+"smt/uf.ml" 314 9646 9675 "smt/uf.ml" 314 9646 9677
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/uf.ml" 308 9436 9448 "smt/uf.ml" 308 9436 9450
+)
+"smt/uf.ml" 314 9646 9655 "smt/uf.ml" 314 9646 9677
+call(
+  stack
+)
+type(
+  t
+)
+"smt/uf.ml" 311 9541 9548 "smt/uf.ml" 314 9646 9677
+type(
+  t
+)
+"smt/uf.ml" 315 9678 9683 "smt/uf.ml" 315 9678 9685
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 316 9691 9696 "smt/uf.ml" 316 9691 9701
+type(
+  exn -> t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/uf.ml" 316 9691 9716 "smt/uf.ml" 316 9691 9718
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/uf.ml" 308 9436 9448 "smt/uf.ml" 308 9436 9450
+)
+"smt/uf.ml" 316 9691 9702 "smt/uf.ml" 316 9691 9719
+type(
+  exn
+)
+"smt/uf.ml" 316 9691 9696 "smt/uf.ml" 316 9691 9719
+type(
+  t
+)
+"smt/uf.ml" 317 9721 9726 "smt/uf.ml" 317 9721 9727
+type(
+  (R.r * R.r) list
+)
+"smt/uf.ml" 317 9721 9733 "smt/uf.ml" 317 9721 9736
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 307 9404 9428 "smt/uf.ml" 307 9404 9431
+)
+"smt/uf.ml" 309 9488 9500 "smt/uf.ml" 317 9721 9736
+type(
+  t
+)
+"smt/uf.ml" 318 9737 9750 "smt/uf.ml" 318 9737 9760
+type(
+  exn
+)
+"smt/uf.ml" 318 9737 9764 "smt/uf.ml" 318 9737 9767
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 307 9404 9428 "smt/uf.ml" 307 9404 9431
+)
+"smt/uf.ml" 309 9488 9496 "smt/uf.ml" 318 9737 9767
+type(
+  t
+)
+"smt/uf.ml" 308 9436 9444 "smt/uf.ml" 318 9737 9767
+type(
+  t
+)
+"smt/uf.ml" 307 9404 9416 "smt/uf.ml" 318 9737 9768
+type(
+  MapR.key -> Ex.t -> t -> t
+)
+"smt/uf.ml" 318 9737 9769 "smt/uf.ml" 318 9737 9773
+type(
+  Ex.t MapR.t
+)
+ident(
+  int_ref mapr "smt/uf.ml" 306 9369 9394 "smt/uf.ml" 306 9369 9398
+)
+"smt/uf.ml" 318 9737 9774 "smt/uf.ml" 318 9737 9777
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 306 9369 9380 "smt/uf.ml" 306 9369 9383
+)
+"smt/uf.ml" 307 9404 9406 "smt/uf.ml" 318 9737 9777
+call(
+  tail
+)
+type(
+  t
+)
+"smt/uf.ml" 306 9369 9375 "smt/uf.ml" 318 9737 9778
+type(
+  t -> R.r * Ex.t * Ex.t MapR.t -> t
+)
+"smt/uf.ml" 319 9779 9785 "smt/uf.ml" 319 9779 9788
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 281 8638 8646 "smt/uf.ml" 281 8638 8649
+)
+"smt/uf.ml" 319 9779 9789 "smt/uf.ml" 319 9779 9794
+type(
+  (R.r * Ex.t * Ex.t MapR.t) list
+)
+ident(
+  int_ref newds "smt/uf.ml" 281 8638 8654 "smt/uf.ml" 281 8638 8659
+)
+"smt/uf.ml" 305 9349 9353 "smt/uf.ml" 319 9779 9794
+call(
+  tail
+)
+type(
+  t
+)
+"smt/uf.ml" 281 8638 8642 "smt/uf.ml" 319 9779 9794
+type(
+  t
+)
+"smt/uf.ml" 280 8584 8588 "smt/uf.ml" 319 9779 9794
+type(
+  t
+)
+"smt/uf.ml" 322 9802 9808 "smt/uf.ml" 322 9802 9817
+type(
+  t -> MapT.key -> MapT.key -> Sig.answer
+)
+ident(
+  def are_equal "smt/uf.ml" 327 9984 9986 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 322 9802 9818 "smt/uf.ml" 322 9802 9821
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 322 9802 9822 "smt/uf.ml" 325 9923 9982
+)
+"smt/uf.ml" 322 9802 9822 "smt/uf.ml" 322 9802 9824
+type(
+  MapT.key
+)
+ident(
+  def t1 "smt/uf.ml" 322 9802 9825 "smt/uf.ml" 325 9923 9982
+)
+"smt/uf.ml" 322 9802 9825 "smt/uf.ml" 322 9802 9827
+type(
+  MapT.key
+)
+ident(
+  def t2 "smt/uf.ml" 323 9831 9835 "smt/uf.ml" 325 9923 9982
+)
+"smt/uf.ml" 323 9831 9839 "smt/uf.ml" 323 9831 9841
+type(
+  R.r
+)
+ident(
+  def r1 "smt/uf.ml" 324 9877 9881 "smt/uf.ml" 325 9923 9982
+)
+"smt/uf.ml" 323 9831 9843 "smt/uf.ml" 323 9831 9848
+type(
+  Ex.t
+)
+ident(
+  def ex_r1 "smt/uf.ml" 324 9877 9881 "smt/uf.ml" 325 9923 9982
+)
+"smt/uf.ml" 323 9831 9839 "smt/uf.ml" 323 9831 9848
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 323 9831 9851 "smt/uf.ml" 323 9831 9866
+type(
+  MapT.key -> t -> R.r * Ex.t
+)
+ident(
+  int_ref Env.lookup_by_t "smt/uf.ml" 104 2950 2958 "smt/uf.ml" 104 2950 2969
+)
+"smt/uf.ml" 323 9831 9867 "smt/uf.ml" 323 9831 9869
+type(
+  MapT.key
+)
+ident(
+  int_ref t1 "smt/uf.ml" 322 9802 9822 "smt/uf.ml" 322 9802 9824
+)
+"smt/uf.ml" 323 9831 9870 "smt/uf.ml" 323 9831 9873
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 322 9802 9818 "smt/uf.ml" 322 9802 9821
+)
+"smt/uf.ml" 323 9831 9851 "smt/uf.ml" 323 9831 9873
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 324 9877 9885 "smt/uf.ml" 324 9877 9887
+type(
+  R.r
+)
+ident(
+  def r2 "smt/uf.ml" 325 9923 9927 "smt/uf.ml" 325 9923 9982
+)
+"smt/uf.ml" 324 9877 9889 "smt/uf.ml" 324 9877 9894
+type(
+  Ex.t
+)
+ident(
+  def ex_r2 "smt/uf.ml" 325 9923 9927 "smt/uf.ml" 325 9923 9982
+)
+"smt/uf.ml" 324 9877 9885 "smt/uf.ml" 324 9877 9894
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 324 9877 9897 "smt/uf.ml" 324 9877 9912
+type(
+  MapT.key -> t -> R.r * Ex.t
+)
+ident(
+  int_ref Env.lookup_by_t "smt/uf.ml" 104 2950 2958 "smt/uf.ml" 104 2950 2969
+)
+"smt/uf.ml" 324 9877 9913 "smt/uf.ml" 324 9877 9915
+type(
+  MapT.key
+)
+ident(
+  int_ref t2 "smt/uf.ml" 322 9802 9825 "smt/uf.ml" 322 9802 9827
+)
+"smt/uf.ml" 324 9877 9916 "smt/uf.ml" 324 9877 9919
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 322 9802 9818 "smt/uf.ml" 322 9802 9821
+)
+"smt/uf.ml" 324 9877 9897 "smt/uf.ml" 324 9877 9919
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 325 9923 9930 "smt/uf.ml" 325 9923 9937
+type(
+  R.r -> R.r -> bool
+)
+ident(
+  ext_ref R.equal
+)
+"smt/uf.ml" 325 9923 9938 "smt/uf.ml" 325 9923 9940
+type(
+  R.r
+)
+ident(
+  int_ref r1 "smt/uf.ml" 323 9831 9839 "smt/uf.ml" 323 9831 9841
+)
+"smt/uf.ml" 325 9923 9941 "smt/uf.ml" 325 9923 9943
+type(
+  R.r
+)
+ident(
+  int_ref r2 "smt/uf.ml" 324 9877 9885 "smt/uf.ml" 324 9877 9887
+)
+"smt/uf.ml" 325 9923 9930 "smt/uf.ml" 325 9923 9943
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/uf.ml" 325 9923 9953 "smt/uf.ml" 325 9923 9961
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 325 9923 9962 "smt/uf.ml" 325 9923 9967
+type(
+  Ex.t
+)
+ident(
+  int_ref ex_r1 "smt/uf.ml" 323 9831 9843 "smt/uf.ml" 323 9831 9848
+)
+"smt/uf.ml" 325 9923 9968 "smt/uf.ml" 325 9923 9973
+type(
+  Ex.t
+)
+ident(
+  int_ref ex_r2 "smt/uf.ml" 324 9877 9889 "smt/uf.ml" 324 9877 9894
+)
+"smt/uf.ml" 325 9923 9952 "smt/uf.ml" 325 9923 9974
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 325 9923 9949 "smt/uf.ml" 325 9923 9974
+type(
+  Sig.answer
+)
+"smt/uf.ml" 325 9923 9980 "smt/uf.ml" 325 9923 9982
+type(
+  Sig.answer
+)
+"smt/uf.ml" 325 9923 9927 "smt/uf.ml" 325 9923 9982
+type(
+  Sig.answer
+)
+"smt/uf.ml" 324 9877 9881 "smt/uf.ml" 325 9923 9982
+type(
+  Sig.answer
+)
+"smt/uf.ml" 323 9831 9835 "smt/uf.ml" 325 9923 9982
+type(
+  Sig.answer
+)
+"smt/uf.ml" 327 9984 9990 "smt/uf.ml" 327 9984 10002
+type(
+  t -> MapT.key -> MapT.key -> Sig.answer
+)
+ident(
+  def are_distinct "smt/uf.ml" 335 10217 10219 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 327 9984 10003 "smt/uf.ml" 327 9984 10006
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 327 9984 10007 "smt/uf.ml" 333 10180 10215
+)
+"smt/uf.ml" 327 9984 10007 "smt/uf.ml" 327 9984 10009
+type(
+  MapT.key
+)
+ident(
+  def t1 "smt/uf.ml" 327 9984 10010 "smt/uf.ml" 333 10180 10215
+)
+"smt/uf.ml" 327 9984 10010 "smt/uf.ml" 327 9984 10012
+type(
+  MapT.key
+)
+ident(
+  def t2 "smt/uf.ml" 328 10016 10020 "smt/uf.ml" 333 10180 10215
+)
+"smt/uf.ml" 328 10016 10024 "smt/uf.ml" 328 10016 10026
+type(
+  R.r
+)
+ident(
+  def r1 "smt/uf.ml" 329 10062 10066 "smt/uf.ml" 333 10180 10215
+)
+"smt/uf.ml" 328 10016 10028 "smt/uf.ml" 328 10016 10033
+type(
+  Ex.t
+)
+ident(
+  def ex_r1 "smt/uf.ml" 329 10062 10066 "smt/uf.ml" 333 10180 10215
+)
+"smt/uf.ml" 328 10016 10024 "smt/uf.ml" 328 10016 10033
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 328 10016 10036 "smt/uf.ml" 328 10016 10051
+type(
+  MapT.key -> t -> R.r * Ex.t
+)
+ident(
+  int_ref Env.lookup_by_t "smt/uf.ml" 104 2950 2958 "smt/uf.ml" 104 2950 2969
+)
+"smt/uf.ml" 328 10016 10052 "smt/uf.ml" 328 10016 10054
+type(
+  MapT.key
+)
+ident(
+  int_ref t1 "smt/uf.ml" 327 9984 10007 "smt/uf.ml" 327 9984 10009
+)
+"smt/uf.ml" 328 10016 10055 "smt/uf.ml" 328 10016 10058
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 327 9984 10003 "smt/uf.ml" 327 9984 10006
+)
+"smt/uf.ml" 328 10016 10036 "smt/uf.ml" 328 10016 10058
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 329 10062 10070 "smt/uf.ml" 329 10062 10072
+type(
+  R.r
+)
+ident(
+  def r2 "smt/uf.ml" 330 10108 10112 "smt/uf.ml" 333 10180 10215
+)
+"smt/uf.ml" 329 10062 10074 "smt/uf.ml" 329 10062 10079
+type(
+  Ex.t
+)
+ident(
+  def ex_r2 "smt/uf.ml" 330 10108 10112 "smt/uf.ml" 333 10180 10215
+)
+"smt/uf.ml" 329 10062 10070 "smt/uf.ml" 329 10062 10079
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 329 10062 10082 "smt/uf.ml" 329 10062 10097
+type(
+  MapT.key -> t -> R.r * Ex.t
+)
+ident(
+  int_ref Env.lookup_by_t "smt/uf.ml" 104 2950 2958 "smt/uf.ml" 104 2950 2969
+)
+"smt/uf.ml" 329 10062 10098 "smt/uf.ml" 329 10062 10100
+type(
+  MapT.key
+)
+ident(
+  int_ref t2 "smt/uf.ml" 327 9984 10010 "smt/uf.ml" 327 9984 10012
+)
+"smt/uf.ml" 329 10062 10101 "smt/uf.ml" 329 10062 10104
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 327 9984 10003 "smt/uf.ml" 327 9984 10006
+)
+"smt/uf.ml" 329 10062 10082 "smt/uf.ml" 329 10062 10104
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 331 10116 10122 "smt/uf.ml" 331 10116 10128
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"smt/uf.ml" 331 10116 10130 "smt/uf.ml" 331 10116 10135
+type(
+  t ->
+  MapR.key ->
+  MapR.key ->
+  Ex.t -> t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+ident(
+  int_ref union "smt/uf.ml" 274 8418 8424 "smt/uf.ml" 274 8418 8429
+)
+"smt/uf.ml" 331 10116 10136 "smt/uf.ml" 331 10116 10139
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 327 9984 10003 "smt/uf.ml" 327 9984 10006
+)
+"smt/uf.ml" 331 10116 10140 "smt/uf.ml" 331 10116 10142
+type(
+  R.r
+)
+ident(
+  int_ref r1 "smt/uf.ml" 328 10016 10024 "smt/uf.ml" 328 10016 10026
+)
+"smt/uf.ml" 331 10116 10143 "smt/uf.ml" 331 10116 10145
+type(
+  R.r
+)
+ident(
+  int_ref r2 "smt/uf.ml" 329 10062 10070 "smt/uf.ml" 329 10062 10072
+)
+"smt/uf.ml" 331 10116 10147 "smt/uf.ml" 331 10116 10155
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/uf.ml" 331 10116 10156 "smt/uf.ml" 331 10116 10161
+type(
+  Ex.t
+)
+ident(
+  int_ref ex_r1 "smt/uf.ml" 328 10016 10028 "smt/uf.ml" 328 10016 10033
+)
+"smt/uf.ml" 331 10116 10162 "smt/uf.ml" 331 10116 10167
+type(
+  Ex.t
+)
+ident(
+  int_ref ex_r2 "smt/uf.ml" 329 10062 10074 "smt/uf.ml" 329 10062 10079
+)
+"smt/uf.ml" 331 10116 10146 "smt/uf.ml" 331 10116 10168
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 331 10116 10129 "smt/uf.ml" 331 10116 10169
+call(
+  stack
+)
+type(
+  t * (MapR.key * (SetR.elt * R.r * Ex.t) list * R.r) list
+)
+"smt/uf.ml" 331 10116 10122 "smt/uf.ml" 331 10116 10169
+type(
+  unit
+)
+"smt/uf.ml" 332 10171 10177 "smt/uf.ml" 332 10171 10179
+type(
+  Sig.answer
+)
+"smt/uf.ml" 331 10116 10122 "smt/uf.ml" 332 10171 10179
+type(
+  Sig.answer
+)
+"smt/uf.ml" 333 10180 10202 "smt/uf.ml" 333 10180 10204
+type(
+  Explanation.t
+)
+ident(
+  def ex "smt/uf.ml" 333 10180 10208 "smt/uf.ml" 333 10180 10215
+)
+"smt/uf.ml" 333 10180 10189 "smt/uf.ml" 333 10180 10204
+type(
+  exn
+)
+"smt/uf.ml" 333 10180 10211 "smt/uf.ml" 333 10180 10215
+type(
+  Explanation.t
+)
+ident(
+  int_ref ex "smt/uf.ml" 333 10180 10202 "smt/uf.ml" 333 10180 10204
+)
+"smt/uf.ml" 333 10180 10208 "smt/uf.ml" 333 10180 10215
+type(
+  Sig.answer
+)
+"smt/uf.ml" 330 10108 10112 "smt/uf.ml" 333 10180 10215
+type(
+  Sig.answer
+)
+"smt/uf.ml" 329 10062 10066 "smt/uf.ml" 333 10180 10215
+type(
+  Sig.answer
+)
+"smt/uf.ml" 328 10016 10020 "smt/uf.ml" 333 10180 10215
+type(
+  Sig.answer
+)
+"smt/uf.ml" 335 10217 10223 "smt/uf.ml" 335 10217 10239
+type(
+  t -> MapR.key list -> bool
+)
+ident(
+  def already_distinct "smt/uf.ml" 345 10461 10463 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 335 10217 10240 "smt/uf.ml" 335 10217 10243
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 335 10217 10244 "smt/uf.ml" 343 10426 10453
+)
+"smt/uf.ml" 335 10217 10244 "smt/uf.ml" 335 10217 10246
+type(
+  MapR.key list
+)
+ident(
+  def lr "smt/uf.ml" 336 10250 10254 "smt/uf.ml" 343 10426 10453
+)
+"smt/uf.ml" 336 10250 10258 "smt/uf.ml" 336 10250 10259
+type(
+  Lit.t
+)
+ident(
+  def d "smt/uf.ml" 337 10304 10308 "smt/uf.ml" 343 10426 10453
+)
+"smt/uf.ml" 336 10250 10262 "smt/uf.ml" 336 10250 10270
+type(
+  Lit.elt Literal.view -> Lit.t
+)
+ident(
+  ext_ref Lit.make
+)
+"smt/uf.ml" 336 10250 10290 "smt/uf.ml" 336 10250 10295
+type(
+  bool
+)
+"smt/uf.ml" 336 10250 10296 "smt/uf.ml" 336 10250 10298
+type(
+  MapR.key list
+)
+ident(
+  int_ref lr "smt/uf.ml" 335 10217 10244 "smt/uf.ml" 335 10217 10246
+)
+"smt/uf.ml" 336 10250 10271 "smt/uf.ml" 336 10250 10300
+type(
+  Lit.elt Literal.view
+)
+"smt/uf.ml" 336 10250 10262 "smt/uf.ml" 336 10250 10300
+call(
+  stack
+)
+type(
+  Lit.t
+)
+"smt/uf.ml" 338 10313 10319 "smt/uf.ml" 338 10313 10328
+type(
+  (MapR.key -> unit) -> MapR.key list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"smt/uf.ml" 338 10313 10334 "smt/uf.ml" 338 10313 10335
+type(
+  MapR.key
+)
+ident(
+  def r "smt/uf.ml" 339 10340 10341 "smt/uf.ml" 340 10376 10402
+)
+"smt/uf.ml" 339 10340 10345 "smt/uf.ml" 339 10340 10349
+type(
+  Ex.t MapL.t
+)
+ident(
+  def mdis "smt/uf.ml" 340 10376 10377 "smt/uf.ml" 340 10376 10402
+)
+"smt/uf.ml" 339 10340 10352 "smt/uf.ml" 339 10340 10361
+type(
+  MapR.key -> Ex.t MapL.t MapR.t -> Ex.t MapL.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 339 10340 10362 "smt/uf.ml" 339 10340 10363
+type(
+  MapR.key
+)
+ident(
+  int_ref r "smt/uf.ml" 338 10313 10334 "smt/uf.ml" 338 10313 10335
+)
+"smt/uf.ml" 339 10340 10364 "smt/uf.ml" 339 10340 10367
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 335 10217 10240 "smt/uf.ml" 335 10217 10243
+)
+"smt/uf.ml" 339 10340 10364 "smt/uf.ml" 339 10340 10372
+type(
+  Ex.t MapL.t MapR.t
+)
+"smt/uf.ml" 339 10340 10352 "smt/uf.ml" 339 10340 10372
+call(
+  stack
+)
+type(
+  Ex.t MapL.t
+)
+"smt/uf.ml" 340 10376 10377 "smt/uf.ml" 340 10376 10383
+type(
+  Ex.t -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"smt/uf.ml" 340 10376 10385 "smt/uf.ml" 340 10376 10394
+type(
+  MapL.key -> Ex.t MapL.t -> Ex.t
+)
+ident(
+  ext_ref MapL.find
+)
+"smt/uf.ml" 340 10376 10395 "smt/uf.ml" 340 10376 10396
+type(
+  MapL.key
+)
+ident(
+  int_ref d "smt/uf.ml" 336 10250 10258 "smt/uf.ml" 336 10250 10259
+)
+"smt/uf.ml" 340 10376 10397 "smt/uf.ml" 340 10376 10401
+type(
+  Ex.t MapL.t
+)
+ident(
+  int_ref mdis "smt/uf.ml" 339 10340 10345 "smt/uf.ml" 339 10340 10349
+)
+"smt/uf.ml" 340 10376 10384 "smt/uf.ml" 340 10376 10402
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/uf.ml" 340 10376 10377 "smt/uf.ml" 340 10376 10402
+type(
+  unit
+)
+"smt/uf.ml" 339 10340 10341 "smt/uf.ml" 340 10376 10402
+type(
+  unit
+)
+"smt/uf.ml" 338 10313 10329 "smt/uf.ml" 341 10403 10410
+type(
+  MapR.key -> unit
+)
+"smt/uf.ml" 341 10403 10411 "smt/uf.ml" 341 10403 10413
+type(
+  MapR.key list
+)
+ident(
+  int_ref lr "smt/uf.ml" 335 10217 10244 "smt/uf.ml" 335 10217 10246
+)
+"smt/uf.ml" 338 10313 10319 "smt/uf.ml" 341 10403 10413
+call(
+  stack
+)
+type(
+  unit
+)
+"smt/uf.ml" 342 10415 10421 "smt/uf.ml" 342 10415 10425
+type(
+  bool
+)
+"smt/uf.ml" 338 10313 10319 "smt/uf.ml" 342 10415 10425
+type(
+  bool
+)
+"smt/uf.ml" 343 10426 10435 "smt/uf.ml" 343 10426 10444
+type(
+  exn
+)
+"smt/uf.ml" 343 10426 10448 "smt/uf.ml" 343 10426 10453
+type(
+  bool
+)
+"smt/uf.ml" 337 10304 10308 "smt/uf.ml" 343 10426 10453
+type(
+  bool
+)
+"smt/uf.ml" 336 10250 10254 "smt/uf.ml" 343 10426 10453
+type(
+  bool
+)
+"smt/uf.ml" 345 10461 10467 "smt/uf.ml" 345 10461 10471
+type(
+  t -> MapT.key -> R.r * Ex.t
+)
+ident(
+  def find "smt/uf.ml" 348 10508 10510 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 345 10461 10472 "smt/uf.ml" 345 10461 10475
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 345 10461 10476 "smt/uf.ml" 346 10481 10506
+)
+"smt/uf.ml" 345 10461 10476 "smt/uf.ml" 345 10461 10477
+type(
+  MapT.key
+)
+ident(
+  def t "smt/uf.ml" 346 10481 10485 "smt/uf.ml" 346 10481 10506
+)
+"smt/uf.ml" 346 10481 10485 "smt/uf.ml" 346 10481 10500
+type(
+  MapT.key -> t -> R.r * Ex.t
+)
+ident(
+  int_ref Env.lookup_by_t "smt/uf.ml" 104 2950 2958 "smt/uf.ml" 104 2950 2969
+)
+"smt/uf.ml" 346 10481 10501 "smt/uf.ml" 346 10481 10502
+type(
+  MapT.key
+)
+ident(
+  int_ref t "smt/uf.ml" 345 10461 10476 "smt/uf.ml" 345 10461 10477
+)
+"smt/uf.ml" 346 10481 10503 "smt/uf.ml" 346 10481 10506
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 345 10461 10472 "smt/uf.ml" 345 10461 10475
+)
+"smt/uf.ml" 346 10481 10485 "smt/uf.ml" 346 10481 10506
+call(
+  tail
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 348 10508 10514 "smt/uf.ml" 348 10508 10520
+type(
+  t -> MapR.key -> R.r * Ex.t
+)
+ident(
+  def find_r "smt/uf.ml" 350 10548 10550 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 348 10508 10523 "smt/uf.ml" 348 10508 10546
+type(
+  t -> MapR.key -> R.r * Ex.t
+)
+ident(
+  int_ref Env.find_or_normal_form "smt/uf.ml" 169 5065 5073 "smt/uf.ml" 169 5065 5092
+)
+"smt/uf.ml" 350 10548 10554 "smt/uf.ml" 350 10548 10557
+type(
+  t -> MapT.key -> bool
+)
+ident(
+  def mem "smt/uf.ml" 352 10569 10571 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 350 10548 10560 "smt/uf.ml" 350 10548 10567
+type(
+  t -> MapT.key -> bool
+)
+ident(
+  int_ref Env.mem "smt/uf.ml" 102 2903 2911 "smt/uf.ml" 102 2903 2914
+)
+"smt/uf.ml" 352 10569 10575 "smt/uf.ml" 352 10569 10583
+type(
+  t -> MapT.key -> SetT.elt list
+)
+ident(
+  def class_of "smt/uf.ml" 356 10712 10737 "smt/uf.ml" 359 10740 10743
+)
+"smt/uf.ml" 352 10569 10584 "smt/uf.ml" 352 10569 10587
+type(
+  t
+)
+ident(
+  def env "smt/uf.ml" 352 10569 10588 "smt/uf.ml" 356 10712 10737
+)
+"smt/uf.ml" 352 10569 10588 "smt/uf.ml" 352 10569 10589
+type(
+  MapT.key
+)
+ident(
+  def t "smt/uf.ml" 353 10593 10597 "smt/uf.ml" 356 10712 10737
+)
+"smt/uf.ml" 354 10602 10612 "smt/uf.ml" 354 10602 10614
+type(
+  R.r
+)
+ident(
+  def rt "smt/uf.ml" 355 10665 10671 "smt/uf.ml" 355 10665 10711
+)
+"smt/uf.ml" 354 10602 10616 "smt/uf.ml" 354 10602 10617
+type(
+  Ex.t
+)
+"smt/uf.ml" 354 10602 10612 "smt/uf.ml" 354 10602 10617
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 354 10602 10620 "smt/uf.ml" 354 10602 10629
+type(
+  MapR.key -> (R.r * Ex.t) MapR.t -> R.r * Ex.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 354 10602 10631 "smt/uf.ml" 354 10602 10640
+type(
+  MapT.key -> R.r MapT.t -> R.r
+)
+ident(
+  ext_ref MapT.find
+)
+"smt/uf.ml" 354 10602 10641 "smt/uf.ml" 354 10602 10642
+type(
+  MapT.key
+)
+ident(
+  int_ref t "smt/uf.ml" 352 10569 10588 "smt/uf.ml" 352 10569 10589
+)
+"smt/uf.ml" 354 10602 10643 "smt/uf.ml" 354 10602 10646
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 352 10569 10584 "smt/uf.ml" 352 10569 10587
+)
+"smt/uf.ml" 354 10602 10643 "smt/uf.ml" 354 10602 10651
+type(
+  R.r MapT.t
+)
+"smt/uf.ml" 354 10602 10630 "smt/uf.ml" 354 10602 10652
+call(
+  stack
+)
+type(
+  R.r
+)
+"smt/uf.ml" 354 10602 10653 "smt/uf.ml" 354 10602 10656
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 352 10569 10584 "smt/uf.ml" 352 10569 10587
+)
+"smt/uf.ml" 354 10602 10653 "smt/uf.ml" 354 10602 10661
+type(
+  (R.r * Ex.t) MapR.t
+)
+"smt/uf.ml" 354 10602 10620 "smt/uf.ml" 354 10602 10661
+call(
+  stack
+)
+type(
+  R.r * Ex.t
+)
+"smt/uf.ml" 355 10665 10671 "smt/uf.ml" 355 10665 10684
+type(
+  SetT.t -> SetT.elt list
+)
+ident(
+  ext_ref SetT.elements
+)
+"smt/uf.ml" 355 10665 10686 "smt/uf.ml" 355 10665 10695
+type(
+  MapR.key -> SetT.t MapR.t -> SetT.t
+)
+ident(
+  ext_ref MapR.find
+)
+"smt/uf.ml" 355 10665 10696 "smt/uf.ml" 355 10665 10698
+type(
+  R.r
+)
+ident(
+  int_ref rt "smt/uf.ml" 354 10602 10612 "smt/uf.ml" 354 10602 10614
+)
+"smt/uf.ml" 355 10665 10699 "smt/uf.ml" 355 10665 10702
+type(
+  t
+)
+ident(
+  int_ref env "smt/uf.ml" 352 10569 10584 "smt/uf.ml" 352 10569 10587
+)
+"smt/uf.ml" 355 10665 10699 "smt/uf.ml" 355 10665 10710
+type(
+  SetT.t MapR.t
+)
+"smt/uf.ml" 355 10665 10685 "smt/uf.ml" 355 10665 10711
+call(
+  stack
+)
+type(
+  SetT.t
+)
+"smt/uf.ml" 355 10665 10671 "smt/uf.ml" 355 10665 10711
+call(
+  stack
+)
+type(
+  SetT.elt list
+)
+"smt/uf.ml" 354 10602 10608 "smt/uf.ml" 355 10665 10711
+type(
+  SetT.elt list
+)
+"smt/uf.ml" 356 10712 10721 "smt/uf.ml" 356 10712 10730
+type(
+  exn
+)
+"smt/uf.ml" 356 10712 10735 "smt/uf.ml" 356 10712 10736
+type(
+  MapT.key
+)
+ident(
+  int_ref t "smt/uf.ml" 352 10569 10588 "smt/uf.ml" 352 10569 10589
+)
+"smt/uf.ml" 356 10712 10734 "smt/uf.ml" 356 10712 10737
+type(
+  SetT.elt list
+)
+"smt/uf.ml" 353 10593 10597 "smt/uf.ml" 356 10712 10737
+type(
+  SetT.elt list
+)

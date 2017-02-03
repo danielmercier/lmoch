@@ -1,0 +1,1227 @@
+"common/hstring.ml" 18 998 1011 "common/hstring.ml" 18 998 1015
+type(
+  'a -> int
+)
+ident(
+  def hash "common/hstring.ml" 19 1032 1041 "common/hstring.ml" 19 1032 1064
+)
+"common/hstring.ml" 18 998 1018 "common/hstring.ml" 18 998 1030
+type(
+  'a -> int
+)
+ident(
+  ext_ref Hashtbl.hash
+)
+"common/hstring.ml" 19 1032 1045 "common/hstring.ml" 19 1032 1050
+type(
+  'b -> 'b -> bool
+)
+ident(
+  def equal "common/hstring.ml" 19 1032 1056 "common/hstring.ml" 19 1032 1064
+)
+"common/hstring.ml" 19 1032 1053 "common/hstring.ml" 19 1032 1056
+type(
+  'b -> 'b -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"common/hstring.ml" 17 952 954 "common/hstring.ml" 19 1032 1065
+call(
+  stack
+)
+"common/hstring.ml" 25 1127 1133 "common/hstring.ml" 25 1127 1137
+type(
+  S.key -> S.key Hashcons.hash_consed
+)
+ident(
+  def make "common/hstring.ml" 27 1156 1158 "common/hstring.ml" 71 2144 2147
+)
+"common/hstring.ml" 25 1127 1138 "common/hstring.ml" 25 1127 1139
+type(
+  S.key
+)
+ident(
+  def s "common/hstring.ml" 25 1127 1142 "common/hstring.ml" 25 1127 1154
+)
+"common/hstring.ml" 25 1127 1142 "common/hstring.ml" 25 1127 1152
+type(
+  S.key -> S.key Hashcons.hash_consed
+)
+ident(
+  ext_ref S.hashcons
+)
+"common/hstring.ml" 25 1127 1153 "common/hstring.ml" 25 1127 1154
+type(
+  S.key
+)
+ident(
+  int_ref s "common/hstring.ml" 25 1127 1138 "common/hstring.ml" 25 1127 1139
+)
+"common/hstring.ml" 25 1127 1142 "common/hstring.ml" 25 1127 1154
+call(
+  tail
+)
+type(
+  S.key Hashcons.hash_consed
+)
+"common/hstring.ml" 27 1156 1162 "common/hstring.ml" 27 1156 1166
+type(
+  'a Hashcons.hash_consed -> 'a
+)
+ident(
+  def view "common/hstring.ml" 29 1179 1181 "common/hstring.ml" 71 2144 2147
+)
+"common/hstring.ml" 27 1156 1167 "common/hstring.ml" 27 1156 1168
+type(
+  'a Hashcons.hash_consed
+)
+ident(
+  def s "common/hstring.ml" 27 1156 1171 "common/hstring.ml" 27 1156 1177
+)
+"common/hstring.ml" 27 1156 1171 "common/hstring.ml" 27 1156 1172
+type(
+  'a Hashcons.hash_consed
+)
+ident(
+  int_ref s "common/hstring.ml" 27 1156 1167 "common/hstring.ml" 27 1156 1168
+)
+"common/hstring.ml" 27 1156 1171 "common/hstring.ml" 27 1156 1177
+type(
+  'a
+)
+"common/hstring.ml" 29 1179 1185 "common/hstring.ml" 29 1179 1190
+type(
+  'b Hashcons.hash_consed -> 'c Hashcons.hash_consed -> bool
+)
+ident(
+  def equal "common/hstring.ml" 31 1216 1218 "common/hstring.ml" 71 2144 2147
+)
+"common/hstring.ml" 29 1179 1191 "common/hstring.ml" 29 1179 1193
+type(
+  'b Hashcons.hash_consed
+)
+ident(
+  def s1 "common/hstring.ml" 29 1179 1194 "common/hstring.ml" 29 1179 1214
+)
+"common/hstring.ml" 29 1179 1194 "common/hstring.ml" 29 1179 1196
+type(
+  'c Hashcons.hash_consed
+)
+ident(
+  def s2 "common/hstring.ml" 29 1179 1199 "common/hstring.ml" 29 1179 1214
+)
+"common/hstring.ml" 29 1179 1199 "common/hstring.ml" 29 1179 1201
+type(
+  'b Hashcons.hash_consed
+)
+ident(
+  int_ref s1 "common/hstring.ml" 29 1179 1191 "common/hstring.ml" 29 1179 1193
+)
+"common/hstring.ml" 29 1179 1199 "common/hstring.ml" 29 1179 1205
+type(
+  int
+)
+"common/hstring.ml" 29 1179 1206 "common/hstring.ml" 29 1179 1207
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"common/hstring.ml" 29 1179 1208 "common/hstring.ml" 29 1179 1210
+type(
+  'c Hashcons.hash_consed
+)
+ident(
+  int_ref s2 "common/hstring.ml" 29 1179 1194 "common/hstring.ml" 29 1179 1196
+)
+"common/hstring.ml" 29 1179 1208 "common/hstring.ml" 29 1179 1214
+type(
+  int
+)
+"common/hstring.ml" 29 1179 1199 "common/hstring.ml" 29 1179 1214
+type(
+  bool
+)
+"common/hstring.ml" 31 1216 1222 "common/hstring.ml" 31 1216 1229
+type(
+  'd Hashcons.hash_consed -> 'e Hashcons.hash_consed -> int
+)
+ident(
+  def compare "common/hstring.ml" 33 1261 1263 "common/hstring.ml" 71 2144 2147
+)
+"common/hstring.ml" 31 1216 1230 "common/hstring.ml" 31 1216 1232
+type(
+  'd Hashcons.hash_consed
+)
+ident(
+  def s1 "common/hstring.ml" 31 1216 1233 "common/hstring.ml" 31 1216 1259
+)
+"common/hstring.ml" 31 1216 1233 "common/hstring.ml" 31 1216 1235
+type(
+  'e Hashcons.hash_consed
+)
+ident(
+  def s2 "common/hstring.ml" 31 1216 1238 "common/hstring.ml" 31 1216 1259
+)
+"common/hstring.ml" 31 1216 1238 "common/hstring.ml" 31 1216 1245
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.compare
+)
+"common/hstring.ml" 31 1216 1246 "common/hstring.ml" 31 1216 1248
+type(
+  'd Hashcons.hash_consed
+)
+ident(
+  int_ref s1 "common/hstring.ml" 31 1216 1230 "common/hstring.ml" 31 1216 1232
+)
+"common/hstring.ml" 31 1216 1246 "common/hstring.ml" 31 1216 1252
+type(
+  int
+)
+"common/hstring.ml" 31 1216 1253 "common/hstring.ml" 31 1216 1255
+type(
+  'e Hashcons.hash_consed
+)
+ident(
+  int_ref s2 "common/hstring.ml" 31 1216 1233 "common/hstring.ml" 31 1216 1235
+)
+"common/hstring.ml" 31 1216 1253 "common/hstring.ml" 31 1216 1259
+type(
+  int
+)
+"common/hstring.ml" 31 1216 1238 "common/hstring.ml" 31 1216 1259
+type(
+  int
+)
+"common/hstring.ml" 33 1261 1267 "common/hstring.ml" 33 1261 1271
+type(
+  'f Hashcons.hash_consed -> int
+)
+ident(
+  def hash "common/hstring.ml" 35 1283 1285 "common/hstring.ml" 71 2144 2147
+)
+"common/hstring.ml" 33 1261 1272 "common/hstring.ml" 33 1261 1273
+type(
+  'f Hashcons.hash_consed
+)
+ident(
+  def s "common/hstring.ml" 33 1261 1276 "common/hstring.ml" 33 1261 1281
+)
+"common/hstring.ml" 33 1261 1276 "common/hstring.ml" 33 1261 1277
+type(
+  'f Hashcons.hash_consed
+)
+ident(
+  int_ref s "common/hstring.ml" 33 1261 1272 "common/hstring.ml" 33 1261 1273
+)
+"common/hstring.ml" 33 1261 1276 "common/hstring.ml" 33 1261 1281
+type(
+  int
+)
+"common/hstring.ml" 35 1283 1289 "common/hstring.ml" 35 1283 1294
+type(
+  S.key Hashcons.hash_consed
+)
+ident(
+  def empty "common/hstring.ml" 37 1306 1308 "common/hstring.ml" 71 2144 2147
+)
+"common/hstring.ml" 35 1283 1297 "common/hstring.ml" 35 1283 1301
+type(
+  S.key -> S.key Hashcons.hash_consed
+)
+ident(
+  int_ref make "common/hstring.ml" 25 1127 1133 "common/hstring.ml" 25 1127 1137
+)
+"common/hstring.ml" 35 1283 1302 "common/hstring.ml" 35 1283 1304
+type(
+  S.key
+)
+"common/hstring.ml" 35 1283 1297 "common/hstring.ml" 35 1283 1304
+call(
+  stack
+)
+type(
+  S.key Hashcons.hash_consed
+)
+"common/hstring.ml" 37 1306 1316 "common/hstring.ml" 37 1306 1326
+type(
+  'g Hashcons.hash_consed -> ('h Hashcons.hash_consed * 'i) list -> 'i
+)
+ident(
+  def list_assoc "common/hstring.ml" 37 1306 1308 "common/hstring.ml" 71 2144 2147
+)
+"common/hstring.ml" 37 1306 1327 "common/hstring.ml" 37 1306 1328
+type(
+  'g Hashcons.hash_consed
+)
+ident(
+  def x "common/hstring.ml" 37 1306 1331 "common/hstring.ml" 39 1368 1428
+)
+"common/hstring.ml" 38 1340 1346 "common/hstring.ml" 38 1340 1348
+type(
+  ('h Hashcons.hash_consed * 'i) list
+)
+"common/hstring.ml" 38 1340 1352 "common/hstring.ml" 38 1340 1357
+type(
+  exn -> 'i
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"common/hstring.ml" 38 1340 1358 "common/hstring.ml" 38 1340 1367
+type(
+  exn
+)
+"common/hstring.ml" 38 1340 1352 "common/hstring.ml" 38 1340 1367
+type(
+  'i
+)
+"common/hstring.ml" 39 1368 1375 "common/hstring.ml" 39 1368 1376
+type(
+  'h Hashcons.hash_consed
+)
+ident(
+  def y "common/hstring.ml" 39 1368 1389 "common/hstring.ml" 39 1368 1428
+)
+"common/hstring.ml" 39 1368 1378 "common/hstring.ml" 39 1368 1379
+type(
+  'i
+)
+ident(
+  def v "common/hstring.ml" 39 1368 1389 "common/hstring.ml" 39 1368 1428
+)
+"common/hstring.ml" 39 1368 1374 "common/hstring.ml" 39 1368 1380
+type(
+  'h Hashcons.hash_consed * 'i
+)
+"common/hstring.ml" 39 1368 1384 "common/hstring.ml" 39 1368 1385
+type(
+  ('h Hashcons.hash_consed * 'i) list
+)
+ident(
+  def l "common/hstring.ml" 39 1368 1389 "common/hstring.ml" 39 1368 1428
+)
+"common/hstring.ml" 39 1368 1374 "common/hstring.ml" 39 1368 1385
+type(
+  ('h Hashcons.hash_consed * 'i) list
+)
+"common/hstring.ml" 39 1368 1392 "common/hstring.ml" 39 1368 1397
+type(
+  'g Hashcons.hash_consed -> 'h Hashcons.hash_consed -> bool
+)
+ident(
+  int_ref equal "common/hstring.ml" 29 1179 1185 "common/hstring.ml" 29 1179 1190
+)
+"common/hstring.ml" 39 1368 1398 "common/hstring.ml" 39 1368 1399
+type(
+  'g Hashcons.hash_consed
+)
+ident(
+  int_ref x "common/hstring.ml" 37 1306 1327 "common/hstring.ml" 37 1306 1328
+)
+"common/hstring.ml" 39 1368 1400 "common/hstring.ml" 39 1368 1401
+type(
+  'h Hashcons.hash_consed
+)
+ident(
+  int_ref y "common/hstring.ml" 39 1368 1375 "common/hstring.ml" 39 1368 1376
+)
+"common/hstring.ml" 39 1368 1392 "common/hstring.ml" 39 1368 1401
+call(
+  stack
+)
+type(
+  bool
+)
+"common/hstring.ml" 39 1368 1407 "common/hstring.ml" 39 1368 1408
+type(
+  'i
+)
+ident(
+  int_ref v "common/hstring.ml" 39 1368 1378 "common/hstring.ml" 39 1368 1379
+)
+"common/hstring.ml" 39 1368 1414 "common/hstring.ml" 39 1368 1424
+type(
+  'g Hashcons.hash_consed -> ('h Hashcons.hash_consed * 'i) list -> 'i
+)
+ident(
+  int_ref list_assoc "common/hstring.ml" 37 1306 1316 "common/hstring.ml" 37 1306 1326
+)
+"common/hstring.ml" 39 1368 1425 "common/hstring.ml" 39 1368 1426
+type(
+  'g Hashcons.hash_consed
+)
+ident(
+  int_ref x "common/hstring.ml" 37 1306 1327 "common/hstring.ml" 37 1306 1328
+)
+"common/hstring.ml" 39 1368 1427 "common/hstring.ml" 39 1368 1428
+type(
+  ('h Hashcons.hash_consed * 'i) list
+)
+ident(
+  int_ref l "common/hstring.ml" 39 1368 1384 "common/hstring.ml" 39 1368 1385
+)
+"common/hstring.ml" 39 1368 1414 "common/hstring.ml" 39 1368 1428
+call(
+  tail
+)
+type(
+  'i
+)
+"common/hstring.ml" 39 1368 1389 "common/hstring.ml" 39 1368 1428
+type(
+  'i
+)
+"common/hstring.ml" 37 1306 1331 "common/hstring.ml" 39 1368 1428
+type(
+  ('h Hashcons.hash_consed * 'i) list -> 'i
+)
+"common/hstring.ml" 41 1430 1440 "common/hstring.ml" 41 1430 1454
+type(
+  'j Hashcons.hash_consed -> ('k Hashcons.hash_consed * 'l) list -> bool
+)
+ident(
+  def list_mem_assoc "common/hstring.ml" 41 1430 1432 "common/hstring.ml" 71 2144 2147
+)
+"common/hstring.ml" 41 1430 1455 "common/hstring.ml" 41 1430 1456
+type(
+  'j Hashcons.hash_consed
+)
+ident(
+  def x "common/hstring.ml" 41 1430 1459 "common/hstring.ml" 43 1487 1545
+)
+"common/hstring.ml" 42 1469 1475 "common/hstring.ml" 42 1469 1477
+type(
+  ('k Hashcons.hash_consed * 'l) list
+)
+"common/hstring.ml" 42 1469 1481 "common/hstring.ml" 42 1469 1486
+type(
+  bool
+)
+"common/hstring.ml" 43 1487 1494 "common/hstring.ml" 43 1487 1495
+type(
+  'k Hashcons.hash_consed
+)
+ident(
+  def y "common/hstring.ml" 43 1487 1508 "common/hstring.ml" 43 1487 1545
+)
+"common/hstring.ml" 43 1487 1497 "common/hstring.ml" 43 1487 1498
+type(
+  'l
+)
+"common/hstring.ml" 43 1487 1493 "common/hstring.ml" 43 1487 1499
+type(
+  'k Hashcons.hash_consed * 'l
+)
+"common/hstring.ml" 43 1487 1503 "common/hstring.ml" 43 1487 1504
+type(
+  ('k Hashcons.hash_consed * 'l) list
+)
+ident(
+  def l "common/hstring.ml" 43 1487 1508 "common/hstring.ml" 43 1487 1545
+)
+"common/hstring.ml" 43 1487 1493 "common/hstring.ml" 43 1487 1504
+type(
+  ('k Hashcons.hash_consed * 'l) list
+)
+"common/hstring.ml" 43 1487 1508 "common/hstring.ml" 43 1487 1515
+type(
+  'j Hashcons.hash_consed -> 'k Hashcons.hash_consed -> int
+)
+ident(
+  int_ref compare "common/hstring.ml" 31 1216 1222 "common/hstring.ml" 31 1216 1229
+)
+"common/hstring.ml" 43 1487 1516 "common/hstring.ml" 43 1487 1517
+type(
+  'j Hashcons.hash_consed
+)
+ident(
+  int_ref x "common/hstring.ml" 41 1430 1455 "common/hstring.ml" 41 1430 1456
+)
+"common/hstring.ml" 43 1487 1518 "common/hstring.ml" 43 1487 1519
+type(
+  'k Hashcons.hash_consed
+)
+ident(
+  int_ref y "common/hstring.ml" 43 1487 1494 "common/hstring.ml" 43 1487 1495
+)
+"common/hstring.ml" 43 1487 1508 "common/hstring.ml" 43 1487 1519
+call(
+  stack
+)
+type(
+  int
+)
+"common/hstring.ml" 43 1487 1520 "common/hstring.ml" 43 1487 1521
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"common/hstring.ml" 43 1487 1522 "common/hstring.ml" 43 1487 1523
+type(
+  int
+)
+"common/hstring.ml" 43 1487 1508 "common/hstring.ml" 43 1487 1523
+type(
+  bool
+)
+"common/hstring.ml" 43 1487 1524 "common/hstring.ml" 43 1487 1526
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"common/hstring.ml" 43 1487 1527 "common/hstring.ml" 43 1487 1541
+type(
+  'j Hashcons.hash_consed -> ('k Hashcons.hash_consed * 'l) list -> bool
+)
+ident(
+  int_ref list_mem_assoc "common/hstring.ml" 41 1430 1440 "common/hstring.ml" 41 1430 1454
+)
+"common/hstring.ml" 43 1487 1542 "common/hstring.ml" 43 1487 1543
+type(
+  'j Hashcons.hash_consed
+)
+ident(
+  int_ref x "common/hstring.ml" 41 1430 1455 "common/hstring.ml" 41 1430 1456
+)
+"common/hstring.ml" 43 1487 1544 "common/hstring.ml" 43 1487 1545
+type(
+  ('k Hashcons.hash_consed * 'l) list
+)
+ident(
+  int_ref l "common/hstring.ml" 43 1487 1503 "common/hstring.ml" 43 1487 1504
+)
+"common/hstring.ml" 43 1487 1527 "common/hstring.ml" 43 1487 1545
+call(
+  tail
+)
+type(
+  bool
+)
+"common/hstring.ml" 43 1487 1508 "common/hstring.ml" 43 1487 1545
+type(
+  bool
+)
+"common/hstring.ml" 41 1430 1459 "common/hstring.ml" 43 1487 1545
+type(
+  ('k Hashcons.hash_consed * 'l) list -> bool
+)
+"common/hstring.ml" 45 1547 1557 "common/hstring.ml" 45 1547 1565
+type(
+  'm Hashcons.hash_consed -> 'n Hashcons.hash_consed list -> bool
+)
+ident(
+  def list_mem "common/hstring.ml" 45 1547 1549 "common/hstring.ml" 71 2144 2147
+)
+"common/hstring.ml" 45 1547 1566 "common/hstring.ml" 45 1547 1567
+type(
+  'm Hashcons.hash_consed
+)
+ident(
+  def x "common/hstring.ml" 45 1547 1570 "common/hstring.ml" 47 1597 1645
+)
+"common/hstring.ml" 46 1579 1585 "common/hstring.ml" 46 1579 1587
+type(
+  'n Hashcons.hash_consed list
+)
+"common/hstring.ml" 46 1579 1591 "common/hstring.ml" 46 1579 1596
+type(
+  bool
+)
+"common/hstring.ml" 47 1597 1603 "common/hstring.ml" 47 1597 1604
+type(
+  'n Hashcons.hash_consed
+)
+ident(
+  def y "common/hstring.ml" 47 1597 1613 "common/hstring.ml" 47 1597 1645
+)
+"common/hstring.ml" 47 1597 1608 "common/hstring.ml" 47 1597 1609
+type(
+  'n Hashcons.hash_consed list
+)
+ident(
+  def l "common/hstring.ml" 47 1597 1613 "common/hstring.ml" 47 1597 1645
+)
+"common/hstring.ml" 47 1597 1603 "common/hstring.ml" 47 1597 1609
+type(
+  'n Hashcons.hash_consed list
+)
+"common/hstring.ml" 47 1597 1613 "common/hstring.ml" 47 1597 1620
+type(
+  'm Hashcons.hash_consed -> 'n Hashcons.hash_consed -> int
+)
+ident(
+  int_ref compare "common/hstring.ml" 31 1216 1222 "common/hstring.ml" 31 1216 1229
+)
+"common/hstring.ml" 47 1597 1621 "common/hstring.ml" 47 1597 1622
+type(
+  'm Hashcons.hash_consed
+)
+ident(
+  int_ref x "common/hstring.ml" 45 1547 1566 "common/hstring.ml" 45 1547 1567
+)
+"common/hstring.ml" 47 1597 1623 "common/hstring.ml" 47 1597 1624
+type(
+  'n Hashcons.hash_consed
+)
+ident(
+  int_ref y "common/hstring.ml" 47 1597 1603 "common/hstring.ml" 47 1597 1604
+)
+"common/hstring.ml" 47 1597 1613 "common/hstring.ml" 47 1597 1624
+call(
+  stack
+)
+type(
+  int
+)
+"common/hstring.ml" 47 1597 1626 "common/hstring.ml" 47 1597 1627
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"common/hstring.ml" 47 1597 1628 "common/hstring.ml" 47 1597 1629
+type(
+  int
+)
+"common/hstring.ml" 47 1597 1613 "common/hstring.ml" 47 1597 1629
+type(
+  bool
+)
+"common/hstring.ml" 47 1597 1630 "common/hstring.ml" 47 1597 1632
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"common/hstring.ml" 47 1597 1633 "common/hstring.ml" 47 1597 1641
+type(
+  'm Hashcons.hash_consed -> 'n Hashcons.hash_consed list -> bool
+)
+ident(
+  int_ref list_mem "common/hstring.ml" 45 1547 1557 "common/hstring.ml" 45 1547 1565
+)
+"common/hstring.ml" 47 1597 1642 "common/hstring.ml" 47 1597 1643
+type(
+  'm Hashcons.hash_consed
+)
+ident(
+  int_ref x "common/hstring.ml" 45 1547 1566 "common/hstring.ml" 45 1547 1567
+)
+"common/hstring.ml" 47 1597 1644 "common/hstring.ml" 47 1597 1645
+type(
+  'n Hashcons.hash_consed list
+)
+ident(
+  int_ref l "common/hstring.ml" 47 1597 1608 "common/hstring.ml" 47 1597 1609
+)
+"common/hstring.ml" 47 1597 1633 "common/hstring.ml" 47 1597 1645
+call(
+  tail
+)
+type(
+  bool
+)
+"common/hstring.ml" 47 1597 1613 "common/hstring.ml" 47 1597 1645
+type(
+  bool
+)
+"common/hstring.ml" 45 1547 1570 "common/hstring.ml" 47 1597 1645
+type(
+  'n Hashcons.hash_consed list -> bool
+)
+"common/hstring.ml" 49 1647 1653 "common/hstring.ml" 49 1647 1667
+type(
+  'o Hashcons.hash_consed * 'p Hashcons.hash_consed ->
+  'q Hashcons.hash_consed * 'r Hashcons.hash_consed -> int
+)
+ident(
+  def compare_couple "common/hstring.ml" 54 1760 1762 "common/hstring.ml" 71 2144 2147
+)
+"common/hstring.ml" 49 1647 1669 "common/hstring.ml" 49 1647 1671
+type(
+  'o Hashcons.hash_consed
+)
+ident(
+  def x1 "common/hstring.ml" 49 1647 1676 "common/hstring.ml" 52 1736 1758
+)
+"common/hstring.ml" 49 1647 1672 "common/hstring.ml" 49 1647 1674
+type(
+  'p Hashcons.hash_consed
+)
+ident(
+  def y1 "common/hstring.ml" 49 1647 1676 "common/hstring.ml" 52 1736 1758
+)
+"common/hstring.ml" 49 1647 1668 "common/hstring.ml" 49 1647 1675
+type(
+  'o Hashcons.hash_consed * 'p Hashcons.hash_consed
+)
+"common/hstring.ml" 49 1647 1677 "common/hstring.ml" 49 1647 1679
+type(
+  'q Hashcons.hash_consed
+)
+ident(
+  def x2 "common/hstring.ml" 50 1686 1690 "common/hstring.ml" 52 1736 1758
+)
+"common/hstring.ml" 49 1647 1680 "common/hstring.ml" 49 1647 1682
+type(
+  'r Hashcons.hash_consed
+)
+ident(
+  def y2 "common/hstring.ml" 50 1686 1690 "common/hstring.ml" 52 1736 1758
+)
+"common/hstring.ml" 49 1647 1676 "common/hstring.ml" 49 1647 1683
+type(
+  'q Hashcons.hash_consed * 'r Hashcons.hash_consed
+)
+"common/hstring.ml" 50 1686 1694 "common/hstring.ml" 50 1686 1695
+type(
+  int
+)
+ident(
+  def c "common/hstring.ml" 51 1715 1719 "common/hstring.ml" 52 1736 1758
+)
+"common/hstring.ml" 50 1686 1698 "common/hstring.ml" 50 1686 1705
+type(
+  'o Hashcons.hash_consed -> 'q Hashcons.hash_consed -> int
+)
+ident(
+  int_ref compare "common/hstring.ml" 31 1216 1222 "common/hstring.ml" 31 1216 1229
+)
+"common/hstring.ml" 50 1686 1706 "common/hstring.ml" 50 1686 1708
+type(
+  'o Hashcons.hash_consed
+)
+ident(
+  int_ref x1 "common/hstring.ml" 49 1647 1669 "common/hstring.ml" 49 1647 1671
+)
+"common/hstring.ml" 50 1686 1709 "common/hstring.ml" 50 1686 1711
+type(
+  'q Hashcons.hash_consed
+)
+ident(
+  int_ref x2 "common/hstring.ml" 49 1647 1677 "common/hstring.ml" 49 1647 1679
+)
+"common/hstring.ml" 50 1686 1698 "common/hstring.ml" 50 1686 1711
+call(
+  stack
+)
+type(
+  int
+)
+"common/hstring.ml" 51 1715 1722 "common/hstring.ml" 51 1715 1723
+type(
+  int
+)
+ident(
+  int_ref c "common/hstring.ml" 50 1686 1694 "common/hstring.ml" 50 1686 1695
+)
+"common/hstring.ml" 51 1715 1724 "common/hstring.ml" 51 1715 1726
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"common/hstring.ml" 51 1715 1727 "common/hstring.ml" 51 1715 1728
+type(
+  int
+)
+"common/hstring.ml" 51 1715 1722 "common/hstring.ml" 51 1715 1728
+type(
+  bool
+)
+"common/hstring.ml" 51 1715 1734 "common/hstring.ml" 51 1715 1735
+type(
+  int
+)
+ident(
+  int_ref c "common/hstring.ml" 50 1686 1694 "common/hstring.ml" 50 1686 1695
+)
+"common/hstring.ml" 52 1736 1745 "common/hstring.ml" 52 1736 1752
+type(
+  'p Hashcons.hash_consed -> 'r Hashcons.hash_consed -> int
+)
+ident(
+  int_ref compare "common/hstring.ml" 31 1216 1222 "common/hstring.ml" 31 1216 1229
+)
+"common/hstring.ml" 52 1736 1753 "common/hstring.ml" 52 1736 1755
+type(
+  'p Hashcons.hash_consed
+)
+ident(
+  int_ref y1 "common/hstring.ml" 49 1647 1672 "common/hstring.ml" 49 1647 1674
+)
+"common/hstring.ml" 52 1736 1756 "common/hstring.ml" 52 1736 1758
+type(
+  'r Hashcons.hash_consed
+)
+ident(
+  int_ref y2 "common/hstring.ml" 49 1647 1680 "common/hstring.ml" 49 1647 1682
+)
+"common/hstring.ml" 52 1736 1745 "common/hstring.ml" 52 1736 1758
+call(
+  tail
+)
+type(
+  int
+)
+"common/hstring.ml" 51 1715 1719 "common/hstring.ml" 52 1736 1758
+type(
+  int
+)
+"common/hstring.ml" 50 1686 1690 "common/hstring.ml" 52 1736 1758
+type(
+  int
+)
+"common/hstring.ml" 54 1760 1770 "common/hstring.ml" 54 1760 1782
+type(
+  's Hashcons.hash_consed list -> 't Hashcons.hash_consed list -> int
+)
+ident(
+  def compare_list "common/hstring.ml" 54 1760 1762 "common/hstring.ml" 71 2144 2147
+)
+"common/hstring.ml" 54 1760 1783 "common/hstring.ml" 54 1760 1785
+type(
+  's Hashcons.hash_consed list
+)
+ident(
+  def l1 "common/hstring.ml" 54 1760 1786 "common/hstring.ml" 62 1938 1962
+)
+"common/hstring.ml" 54 1760 1786 "common/hstring.ml" 54 1760 1788
+type(
+  't Hashcons.hash_consed list
+)
+ident(
+  def l2 "common/hstring.ml" 55 1791 1795 "common/hstring.ml" 62 1938 1962
+)
+"common/hstring.ml" 55 1791 1801 "common/hstring.ml" 55 1791 1803
+type(
+  's Hashcons.hash_consed list
+)
+ident(
+  int_ref l1 "common/hstring.ml" 54 1760 1783 "common/hstring.ml" 54 1760 1785
+)
+"common/hstring.ml" 55 1791 1805 "common/hstring.ml" 55 1791 1807
+type(
+  't Hashcons.hash_consed list
+)
+ident(
+  int_ref l2 "common/hstring.ml" 54 1760 1786 "common/hstring.ml" 54 1760 1788
+)
+"common/hstring.ml" 55 1791 1801 "common/hstring.ml" 55 1791 1807
+type(
+  's Hashcons.hash_consed list * 't Hashcons.hash_consed list
+)
+"common/hstring.ml" 56 1813 1821 "common/hstring.ml" 56 1813 1823
+type(
+  's Hashcons.hash_consed list
+)
+"common/hstring.ml" 56 1813 1825 "common/hstring.ml" 56 1813 1827
+type(
+  't Hashcons.hash_consed list
+)
+"common/hstring.ml" 56 1813 1821 "common/hstring.ml" 56 1813 1827
+type(
+  's Hashcons.hash_consed list * 't Hashcons.hash_consed list
+)
+"common/hstring.ml" 56 1813 1831 "common/hstring.ml" 56 1813 1832
+type(
+  int
+)
+"common/hstring.ml" 57 1833 1841 "common/hstring.ml" 57 1833 1843
+type(
+  's Hashcons.hash_consed list
+)
+"common/hstring.ml" 57 1833 1845 "common/hstring.ml" 57 1833 1846
+type(
+  't Hashcons.hash_consed list
+)
+"common/hstring.ml" 57 1833 1841 "common/hstring.ml" 57 1833 1846
+type(
+  's Hashcons.hash_consed list * 't Hashcons.hash_consed list
+)
+"common/hstring.ml" 57 1833 1850 "common/hstring.ml" 57 1833 1852
+type(
+  int
+)
+"common/hstring.ml" 58 1853 1861 "common/hstring.ml" 58 1853 1862
+type(
+  's Hashcons.hash_consed list
+)
+"common/hstring.ml" 58 1853 1864 "common/hstring.ml" 58 1853 1866
+type(
+  't Hashcons.hash_consed list
+)
+"common/hstring.ml" 58 1853 1861 "common/hstring.ml" 58 1853 1866
+type(
+  's Hashcons.hash_consed list * 't Hashcons.hash_consed list
+)
+"common/hstring.ml" 58 1853 1870 "common/hstring.ml" 58 1853 1871
+type(
+  int
+)
+"common/hstring.ml" 59 1872 1880 "common/hstring.ml" 59 1872 1881
+type(
+  's Hashcons.hash_consed
+)
+ident(
+  def x "common/hstring.ml" 60 1896 1897 "common/hstring.ml" 62 1938 1962
+)
+"common/hstring.ml" 59 1872 1883 "common/hstring.ml" 59 1872 1885
+type(
+  's Hashcons.hash_consed list
+)
+ident(
+  def r1 "common/hstring.ml" 60 1896 1897 "common/hstring.ml" 62 1938 1962
+)
+"common/hstring.ml" 59 1872 1880 "common/hstring.ml" 59 1872 1885
+type(
+  's Hashcons.hash_consed list
+)
+"common/hstring.ml" 59 1872 1887 "common/hstring.ml" 59 1872 1888
+type(
+  't Hashcons.hash_consed
+)
+ident(
+  def y "common/hstring.ml" 60 1896 1897 "common/hstring.ml" 62 1938 1962
+)
+"common/hstring.ml" 59 1872 1890 "common/hstring.ml" 59 1872 1892
+type(
+  't Hashcons.hash_consed list
+)
+ident(
+  def r2 "common/hstring.ml" 60 1896 1897 "common/hstring.ml" 62 1938 1962
+)
+"common/hstring.ml" 59 1872 1887 "common/hstring.ml" 59 1872 1892
+type(
+  't Hashcons.hash_consed list
+)
+"common/hstring.ml" 59 1872 1880 "common/hstring.ml" 59 1872 1892
+type(
+  's Hashcons.hash_consed list * 't Hashcons.hash_consed list
+)
+"common/hstring.ml" 60 1896 1901 "common/hstring.ml" 60 1896 1902
+type(
+  int
+)
+ident(
+  def c "common/hstring.ml" 61 1920 1921 "common/hstring.ml" 62 1938 1962
+)
+"common/hstring.ml" 60 1896 1905 "common/hstring.ml" 60 1896 1912
+type(
+  's Hashcons.hash_consed -> 't Hashcons.hash_consed -> int
+)
+ident(
+  int_ref compare "common/hstring.ml" 31 1216 1222 "common/hstring.ml" 31 1216 1229
+)
+"common/hstring.ml" 60 1896 1913 "common/hstring.ml" 60 1896 1914
+type(
+  's Hashcons.hash_consed
+)
+ident(
+  int_ref x "common/hstring.ml" 59 1872 1880 "common/hstring.ml" 59 1872 1881
+)
+"common/hstring.ml" 60 1896 1915 "common/hstring.ml" 60 1896 1916
+type(
+  't Hashcons.hash_consed
+)
+ident(
+  int_ref y "common/hstring.ml" 59 1872 1887 "common/hstring.ml" 59 1872 1888
+)
+"common/hstring.ml" 60 1896 1905 "common/hstring.ml" 60 1896 1916
+call(
+  stack
+)
+type(
+  int
+)
+"common/hstring.ml" 61 1920 1924 "common/hstring.ml" 61 1920 1925
+type(
+  int
+)
+ident(
+  int_ref c "common/hstring.ml" 60 1896 1901 "common/hstring.ml" 60 1896 1902
+)
+"common/hstring.ml" 61 1920 1926 "common/hstring.ml" 61 1920 1928
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"common/hstring.ml" 61 1920 1929 "common/hstring.ml" 61 1920 1930
+type(
+  int
+)
+"common/hstring.ml" 61 1920 1924 "common/hstring.ml" 61 1920 1930
+type(
+  bool
+)
+"common/hstring.ml" 61 1920 1936 "common/hstring.ml" 61 1920 1937
+type(
+  int
+)
+ident(
+  int_ref c "common/hstring.ml" 60 1896 1901 "common/hstring.ml" 60 1896 1902
+)
+"common/hstring.ml" 62 1938 1944 "common/hstring.ml" 62 1938 1956
+type(
+  's Hashcons.hash_consed list -> 't Hashcons.hash_consed list -> int
+)
+ident(
+  int_ref compare_list "common/hstring.ml" 54 1760 1770 "common/hstring.ml" 54 1760 1782
+)
+"common/hstring.ml" 62 1938 1957 "common/hstring.ml" 62 1938 1959
+type(
+  's Hashcons.hash_consed list
+)
+ident(
+  int_ref r1 "common/hstring.ml" 59 1872 1883 "common/hstring.ml" 59 1872 1885
+)
+"common/hstring.ml" 62 1938 1960 "common/hstring.ml" 62 1938 1962
+type(
+  't Hashcons.hash_consed list
+)
+ident(
+  int_ref r2 "common/hstring.ml" 59 1872 1890 "common/hstring.ml" 59 1872 1892
+)
+"common/hstring.ml" 62 1938 1944 "common/hstring.ml" 62 1938 1962
+call(
+  tail
+)
+type(
+  int
+)
+"common/hstring.ml" 61 1920 1921 "common/hstring.ml" 62 1938 1962
+type(
+  int
+)
+"common/hstring.ml" 60 1896 1897 "common/hstring.ml" 62 1938 1962
+type(
+  int
+)
+"common/hstring.ml" 55 1791 1795 "common/hstring.ml" 62 1938 1962
+type(
+  int
+)
+"common/hstring.ml" 64 1964 1974 "common/hstring.ml" 64 1964 1989
+type(
+  'u Hashcons.hash_consed * 'v Hashcons.hash_consed ->
+  ('w Hashcons.hash_consed * 'x Hashcons.hash_consed) list -> bool
+)
+ident(
+  def list_mem_couple "common/hstring.ml" 64 1964 1966 "common/hstring.ml" 71 2144 2147
+)
+"common/hstring.ml" 64 1964 1990 "common/hstring.ml" 64 1964 1991
+type(
+  'u Hashcons.hash_consed * 'v Hashcons.hash_consed
+)
+ident(
+  def c "common/hstring.ml" 64 1964 1994 "common/hstring.ml" 66 2021 2083
+)
+"common/hstring.ml" 65 2003 2009 "common/hstring.ml" 65 2003 2011
+type(
+  ('w Hashcons.hash_consed * 'x Hashcons.hash_consed) list
+)
+"common/hstring.ml" 65 2003 2015 "common/hstring.ml" 65 2003 2020
+type(
+  bool
+)
+"common/hstring.ml" 66 2021 2027 "common/hstring.ml" 66 2021 2028
+type(
+  'w Hashcons.hash_consed * 'x Hashcons.hash_consed
+)
+ident(
+  def d "common/hstring.ml" 66 2021 2037 "common/hstring.ml" 66 2021 2083
+)
+"common/hstring.ml" 66 2021 2032 "common/hstring.ml" 66 2021 2033
+type(
+  ('w Hashcons.hash_consed * 'x Hashcons.hash_consed) list
+)
+ident(
+  def l "common/hstring.ml" 66 2021 2037 "common/hstring.ml" 66 2021 2083
+)
+"common/hstring.ml" 66 2021 2027 "common/hstring.ml" 66 2021 2033
+type(
+  ('w Hashcons.hash_consed * 'x Hashcons.hash_consed) list
+)
+"common/hstring.ml" 66 2021 2037 "common/hstring.ml" 66 2021 2051
+type(
+  'u Hashcons.hash_consed * 'v Hashcons.hash_consed ->
+  'w Hashcons.hash_consed * 'x Hashcons.hash_consed -> int
+)
+ident(
+  int_ref compare_couple "common/hstring.ml" 49 1647 1653 "common/hstring.ml" 49 1647 1667
+)
+"common/hstring.ml" 66 2021 2052 "common/hstring.ml" 66 2021 2053
+type(
+  'u Hashcons.hash_consed * 'v Hashcons.hash_consed
+)
+ident(
+  int_ref c "common/hstring.ml" 64 1964 1990 "common/hstring.ml" 64 1964 1991
+)
+"common/hstring.ml" 66 2021 2054 "common/hstring.ml" 66 2021 2055
+type(
+  'w Hashcons.hash_consed * 'x Hashcons.hash_consed
+)
+ident(
+  int_ref d "common/hstring.ml" 66 2021 2027 "common/hstring.ml" 66 2021 2028
+)
+"common/hstring.ml" 66 2021 2037 "common/hstring.ml" 66 2021 2055
+call(
+  stack
+)
+type(
+  int
+)
+"common/hstring.ml" 66 2021 2057 "common/hstring.ml" 66 2021 2058
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"common/hstring.ml" 66 2021 2059 "common/hstring.ml" 66 2021 2060
+type(
+  int
+)
+"common/hstring.ml" 66 2021 2037 "common/hstring.ml" 66 2021 2060
+type(
+  bool
+)
+"common/hstring.ml" 66 2021 2061 "common/hstring.ml" 66 2021 2063
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( || )
+)
+"common/hstring.ml" 66 2021 2064 "common/hstring.ml" 66 2021 2079
+type(
+  'u Hashcons.hash_consed * 'v Hashcons.hash_consed ->
+  ('w Hashcons.hash_consed * 'x Hashcons.hash_consed) list -> bool
+)
+ident(
+  int_ref list_mem_couple "common/hstring.ml" 64 1964 1974 "common/hstring.ml" 64 1964 1989
+)
+"common/hstring.ml" 66 2021 2080 "common/hstring.ml" 66 2021 2081
+type(
+  'u Hashcons.hash_consed * 'v Hashcons.hash_consed
+)
+ident(
+  int_ref c "common/hstring.ml" 64 1964 1990 "common/hstring.ml" 64 1964 1991
+)
+"common/hstring.ml" 66 2021 2082 "common/hstring.ml" 66 2021 2083
+type(
+  ('w Hashcons.hash_consed * 'x Hashcons.hash_consed) list
+)
+ident(
+  int_ref l "common/hstring.ml" 66 2021 2032 "common/hstring.ml" 66 2021 2033
+)
+"common/hstring.ml" 66 2021 2064 "common/hstring.ml" 66 2021 2083
+call(
+  tail
+)
+type(
+  bool
+)
+"common/hstring.ml" 66 2021 2037 "common/hstring.ml" 66 2021 2083
+type(
+  bool
+)
+"common/hstring.ml" 64 1964 1994 "common/hstring.ml" 66 2021 2083
+type(
+  ('w Hashcons.hash_consed * 'x Hashcons.hash_consed) list -> bool
+)
+"common/hstring.ml" 68 2085 2091 "common/hstring.ml" 68 2085 2096
+type(
+  Format.formatter -> string Hashcons.hash_consed -> unit
+)
+ident(
+  def print "common/hstring.ml" 69 2106 2142 "common/hstring.ml" 71 2144 2147
+)
+"common/hstring.ml" 68 2085 2097 "common/hstring.ml" 68 2085 2100
+type(
+  Format.formatter
+)
+ident(
+  def fmt "common/hstring.ml" 68 2085 2101 "common/hstring.ml" 69 2106 2142
+)
+"common/hstring.ml" 68 2085 2101 "common/hstring.ml" 68 2085 2102
+type(
+  string Hashcons.hash_consed
+)
+ident(
+  def s "common/hstring.ml" 69 2106 2110 "common/hstring.ml" 69 2106 2142
+)
+"common/hstring.ml" 69 2106 2110 "common/hstring.ml" 69 2106 2124
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"common/hstring.ml" 69 2106 2125 "common/hstring.ml" 69 2106 2128
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "common/hstring.ml" 68 2085 2097 "common/hstring.ml" 68 2085 2100
+)
+"common/hstring.ml" 69 2106 2129 "common/hstring.ml" 69 2106 2133
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"common/hstring.ml" 69 2106 2135 "common/hstring.ml" 69 2106 2139
+type(
+  string Hashcons.hash_consed -> string
+)
+ident(
+  int_ref view "common/hstring.ml" 27 1156 1162 "common/hstring.ml" 27 1156 1166
+)
+"common/hstring.ml" 69 2106 2140 "common/hstring.ml" 69 2106 2141
+type(
+  string Hashcons.hash_consed
+)
+ident(
+  int_ref s "common/hstring.ml" 68 2085 2101 "common/hstring.ml" 68 2085 2102
+)
+"common/hstring.ml" 69 2106 2134 "common/hstring.ml" 69 2106 2142
+call(
+  stack
+)
+type(
+  string
+)
+"common/hstring.ml" 69 2106 2110 "common/hstring.ml" 69 2106 2142
+call(
+  tail
+)
+type(
+  unit
+)
+"common/hstring.ml" 75 2161 2172 "common/hstring.ml" 75 2161 2188
+call(
+  stack
+)
+"common/hstring.ml" 77 2190 2204 "common/hstring.ml" 77 2190 2216
+call(
+  stack
+)
+"common/hstring.ml" 79 2218 2232 "common/hstring.ml" 79 2218 2244
+call(
+  stack
+)

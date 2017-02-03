@@ -1,0 +1,1709 @@
+"smt/use.ml" 24 1191 1197 "smt/use.ml" 24 1191 1204
+type(
+  Literal.LT.t * 'a -> Literal.LT.t * 'b -> int
+)
+ident(
+  def compare "smt/use.ml" 24 1191 1245 "smt/use.ml" 25 1246 1249
+)
+"smt/use.ml" 24 1191 1206 "smt/use.ml" 24 1191 1208
+type(
+  Literal.LT.t
+)
+ident(
+  def s1 "smt/use.ml" 24 1191 1212 "smt/use.ml" 24 1191 1245
+)
+"smt/use.ml" 24 1191 1209 "smt/use.ml" 24 1191 1210
+type(
+  'a
+)
+"smt/use.ml" 24 1191 1205 "smt/use.ml" 24 1191 1211
+type(
+  Literal.LT.t * 'a
+)
+"smt/use.ml" 24 1191 1213 "smt/use.ml" 24 1191 1215
+type(
+  Literal.LT.t
+)
+ident(
+  def s2 "smt/use.ml" 24 1191 1221 "smt/use.ml" 24 1191 1245
+)
+"smt/use.ml" 24 1191 1216 "smt/use.ml" 24 1191 1217
+type(
+  'b
+)
+"smt/use.ml" 24 1191 1212 "smt/use.ml" 24 1191 1218
+type(
+  Literal.LT.t * 'b
+)
+"smt/use.ml" 24 1191 1221 "smt/use.ml" 24 1191 1239
+type(
+  Literal.LT.t -> Literal.LT.t -> int
+)
+ident(
+  ext_ref Literal.LT.compare
+)
+"smt/use.ml" 24 1191 1240 "smt/use.ml" 24 1191 1242
+type(
+  Literal.LT.t
+)
+ident(
+  int_ref s1 "smt/use.ml" 24 1191 1206 "smt/use.ml" 24 1191 1208
+)
+"smt/use.ml" 24 1191 1243 "smt/use.ml" 24 1191 1245
+type(
+  Literal.LT.t
+)
+ident(
+  int_ref s2 "smt/use.ml" 24 1191 1213 "smt/use.ml" 24 1191 1215
+)
+"smt/use.ml" 24 1191 1221 "smt/use.ml" 24 1191 1245
+call(
+  tail
+)
+type(
+  int
+)
+"smt/use.ml" 22 1123 1135 "smt/use.ml" 25 1246 1250
+call(
+  stack
+)
+"smt/use.ml" 31 1312 1318 "smt/use.ml" 31 1312 1327
+type(
+  ST.t * SA.t -> ST.t * SA.t -> ST.t * SA.t
+)
+ident(
+  def inter_tpl "smt/use.ml" 32 1377 1379 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 31 1312 1329 "smt/use.ml" 31 1312 1331
+type(
+  ST.t
+)
+ident(
+  def x1 "smt/use.ml" 31 1312 1336 "smt/use.ml" 31 1312 1376
+)
+"smt/use.ml" 31 1312 1332 "smt/use.ml" 31 1312 1334
+type(
+  SA.t
+)
+ident(
+  def y1 "smt/use.ml" 31 1312 1336 "smt/use.ml" 31 1312 1376
+)
+"smt/use.ml" 31 1312 1328 "smt/use.ml" 31 1312 1335
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 31 1312 1337 "smt/use.ml" 31 1312 1339
+type(
+  ST.t
+)
+ident(
+  def x2 "smt/use.ml" 31 1312 1346 "smt/use.ml" 31 1312 1376
+)
+"smt/use.ml" 31 1312 1340 "smt/use.ml" 31 1312 1342
+type(
+  SA.t
+)
+ident(
+  def y2 "smt/use.ml" 31 1312 1346 "smt/use.ml" 31 1312 1376
+)
+"smt/use.ml" 31 1312 1336 "smt/use.ml" 31 1312 1343
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 31 1312 1346 "smt/use.ml" 31 1312 1354
+type(
+  ST.t -> ST.t -> ST.t
+)
+ident(
+  ext_ref ST.inter
+)
+"smt/use.ml" 31 1312 1355 "smt/use.ml" 31 1312 1357
+type(
+  ST.t
+)
+ident(
+  int_ref x1 "smt/use.ml" 31 1312 1329 "smt/use.ml" 31 1312 1331
+)
+"smt/use.ml" 31 1312 1358 "smt/use.ml" 31 1312 1360
+type(
+  ST.t
+)
+ident(
+  int_ref x2 "smt/use.ml" 31 1312 1337 "smt/use.ml" 31 1312 1339
+)
+"smt/use.ml" 31 1312 1346 "smt/use.ml" 31 1312 1360
+call(
+  stack
+)
+type(
+  ST.t
+)
+"smt/use.ml" 31 1312 1362 "smt/use.ml" 31 1312 1370
+type(
+  SA.t -> SA.t -> SA.t
+)
+ident(
+  ext_ref SA.inter
+)
+"smt/use.ml" 31 1312 1371 "smt/use.ml" 31 1312 1373
+type(
+  SA.t
+)
+ident(
+  int_ref y1 "smt/use.ml" 31 1312 1332 "smt/use.ml" 31 1312 1334
+)
+"smt/use.ml" 31 1312 1374 "smt/use.ml" 31 1312 1376
+type(
+  SA.t
+)
+ident(
+  int_ref y2 "smt/use.ml" 31 1312 1340 "smt/use.ml" 31 1312 1342
+)
+"smt/use.ml" 31 1312 1362 "smt/use.ml" 31 1312 1376
+call(
+  stack
+)
+type(
+  SA.t
+)
+"smt/use.ml" 31 1312 1346 "smt/use.ml" 31 1312 1376
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 32 1377 1383 "smt/use.ml" 32 1377 1392
+type(
+  ST.t * SA.t -> ST.t * SA.t -> ST.t * SA.t
+)
+ident(
+  def union_tpl "smt/use.ml" 33 1442 1444 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 32 1377 1394 "smt/use.ml" 32 1377 1396
+type(
+  ST.t
+)
+ident(
+  def x1 "smt/use.ml" 32 1377 1401 "smt/use.ml" 32 1377 1441
+)
+"smt/use.ml" 32 1377 1397 "smt/use.ml" 32 1377 1399
+type(
+  SA.t
+)
+ident(
+  def y1 "smt/use.ml" 32 1377 1401 "smt/use.ml" 32 1377 1441
+)
+"smt/use.ml" 32 1377 1393 "smt/use.ml" 32 1377 1400
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 32 1377 1402 "smt/use.ml" 32 1377 1404
+type(
+  ST.t
+)
+ident(
+  def x2 "smt/use.ml" 32 1377 1411 "smt/use.ml" 32 1377 1441
+)
+"smt/use.ml" 32 1377 1405 "smt/use.ml" 32 1377 1407
+type(
+  SA.t
+)
+ident(
+  def y2 "smt/use.ml" 32 1377 1411 "smt/use.ml" 32 1377 1441
+)
+"smt/use.ml" 32 1377 1401 "smt/use.ml" 32 1377 1408
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 32 1377 1411 "smt/use.ml" 32 1377 1419
+type(
+  ST.t -> ST.t -> ST.t
+)
+ident(
+  ext_ref ST.union
+)
+"smt/use.ml" 32 1377 1420 "smt/use.ml" 32 1377 1422
+type(
+  ST.t
+)
+ident(
+  int_ref x1 "smt/use.ml" 32 1377 1394 "smt/use.ml" 32 1377 1396
+)
+"smt/use.ml" 32 1377 1423 "smt/use.ml" 32 1377 1425
+type(
+  ST.t
+)
+ident(
+  int_ref x2 "smt/use.ml" 32 1377 1402 "smt/use.ml" 32 1377 1404
+)
+"smt/use.ml" 32 1377 1411 "smt/use.ml" 32 1377 1425
+call(
+  stack
+)
+type(
+  ST.t
+)
+"smt/use.ml" 32 1377 1427 "smt/use.ml" 32 1377 1435
+type(
+  SA.t -> SA.t -> SA.t
+)
+ident(
+  ext_ref SA.union
+)
+"smt/use.ml" 32 1377 1436 "smt/use.ml" 32 1377 1438
+type(
+  SA.t
+)
+ident(
+  int_ref y1 "smt/use.ml" 32 1377 1397 "smt/use.ml" 32 1377 1399
+)
+"smt/use.ml" 32 1377 1439 "smt/use.ml" 32 1377 1441
+type(
+  SA.t
+)
+ident(
+  int_ref y2 "smt/use.ml" 32 1377 1405 "smt/use.ml" 32 1377 1407
+)
+"smt/use.ml" 32 1377 1427 "smt/use.ml" 32 1377 1441
+call(
+  stack
+)
+type(
+  SA.t
+)
+"smt/use.ml" 32 1377 1411 "smt/use.ml" 32 1377 1441
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 33 1442 1448 "smt/use.ml" 33 1442 1454
+type(
+  Hstring.t
+)
+ident(
+  def bottom "smt/use.ml" 34 1481 1483 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 33 1442 1457 "smt/use.ml" 33 1442 1469
+type(
+  string -> Hstring.t
+)
+ident(
+  ext_ref Hstring.make
+)
+"smt/use.ml" 33 1442 1470 "smt/use.ml" 33 1442 1479
+type(
+  string
+)
+"smt/use.ml" 33 1442 1457 "smt/use.ml" 33 1442 1479
+call(
+  stack
+)
+type(
+  Hstring.t
+)
+"smt/use.ml" 34 1481 1487 "smt/use.ml" 34 1481 1493
+type(
+  X.r -> X.r list
+)
+ident(
+  def leaves "smt/use.ml" 38 1616 1618 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 34 1481 1494 "smt/use.ml" 34 1481 1495
+type(
+  X.r
+)
+ident(
+  def r "smt/use.ml" 35 1499 1503 "smt/use.ml" 36 1568 1614
+)
+"smt/use.ml" 35 1499 1507 "smt/use.ml" 35 1499 1510
+type(
+  X.r
+)
+ident(
+  def one "smt/use.ml" 36 1568 1572 "smt/use.ml" 36 1568 1614
+)
+"smt/use.ml" 35 1499 1512 "smt/use.ml" 35 1499 1513
+type(
+  Literal.LT.t list
+)
+"smt/use.ml" 35 1499 1507 "smt/use.ml" 35 1499 1513
+type(
+  X.r * Literal.LT.t list
+)
+"smt/use.ml" 35 1499 1516 "smt/use.ml" 35 1499 1522
+type(
+  T.t -> X.r * Literal.LT.t list
+)
+ident(
+  ext_ref X.make
+)
+"smt/use.ml" 35 1499 1524 "smt/use.ml" 35 1499 1530
+type(
+  Symbols.t -> T.t list -> Ty.t -> T.t
+)
+ident(
+  ext_ref T.make
+)
+"smt/use.ml" 35 1499 1532 "smt/use.ml" 35 1499 1544
+type(
+  ?kind:Symbols.name_kind -> Hstring.t -> Symbols.t
+)
+ident(
+  ext_ref Symbols.name
+)
+"smt/use.ml" 35 1499 1545 "smt/use.ml" 35 1499 1551
+type(
+  Hstring.t
+)
+ident(
+  int_ref bottom "smt/use.ml" 33 1442 1448 "smt/use.ml" 33 1442 1454
+)
+"smt/use.ml" 35 1499 1531 "smt/use.ml" 35 1499 1552
+call(
+  stack
+)
+type(
+  Symbols.t
+)
+"smt/use.ml" 35 1499 1553 "smt/use.ml" 35 1499 1555
+type(
+  T.t list
+)
+"smt/use.ml" 35 1499 1556 "smt/use.ml" 35 1499 1563
+type(
+  Ty.t
+)
+"smt/use.ml" 35 1499 1523 "smt/use.ml" 35 1499 1564
+call(
+  stack
+)
+type(
+  T.t
+)
+"smt/use.ml" 35 1499 1516 "smt/use.ml" 35 1499 1564
+call(
+  stack
+)
+type(
+  X.r * Literal.LT.t list
+)
+"smt/use.ml" 36 1568 1578 "smt/use.ml" 36 1568 1586
+type(
+  X.r -> X.r list
+)
+ident(
+  ext_ref X.leaves
+)
+"smt/use.ml" 36 1568 1587 "smt/use.ml" 36 1568 1588
+type(
+  X.r
+)
+ident(
+  int_ref r "smt/use.ml" 34 1481 1494 "smt/use.ml" 34 1481 1495
+)
+"smt/use.ml" 36 1568 1578 "smt/use.ml" 36 1568 1588
+call(
+  stack
+)
+type(
+  X.r list
+)
+"smt/use.ml" 36 1568 1594 "smt/use.ml" 36 1568 1596
+type(
+  X.r list
+)
+"smt/use.ml" 36 1568 1601 "smt/use.ml" 36 1568 1604
+type(
+  X.r
+)
+ident(
+  int_ref one "smt/use.ml" 35 1499 1507 "smt/use.ml" 35 1499 1510
+)
+"smt/use.ml" 36 1568 1600 "smt/use.ml" 36 1568 1605
+type(
+  X.r list
+)
+"smt/use.ml" 36 1568 1608 "smt/use.ml" 36 1568 1609
+type(
+  X.r list
+)
+ident(
+  def l "smt/use.ml" 36 1568 1613 "smt/use.ml" 36 1568 1614
+)
+"smt/use.ml" 36 1568 1613 "smt/use.ml" 36 1568 1614
+type(
+  X.r list
+)
+ident(
+  int_ref l "smt/use.ml" 36 1568 1608 "smt/use.ml" 36 1568 1609
+)
+"smt/use.ml" 36 1568 1572 "smt/use.ml" 36 1568 1614
+type(
+  X.r list
+)
+"smt/use.ml" 35 1499 1503 "smt/use.ml" 36 1568 1614
+type(
+  X.r list
+)
+"smt/use.ml" 38 1616 1629 "smt/use.ml" 38 1616 1672
+call(
+  stack
+)
+"smt/use.ml" 45 1711 1717 "smt/use.ml" 45 1711 1721
+type(
+  G.key -> (ST.t * SA.t) G.t -> ST.t * SA.t
+)
+ident(
+  def find "smt/use.ml" 47 1786 1788 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 45 1711 1722 "smt/use.ml" 45 1711 1723
+type(
+  G.key
+)
+ident(
+  def k "smt/use.ml" 45 1711 1724 "smt/use.ml" 45 1711 1778
+)
+"smt/use.ml" 45 1711 1724 "smt/use.ml" 45 1711 1725
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  def m "smt/use.ml" 45 1711 1728 "smt/use.ml" 45 1711 1778
+)
+"smt/use.ml" 45 1711 1732 "smt/use.ml" 45 1711 1736
+type(
+  G.key -> (ST.t * SA.t) G.t -> ST.t * SA.t
+)
+ident(
+  ext_ref G.find
+)
+"smt/use.ml" 45 1711 1737 "smt/use.ml" 45 1711 1738
+type(
+  G.key
+)
+ident(
+  int_ref k "smt/use.ml" 45 1711 1722 "smt/use.ml" 45 1711 1723
+)
+"smt/use.ml" 45 1711 1739 "smt/use.ml" 45 1711 1740
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref m "smt/use.ml" 45 1711 1724 "smt/use.ml" 45 1711 1725
+)
+"smt/use.ml" 45 1711 1732 "smt/use.ml" 45 1711 1740
+call(
+  stack
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 45 1711 1746 "smt/use.ml" 45 1711 1755
+type(
+  exn
+)
+"smt/use.ml" 45 1711 1760 "smt/use.ml" 45 1711 1768
+type(
+  ST.t
+)
+ident(
+  ext_ref ST.empty
+)
+"smt/use.ml" 45 1711 1769 "smt/use.ml" 45 1711 1777
+type(
+  SA.t
+)
+ident(
+  ext_ref SA.empty
+)
+"smt/use.ml" 45 1711 1759 "smt/use.ml" 45 1711 1778
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 45 1711 1728 "smt/use.ml" 45 1711 1778
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 47 1786 1792 "smt/use.ml" 47 1786 1800
+type(
+  G.key -> ST.elt -> (ST.t * SA.t) G.t -> (ST.t * SA.t) G.t
+)
+ident(
+  def add_term "smt/use.ml" 50 1875 1877 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 47 1786 1801 "smt/use.ml" 47 1786 1802
+type(
+  G.key
+)
+ident(
+  def k "smt/use.ml" 47 1786 1803 "smt/use.ml" 48 1810 1868
+)
+"smt/use.ml" 47 1786 1803 "smt/use.ml" 47 1786 1804
+type(
+  ST.elt
+)
+ident(
+  def t "smt/use.ml" 47 1786 1805 "smt/use.ml" 48 1810 1868
+)
+"smt/use.ml" 47 1786 1805 "smt/use.ml" 47 1786 1807
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  def mp "smt/use.ml" 48 1810 1814 "smt/use.ml" 48 1810 1868
+)
+"smt/use.ml" 48 1810 1818 "smt/use.ml" 48 1810 1821
+type(
+  ST.t
+)
+ident(
+  def g_t "smt/use.ml" 48 1810 1841 "smt/use.ml" 48 1810 1868
+)
+"smt/use.ml" 48 1810 1822 "smt/use.ml" 48 1810 1825
+type(
+  SA.t
+)
+ident(
+  def g_a "smt/use.ml" 48 1810 1841 "smt/use.ml" 48 1810 1868
+)
+"smt/use.ml" 48 1810 1818 "smt/use.ml" 48 1810 1825
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 48 1810 1828 "smt/use.ml" 48 1810 1832
+type(
+  G.key -> (ST.t * SA.t) G.t -> ST.t * SA.t
+)
+ident(
+  int_ref find "smt/use.ml" 45 1711 1717 "smt/use.ml" 45 1711 1721
+)
+"smt/use.ml" 48 1810 1833 "smt/use.ml" 48 1810 1834
+type(
+  G.key
+)
+ident(
+  int_ref k "smt/use.ml" 47 1786 1801 "smt/use.ml" 47 1786 1802
+)
+"smt/use.ml" 48 1810 1835 "smt/use.ml" 48 1810 1837
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref mp "smt/use.ml" 47 1786 1805 "smt/use.ml" 47 1786 1807
+)
+"smt/use.ml" 48 1810 1828 "smt/use.ml" 48 1810 1837
+call(
+  stack
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 48 1810 1841 "smt/use.ml" 48 1810 1844
+type(
+  G.key -> ST.t * SA.t -> (ST.t * SA.t) G.t -> (ST.t * SA.t) G.t
+)
+ident(
+  ext_ref G.add
+)
+"smt/use.ml" 48 1810 1845 "smt/use.ml" 48 1810 1846
+type(
+  G.key
+)
+ident(
+  int_ref k "smt/use.ml" 47 1786 1801 "smt/use.ml" 47 1786 1802
+)
+"smt/use.ml" 48 1810 1848 "smt/use.ml" 48 1810 1854
+type(
+  ST.elt -> ST.t -> ST.t
+)
+ident(
+  ext_ref ST.add
+)
+"smt/use.ml" 48 1810 1855 "smt/use.ml" 48 1810 1856
+type(
+  ST.elt
+)
+ident(
+  int_ref t "smt/use.ml" 47 1786 1803 "smt/use.ml" 47 1786 1804
+)
+"smt/use.ml" 48 1810 1857 "smt/use.ml" 48 1810 1860
+type(
+  ST.t
+)
+ident(
+  int_ref g_t "smt/use.ml" 48 1810 1818 "smt/use.ml" 48 1810 1821
+)
+"smt/use.ml" 48 1810 1848 "smt/use.ml" 48 1810 1860
+call(
+  stack
+)
+type(
+  ST.t
+)
+"smt/use.ml" 48 1810 1861 "smt/use.ml" 48 1810 1864
+type(
+  SA.t
+)
+ident(
+  int_ref g_a "smt/use.ml" 48 1810 1822 "smt/use.ml" 48 1810 1825
+)
+"smt/use.ml" 48 1810 1847 "smt/use.ml" 48 1810 1865
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 48 1810 1866 "smt/use.ml" 48 1810 1868
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref mp "smt/use.ml" 47 1786 1805 "smt/use.ml" 47 1786 1807
+)
+"smt/use.ml" 48 1810 1841 "smt/use.ml" 48 1810 1868
+call(
+  tail
+)
+type(
+  (ST.t * SA.t) G.t
+)
+"smt/use.ml" 48 1810 1814 "smt/use.ml" 48 1810 1868
+type(
+  (ST.t * SA.t) G.t
+)
+"smt/use.ml" 50 1875 1881 "smt/use.ml" 50 1875 1887
+type(
+  (ST.t * SA.t) G.t -> ST.elt -> G.key -> G.key list -> (ST.t * SA.t) G.t
+)
+ident(
+  def up_add "smt/use.ml" 54 2029 2031 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 50 1875 1888 "smt/use.ml" 50 1875 1889
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  def g "smt/use.ml" 50 1875 1890 "smt/use.ml" 52 1971 2020
+)
+"smt/use.ml" 50 1875 1890 "smt/use.ml" 50 1875 1891
+type(
+  ST.elt
+)
+ident(
+  def t "smt/use.ml" 50 1875 1892 "smt/use.ml" 52 1971 2020
+)
+"smt/use.ml" 50 1875 1892 "smt/use.ml" 50 1875 1894
+type(
+  G.key
+)
+ident(
+  def rt "smt/use.ml" 50 1875 1895 "smt/use.ml" 52 1971 2020
+)
+"smt/use.ml" 50 1875 1895 "smt/use.ml" 50 1875 1898
+type(
+  G.key list
+)
+ident(
+  def lvs "smt/use.ml" 51 1902 1906 "smt/use.ml" 52 1971 2020
+)
+"smt/use.ml" 51 1902 1910 "smt/use.ml" 51 1902 1911
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  def g "smt/use.ml" 52 1971 1975 "smt/use.ml" 52 1971 2020
+)
+"smt/use.ml" 51 1902 1917 "smt/use.ml" 51 1902 1920
+type(
+  G.key -> (ST.t * SA.t) G.t -> bool
+)
+ident(
+  ext_ref G.mem
+)
+"smt/use.ml" 51 1902 1921 "smt/use.ml" 51 1902 1923
+type(
+  G.key
+)
+ident(
+  int_ref rt "smt/use.ml" 50 1875 1892 "smt/use.ml" 50 1875 1894
+)
+"smt/use.ml" 51 1902 1924 "smt/use.ml" 51 1902 1925
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref g "smt/use.ml" 50 1875 1888 "smt/use.ml" 50 1875 1889
+)
+"smt/use.ml" 51 1902 1917 "smt/use.ml" 51 1902 1925
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/use.ml" 51 1902 1931 "smt/use.ml" 51 1902 1932
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref g "smt/use.ml" 50 1875 1888 "smt/use.ml" 50 1875 1889
+)
+"smt/use.ml" 51 1902 1938 "smt/use.ml" 51 1902 1941
+type(
+  G.key -> ST.t * SA.t -> (ST.t * SA.t) G.t -> (ST.t * SA.t) G.t
+)
+ident(
+  ext_ref G.add
+)
+"smt/use.ml" 51 1902 1942 "smt/use.ml" 51 1902 1944
+type(
+  G.key
+)
+ident(
+  int_ref rt "smt/use.ml" 50 1875 1892 "smt/use.ml" 50 1875 1894
+)
+"smt/use.ml" 51 1902 1946 "smt/use.ml" 51 1902 1954
+type(
+  ST.t
+)
+ident(
+  ext_ref ST.empty
+)
+"smt/use.ml" 51 1902 1956 "smt/use.ml" 51 1902 1964
+type(
+  SA.t
+)
+ident(
+  ext_ref SA.empty
+)
+"smt/use.ml" 51 1902 1945 "smt/use.ml" 51 1902 1965
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 51 1902 1966 "smt/use.ml" 51 1902 1967
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref g "smt/use.ml" 50 1875 1888 "smt/use.ml" 50 1875 1889
+)
+"smt/use.ml" 51 1902 1938 "smt/use.ml" 51 1902 1967
+call(
+  stack
+)
+type(
+  (ST.t * SA.t) G.t
+)
+"smt/use.ml" 51 1902 1914 "smt/use.ml" 51 1902 1967
+type(
+  (ST.t * SA.t) G.t
+)
+"smt/use.ml" 52 1971 1975 "smt/use.ml" 52 1971 1986
+type(
+  ((ST.t * SA.t) G.t -> G.key -> (ST.t * SA.t) G.t) ->
+  (ST.t * SA.t) G.t -> G.key list -> (ST.t * SA.t) G.t
+)
+ident(
+  ext_ref L.fold_left
+)
+"smt/use.ml" 52 1971 1992 "smt/use.ml" 52 1971 1993
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  def g "smt/use.ml" 52 1971 1994 "smt/use.ml" 52 1971 2013
+)
+"smt/use.ml" 52 1971 1994 "smt/use.ml" 52 1971 1995
+type(
+  G.key
+)
+ident(
+  def x "smt/use.ml" 52 1971 1999 "smt/use.ml" 52 1971 2013
+)
+"smt/use.ml" 52 1971 1999 "smt/use.ml" 52 1971 2007
+type(
+  G.key -> ST.elt -> (ST.t * SA.t) G.t -> (ST.t * SA.t) G.t
+)
+ident(
+  int_ref add_term "smt/use.ml" 47 1786 1792 "smt/use.ml" 47 1786 1800
+)
+"smt/use.ml" 52 1971 2008 "smt/use.ml" 52 1971 2009
+type(
+  G.key
+)
+ident(
+  int_ref x "smt/use.ml" 52 1971 1994 "smt/use.ml" 52 1971 1995
+)
+"smt/use.ml" 52 1971 2010 "smt/use.ml" 52 1971 2011
+type(
+  ST.elt
+)
+ident(
+  int_ref t "smt/use.ml" 50 1875 1890 "smt/use.ml" 50 1875 1891
+)
+"smt/use.ml" 52 1971 2012 "smt/use.ml" 52 1971 2013
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref g "smt/use.ml" 52 1971 1992 "smt/use.ml" 52 1971 1993
+)
+"smt/use.ml" 52 1971 1999 "smt/use.ml" 52 1971 2013
+call(
+  tail
+)
+type(
+  (ST.t * SA.t) G.t
+)
+"smt/use.ml" 52 1971 1987 "smt/use.ml" 52 1971 2014
+type(
+  (ST.t * SA.t) G.t -> G.key -> (ST.t * SA.t) G.t
+)
+"smt/use.ml" 52 1971 2015 "smt/use.ml" 52 1971 2016
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref g "smt/use.ml" 51 1902 1910 "smt/use.ml" 51 1902 1911
+)
+"smt/use.ml" 52 1971 2017 "smt/use.ml" 52 1971 2020
+type(
+  G.key list
+)
+ident(
+  int_ref lvs "smt/use.ml" 50 1875 1895 "smt/use.ml" 50 1875 1898
+)
+"smt/use.ml" 52 1971 1975 "smt/use.ml" 52 1971 2020
+call(
+  tail
+)
+type(
+  (ST.t * SA.t) G.t
+)
+"smt/use.ml" 51 1902 1906 "smt/use.ml" 52 1971 2020
+type(
+  (ST.t * SA.t) G.t
+)
+"smt/use.ml" 54 2029 2035 "smt/use.ml" 54 2029 2044
+type(
+  (ST.t * SA.t) G.t -> G.key list -> ST.t
+)
+ident(
+  def congr_add "smt/use.ml" 62 2205 2207 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 54 2029 2045 "smt/use.ml" 54 2029 2046
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  def g "smt/use.ml" 54 2029 2047 "smt/use.ml" 60 2175 2198
+)
+"smt/use.ml" 54 2029 2047 "smt/use.ml" 54 2029 2050
+type(
+  G.key list
+)
+ident(
+  def lvs "smt/use.ml" 55 2054 2058 "smt/use.ml" 60 2175 2198
+)
+"smt/use.ml" 55 2054 2064 "smt/use.ml" 55 2054 2067
+type(
+  G.key list
+)
+ident(
+  int_ref lvs "smt/use.ml" 54 2029 2047 "smt/use.ml" 54 2029 2050
+)
+"smt/use.ml" 56 2073 2074 "smt/use.ml" 56 2073 2076
+type(
+  G.key list
+)
+"smt/use.ml" 56 2073 2083 "smt/use.ml" 56 2073 2091
+type(
+  ST.t
+)
+ident(
+  ext_ref ST.empty
+)
+"smt/use.ml" 57 2092 2100 "smt/use.ml" 57 2092 2101
+type(
+  G.key
+)
+ident(
+  def x "smt/use.ml" 58 2110 2113 "smt/use.ml" 60 2175 2198
+)
+"smt/use.ml" 57 2092 2103 "smt/use.ml" 57 2092 2105
+type(
+  G.key list
+)
+ident(
+  def ls "smt/use.ml" 58 2110 2113 "smt/use.ml" 60 2175 2198
+)
+"smt/use.ml" 57 2092 2100 "smt/use.ml" 57 2092 2105
+type(
+  G.key list
+)
+"smt/use.ml" 58 2110 2113 "smt/use.ml" 58 2110 2124
+type(
+  (ST.t -> G.key -> ST.t) -> ST.t -> G.key list -> ST.t
+)
+ident(
+  ext_ref L.fold_left
+)
+"smt/use.ml" 59 2126 2136 "smt/use.ml" 59 2126 2139
+type(
+  ST.t
+)
+ident(
+  def acc "smt/use.ml" 59 2126 2140 "smt/use.ml" 59 2126 2173
+)
+"smt/use.ml" 59 2126 2140 "smt/use.ml" 59 2126 2141
+type(
+  G.key
+)
+ident(
+  def y "smt/use.ml" 59 2126 2145 "smt/use.ml" 59 2126 2173
+)
+"smt/use.ml" 59 2126 2145 "smt/use.ml" 59 2126 2153
+type(
+  ST.t -> ST.t -> ST.t
+)
+ident(
+  ext_ref ST.inter
+)
+"smt/use.ml" 59 2126 2155 "smt/use.ml" 59 2126 2158
+type(
+  ST.t * SA.t -> ST.t
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"smt/use.ml" 59 2126 2159 "smt/use.ml" 59 2126 2163
+type(
+  G.key -> (ST.t * SA.t) G.t -> ST.t * SA.t
+)
+ident(
+  int_ref find "smt/use.ml" 45 1711 1717 "smt/use.ml" 45 1711 1721
+)
+"smt/use.ml" 59 2126 2164 "smt/use.ml" 59 2126 2165
+type(
+  G.key
+)
+ident(
+  int_ref y "smt/use.ml" 59 2126 2140 "smt/use.ml" 59 2126 2141
+)
+"smt/use.ml" 59 2126 2166 "smt/use.ml" 59 2126 2167
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref g "smt/use.ml" 54 2029 2045 "smt/use.ml" 54 2029 2046
+)
+"smt/use.ml" 59 2126 2158 "smt/use.ml" 59 2126 2168
+call(
+  stack
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 59 2126 2154 "smt/use.ml" 59 2126 2169
+type(
+  ST.t
+)
+"smt/use.ml" 59 2126 2170 "smt/use.ml" 59 2126 2173
+type(
+  ST.t
+)
+ident(
+  int_ref acc "smt/use.ml" 59 2126 2136 "smt/use.ml" 59 2126 2139
+)
+"smt/use.ml" 59 2126 2145 "smt/use.ml" 59 2126 2173
+call(
+  tail
+)
+type(
+  ST.t
+)
+"smt/use.ml" 59 2126 2131 "smt/use.ml" 59 2126 2174
+type(
+  ST.t -> G.key -> ST.t
+)
+"smt/use.ml" 60 2175 2181 "smt/use.ml" 60 2175 2184
+type(
+  ST.t * SA.t -> ST.t
+)
+ident(
+  ext_ref Pervasives.fst
+)
+"smt/use.ml" 60 2175 2185 "smt/use.ml" 60 2175 2189
+type(
+  G.key -> (ST.t * SA.t) G.t -> ST.t * SA.t
+)
+ident(
+  int_ref find "smt/use.ml" 45 1711 1717 "smt/use.ml" 45 1711 1721
+)
+"smt/use.ml" 60 2175 2190 "smt/use.ml" 60 2175 2191
+type(
+  G.key
+)
+ident(
+  int_ref x "smt/use.ml" 57 2092 2100 "smt/use.ml" 57 2092 2101
+)
+"smt/use.ml" 60 2175 2192 "smt/use.ml" 60 2175 2193
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref g "smt/use.ml" 54 2029 2045 "smt/use.ml" 54 2029 2046
+)
+"smt/use.ml" 60 2175 2184 "smt/use.ml" 60 2175 2194
+call(
+  stack
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 60 2175 2180 "smt/use.ml" 60 2175 2195
+type(
+  ST.t
+)
+"smt/use.ml" 60 2175 2196 "smt/use.ml" 60 2175 2198
+type(
+  G.key list
+)
+ident(
+  int_ref ls "smt/use.ml" 57 2092 2103 "smt/use.ml" 57 2092 2105
+)
+"smt/use.ml" 58 2110 2113 "smt/use.ml" 60 2175 2198
+call(
+  tail
+)
+type(
+  ST.t
+)
+"smt/use.ml" 55 2054 2058 "smt/use.ml" 60 2175 2198
+type(
+  ST.t
+)
+"smt/use.ml" 62 2205 2211 "smt/use.ml" 62 2205 2222
+type(
+  (ST.t * SA.t) G.t -> G.key -> X.r -> (ST.t * SA.t) G.t
+)
+ident(
+  def up_close_up "smt/use.ml" 67 2363 2365 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 62 2205 2223 "smt/use.ml" 62 2205 2224
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  def g "smt/use.ml" 62 2205 2225 "smt/use.ml" 65 2284 2355
+)
+"smt/use.ml" 62 2205 2225 "smt/use.ml" 62 2205 2226
+type(
+  G.key
+)
+ident(
+  def p "smt/use.ml" 62 2205 2227 "smt/use.ml" 65 2284 2355
+)
+"smt/use.ml" 62 2205 2227 "smt/use.ml" 62 2205 2228
+type(
+  X.r
+)
+ident(
+  def v "smt/use.ml" 63 2232 2236 "smt/use.ml" 65 2284 2355
+)
+"smt/use.ml" 63 2232 2240 "smt/use.ml" 63 2232 2243
+type(
+  X.r list
+)
+ident(
+  def lvs "smt/use.ml" 64 2258 2262 "smt/use.ml" 65 2284 2355
+)
+"smt/use.ml" 63 2232 2246 "smt/use.ml" 63 2232 2252
+type(
+  X.r -> X.r list
+)
+ident(
+  int_ref leaves "smt/use.ml" 34 1481 1487 "smt/use.ml" 34 1481 1493
+)
+"smt/use.ml" 63 2232 2253 "smt/use.ml" 63 2232 2254
+type(
+  X.r
+)
+ident(
+  int_ref v "smt/use.ml" 62 2205 2227 "smt/use.ml" 62 2205 2228
+)
+"smt/use.ml" 63 2232 2246 "smt/use.ml" 63 2232 2254
+call(
+  stack
+)
+type(
+  X.r list
+)
+"smt/use.ml" 64 2258 2266 "smt/use.ml" 64 2258 2269
+type(
+  ST.t * SA.t
+)
+ident(
+  def g_p "smt/use.ml" 65 2284 2288 "smt/use.ml" 65 2284 2355
+)
+"smt/use.ml" 64 2258 2272 "smt/use.ml" 64 2258 2276
+type(
+  G.key -> (ST.t * SA.t) G.t -> ST.t * SA.t
+)
+ident(
+  int_ref find "smt/use.ml" 45 1711 1717 "smt/use.ml" 45 1711 1721
+)
+"smt/use.ml" 64 2258 2277 "smt/use.ml" 64 2258 2278
+type(
+  G.key
+)
+ident(
+  int_ref p "smt/use.ml" 62 2205 2225 "smt/use.ml" 62 2205 2226
+)
+"smt/use.ml" 64 2258 2279 "smt/use.ml" 64 2258 2280
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref g "smt/use.ml" 62 2205 2223 "smt/use.ml" 62 2205 2224
+)
+"smt/use.ml" 64 2258 2272 "smt/use.ml" 64 2258 2280
+call(
+  stack
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 65 2284 2288 "smt/use.ml" 65 2284 2299
+type(
+  ((ST.t * SA.t) G.t -> G.key -> (ST.t * SA.t) G.t) ->
+  (ST.t * SA.t) G.t -> G.key list -> (ST.t * SA.t) G.t
+)
+ident(
+  ext_ref L.fold_left
+)
+"smt/use.ml" 65 2284 2305 "smt/use.ml" 65 2284 2307
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  def gg "smt/use.ml" 65 2284 2308 "smt/use.ml" 65 2284 2348
+)
+"smt/use.ml" 65 2284 2308 "smt/use.ml" 65 2284 2309
+type(
+  G.key
+)
+ident(
+  def l "smt/use.ml" 65 2284 2313 "smt/use.ml" 65 2284 2348
+)
+"smt/use.ml" 65 2284 2313 "smt/use.ml" 65 2284 2316
+type(
+  G.key -> ST.t * SA.t -> (ST.t * SA.t) G.t -> (ST.t * SA.t) G.t
+)
+ident(
+  ext_ref G.add
+)
+"smt/use.ml" 65 2284 2317 "smt/use.ml" 65 2284 2318
+type(
+  G.key
+)
+ident(
+  int_ref l "smt/use.ml" 65 2284 2308 "smt/use.ml" 65 2284 2309
+)
+"smt/use.ml" 65 2284 2320 "smt/use.ml" 65 2284 2329
+type(
+  ST.t * SA.t -> ST.t * SA.t -> ST.t * SA.t
+)
+ident(
+  int_ref union_tpl "smt/use.ml" 32 1377 1383 "smt/use.ml" 32 1377 1392
+)
+"smt/use.ml" 65 2284 2330 "smt/use.ml" 65 2284 2333
+type(
+  ST.t * SA.t
+)
+ident(
+  int_ref g_p "smt/use.ml" 64 2258 2266 "smt/use.ml" 64 2258 2269
+)
+"smt/use.ml" 65 2284 2335 "smt/use.ml" 65 2284 2339
+type(
+  G.key -> (ST.t * SA.t) G.t -> ST.t * SA.t
+)
+ident(
+  int_ref find "smt/use.ml" 45 1711 1717 "smt/use.ml" 45 1711 1721
+)
+"smt/use.ml" 65 2284 2340 "smt/use.ml" 65 2284 2341
+type(
+  G.key
+)
+ident(
+  int_ref l "smt/use.ml" 65 2284 2308 "smt/use.ml" 65 2284 2309
+)
+"smt/use.ml" 65 2284 2342 "smt/use.ml" 65 2284 2343
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref g "smt/use.ml" 62 2205 2223 "smt/use.ml" 62 2205 2224
+)
+"smt/use.ml" 65 2284 2334 "smt/use.ml" 65 2284 2344
+call(
+  stack
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 65 2284 2319 "smt/use.ml" 65 2284 2345
+call(
+  stack
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 65 2284 2346 "smt/use.ml" 65 2284 2348
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref gg "smt/use.ml" 65 2284 2305 "smt/use.ml" 65 2284 2307
+)
+"smt/use.ml" 65 2284 2313 "smt/use.ml" 65 2284 2348
+call(
+  tail
+)
+type(
+  (ST.t * SA.t) G.t
+)
+"smt/use.ml" 65 2284 2300 "smt/use.ml" 65 2284 2349
+type(
+  (ST.t * SA.t) G.t -> G.key -> (ST.t * SA.t) G.t
+)
+"smt/use.ml" 65 2284 2350 "smt/use.ml" 65 2284 2351
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref g "smt/use.ml" 62 2205 2223 "smt/use.ml" 62 2205 2224
+)
+"smt/use.ml" 65 2284 2352 "smt/use.ml" 65 2284 2355
+type(
+  G.key list
+)
+ident(
+  int_ref lvs "smt/use.ml" 63 2232 2240 "smt/use.ml" 63 2232 2243
+)
+"smt/use.ml" 65 2284 2288 "smt/use.ml" 65 2284 2355
+call(
+  tail
+)
+type(
+  (ST.t * SA.t) G.t
+)
+"smt/use.ml" 64 2258 2262 "smt/use.ml" 65 2284 2355
+type(
+  (ST.t * SA.t) G.t
+)
+"smt/use.ml" 63 2232 2236 "smt/use.ml" 65 2284 2355
+type(
+  (ST.t * SA.t) G.t
+)
+"smt/use.ml" 67 2363 2369 "smt/use.ml" 67 2363 2383
+type(
+  (ST.t * SA.t) G.t -> G.key -> X.r list -> ST.t * SA.t
+)
+ident(
+  def congr_close_up "smt/use.ml" 77 2660 2662 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 67 2363 2384 "smt/use.ml" 67 2363 2385
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  def g "smt/use.ml" 67 2363 2386 "smt/use.ml" 75 2627 2651
+)
+"smt/use.ml" 67 2363 2386 "smt/use.ml" 67 2363 2387
+type(
+  G.key
+)
+ident(
+  def p "smt/use.ml" 67 2363 2388 "smt/use.ml" 75 2627 2651
+)
+"smt/use.ml" 67 2363 2388 "smt/use.ml" 67 2363 2395
+type(
+  X.r list
+)
+ident(
+  def touched "smt/use.ml" 68 2398 2402 "smt/use.ml" 75 2627 2651
+)
+"smt/use.ml" 68 2398 2406 "smt/use.ml" 68 2398 2411
+type(
+  G.key list -> ST.t * SA.t
+)
+ident(
+  def inter "smt/use.ml" 73 2545 2549 "smt/use.ml" 75 2627 2651
+)
+"smt/use.ml" 69 2424 2425 "smt/use.ml" 69 2424 2427
+type(
+  G.key list
+)
+"smt/use.ml" 69 2424 2432 "smt/use.ml" 69 2424 2440
+type(
+  ST.t
+)
+ident(
+  ext_ref ST.empty
+)
+"smt/use.ml" 69 2424 2442 "smt/use.ml" 69 2424 2450
+type(
+  SA.t
+)
+ident(
+  ext_ref SA.empty
+)
+"smt/use.ml" 69 2424 2431 "smt/use.ml" 69 2424 2451
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 70 2452 2460 "smt/use.ml" 70 2452 2462
+type(
+  G.key
+)
+ident(
+  def rx "smt/use.ml" 71 2470 2473 "smt/use.ml" 71 2470 2536
+)
+"smt/use.ml" 70 2452 2464 "smt/use.ml" 70 2452 2465
+type(
+  G.key list
+)
+ident(
+  def l "smt/use.ml" 71 2470 2473 "smt/use.ml" 71 2470 2536
+)
+"smt/use.ml" 70 2452 2460 "smt/use.ml" 70 2452 2465
+type(
+  G.key list
+)
+"smt/use.ml" 71 2470 2473 "smt/use.ml" 71 2470 2484
+type(
+  (ST.t * SA.t -> G.key -> ST.t * SA.t) ->
+  ST.t * SA.t -> G.key list -> ST.t * SA.t
+)
+ident(
+  ext_ref L.fold_left
+)
+"smt/use.ml" 71 2470 2490 "smt/use.ml" 71 2470 2493
+type(
+  ST.t * SA.t
+)
+ident(
+  def acc "smt/use.ml" 71 2470 2494 "smt/use.ml" 71 2470 2522
+)
+"smt/use.ml" 71 2470 2494 "smt/use.ml" 71 2470 2495
+type(
+  G.key
+)
+ident(
+  def x "smt/use.ml" 71 2470 2498 "smt/use.ml" 71 2470 2522
+)
+"smt/use.ml" 71 2470 2498 "smt/use.ml" 71 2470 2507
+type(
+  ST.t * SA.t -> ST.t * SA.t -> ST.t * SA.t
+)
+ident(
+  int_ref inter_tpl "smt/use.ml" 31 1312 1318 "smt/use.ml" 31 1312 1327
+)
+"smt/use.ml" 71 2470 2508 "smt/use.ml" 71 2470 2511
+type(
+  ST.t * SA.t
+)
+ident(
+  int_ref acc "smt/use.ml" 71 2470 2490 "smt/use.ml" 71 2470 2493
+)
+"smt/use.ml" 71 2470 2513 "smt/use.ml" 71 2470 2517
+type(
+  G.key -> (ST.t * SA.t) G.t -> ST.t * SA.t
+)
+ident(
+  int_ref find "smt/use.ml" 45 1711 1717 "smt/use.ml" 45 1711 1721
+)
+"smt/use.ml" 71 2470 2518 "smt/use.ml" 71 2470 2519
+type(
+  G.key
+)
+ident(
+  int_ref x "smt/use.ml" 71 2470 2494 "smt/use.ml" 71 2470 2495
+)
+"smt/use.ml" 71 2470 2520 "smt/use.ml" 71 2470 2521
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref g "smt/use.ml" 67 2363 2384 "smt/use.ml" 67 2363 2385
+)
+"smt/use.ml" 71 2470 2512 "smt/use.ml" 71 2470 2522
+call(
+  stack
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 71 2470 2498 "smt/use.ml" 71 2470 2522
+call(
+  tail
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 71 2470 2485 "smt/use.ml" 71 2470 2523
+type(
+  ST.t * SA.t -> G.key -> ST.t * SA.t
+)
+"smt/use.ml" 71 2470 2524 "smt/use.ml" 71 2470 2528
+type(
+  G.key -> (ST.t * SA.t) G.t -> ST.t * SA.t
+)
+ident(
+  int_ref find "smt/use.ml" 45 1711 1717 "smt/use.ml" 45 1711 1721
+)
+"smt/use.ml" 71 2470 2529 "smt/use.ml" 71 2470 2531
+type(
+  G.key
+)
+ident(
+  int_ref rx "smt/use.ml" 70 2452 2460 "smt/use.ml" 70 2452 2462
+)
+"smt/use.ml" 71 2470 2532 "smt/use.ml" 71 2470 2533
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref g "smt/use.ml" 67 2363 2384 "smt/use.ml" 67 2363 2385
+)
+"smt/use.ml" 71 2470 2523 "smt/use.ml" 71 2470 2534
+call(
+  stack
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 71 2470 2535 "smt/use.ml" 71 2470 2536
+type(
+  G.key list
+)
+ident(
+  int_ref l "smt/use.ml" 70 2452 2464 "smt/use.ml" 70 2452 2465
+)
+"smt/use.ml" 71 2470 2473 "smt/use.ml" 71 2470 2536
+call(
+  tail
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 68 2398 2414 "smt/use.ml" 71 2470 2536
+type(
+  G.key list -> ST.t * SA.t
+)
+"smt/use.ml" 73 2545 2549 "smt/use.ml" 73 2545 2560
+type(
+  (ST.t * SA.t -> X.r -> ST.t * SA.t) ->
+  ST.t * SA.t -> X.r list -> ST.t * SA.t
+)
+ident(
+  ext_ref L.fold_left
+)
+"smt/use.ml" 74 2562 2574 "smt/use.ml" 74 2562 2576
+type(
+  ST.t
+)
+ident(
+  def st "smt/use.ml" 74 2562 2581 "smt/use.ml" 74 2562 2625
+)
+"smt/use.ml" 74 2562 2577 "smt/use.ml" 74 2562 2579
+type(
+  SA.t
+)
+ident(
+  def sa "smt/use.ml" 74 2562 2581 "smt/use.ml" 74 2562 2625
+)
+"smt/use.ml" 74 2562 2573 "smt/use.ml" 74 2562 2580
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 74 2562 2581 "smt/use.ml" 74 2562 2584
+type(
+  X.r
+)
+ident(
+  def tch "smt/use.ml" 74 2562 2588 "smt/use.ml" 74 2562 2625
+)
+"smt/use.ml" 74 2562 2588 "smt/use.ml" 74 2562 2597
+type(
+  ST.t * SA.t -> ST.t * SA.t -> ST.t * SA.t
+)
+ident(
+  int_ref union_tpl "smt/use.ml" 32 1377 1383 "smt/use.ml" 32 1377 1392
+)
+"smt/use.ml" 74 2562 2599 "smt/use.ml" 74 2562 2601
+type(
+  ST.t
+)
+ident(
+  int_ref st "smt/use.ml" 74 2562 2574 "smt/use.ml" 74 2562 2576
+)
+"smt/use.ml" 74 2562 2602 "smt/use.ml" 74 2562 2604
+type(
+  SA.t
+)
+ident(
+  int_ref sa "smt/use.ml" 74 2562 2577 "smt/use.ml" 74 2562 2579
+)
+"smt/use.ml" 74 2562 2598 "smt/use.ml" 74 2562 2605
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 74 2562 2606 "smt/use.ml" 74 2562 2611
+type(
+  G.key list -> ST.t * SA.t
+)
+ident(
+  int_ref inter "smt/use.ml" 68 2398 2406 "smt/use.ml" 68 2398 2411
+)
+"smt/use.ml" 74 2562 2613 "smt/use.ml" 74 2562 2619
+type(
+  X.r -> G.key list
+)
+ident(
+  int_ref leaves "smt/use.ml" 34 1481 1487 "smt/use.ml" 34 1481 1493
+)
+"smt/use.ml" 74 2562 2620 "smt/use.ml" 74 2562 2623
+type(
+  X.r
+)
+ident(
+  int_ref tch "smt/use.ml" 74 2562 2581 "smt/use.ml" 74 2562 2584
+)
+"smt/use.ml" 74 2562 2612 "smt/use.ml" 74 2562 2624
+call(
+  stack
+)
+type(
+  G.key list
+)
+"smt/use.ml" 74 2562 2605 "smt/use.ml" 74 2562 2625
+call(
+  stack
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 74 2562 2588 "smt/use.ml" 74 2562 2625
+call(
+  tail
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 74 2562 2568 "smt/use.ml" 74 2562 2626
+type(
+  ST.t * SA.t -> X.r -> ST.t * SA.t
+)
+"smt/use.ml" 75 2627 2634 "smt/use.ml" 75 2627 2638
+type(
+  G.key -> (ST.t * SA.t) G.t -> ST.t * SA.t
+)
+ident(
+  int_ref find "smt/use.ml" 45 1711 1717 "smt/use.ml" 45 1711 1721
+)
+"smt/use.ml" 75 2627 2639 "smt/use.ml" 75 2627 2640
+type(
+  G.key
+)
+ident(
+  int_ref p "smt/use.ml" 67 2363 2386 "smt/use.ml" 67 2363 2387
+)
+"smt/use.ml" 75 2627 2641 "smt/use.ml" 75 2627 2642
+type(
+  (ST.t * SA.t) G.t
+)
+ident(
+  int_ref g "smt/use.ml" 67 2363 2384 "smt/use.ml" 67 2363 2385
+)
+"smt/use.ml" 75 2627 2633 "smt/use.ml" 75 2627 2643
+call(
+  stack
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 75 2627 2644 "smt/use.ml" 75 2627 2651
+type(
+  X.r list
+)
+ident(
+  int_ref touched "smt/use.ml" 67 2363 2388 "smt/use.ml" 67 2363 2395
+)
+"smt/use.ml" 73 2545 2549 "smt/use.ml" 75 2627 2651
+call(
+  tail
+)
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 68 2398 2402 "smt/use.ml" 75 2627 2651
+type(
+  ST.t * SA.t
+)
+"smt/use.ml" 77 2660 2666 "smt/use.ml" 77 2660 2671
+type(
+  'a -> unit
+)
+ident(
+  def print "smt/use.ml" 79 2680 2682 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 77 2660 2672 "smt/use.ml" 77 2660 2673
+type(
+  'a
+)
+ident(
+  def g "smt/use.ml" 77 2660 2676 "smt/use.ml" 77 2660 2678
+)
+"smt/use.ml" 77 2660 2676 "smt/use.ml" 77 2660 2678
+type(
+  unit
+)
+"smt/use.ml" 79 2680 2686 "smt/use.ml" 79 2680 2689
+type(
+  G.key -> 'b G.t -> bool
+)
+ident(
+  def mem "smt/use.ml" 80 2698 2700 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 79 2680 2692 "smt/use.ml" 79 2680 2697
+type(
+  G.key -> 'b G.t -> bool
+)
+ident(
+  ext_ref G.mem
+)
+"smt/use.ml" 80 2698 2704 "smt/use.ml" 80 2698 2707
+type(
+  G.key -> 'c -> 'c G.t -> 'c G.t
+)
+ident(
+  def add "smt/use.ml" 81 2716 2718 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 80 2698 2710 "smt/use.ml" 80 2698 2715
+type(
+  G.key -> 'c -> 'c G.t -> 'c G.t
+)
+ident(
+  ext_ref G.add
+)
+"smt/use.ml" 81 2716 2722 "smt/use.ml" 81 2716 2727
+type(
+  'd G.t
+)
+ident(
+  def empty "smt/use.ml" 81 2716 2737 "smt/use.ml" 83 2739 2742
+)
+"smt/use.ml" 81 2716 2730 "smt/use.ml" 81 2716 2737
+type(
+  'd G.t
+)
+ident(
+  ext_ref G.empty
+)

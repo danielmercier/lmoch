@@ -1,0 +1,5367 @@
+"smt/polynome.ml" 66 2091 2126 "smt/polynome.ml" 66 2091 2133
+type(
+  X.r -> X.r -> int
+)
+ident(
+  def compare "smt/polynome.ml" 66 2091 2153 "smt/polynome.ml" 66 2091 2157
+)
+"smt/polynome.ml" 66 2091 2134 "smt/polynome.ml" 66 2091 2135
+type(
+  X.r
+)
+ident(
+  def x "smt/polynome.ml" 66 2091 2136 "smt/polynome.ml" 66 2091 2153
+)
+"smt/polynome.ml" 66 2091 2136 "smt/polynome.ml" 66 2091 2137
+type(
+  X.r
+)
+ident(
+  def y "smt/polynome.ml" 66 2091 2140 "smt/polynome.ml" 66 2091 2153
+)
+"smt/polynome.ml" 66 2091 2140 "smt/polynome.ml" 66 2091 2149
+type(
+  X.r -> X.r -> int
+)
+ident(
+  int_ref X.compare "smt/polynome.ml" 23 1095 1097 "smt/polynome.ml" 23 1095 1124
+)
+"smt/polynome.ml" 66 2091 2150 "smt/polynome.ml" 66 2091 2151
+type(
+  X.r
+)
+ident(
+  int_ref y "smt/polynome.ml" 66 2091 2136 "smt/polynome.ml" 66 2091 2137
+)
+"smt/polynome.ml" 66 2091 2152 "smt/polynome.ml" 66 2091 2153
+type(
+  X.r
+)
+ident(
+  int_ref x "smt/polynome.ml" 66 2091 2134 "smt/polynome.ml" 66 2091 2135
+)
+"smt/polynome.ml" 66 2091 2140 "smt/polynome.ml" 66 2091 2153
+call(
+  tail
+)
+type(
+  int
+)
+"smt/polynome.ml" 66 2091 2095 "smt/polynome.ml" 66 2091 2158
+call(
+  stack
+)
+"smt/polynome.ml" 70 2214 2220 "smt/polynome.ml" 70 2214 2227
+type(
+  t -> t -> int
+)
+ident(
+  def compare "smt/polynome.ml" 77 2404 2406 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 70 2214 2228 "smt/polynome.ml" 70 2214 2230
+type(
+  t
+)
+ident(
+  def p1 "smt/polynome.ml" 70 2214 2231 "smt/polynome.ml" 75 2344 2402
+)
+"smt/polynome.ml" 70 2214 2231 "smt/polynome.ml" 70 2214 2233
+type(
+  t
+)
+ident(
+  def p2 "smt/polynome.ml" 71 2237 2241 "smt/polynome.ml" 75 2344 2402
+)
+"smt/polynome.ml" 71 2237 2245 "smt/polynome.ml" 71 2237 2246
+type(
+  int
+)
+ident(
+  def c "smt/polynome.ml" 72 2275 2279 "smt/polynome.ml" 75 2344 2402
+)
+"smt/polynome.ml" 71 2237 2249 "smt/polynome.ml" 71 2237 2259
+type(
+  Ty.t -> Ty.t -> int
+)
+ident(
+  ext_ref Ty.compare
+)
+"smt/polynome.ml" 71 2237 2260 "smt/polynome.ml" 71 2237 2262
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 70 2214 2228 "smt/polynome.ml" 70 2214 2230
+)
+"smt/polynome.ml" 71 2237 2260 "smt/polynome.ml" 71 2237 2265
+type(
+  Ty.t
+)
+"smt/polynome.ml" 71 2237 2266 "smt/polynome.ml" 71 2237 2268
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 70 2214 2231 "smt/polynome.ml" 70 2214 2233
+)
+"smt/polynome.ml" 71 2237 2266 "smt/polynome.ml" 71 2237 2271
+type(
+  Ty.t
+)
+"smt/polynome.ml" 71 2237 2249 "smt/polynome.ml" 71 2237 2271
+call(
+  stack
+)
+type(
+  int
+)
+"smt/polynome.ml" 72 2275 2282 "smt/polynome.ml" 72 2275 2283
+type(
+  int
+)
+ident(
+  int_ref c "smt/polynome.ml" 71 2237 2245 "smt/polynome.ml" 71 2237 2246
+)
+"smt/polynome.ml" 72 2275 2284 "smt/polynome.ml" 72 2275 2286
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"smt/polynome.ml" 72 2275 2287 "smt/polynome.ml" 72 2275 2288
+type(
+  int
+)
+"smt/polynome.ml" 72 2275 2282 "smt/polynome.ml" 72 2275 2288
+type(
+  bool
+)
+"smt/polynome.ml" 72 2275 2294 "smt/polynome.ml" 72 2275 2295
+type(
+  int
+)
+ident(
+  int_ref c "smt/polynome.ml" 71 2237 2245 "smt/polynome.ml" 71 2237 2246
+)
+"smt/polynome.ml" 74 2305 2315 "smt/polynome.ml" 74 2305 2316
+type(
+  int
+)
+ident(
+  def c "smt/polynome.ml" 75 2344 2350 "smt/polynome.ml" 75 2344 2402
+)
+"smt/polynome.ml" 74 2305 2319 "smt/polynome.ml" 74 2305 2330
+type(
+  Num.num -> Num.num -> int
+)
+ident(
+  ext_ref Num.compare_num
+)
+"smt/polynome.ml" 74 2305 2331 "smt/polynome.ml" 74 2305 2333
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 70 2214 2228 "smt/polynome.ml" 70 2214 2230
+)
+"smt/polynome.ml" 74 2305 2331 "smt/polynome.ml" 74 2305 2335
+type(
+  Num.num
+)
+"smt/polynome.ml" 74 2305 2336 "smt/polynome.ml" 74 2305 2338
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 70 2214 2231 "smt/polynome.ml" 70 2214 2233
+)
+"smt/polynome.ml" 74 2305 2336 "smt/polynome.ml" 74 2305 2340
+type(
+  Num.num
+)
+"smt/polynome.ml" 74 2305 2319 "smt/polynome.ml" 74 2305 2340
+call(
+  stack
+)
+type(
+  int
+)
+"smt/polynome.ml" 75 2344 2353 "smt/polynome.ml" 75 2344 2354
+type(
+  int
+)
+ident(
+  int_ref c "smt/polynome.ml" 74 2305 2315 "smt/polynome.ml" 74 2305 2316
+)
+"smt/polynome.ml" 75 2344 2355 "smt/polynome.ml" 75 2344 2356
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/polynome.ml" 75 2344 2357 "smt/polynome.ml" 75 2344 2358
+type(
+  int
+)
+"smt/polynome.ml" 75 2344 2353 "smt/polynome.ml" 75 2344 2358
+type(
+  bool
+)
+"smt/polynome.ml" 75 2344 2364 "smt/polynome.ml" 75 2344 2373
+type(
+  (Num.num -> Num.num -> int) -> Num.num M.t -> Num.num M.t -> int
+)
+ident(
+  ext_ref M.compare
+)
+"smt/polynome.ml" 75 2344 2374 "smt/polynome.ml" 75 2344 2385
+type(
+  Num.num -> Num.num -> int
+)
+ident(
+  ext_ref Num.compare_num
+)
+"smt/polynome.ml" 75 2344 2386 "smt/polynome.ml" 75 2344 2388
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 70 2214 2228 "smt/polynome.ml" 70 2214 2230
+)
+"smt/polynome.ml" 75 2344 2386 "smt/polynome.ml" 75 2344 2390
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 75 2344 2391 "smt/polynome.ml" 75 2344 2393
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 70 2214 2231 "smt/polynome.ml" 70 2214 2233
+)
+"smt/polynome.ml" 75 2344 2391 "smt/polynome.ml" 75 2344 2395
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 75 2344 2364 "smt/polynome.ml" 75 2344 2395
+call(
+  tail
+)
+type(
+  int
+)
+"smt/polynome.ml" 75 2344 2401 "smt/polynome.ml" 75 2344 2402
+type(
+  int
+)
+ident(
+  int_ref c "smt/polynome.ml" 74 2305 2315 "smt/polynome.ml" 74 2305 2316
+)
+"smt/polynome.ml" 75 2344 2350 "smt/polynome.ml" 75 2344 2402
+type(
+  int
+)
+"smt/polynome.ml" 74 2305 2311 "smt/polynome.ml" 75 2344 2402
+type(
+  int
+)
+"smt/polynome.ml" 72 2275 2279 "smt/polynome.ml" 75 2344 2402
+type(
+  int
+)
+"smt/polynome.ml" 71 2237 2241 "smt/polynome.ml" 75 2344 2402
+type(
+  int
+)
+"smt/polynome.ml" 77 2404 2410 "smt/polynome.ml" 77 2404 2414
+type(
+  t -> int
+)
+ident(
+  def hash "smt/polynome.ml" 80 2491 2493 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 77 2404 2415 "smt/polynome.ml" 77 2404 2416
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 78 2420 2424 "smt/polynome.ml" 78 2420 2488
+)
+"smt/polynome.ml" 78 2420 2424 "smt/polynome.ml" 78 2420 2427
+type(
+  int -> int
+)
+ident(
+  ext_ref Pervasives.abs
+)
+"smt/polynome.ml" 78 2420 2429 "smt/polynome.ml" 78 2420 2441
+type(
+  Num.num M.t -> int
+)
+ident(
+  ext_ref Hashtbl.hash
+)
+"smt/polynome.ml" 78 2420 2442 "smt/polynome.ml" 78 2420 2443
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 77 2404 2415 "smt/polynome.ml" 77 2404 2416
+)
+"smt/polynome.ml" 78 2420 2442 "smt/polynome.ml" 78 2420 2445
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 78 2420 2429 "smt/polynome.ml" 78 2420 2445
+call(
+  stack
+)
+type(
+  int
+)
+"smt/polynome.ml" 78 2420 2446 "smt/polynome.ml" 78 2420 2447
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/polynome.ml" 78 2420 2448 "smt/polynome.ml" 78 2420 2450
+type(
+  int
+)
+"smt/polynome.ml" 78 2420 2450 "smt/polynome.ml" 78 2420 2451
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"smt/polynome.ml" 78 2420 2451 "smt/polynome.ml" 78 2420 2463
+type(
+  Num.num -> int
+)
+ident(
+  ext_ref Hashtbl.hash
+)
+"smt/polynome.ml" 78 2420 2464 "smt/polynome.ml" 78 2420 2465
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 77 2404 2415 "smt/polynome.ml" 77 2404 2416
+)
+"smt/polynome.ml" 78 2420 2464 "smt/polynome.ml" 78 2420 2467
+type(
+  Num.num
+)
+"smt/polynome.ml" 78 2420 2451 "smt/polynome.ml" 78 2420 2467
+call(
+  stack
+)
+type(
+  int
+)
+"smt/polynome.ml" 78 2420 2448 "smt/polynome.ml" 78 2420 2467
+type(
+  int
+)
+"smt/polynome.ml" 78 2420 2429 "smt/polynome.ml" 78 2420 2467
+type(
+  int
+)
+"smt/polynome.ml" 78 2420 2468 "smt/polynome.ml" 78 2420 2469
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/polynome.ml" 78 2420 2470 "smt/polynome.ml" 78 2420 2472
+type(
+  int
+)
+"smt/polynome.ml" 78 2420 2473 "smt/polynome.ml" 78 2420 2474
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"smt/polynome.ml" 78 2420 2475 "smt/polynome.ml" 78 2420 2482
+type(
+  Ty.t -> int
+)
+ident(
+  ext_ref Ty.hash
+)
+"smt/polynome.ml" 78 2420 2483 "smt/polynome.ml" 78 2420 2484
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 77 2404 2415 "smt/polynome.ml" 77 2404 2416
+)
+"smt/polynome.ml" 78 2420 2483 "smt/polynome.ml" 78 2420 2487
+type(
+  Ty.t
+)
+"smt/polynome.ml" 78 2420 2475 "smt/polynome.ml" 78 2420 2487
+call(
+  stack
+)
+type(
+  int
+)
+"smt/polynome.ml" 78 2420 2470 "smt/polynome.ml" 78 2420 2487
+type(
+  int
+)
+"smt/polynome.ml" 78 2420 2428 "smt/polynome.ml" 78 2420 2488
+type(
+  int
+)
+"smt/polynome.ml" 78 2420 2424 "smt/polynome.ml" 78 2420 2488
+call(
+  tail
+)
+type(
+  int
+)
+"smt/polynome.ml" 80 2491 2497 "smt/polynome.ml" 80 2491 2503
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def pprint "smt/polynome.ml" 97 2999 3001 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 80 2491 2504 "smt/polynome.ml" 80 2491 2507
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/polynome.ml" 80 2491 2508 "smt/polynome.ml" 94 2970 2996
+)
+"smt/polynome.ml" 80 2491 2508 "smt/polynome.ml" 80 2491 2509
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 81 2512 2516 "smt/polynome.ml" 94 2970 2996
+)
+"smt/polynome.ml" 81 2512 2516 "smt/polynome.ml" 81 2512 2522
+type(
+  (M.key -> Num.num -> unit) -> Num.num M.t -> unit
+)
+ident(
+  ext_ref M.iter
+)
+"smt/polynome.ml" 82 2523 2534 "smt/polynome.ml" 82 2523 2535
+type(
+  M.key
+)
+ident(
+  def x "smt/polynome.ml" 82 2523 2536 "smt/polynome.ml" 90 2801 2849
+)
+"smt/polynome.ml" 82 2523 2536 "smt/polynome.ml" 82 2523 2537
+type(
+  Num.num
+)
+ident(
+  def n "smt/polynome.ml" 83 2541 2550 "smt/polynome.ml" 90 2801 2849
+)
+"smt/polynome.ml" 83 2541 2554 "smt/polynome.ml" 83 2541 2555
+type(
+  string
+)
+ident(
+  def s "smt/polynome.ml" 90 2801 2810 "smt/polynome.ml" 90 2801 2849
+)
+"smt/polynome.ml" 83 2541 2557 "smt/polynome.ml" 83 2541 2558
+type(
+  string
+)
+ident(
+  def n "smt/polynome.ml" 90 2801 2810 "smt/polynome.ml" 90 2801 2849
+)
+"smt/polynome.ml" 83 2541 2560 "smt/polynome.ml" 83 2541 2562
+type(
+  string
+)
+ident(
+  def op "smt/polynome.ml" 90 2801 2810 "smt/polynome.ml" 90 2801 2849
+)
+"smt/polynome.ml" 83 2541 2554 "smt/polynome.ml" 83 2541 2562
+type(
+  string * string * string
+)
+"smt/polynome.ml" 83 2541 2571 "smt/polynome.ml" 83 2541 2572
+type(
+  Num.num
+)
+ident(
+  int_ref n "smt/polynome.ml" 82 2523 2536 "smt/polynome.ml" 82 2523 2537
+)
+"smt/polynome.ml" 84 2578 2595 "smt/polynome.ml" 84 2578 2596
+type(
+  int
+)
+"smt/polynome.ml" 84 2578 2591 "smt/polynome.ml" 84 2578 2596
+type(
+  Num.num
+)
+"smt/polynome.ml" 84 2578 2601 "smt/polynome.ml" 84 2578 2604
+type(
+  string
+)
+"smt/polynome.ml" 84 2578 2606 "smt/polynome.ml" 84 2578 2608
+type(
+  string
+)
+"smt/polynome.ml" 84 2578 2610 "smt/polynome.ml" 84 2578 2612
+type(
+  string
+)
+"smt/polynome.ml" 84 2578 2601 "smt/polynome.ml" 84 2578 2612
+type(
+  string * string * string
+)
+"smt/polynome.ml" 85 2613 2630 "smt/polynome.ml" 85 2613 2632
+type(
+  int
+)
+"smt/polynome.ml" 85 2613 2626 "smt/polynome.ml" 85 2613 2632
+type(
+  Num.num
+)
+"smt/polynome.ml" 85 2613 2636 "smt/polynome.ml" 85 2613 2639
+type(
+  string
+)
+"smt/polynome.ml" 85 2613 2641 "smt/polynome.ml" 85 2613 2643
+type(
+  string
+)
+"smt/polynome.ml" 85 2613 2645 "smt/polynome.ml" 85 2613 2647
+type(
+  string
+)
+"smt/polynome.ml" 85 2613 2636 "smt/polynome.ml" 85 2613 2647
+type(
+  string * string * string
+)
+"smt/polynome.ml" 86 2648 2661 "smt/polynome.ml" 86 2648 2662
+type(
+  Num.num
+)
+ident(
+  def n "smt/polynome.ml" 87 2669 2684 "smt/polynome.ml" 88 2730 2787
+)
+"smt/polynome.ml" 87 2669 2687 "smt/polynome.ml" 87 2669 2688
+type(
+  Num.num
+)
+ident(
+  int_ref n "smt/polynome.ml" 86 2648 2661 "smt/polynome.ml" 86 2648 2662
+)
+"smt/polynome.ml" 87 2669 2689 "smt/polynome.ml" 87 2669 2691
+type(
+  Num.num -> Num.num -> bool
+)
+ident(
+  ext_ref Num.( >/ )
+)
+"smt/polynome.ml" 87 2669 2696 "smt/polynome.ml" 87 2669 2697
+type(
+  int
+)
+"smt/polynome.ml" 87 2669 2692 "smt/polynome.ml" 87 2669 2697
+type(
+  Num.num
+)
+"smt/polynome.ml" 87 2669 2687 "smt/polynome.ml" 87 2669 2697
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/polynome.ml" 87 2669 2703 "smt/polynome.ml" 87 2669 2706
+type(
+  string
+)
+"smt/polynome.ml" 87 2669 2708 "smt/polynome.ml" 87 2669 2721
+type(
+  Num.num -> string
+)
+ident(
+  ext_ref Num.string_of_num
+)
+"smt/polynome.ml" 87 2669 2722 "smt/polynome.ml" 87 2669 2723
+type(
+  Num.num
+)
+ident(
+  int_ref n "smt/polynome.ml" 86 2648 2661 "smt/polynome.ml" 86 2648 2662
+)
+"smt/polynome.ml" 87 2669 2708 "smt/polynome.ml" 87 2669 2723
+call(
+  stack
+)
+type(
+  string
+)
+"smt/polynome.ml" 87 2669 2725 "smt/polynome.ml" 87 2669 2728
+type(
+  string
+)
+"smt/polynome.ml" 87 2669 2703 "smt/polynome.ml" 87 2669 2728
+type(
+  string * string * string
+)
+"smt/polynome.ml" 88 2730 2750 "smt/polynome.ml" 88 2730 2753
+type(
+  string
+)
+"smt/polynome.ml" 88 2730 2755 "smt/polynome.ml" 88 2730 2768
+type(
+  Num.num -> string
+)
+ident(
+  ext_ref Num.string_of_num
+)
+"smt/polynome.ml" 88 2730 2770 "smt/polynome.ml" 88 2730 2779
+type(
+  Num.num -> Num.num
+)
+ident(
+  ext_ref Num.minus_num
+)
+"smt/polynome.ml" 88 2730 2780 "smt/polynome.ml" 88 2730 2781
+type(
+  Num.num
+)
+ident(
+  int_ref n "smt/polynome.ml" 86 2648 2661 "smt/polynome.ml" 86 2648 2662
+)
+"smt/polynome.ml" 88 2730 2769 "smt/polynome.ml" 88 2730 2782
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 88 2730 2755 "smt/polynome.ml" 88 2730 2782
+call(
+  stack
+)
+type(
+  string
+)
+"smt/polynome.ml" 88 2730 2784 "smt/polynome.ml" 88 2730 2787
+type(
+  string
+)
+"smt/polynome.ml" 88 2730 2750 "smt/polynome.ml" 88 2730 2787
+type(
+  string * string * string
+)
+"smt/polynome.ml" 87 2669 2684 "smt/polynome.ml" 88 2730 2787
+type(
+  string * string * string
+)
+"smt/polynome.ml" 83 2541 2565 "smt/polynome.ml" 88 2730 2787
+type(
+  string * string * string
+)
+"smt/polynome.ml" 90 2801 2810 "smt/polynome.ml" 90 2801 2817
+type(
+  Format.formatter ->
+  (string ->
+   string -> string -> (Format.formatter -> M.key -> unit) -> M.key -> unit,
+   Format.formatter, unit)
+  format ->
+  string ->
+  string -> string -> (Format.formatter -> M.key -> unit) -> M.key -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/polynome.ml" 90 2801 2818 "smt/polynome.ml" 90 2801 2821
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/polynome.ml" 80 2491 2504 "smt/polynome.ml" 80 2491 2507
+)
+"smt/polynome.ml" 90 2801 2822 "smt/polynome.ml" 90 2801 2832
+type(
+  (string ->
+   string -> string -> (Format.formatter -> M.key -> unit) -> M.key -> unit,
+   Format.formatter, unit)
+  format
+)
+"smt/polynome.ml" 90 2801 2833 "smt/polynome.ml" 90 2801 2834
+type(
+  string
+)
+ident(
+  int_ref s "smt/polynome.ml" 83 2541 2554 "smt/polynome.ml" 83 2541 2555
+)
+"smt/polynome.ml" 90 2801 2835 "smt/polynome.ml" 90 2801 2836
+type(
+  string
+)
+ident(
+  int_ref n "smt/polynome.ml" 83 2541 2557 "smt/polynome.ml" 83 2541 2558
+)
+"smt/polynome.ml" 90 2801 2837 "smt/polynome.ml" 90 2801 2839
+type(
+  string
+)
+ident(
+  int_ref op "smt/polynome.ml" 83 2541 2560 "smt/polynome.ml" 83 2541 2562
+)
+"smt/polynome.ml" 90 2801 2840 "smt/polynome.ml" 90 2801 2847
+type(
+  Format.formatter -> M.key -> unit
+)
+ident(
+  int_ref X.print "smt/polynome.ml" 26 1181 1183 "smt/polynome.ml" 26 1181 1224
+)
+"smt/polynome.ml" 90 2801 2848 "smt/polynome.ml" 90 2801 2849
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 82 2523 2534 "smt/polynome.ml" 82 2523 2535
+)
+"smt/polynome.ml" 90 2801 2810 "smt/polynome.ml" 90 2801 2849
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/polynome.ml" 83 2541 2550 "smt/polynome.ml" 90 2801 2849
+type(
+  unit
+)
+"smt/polynome.ml" 82 2523 2529 "smt/polynome.ml" 91 2850 2857
+type(
+  M.key -> Num.num -> unit
+)
+"smt/polynome.ml" 91 2850 2857 "smt/polynome.ml" 91 2850 2858
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 80 2491 2508 "smt/polynome.ml" 80 2491 2509
+)
+"smt/polynome.ml" 91 2850 2857 "smt/polynome.ml" 91 2850 2860
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 81 2512 2516 "smt/polynome.ml" 91 2850 2860
+call(
+  stack
+)
+type(
+  unit
+)
+"smt/polynome.ml" 92 2862 2870 "smt/polynome.ml" 92 2862 2871
+type(
+  string
+)
+ident(
+  def s "smt/polynome.ml" 94 2970 2974 "smt/polynome.ml" 94 2970 2996
+)
+"smt/polynome.ml" 92 2862 2873 "smt/polynome.ml" 92 2862 2874
+type(
+  string
+)
+ident(
+  def n "smt/polynome.ml" 94 2970 2974 "smt/polynome.ml" 94 2970 2996
+)
+"smt/polynome.ml" 92 2862 2870 "smt/polynome.ml" 92 2862 2874
+type(
+  string * string
+)
+"smt/polynome.ml" 92 2862 2880 "smt/polynome.ml" 92 2862 2881
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 80 2491 2508 "smt/polynome.ml" 80 2491 2509
+)
+"smt/polynome.ml" 92 2862 2880 "smt/polynome.ml" 92 2862 2883
+type(
+  Num.num
+)
+"smt/polynome.ml" 92 2862 2884 "smt/polynome.ml" 92 2862 2887
+type(
+  Num.num -> Num.num -> bool
+)
+ident(
+  ext_ref Num.( >=/ )
+)
+"smt/polynome.ml" 92 2862 2892 "smt/polynome.ml" 92 2862 2893
+type(
+  int
+)
+"smt/polynome.ml" 92 2862 2888 "smt/polynome.ml" 92 2862 2893
+type(
+  Num.num
+)
+"smt/polynome.ml" 92 2862 2880 "smt/polynome.ml" 92 2862 2893
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/polynome.ml" 92 2862 2899 "smt/polynome.ml" 92 2862 2902
+type(
+  string
+)
+"smt/polynome.ml" 92 2862 2904 "smt/polynome.ml" 92 2862 2917
+type(
+  Num.num -> string
+)
+ident(
+  ext_ref Num.string_of_num
+)
+"smt/polynome.ml" 92 2862 2918 "smt/polynome.ml" 92 2862 2919
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 80 2491 2508 "smt/polynome.ml" 80 2491 2509
+)
+"smt/polynome.ml" 92 2862 2918 "smt/polynome.ml" 92 2862 2921
+type(
+  Num.num
+)
+"smt/polynome.ml" 92 2862 2904 "smt/polynome.ml" 92 2862 2921
+call(
+  stack
+)
+type(
+  string
+)
+"smt/polynome.ml" 92 2862 2899 "smt/polynome.ml" 92 2862 2921
+type(
+  string * string
+)
+"smt/polynome.ml" 93 2923 2932 "smt/polynome.ml" 93 2923 2935
+type(
+  string
+)
+"smt/polynome.ml" 93 2923 2937 "smt/polynome.ml" 93 2923 2950
+type(
+  Num.num -> string
+)
+ident(
+  ext_ref Num.string_of_num
+)
+"smt/polynome.ml" 93 2923 2952 "smt/polynome.ml" 93 2923 2961
+type(
+  Num.num -> Num.num
+)
+ident(
+  ext_ref Num.minus_num
+)
+"smt/polynome.ml" 93 2923 2962 "smt/polynome.ml" 93 2923 2963
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 80 2491 2508 "smt/polynome.ml" 80 2491 2509
+)
+"smt/polynome.ml" 93 2923 2962 "smt/polynome.ml" 93 2923 2965
+type(
+  Num.num
+)
+"smt/polynome.ml" 93 2923 2951 "smt/polynome.ml" 93 2923 2966
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 93 2923 2937 "smt/polynome.ml" 93 2923 2966
+call(
+  stack
+)
+type(
+  string
+)
+"smt/polynome.ml" 93 2923 2932 "smt/polynome.ml" 93 2923 2966
+type(
+  string * string
+)
+"smt/polynome.ml" 92 2862 2877 "smt/polynome.ml" 93 2923 2966
+type(
+  string * string
+)
+"smt/polynome.ml" 94 2970 2974 "smt/polynome.ml" 94 2970 2981
+type(
+  Format.formatter ->
+  (string -> string -> unit, Format.formatter, unit) format ->
+  string -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/polynome.ml" 94 2970 2982 "smt/polynome.ml" 94 2970 2985
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/polynome.ml" 80 2491 2504 "smt/polynome.ml" 80 2491 2507
+)
+"smt/polynome.ml" 94 2970 2986 "smt/polynome.ml" 94 2970 2992
+type(
+  (string -> string -> unit, Format.formatter, unit) format
+)
+"smt/polynome.ml" 94 2970 2993 "smt/polynome.ml" 94 2970 2994
+type(
+  string
+)
+ident(
+  int_ref s "smt/polynome.ml" 92 2862 2870 "smt/polynome.ml" 92 2862 2871
+)
+"smt/polynome.ml" 94 2970 2995 "smt/polynome.ml" 94 2970 2996
+type(
+  string
+)
+ident(
+  int_ref n "smt/polynome.ml" 92 2862 2873 "smt/polynome.ml" 92 2862 2874
+)
+"smt/polynome.ml" 94 2970 2974 "smt/polynome.ml" 94 2970 2996
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/polynome.ml" 92 2862 2866 "smt/polynome.ml" 94 2970 2996
+type(
+  unit
+)
+"smt/polynome.ml" 81 2512 2516 "smt/polynome.ml" 94 2970 2996
+type(
+  unit
+)
+"smt/polynome.ml" 97 2999 3005 "smt/polynome.ml" 97 2999 3010
+type(
+  Format.formatter -> t -> unit
+)
+ident(
+  def print "smt/polynome.ml" 103 3185 3187 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 97 2999 3011 "smt/polynome.ml" 97 2999 3014
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/polynome.ml" 97 2999 3015 "smt/polynome.ml" 101 3146 3183
+)
+"smt/polynome.ml" 97 2999 3015 "smt/polynome.ml" 97 2999 3016
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 98 3019 3023 "smt/polynome.ml" 101 3146 3183
+)
+"smt/polynome.ml" 98 3019 3023 "smt/polynome.ml" 98 3019 3029
+type(
+  (M.key -> Num.num -> unit) -> Num.num M.t -> unit
+)
+ident(
+  ext_ref M.iter
+)
+"smt/polynome.ml" 99 3031 3042 "smt/polynome.ml" 99 3031 3043
+type(
+  M.key
+)
+ident(
+  def t "smt/polynome.ml" 99 3031 3044 "smt/polynome.ml" 99 3031 3097
+)
+"smt/polynome.ml" 99 3031 3044 "smt/polynome.ml" 99 3031 3045
+type(
+  Num.num
+)
+ident(
+  def n "smt/polynome.ml" 99 3031 3049 "smt/polynome.ml" 99 3031 3097
+)
+"smt/polynome.ml" 99 3031 3049 "smt/polynome.ml" 99 3031 3056
+type(
+  Format.formatter ->
+  (string -> (Format.formatter -> M.key -> unit) -> M.key -> unit,
+   Format.formatter, unit)
+  format -> string -> (Format.formatter -> M.key -> unit) -> M.key -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/polynome.ml" 99 3031 3057 "smt/polynome.ml" 99 3031 3060
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/polynome.ml" 97 2999 3011 "smt/polynome.ml" 97 2999 3014
+)
+"smt/polynome.ml" 99 3031 3061 "smt/polynome.ml" 99 3031 3069
+type(
+  (string -> (Format.formatter -> M.key -> unit) -> M.key -> unit,
+   Format.formatter, unit)
+  format
+)
+"smt/polynome.ml" 99 3031 3071 "smt/polynome.ml" 99 3031 3084
+type(
+  Num.num -> string
+)
+ident(
+  ext_ref Num.string_of_num
+)
+"smt/polynome.ml" 99 3031 3085 "smt/polynome.ml" 99 3031 3086
+type(
+  Num.num
+)
+ident(
+  int_ref n "smt/polynome.ml" 99 3031 3044 "smt/polynome.ml" 99 3031 3045
+)
+"smt/polynome.ml" 99 3031 3070 "smt/polynome.ml" 99 3031 3087
+call(
+  stack
+)
+type(
+  string
+)
+"smt/polynome.ml" 99 3031 3088 "smt/polynome.ml" 99 3031 3095
+type(
+  Format.formatter -> M.key -> unit
+)
+ident(
+  int_ref X.print "smt/polynome.ml" 26 1181 1183 "smt/polynome.ml" 26 1181 1224
+)
+"smt/polynome.ml" 99 3031 3096 "smt/polynome.ml" 99 3031 3097
+type(
+  M.key
+)
+ident(
+  int_ref t "smt/polynome.ml" 99 3031 3042 "smt/polynome.ml" 99 3031 3043
+)
+"smt/polynome.ml" 99 3031 3049 "smt/polynome.ml" 99 3031 3097
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/polynome.ml" 99 3031 3037 "smt/polynome.ml" 99 3031 3098
+type(
+  M.key -> Num.num -> unit
+)
+"smt/polynome.ml" 99 3031 3099 "smt/polynome.ml" 99 3031 3100
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 97 2999 3015 "smt/polynome.ml" 97 2999 3016
+)
+"smt/polynome.ml" 99 3031 3099 "smt/polynome.ml" 99 3031 3102
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 98 3019 3023 "smt/polynome.ml" 99 3031 3102
+call(
+  stack
+)
+type(
+  unit
+)
+"smt/polynome.ml" 100 3104 3108 "smt/polynome.ml" 100 3104 3115
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/polynome.ml" 100 3104 3116 "smt/polynome.ml" 100 3104 3119
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/polynome.ml" 97 2999 3011 "smt/polynome.ml" 97 2999 3014
+)
+"smt/polynome.ml" 100 3104 3120 "smt/polynome.ml" 100 3104 3124
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"smt/polynome.ml" 100 3104 3126 "smt/polynome.ml" 100 3104 3139
+type(
+  Num.num -> string
+)
+ident(
+  ext_ref Num.string_of_num
+)
+"smt/polynome.ml" 100 3104 3140 "smt/polynome.ml" 100 3104 3141
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 97 2999 3015 "smt/polynome.ml" 97 2999 3016
+)
+"smt/polynome.ml" 100 3104 3140 "smt/polynome.ml" 100 3104 3143
+type(
+  Num.num
+)
+"smt/polynome.ml" 100 3104 3125 "smt/polynome.ml" 100 3104 3144
+call(
+  stack
+)
+type(
+  string
+)
+"smt/polynome.ml" 100 3104 3108 "smt/polynome.ml" 100 3104 3144
+call(
+  stack
+)
+type(
+  unit
+)
+"smt/polynome.ml" 101 3146 3150 "smt/polynome.ml" 101 3146 3157
+type(
+  Format.formatter ->
+  ((Format.formatter -> Ty.t -> unit) -> Ty.t -> unit, Format.formatter,
+   unit)
+  format -> (Format.formatter -> Ty.t -> unit) -> Ty.t -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/polynome.ml" 101 3146 3158 "smt/polynome.ml" 101 3146 3161
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/polynome.ml" 97 2999 3011 "smt/polynome.ml" 97 2999 3014
+)
+"smt/polynome.ml" 101 3146 3162 "smt/polynome.ml" 101 3146 3169
+type(
+  ((Format.formatter -> Ty.t -> unit) -> Ty.t -> unit, Format.formatter,
+   unit)
+  format
+)
+"smt/polynome.ml" 101 3146 3170 "smt/polynome.ml" 101 3146 3178
+type(
+  Format.formatter -> Ty.t -> unit
+)
+ident(
+  ext_ref Ty.print
+)
+"smt/polynome.ml" 101 3146 3179 "smt/polynome.ml" 101 3146 3180
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 97 2999 3015 "smt/polynome.ml" 97 2999 3016
+)
+"smt/polynome.ml" 101 3146 3179 "smt/polynome.ml" 101 3146 3183
+type(
+  Ty.t
+)
+"smt/polynome.ml" 101 3146 3150 "smt/polynome.ml" 101 3146 3183
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/polynome.ml" 100 3104 3108 "smt/polynome.ml" 101 3146 3183
+type(
+  unit
+)
+"smt/polynome.ml" 98 3019 3023 "smt/polynome.ml" 101 3146 3183
+type(
+  unit
+)
+"smt/polynome.ml" 103 3185 3191 "smt/polynome.ml" 103 3185 3197
+type(
+  t -> bool
+)
+ident(
+  def is_num "smt/polynome.ml" 105 3218 3220 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 103 3185 3198 "smt/polynome.ml" 103 3185 3199
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 103 3185 3202 "smt/polynome.ml" 103 3185 3216
+)
+"smt/polynome.ml" 103 3185 3202 "smt/polynome.ml" 103 3185 3212
+type(
+  Num.num M.t -> bool
+)
+ident(
+  ext_ref M.is_empty
+)
+"smt/polynome.ml" 103 3185 3213 "smt/polynome.ml" 103 3185 3214
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 103 3185 3198 "smt/polynome.ml" 103 3185 3199
+)
+"smt/polynome.ml" 103 3185 3213 "smt/polynome.ml" 103 3185 3216
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 103 3185 3202 "smt/polynome.ml" 103 3185 3216
+call(
+  tail
+)
+type(
+  bool
+)
+"smt/polynome.ml" 105 3218 3224 "smt/polynome.ml" 105 3218 3228
+type(
+  M.key -> Num.num M.t -> Num.num
+)
+ident(
+  def find "smt/polynome.ml" 107 3275 3277 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 105 3218 3229 "smt/polynome.ml" 105 3218 3230
+type(
+  M.key
+)
+ident(
+  def x "smt/polynome.ml" 105 3218 3231 "smt/polynome.ml" 105 3218 3273
+)
+"smt/polynome.ml" 105 3218 3231 "smt/polynome.ml" 105 3218 3232
+type(
+  Num.num M.t
+)
+ident(
+  def m "smt/polynome.ml" 105 3218 3235 "smt/polynome.ml" 105 3218 3273
+)
+"smt/polynome.ml" 105 3218 3239 "smt/polynome.ml" 105 3218 3245
+type(
+  M.key -> Num.num M.t -> Num.num
+)
+ident(
+  ext_ref M.find
+)
+"smt/polynome.ml" 105 3218 3246 "smt/polynome.ml" 105 3218 3247
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 105 3218 3229 "smt/polynome.ml" 105 3218 3230
+)
+"smt/polynome.ml" 105 3218 3248 "smt/polynome.ml" 105 3218 3249
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 105 3218 3231 "smt/polynome.ml" 105 3218 3232
+)
+"smt/polynome.ml" 105 3218 3239 "smt/polynome.ml" 105 3218 3249
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 105 3218 3255 "smt/polynome.ml" 105 3218 3264
+type(
+  exn
+)
+"smt/polynome.ml" 105 3218 3272 "smt/polynome.ml" 105 3218 3273
+type(
+  int
+)
+"smt/polynome.ml" 105 3218 3268 "smt/polynome.ml" 105 3218 3273
+type(
+  Num.num
+)
+"smt/polynome.ml" 105 3218 3235 "smt/polynome.ml" 105 3218 3273
+type(
+  Num.num
+)
+"smt/polynome.ml" 107 3275 3281 "smt/polynome.ml" 107 3275 3287
+type(
+  (Num.num * M.key) list -> Num.num -> Ty.t -> t
+)
+ident(
+  def create "smt/polynome.ml" 116 3496 3498 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 107 3275 3288 "smt/polynome.ml" 107 3275 3289
+type(
+  (Num.num * M.key) list
+)
+ident(
+  def l "smt/polynome.ml" 107 3275 3290 "smt/polynome.ml" 114 3459 3488
+)
+"smt/polynome.ml" 107 3275 3290 "smt/polynome.ml" 107 3275 3291
+type(
+  Num.num
+)
+ident(
+  def c "smt/polynome.ml" 107 3275 3292 "smt/polynome.ml" 114 3459 3488
+)
+"smt/polynome.ml" 107 3275 3292 "smt/polynome.ml" 107 3275 3294
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/polynome.ml" 108 3298 3302 "smt/polynome.ml" 114 3459 3488
+)
+"smt/polynome.ml" 108 3298 3306 "smt/polynome.ml" 108 3298 3307
+type(
+  Num.num M.t
+)
+ident(
+  def m "smt/polynome.ml" 114 3459 3463 "smt/polynome.ml" 114 3459 3488
+)
+"smt/polynome.ml" 109 3311 3317 "smt/polynome.ml" 109 3311 3331
+type(
+  (Num.num M.t -> Num.num * M.key -> Num.num M.t) ->
+  Num.num M.t -> (Num.num * M.key) list -> Num.num M.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"smt/polynome.ml" 110 3333 3339 "smt/polynome.ml" 110 3333 3340
+type(
+  Num.num M.t
+)
+ident(
+  def m "smt/polynome.ml" 110 3333 3341 "smt/polynome.ml" 112 3384 3440
+)
+"smt/polynome.ml" 110 3333 3342 "smt/polynome.ml" 110 3333 3343
+type(
+  Num.num
+)
+ident(
+  def n "smt/polynome.ml" 111 3352 3356 "smt/polynome.ml" 112 3384 3440
+)
+"smt/polynome.ml" 110 3333 3345 "smt/polynome.ml" 110 3333 3346
+type(
+  M.key
+)
+ident(
+  def x "smt/polynome.ml" 111 3352 3356 "smt/polynome.ml" 112 3384 3440
+)
+"smt/polynome.ml" 110 3333 3341 "smt/polynome.ml" 110 3333 3347
+type(
+  Num.num * M.key
+)
+"smt/polynome.ml" 111 3352 3360 "smt/polynome.ml" 111 3352 3362
+type(
+  Num.num
+)
+ident(
+  def n' "smt/polynome.ml" 112 3384 3388 "smt/polynome.ml" 112 3384 3440
+)
+"smt/polynome.ml" 111 3352 3365 "smt/polynome.ml" 111 3352 3366
+type(
+  Num.num
+)
+ident(
+  int_ref n "smt/polynome.ml" 110 3333 3342 "smt/polynome.ml" 110 3333 3343
+)
+"smt/polynome.ml" 111 3352 3367 "smt/polynome.ml" 111 3352 3369
+type(
+  Num.num -> Num.num -> Num.num
+)
+ident(
+  ext_ref Num.( +/ )
+)
+"smt/polynome.ml" 111 3352 3371 "smt/polynome.ml" 111 3352 3375
+type(
+  M.key -> Num.num M.t -> Num.num
+)
+ident(
+  int_ref find "smt/polynome.ml" 105 3218 3224 "smt/polynome.ml" 105 3218 3228
+)
+"smt/polynome.ml" 111 3352 3376 "smt/polynome.ml" 111 3352 3377
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 110 3333 3345 "smt/polynome.ml" 110 3333 3346
+)
+"smt/polynome.ml" 111 3352 3378 "smt/polynome.ml" 111 3352 3379
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 110 3333 3339 "smt/polynome.ml" 110 3333 3340
+)
+"smt/polynome.ml" 111 3352 3370 "smt/polynome.ml" 111 3352 3380
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 111 3352 3365 "smt/polynome.ml" 111 3352 3380
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 112 3384 3391 "smt/polynome.ml" 112 3384 3393
+type(
+  Num.num
+)
+ident(
+  int_ref n' "smt/polynome.ml" 111 3352 3360 "smt/polynome.ml" 111 3352 3362
+)
+"smt/polynome.ml" 112 3384 3394 "smt/polynome.ml" 112 3384 3396
+type(
+  Num.num -> Num.num -> bool
+)
+ident(
+  ext_ref Num.( =/ )
+)
+"smt/polynome.ml" 112 3384 3402 "smt/polynome.ml" 112 3384 3403
+type(
+  int
+)
+"smt/polynome.ml" 112 3384 3397 "smt/polynome.ml" 112 3384 3404
+type(
+  Num.num
+)
+"smt/polynome.ml" 112 3384 3391 "smt/polynome.ml" 112 3384 3404
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/polynome.ml" 112 3384 3410 "smt/polynome.ml" 112 3384 3418
+type(
+  M.key -> Num.num M.t -> Num.num M.t
+)
+ident(
+  ext_ref M.remove
+)
+"smt/polynome.ml" 112 3384 3419 "smt/polynome.ml" 112 3384 3420
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 110 3333 3345 "smt/polynome.ml" 110 3333 3346
+)
+"smt/polynome.ml" 112 3384 3421 "smt/polynome.ml" 112 3384 3422
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 110 3333 3339 "smt/polynome.ml" 110 3333 3340
+)
+"smt/polynome.ml" 112 3384 3410 "smt/polynome.ml" 112 3384 3422
+call(
+  tail
+)
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 112 3384 3428 "smt/polynome.ml" 112 3384 3433
+type(
+  M.key -> Num.num -> Num.num M.t -> Num.num M.t
+)
+ident(
+  ext_ref M.add
+)
+"smt/polynome.ml" 112 3384 3434 "smt/polynome.ml" 112 3384 3435
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 110 3333 3345 "smt/polynome.ml" 110 3333 3346
+)
+"smt/polynome.ml" 112 3384 3436 "smt/polynome.ml" 112 3384 3438
+type(
+  Num.num
+)
+ident(
+  int_ref n' "smt/polynome.ml" 111 3352 3360 "smt/polynome.ml" 111 3352 3362
+)
+"smt/polynome.ml" 112 3384 3439 "smt/polynome.ml" 112 3384 3440
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 110 3333 3339 "smt/polynome.ml" 110 3333 3340
+)
+"smt/polynome.ml" 112 3384 3428 "smt/polynome.ml" 112 3384 3440
+call(
+  tail
+)
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 112 3384 3388 "smt/polynome.ml" 112 3384 3440
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 111 3352 3356 "smt/polynome.ml" 112 3384 3440
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 110 3333 3334 "smt/polynome.ml" 112 3384 3441
+type(
+  Num.num M.t -> Num.num * M.key -> Num.num M.t
+)
+"smt/polynome.ml" 112 3384 3442 "smt/polynome.ml" 112 3384 3449
+type(
+  Num.num M.t
+)
+ident(
+  ext_ref M.empty
+)
+"smt/polynome.ml" 112 3384 3450 "smt/polynome.ml" 112 3384 3451
+type(
+  (Num.num * M.key) list
+)
+ident(
+  int_ref l "smt/polynome.ml" 107 3275 3288 "smt/polynome.ml" 107 3275 3289
+)
+"smt/polynome.ml" 109 3311 3317 "smt/polynome.ml" 112 3384 3451
+call(
+  stack
+)
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 114 3459 3469 "smt/polynome.ml" 114 3459 3470
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 108 3298 3306 "smt/polynome.ml" 108 3298 3307
+)
+"smt/polynome.ml" 114 3459 3476 "smt/polynome.ml" 114 3459 3477
+type(
+  Num.num
+)
+ident(
+  int_ref c "smt/polynome.ml" 107 3275 3290 "smt/polynome.ml" 107 3275 3291
+)
+"smt/polynome.ml" 114 3459 3484 "smt/polynome.ml" 114 3459 3486
+type(
+  Ty.t
+)
+ident(
+  int_ref ty "smt/polynome.ml" 107 3275 3292 "smt/polynome.ml" 107 3275 3294
+)
+"smt/polynome.ml" 114 3459 3463 "smt/polynome.ml" 114 3459 3488
+type(
+  t
+)
+"smt/polynome.ml" 108 3298 3302 "smt/polynome.ml" 114 3459 3488
+type(
+  t
+)
+"smt/polynome.ml" 116 3496 3502 "smt/polynome.ml" 116 3496 3505
+type(
+  t -> t -> t
+)
+ident(
+  def add "smt/polynome.ml" 126 3713 3715 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 116 3496 3506 "smt/polynome.ml" 116 3496 3508
+type(
+  t
+)
+ident(
+  def p1 "smt/polynome.ml" 116 3496 3509 "smt/polynome.ml" 124 3668 3711
+)
+"smt/polynome.ml" 116 3496 3509 "smt/polynome.ml" 116 3496 3511
+type(
+  t
+)
+ident(
+  def p2 "smt/polynome.ml" 117 3515 3519 "smt/polynome.ml" 124 3668 3711
+)
+"smt/polynome.ml" 117 3515 3523 "smt/polynome.ml" 117 3515 3524
+type(
+  Num.num M.t
+)
+ident(
+  def m "smt/polynome.ml" 124 3668 3672 "smt/polynome.ml" 124 3668 3711
+)
+"smt/polynome.ml" 118 3528 3534 "smt/polynome.ml" 118 3528 3540
+type(
+  (M.key -> Num.num -> Num.num M.t -> Num.num M.t) ->
+  Num.num M.t -> Num.num M.t -> Num.num M.t
+)
+ident(
+  ext_ref M.fold
+)
+"smt/polynome.ml" 119 3542 3548 "smt/polynome.ml" 119 3542 3549
+type(
+  M.key
+)
+ident(
+  def x "smt/polynome.ml" 119 3542 3550 "smt/polynome.ml" 121 3590 3647
+)
+"smt/polynome.ml" 119 3542 3550 "smt/polynome.ml" 119 3542 3551
+type(
+  Num.num
+)
+ident(
+  def a "smt/polynome.ml" 119 3542 3552 "smt/polynome.ml" 121 3590 3647
+)
+"smt/polynome.ml" 119 3542 3552 "smt/polynome.ml" 119 3542 3553
+type(
+  Num.num M.t
+)
+ident(
+  def m "smt/polynome.ml" 120 3558 3562 "smt/polynome.ml" 121 3590 3647
+)
+"smt/polynome.ml" 120 3558 3566 "smt/polynome.ml" 120 3558 3568
+type(
+  Num.num
+)
+ident(
+  def a' "smt/polynome.ml" 121 3590 3594 "smt/polynome.ml" 121 3590 3647
+)
+"smt/polynome.ml" 120 3558 3572 "smt/polynome.ml" 120 3558 3576
+type(
+  M.key -> Num.num M.t -> Num.num
+)
+ident(
+  int_ref find "smt/polynome.ml" 105 3218 3224 "smt/polynome.ml" 105 3218 3228
+)
+"smt/polynome.ml" 120 3558 3577 "smt/polynome.ml" 120 3558 3578
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 119 3542 3548 "smt/polynome.ml" 119 3542 3549
+)
+"smt/polynome.ml" 120 3558 3579 "smt/polynome.ml" 120 3558 3580
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 119 3542 3552 "smt/polynome.ml" 119 3542 3553
+)
+"smt/polynome.ml" 120 3558 3571 "smt/polynome.ml" 120 3558 3581
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 120 3558 3582 "smt/polynome.ml" 120 3558 3584
+type(
+  Num.num -> Num.num -> Num.num
+)
+ident(
+  ext_ref Num.( +/ )
+)
+"smt/polynome.ml" 120 3558 3585 "smt/polynome.ml" 120 3558 3586
+type(
+  Num.num
+)
+ident(
+  int_ref a "smt/polynome.ml" 119 3542 3550 "smt/polynome.ml" 119 3542 3551
+)
+"smt/polynome.ml" 120 3558 3571 "smt/polynome.ml" 120 3558 3586
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 121 3590 3597 "smt/polynome.ml" 121 3590 3599
+type(
+  Num.num
+)
+ident(
+  int_ref a' "smt/polynome.ml" 120 3558 3566 "smt/polynome.ml" 120 3558 3568
+)
+"smt/polynome.ml" 121 3590 3600 "smt/polynome.ml" 121 3590 3602
+type(
+  Num.num -> Num.num -> bool
+)
+ident(
+  ext_ref Num.( =/ )
+)
+"smt/polynome.ml" 121 3590 3608 "smt/polynome.ml" 121 3590 3609
+type(
+  int
+)
+"smt/polynome.ml" 121 3590 3603 "smt/polynome.ml" 121 3590 3610
+type(
+  Num.num
+)
+"smt/polynome.ml" 121 3590 3597 "smt/polynome.ml" 121 3590 3610
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/polynome.ml" 121 3590 3616 "smt/polynome.ml" 121 3590 3624
+type(
+  M.key -> Num.num M.t -> Num.num M.t
+)
+ident(
+  ext_ref M.remove
+)
+"smt/polynome.ml" 121 3590 3625 "smt/polynome.ml" 121 3590 3626
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 119 3542 3548 "smt/polynome.ml" 119 3542 3549
+)
+"smt/polynome.ml" 121 3590 3627 "smt/polynome.ml" 121 3590 3628
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 119 3542 3552 "smt/polynome.ml" 119 3542 3553
+)
+"smt/polynome.ml" 121 3590 3616 "smt/polynome.ml" 121 3590 3628
+call(
+  tail
+)
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 121 3590 3635 "smt/polynome.ml" 121 3590 3640
+type(
+  M.key -> Num.num -> Num.num M.t -> Num.num M.t
+)
+ident(
+  ext_ref M.add
+)
+"smt/polynome.ml" 121 3590 3641 "smt/polynome.ml" 121 3590 3642
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 119 3542 3548 "smt/polynome.ml" 119 3542 3549
+)
+"smt/polynome.ml" 121 3590 3643 "smt/polynome.ml" 121 3590 3645
+type(
+  Num.num
+)
+ident(
+  int_ref a' "smt/polynome.ml" 120 3558 3566 "smt/polynome.ml" 120 3558 3568
+)
+"smt/polynome.ml" 121 3590 3646 "smt/polynome.ml" 121 3590 3647
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 119 3542 3552 "smt/polynome.ml" 119 3542 3553
+)
+"smt/polynome.ml" 121 3590 3635 "smt/polynome.ml" 121 3590 3647
+call(
+  tail
+)
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 121 3590 3594 "smt/polynome.ml" 121 3590 3647
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 120 3558 3562 "smt/polynome.ml" 121 3590 3647
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 119 3542 3543 "smt/polynome.ml" 121 3590 3648
+type(
+  M.key -> Num.num -> Num.num M.t -> Num.num M.t
+)
+"smt/polynome.ml" 122 3649 3650 "smt/polynome.ml" 122 3649 3652
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 116 3496 3509 "smt/polynome.ml" 116 3496 3511
+)
+"smt/polynome.ml" 122 3649 3650 "smt/polynome.ml" 122 3649 3654
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 122 3649 3655 "smt/polynome.ml" 122 3649 3657
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 116 3496 3506 "smt/polynome.ml" 116 3496 3508
+)
+"smt/polynome.ml" 122 3649 3655 "smt/polynome.ml" 122 3649 3659
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 118 3528 3534 "smt/polynome.ml" 122 3649 3659
+call(
+  stack
+)
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 124 3668 3678 "smt/polynome.ml" 124 3668 3679
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 117 3515 3523 "smt/polynome.ml" 117 3515 3524
+)
+"smt/polynome.ml" 124 3668 3685 "smt/polynome.ml" 124 3668 3687
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 116 3496 3506 "smt/polynome.ml" 116 3496 3508
+)
+"smt/polynome.ml" 124 3668 3685 "smt/polynome.ml" 124 3668 3689
+type(
+  Num.num
+)
+"smt/polynome.ml" 124 3668 3690 "smt/polynome.ml" 124 3668 3692
+type(
+  Num.num -> Num.num -> Num.num
+)
+ident(
+  ext_ref Num.( +/ )
+)
+"smt/polynome.ml" 124 3668 3693 "smt/polynome.ml" 124 3668 3695
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 116 3496 3509 "smt/polynome.ml" 116 3496 3511
+)
+"smt/polynome.ml" 124 3668 3693 "smt/polynome.ml" 124 3668 3697
+type(
+  Num.num
+)
+"smt/polynome.ml" 124 3668 3685 "smt/polynome.ml" 124 3668 3697
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 124 3668 3704 "smt/polynome.ml" 124 3668 3706
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 116 3496 3506 "smt/polynome.ml" 116 3496 3508
+)
+"smt/polynome.ml" 124 3668 3704 "smt/polynome.ml" 124 3668 3709
+type(
+  Ty.t
+)
+"smt/polynome.ml" 124 3668 3672 "smt/polynome.ml" 124 3668 3711
+type(
+  t
+)
+"smt/polynome.ml" 117 3515 3519 "smt/polynome.ml" 124 3668 3711
+type(
+  t
+)
+"smt/polynome.ml" 126 3713 3719 "smt/polynome.ml" 126 3713 3729
+type(
+  Num.num -> t -> t
+)
+ident(
+  def mult_const "smt/polynome.ml" 130 3863 3865 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 126 3713 3730 "smt/polynome.ml" 126 3713 3731
+type(
+  Num.num
+)
+ident(
+  def n "smt/polynome.ml" 126 3713 3732 "smt/polynome.ml" 128 3800 3861
+)
+"smt/polynome.ml" 126 3713 3732 "smt/polynome.ml" 126 3713 3733
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 127 3737 3741 "smt/polynome.ml" 128 3800 3861
+)
+"smt/polynome.ml" 127 3737 3744 "smt/polynome.ml" 127 3737 3745
+type(
+  Num.num
+)
+ident(
+  int_ref n "smt/polynome.ml" 126 3713 3730 "smt/polynome.ml" 126 3713 3731
+)
+"smt/polynome.ml" 127 3737 3746 "smt/polynome.ml" 127 3737 3748
+type(
+  Num.num -> Num.num -> bool
+)
+ident(
+  ext_ref Num.( =/ )
+)
+"smt/polynome.ml" 127 3737 3754 "smt/polynome.ml" 127 3737 3755
+type(
+  int
+)
+"smt/polynome.ml" 127 3737 3749 "smt/polynome.ml" 127 3737 3756
+type(
+  Num.num
+)
+"smt/polynome.ml" 127 3737 3744 "smt/polynome.ml" 127 3737 3756
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/polynome.ml" 127 3737 3768 "smt/polynome.ml" 127 3737 3775
+type(
+  Num.num M.t
+)
+ident(
+  ext_ref M.empty
+)
+"smt/polynome.ml" 127 3737 3785 "smt/polynome.ml" 127 3737 3786
+type(
+  int
+)
+"smt/polynome.ml" 127 3737 3781 "smt/polynome.ml" 127 3737 3786
+type(
+  Num.num
+)
+"smt/polynome.ml" 127 3737 3793 "smt/polynome.ml" 127 3737 3794
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 126 3713 3732 "smt/polynome.ml" 126 3713 3733
+)
+"smt/polynome.ml" 127 3737 3793 "smt/polynome.ml" 127 3737 3797
+type(
+  Ty.t
+)
+"smt/polynome.ml" 127 3737 3762 "smt/polynome.ml" 127 3737 3799
+type(
+  t
+)
+"smt/polynome.ml" 128 3800 3811 "smt/polynome.ml" 128 3800 3812
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 126 3713 3732 "smt/polynome.ml" 126 3713 3733
+)
+"smt/polynome.ml" 128 3800 3822 "smt/polynome.ml" 128 3800 3827
+type(
+  (Num.num -> Num.num) -> Num.num M.t -> Num.num M.t
+)
+ident(
+  ext_ref M.map
+)
+"smt/polynome.ml" 128 3800 3829 "smt/polynome.ml" 128 3800 3837
+type(
+  Num.num -> Num.num -> Num.num
+)
+ident(
+  ext_ref Num.mult_num
+)
+"smt/polynome.ml" 128 3800 3838 "smt/polynome.ml" 128 3800 3839
+type(
+  Num.num
+)
+ident(
+  int_ref n "smt/polynome.ml" 126 3713 3730 "smt/polynome.ml" 126 3713 3731
+)
+"smt/polynome.ml" 128 3800 3828 "smt/polynome.ml" 128 3800 3840
+call(
+  stack
+)
+type(
+  Num.num -> Num.num
+)
+"smt/polynome.ml" 128 3800 3841 "smt/polynome.ml" 128 3800 3842
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 126 3713 3732 "smt/polynome.ml" 126 3713 3733
+)
+"smt/polynome.ml" 128 3800 3841 "smt/polynome.ml" 128 3800 3844
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 128 3800 3822 "smt/polynome.ml" 128 3800 3844
+call(
+  stack
+)
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 128 3800 3851 "smt/polynome.ml" 128 3800 3852
+type(
+  Num.num
+)
+ident(
+  int_ref n "smt/polynome.ml" 126 3713 3730 "smt/polynome.ml" 126 3713 3731
+)
+"smt/polynome.ml" 128 3800 3853 "smt/polynome.ml" 128 3800 3855
+type(
+  Num.num -> Num.num -> Num.num
+)
+ident(
+  ext_ref Num.( */ )
+)
+"smt/polynome.ml" 128 3800 3856 "smt/polynome.ml" 128 3800 3857
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 126 3713 3732 "smt/polynome.ml" 126 3713 3733
+)
+"smt/polynome.ml" 128 3800 3856 "smt/polynome.ml" 128 3800 3859
+type(
+  Num.num
+)
+"smt/polynome.ml" 128 3800 3851 "smt/polynome.ml" 128 3800 3859
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 128 3800 3809 "smt/polynome.ml" 128 3800 3861
+type(
+  t
+)
+"smt/polynome.ml" 127 3737 3741 "smt/polynome.ml" 128 3800 3861
+type(
+  t
+)
+"smt/polynome.ml" 130 3863 3869 "smt/polynome.ml" 130 3863 3880
+type(
+  Num.num -> M.key -> t -> t
+)
+ident(
+  def mult_monome "smt/polynome.ml" 139 4115 4117 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 130 3863 3881 "smt/polynome.ml" 130 3863 3882
+type(
+  Num.num
+)
+ident(
+  def a "smt/polynome.ml" 130 3863 3883 "smt/polynome.ml" 137 4086 4107
+)
+"smt/polynome.ml" 130 3863 3883 "smt/polynome.ml" 130 3863 3884
+type(
+  M.key
+)
+ident(
+  def x "smt/polynome.ml" 130 3863 3885 "smt/polynome.ml" 137 4086 4107
+)
+"smt/polynome.ml" 130 3863 3885 "smt/polynome.ml" 130 3863 3886
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 131 3891 3895 "smt/polynome.ml" 137 4086 4107
+)
+"smt/polynome.ml" 131 3891 3899 "smt/polynome.ml" 131 3891 3901
+type(
+  t
+)
+ident(
+  def ax "smt/polynome.ml" 132 3956 3960 "smt/polynome.ml" 137 4086 4107
+)
+"smt/polynome.ml" 131 3891 3910 "smt/polynome.ml" 131 3891 3915
+type(
+  M.key -> Num.num -> Num.num M.t -> Num.num M.t
+)
+ident(
+  ext_ref M.add
+)
+"smt/polynome.ml" 131 3891 3916 "smt/polynome.ml" 131 3891 3917
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 130 3863 3883 "smt/polynome.ml" 130 3863 3884
+)
+"smt/polynome.ml" 131 3891 3918 "smt/polynome.ml" 131 3891 3919
+type(
+  Num.num
+)
+ident(
+  int_ref a "smt/polynome.ml" 130 3863 3881 "smt/polynome.ml" 130 3863 3882
+)
+"smt/polynome.ml" 131 3891 3920 "smt/polynome.ml" 131 3891 3927
+type(
+  Num.num M.t
+)
+ident(
+  ext_ref M.empty
+)
+"smt/polynome.ml" 131 3891 3910 "smt/polynome.ml" 131 3891 3927
+call(
+  stack
+)
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 131 3891 3938 "smt/polynome.ml" 131 3891 3939
+type(
+  int
+)
+"smt/polynome.ml" 131 3891 3933 "smt/polynome.ml" 131 3891 3940
+type(
+  Num.num
+)
+"smt/polynome.ml" 131 3891 3947 "smt/polynome.ml" 131 3891 3948
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 130 3863 3885 "smt/polynome.ml" 130 3863 3886
+)
+"smt/polynome.ml" 131 3891 3947 "smt/polynome.ml" 131 3891 3951
+type(
+  Ty.t
+)
+"smt/polynome.ml" 131 3891 3904 "smt/polynome.ml" 131 3891 3952
+type(
+  t
+)
+"smt/polynome.ml" 132 3956 3964 "smt/polynome.ml" 132 3956 3967
+type(
+  t
+)
+ident(
+  def acx "smt/polynome.ml" 133 3991 3995 "smt/polynome.ml" 137 4086 4107
+)
+"smt/polynome.ml" 132 3956 3970 "smt/polynome.ml" 132 3956 3980
+type(
+  Num.num -> t -> t
+)
+ident(
+  int_ref mult_const "smt/polynome.ml" 126 3713 3719 "smt/polynome.ml" 126 3713 3729
+)
+"smt/polynome.ml" 132 3956 3981 "smt/polynome.ml" 132 3956 3982
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 130 3863 3885 "smt/polynome.ml" 130 3863 3886
+)
+"smt/polynome.ml" 132 3956 3981 "smt/polynome.ml" 132 3956 3984
+type(
+  Num.num
+)
+"smt/polynome.ml" 132 3956 3985 "smt/polynome.ml" 132 3956 3987
+type(
+  t
+)
+ident(
+  int_ref ax "smt/polynome.ml" 131 3891 3899 "smt/polynome.ml" 131 3891 3901
+)
+"smt/polynome.ml" 132 3956 3970 "smt/polynome.ml" 132 3956 3987
+call(
+  stack
+)
+type(
+  t
+)
+"smt/polynome.ml" 133 3991 3999 "smt/polynome.ml" 133 3991 4000
+type(
+  Num.num M.t
+)
+ident(
+  def m "smt/polynome.ml" 137 4086 4090 "smt/polynome.ml" 137 4086 4107
+)
+"smt/polynome.ml" 134 4004 4010 "smt/polynome.ml" 134 4004 4016
+type(
+  (M.key -> Num.num -> Num.num M.t -> Num.num M.t) ->
+  Num.num M.t -> Num.num M.t -> Num.num M.t
+)
+ident(
+  ext_ref M.fold
+)
+"smt/polynome.ml" 135 4017 4023 "smt/polynome.ml" 135 4017 4025
+type(
+  M.key
+)
+ident(
+  def xi "smt/polynome.ml" 135 4017 4026 "smt/polynome.ml" 135 4017 4065
+)
+"smt/polynome.ml" 135 4017 4026 "smt/polynome.ml" 135 4017 4028
+type(
+  Num.num
+)
+ident(
+  def ai "smt/polynome.ml" 135 4017 4029 "smt/polynome.ml" 135 4017 4065
+)
+"smt/polynome.ml" 135 4017 4029 "smt/polynome.ml" 135 4017 4030
+type(
+  Num.num M.t
+)
+ident(
+  def m "smt/polynome.ml" 135 4017 4034 "smt/polynome.ml" 135 4017 4065
+)
+"smt/polynome.ml" 135 4017 4034 "smt/polynome.ml" 135 4017 4039
+type(
+  M.key -> Num.num -> Num.num M.t -> Num.num M.t
+)
+ident(
+  ext_ref M.add
+)
+"smt/polynome.ml" 135 4017 4041 "smt/polynome.ml" 135 4017 4047
+type(
+  M.key -> M.key -> M.key
+)
+ident(
+  int_ref X.mult "smt/polynome.ml" 25 1156 1158 "smt/polynome.ml" 25 1156 1180
+)
+"smt/polynome.ml" 135 4017 4048 "smt/polynome.ml" 135 4017 4049
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 130 3863 3883 "smt/polynome.ml" 130 3863 3884
+)
+"smt/polynome.ml" 135 4017 4050 "smt/polynome.ml" 135 4017 4052
+type(
+  M.key
+)
+ident(
+  int_ref xi "smt/polynome.ml" 135 4017 4023 "smt/polynome.ml" 135 4017 4025
+)
+"smt/polynome.ml" 135 4017 4040 "smt/polynome.ml" 135 4017 4053
+call(
+  stack
+)
+type(
+  M.key
+)
+"smt/polynome.ml" 135 4017 4055 "smt/polynome.ml" 135 4017 4056
+type(
+  Num.num
+)
+ident(
+  int_ref a "smt/polynome.ml" 130 3863 3881 "smt/polynome.ml" 130 3863 3882
+)
+"smt/polynome.ml" 135 4017 4057 "smt/polynome.ml" 135 4017 4059
+type(
+  Num.num -> Num.num -> Num.num
+)
+ident(
+  ext_ref Num.( */ )
+)
+"smt/polynome.ml" 135 4017 4060 "smt/polynome.ml" 135 4017 4062
+type(
+  Num.num
+)
+ident(
+  int_ref ai "smt/polynome.ml" 135 4017 4026 "smt/polynome.ml" 135 4017 4028
+)
+"smt/polynome.ml" 135 4017 4054 "smt/polynome.ml" 135 4017 4063
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 135 4017 4064 "smt/polynome.ml" 135 4017 4065
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 135 4017 4029 "smt/polynome.ml" 135 4017 4030
+)
+"smt/polynome.ml" 135 4017 4034 "smt/polynome.ml" 135 4017 4065
+call(
+  tail
+)
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 135 4017 4018 "smt/polynome.ml" 135 4017 4066
+type(
+  M.key -> Num.num -> Num.num M.t -> Num.num M.t
+)
+"smt/polynome.ml" 135 4017 4067 "smt/polynome.ml" 135 4017 4068
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 130 3863 3885 "smt/polynome.ml" 130 3863 3886
+)
+"smt/polynome.ml" 135 4017 4067 "smt/polynome.ml" 135 4017 4070
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 135 4017 4071 "smt/polynome.ml" 135 4017 4074
+type(
+  t
+)
+ident(
+  int_ref acx "smt/polynome.ml" 132 3956 3964 "smt/polynome.ml" 132 3956 3967
+)
+"smt/polynome.ml" 135 4017 4071 "smt/polynome.ml" 135 4017 4076
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 134 4004 4010 "smt/polynome.ml" 135 4017 4076
+call(
+  stack
+)
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 137 4086 4092 "smt/polynome.ml" 137 4086 4095
+type(
+  t
+)
+ident(
+  int_ref acx "smt/polynome.ml" 132 3956 3964 "smt/polynome.ml" 132 3956 3967
+)
+"smt/polynome.ml" 137 4086 4105 "smt/polynome.ml" 137 4086 4106
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 133 3991 3999 "smt/polynome.ml" 133 3991 4000
+)
+"smt/polynome.ml" 137 4086 4090 "smt/polynome.ml" 137 4086 4107
+type(
+  t
+)
+"smt/polynome.ml" 133 3991 3995 "smt/polynome.ml" 137 4086 4107
+type(
+  t
+)
+"smt/polynome.ml" 132 3956 3960 "smt/polynome.ml" 137 4086 4107
+type(
+  t
+)
+"smt/polynome.ml" 131 3891 3895 "smt/polynome.ml" 137 4086 4107
+type(
+  t
+)
+"smt/polynome.ml" 139 4115 4121 "smt/polynome.ml" 139 4115 4125
+type(
+  t -> t -> t
+)
+ident(
+  def mult "smt/polynome.ml" 143 4229 4231 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 139 4115 4126 "smt/polynome.ml" 139 4115 4128
+type(
+  t
+)
+ident(
+  def p1 "smt/polynome.ml" 139 4115 4129 "smt/polynome.ml" 141 4168 4227
+)
+"smt/polynome.ml" 139 4115 4129 "smt/polynome.ml" 139 4115 4131
+type(
+  t
+)
+ident(
+  def p2 "smt/polynome.ml" 140 4134 4138 "smt/polynome.ml" 141 4168 4227
+)
+"smt/polynome.ml" 140 4134 4142 "smt/polynome.ml" 140 4134 4143
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 141 4168 4172 "smt/polynome.ml" 141 4168 4227
+)
+"smt/polynome.ml" 140 4134 4146 "smt/polynome.ml" 140 4134 4156
+type(
+  Num.num -> t -> t
+)
+ident(
+  int_ref mult_const "smt/polynome.ml" 126 3713 3719 "smt/polynome.ml" 126 3713 3729
+)
+"smt/polynome.ml" 140 4134 4157 "smt/polynome.ml" 140 4134 4159
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 139 4115 4126 "smt/polynome.ml" 139 4115 4128
+)
+"smt/polynome.ml" 140 4134 4157 "smt/polynome.ml" 140 4134 4161
+type(
+  Num.num
+)
+"smt/polynome.ml" 140 4134 4162 "smt/polynome.ml" 140 4134 4164
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 139 4115 4129 "smt/polynome.ml" 139 4115 4131
+)
+"smt/polynome.ml" 140 4134 4146 "smt/polynome.ml" 140 4134 4164
+call(
+  stack
+)
+type(
+  t
+)
+"smt/polynome.ml" 141 4168 4172 "smt/polynome.ml" 141 4168 4178
+type(
+  (M.key -> Num.num -> t -> t) -> Num.num M.t -> t -> t
+)
+ident(
+  ext_ref M.fold
+)
+"smt/polynome.ml" 141 4168 4184 "smt/polynome.ml" 141 4168 4185
+type(
+  M.key
+)
+ident(
+  def x "smt/polynome.ml" 141 4168 4186 "smt/polynome.ml" 141 4168 4219
+)
+"smt/polynome.ml" 141 4168 4186 "smt/polynome.ml" 141 4168 4187
+type(
+  Num.num
+)
+ident(
+  def a "smt/polynome.ml" 141 4168 4188 "smt/polynome.ml" 141 4168 4219
+)
+"smt/polynome.ml" 141 4168 4188 "smt/polynome.ml" 141 4168 4189
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 141 4168 4193 "smt/polynome.ml" 141 4168 4219
+)
+"smt/polynome.ml" 141 4168 4193 "smt/polynome.ml" 141 4168 4196
+type(
+  t -> t -> t
+)
+ident(
+  int_ref add "smt/polynome.ml" 116 3496 3502 "smt/polynome.ml" 116 3496 3505
+)
+"smt/polynome.ml" 141 4168 4198 "smt/polynome.ml" 141 4168 4209
+type(
+  Num.num -> M.key -> t -> t
+)
+ident(
+  int_ref mult_monome "smt/polynome.ml" 130 3863 3869 "smt/polynome.ml" 130 3863 3880
+)
+"smt/polynome.ml" 141 4168 4210 "smt/polynome.ml" 141 4168 4211
+type(
+  Num.num
+)
+ident(
+  int_ref a "smt/polynome.ml" 141 4168 4186 "smt/polynome.ml" 141 4168 4187
+)
+"smt/polynome.ml" 141 4168 4212 "smt/polynome.ml" 141 4168 4213
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 141 4168 4184 "smt/polynome.ml" 141 4168 4185
+)
+"smt/polynome.ml" 141 4168 4214 "smt/polynome.ml" 141 4168 4216
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 139 4115 4129 "smt/polynome.ml" 139 4115 4131
+)
+"smt/polynome.ml" 141 4168 4197 "smt/polynome.ml" 141 4168 4217
+call(
+  stack
+)
+type(
+  t
+)
+"smt/polynome.ml" 141 4168 4218 "smt/polynome.ml" 141 4168 4219
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 141 4168 4188 "smt/polynome.ml" 141 4168 4189
+)
+"smt/polynome.ml" 141 4168 4193 "smt/polynome.ml" 141 4168 4219
+call(
+  tail
+)
+type(
+  t
+)
+"smt/polynome.ml" 141 4168 4179 "smt/polynome.ml" 141 4168 4220
+type(
+  M.key -> Num.num -> t -> t
+)
+"smt/polynome.ml" 141 4168 4221 "smt/polynome.ml" 141 4168 4223
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 139 4115 4126 "smt/polynome.ml" 139 4115 4128
+)
+"smt/polynome.ml" 141 4168 4221 "smt/polynome.ml" 141 4168 4225
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 141 4168 4226 "smt/polynome.ml" 141 4168 4227
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 140 4134 4142 "smt/polynome.ml" 140 4134 4143
+)
+"smt/polynome.ml" 141 4168 4172 "smt/polynome.ml" 141 4168 4227
+call(
+  tail
+)
+type(
+  t
+)
+"smt/polynome.ml" 140 4134 4138 "smt/polynome.ml" 141 4168 4227
+type(
+  t
+)
+"smt/polynome.ml" 143 4229 4235 "smt/polynome.ml" 143 4229 4238
+type(
+  t -> t -> t
+)
+ident(
+  def sub "smt/polynome.ml" 146 4298 4300 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 143 4229 4239 "smt/polynome.ml" 143 4229 4241
+type(
+  t
+)
+ident(
+  def p1 "smt/polynome.ml" 143 4229 4242 "smt/polynome.ml" 144 4247 4296
+)
+"smt/polynome.ml" 143 4229 4242 "smt/polynome.ml" 143 4229 4244
+type(
+  t
+)
+ident(
+  def p2 "smt/polynome.ml" 144 4247 4251 "smt/polynome.ml" 144 4247 4296
+)
+"smt/polynome.ml" 144 4247 4251 "smt/polynome.ml" 144 4247 4254
+type(
+  t -> t -> t
+)
+ident(
+  int_ref add "smt/polynome.ml" 116 3496 3502 "smt/polynome.ml" 116 3496 3505
+)
+"smt/polynome.ml" 144 4247 4255 "smt/polynome.ml" 144 4247 4257
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 143 4229 4239 "smt/polynome.ml" 143 4229 4241
+)
+"smt/polynome.ml" 144 4247 4259 "smt/polynome.ml" 144 4247 4263
+type(
+  t -> t -> t
+)
+ident(
+  int_ref mult "smt/polynome.ml" 139 4115 4121 "smt/polynome.ml" 139 4115 4125
+)
+"smt/polynome.ml" 144 4247 4265 "smt/polynome.ml" 144 4247 4271
+type(
+  (Num.num * M.key) list -> Num.num -> Ty.t -> t
+)
+ident(
+  int_ref create "smt/polynome.ml" 107 3275 3281 "smt/polynome.ml" 107 3275 3287
+)
+"smt/polynome.ml" 144 4247 4272 "smt/polynome.ml" 144 4247 4274
+type(
+  (Num.num * M.key) list
+)
+"smt/polynome.ml" 144 4247 4280 "smt/polynome.ml" 144 4247 4284
+type(
+  int
+)
+"smt/polynome.ml" 144 4247 4275 "smt/polynome.ml" 144 4247 4285
+type(
+  Num.num
+)
+"smt/polynome.ml" 144 4247 4286 "smt/polynome.ml" 144 4247 4288
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 143 4229 4239 "smt/polynome.ml" 143 4229 4241
+)
+"smt/polynome.ml" 144 4247 4286 "smt/polynome.ml" 144 4247 4291
+type(
+  Ty.t
+)
+"smt/polynome.ml" 144 4247 4264 "smt/polynome.ml" 144 4247 4292
+call(
+  stack
+)
+type(
+  t
+)
+"smt/polynome.ml" 144 4247 4293 "smt/polynome.ml" 144 4247 4295
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 143 4229 4242 "smt/polynome.ml" 143 4229 4244
+)
+"smt/polynome.ml" 144 4247 4258 "smt/polynome.ml" 144 4247 4296
+call(
+  stack
+)
+type(
+  t
+)
+"smt/polynome.ml" 144 4247 4251 "smt/polynome.ml" 144 4247 4296
+call(
+  tail
+)
+type(
+  t
+)
+"smt/polynome.ml" 146 4298 4304 "smt/polynome.ml" 146 4298 4307
+type(
+  t -> t -> t * bool
+)
+ident(
+  def div "smt/polynome.ml" 160 4742 4744 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 146 4298 4308 "smt/polynome.ml" 146 4298 4310
+type(
+  t
+)
+ident(
+  def p1 "smt/polynome.ml" 146 4298 4311 "smt/polynome.ml" 157 4714 4739
+)
+"smt/polynome.ml" 146 4298 4311 "smt/polynome.ml" 146 4298 4313
+type(
+  t
+)
+ident(
+  def p2 "smt/polynome.ml" 147 4316 4320 "smt/polynome.ml" 157 4714 4739
+)
+"smt/polynome.ml" 147 4316 4323 "smt/polynome.ml" 147 4316 4333
+type(
+  Num.num M.t -> bool
+)
+ident(
+  ext_ref M.is_empty
+)
+"smt/polynome.ml" 147 4316 4334 "smt/polynome.ml" 147 4316 4336
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 146 4298 4311 "smt/polynome.ml" 146 4298 4313
+)
+"smt/polynome.ml" 147 4316 4334 "smt/polynome.ml" 147 4316 4338
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 147 4316 4323 "smt/polynome.ml" 147 4316 4338
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/polynome.ml" 148 4344 4353 "smt/polynome.ml" 148 4344 4355
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 146 4298 4311 "smt/polynome.ml" 146 4298 4313
+)
+"smt/polynome.ml" 148 4344 4353 "smt/polynome.ml" 148 4344 4357
+type(
+  Num.num
+)
+"smt/polynome.ml" 148 4344 4358 "smt/polynome.ml" 148 4344 4360
+type(
+  Num.num -> Num.num -> bool
+)
+ident(
+  ext_ref Num.( =/ )
+)
+"smt/polynome.ml" 148 4344 4365 "smt/polynome.ml" 148 4344 4366
+type(
+  int
+)
+"smt/polynome.ml" 148 4344 4361 "smt/polynome.ml" 148 4344 4366
+type(
+  Num.num
+)
+"smt/polynome.ml" 148 4344 4353 "smt/polynome.ml" 148 4344 4366
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/polynome.ml" 148 4344 4372 "smt/polynome.ml" 148 4344 4377
+type(
+  exn -> t * bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/polynome.ml" 148 4344 4378 "smt/polynome.ml" 148 4344 4394
+type(
+  exn
+)
+"smt/polynome.ml" 148 4344 4372 "smt/polynome.ml" 148 4344 4394
+type(
+  t * bool
+)
+"smt/polynome.ml" 150 4407 4419 "smt/polynome.ml" 150 4407 4420
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 151 4458 4466 "smt/polynome.ml" 156 4684 4713
+)
+"smt/polynome.ml" 150 4407 4423 "smt/polynome.ml" 150 4407 4433
+type(
+  Num.num -> t -> t
+)
+ident(
+  int_ref mult_const "smt/polynome.ml" 126 3713 3719 "smt/polynome.ml" 126 3713 3729
+)
+"smt/polynome.ml" 150 4407 4440 "smt/polynome.ml" 150 4407 4441
+type(
+  int
+)
+"smt/polynome.ml" 150 4407 4435 "smt/polynome.ml" 150 4407 4442
+type(
+  Num.num
+)
+"smt/polynome.ml" 150 4407 4443 "smt/polynome.ml" 150 4407 4445
+type(
+  Num.num -> Num.num -> Num.num
+)
+ident(
+  ext_ref Num.( // )
+)
+"smt/polynome.ml" 150 4407 4446 "smt/polynome.ml" 150 4407 4448
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 146 4298 4311 "smt/polynome.ml" 146 4298 4313
+)
+"smt/polynome.ml" 150 4407 4446 "smt/polynome.ml" 150 4407 4450
+type(
+  Num.num
+)
+"smt/polynome.ml" 150 4407 4434 "smt/polynome.ml" 150 4407 4451
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 150 4407 4452 "smt/polynome.ml" 150 4407 4454
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 146 4298 4308 "smt/polynome.ml" 146 4298 4310
+)
+"smt/polynome.ml" 150 4407 4423 "smt/polynome.ml" 150 4407 4454
+call(
+  stack
+)
+type(
+  t
+)
+"smt/polynome.ml" 151 4458 4472 "smt/polynome.ml" 151 4458 4482
+type(
+  Num.num M.t -> bool
+)
+ident(
+  ext_ref M.is_empty
+)
+"smt/polynome.ml" 151 4458 4483 "smt/polynome.ml" 151 4458 4484
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 150 4407 4419 "smt/polynome.ml" 150 4407 4420
+)
+"smt/polynome.ml" 151 4458 4483 "smt/polynome.ml" 151 4458 4486
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 151 4458 4472 "smt/polynome.ml" 151 4458 4486
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/polynome.ml" 151 4458 4488 "smt/polynome.ml" 151 4458 4489
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 150 4407 4419 "smt/polynome.ml" 150 4407 4420
+)
+"smt/polynome.ml" 151 4458 4488 "smt/polynome.ml" 151 4458 4492
+type(
+  Ty.t
+)
+"smt/polynome.ml" 151 4458 4472 "smt/polynome.ml" 151 4458 4492
+type(
+  bool * Ty.t
+)
+"smt/polynome.ml" 152 4498 4510 "smt/polynome.ml" 152 4498 4514
+type(
+  bool
+)
+"smt/polynome.ml" 152 4498 4516 "smt/polynome.ml" 152 4498 4523
+type(
+  Ty.t
+)
+"smt/polynome.ml" 152 4498 4510 "smt/polynome.ml" 152 4498 4523
+type(
+  bool * Ty.t
+)
+"smt/polynome.ml" 152 4498 4529 "smt/polynome.ml" 152 4498 4530
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 150 4407 4419 "smt/polynome.ml" 150 4407 4420
+)
+"smt/polynome.ml" 152 4498 4540 "smt/polynome.ml" 152 4498 4549
+type(
+  Num.num -> Num.num
+)
+ident(
+  ext_ref Num.floor_num
+)
+"smt/polynome.ml" 152 4498 4550 "smt/polynome.ml" 152 4498 4551
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 150 4407 4419 "smt/polynome.ml" 150 4407 4420
+)
+"smt/polynome.ml" 152 4498 4550 "smt/polynome.ml" 152 4498 4553
+type(
+  Num.num
+)
+"smt/polynome.ml" 152 4498 4540 "smt/polynome.ml" 152 4498 4553
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 152 4498 4528 "smt/polynome.ml" 152 4498 4554
+type(
+  t
+)
+"smt/polynome.ml" 152 4498 4556 "smt/polynome.ml" 152 4498 4561
+type(
+  bool
+)
+"smt/polynome.ml" 152 4498 4528 "smt/polynome.ml" 152 4498 4561
+type(
+  t * bool
+)
+"smt/polynome.ml" 153 4563 4575 "smt/polynome.ml" 153 4563 4579
+type(
+  bool
+)
+"smt/polynome.ml" 153 4563 4581 "smt/polynome.ml" 153 4563 4589
+type(
+  Ty.t
+)
+"smt/polynome.ml" 153 4563 4575 "smt/polynome.ml" 153 4563 4589
+type(
+  bool * Ty.t
+)
+"smt/polynome.ml" 153 4563 4595 "smt/polynome.ml" 153 4563 4596
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 150 4407 4419 "smt/polynome.ml" 150 4407 4420
+)
+"smt/polynome.ml" 153 4563 4598 "smt/polynome.ml" 153 4563 4603
+type(
+  bool
+)
+"smt/polynome.ml" 153 4563 4595 "smt/polynome.ml" 153 4563 4603
+type(
+  t * bool
+)
+"smt/polynome.ml" 154 4604 4616 "smt/polynome.ml" 154 4604 4621
+type(
+  bool
+)
+"smt/polynome.ml" 154 4604 4623 "smt/polynome.ml" 154 4604 4630
+type(
+  Ty.t
+)
+"smt/polynome.ml" 154 4604 4616 "smt/polynome.ml" 154 4604 4630
+type(
+  bool * Ty.t
+)
+"smt/polynome.ml" 154 4604 4635 "smt/polynome.ml" 154 4604 4636
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 150 4407 4419 "smt/polynome.ml" 150 4407 4420
+)
+"smt/polynome.ml" 154 4604 4638 "smt/polynome.ml" 154 4604 4642
+type(
+  bool
+)
+"smt/polynome.ml" 154 4604 4635 "smt/polynome.ml" 154 4604 4642
+type(
+  t * bool
+)
+"smt/polynome.ml" 155 4643 4655 "smt/polynome.ml" 155 4643 4660
+type(
+  bool
+)
+"smt/polynome.ml" 155 4643 4662 "smt/polynome.ml" 155 4643 4670
+type(
+  Ty.t
+)
+"smt/polynome.ml" 155 4643 4655 "smt/polynome.ml" 155 4643 4670
+type(
+  bool * Ty.t
+)
+"smt/polynome.ml" 155 4643 4675 "smt/polynome.ml" 155 4643 4676
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 150 4407 4419 "smt/polynome.ml" 150 4407 4420
+)
+"smt/polynome.ml" 155 4643 4678 "smt/polynome.ml" 155 4643 4683
+type(
+  bool
+)
+"smt/polynome.ml" 155 4643 4675 "smt/polynome.ml" 155 4643 4683
+type(
+  t * bool
+)
+"smt/polynome.ml" 156 4684 4696 "smt/polynome.ml" 156 4684 4697
+type(
+  bool * Ty.t
+)
+"smt/polynome.ml" 156 4684 4708 "smt/polynome.ml" 156 4684 4713
+type(
+  bool
+)
+"smt/polynome.ml" 156 4684 4701 "smt/polynome.ml" 156 4684 4713
+type(
+  t * bool
+)
+"smt/polynome.ml" 151 4458 4466 "smt/polynome.ml" 156 4684 4713
+type(
+  t * bool
+)
+"smt/polynome.ml" 150 4407 4415 "smt/polynome.ml" 156 4684 4713
+type(
+  t * bool
+)
+"smt/polynome.ml" 148 4344 4350 "smt/polynome.ml" 156 4684 4713
+type(
+  t * bool
+)
+"smt/polynome.ml" 157 4714 4723 "smt/polynome.ml" 157 4714 4728
+type(
+  exn -> t * bool
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/polynome.ml" 157 4714 4729 "smt/polynome.ml" 157 4714 4739
+type(
+  exn
+)
+"smt/polynome.ml" 157 4714 4723 "smt/polynome.ml" 157 4714 4739
+type(
+  t * bool
+)
+"smt/polynome.ml" 147 4316 4320 "smt/polynome.ml" 157 4714 4739
+type(
+  t * bool
+)
+"smt/polynome.ml" 160 4742 4748 "smt/polynome.ml" 160 4742 4754
+type(
+  t -> t -> t
+)
+ident(
+  def modulo "smt/polynome.ml" 168 4982 4984 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 160 4742 4755 "smt/polynome.ml" 160 4742 4757
+type(
+  t
+)
+ident(
+  def p1 "smt/polynome.ml" 160 4742 4758 "smt/polynome.ml" 166 4949 4974
+)
+"smt/polynome.ml" 160 4742 4758 "smt/polynome.ml" 160 4742 4760
+type(
+  t
+)
+ident(
+  def p2 "smt/polynome.ml" 161 4763 4767 "smt/polynome.ml" 166 4949 4974
+)
+"smt/polynome.ml" 161 4763 4770 "smt/polynome.ml" 161 4763 4780
+type(
+  Num.num M.t -> bool
+)
+ident(
+  ext_ref M.is_empty
+)
+"smt/polynome.ml" 161 4763 4781 "smt/polynome.ml" 161 4763 4783
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 160 4742 4758 "smt/polynome.ml" 160 4742 4760
+)
+"smt/polynome.ml" 161 4763 4781 "smt/polynome.ml" 161 4763 4785
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 161 4763 4770 "smt/polynome.ml" 161 4763 4785
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/polynome.ml" 162 4791 4800 "smt/polynome.ml" 162 4791 4802
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 160 4742 4758 "smt/polynome.ml" 160 4742 4760
+)
+"smt/polynome.ml" 162 4791 4800 "smt/polynome.ml" 162 4791 4804
+type(
+  Num.num
+)
+"smt/polynome.ml" 162 4791 4805 "smt/polynome.ml" 162 4791 4807
+type(
+  Num.num -> Num.num -> bool
+)
+ident(
+  ext_ref Num.( =/ )
+)
+"smt/polynome.ml" 162 4791 4812 "smt/polynome.ml" 162 4791 4813
+type(
+  int
+)
+"smt/polynome.ml" 162 4791 4808 "smt/polynome.ml" 162 4791 4813
+type(
+  Num.num
+)
+"smt/polynome.ml" 162 4791 4800 "smt/polynome.ml" 162 4791 4813
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/polynome.ml" 162 4791 4819 "smt/polynome.ml" 162 4791 4824
+type(
+  exn -> t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/polynome.ml" 162 4791 4825 "smt/polynome.ml" 162 4791 4841
+type(
+  exn
+)
+"smt/polynome.ml" 162 4791 4819 "smt/polynome.ml" 162 4791 4841
+type(
+  t
+)
+"smt/polynome.ml" 164 4854 4865 "smt/polynome.ml" 164 4854 4875
+type(
+  Num.num M.t -> bool
+)
+ident(
+  ext_ref M.is_empty
+)
+"smt/polynome.ml" 164 4854 4876 "smt/polynome.ml" 164 4854 4878
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 160 4742 4755 "smt/polynome.ml" 160 4742 4757
+)
+"smt/polynome.ml" 164 4854 4876 "smt/polynome.ml" 164 4854 4880
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 164 4854 4865 "smt/polynome.ml" 164 4854 4880
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/polynome.ml" 164 4854 4888 "smt/polynome.ml" 164 4854 4890
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 160 4742 4755 "smt/polynome.ml" 160 4742 4757
+)
+"smt/polynome.ml" 164 4854 4900 "smt/polynome.ml" 164 4854 4907
+type(
+  Num.num -> Num.num -> Num.num
+)
+ident(
+  ext_ref Num.mod_num
+)
+"smt/polynome.ml" 164 4854 4908 "smt/polynome.ml" 164 4854 4910
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 160 4742 4755 "smt/polynome.ml" 160 4742 4757
+)
+"smt/polynome.ml" 164 4854 4908 "smt/polynome.ml" 164 4854 4912
+type(
+  Num.num
+)
+"smt/polynome.ml" 164 4854 4913 "smt/polynome.ml" 164 4854 4915
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 160 4742 4758 "smt/polynome.ml" 160 4742 4760
+)
+"smt/polynome.ml" 164 4854 4913 "smt/polynome.ml" 164 4854 4917
+type(
+  Num.num
+)
+"smt/polynome.ml" 164 4854 4900 "smt/polynome.ml" 164 4854 4917
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 164 4854 4886 "smt/polynome.ml" 164 4854 4919
+type(
+  t
+)
+"smt/polynome.ml" 165 4920 4933 "smt/polynome.ml" 165 4920 4938
+type(
+  exn -> t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/polynome.ml" 165 4920 4939 "smt/polynome.ml" 165 4920 4948
+type(
+  exn
+)
+"smt/polynome.ml" 165 4920 4933 "smt/polynome.ml" 165 4920 4948
+type(
+  t
+)
+"smt/polynome.ml" 164 4854 4862 "smt/polynome.ml" 165 4920 4948
+type(
+  t
+)
+"smt/polynome.ml" 162 4791 4797 "smt/polynome.ml" 165 4920 4948
+type(
+  t
+)
+"smt/polynome.ml" 166 4949 4958 "smt/polynome.ml" 166 4949 4963
+type(
+  exn -> t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/polynome.ml" 166 4949 4964 "smt/polynome.ml" 166 4949 4974
+type(
+  exn
+)
+"smt/polynome.ml" 166 4949 4958 "smt/polynome.ml" 166 4949 4974
+type(
+  t
+)
+"smt/polynome.ml" 161 4763 4767 "smt/polynome.ml" 166 4949 4974
+type(
+  t
+)
+"smt/polynome.ml" 168 4982 4988 "smt/polynome.ml" 168 4982 4992
+type(
+  M.key -> t -> Num.num
+)
+ident(
+  def find "smt/polynome.ml" 170 5013 5015 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 168 4982 4993 "smt/polynome.ml" 168 4982 4994
+type(
+  M.key
+)
+ident(
+  def x "smt/polynome.ml" 168 4982 4995 "smt/polynome.ml" 168 4982 5011
+)
+"smt/polynome.ml" 168 4982 4995 "smt/polynome.ml" 168 4982 4996
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 168 4982 4999 "smt/polynome.ml" 168 4982 5011
+)
+"smt/polynome.ml" 168 4982 4999 "smt/polynome.ml" 168 4982 5005
+type(
+  M.key -> Num.num M.t -> Num.num
+)
+ident(
+  ext_ref M.find
+)
+"smt/polynome.ml" 168 4982 5006 "smt/polynome.ml" 168 4982 5007
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 168 4982 4993 "smt/polynome.ml" 168 4982 4994
+)
+"smt/polynome.ml" 168 4982 5008 "smt/polynome.ml" 168 4982 5009
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 168 4982 4995 "smt/polynome.ml" 168 4982 4996
+)
+"smt/polynome.ml" 168 4982 5008 "smt/polynome.ml" 168 4982 5011
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 168 4982 4999 "smt/polynome.ml" 168 4982 5011
+call(
+  tail
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 170 5013 5019 "smt/polynome.ml" 170 5013 5027
+type(
+  t -> bool
+)
+ident(
+  def is_empty "smt/polynome.ml" 172 5048 5050 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 170 5013 5028 "smt/polynome.ml" 170 5013 5029
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 170 5013 5032 "smt/polynome.ml" 170 5013 5046
+)
+"smt/polynome.ml" 170 5013 5032 "smt/polynome.ml" 170 5013 5042
+type(
+  Num.num M.t -> bool
+)
+ident(
+  ext_ref M.is_empty
+)
+"smt/polynome.ml" 170 5013 5043 "smt/polynome.ml" 170 5013 5044
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 170 5013 5028 "smt/polynome.ml" 170 5013 5029
+)
+"smt/polynome.ml" 170 5013 5043 "smt/polynome.ml" 170 5013 5046
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 170 5013 5032 "smt/polynome.ml" 170 5013 5046
+call(
+  tail
+)
+type(
+  bool
+)
+"smt/polynome.ml" 172 5048 5054 "smt/polynome.ml" 172 5048 5060
+type(
+  t -> Num.num * M.key
+)
+ident(
+  def choose "smt/polynome.ml" 181 5414 5416 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 172 5048 5061 "smt/polynome.ml" 172 5048 5062
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 173 5065 5069 "smt/polynome.ml" 179 5359 5412
+)
+"smt/polynome.ml" 173 5065 5073 "smt/polynome.ml" 173 5065 5075
+type(
+  (Num.num * M.key) option ref
+)
+ident(
+  def tn "smt/polynome.ml" 175 5146 5150 "smt/polynome.ml" 179 5359 5412
+)
+"smt/polynome.ml" 173 5065 5077 "smt/polynome.ml" 173 5065 5080
+type(
+  (Num.num * M.key) option -> (Num.num * M.key) option ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"smt/polynome.ml" 173 5065 5081 "smt/polynome.ml" 173 5065 5085
+type(
+  (Num.num * M.key) option
+)
+"smt/polynome.ml" 173 5065 5077 "smt/polynome.ml" 173 5065 5085
+type(
+  (Num.num * M.key) option ref
+)
+"smt/polynome.ml" 175 5146 5155 "smt/polynome.ml" 175 5146 5161
+type(
+  (M.key -> Num.num -> unit) -> Num.num M.t -> unit
+)
+ident(
+  ext_ref M.iter
+)
+"smt/polynome.ml" 176 5162 5174 "smt/polynome.ml" 176 5162 5175
+type(
+  M.key
+)
+ident(
+  def x "smt/polynome.ml" 176 5162 5176 "smt/polynome.ml" 176 5162 5210
+)
+"smt/polynome.ml" 176 5162 5176 "smt/polynome.ml" 176 5162 5177
+type(
+  Num.num
+)
+ident(
+  def a "smt/polynome.ml" 176 5162 5181 "smt/polynome.ml" 176 5162 5210
+)
+"smt/polynome.ml" 176 5162 5181 "smt/polynome.ml" 176 5162 5183
+type(
+  (Num.num * M.key) option ref
+)
+ident(
+  int_ref tn "smt/polynome.ml" 173 5065 5073 "smt/polynome.ml" 173 5065 5075
+)
+"smt/polynome.ml" 176 5162 5184 "smt/polynome.ml" 176 5162 5186
+type(
+  (Num.num * M.key) option ref -> (Num.num * M.key) option -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"smt/polynome.ml" 176 5162 5193 "smt/polynome.ml" 176 5162 5194
+type(
+  Num.num
+)
+ident(
+  int_ref a "smt/polynome.ml" 176 5162 5176 "smt/polynome.ml" 176 5162 5177
+)
+"smt/polynome.ml" 176 5162 5196 "smt/polynome.ml" 176 5162 5197
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 176 5162 5174 "smt/polynome.ml" 176 5162 5175
+)
+"smt/polynome.ml" 176 5162 5192 "smt/polynome.ml" 176 5162 5198
+type(
+  Num.num * M.key
+)
+"smt/polynome.ml" 176 5162 5187 "smt/polynome.ml" 176 5162 5198
+type(
+  (Num.num * M.key) option
+)
+"smt/polynome.ml" 176 5162 5181 "smt/polynome.ml" 176 5162 5198
+type(
+  unit
+)
+"smt/polynome.ml" 176 5162 5200 "smt/polynome.ml" 176 5162 5205
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/polynome.ml" 176 5162 5206 "smt/polynome.ml" 176 5162 5210
+type(
+  exn
+)
+"smt/polynome.ml" 176 5162 5200 "smt/polynome.ml" 176 5162 5210
+type(
+  unit
+)
+"smt/polynome.ml" 176 5162 5181 "smt/polynome.ml" 176 5162 5210
+type(
+  unit
+)
+"smt/polynome.ml" 176 5162 5169 "smt/polynome.ml" 176 5162 5211
+type(
+  M.key -> Num.num -> unit
+)
+"smt/polynome.ml" 176 5162 5212 "smt/polynome.ml" 176 5162 5213
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 172 5048 5061 "smt/polynome.ml" 172 5048 5062
+)
+"smt/polynome.ml" 176 5162 5212 "smt/polynome.ml" 176 5162 5215
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 175 5146 5155 "smt/polynome.ml" 176 5162 5215
+call(
+  stack
+)
+type(
+  unit
+)
+"smt/polynome.ml" 176 5162 5221 "smt/polynome.ml" 176 5162 5225
+type(
+  exn
+)
+"smt/polynome.ml" 176 5162 5229 "smt/polynome.ml" 176 5162 5231
+type(
+  unit
+)
+"smt/polynome.ml" 175 5146 5150 "smt/polynome.ml" 176 5162 5232
+type(
+  unit
+)
+"smt/polynome.ml" 179 5359 5369 "smt/polynome.ml" 179 5359 5370
+type(
+  (Num.num * M.key) option ref -> (Num.num * M.key) option
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"smt/polynome.ml" 179 5359 5370 "smt/polynome.ml" 179 5359 5372
+type(
+  (Num.num * M.key) option ref
+)
+ident(
+  int_ref tn "smt/polynome.ml" 173 5065 5073 "smt/polynome.ml" 173 5065 5075
+)
+"smt/polynome.ml" 179 5359 5369 "smt/polynome.ml" 179 5359 5372
+type(
+  (Num.num * M.key) option
+)
+"smt/polynome.ml" 179 5359 5383 "smt/polynome.ml" 179 5359 5384
+type(
+  Num.num * M.key
+)
+ident(
+  def p "smt/polynome.ml" 179 5359 5388 "smt/polynome.ml" 179 5359 5389
+)
+"smt/polynome.ml" 179 5359 5378 "smt/polynome.ml" 179 5359 5384
+type(
+  (Num.num * M.key) option
+)
+"smt/polynome.ml" 179 5359 5388 "smt/polynome.ml" 179 5359 5389
+type(
+  Num.num * M.key
+)
+ident(
+  int_ref p "smt/polynome.ml" 179 5359 5383 "smt/polynome.ml" 179 5359 5384
+)
+"smt/polynome.ml" 179 5359 5392 "smt/polynome.ml" 179 5359 5393
+type(
+  (Num.num * M.key) option
+)
+"smt/polynome.ml" 179 5359 5397 "smt/polynome.ml" 179 5359 5402
+type(
+  exn -> Num.num * M.key
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/polynome.ml" 179 5359 5403 "smt/polynome.ml" 179 5359 5412
+type(
+  exn
+)
+"smt/polynome.ml" 179 5359 5397 "smt/polynome.ml" 179 5359 5412
+type(
+  Num.num * M.key
+)
+"smt/polynome.ml" 179 5359 5363 "smt/polynome.ml" 179 5359 5412
+type(
+  Num.num * M.key
+)
+"smt/polynome.ml" 175 5146 5150 "smt/polynome.ml" 179 5359 5412
+type(
+  Num.num * M.key
+)
+"smt/polynome.ml" 173 5065 5069 "smt/polynome.ml" 179 5359 5412
+type(
+  Num.num * M.key
+)
+"smt/polynome.ml" 181 5414 5420 "smt/polynome.ml" 181 5414 5425
+type(
+  M.key -> t -> t -> t
+)
+ident(
+  def subst "smt/polynome.ml" 187 5566 5568 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 181 5414 5426 "smt/polynome.ml" 181 5414 5427
+type(
+  M.key
+)
+ident(
+  def x "smt/polynome.ml" 181 5414 5428 "smt/polynome.ml" 185 5534 5558
+)
+"smt/polynome.ml" 181 5414 5428 "smt/polynome.ml" 181 5414 5430
+type(
+  t
+)
+ident(
+  def p1 "smt/polynome.ml" 181 5414 5431 "smt/polynome.ml" 185 5534 5558
+)
+"smt/polynome.ml" 181 5414 5431 "smt/polynome.ml" 181 5414 5433
+type(
+  t
+)
+ident(
+  def p2 "smt/polynome.ml" 182 5436 5440 "smt/polynome.ml" 185 5534 5558
+)
+"smt/polynome.ml" 183 5444 5454 "smt/polynome.ml" 183 5444 5455
+type(
+  Num.num
+)
+ident(
+  def a "smt/polynome.ml" 184 5475 5481 "smt/polynome.ml" 184 5475 5533
+)
+"smt/polynome.ml" 183 5444 5458 "smt/polynome.ml" 183 5444 5464
+type(
+  M.key -> Num.num M.t -> Num.num
+)
+ident(
+  ext_ref M.find
+)
+"smt/polynome.ml" 183 5444 5465 "smt/polynome.ml" 183 5444 5466
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 181 5414 5426 "smt/polynome.ml" 181 5414 5427
+)
+"smt/polynome.ml" 183 5444 5467 "smt/polynome.ml" 183 5444 5469
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 181 5414 5431 "smt/polynome.ml" 181 5414 5433
+)
+"smt/polynome.ml" 183 5444 5467 "smt/polynome.ml" 183 5444 5471
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 183 5444 5458 "smt/polynome.ml" 183 5444 5471
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 184 5475 5481 "smt/polynome.ml" 184 5475 5484
+type(
+  t -> t -> t
+)
+ident(
+  int_ref add "smt/polynome.ml" 116 3496 3502 "smt/polynome.ml" 116 3496 3505
+)
+"smt/polynome.ml" 184 5475 5486 "smt/polynome.ml" 184 5475 5496
+type(
+  Num.num -> t -> t
+)
+ident(
+  int_ref mult_const "smt/polynome.ml" 126 3713 3719 "smt/polynome.ml" 126 3713 3729
+)
+"smt/polynome.ml" 184 5475 5497 "smt/polynome.ml" 184 5475 5498
+type(
+  Num.num
+)
+ident(
+  int_ref a "smt/polynome.ml" 183 5444 5454 "smt/polynome.ml" 183 5444 5455
+)
+"smt/polynome.ml" 184 5475 5499 "smt/polynome.ml" 184 5475 5501
+type(
+  t
+)
+ident(
+  int_ref p1 "smt/polynome.ml" 181 5414 5428 "smt/polynome.ml" 181 5414 5430
+)
+"smt/polynome.ml" 184 5475 5485 "smt/polynome.ml" 184 5475 5502
+call(
+  stack
+)
+type(
+  t
+)
+"smt/polynome.ml" 184 5475 5505 "smt/polynome.ml" 184 5475 5507
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 181 5414 5431 "smt/polynome.ml" 181 5414 5433
+)
+"smt/polynome.ml" 184 5475 5517 "smt/polynome.ml" 184 5475 5525
+type(
+  M.key -> Num.num M.t -> Num.num M.t
+)
+ident(
+  ext_ref M.remove
+)
+"smt/polynome.ml" 184 5475 5526 "smt/polynome.ml" 184 5475 5527
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 181 5414 5426 "smt/polynome.ml" 181 5414 5427
+)
+"smt/polynome.ml" 184 5475 5528 "smt/polynome.ml" 184 5475 5530
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 181 5414 5431 "smt/polynome.ml" 181 5414 5433
+)
+"smt/polynome.ml" 184 5475 5528 "smt/polynome.ml" 184 5475 5532
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 184 5475 5517 "smt/polynome.ml" 184 5475 5532
+call(
+  stack
+)
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 184 5475 5503 "smt/polynome.ml" 184 5475 5533
+type(
+  t
+)
+"smt/polynome.ml" 184 5475 5481 "smt/polynome.ml" 184 5475 5533
+call(
+  stack
+)
+type(
+  t
+)
+"smt/polynome.ml" 183 5444 5450 "smt/polynome.ml" 184 5475 5533
+type(
+  t
+)
+"smt/polynome.ml" 185 5534 5543 "smt/polynome.ml" 185 5534 5552
+type(
+  exn
+)
+"smt/polynome.ml" 185 5534 5556 "smt/polynome.ml" 185 5534 5558
+type(
+  t
+)
+ident(
+  int_ref p2 "smt/polynome.ml" 181 5414 5431 "smt/polynome.ml" 181 5414 5433
+)
+"smt/polynome.ml" 182 5436 5440 "smt/polynome.ml" 185 5534 5558
+type(
+  t
+)
+"smt/polynome.ml" 187 5566 5572 "smt/polynome.ml" 187 5566 5578
+type(
+  M.key -> t -> t
+)
+ident(
+  def remove "smt/polynome.ml" 189 5622 5624 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 187 5566 5579 "smt/polynome.ml" 187 5566 5580
+type(
+  M.key
+)
+ident(
+  def x "smt/polynome.ml" 187 5566 5581 "smt/polynome.ml" 187 5566 5614
+)
+"smt/polynome.ml" 187 5566 5581 "smt/polynome.ml" 187 5566 5582
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 187 5566 5585 "smt/polynome.ml" 187 5566 5614
+)
+"smt/polynome.ml" 187 5566 5587 "smt/polynome.ml" 187 5566 5588
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 187 5566 5581 "smt/polynome.ml" 187 5566 5582
+)
+"smt/polynome.ml" 187 5566 5598 "smt/polynome.ml" 187 5566 5606
+type(
+  M.key -> Num.num M.t -> Num.num M.t
+)
+ident(
+  ext_ref M.remove
+)
+"smt/polynome.ml" 187 5566 5607 "smt/polynome.ml" 187 5566 5608
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 187 5566 5579 "smt/polynome.ml" 187 5566 5580
+)
+"smt/polynome.ml" 187 5566 5609 "smt/polynome.ml" 187 5566 5610
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 187 5566 5581 "smt/polynome.ml" 187 5566 5582
+)
+"smt/polynome.ml" 187 5566 5609 "smt/polynome.ml" 187 5566 5612
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 187 5566 5598 "smt/polynome.ml" 187 5566 5612
+call(
+  stack
+)
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 187 5566 5585 "smt/polynome.ml" 187 5566 5614
+type(
+  t
+)
+"smt/polynome.ml" 189 5622 5628 "smt/polynome.ml" 189 5622 5635
+type(
+  t -> (Num.num * M.key) list * Num.num
+)
+ident(
+  def to_list "smt/polynome.ml" 193 5727 5729 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 189 5622 5636 "smt/polynome.ml" 189 5622 5637
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 190 5641 5645 "smt/polynome.ml" 191 5706 5725
+)
+"smt/polynome.ml" 190 5641 5649 "smt/polynome.ml" 190 5641 5650
+type(
+  (Num.num * M.key) list
+)
+ident(
+  def l "smt/polynome.ml" 191 5706 5710 "smt/polynome.ml" 191 5706 5725
+)
+"smt/polynome.ml" 190 5641 5653 "smt/polynome.ml" 190 5641 5659
+type(
+  (M.key -> Num.num -> (Num.num * M.key) list -> (Num.num * M.key) list) ->
+  Num.num M.t -> (Num.num * M.key) list -> (Num.num * M.key) list
+)
+ident(
+  ext_ref M.fold
+)
+"smt/polynome.ml" 190 5641 5665 "smt/polynome.ml" 190 5641 5666
+type(
+  M.key
+)
+ident(
+  def x "smt/polynome.ml" 190 5641 5667 "smt/polynome.ml" 190 5641 5693
+)
+"smt/polynome.ml" 190 5641 5667 "smt/polynome.ml" 190 5641 5668
+type(
+  Num.num
+)
+ident(
+  def a "smt/polynome.ml" 190 5641 5669 "smt/polynome.ml" 190 5641 5693
+)
+"smt/polynome.ml" 190 5641 5669 "smt/polynome.ml" 190 5641 5675
+type(
+  (Num.num * M.key) list
+)
+ident(
+  def aliens "smt/polynome.ml" 190 5641 5679 "smt/polynome.ml" 190 5641 5693
+)
+"smt/polynome.ml" 190 5641 5680 "smt/polynome.ml" 190 5641 5681
+type(
+  Num.num
+)
+ident(
+  int_ref a "smt/polynome.ml" 190 5641 5667 "smt/polynome.ml" 190 5641 5668
+)
+"smt/polynome.ml" 190 5641 5683 "smt/polynome.ml" 190 5641 5684
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 190 5641 5665 "smt/polynome.ml" 190 5641 5666
+)
+"smt/polynome.ml" 190 5641 5679 "smt/polynome.ml" 190 5641 5685
+type(
+  Num.num * M.key
+)
+"smt/polynome.ml" 190 5641 5687 "smt/polynome.ml" 190 5641 5693
+type(
+  (Num.num * M.key) list
+)
+ident(
+  int_ref aliens "smt/polynome.ml" 190 5641 5669 "smt/polynome.ml" 190 5641 5675
+)
+"smt/polynome.ml" 190 5641 5679 "smt/polynome.ml" 190 5641 5693
+type(
+  (Num.num * M.key) list
+)
+"smt/polynome.ml" 190 5641 5660 "smt/polynome.ml" 190 5641 5695
+type(
+  M.key -> Num.num -> (Num.num * M.key) list -> (Num.num * M.key) list
+)
+"smt/polynome.ml" 190 5641 5696 "smt/polynome.ml" 190 5641 5697
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 189 5622 5636 "smt/polynome.ml" 189 5622 5637
+)
+"smt/polynome.ml" 190 5641 5696 "smt/polynome.ml" 190 5641 5699
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 190 5641 5700 "smt/polynome.ml" 190 5641 5702
+type(
+  (Num.num * M.key) list
+)
+"smt/polynome.ml" 190 5641 5653 "smt/polynome.ml" 190 5641 5702
+call(
+  stack
+)
+type(
+  (Num.num * M.key) list
+)
+"smt/polynome.ml" 191 5706 5710 "smt/polynome.ml" 191 5706 5718
+type(
+  (Num.num * M.key) list -> (Num.num * M.key) list
+)
+ident(
+  ext_ref List.rev
+)
+"smt/polynome.ml" 191 5706 5719 "smt/polynome.ml" 191 5706 5720
+type(
+  (Num.num * M.key) list
+)
+ident(
+  int_ref l "smt/polynome.ml" 190 5641 5649 "smt/polynome.ml" 190 5641 5650
+)
+"smt/polynome.ml" 191 5706 5710 "smt/polynome.ml" 191 5706 5720
+call(
+  stack
+)
+type(
+  (Num.num * M.key) list
+)
+"smt/polynome.ml" 191 5706 5722 "smt/polynome.ml" 191 5706 5723
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 189 5622 5636 "smt/polynome.ml" 189 5622 5637
+)
+"smt/polynome.ml" 191 5706 5722 "smt/polynome.ml" 191 5706 5725
+type(
+  Num.num
+)
+"smt/polynome.ml" 191 5706 5710 "smt/polynome.ml" 191 5706 5725
+type(
+  (Num.num * M.key) list * Num.num
+)
+"smt/polynome.ml" 190 5641 5645 "smt/polynome.ml" 191 5706 5725
+type(
+  (Num.num * M.key) list * Num.num
+)
+"smt/polynome.ml" 193 5727 5733 "smt/polynome.ml" 193 5727 5742
+type(
+  t -> Ty.t
+)
+ident(
+  def type_info "smt/polynome.ml" 195 5753 5755 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 193 5727 5743 "smt/polynome.ml" 193 5727 5744
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 193 5727 5747 "smt/polynome.ml" 193 5727 5751
+)
+"smt/polynome.ml" 193 5727 5747 "smt/polynome.ml" 193 5727 5748
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 193 5727 5743 "smt/polynome.ml" 193 5727 5744
+)
+"smt/polynome.ml" 193 5727 5747 "smt/polynome.ml" 193 5727 5751
+type(
+  Ty.t
+)
+"smt/polynome.ml" 195 5753 5759 "smt/polynome.ml" 195 5753 5770
+type(
+  t -> (Num.num * M.key * Num.num) option
+)
+ident(
+  def is_monomial "smt/polynome.ml" 205 5923 5925 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 195 5753 5771 "smt/polynome.ml" 195 5753 5772
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 196 5777 5781 "smt/polynome.ml" 203 5900 5921
+)
+"smt/polynome.ml" 197 5786 5792 "smt/polynome.ml" 197 5786 5798
+type(
+  (M.key ->
+   Num.num ->
+   (Num.num * M.key * Num.num) option -> (Num.num * M.key * Num.num) option) ->
+  Num.num M.t ->
+  (Num.num * M.key * Num.num) option -> (Num.num * M.key * Num.num) option
+)
+ident(
+  ext_ref M.fold
+)
+"smt/polynome.ml" 198 5799 5805 "smt/polynome.ml" 198 5799 5806
+type(
+  M.key
+)
+ident(
+  def x "smt/polynome.ml" 198 5799 5807 "smt/polynome.ml" 201 5865 5888
+)
+"smt/polynome.ml" 198 5799 5807 "smt/polynome.ml" 198 5799 5808
+type(
+  Num.num
+)
+ident(
+  def a "smt/polynome.ml" 198 5799 5809 "smt/polynome.ml" 201 5865 5888
+)
+"smt/polynome.ml" 198 5799 5809 "smt/polynome.ml" 198 5799 5810
+type(
+  (Num.num * M.key * Num.num) option
+)
+ident(
+  def r "smt/polynome.ml" 199 5815 5819 "smt/polynome.ml" 201 5865 5888
+)
+"smt/polynome.ml" 199 5815 5825 "smt/polynome.ml" 199 5815 5826
+type(
+  (Num.num * M.key * Num.num) option
+)
+ident(
+  int_ref r "smt/polynome.ml" 198 5799 5809 "smt/polynome.ml" 198 5799 5810
+)
+"smt/polynome.ml" 200 5832 5840 "smt/polynome.ml" 200 5832 5844
+type(
+  (Num.num * M.key * Num.num) option
+)
+"smt/polynome.ml" 200 5832 5854 "smt/polynome.ml" 200 5832 5855
+type(
+  Num.num
+)
+ident(
+  int_ref a "smt/polynome.ml" 198 5799 5807 "smt/polynome.ml" 198 5799 5808
+)
+"smt/polynome.ml" 200 5832 5857 "smt/polynome.ml" 200 5832 5858
+type(
+  M.key
+)
+ident(
+  int_ref x "smt/polynome.ml" 198 5799 5805 "smt/polynome.ml" 198 5799 5806
+)
+"smt/polynome.ml" 200 5832 5860 "smt/polynome.ml" 200 5832 5861
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 195 5753 5771 "smt/polynome.ml" 195 5753 5772
+)
+"smt/polynome.ml" 200 5832 5860 "smt/polynome.ml" 200 5832 5863
+type(
+  Num.num
+)
+"smt/polynome.ml" 200 5832 5853 "smt/polynome.ml" 200 5832 5864
+type(
+  Num.num * M.key * Num.num
+)
+"smt/polynome.ml" 200 5832 5848 "smt/polynome.ml" 200 5832 5864
+type(
+  (Num.num * M.key * Num.num) option
+)
+"smt/polynome.ml" 201 5865 5873 "smt/polynome.ml" 201 5865 5874
+type(
+  (Num.num * M.key * Num.num) option
+)
+"smt/polynome.ml" 201 5865 5878 "smt/polynome.ml" 201 5865 5883
+type(
+  exn -> (Num.num * M.key * Num.num) option
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/polynome.ml" 201 5865 5884 "smt/polynome.ml" 201 5865 5888
+type(
+  exn
+)
+"smt/polynome.ml" 201 5865 5878 "smt/polynome.ml" 201 5865 5888
+type(
+  (Num.num * M.key * Num.num) option
+)
+"smt/polynome.ml" 199 5815 5819 "smt/polynome.ml" 201 5865 5888
+type(
+  (Num.num * M.key * Num.num) option
+)
+"smt/polynome.ml" 198 5799 5800 "smt/polynome.ml" 201 5865 5889
+type(
+  M.key ->
+  Num.num ->
+  (Num.num * M.key * Num.num) option -> (Num.num * M.key * Num.num) option
+)
+"smt/polynome.ml" 202 5890 5891 "smt/polynome.ml" 202 5890 5892
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 195 5753 5771 "smt/polynome.ml" 195 5753 5772
+)
+"smt/polynome.ml" 202 5890 5891 "smt/polynome.ml" 202 5890 5894
+type(
+  Num.num M.t
+)
+"smt/polynome.ml" 202 5890 5895 "smt/polynome.ml" 202 5890 5899
+type(
+  (Num.num * M.key * Num.num) option
+)
+"smt/polynome.ml" 197 5786 5792 "smt/polynome.ml" 202 5890 5899
+call(
+  stack
+)
+type(
+  (Num.num * M.key * Num.num) option
+)
+"smt/polynome.ml" 203 5900 5909 "smt/polynome.ml" 203 5900 5913
+type(
+  exn
+)
+"smt/polynome.ml" 203 5900 5917 "smt/polynome.ml" 203 5900 5921
+type(
+  (Num.num * M.key * Num.num) option
+)
+"smt/polynome.ml" 196 5777 5781 "smt/polynome.ml" 203 5900 5921
+type(
+  (Num.num * M.key * Num.num) option
+)
+"smt/polynome.ml" 205 5923 5929 "smt/polynome.ml" 205 5923 5940
+type(
+  Num.num -> Big_int.big_int
+)
+ident(
+  def denominator "smt/polynome.ml" 209 6060 6062 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 206 5952 5966 "smt/polynome.ml" 206 5952 5967
+type(
+  int
+)
+"smt/polynome.ml" 206 5952 5958 "smt/polynome.ml" 206 5952 5967
+type(
+  Num.num
+)
+"smt/polynome.ml" 206 5952 5982 "smt/polynome.ml" 206 5952 5983
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 206 5952 5970 "smt/polynome.ml" 206 5952 5983
+type(
+  Num.num
+)
+"smt/polynome.ml" 206 5952 5958 "smt/polynome.ml" 206 5952 5983
+type(
+  Num.num
+)
+"smt/polynome.ml" 206 5952 5987 "smt/polynome.ml" 206 5952 6007
+type(
+  Big_int.big_int
+)
+ident(
+  ext_ref Big_int.unit_big_int
+)
+"smt/polynome.ml" 207 6008 6024 "smt/polynome.ml" 207 6008 6027
+type(
+  Ratio.ratio
+)
+ident(
+  def rat "smt/polynome.ml" 207 6008 6031 "smt/polynome.ml" 207 6008 6058
+)
+"smt/polynome.ml" 207 6008 6014 "smt/polynome.ml" 207 6008 6027
+type(
+  Num.num
+)
+"smt/polynome.ml" 207 6008 6031 "smt/polynome.ml" 207 6008 6054
+type(
+  Ratio.ratio -> Big_int.big_int
+)
+ident(
+  ext_ref Ratio.denominator_ratio
+)
+"smt/polynome.ml" 207 6008 6055 "smt/polynome.ml" 207 6008 6058
+type(
+  Ratio.ratio
+)
+ident(
+  int_ref rat "smt/polynome.ml" 207 6008 6024 "smt/polynome.ml" 207 6008 6027
+)
+"smt/polynome.ml" 207 6008 6031 "smt/polynome.ml" 207 6008 6058
+call(
+  tail
+)
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 205 5923 5943 "smt/polynome.ml" 207 6008 6058
+type(
+  Num.num -> Big_int.big_int
+)
+"smt/polynome.ml" 209 6060 6066 "smt/polynome.ml" 209 6060 6075
+type(
+  Num.num -> Big_int.big_int
+)
+ident(
+  def numerator "smt/polynome.ml" 214 6207 6209 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 210 6087 6101 "smt/polynome.ml" 210 6087 6102
+type(
+  int
+)
+ident(
+  def i "smt/polynome.ml" 210 6087 6106 "smt/polynome.ml" 210 6087 6130
+)
+"smt/polynome.ml" 210 6087 6093 "smt/polynome.ml" 210 6087 6102
+type(
+  Num.num
+)
+"smt/polynome.ml" 210 6087 6106 "smt/polynome.ml" 210 6087 6128
+type(
+  int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.big_int_of_int
+)
+"smt/polynome.ml" 210 6087 6129 "smt/polynome.ml" 210 6087 6130
+type(
+  int
+)
+ident(
+  int_ref i "smt/polynome.ml" 210 6087 6101 "smt/polynome.ml" 210 6087 6102
+)
+"smt/polynome.ml" 210 6087 6106 "smt/polynome.ml" 210 6087 6130
+call(
+  tail
+)
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 211 6132 6150 "smt/polynome.ml" 211 6132 6151
+type(
+  Big_int.big_int
+)
+ident(
+  def b "smt/polynome.ml" 211 6132 6155 "smt/polynome.ml" 211 6132 6156
+)
+"smt/polynome.ml" 211 6132 6138 "smt/polynome.ml" 211 6132 6151
+type(
+  Num.num
+)
+"smt/polynome.ml" 211 6132 6155 "smt/polynome.ml" 211 6132 6156
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "smt/polynome.ml" 211 6132 6150 "smt/polynome.ml" 211 6132 6151
+)
+"smt/polynome.ml" 212 6157 6173 "smt/polynome.ml" 212 6157 6176
+type(
+  Ratio.ratio
+)
+ident(
+  def rat "smt/polynome.ml" 212 6157 6180 "smt/polynome.ml" 212 6157 6205
+)
+"smt/polynome.ml" 212 6157 6163 "smt/polynome.ml" 212 6157 6176
+type(
+  Num.num
+)
+"smt/polynome.ml" 212 6157 6180 "smt/polynome.ml" 212 6157 6201
+type(
+  Ratio.ratio -> Big_int.big_int
+)
+ident(
+  ext_ref Ratio.numerator_ratio
+)
+"smt/polynome.ml" 212 6157 6202 "smt/polynome.ml" 212 6157 6205
+type(
+  Ratio.ratio
+)
+ident(
+  int_ref rat "smt/polynome.ml" 212 6157 6173 "smt/polynome.ml" 212 6157 6176
+)
+"smt/polynome.ml" 212 6157 6180 "smt/polynome.ml" 212 6157 6205
+call(
+  tail
+)
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 209 6060 6078 "smt/polynome.ml" 212 6157 6205
+type(
+  Num.num -> Big_int.big_int
+)
+"smt/polynome.ml" 214 6207 6213 "smt/polynome.ml" 214 6207 6220
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  def pgcd_bi "smt/polynome.ml" 216 6258 6260 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 214 6207 6221 "smt/polynome.ml" 214 6207 6222
+type(
+  Big_int.big_int
+)
+ident(
+  def a "smt/polynome.ml" 214 6207 6223 "smt/polynome.ml" 214 6207 6250
+)
+"smt/polynome.ml" 214 6207 6223 "smt/polynome.ml" 214 6207 6224
+type(
+  Big_int.big_int
+)
+ident(
+  def b "smt/polynome.ml" 214 6207 6227 "smt/polynome.ml" 214 6207 6250
+)
+"smt/polynome.ml" 214 6207 6227 "smt/polynome.ml" 214 6207 6246
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.gcd_big_int
+)
+"smt/polynome.ml" 214 6207 6247 "smt/polynome.ml" 214 6207 6248
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref a "smt/polynome.ml" 214 6207 6221 "smt/polynome.ml" 214 6207 6222
+)
+"smt/polynome.ml" 214 6207 6249 "smt/polynome.ml" 214 6207 6250
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "smt/polynome.ml" 214 6207 6223 "smt/polynome.ml" 214 6207 6224
+)
+"smt/polynome.ml" 214 6207 6227 "smt/polynome.ml" 214 6207 6250
+call(
+  tail
+)
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 216 6258 6264 "smt/polynome.ml" 216 6258 6271
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  def ppmc_bi "smt/polynome.ml" 218 6345 6347 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 216 6258 6272 "smt/polynome.ml" 216 6258 6273
+type(
+  Big_int.big_int
+)
+ident(
+  def a "smt/polynome.ml" 216 6258 6274 "smt/polynome.ml" 216 6258 6338
+)
+"smt/polynome.ml" 216 6258 6274 "smt/polynome.ml" 216 6258 6275
+type(
+  Big_int.big_int
+)
+ident(
+  def b "smt/polynome.ml" 216 6258 6278 "smt/polynome.ml" 216 6258 6338
+)
+"smt/polynome.ml" 216 6258 6278 "smt/polynome.ml" 216 6258 6297
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.div_big_int
+)
+"smt/polynome.ml" 216 6258 6299 "smt/polynome.ml" 216 6258 6319
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref Big_int.mult_big_int
+)
+"smt/polynome.ml" 216 6258 6320 "smt/polynome.ml" 216 6258 6321
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref a "smt/polynome.ml" 216 6258 6272 "smt/polynome.ml" 216 6258 6273
+)
+"smt/polynome.ml" 216 6258 6322 "smt/polynome.ml" 216 6258 6323
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "smt/polynome.ml" 216 6258 6274 "smt/polynome.ml" 216 6258 6275
+)
+"smt/polynome.ml" 216 6258 6298 "smt/polynome.ml" 216 6258 6324
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 216 6258 6326 "smt/polynome.ml" 216 6258 6333
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  int_ref pgcd_bi "smt/polynome.ml" 214 6207 6213 "smt/polynome.ml" 214 6207 6220
+)
+"smt/polynome.ml" 216 6258 6334 "smt/polynome.ml" 216 6258 6335
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref a "smt/polynome.ml" 216 6258 6272 "smt/polynome.ml" 216 6258 6273
+)
+"smt/polynome.ml" 216 6258 6336 "smt/polynome.ml" 216 6258 6337
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "smt/polynome.ml" 216 6258 6274 "smt/polynome.ml" 216 6258 6275
+)
+"smt/polynome.ml" 216 6258 6325 "smt/polynome.ml" 216 6258 6338
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 216 6258 6278 "smt/polynome.ml" 216 6258 6338
+call(
+  tail
+)
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 218 6345 6351 "smt/polynome.ml" 218 6345 6369
+type(
+  Big_int.big_int -> Num.num
+)
+ident(
+  def abs_big_int_to_num "smt/polynome.ml" 225 6504 6506 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 218 6345 6370 "smt/polynome.ml" 218 6345 6371
+type(
+  Big_int.big_int
+)
+ident(
+  def b "smt/polynome.ml" 219 6374 6378 "smt/polynome.ml" 223 6485 6498
+)
+"smt/polynome.ml" 219 6374 6382 "smt/polynome.ml" 219 6374 6383
+type(
+  Num.num
+)
+ident(
+  def b "smt/polynome.ml" 223 6485 6489 "smt/polynome.ml" 223 6485 6498
+)
+"smt/polynome.ml" 220 6387 6402 "smt/polynome.ml" 220 6387 6424
+type(
+  Big_int.big_int -> int
+)
+ident(
+  ext_ref Big_int.int_of_big_int
+)
+"smt/polynome.ml" 220 6387 6425 "smt/polynome.ml" 220 6387 6426
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "smt/polynome.ml" 218 6345 6370 "smt/polynome.ml" 218 6345 6371
+)
+"smt/polynome.ml" 220 6387 6401 "smt/polynome.ml" 220 6387 6427
+call(
+  stack
+)
+type(
+  int
+)
+"smt/polynome.ml" 220 6387 6397 "smt/polynome.ml" 220 6387 6427
+type(
+  Num.num
+)
+"smt/polynome.ml" 221 6429 6448 "smt/polynome.ml" 221 6429 6464
+type(
+  string
+)
+"smt/polynome.ml" 221 6429 6440 "smt/polynome.ml" 221 6429 6464
+type(
+  exn
+)
+"smt/polynome.ml" 221 6429 6476 "smt/polynome.ml" 221 6429 6477
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref b "smt/polynome.ml" 218 6345 6370 "smt/polynome.ml" 218 6345 6371
+)
+"smt/polynome.ml" 221 6429 6468 "smt/polynome.ml" 221 6429 6477
+type(
+  Num.num
+)
+"smt/polynome.ml" 220 6387 6393 "smt/polynome.ml" 221 6429 6477
+type(
+  Num.num
+)
+"smt/polynome.ml" 223 6485 6489 "smt/polynome.ml" 223 6485 6496
+type(
+  Num.num -> Num.num
+)
+ident(
+  ext_ref Num.abs_num
+)
+"smt/polynome.ml" 223 6485 6497 "smt/polynome.ml" 223 6485 6498
+type(
+  Num.num
+)
+ident(
+  int_ref b "smt/polynome.ml" 219 6374 6382 "smt/polynome.ml" 219 6374 6383
+)
+"smt/polynome.ml" 223 6485 6489 "smt/polynome.ml" 223 6485 6498
+call(
+  tail
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 219 6374 6378 "smt/polynome.ml" 223 6485 6498
+type(
+  Num.num
+)
+"smt/polynome.ml" 225 6504 6510 "smt/polynome.ml" 225 6504 6527
+type(
+  t -> Num.num
+)
+ident(
+  def ppmc_denominators "smt/polynome.ml" 232 6688 6690 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 225 6504 6531 "smt/polynome.ml" 225 6504 6532
+type(
+  Num.num M.t
+)
+ident(
+  def m "smt/polynome.ml" 226 6537 6541 "smt/polynome.ml" 230 6654 6686
+)
+"smt/polynome.ml" 225 6504 6528 "smt/polynome.ml" 225 6504 6533
+type(
+  t
+)
+"smt/polynome.ml" 226 6537 6545 "smt/polynome.ml" 226 6537 6548
+type(
+  Big_int.big_int
+)
+ident(
+  def res "smt/polynome.ml" 230 6654 6658 "smt/polynome.ml" 230 6654 6686
+)
+"smt/polynome.ml" 227 6554 6560 "smt/polynome.ml" 227 6554 6566
+type(
+  (M.key -> Num.num -> Big_int.big_int -> Big_int.big_int) ->
+  Num.num M.t -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref M.fold
+)
+"smt/polynome.ml" 228 6567 6580 "smt/polynome.ml" 228 6567 6581
+type(
+  M.key
+)
+ident(
+  def k "smt/polynome.ml" 228 6567 6582 "smt/polynome.ml" 228 6567 6618
+)
+"smt/polynome.ml" 228 6567 6582 "smt/polynome.ml" 228 6567 6583
+type(
+  Num.num
+)
+ident(
+  def c "smt/polynome.ml" 228 6567 6584 "smt/polynome.ml" 228 6567 6618
+)
+"smt/polynome.ml" 228 6567 6584 "smt/polynome.ml" 228 6567 6587
+type(
+  Big_int.big_int
+)
+ident(
+  def acc "smt/polynome.ml" 228 6567 6591 "smt/polynome.ml" 228 6567 6618
+)
+"smt/polynome.ml" 228 6567 6591 "smt/polynome.ml" 228 6567 6598
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  int_ref ppmc_bi "smt/polynome.ml" 216 6258 6264 "smt/polynome.ml" 216 6258 6271
+)
+"smt/polynome.ml" 228 6567 6600 "smt/polynome.ml" 228 6567 6611
+type(
+  Num.num -> Big_int.big_int
+)
+ident(
+  int_ref denominator "smt/polynome.ml" 205 5923 5929 "smt/polynome.ml" 205 5923 5940
+)
+"smt/polynome.ml" 228 6567 6612 "smt/polynome.ml" 228 6567 6613
+type(
+  Num.num
+)
+ident(
+  int_ref c "smt/polynome.ml" 228 6567 6582 "smt/polynome.ml" 228 6567 6583
+)
+"smt/polynome.ml" 228 6567 6599 "smt/polynome.ml" 228 6567 6614
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 228 6567 6615 "smt/polynome.ml" 228 6567 6618
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref acc "smt/polynome.ml" 228 6567 6584 "smt/polynome.ml" 228 6567 6587
+)
+"smt/polynome.ml" 228 6567 6591 "smt/polynome.ml" 228 6567 6618
+call(
+  tail
+)
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 228 6567 6575 "smt/polynome.ml" 228 6567 6619
+type(
+  M.key -> Num.num -> Big_int.big_int -> Big_int.big_int
+)
+"smt/polynome.ml" 229 6620 6628 "smt/polynome.ml" 229 6620 6629
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 225 6504 6531 "smt/polynome.ml" 225 6504 6532
+)
+"smt/polynome.ml" 229 6620 6630 "smt/polynome.ml" 229 6620 6650
+type(
+  Big_int.big_int
+)
+ident(
+  ext_ref Big_int.unit_big_int
+)
+"smt/polynome.ml" 227 6554 6560 "smt/polynome.ml" 229 6620 6650
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 230 6654 6658 "smt/polynome.ml" 230 6654 6665
+type(
+  Num.num -> Num.num
+)
+ident(
+  ext_ref Num.abs_num
+)
+"smt/polynome.ml" 230 6654 6667 "smt/polynome.ml" 230 6654 6681
+type(
+  Big_int.big_int -> Num.num
+)
+ident(
+  ext_ref Num.num_of_big_int
+)
+"smt/polynome.ml" 230 6654 6682 "smt/polynome.ml" 230 6654 6685
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref res "smt/polynome.ml" 226 6537 6545 "smt/polynome.ml" 226 6537 6548
+)
+"smt/polynome.ml" 230 6654 6666 "smt/polynome.ml" 230 6654 6686
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 230 6654 6658 "smt/polynome.ml" 230 6654 6686
+call(
+  tail
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 226 6537 6541 "smt/polynome.ml" 230 6654 6686
+type(
+  Num.num
+)
+"smt/polynome.ml" 232 6688 6694 "smt/polynome.ml" 232 6688 6709
+type(
+  t -> Num.num
+)
+ident(
+  def pgcd_numerators "smt/polynome.ml" 239 6868 6870 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 232 6688 6713 "smt/polynome.ml" 232 6688 6714
+type(
+  Num.num M.t
+)
+ident(
+  def m "smt/polynome.ml" 233 6719 6723 "smt/polynome.ml" 237 6834 6866
+)
+"smt/polynome.ml" 232 6688 6710 "smt/polynome.ml" 232 6688 6715
+type(
+  t
+)
+"smt/polynome.ml" 233 6719 6727 "smt/polynome.ml" 233 6719 6730
+type(
+  Big_int.big_int
+)
+ident(
+  def res "smt/polynome.ml" 237 6834 6838 "smt/polynome.ml" 237 6834 6866
+)
+"smt/polynome.ml" 234 6736 6742 "smt/polynome.ml" 234 6736 6748
+type(
+  (M.key -> Num.num -> Big_int.big_int -> Big_int.big_int) ->
+  Num.num M.t -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  ext_ref M.fold
+)
+"smt/polynome.ml" 235 6749 6762 "smt/polynome.ml" 235 6749 6763
+type(
+  M.key
+)
+ident(
+  def k "smt/polynome.ml" 235 6749 6764 "smt/polynome.ml" 235 6749 6798
+)
+"smt/polynome.ml" 235 6749 6764 "smt/polynome.ml" 235 6749 6765
+type(
+  Num.num
+)
+ident(
+  def c "smt/polynome.ml" 235 6749 6766 "smt/polynome.ml" 235 6749 6798
+)
+"smt/polynome.ml" 235 6749 6766 "smt/polynome.ml" 235 6749 6769
+type(
+  Big_int.big_int
+)
+ident(
+  def acc "smt/polynome.ml" 235 6749 6773 "smt/polynome.ml" 235 6749 6798
+)
+"smt/polynome.ml" 235 6749 6773 "smt/polynome.ml" 235 6749 6780
+type(
+  Big_int.big_int -> Big_int.big_int -> Big_int.big_int
+)
+ident(
+  int_ref pgcd_bi "smt/polynome.ml" 214 6207 6213 "smt/polynome.ml" 214 6207 6220
+)
+"smt/polynome.ml" 235 6749 6782 "smt/polynome.ml" 235 6749 6791
+type(
+  Num.num -> Big_int.big_int
+)
+ident(
+  int_ref numerator "smt/polynome.ml" 209 6060 6066 "smt/polynome.ml" 209 6060 6075
+)
+"smt/polynome.ml" 235 6749 6792 "smt/polynome.ml" 235 6749 6793
+type(
+  Num.num
+)
+ident(
+  int_ref c "smt/polynome.ml" 235 6749 6764 "smt/polynome.ml" 235 6749 6765
+)
+"smt/polynome.ml" 235 6749 6781 "smt/polynome.ml" 235 6749 6794
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 235 6749 6795 "smt/polynome.ml" 235 6749 6798
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref acc "smt/polynome.ml" 235 6749 6766 "smt/polynome.ml" 235 6749 6769
+)
+"smt/polynome.ml" 235 6749 6773 "smt/polynome.ml" 235 6749 6798
+call(
+  tail
+)
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 235 6749 6757 "smt/polynome.ml" 235 6749 6799
+type(
+  M.key -> Num.num -> Big_int.big_int -> Big_int.big_int
+)
+"smt/polynome.ml" 236 6800 6808 "smt/polynome.ml" 236 6800 6809
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 232 6688 6713 "smt/polynome.ml" 232 6688 6714
+)
+"smt/polynome.ml" 236 6800 6810 "smt/polynome.ml" 236 6800 6830
+type(
+  Big_int.big_int
+)
+ident(
+  ext_ref Big_int.zero_big_int
+)
+"smt/polynome.ml" 234 6736 6742 "smt/polynome.ml" 236 6800 6830
+call(
+  stack
+)
+type(
+  Big_int.big_int
+)
+"smt/polynome.ml" 237 6834 6838 "smt/polynome.ml" 237 6834 6845
+type(
+  Num.num -> Num.num
+)
+ident(
+  ext_ref Num.abs_num
+)
+"smt/polynome.ml" 237 6834 6847 "smt/polynome.ml" 237 6834 6861
+type(
+  Big_int.big_int -> Num.num
+)
+ident(
+  ext_ref Num.num_of_big_int
+)
+"smt/polynome.ml" 237 6834 6862 "smt/polynome.ml" 237 6834 6865
+type(
+  Big_int.big_int
+)
+ident(
+  int_ref res "smt/polynome.ml" 233 6719 6727 "smt/polynome.ml" 233 6719 6730
+)
+"smt/polynome.ml" 237 6834 6846 "smt/polynome.ml" 237 6834 6866
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 237 6834 6838 "smt/polynome.ml" 237 6834 6866
+call(
+  tail
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 233 6719 6723 "smt/polynome.ml" 237 6834 6866
+type(
+  Num.num
+)
+"smt/polynome.ml" 239 6868 6874 "smt/polynome.ml" 239 6868 6885
+type(
+  t -> t * Num.num * Num.num
+)
+ident(
+  def normal_form "smt/polynome.ml" 248 7160 7162 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 239 6868 6893 "smt/polynome.ml" 239 6868 6894
+type(
+  Num.num M.t
+)
+ident(
+  def m "smt/polynome.ml" 240 6912 6916 "smt/polynome.ml" 246 7111 7158
+)
+"smt/polynome.ml" 239 6868 6900 "smt/polynome.ml" 239 6868 6901
+type(
+  Num.num
+)
+ident(
+  def c "smt/polynome.ml" 240 6912 6916 "smt/polynome.ml" 246 7111 7158
+)
+"smt/polynome.ml" 239 6868 6887 "smt/polynome.ml" 239 6868 6903
+type(
+  t
+)
+"smt/polynome.ml" 239 6868 6907 "smt/polynome.ml" 239 6868 6908
+ident(
+  def p "smt/polynome.ml" 240 6912 6916 "smt/polynome.ml" 246 7111 7158
+)
+"smt/polynome.ml" 239 6868 6886 "smt/polynome.ml" 239 6868 6909
+type(
+  t
+)
+"smt/polynome.ml" 240 6912 6919 "smt/polynome.ml" 240 6912 6929
+type(
+  Num.num M.t -> bool
+)
+ident(
+  ext_ref M.is_empty
+)
+"smt/polynome.ml" 240 6912 6930 "smt/polynome.ml" 240 6912 6931
+type(
+  Num.num M.t
+)
+ident(
+  int_ref m "smt/polynome.ml" 239 6868 6893 "smt/polynome.ml" 239 6868 6894
+)
+"smt/polynome.ml" 240 6912 6919 "smt/polynome.ml" 240 6912 6931
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/polynome.ml" 241 6938 6946 "smt/polynome.ml" 241 6938 6947
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 239 6868 6886 "smt/polynome.ml" 239 6868 6909
+)
+"smt/polynome.ml" 241 6938 6961 "smt/polynome.ml" 241 6938 6962
+type(
+  int
+)
+"smt/polynome.ml" 241 6938 6957 "smt/polynome.ml" 241 6938 6962
+type(
+  Num.num
+)
+"smt/polynome.ml" 241 6938 6944 "smt/polynome.ml" 241 6938 6964
+type(
+  t
+)
+"smt/polynome.ml" 241 6938 6966 "smt/polynome.ml" 241 6938 6967
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 239 6868 6886 "smt/polynome.ml" 239 6868 6909
+)
+"smt/polynome.ml" 241 6938 6966 "smt/polynome.ml" 241 6938 6969
+type(
+  Num.num
+)
+"smt/polynome.ml" 241 6938 6976 "smt/polynome.ml" 241 6938 6977
+type(
+  int
+)
+"smt/polynome.ml" 241 6938 6971 "smt/polynome.ml" 241 6938 6978
+type(
+  Num.num
+)
+"smt/polynome.ml" 241 6938 6944 "smt/polynome.ml" 241 6938 6978
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 243 6988 6998 "smt/polynome.ml" 243 6988 7002
+type(
+  Num.num
+)
+ident(
+  def ppcm "smt/polynome.ml" 244 7028 7034 "smt/polynome.ml" 246 7111 7158
+)
+"smt/polynome.ml" 243 6988 7005 "smt/polynome.ml" 243 6988 7022
+type(
+  t -> Num.num
+)
+ident(
+  int_ref ppmc_denominators "smt/polynome.ml" 225 6504 6510 "smt/polynome.ml" 225 6504 6527
+)
+"smt/polynome.ml" 243 6988 7023 "smt/polynome.ml" 243 6988 7024
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 239 6868 6886 "smt/polynome.ml" 239 6868 6909
+)
+"smt/polynome.ml" 243 6988 7005 "smt/polynome.ml" 243 6988 7024
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 244 7028 7038 "smt/polynome.ml" 244 7028 7042
+type(
+  Num.num
+)
+ident(
+  def pgcd "smt/polynome.ml" 245 7066 7072 "smt/polynome.ml" 246 7111 7158
+)
+"smt/polynome.ml" 244 7028 7045 "smt/polynome.ml" 244 7028 7060
+type(
+  t -> Num.num
+)
+ident(
+  int_ref pgcd_numerators "smt/polynome.ml" 232 6688 6694 "smt/polynome.ml" 232 6688 6709
+)
+"smt/polynome.ml" 244 7028 7061 "smt/polynome.ml" 244 7028 7062
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 239 6868 6886 "smt/polynome.ml" 239 6868 6909
+)
+"smt/polynome.ml" 244 7028 7045 "smt/polynome.ml" 244 7028 7062
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 245 7066 7076 "smt/polynome.ml" 245 7066 7077
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 246 7111 7117 "smt/polynome.ml" 246 7111 7158
+)
+"smt/polynome.ml" 245 7066 7080 "smt/polynome.ml" 245 7066 7090
+type(
+  Num.num -> t -> t
+)
+ident(
+  int_ref mult_const "smt/polynome.ml" 126 3713 3719 "smt/polynome.ml" 126 3713 3729
+)
+"smt/polynome.ml" 245 7066 7092 "smt/polynome.ml" 245 7066 7096
+type(
+  Num.num
+)
+ident(
+  int_ref ppcm "smt/polynome.ml" 243 6988 6998 "smt/polynome.ml" 243 6988 7002
+)
+"smt/polynome.ml" 245 7066 7097 "smt/polynome.ml" 245 7066 7099
+type(
+  Num.num -> Num.num -> Num.num
+)
+ident(
+  ext_ref Num.( // )
+)
+"smt/polynome.ml" 245 7066 7100 "smt/polynome.ml" 245 7066 7104
+type(
+  Num.num
+)
+ident(
+  int_ref pgcd "smt/polynome.ml" 244 7028 7038 "smt/polynome.ml" 244 7028 7042
+)
+"smt/polynome.ml" 245 7066 7091 "smt/polynome.ml" 245 7066 7105
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 245 7066 7106 "smt/polynome.ml" 245 7066 7107
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 239 6868 6886 "smt/polynome.ml" 239 6868 6909
+)
+"smt/polynome.ml" 245 7066 7080 "smt/polynome.ml" 245 7066 7107
+call(
+  stack
+)
+type(
+  t
+)
+"smt/polynome.ml" 246 7111 7119 "smt/polynome.ml" 246 7111 7120
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 245 7066 7076 "smt/polynome.ml" 245 7066 7077
+)
+"smt/polynome.ml" 246 7111 7134 "smt/polynome.ml" 246 7111 7135
+type(
+  int
+)
+"smt/polynome.ml" 246 7111 7130 "smt/polynome.ml" 246 7111 7135
+type(
+  Num.num
+)
+"smt/polynome.ml" 246 7111 7117 "smt/polynome.ml" 246 7111 7137
+type(
+  t
+)
+"smt/polynome.ml" 246 7111 7139 "smt/polynome.ml" 246 7111 7140
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 245 7066 7076 "smt/polynome.ml" 245 7066 7077
+)
+"smt/polynome.ml" 246 7111 7139 "smt/polynome.ml" 246 7111 7142
+type(
+  Num.num
+)
+"smt/polynome.ml" 246 7111 7145 "smt/polynome.ml" 246 7111 7149
+type(
+  Num.num
+)
+ident(
+  int_ref pgcd "smt/polynome.ml" 244 7028 7038 "smt/polynome.ml" 244 7028 7042
+)
+"smt/polynome.ml" 246 7111 7150 "smt/polynome.ml" 246 7111 7152
+type(
+  Num.num -> Num.num -> Num.num
+)
+ident(
+  ext_ref Num.( // )
+)
+"smt/polynome.ml" 246 7111 7153 "smt/polynome.ml" 246 7111 7157
+type(
+  Num.num
+)
+ident(
+  int_ref ppcm "smt/polynome.ml" 243 6988 6998 "smt/polynome.ml" 243 6988 7002
+)
+"smt/polynome.ml" 246 7111 7144 "smt/polynome.ml" 246 7111 7158
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 246 7111 7117 "smt/polynome.ml" 246 7111 7158
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 245 7066 7072 "smt/polynome.ml" 246 7111 7158
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 244 7028 7034 "smt/polynome.ml" 246 7111 7158
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 243 6988 6994 "smt/polynome.ml" 246 7111 7158
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 240 6912 6916 "smt/polynome.ml" 246 7111 7158
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 248 7160 7166 "smt/polynome.ml" 248 7160 7181
+type(
+  t -> t * Num.num * Num.num
+)
+ident(
+  def normal_form_pos "smt/polynome.ml" 254 7353 7382 "smt/polynome.ml" 256 7384 7387
+)
+"smt/polynome.ml" 248 7160 7182 "smt/polynome.ml" 248 7160 7183
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 249 7186 7190 "smt/polynome.ml" 254 7353 7382
+)
+"smt/polynome.ml" 249 7186 7194 "smt/polynome.ml" 249 7186 7195
+type(
+  t
+)
+ident(
+  def p "smt/polynome.ml" 250 7221 7225 "smt/polynome.ml" 254 7353 7382
+)
+"smt/polynome.ml" 249 7186 7197 "smt/polynome.ml" 249 7186 7198
+type(
+  Num.num
+)
+ident(
+  def c "smt/polynome.ml" 250 7221 7225 "smt/polynome.ml" 254 7353 7382
+)
+"smt/polynome.ml" 249 7186 7200 "smt/polynome.ml" 249 7186 7201
+type(
+  Num.num
+)
+ident(
+  def d "smt/polynome.ml" 250 7221 7225 "smt/polynome.ml" 254 7353 7382
+)
+"smt/polynome.ml" 249 7186 7194 "smt/polynome.ml" 249 7186 7201
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 249 7186 7204 "smt/polynome.ml" 249 7186 7215
+type(
+  t -> t * Num.num * Num.num
+)
+ident(
+  int_ref normal_form "smt/polynome.ml" 239 6868 6874 "smt/polynome.ml" 239 6868 6885
+)
+"smt/polynome.ml" 249 7186 7216 "smt/polynome.ml" 249 7186 7217
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 248 7160 7182 "smt/polynome.ml" 248 7160 7183
+)
+"smt/polynome.ml" 249 7186 7204 "smt/polynome.ml" 249 7186 7217
+call(
+  stack
+)
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 251 7229 7239 "smt/polynome.ml" 251 7229 7240
+type(
+  Num.num
+)
+ident(
+  def a "smt/polynome.ml" 252 7257 7263 "smt/polynome.ml" 253 7292 7352
+)
+"smt/polynome.ml" 251 7229 7241 "smt/polynome.ml" 251 7229 7242
+type(
+  M.key
+)
+ident(
+  def x "smt/polynome.ml" 252 7257 7263 "smt/polynome.ml" 253 7292 7352
+)
+"smt/polynome.ml" 251 7229 7239 "smt/polynome.ml" 251 7229 7242
+type(
+  Num.num * M.key
+)
+"smt/polynome.ml" 251 7229 7245 "smt/polynome.ml" 251 7229 7251
+type(
+  t -> Num.num * M.key
+)
+ident(
+  int_ref choose "smt/polynome.ml" 172 5048 5054 "smt/polynome.ml" 172 5048 5060
+)
+"smt/polynome.ml" 251 7229 7252 "smt/polynome.ml" 251 7229 7253
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 249 7186 7194 "smt/polynome.ml" 249 7186 7195
+)
+"smt/polynome.ml" 251 7229 7245 "smt/polynome.ml" 251 7229 7253
+call(
+  stack
+)
+type(
+  Num.num * M.key
+)
+"smt/polynome.ml" 252 7257 7266 "smt/polynome.ml" 252 7257 7267
+type(
+  Num.num
+)
+ident(
+  int_ref a "smt/polynome.ml" 251 7229 7239 "smt/polynome.ml" 251 7229 7240
+)
+"smt/polynome.ml" 252 7257 7268 "smt/polynome.ml" 252 7257 7270
+type(
+  Num.num -> Num.num -> bool
+)
+ident(
+  ext_ref Num.( >/ )
+)
+"smt/polynome.ml" 252 7257 7276 "smt/polynome.ml" 252 7257 7277
+type(
+  int
+)
+"smt/polynome.ml" 252 7257 7271 "smt/polynome.ml" 252 7257 7278
+type(
+  Num.num
+)
+"smt/polynome.ml" 252 7257 7266 "smt/polynome.ml" 252 7257 7278
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/polynome.ml" 252 7257 7284 "smt/polynome.ml" 252 7257 7285
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 249 7186 7194 "smt/polynome.ml" 249 7186 7195
+)
+"smt/polynome.ml" 252 7257 7287 "smt/polynome.ml" 252 7257 7288
+type(
+  Num.num
+)
+ident(
+  int_ref c "smt/polynome.ml" 249 7186 7197 "smt/polynome.ml" 249 7186 7198
+)
+"smt/polynome.ml" 252 7257 7290 "smt/polynome.ml" 252 7257 7291
+type(
+  Num.num
+)
+ident(
+  int_ref d "smt/polynome.ml" 249 7186 7200 "smt/polynome.ml" 249 7186 7201
+)
+"smt/polynome.ml" 252 7257 7284 "smt/polynome.ml" 252 7257 7291
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 253 7292 7303 "smt/polynome.ml" 253 7292 7313
+type(
+  Num.num -> t -> t
+)
+ident(
+  int_ref mult_const "smt/polynome.ml" 126 3713 3719 "smt/polynome.ml" 126 3713 3729
+)
+"smt/polynome.ml" 253 7292 7319 "smt/polynome.ml" 253 7292 7323
+type(
+  int
+)
+"smt/polynome.ml" 253 7292 7314 "smt/polynome.ml" 253 7292 7324
+type(
+  Num.num
+)
+"smt/polynome.ml" 253 7292 7325 "smt/polynome.ml" 253 7292 7326
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 249 7186 7194 "smt/polynome.ml" 249 7186 7195
+)
+"smt/polynome.ml" 253 7292 7303 "smt/polynome.ml" 253 7292 7326
+call(
+  stack
+)
+type(
+  t
+)
+"smt/polynome.ml" 253 7292 7328 "smt/polynome.ml" 253 7292 7337
+type(
+  Num.num -> Num.num
+)
+ident(
+  ext_ref Num.minus_num
+)
+"smt/polynome.ml" 253 7292 7338 "smt/polynome.ml" 253 7292 7339
+type(
+  Num.num
+)
+ident(
+  int_ref c "smt/polynome.ml" 249 7186 7197 "smt/polynome.ml" 249 7186 7198
+)
+"smt/polynome.ml" 253 7292 7328 "smt/polynome.ml" 253 7292 7339
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 253 7292 7341 "smt/polynome.ml" 253 7292 7350
+type(
+  Num.num -> Num.num
+)
+ident(
+  ext_ref Num.minus_num
+)
+"smt/polynome.ml" 253 7292 7351 "smt/polynome.ml" 253 7292 7352
+type(
+  Num.num
+)
+ident(
+  int_ref d "smt/polynome.ml" 249 7186 7200 "smt/polynome.ml" 249 7186 7201
+)
+"smt/polynome.ml" 253 7292 7341 "smt/polynome.ml" 253 7292 7352
+call(
+  stack
+)
+type(
+  Num.num
+)
+"smt/polynome.ml" 253 7292 7303 "smt/polynome.ml" 253 7292 7352
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 252 7257 7263 "smt/polynome.ml" 253 7292 7352
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 251 7229 7235 "smt/polynome.ml" 253 7292 7352
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 254 7353 7362 "smt/polynome.ml" 254 7353 7371
+type(
+  exn
+)
+"smt/polynome.ml" 254 7353 7375 "smt/polynome.ml" 254 7353 7376
+type(
+  t
+)
+ident(
+  int_ref p "smt/polynome.ml" 249 7186 7194 "smt/polynome.ml" 249 7186 7195
+)
+"smt/polynome.ml" 254 7353 7378 "smt/polynome.ml" 254 7353 7379
+type(
+  Num.num
+)
+ident(
+  int_ref c "smt/polynome.ml" 249 7186 7197 "smt/polynome.ml" 249 7186 7198
+)
+"smt/polynome.ml" 254 7353 7381 "smt/polynome.ml" 254 7353 7382
+type(
+  Num.num
+)
+ident(
+  int_ref d "smt/polynome.ml" 249 7186 7200 "smt/polynome.ml" 249 7186 7201
+)
+"smt/polynome.ml" 254 7353 7375 "smt/polynome.ml" 254 7353 7382
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 250 7221 7225 "smt/polynome.ml" 254 7353 7382
+type(
+  t * Num.num * Num.num
+)
+"smt/polynome.ml" 249 7186 7190 "smt/polynome.ml" 254 7353 7382
+type(
+  t * Num.num * Num.num
+)

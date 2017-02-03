@@ -1,0 +1,643 @@
+"common/heap.ml" 38 1277 1283 "common/heap.ml" 38 1277 1288
+type(
+  t
+)
+ident(
+  def empty "common/heap.ml" 40 1298 1300 "common/heap.ml" 62 1907 1910
+)
+"common/heap.ml" 38 1277 1291 "common/heap.ml" 38 1277 1296
+type(
+  t
+)
+"common/heap.ml" 40 1298 1308 "common/heap.ml" 40 1298 1314
+type(
+  t -> t -> t
+)
+ident(
+  def fusion "common/heap.ml" 40 1298 1300 "common/heap.ml" 62 1907 1910
+)
+"common/heap.ml" 40 1298 1315 "common/heap.ml" 40 1298 1317
+type(
+  t
+)
+ident(
+  def t1 "common/heap.ml" 40 1298 1318 "common/heap.ml" 46 1502 1537
+)
+"common/heap.ml" 40 1298 1318 "common/heap.ml" 40 1298 1320
+type(
+  t
+)
+ident(
+  def t2 "common/heap.ml" 41 1324 1328 "common/heap.ml" 46 1502 1537
+)
+"common/heap.ml" 41 1324 1334 "common/heap.ml" 41 1324 1336
+type(
+  t
+)
+ident(
+  int_ref t1 "common/heap.ml" 40 1298 1315 "common/heap.ml" 40 1298 1317
+)
+"common/heap.ml" 41 1324 1338 "common/heap.ml" 41 1324 1340
+type(
+  t
+)
+ident(
+  int_ref t2 "common/heap.ml" 40 1298 1318 "common/heap.ml" 40 1298 1320
+)
+"common/heap.ml" 41 1324 1334 "common/heap.ml" 41 1324 1340
+type(
+  t * t
+)
+"common/heap.ml" 42 1346 1354 "common/heap.ml" 42 1346 1355
+type(
+  t
+)
+"common/heap.ml" 42 1346 1358 "common/heap.ml" 42 1346 1363
+type(
+  t
+)
+"common/heap.ml" 42 1346 1354 "common/heap.ml" 42 1346 1363
+type(
+  t * t
+)
+"common/heap.ml" 42 1346 1367 "common/heap.ml" 42 1346 1369
+type(
+  t
+)
+ident(
+  int_ref t1 "common/heap.ml" 40 1298 1315 "common/heap.ml" 40 1298 1317
+)
+"common/heap.ml" 43 1370 1378 "common/heap.ml" 43 1370 1383
+type(
+  t
+)
+"common/heap.ml" 43 1370 1386 "common/heap.ml" 43 1370 1387
+type(
+  t
+)
+"common/heap.ml" 43 1370 1378 "common/heap.ml" 43 1370 1387
+type(
+  t * t
+)
+"common/heap.ml" 43 1370 1391 "common/heap.ml" 43 1370 1393
+type(
+  t
+)
+ident(
+  int_ref t2 "common/heap.ml" 40 1298 1318 "common/heap.ml" 40 1298 1320
+)
+"common/heap.ml" 44 1394 1408 "common/heap.ml" 44 1394 1410
+type(
+  elem
+)
+ident(
+  def m1 "common/heap.ml" 45 1442 1445 "common/heap.ml" 46 1502 1537
+)
+"common/heap.ml" 44 1394 1412 "common/heap.ml" 44 1394 1414
+type(
+  t
+)
+ident(
+  def g1 "common/heap.ml" 45 1442 1445 "common/heap.ml" 46 1502 1537
+)
+"common/heap.ml" 44 1394 1416 "common/heap.ml" 44 1394 1418
+type(
+  t
+)
+ident(
+  def d1 "common/heap.ml" 45 1442 1445 "common/heap.ml" 46 1502 1537
+)
+"common/heap.ml" 44 1394 1402 "common/heap.ml" 44 1394 1419
+type(
+  t
+)
+"common/heap.ml" 44 1394 1427 "common/heap.ml" 44 1394 1429
+type(
+  elem
+)
+ident(
+  def m2 "common/heap.ml" 45 1442 1445 "common/heap.ml" 46 1502 1537
+)
+"common/heap.ml" 44 1394 1431 "common/heap.ml" 44 1394 1433
+type(
+  t
+)
+ident(
+  def g2 "common/heap.ml" 45 1442 1445 "common/heap.ml" 46 1502 1537
+)
+"common/heap.ml" 44 1394 1435 "common/heap.ml" 44 1394 1437
+type(
+  t
+)
+ident(
+  def d2 "common/heap.ml" 45 1442 1445 "common/heap.ml" 46 1502 1537
+)
+"common/heap.ml" 44 1394 1421 "common/heap.ml" 44 1394 1438
+type(
+  t
+)
+"common/heap.ml" 44 1394 1402 "common/heap.ml" 44 1394 1438
+type(
+  t * t
+)
+"common/heap.ml" 45 1442 1448 "common/heap.ml" 45 1442 1457
+type(
+  elem -> elem -> int
+)
+ident(
+  int_ref X.compare "common/heap.ml" 19 984 986 "common/heap.ml" 19 984 1013
+)
+"common/heap.ml" 45 1442 1458 "common/heap.ml" 45 1442 1460
+type(
+  elem
+)
+ident(
+  int_ref m1 "common/heap.ml" 44 1394 1408 "common/heap.ml" 44 1394 1410
+)
+"common/heap.ml" 45 1442 1461 "common/heap.ml" 45 1442 1463
+type(
+  elem
+)
+ident(
+  int_ref m2 "common/heap.ml" 44 1394 1427 "common/heap.ml" 44 1394 1429
+)
+"common/heap.ml" 45 1442 1448 "common/heap.ml" 45 1442 1463
+call(
+  stack
+)
+type(
+  int
+)
+"common/heap.ml" 45 1442 1464 "common/heap.ml" 45 1442 1466
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"common/heap.ml" 45 1442 1467 "common/heap.ml" 45 1442 1468
+type(
+  int
+)
+"common/heap.ml" 45 1442 1448 "common/heap.ml" 45 1442 1468
+type(
+  bool
+)
+"common/heap.ml" 45 1442 1480 "common/heap.ml" 45 1442 1482
+type(
+  elem
+)
+ident(
+  int_ref m1 "common/heap.ml" 44 1394 1408 "common/heap.ml" 44 1394 1410
+)
+"common/heap.ml" 45 1442 1484 "common/heap.ml" 45 1442 1486
+type(
+  t
+)
+ident(
+  int_ref d1 "common/heap.ml" 44 1394 1416 "common/heap.ml" 44 1394 1418
+)
+"common/heap.ml" 45 1442 1488 "common/heap.ml" 45 1442 1494
+type(
+  t -> t -> t
+)
+ident(
+  int_ref fusion "common/heap.ml" 40 1298 1308 "common/heap.ml" 40 1298 1314
+)
+"common/heap.ml" 45 1442 1495 "common/heap.ml" 45 1442 1497
+type(
+  t
+)
+ident(
+  int_ref g1 "common/heap.ml" 44 1394 1412 "common/heap.ml" 44 1394 1414
+)
+"common/heap.ml" 45 1442 1498 "common/heap.ml" 45 1442 1500
+type(
+  t
+)
+ident(
+  int_ref t2 "common/heap.ml" 40 1298 1318 "common/heap.ml" 40 1298 1320
+)
+"common/heap.ml" 45 1442 1488 "common/heap.ml" 45 1442 1500
+call(
+  stack
+)
+type(
+  t
+)
+"common/heap.ml" 45 1442 1474 "common/heap.ml" 45 1442 1501
+type(
+  t
+)
+"common/heap.ml" 46 1502 1516 "common/heap.ml" 46 1502 1518
+type(
+  elem
+)
+ident(
+  int_ref m2 "common/heap.ml" 44 1394 1427 "common/heap.ml" 44 1394 1429
+)
+"common/heap.ml" 46 1502 1520 "common/heap.ml" 46 1502 1522
+type(
+  t
+)
+ident(
+  int_ref d2 "common/heap.ml" 44 1394 1435 "common/heap.ml" 44 1394 1437
+)
+"common/heap.ml" 46 1502 1524 "common/heap.ml" 46 1502 1530
+type(
+  t -> t -> t
+)
+ident(
+  int_ref fusion "common/heap.ml" 40 1298 1308 "common/heap.ml" 40 1298 1314
+)
+"common/heap.ml" 46 1502 1531 "common/heap.ml" 46 1502 1533
+type(
+  t
+)
+ident(
+  int_ref g2 "common/heap.ml" 44 1394 1431 "common/heap.ml" 44 1394 1433
+)
+"common/heap.ml" 46 1502 1534 "common/heap.ml" 46 1502 1536
+type(
+  t
+)
+ident(
+  int_ref t1 "common/heap.ml" 40 1298 1315 "common/heap.ml" 40 1298 1317
+)
+"common/heap.ml" 46 1502 1524 "common/heap.ml" 46 1502 1536
+call(
+  stack
+)
+type(
+  t
+)
+"common/heap.ml" 46 1502 1510 "common/heap.ml" 46 1502 1537
+type(
+  t
+)
+"common/heap.ml" 45 1442 1445 "common/heap.ml" 46 1502 1537
+type(
+  t
+)
+"common/heap.ml" 41 1324 1328 "common/heap.ml" 46 1502 1537
+type(
+  t
+)
+"common/heap.ml" 48 1544 1550 "common/heap.ml" 48 1544 1553
+type(
+  t -> elem * t
+)
+ident(
+  def pop "common/heap.ml" 52 1635 1637 "common/heap.ml" 62 1907 1910
+)
+"common/heap.ml" 49 1565 1571 "common/heap.ml" 49 1565 1576
+type(
+  t
+)
+"common/heap.ml" 49 1565 1580 "common/heap.ml" 49 1565 1585
+type(
+  exn -> elem * t
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"common/heap.ml" 49 1565 1586 "common/heap.ml" 49 1565 1595
+type(
+  exn
+)
+"common/heap.ml" 49 1565 1580 "common/heap.ml" 49 1565 1595
+type(
+  elem * t
+)
+"common/heap.ml" 50 1596 1607 "common/heap.ml" 50 1596 1608
+type(
+  elem
+)
+ident(
+  def m "common/heap.ml" 50 1596 1619 "common/heap.ml" 50 1596 1632
+)
+"common/heap.ml" 50 1596 1610 "common/heap.ml" 50 1596 1611
+type(
+  t
+)
+ident(
+  def g "common/heap.ml" 50 1596 1619 "common/heap.ml" 50 1596 1632
+)
+"common/heap.ml" 50 1596 1613 "common/heap.ml" 50 1596 1614
+type(
+  t
+)
+ident(
+  def d "common/heap.ml" 50 1596 1619 "common/heap.ml" 50 1596 1632
+)
+"common/heap.ml" 50 1596 1602 "common/heap.ml" 50 1596 1615
+type(
+  t
+)
+"common/heap.ml" 50 1596 1619 "common/heap.ml" 50 1596 1620
+type(
+  elem
+)
+ident(
+  int_ref m "common/heap.ml" 50 1596 1607 "common/heap.ml" 50 1596 1608
+)
+"common/heap.ml" 50 1596 1622 "common/heap.ml" 50 1596 1628
+type(
+  t -> t -> t
+)
+ident(
+  int_ref fusion "common/heap.ml" 40 1298 1308 "common/heap.ml" 40 1298 1314
+)
+"common/heap.ml" 50 1596 1629 "common/heap.ml" 50 1596 1630
+type(
+  t
+)
+ident(
+  int_ref g "common/heap.ml" 50 1596 1610 "common/heap.ml" 50 1596 1611
+)
+"common/heap.ml" 50 1596 1631 "common/heap.ml" 50 1596 1632
+type(
+  t
+)
+ident(
+  int_ref d "common/heap.ml" 50 1596 1613 "common/heap.ml" 50 1596 1614
+)
+"common/heap.ml" 50 1596 1622 "common/heap.ml" 50 1596 1632
+call(
+  stack
+)
+type(
+  t
+)
+"common/heap.ml" 50 1596 1619 "common/heap.ml" 50 1596 1632
+type(
+  elem * t
+)
+"common/heap.ml" 48 1544 1556 "common/heap.ml" 50 1596 1632
+type(
+  t -> elem * t
+)
+"common/heap.ml" 52 1635 1641 "common/heap.ml" 52 1635 1644
+type(
+  t -> elem list -> t
+)
+ident(
+  def add "common/heap.ml" 55 1727 1729 "common/heap.ml" 62 1907 1910
+)
+"common/heap.ml" 52 1635 1645 "common/heap.ml" 52 1635 1646
+type(
+  t
+)
+ident(
+  def h "common/heap.ml" 52 1635 1647 "common/heap.ml" 53 1652 1721
+)
+"common/heap.ml" 52 1635 1647 "common/heap.ml" 52 1635 1648
+type(
+  elem list
+)
+ident(
+  def l "common/heap.ml" 53 1652 1656 "common/heap.ml" 53 1652 1721
+)
+"common/heap.ml" 53 1652 1656 "common/heap.ml" 53 1652 1670
+type(
+  (t -> elem -> t) -> t -> elem list -> t
+)
+ident(
+  ext_ref List.fold_left
+)
+"common/heap.ml" 53 1652 1676 "common/heap.ml" 53 1652 1677
+type(
+  t
+)
+ident(
+  def h "common/heap.ml" 53 1652 1678 "common/heap.ml" 53 1652 1715
+)
+"common/heap.ml" 53 1652 1678 "common/heap.ml" 53 1652 1679
+type(
+  elem
+)
+ident(
+  def x "common/heap.ml" 53 1652 1683 "common/heap.ml" 53 1652 1715
+)
+"common/heap.ml" 53 1652 1683 "common/heap.ml" 53 1652 1689
+type(
+  t -> t -> t
+)
+ident(
+  int_ref fusion "common/heap.ml" 40 1298 1308 "common/heap.ml" 40 1298 1314
+)
+"common/heap.ml" 53 1652 1696 "common/heap.ml" 53 1652 1697
+type(
+  elem
+)
+ident(
+  int_ref x "common/heap.ml" 53 1652 1678 "common/heap.ml" 53 1652 1679
+)
+"common/heap.ml" 53 1652 1699 "common/heap.ml" 53 1652 1704
+type(
+  t
+)
+"common/heap.ml" 53 1652 1706 "common/heap.ml" 53 1652 1711
+type(
+  t
+)
+"common/heap.ml" 53 1652 1690 "common/heap.ml" 53 1652 1713
+type(
+  t
+)
+"common/heap.ml" 53 1652 1714 "common/heap.ml" 53 1652 1715
+type(
+  t
+)
+ident(
+  int_ref h "common/heap.ml" 53 1652 1676 "common/heap.ml" 53 1652 1677
+)
+"common/heap.ml" 53 1652 1683 "common/heap.ml" 53 1652 1715
+call(
+  tail
+)
+type(
+  t
+)
+"common/heap.ml" 53 1652 1671 "common/heap.ml" 53 1652 1717
+type(
+  t -> elem -> t
+)
+"common/heap.ml" 53 1652 1718 "common/heap.ml" 53 1652 1719
+type(
+  t
+)
+ident(
+  int_ref h "common/heap.ml" 52 1635 1645 "common/heap.ml" 52 1635 1646
+)
+"common/heap.ml" 53 1652 1720 "common/heap.ml" 53 1652 1721
+type(
+  elem list
+)
+ident(
+  int_ref l "common/heap.ml" 52 1635 1647 "common/heap.ml" 52 1635 1648
+)
+"common/heap.ml" 53 1652 1656 "common/heap.ml" 53 1652 1721
+call(
+  tail
+)
+type(
+  t
+)
+"common/heap.ml" 55 1727 1733 "common/heap.ml" 55 1727 1741
+type(
+  t -> elem list
+)
+ident(
+  def elements "common/heap.ml" 60 1884 1905 "common/heap.ml" 62 1907 1910
+)
+"common/heap.ml" 55 1727 1742 "common/heap.ml" 55 1727 1743
+type(
+  t
+)
+ident(
+  def h "common/heap.ml" 56 1747 1751 "common/heap.ml" 60 1884 1905
+)
+"common/heap.ml" 56 1747 1759 "common/heap.ml" 56 1747 1771
+type(
+  elem list -> t -> elem list
+)
+ident(
+  def elements_aux "common/heap.ml" 56 1747 1751 "common/heap.ml" 60 1884 1905
+)
+"common/heap.ml" 56 1747 1772 "common/heap.ml" 56 1747 1775
+type(
+  elem list
+)
+ident(
+  def acc "common/heap.ml" 56 1747 1778 "common/heap.ml" 58 1808 1876
+)
+"common/heap.ml" 57 1787 1795 "common/heap.ml" 57 1787 1800
+type(
+  t
+)
+"common/heap.ml" 57 1787 1804 "common/heap.ml" 57 1787 1807
+type(
+  elem list
+)
+ident(
+  int_ref acc "common/heap.ml" 56 1747 1772 "common/heap.ml" 56 1747 1775
+)
+"common/heap.ml" 58 1808 1822 "common/heap.ml" 58 1808 1824
+type(
+  elem
+)
+ident(
+  def m1 "common/heap.ml" 58 1808 1837 "common/heap.ml" 58 1808 1876
+)
+"common/heap.ml" 58 1808 1826 "common/heap.ml" 58 1808 1828
+type(
+  t
+)
+ident(
+  def g1 "common/heap.ml" 58 1808 1837 "common/heap.ml" 58 1808 1876
+)
+"common/heap.ml" 58 1808 1830 "common/heap.ml" 58 1808 1832
+type(
+  t
+)
+ident(
+  def d1 "common/heap.ml" 58 1808 1837 "common/heap.ml" 58 1808 1876
+)
+"common/heap.ml" 58 1808 1816 "common/heap.ml" 58 1808 1833
+type(
+  t
+)
+"common/heap.ml" 58 1808 1837 "common/heap.ml" 58 1808 1849
+type(
+  elem list -> t -> elem list
+)
+ident(
+  int_ref elements_aux "common/heap.ml" 56 1747 1759 "common/heap.ml" 56 1747 1771
+)
+"common/heap.ml" 58 1808 1851 "common/heap.ml" 58 1808 1853
+type(
+  elem
+)
+ident(
+  int_ref m1 "common/heap.ml" 58 1808 1822 "common/heap.ml" 58 1808 1824
+)
+"common/heap.ml" 58 1808 1857 "common/heap.ml" 58 1808 1860
+type(
+  elem list
+)
+ident(
+  int_ref acc "common/heap.ml" 56 1747 1772 "common/heap.ml" 56 1747 1775
+)
+"common/heap.ml" 58 1808 1850 "common/heap.ml" 58 1808 1861
+type(
+  elem list
+)
+"common/heap.ml" 58 1808 1863 "common/heap.ml" 58 1808 1869
+type(
+  t -> t -> t
+)
+ident(
+  int_ref fusion "common/heap.ml" 40 1298 1308 "common/heap.ml" 40 1298 1314
+)
+"common/heap.ml" 58 1808 1870 "common/heap.ml" 58 1808 1872
+type(
+  t
+)
+ident(
+  int_ref g1 "common/heap.ml" 58 1808 1826 "common/heap.ml" 58 1808 1828
+)
+"common/heap.ml" 58 1808 1873 "common/heap.ml" 58 1808 1875
+type(
+  t
+)
+ident(
+  int_ref d1 "common/heap.ml" 58 1808 1830 "common/heap.ml" 58 1808 1832
+)
+"common/heap.ml" 58 1808 1862 "common/heap.ml" 58 1808 1876
+call(
+  stack
+)
+type(
+  t
+)
+"common/heap.ml" 58 1808 1837 "common/heap.ml" 58 1808 1876
+call(
+  tail
+)
+type(
+  elem list
+)
+"common/heap.ml" 56 1747 1778 "common/heap.ml" 58 1808 1876
+type(
+  t -> elem list
+)
+"common/heap.ml" 60 1884 1888 "common/heap.ml" 60 1884 1900
+type(
+  elem list -> t -> elem list
+)
+ident(
+  int_ref elements_aux "common/heap.ml" 56 1747 1759 "common/heap.ml" 56 1747 1771
+)
+"common/heap.ml" 60 1884 1901 "common/heap.ml" 60 1884 1903
+type(
+  elem list
+)
+"common/heap.ml" 60 1884 1904 "common/heap.ml" 60 1884 1905
+type(
+  t
+)
+ident(
+  int_ref h "common/heap.ml" 55 1727 1742 "common/heap.ml" 55 1727 1743
+)
+"common/heap.ml" 60 1884 1888 "common/heap.ml" 60 1884 1905
+call(
+  tail
+)
+type(
+  elem list
+)
+"common/heap.ml" 56 1747 1751 "common/heap.ml" 60 1884 1905
+type(
+  elem list
+)

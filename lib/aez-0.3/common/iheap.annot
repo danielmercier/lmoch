@@ -1,0 +1,3475 @@
+"common/iheap.ml" 16 980 984 "common/iheap.ml" 16 980 989
+type(
+  int
+)
+ident(
+  def dummy "common/iheap.ml" 18 998 998 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 16 980 992 "common/iheap.ml" 16 980 996
+type(
+  int
+)
+"common/iheap.ml" 18 998 1002 "common/iheap.ml" 18 998 1006
+type(
+  int -> t
+)
+ident(
+  def init "common/iheap.ml" 22 1112 1112 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 18 998 1007 "common/iheap.ml" 18 998 1009
+type(
+  int
+)
+ident(
+  def sz "common/iheap.ml" 19 1013 1015 "common/iheap.ml" 20 1060 1106
+)
+"common/iheap.ml" 19 1013 1028 "common/iheap.ml" 19 1013 1036
+type(
+  int -> (int -> int) -> int -> int Vec.t
+)
+ident(
+  ext_ref Vec.init
+)
+"common/iheap.ml" 19 1013 1037 "common/iheap.ml" 19 1013 1039
+type(
+  int
+)
+ident(
+  int_ref sz "common/iheap.ml" 18 998 1007 "common/iheap.ml" 18 998 1009
+)
+"common/iheap.ml" 19 1013 1045 "common/iheap.ml" 19 1013 1046
+type(
+  int
+)
+ident(
+  def i "common/iheap.ml" 19 1013 1050 "common/iheap.ml" 19 1013 1051
+)
+"common/iheap.ml" 19 1013 1050 "common/iheap.ml" 19 1013 1051
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 19 1013 1045 "common/iheap.ml" 19 1013 1046
+)
+"common/iheap.ml" 19 1013 1040 "common/iheap.ml" 19 1013 1052
+type(
+  int -> int
+)
+"common/iheap.ml" 19 1013 1053 "common/iheap.ml" 19 1013 1058
+type(
+  int
+)
+ident(
+  int_ref dummy "common/iheap.ml" 16 980 984 "common/iheap.ml" 16 980 989
+)
+"common/iheap.ml" 19 1013 1028 "common/iheap.ml" 19 1013 1058
+call(
+  stack
+)
+type(
+  int Vec.t
+)
+"common/iheap.ml" 20 1060 1075 "common/iheap.ml" 20 1060 1083
+type(
+  int -> (int -> int) -> int -> int Vec.t
+)
+ident(
+  ext_ref Vec.init
+)
+"common/iheap.ml" 20 1060 1084 "common/iheap.ml" 20 1060 1086
+type(
+  int
+)
+ident(
+  int_ref sz "common/iheap.ml" 18 998 1007 "common/iheap.ml" 18 998 1009
+)
+"common/iheap.ml" 20 1060 1092 "common/iheap.ml" 20 1060 1093
+type(
+  int
+)
+ident(
+  def i "common/iheap.ml" 20 1060 1097 "common/iheap.ml" 20 1060 1098
+)
+"common/iheap.ml" 20 1060 1097 "common/iheap.ml" 20 1060 1098
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 20 1060 1092 "common/iheap.ml" 20 1060 1093
+)
+"common/iheap.ml" 20 1060 1087 "common/iheap.ml" 20 1060 1099
+type(
+  int -> int
+)
+"common/iheap.ml" 20 1060 1100 "common/iheap.ml" 20 1060 1105
+type(
+  int
+)
+ident(
+  int_ref dummy "common/iheap.ml" 16 980 984 "common/iheap.ml" 16 980 989
+)
+"common/iheap.ml" 20 1060 1075 "common/iheap.ml" 20 1060 1105
+call(
+  stack
+)
+type(
+  int Vec.t
+)
+"common/iheap.ml" 19 1013 1015 "common/iheap.ml" 20 1060 1106
+type(
+  t
+)
+"common/iheap.ml" 22 1112 1116 "common/iheap.ml" 22 1112 1120
+type(
+  int -> int
+)
+ident(
+  def left "common/iheap.ml" 23 1155 1155 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 22 1112 1121 "common/iheap.ml" 22 1112 1122
+type(
+  int
+)
+ident(
+  def i "common/iheap.ml" 22 1112 1127 "common/iheap.ml" 22 1112 1140
+)
+"common/iheap.ml" 22 1112 1128 "common/iheap.ml" 22 1112 1129
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 22 1112 1121 "common/iheap.ml" 22 1112 1122
+)
+"common/iheap.ml" 22 1112 1130 "common/iheap.ml" 22 1112 1133
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"common/iheap.ml" 22 1112 1134 "common/iheap.ml" 22 1112 1135
+type(
+  int
+)
+"common/iheap.ml" 22 1112 1127 "common/iheap.ml" 22 1112 1136
+type(
+  int
+)
+"common/iheap.ml" 22 1112 1137 "common/iheap.ml" 22 1112 1138
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"common/iheap.ml" 22 1112 1139 "common/iheap.ml" 22 1112 1140
+type(
+  int
+)
+"common/iheap.ml" 22 1112 1127 "common/iheap.ml" 22 1112 1140
+type(
+  int
+)
+"common/iheap.ml" 23 1155 1159 "common/iheap.ml" 23 1155 1164
+type(
+  int -> int
+)
+ident(
+  def right "common/iheap.ml" 24 1198 1198 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 23 1155 1165 "common/iheap.ml" 23 1155 1166
+type(
+  int
+)
+ident(
+  def i "common/iheap.ml" 23 1155 1170 "common/iheap.ml" 23 1155 1183
+)
+"common/iheap.ml" 23 1155 1171 "common/iheap.ml" 23 1155 1172
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 23 1155 1165 "common/iheap.ml" 23 1155 1166
+)
+"common/iheap.ml" 23 1155 1173 "common/iheap.ml" 23 1155 1174
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"common/iheap.ml" 23 1155 1175 "common/iheap.ml" 23 1155 1176
+type(
+  int
+)
+"common/iheap.ml" 23 1155 1170 "common/iheap.ml" 23 1155 1177
+type(
+  int
+)
+"common/iheap.ml" 23 1155 1178 "common/iheap.ml" 23 1155 1181
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( lsl )
+)
+"common/iheap.ml" 23 1155 1182 "common/iheap.ml" 23 1155 1183
+type(
+  int
+)
+"common/iheap.ml" 23 1155 1170 "common/iheap.ml" 23 1155 1183
+type(
+  int
+)
+"common/iheap.ml" 24 1198 1202 "common/iheap.ml" 24 1198 1208
+type(
+  int -> int
+)
+ident(
+  def parent "common/iheap.ml" 35 1524 1524 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 24 1198 1209 "common/iheap.ml" 24 1198 1210
+type(
+  int
+)
+ident(
+  def i "common/iheap.ml" 24 1198 1213 "common/iheap.ml" 24 1198 1226
+)
+"common/iheap.ml" 24 1198 1214 "common/iheap.ml" 24 1198 1215
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 24 1198 1209 "common/iheap.ml" 24 1198 1210
+)
+"common/iheap.ml" 24 1198 1216 "common/iheap.ml" 24 1198 1217
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"common/iheap.ml" 24 1198 1218 "common/iheap.ml" 24 1198 1219
+type(
+  int
+)
+"common/iheap.ml" 24 1198 1213 "common/iheap.ml" 24 1198 1220
+type(
+  int
+)
+"common/iheap.ml" 24 1198 1221 "common/iheap.ml" 24 1198 1224
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( asr )
+)
+"common/iheap.ml" 24 1198 1225 "common/iheap.ml" 24 1198 1226
+type(
+  int
+)
+"common/iheap.ml" 24 1198 1213 "common/iheap.ml" 24 1198 1226
+type(
+  int
+)
+"common/iheap.ml" 35 1524 1528 "common/iheap.ml" 35 1524 1540
+type(
+  (int -> int -> bool) -> t -> int -> unit
+)
+ident(
+  def percolate_up "common/iheap.ml" 48 1871 1871 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 35 1524 1541 "common/iheap.ml" 35 1524 1544
+type(
+  int -> int -> bool
+)
+ident(
+  def cmp "common/iheap.ml" 35 1524 1545 "common/iheap.ml" 46 1847 1869
+)
+"common/iheap.ml" 35 1524 1551 "common/iheap.ml" 35 1524 1555
+type(
+  int Vec.t
+)
+ident(
+  def heap "common/iheap.ml" 35 1524 1573 "common/iheap.ml" 46 1847 1869
+)
+"common/iheap.ml" 35 1524 1564 "common/iheap.ml" 35 1524 1571
+type(
+  int Vec.t
+)
+ident(
+  def indices "common/iheap.ml" 35 1524 1573 "common/iheap.ml" 46 1847 1869
+)
+"common/iheap.ml" 35 1524 1545 "common/iheap.ml" 35 1524 1572
+type(
+  t
+)
+"common/iheap.ml" 35 1524 1573 "common/iheap.ml" 35 1524 1574
+type(
+  int
+)
+ident(
+  def i "common/iheap.ml" 36 1578 1580 "common/iheap.ml" 46 1847 1869
+)
+"common/iheap.ml" 36 1578 1584 "common/iheap.ml" 36 1578 1585
+type(
+  int
+)
+ident(
+  def x "common/iheap.ml" 37 1606 1608 "common/iheap.ml" 46 1847 1869
+)
+"common/iheap.ml" 36 1578 1588 "common/iheap.ml" 36 1578 1595
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 36 1578 1596 "common/iheap.ml" 36 1578 1600
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 35 1524 1551 "common/iheap.ml" 35 1524 1555
+)
+"common/iheap.ml" 36 1578 1601 "common/iheap.ml" 36 1578 1602
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 35 1524 1573 "common/iheap.ml" 35 1524 1574
+)
+"common/iheap.ml" 36 1578 1588 "common/iheap.ml" 36 1578 1602
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 37 1606 1612 "common/iheap.ml" 37 1606 1614
+type(
+  int ref
+)
+ident(
+  def pi "common/iheap.ml" 38 1635 1637 "common/iheap.ml" 46 1847 1869
+)
+"common/iheap.ml" 37 1606 1617 "common/iheap.ml" 37 1606 1620
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"common/iheap.ml" 37 1606 1622 "common/iheap.ml" 37 1606 1628
+type(
+  int -> int
+)
+ident(
+  int_ref parent "common/iheap.ml" 24 1198 1202 "common/iheap.ml" 24 1198 1208
+)
+"common/iheap.ml" 37 1606 1629 "common/iheap.ml" 37 1606 1630
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 35 1524 1573 "common/iheap.ml" 35 1524 1574
+)
+"common/iheap.ml" 37 1606 1621 "common/iheap.ml" 37 1606 1631
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 37 1606 1617 "common/iheap.ml" 37 1606 1631
+type(
+  int ref
+)
+"common/iheap.ml" 38 1635 1641 "common/iheap.ml" 38 1635 1642
+type(
+  int ref
+)
+ident(
+  def i "common/iheap.ml" 39 1654 1656 "common/iheap.ml" 46 1847 1869
+)
+"common/iheap.ml" 38 1635 1645 "common/iheap.ml" 38 1635 1648
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"common/iheap.ml" 38 1635 1649 "common/iheap.ml" 38 1635 1650
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 35 1524 1573 "common/iheap.ml" 35 1524 1574
+)
+"common/iheap.ml" 38 1635 1645 "common/iheap.ml" 38 1635 1650
+type(
+  int ref
+)
+"common/iheap.ml" 39 1654 1662 "common/iheap.ml" 39 1654 1663
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 39 1654 1663 "common/iheap.ml" 39 1654 1664
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 38 1635 1641 "common/iheap.ml" 38 1635 1642
+)
+"common/iheap.ml" 39 1654 1662 "common/iheap.ml" 39 1654 1664
+type(
+  int
+)
+"common/iheap.ml" 39 1654 1665 "common/iheap.ml" 39 1654 1667
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"common/iheap.ml" 39 1654 1668 "common/iheap.ml" 39 1654 1669
+type(
+  int
+)
+"common/iheap.ml" 39 1654 1662 "common/iheap.ml" 39 1654 1669
+type(
+  bool
+)
+"common/iheap.ml" 39 1654 1670 "common/iheap.ml" 39 1654 1672
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"common/iheap.ml" 39 1654 1673 "common/iheap.ml" 39 1654 1676
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref cmp "common/iheap.ml" 35 1524 1541 "common/iheap.ml" 35 1524 1544
+)
+"common/iheap.ml" 39 1654 1677 "common/iheap.ml" 39 1654 1678
+type(
+  int
+)
+ident(
+  int_ref x "common/iheap.ml" 36 1578 1584 "common/iheap.ml" 36 1578 1585
+)
+"common/iheap.ml" 39 1654 1680 "common/iheap.ml" 39 1654 1687
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 39 1654 1688 "common/iheap.ml" 39 1654 1692
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 35 1524 1551 "common/iheap.ml" 35 1524 1555
+)
+"common/iheap.ml" 39 1654 1693 "common/iheap.ml" 39 1654 1694
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 39 1654 1694 "common/iheap.ml" 39 1654 1696
+type(
+  int ref
+)
+ident(
+  int_ref pi "common/iheap.ml" 37 1606 1612 "common/iheap.ml" 37 1606 1614
+)
+"common/iheap.ml" 39 1654 1693 "common/iheap.ml" 39 1654 1696
+type(
+  int
+)
+"common/iheap.ml" 39 1654 1679 "common/iheap.ml" 39 1654 1697
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 39 1654 1673 "common/iheap.ml" 39 1654 1697
+call(
+  stack
+)
+type(
+  bool
+)
+"common/iheap.ml" 39 1654 1662 "common/iheap.ml" 39 1654 1697
+type(
+  bool
+)
+"common/iheap.ml" 40 1701 1705 "common/iheap.ml" 40 1701 1712
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 40 1701 1713 "common/iheap.ml" 40 1701 1717
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 35 1524 1551 "common/iheap.ml" 35 1524 1555
+)
+"common/iheap.ml" 40 1701 1718 "common/iheap.ml" 40 1701 1719
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 40 1701 1719 "common/iheap.ml" 40 1701 1720
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 38 1635 1641 "common/iheap.ml" 38 1635 1642
+)
+"common/iheap.ml" 40 1701 1718 "common/iheap.ml" 40 1701 1720
+type(
+  int
+)
+"common/iheap.ml" 40 1701 1722 "common/iheap.ml" 40 1701 1729
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 40 1701 1730 "common/iheap.ml" 40 1701 1734
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 35 1524 1551 "common/iheap.ml" 35 1524 1555
+)
+"common/iheap.ml" 40 1701 1735 "common/iheap.ml" 40 1701 1736
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 40 1701 1736 "common/iheap.ml" 40 1701 1738
+type(
+  int ref
+)
+ident(
+  int_ref pi "common/iheap.ml" 37 1606 1612 "common/iheap.ml" 37 1606 1614
+)
+"common/iheap.ml" 40 1701 1735 "common/iheap.ml" 40 1701 1738
+type(
+  int
+)
+"common/iheap.ml" 40 1701 1721 "common/iheap.ml" 40 1701 1739
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 40 1701 1705 "common/iheap.ml" 40 1701 1739
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 41 1741 1745 "common/iheap.ml" 41 1741 1752
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 41 1741 1753 "common/iheap.ml" 41 1741 1760
+type(
+  int Vec.t
+)
+ident(
+  int_ref indices "common/iheap.ml" 35 1524 1564 "common/iheap.ml" 35 1524 1571
+)
+"common/iheap.ml" 41 1741 1762 "common/iheap.ml" 41 1741 1769
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 41 1741 1770 "common/iheap.ml" 41 1741 1774
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 35 1524 1551 "common/iheap.ml" 35 1524 1555
+)
+"common/iheap.ml" 41 1741 1775 "common/iheap.ml" 41 1741 1776
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 41 1741 1776 "common/iheap.ml" 41 1741 1777
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 38 1635 1641 "common/iheap.ml" 38 1635 1642
+)
+"common/iheap.ml" 41 1741 1775 "common/iheap.ml" 41 1741 1777
+type(
+  int
+)
+"common/iheap.ml" 41 1741 1761 "common/iheap.ml" 41 1741 1778
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 41 1741 1779 "common/iheap.ml" 41 1741 1780
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 41 1741 1780 "common/iheap.ml" 41 1741 1781
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 38 1635 1641 "common/iheap.ml" 38 1635 1642
+)
+"common/iheap.ml" 41 1741 1779 "common/iheap.ml" 41 1741 1781
+type(
+  int
+)
+"common/iheap.ml" 41 1741 1745 "common/iheap.ml" 41 1741 1781
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 42 1783 1787 "common/iheap.ml" 42 1783 1788
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 38 1635 1641 "common/iheap.ml" 38 1635 1642
+)
+"common/iheap.ml" 42 1783 1790 "common/iheap.ml" 42 1783 1792
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"common/iheap.ml" 42 1783 1793 "common/iheap.ml" 42 1783 1794
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 42 1783 1794 "common/iheap.ml" 42 1783 1796
+type(
+  int ref
+)
+ident(
+  int_ref pi "common/iheap.ml" 37 1606 1612 "common/iheap.ml" 37 1606 1614
+)
+"common/iheap.ml" 42 1783 1793 "common/iheap.ml" 42 1783 1796
+type(
+  int
+)
+"common/iheap.ml" 42 1783 1787 "common/iheap.ml" 42 1783 1796
+type(
+  unit
+)
+"common/iheap.ml" 43 1798 1802 "common/iheap.ml" 43 1798 1804
+type(
+  int ref
+)
+ident(
+  int_ref pi "common/iheap.ml" 37 1606 1612 "common/iheap.ml" 37 1606 1614
+)
+"common/iheap.ml" 43 1798 1805 "common/iheap.ml" 43 1798 1807
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"common/iheap.ml" 43 1798 1808 "common/iheap.ml" 43 1798 1814
+type(
+  int -> int
+)
+ident(
+  int_ref parent "common/iheap.ml" 24 1198 1202 "common/iheap.ml" 24 1198 1208
+)
+"common/iheap.ml" 43 1798 1815 "common/iheap.ml" 43 1798 1816
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 43 1798 1816 "common/iheap.ml" 43 1798 1817
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 38 1635 1641 "common/iheap.ml" 38 1635 1642
+)
+"common/iheap.ml" 43 1798 1815 "common/iheap.ml" 43 1798 1817
+type(
+  int
+)
+"common/iheap.ml" 43 1798 1808 "common/iheap.ml" 43 1798 1817
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 43 1798 1802 "common/iheap.ml" 43 1798 1817
+type(
+  unit
+)
+"common/iheap.ml" 42 1783 1787 "common/iheap.ml" 43 1798 1817
+type(
+  unit
+)
+"common/iheap.ml" 41 1741 1745 "common/iheap.ml" 43 1798 1817
+type(
+  unit
+)
+"common/iheap.ml" 40 1701 1705 "common/iheap.ml" 43 1798 1817
+type(
+  unit
+)
+"common/iheap.ml" 39 1654 1656 "common/iheap.ml" 44 1818 1824
+type(
+  unit
+)
+"common/iheap.ml" 45 1826 1828 "common/iheap.ml" 45 1826 1835
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 45 1826 1836 "common/iheap.ml" 45 1826 1840
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 35 1524 1551 "common/iheap.ml" 35 1524 1555
+)
+"common/iheap.ml" 45 1826 1841 "common/iheap.ml" 45 1826 1842
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 45 1826 1842 "common/iheap.ml" 45 1826 1843
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 38 1635 1641 "common/iheap.ml" 38 1635 1642
+)
+"common/iheap.ml" 45 1826 1841 "common/iheap.ml" 45 1826 1843
+type(
+  int
+)
+"common/iheap.ml" 45 1826 1844 "common/iheap.ml" 45 1826 1845
+type(
+  int
+)
+ident(
+  int_ref x "common/iheap.ml" 36 1578 1584 "common/iheap.ml" 36 1578 1585
+)
+"common/iheap.ml" 45 1826 1828 "common/iheap.ml" 45 1826 1845
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 46 1847 1849 "common/iheap.ml" 46 1847 1856
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 46 1847 1857 "common/iheap.ml" 46 1847 1864
+type(
+  int Vec.t
+)
+ident(
+  int_ref indices "common/iheap.ml" 35 1524 1564 "common/iheap.ml" 35 1524 1571
+)
+"common/iheap.ml" 46 1847 1865 "common/iheap.ml" 46 1847 1866
+type(
+  int
+)
+ident(
+  int_ref x "common/iheap.ml" 36 1578 1584 "common/iheap.ml" 36 1578 1585
+)
+"common/iheap.ml" 46 1847 1867 "common/iheap.ml" 46 1847 1868
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 46 1847 1868 "common/iheap.ml" 46 1847 1869
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 38 1635 1641 "common/iheap.ml" 38 1635 1642
+)
+"common/iheap.ml" 46 1847 1867 "common/iheap.ml" 46 1847 1869
+type(
+  int
+)
+"common/iheap.ml" 46 1847 1849 "common/iheap.ml" 46 1847 1869
+call(
+  tail
+)
+type(
+  unit
+)
+"common/iheap.ml" 45 1826 1828 "common/iheap.ml" 46 1847 1869
+type(
+  unit
+)
+"common/iheap.ml" 39 1654 1656 "common/iheap.ml" 46 1847 1869
+type(
+  unit
+)
+"common/iheap.ml" 38 1635 1637 "common/iheap.ml" 46 1847 1869
+type(
+  unit
+)
+"common/iheap.ml" 37 1606 1608 "common/iheap.ml" 46 1847 1869
+type(
+  unit
+)
+"common/iheap.ml" 36 1578 1580 "common/iheap.ml" 46 1847 1869
+type(
+  unit
+)
+"common/iheap.ml" 48 1871 1875 "common/iheap.ml" 48 1871 1889
+type(
+  (int -> int -> bool) -> t -> int -> unit
+)
+ident(
+  def percolate_down "common/iheap.ml" 71 2502 2502 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 48 1871 1890 "common/iheap.ml" 48 1871 1893
+type(
+  int -> int -> bool
+)
+ident(
+  def cmp "common/iheap.ml" 48 1871 1894 "common/iheap.ml" 69 2478 2500
+)
+"common/iheap.ml" 48 1871 1900 "common/iheap.ml" 48 1871 1904
+type(
+  int Vec.t
+)
+ident(
+  def heap "common/iheap.ml" 48 1871 1922 "common/iheap.ml" 69 2478 2500
+)
+"common/iheap.ml" 48 1871 1913 "common/iheap.ml" 48 1871 1920
+type(
+  int Vec.t
+)
+ident(
+  def indices "common/iheap.ml" 48 1871 1922 "common/iheap.ml" 69 2478 2500
+)
+"common/iheap.ml" 48 1871 1894 "common/iheap.ml" 48 1871 1921
+type(
+  t
+)
+"common/iheap.ml" 48 1871 1922 "common/iheap.ml" 48 1871 1923
+type(
+  int
+)
+ident(
+  def i "common/iheap.ml" 49 1927 1929 "common/iheap.ml" 69 2478 2500
+)
+"common/iheap.ml" 49 1927 1933 "common/iheap.ml" 49 1927 1934
+type(
+  int
+)
+ident(
+  def x "common/iheap.ml" 50 1955 1957 "common/iheap.ml" 69 2478 2500
+)
+"common/iheap.ml" 49 1927 1937 "common/iheap.ml" 49 1927 1944
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 49 1927 1945 "common/iheap.ml" 49 1927 1949
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 48 1871 1900 "common/iheap.ml" 48 1871 1904
+)
+"common/iheap.ml" 49 1927 1950 "common/iheap.ml" 49 1927 1951
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 48 1871 1922 "common/iheap.ml" 48 1871 1923
+)
+"common/iheap.ml" 49 1927 1937 "common/iheap.ml" 49 1927 1951
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 50 1955 1961 "common/iheap.ml" 50 1955 1963
+type(
+  int
+)
+ident(
+  def sz "common/iheap.ml" 51 1983 1985 "common/iheap.ml" 69 2478 2500
+)
+"common/iheap.ml" 50 1955 1966 "common/iheap.ml" 50 1955 1974
+type(
+  int Vec.t -> int
+)
+ident(
+  ext_ref Vec.size
+)
+"common/iheap.ml" 50 1955 1975 "common/iheap.ml" 50 1955 1979
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 48 1871 1900 "common/iheap.ml" 48 1871 1904
+)
+"common/iheap.ml" 50 1955 1966 "common/iheap.ml" 50 1955 1979
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 51 1983 1989 "common/iheap.ml" 51 1983 1991
+type(
+  int ref
+)
+ident(
+  def li "common/iheap.ml" 52 2010 2012 "common/iheap.ml" 69 2478 2500
+)
+"common/iheap.ml" 51 1983 1994 "common/iheap.ml" 51 1983 1997
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"common/iheap.ml" 51 1983 1999 "common/iheap.ml" 51 1983 2003
+type(
+  int -> int
+)
+ident(
+  int_ref left "common/iheap.ml" 22 1112 1116 "common/iheap.ml" 22 1112 1120
+)
+"common/iheap.ml" 51 1983 2004 "common/iheap.ml" 51 1983 2005
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 48 1871 1922 "common/iheap.ml" 48 1871 1923
+)
+"common/iheap.ml" 51 1983 1998 "common/iheap.ml" 51 1983 2006
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 51 1983 1994 "common/iheap.ml" 51 1983 2006
+type(
+  int ref
+)
+"common/iheap.ml" 52 2010 2016 "common/iheap.ml" 52 2010 2018
+type(
+  int ref
+)
+ident(
+  def ri "common/iheap.ml" 53 2038 2040 "common/iheap.ml" 69 2478 2500
+)
+"common/iheap.ml" 52 2010 2021 "common/iheap.ml" 52 2010 2024
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"common/iheap.ml" 52 2010 2026 "common/iheap.ml" 52 2010 2031
+type(
+  int -> int
+)
+ident(
+  int_ref right "common/iheap.ml" 23 1155 1159 "common/iheap.ml" 23 1155 1164
+)
+"common/iheap.ml" 52 2010 2032 "common/iheap.ml" 52 2010 2033
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 48 1871 1922 "common/iheap.ml" 48 1871 1923
+)
+"common/iheap.ml" 52 2010 2025 "common/iheap.ml" 52 2010 2034
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 52 2010 2021 "common/iheap.ml" 52 2010 2034
+type(
+  int ref
+)
+"common/iheap.ml" 53 2038 2044 "common/iheap.ml" 53 2038 2045
+type(
+  int ref
+)
+ident(
+  def i "common/iheap.ml" 54 2057 2059 "common/iheap.ml" 69 2478 2500
+)
+"common/iheap.ml" 53 2038 2048 "common/iheap.ml" 53 2038 2051
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"common/iheap.ml" 53 2038 2052 "common/iheap.ml" 53 2038 2053
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 48 1871 1922 "common/iheap.ml" 48 1871 1923
+)
+"common/iheap.ml" 53 2038 2048 "common/iheap.ml" 53 2038 2053
+type(
+  int ref
+)
+"common/iheap.ml" 55 2064 2075 "common/iheap.ml" 55 2064 2076
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 55 2064 2076 "common/iheap.ml" 55 2064 2078
+type(
+  int ref
+)
+ident(
+  int_ref li "common/iheap.ml" 51 1983 1989 "common/iheap.ml" 51 1983 1991
+)
+"common/iheap.ml" 55 2064 2075 "common/iheap.ml" 55 2064 2078
+type(
+  int
+)
+"common/iheap.ml" 55 2064 2079 "common/iheap.ml" 55 2064 2080
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"common/iheap.ml" 55 2064 2081 "common/iheap.ml" 55 2064 2083
+type(
+  int
+)
+ident(
+  int_ref sz "common/iheap.ml" 50 1955 1961 "common/iheap.ml" 50 1955 1963
+)
+"common/iheap.ml" 55 2064 2075 "common/iheap.ml" 55 2064 2083
+type(
+  bool
+)
+"common/iheap.ml" 56 2087 2098 "common/iheap.ml" 56 2087 2103
+type(
+  int
+)
+ident(
+  def child "common/iheap.ml" 60 2211 2218 "common/iheap.ml" 65 2403 2424
+)
+"common/iheap.ml" 57 2107 2119 "common/iheap.ml" 57 2107 2120
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 57 2107 2120 "common/iheap.ml" 57 2107 2122
+type(
+  int ref
+)
+ident(
+  int_ref ri "common/iheap.ml" 52 2010 2016 "common/iheap.ml" 52 2010 2018
+)
+"common/iheap.ml" 57 2107 2119 "common/iheap.ml" 57 2107 2122
+type(
+  int
+)
+"common/iheap.ml" 57 2107 2123 "common/iheap.ml" 57 2107 2124
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"common/iheap.ml" 57 2107 2125 "common/iheap.ml" 57 2107 2127
+type(
+  int
+)
+ident(
+  int_ref sz "common/iheap.ml" 50 1955 1961 "common/iheap.ml" 50 1955 1963
+)
+"common/iheap.ml" 57 2107 2119 "common/iheap.ml" 57 2107 2127
+type(
+  bool
+)
+"common/iheap.ml" 57 2107 2128 "common/iheap.ml" 57 2107 2130
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"common/iheap.ml" 57 2107 2131 "common/iheap.ml" 57 2107 2134
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref cmp "common/iheap.ml" 48 1871 1890 "common/iheap.ml" 48 1871 1893
+)
+"common/iheap.ml" 57 2107 2136 "common/iheap.ml" 57 2107 2143
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 57 2107 2144 "common/iheap.ml" 57 2107 2148
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 48 1871 1900 "common/iheap.ml" 48 1871 1904
+)
+"common/iheap.ml" 57 2107 2149 "common/iheap.ml" 57 2107 2150
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 57 2107 2150 "common/iheap.ml" 57 2107 2152
+type(
+  int ref
+)
+ident(
+  int_ref ri "common/iheap.ml" 52 2010 2016 "common/iheap.ml" 52 2010 2018
+)
+"common/iheap.ml" 57 2107 2149 "common/iheap.ml" 57 2107 2152
+type(
+  int
+)
+"common/iheap.ml" 57 2107 2135 "common/iheap.ml" 57 2107 2153
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 57 2107 2155 "common/iheap.ml" 57 2107 2162
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 57 2107 2163 "common/iheap.ml" 57 2107 2167
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 48 1871 1900 "common/iheap.ml" 48 1871 1904
+)
+"common/iheap.ml" 57 2107 2168 "common/iheap.ml" 57 2107 2169
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 57 2107 2169 "common/iheap.ml" 57 2107 2171
+type(
+  int ref
+)
+ident(
+  int_ref li "common/iheap.ml" 51 1983 1989 "common/iheap.ml" 51 1983 1991
+)
+"common/iheap.ml" 57 2107 2168 "common/iheap.ml" 57 2107 2171
+type(
+  int
+)
+"common/iheap.ml" 57 2107 2154 "common/iheap.ml" 57 2107 2172
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 57 2107 2131 "common/iheap.ml" 57 2107 2172
+call(
+  stack
+)
+type(
+  bool
+)
+"common/iheap.ml" 57 2107 2119 "common/iheap.ml" 57 2107 2172
+type(
+  bool
+)
+"common/iheap.ml" 57 2107 2178 "common/iheap.ml" 57 2107 2179
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 57 2107 2179 "common/iheap.ml" 57 2107 2181
+type(
+  int ref
+)
+ident(
+  int_ref ri "common/iheap.ml" 52 2010 2016 "common/iheap.ml" 52 2010 2018
+)
+"common/iheap.ml" 57 2107 2178 "common/iheap.ml" 57 2107 2181
+type(
+  int
+)
+"common/iheap.ml" 58 2182 2196 "common/iheap.ml" 58 2182 2197
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 58 2182 2197 "common/iheap.ml" 58 2182 2199
+type(
+  int ref
+)
+ident(
+  int_ref li "common/iheap.ml" 51 1983 1989 "common/iheap.ml" 51 1983 1991
+)
+"common/iheap.ml" 58 2182 2196 "common/iheap.ml" 58 2182 2199
+type(
+  int
+)
+"common/iheap.ml" 57 2107 2116 "common/iheap.ml" 58 2182 2199
+type(
+  int
+)
+"common/iheap.ml" 60 2211 2221 "common/iheap.ml" 60 2211 2224
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"common/iheap.ml" 60 2211 2226 "common/iheap.ml" 60 2211 2229
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref cmp "common/iheap.ml" 48 1871 1890 "common/iheap.ml" 48 1871 1893
+)
+"common/iheap.ml" 60 2211 2231 "common/iheap.ml" 60 2211 2238
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 60 2211 2239 "common/iheap.ml" 60 2211 2243
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 48 1871 1900 "common/iheap.ml" 48 1871 1904
+)
+"common/iheap.ml" 60 2211 2244 "common/iheap.ml" 60 2211 2249
+type(
+  int
+)
+ident(
+  int_ref child "common/iheap.ml" 56 2087 2098 "common/iheap.ml" 56 2087 2103
+)
+"common/iheap.ml" 60 2211 2230 "common/iheap.ml" 60 2211 2250
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 60 2211 2251 "common/iheap.ml" 60 2211 2252
+type(
+  int
+)
+ident(
+  int_ref x "common/iheap.ml" 49 1927 1933 "common/iheap.ml" 49 1927 1934
+)
+"common/iheap.ml" 60 2211 2225 "common/iheap.ml" 60 2211 2253
+call(
+  stack
+)
+type(
+  bool
+)
+"common/iheap.ml" 60 2211 2221 "common/iheap.ml" 60 2211 2253
+type(
+  bool
+)
+"common/iheap.ml" 60 2211 2259 "common/iheap.ml" 60 2211 2264
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"common/iheap.ml" 60 2211 2265 "common/iheap.ml" 60 2211 2269
+type(
+  exn
+)
+"common/iheap.ml" 60 2211 2259 "common/iheap.ml" 60 2211 2269
+type(
+  unit
+)
+"common/iheap.ml" 60 2211 2218 "common/iheap.ml" 60 2211 2269
+type(
+  unit
+)
+"common/iheap.ml" 61 2271 2278 "common/iheap.ml" 61 2271 2285
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 61 2271 2286 "common/iheap.ml" 61 2271 2290
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 48 1871 1900 "common/iheap.ml" 48 1871 1904
+)
+"common/iheap.ml" 61 2271 2291 "common/iheap.ml" 61 2271 2292
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 61 2271 2292 "common/iheap.ml" 61 2271 2293
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 53 2038 2044 "common/iheap.ml" 53 2038 2045
+)
+"common/iheap.ml" 61 2271 2291 "common/iheap.ml" 61 2271 2293
+type(
+  int
+)
+"common/iheap.ml" 61 2271 2295 "common/iheap.ml" 61 2271 2302
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 61 2271 2303 "common/iheap.ml" 61 2271 2307
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 48 1871 1900 "common/iheap.ml" 48 1871 1904
+)
+"common/iheap.ml" 61 2271 2308 "common/iheap.ml" 61 2271 2313
+type(
+  int
+)
+ident(
+  int_ref child "common/iheap.ml" 56 2087 2098 "common/iheap.ml" 56 2087 2103
+)
+"common/iheap.ml" 61 2271 2294 "common/iheap.ml" 61 2271 2314
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 61 2271 2278 "common/iheap.ml" 61 2271 2314
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 62 2316 2323 "common/iheap.ml" 62 2316 2330
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 62 2316 2331 "common/iheap.ml" 62 2316 2338
+type(
+  int Vec.t
+)
+ident(
+  int_ref indices "common/iheap.ml" 48 1871 1913 "common/iheap.ml" 48 1871 1920
+)
+"common/iheap.ml" 62 2316 2340 "common/iheap.ml" 62 2316 2347
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 62 2316 2348 "common/iheap.ml" 62 2316 2352
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 48 1871 1900 "common/iheap.ml" 48 1871 1904
+)
+"common/iheap.ml" 62 2316 2353 "common/iheap.ml" 62 2316 2354
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 62 2316 2354 "common/iheap.ml" 62 2316 2355
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 53 2038 2044 "common/iheap.ml" 53 2038 2045
+)
+"common/iheap.ml" 62 2316 2353 "common/iheap.ml" 62 2316 2355
+type(
+  int
+)
+"common/iheap.ml" 62 2316 2339 "common/iheap.ml" 62 2316 2356
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 62 2316 2357 "common/iheap.ml" 62 2316 2358
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 62 2316 2358 "common/iheap.ml" 62 2316 2359
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 53 2038 2044 "common/iheap.ml" 53 2038 2045
+)
+"common/iheap.ml" 62 2316 2357 "common/iheap.ml" 62 2316 2359
+type(
+  int
+)
+"common/iheap.ml" 62 2316 2323 "common/iheap.ml" 62 2316 2359
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 63 2361 2368 "common/iheap.ml" 63 2361 2369
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 53 2038 2044 "common/iheap.ml" 53 2038 2045
+)
+"common/iheap.ml" 63 2361 2371 "common/iheap.ml" 63 2361 2373
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"common/iheap.ml" 63 2361 2374 "common/iheap.ml" 63 2361 2379
+type(
+  int
+)
+ident(
+  int_ref child "common/iheap.ml" 56 2087 2098 "common/iheap.ml" 56 2087 2103
+)
+"common/iheap.ml" 63 2361 2368 "common/iheap.ml" 63 2361 2379
+type(
+  unit
+)
+"common/iheap.ml" 64 2381 2388 "common/iheap.ml" 64 2381 2390
+type(
+  int ref
+)
+ident(
+  int_ref li "common/iheap.ml" 51 1983 1989 "common/iheap.ml" 51 1983 1991
+)
+"common/iheap.ml" 64 2381 2391 "common/iheap.ml" 64 2381 2393
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"common/iheap.ml" 64 2381 2394 "common/iheap.ml" 64 2381 2398
+type(
+  int -> int
+)
+ident(
+  int_ref left "common/iheap.ml" 22 1112 1116 "common/iheap.ml" 22 1112 1120
+)
+"common/iheap.ml" 64 2381 2399 "common/iheap.ml" 64 2381 2400
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 64 2381 2400 "common/iheap.ml" 64 2381 2401
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 53 2038 2044 "common/iheap.ml" 53 2038 2045
+)
+"common/iheap.ml" 64 2381 2399 "common/iheap.ml" 64 2381 2401
+type(
+  int
+)
+"common/iheap.ml" 64 2381 2394 "common/iheap.ml" 64 2381 2401
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 64 2381 2388 "common/iheap.ml" 64 2381 2401
+type(
+  unit
+)
+"common/iheap.ml" 65 2403 2410 "common/iheap.ml" 65 2403 2412
+type(
+  int ref
+)
+ident(
+  int_ref ri "common/iheap.ml" 52 2010 2016 "common/iheap.ml" 52 2010 2018
+)
+"common/iheap.ml" 65 2403 2413 "common/iheap.ml" 65 2403 2415
+type(
+  int ref -> int -> unit
+)
+ident(
+  ext_ref Pervasives.( := )
+)
+"common/iheap.ml" 65 2403 2416 "common/iheap.ml" 65 2403 2421
+type(
+  int -> int
+)
+ident(
+  int_ref right "common/iheap.ml" 23 1155 1159 "common/iheap.ml" 23 1155 1164
+)
+"common/iheap.ml" 65 2403 2422 "common/iheap.ml" 65 2403 2423
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 65 2403 2423 "common/iheap.ml" 65 2403 2424
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 53 2038 2044 "common/iheap.ml" 53 2038 2045
+)
+"common/iheap.ml" 65 2403 2422 "common/iheap.ml" 65 2403 2424
+type(
+  int
+)
+"common/iheap.ml" 65 2403 2416 "common/iheap.ml" 65 2403 2424
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 65 2403 2410 "common/iheap.ml" 65 2403 2424
+type(
+  unit
+)
+"common/iheap.ml" 64 2381 2388 "common/iheap.ml" 65 2403 2424
+type(
+  unit
+)
+"common/iheap.ml" 63 2361 2368 "common/iheap.ml" 65 2403 2424
+type(
+  unit
+)
+"common/iheap.ml" 62 2316 2323 "common/iheap.ml" 65 2403 2424
+type(
+  unit
+)
+"common/iheap.ml" 61 2271 2278 "common/iheap.ml" 65 2403 2424
+type(
+  unit
+)
+"common/iheap.ml" 60 2211 2218 "common/iheap.ml" 65 2403 2424
+type(
+  unit
+)
+"common/iheap.ml" 56 2087 2094 "common/iheap.ml" 65 2403 2424
+type(
+  unit
+)
+"common/iheap.ml" 55 2064 2069 "common/iheap.ml" 66 2425 2435
+type(
+  unit
+)
+"common/iheap.ml" 67 2436 2444 "common/iheap.ml" 67 2436 2448
+type(
+  exn
+)
+"common/iheap.ml" 67 2436 2452 "common/iheap.ml" 67 2436 2454
+type(
+  unit
+)
+"common/iheap.ml" 54 2057 2059 "common/iheap.ml" 67 2436 2455
+type(
+  unit
+)
+"common/iheap.ml" 68 2457 2459 "common/iheap.ml" 68 2457 2466
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 68 2457 2467 "common/iheap.ml" 68 2457 2471
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 48 1871 1900 "common/iheap.ml" 48 1871 1904
+)
+"common/iheap.ml" 68 2457 2472 "common/iheap.ml" 68 2457 2473
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 68 2457 2473 "common/iheap.ml" 68 2457 2474
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 53 2038 2044 "common/iheap.ml" 53 2038 2045
+)
+"common/iheap.ml" 68 2457 2472 "common/iheap.ml" 68 2457 2474
+type(
+  int
+)
+"common/iheap.ml" 68 2457 2475 "common/iheap.ml" 68 2457 2476
+type(
+  int
+)
+ident(
+  int_ref x "common/iheap.ml" 49 1927 1933 "common/iheap.ml" 49 1927 1934
+)
+"common/iheap.ml" 68 2457 2459 "common/iheap.ml" 68 2457 2476
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 69 2478 2480 "common/iheap.ml" 69 2478 2487
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 69 2478 2488 "common/iheap.ml" 69 2478 2495
+type(
+  int Vec.t
+)
+ident(
+  int_ref indices "common/iheap.ml" 48 1871 1913 "common/iheap.ml" 48 1871 1920
+)
+"common/iheap.ml" 69 2478 2496 "common/iheap.ml" 69 2478 2497
+type(
+  int
+)
+ident(
+  int_ref x "common/iheap.ml" 49 1927 1933 "common/iheap.ml" 49 1927 1934
+)
+"common/iheap.ml" 69 2478 2498 "common/iheap.ml" 69 2478 2499
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 69 2478 2499 "common/iheap.ml" 69 2478 2500
+type(
+  int ref
+)
+ident(
+  int_ref i "common/iheap.ml" 53 2038 2044 "common/iheap.ml" 53 2038 2045
+)
+"common/iheap.ml" 69 2478 2498 "common/iheap.ml" 69 2478 2500
+type(
+  int
+)
+"common/iheap.ml" 69 2478 2480 "common/iheap.ml" 69 2478 2500
+call(
+  tail
+)
+type(
+  unit
+)
+"common/iheap.ml" 68 2457 2459 "common/iheap.ml" 69 2478 2500
+type(
+  unit
+)
+"common/iheap.ml" 54 2057 2059 "common/iheap.ml" 69 2478 2500
+type(
+  unit
+)
+"common/iheap.ml" 53 2038 2040 "common/iheap.ml" 69 2478 2500
+type(
+  unit
+)
+"common/iheap.ml" 52 2010 2012 "common/iheap.ml" 69 2478 2500
+type(
+  unit
+)
+"common/iheap.ml" 51 1983 1985 "common/iheap.ml" 69 2478 2500
+type(
+  unit
+)
+"common/iheap.ml" 50 1955 1957 "common/iheap.ml" 69 2478 2500
+type(
+  unit
+)
+"common/iheap.ml" 49 1927 1929 "common/iheap.ml" 69 2478 2500
+type(
+  unit
+)
+"common/iheap.ml" 71 2502 2506 "common/iheap.ml" 71 2502 2513
+type(
+  t -> int -> bool
+)
+ident(
+  def in_heap "common/iheap.ml" 73 2572 2572 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 71 2502 2514 "common/iheap.ml" 71 2502 2515
+type(
+  t
+)
+ident(
+  def s "common/iheap.ml" 71 2502 2516 "common/iheap.ml" 71 2502 2570
+)
+"common/iheap.ml" 71 2502 2516 "common/iheap.ml" 71 2502 2517
+type(
+  int
+)
+ident(
+  def n "common/iheap.ml" 71 2502 2520 "common/iheap.ml" 71 2502 2570
+)
+"common/iheap.ml" 71 2502 2520 "common/iheap.ml" 71 2502 2521
+type(
+  int
+)
+ident(
+  int_ref n "common/iheap.ml" 71 2502 2516 "common/iheap.ml" 71 2502 2517
+)
+"common/iheap.ml" 71 2502 2522 "common/iheap.ml" 71 2502 2523
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( < )
+)
+"common/iheap.ml" 71 2502 2524 "common/iheap.ml" 71 2502 2532
+type(
+  int Vec.t -> int
+)
+ident(
+  ext_ref Vec.size
+)
+"common/iheap.ml" 71 2502 2533 "common/iheap.ml" 71 2502 2534
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 71 2502 2514 "common/iheap.ml" 71 2502 2515
+)
+"common/iheap.ml" 71 2502 2533 "common/iheap.ml" 71 2502 2542
+type(
+  int Vec.t
+)
+"common/iheap.ml" 71 2502 2524 "common/iheap.ml" 71 2502 2542
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 71 2502 2520 "common/iheap.ml" 71 2502 2542
+type(
+  bool
+)
+"common/iheap.ml" 71 2502 2543 "common/iheap.ml" 71 2502 2545
+type(
+  bool -> bool -> bool
+)
+ident(
+  ext_ref Pervasives.( && )
+)
+"common/iheap.ml" 71 2502 2546 "common/iheap.ml" 71 2502 2553
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 71 2502 2554 "common/iheap.ml" 71 2502 2555
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 71 2502 2514 "common/iheap.ml" 71 2502 2515
+)
+"common/iheap.ml" 71 2502 2554 "common/iheap.ml" 71 2502 2563
+type(
+  int Vec.t
+)
+"common/iheap.ml" 71 2502 2564 "common/iheap.ml" 71 2502 2565
+type(
+  int
+)
+ident(
+  int_ref n "common/iheap.ml" 71 2502 2516 "common/iheap.ml" 71 2502 2517
+)
+"common/iheap.ml" 71 2502 2546 "common/iheap.ml" 71 2502 2565
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 71 2502 2566 "common/iheap.ml" 71 2502 2568
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( >= )
+)
+"common/iheap.ml" 71 2502 2569 "common/iheap.ml" 71 2502 2570
+type(
+  int
+)
+"common/iheap.ml" 71 2502 2546 "common/iheap.ml" 71 2502 2570
+type(
+  bool
+)
+"common/iheap.ml" 71 2502 2520 "common/iheap.ml" 71 2502 2570
+type(
+  bool
+)
+"common/iheap.ml" 73 2572 2576 "common/iheap.ml" 73 2572 2584
+type(
+  (int -> int -> bool) -> t -> int -> unit
+)
+ident(
+  def decrease "common/iheap.ml" 76 2666 2666 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 73 2572 2585 "common/iheap.ml" 73 2572 2588
+type(
+  int -> int -> bool
+)
+ident(
+  def cmp "common/iheap.ml" 73 2572 2589 "common/iheap.ml" 74 2596 2660
+)
+"common/iheap.ml" 73 2572 2589 "common/iheap.ml" 73 2572 2590
+type(
+  t
+)
+ident(
+  def s "common/iheap.ml" 73 2572 2591 "common/iheap.ml" 74 2596 2660
+)
+"common/iheap.ml" 73 2572 2591 "common/iheap.ml" 73 2572 2592
+type(
+  int
+)
+ident(
+  def n "common/iheap.ml" 74 2596 2598 "common/iheap.ml" 74 2596 2660
+)
+"common/iheap.ml" 74 2596 2606 "common/iheap.ml" 74 2596 2613
+type(
+  t -> int -> bool
+)
+ident(
+  int_ref in_heap "common/iheap.ml" 71 2502 2506 "common/iheap.ml" 71 2502 2513
+)
+"common/iheap.ml" 74 2596 2614 "common/iheap.ml" 74 2596 2615
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 73 2572 2589 "common/iheap.ml" 73 2572 2590
+)
+"common/iheap.ml" 74 2596 2616 "common/iheap.ml" 74 2596 2617
+type(
+  int
+)
+ident(
+  int_ref n "common/iheap.ml" 73 2572 2591 "common/iheap.ml" 73 2572 2592
+)
+"common/iheap.ml" 74 2596 2605 "common/iheap.ml" 74 2596 2618
+call(
+  stack
+)
+type(
+  bool
+)
+"common/iheap.ml" 74 2596 2598 "common/iheap.ml" 74 2596 2618
+type(
+  unit
+)
+"common/iheap.ml" 74 2596 2620 "common/iheap.ml" 74 2596 2632
+type(
+  (int -> int -> bool) -> t -> int -> unit
+)
+ident(
+  int_ref percolate_up "common/iheap.ml" 35 1524 1528 "common/iheap.ml" 35 1524 1540
+)
+"common/iheap.ml" 74 2596 2633 "common/iheap.ml" 74 2596 2636
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref cmp "common/iheap.ml" 73 2572 2585 "common/iheap.ml" 73 2572 2588
+)
+"common/iheap.ml" 74 2596 2637 "common/iheap.ml" 74 2596 2638
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 73 2572 2589 "common/iheap.ml" 73 2572 2590
+)
+"common/iheap.ml" 74 2596 2640 "common/iheap.ml" 74 2596 2647
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 74 2596 2648 "common/iheap.ml" 74 2596 2649
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 73 2572 2589 "common/iheap.ml" 73 2572 2590
+)
+"common/iheap.ml" 74 2596 2648 "common/iheap.ml" 74 2596 2657
+type(
+  int Vec.t
+)
+"common/iheap.ml" 74 2596 2658 "common/iheap.ml" 74 2596 2659
+type(
+  int
+)
+ident(
+  int_ref n "common/iheap.ml" 73 2572 2591 "common/iheap.ml" 73 2572 2592
+)
+"common/iheap.ml" 74 2596 2639 "common/iheap.ml" 74 2596 2660
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 74 2596 2620 "common/iheap.ml" 74 2596 2660
+call(
+  tail
+)
+type(
+  unit
+)
+"common/iheap.ml" 74 2596 2598 "common/iheap.ml" 74 2596 2660
+type(
+  unit
+)
+"common/iheap.ml" 76 2666 2670 "common/iheap.ml" 76 2666 2678
+type(
+  (int -> int -> bool) -> t -> int -> unit
+)
+ident(
+  def increase "common/iheap.ml" 79 2758 2758 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 76 2666 2679 "common/iheap.ml" 76 2666 2682
+type(
+  int -> int -> bool
+)
+ident(
+  def cmp "common/iheap.ml" 76 2666 2683 "common/iheap.ml" 77 2690 2756
+)
+"common/iheap.ml" 76 2666 2683 "common/iheap.ml" 76 2666 2684
+type(
+  t
+)
+ident(
+  def s "common/iheap.ml" 76 2666 2685 "common/iheap.ml" 77 2690 2756
+)
+"common/iheap.ml" 76 2666 2685 "common/iheap.ml" 76 2666 2686
+type(
+  int
+)
+ident(
+  def n "common/iheap.ml" 77 2690 2692 "common/iheap.ml" 77 2690 2756
+)
+"common/iheap.ml" 77 2690 2700 "common/iheap.ml" 77 2690 2707
+type(
+  t -> int -> bool
+)
+ident(
+  int_ref in_heap "common/iheap.ml" 71 2502 2506 "common/iheap.ml" 71 2502 2513
+)
+"common/iheap.ml" 77 2690 2708 "common/iheap.ml" 77 2690 2709
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 76 2666 2683 "common/iheap.ml" 76 2666 2684
+)
+"common/iheap.ml" 77 2690 2710 "common/iheap.ml" 77 2690 2711
+type(
+  int
+)
+ident(
+  int_ref n "common/iheap.ml" 76 2666 2685 "common/iheap.ml" 76 2666 2686
+)
+"common/iheap.ml" 77 2690 2699 "common/iheap.ml" 77 2690 2712
+call(
+  stack
+)
+type(
+  bool
+)
+"common/iheap.ml" 77 2690 2692 "common/iheap.ml" 77 2690 2712
+type(
+  unit
+)
+"common/iheap.ml" 77 2690 2714 "common/iheap.ml" 77 2690 2728
+type(
+  (int -> int -> bool) -> t -> int -> unit
+)
+ident(
+  int_ref percolate_down "common/iheap.ml" 48 1871 1875 "common/iheap.ml" 48 1871 1889
+)
+"common/iheap.ml" 77 2690 2729 "common/iheap.ml" 77 2690 2732
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref cmp "common/iheap.ml" 76 2666 2679 "common/iheap.ml" 76 2666 2682
+)
+"common/iheap.ml" 77 2690 2733 "common/iheap.ml" 77 2690 2734
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 76 2666 2683 "common/iheap.ml" 76 2666 2684
+)
+"common/iheap.ml" 77 2690 2736 "common/iheap.ml" 77 2690 2743
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 77 2690 2744 "common/iheap.ml" 77 2690 2745
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 76 2666 2683 "common/iheap.ml" 76 2666 2684
+)
+"common/iheap.ml" 77 2690 2744 "common/iheap.ml" 77 2690 2753
+type(
+  int Vec.t
+)
+"common/iheap.ml" 77 2690 2754 "common/iheap.ml" 77 2690 2755
+type(
+  int
+)
+ident(
+  int_ref n "common/iheap.ml" 76 2666 2685 "common/iheap.ml" 76 2666 2686
+)
+"common/iheap.ml" 77 2690 2735 "common/iheap.ml" 77 2690 2756
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 77 2690 2714 "common/iheap.ml" 77 2690 2756
+call(
+  tail
+)
+type(
+  unit
+)
+"common/iheap.ml" 77 2690 2692 "common/iheap.ml" 77 2690 2756
+type(
+  unit
+)
+"common/iheap.ml" 79 2758 2762 "common/iheap.ml" 79 2758 2768
+type(
+  t -> (int -> bool) -> (int -> int -> bool) -> unit
+)
+ident(
+  def filter "common/iheap.ml" 95 3177 3177 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 79 2758 2769 "common/iheap.ml" 79 2758 2770
+type(
+  t
+)
+ident(
+  def s "common/iheap.ml" 79 2758 2771 "common/iheap.ml" 93 3169 3175
+)
+"common/iheap.ml" 79 2758 2771 "common/iheap.ml" 79 2758 2775
+type(
+  int -> bool
+)
+ident(
+  def filt "common/iheap.ml" 79 2758 2776 "common/iheap.ml" 93 3169 3175
+)
+"common/iheap.ml" 79 2758 2776 "common/iheap.ml" 79 2758 2779
+type(
+  int -> int -> bool
+)
+ident(
+  def cmp "common/iheap.ml" 80 2783 2785 "common/iheap.ml" 93 3169 3175
+)
+"common/iheap.ml" 80 2783 2789 "common/iheap.ml" 80 2783 2790
+type(
+  int ref
+)
+ident(
+  def j "common/iheap.ml" 81 2802 2804 "common/iheap.ml" 93 3169 3175
+)
+"common/iheap.ml" 80 2783 2793 "common/iheap.ml" 80 2783 2796
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"common/iheap.ml" 80 2783 2797 "common/iheap.ml" 80 2783 2798
+type(
+  int
+)
+"common/iheap.ml" 80 2783 2793 "common/iheap.ml" 80 2783 2798
+type(
+  int ref
+)
+"common/iheap.ml" 81 2802 2808 "common/iheap.ml" 81 2802 2811
+type(
+  int
+)
+ident(
+  def lim "common/iheap.ml" 82 2833 2835 "common/iheap.ml" 93 3169 3175
+)
+"common/iheap.ml" 81 2802 2814 "common/iheap.ml" 81 2802 2822
+type(
+  int Vec.t -> int
+)
+ident(
+  ext_ref Vec.size
+)
+"common/iheap.ml" 81 2802 2823 "common/iheap.ml" 81 2802 2824
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 79 2758 2769 "common/iheap.ml" 79 2758 2770
+)
+"common/iheap.ml" 81 2802 2823 "common/iheap.ml" 81 2802 2829
+type(
+  int Vec.t
+)
+"common/iheap.ml" 81 2802 2814 "common/iheap.ml" 81 2802 2829
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 82 2833 2843 "common/iheap.ml" 82 2833 2844
+type(
+  int
+)
+"common/iheap.ml" 82 2833 2848 "common/iheap.ml" 82 2833 2851
+type(
+  int
+)
+ident(
+  int_ref lim "common/iheap.ml" 81 2802 2808 "common/iheap.ml" 81 2802 2811
+)
+"common/iheap.ml" 82 2833 2852 "common/iheap.ml" 82 2833 2853
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"common/iheap.ml" 82 2833 2854 "common/iheap.ml" 82 2833 2855
+type(
+  int
+)
+"common/iheap.ml" 82 2833 2848 "common/iheap.ml" 82 2833 2855
+type(
+  int
+)
+"common/iheap.ml" 83 2859 2866 "common/iheap.ml" 83 2859 2870
+type(
+  int -> bool
+)
+ident(
+  int_ref filt "common/iheap.ml" 79 2758 2771 "common/iheap.ml" 79 2758 2775
+)
+"common/iheap.ml" 83 2859 2872 "common/iheap.ml" 83 2859 2879
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 83 2859 2880 "common/iheap.ml" 83 2859 2881
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 79 2758 2769 "common/iheap.ml" 79 2758 2770
+)
+"common/iheap.ml" 83 2859 2880 "common/iheap.ml" 83 2859 2886
+type(
+  int Vec.t
+)
+"common/iheap.ml" 83 2859 2887 "common/iheap.ml" 83 2859 2888
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 82 2833 2835 "common/iheap.ml" 89 3066 3072
+)
+"common/iheap.ml" 83 2859 2871 "common/iheap.ml" 83 2859 2889
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 83 2859 2866 "common/iheap.ml" 83 2859 2889
+call(
+  stack
+)
+type(
+  bool
+)
+"common/iheap.ml" 84 2901 2907 "common/iheap.ml" 84 2901 2914
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 84 2901 2915 "common/iheap.ml" 84 2901 2916
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 79 2758 2769 "common/iheap.ml" 79 2758 2770
+)
+"common/iheap.ml" 84 2901 2915 "common/iheap.ml" 84 2901 2921
+type(
+  int Vec.t
+)
+"common/iheap.ml" 84 2901 2922 "common/iheap.ml" 84 2901 2923
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 84 2901 2923 "common/iheap.ml" 84 2901 2924
+type(
+  int ref
+)
+ident(
+  int_ref j "common/iheap.ml" 80 2783 2789 "common/iheap.ml" 80 2783 2790
+)
+"common/iheap.ml" 84 2901 2922 "common/iheap.ml" 84 2901 2924
+type(
+  int
+)
+"common/iheap.ml" 84 2901 2926 "common/iheap.ml" 84 2901 2933
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 84 2901 2934 "common/iheap.ml" 84 2901 2935
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 79 2758 2769 "common/iheap.ml" 79 2758 2770
+)
+"common/iheap.ml" 84 2901 2934 "common/iheap.ml" 84 2901 2940
+type(
+  int Vec.t
+)
+"common/iheap.ml" 84 2901 2941 "common/iheap.ml" 84 2901 2942
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 82 2833 2835 "common/iheap.ml" 89 3066 3072
+)
+"common/iheap.ml" 84 2901 2925 "common/iheap.ml" 84 2901 2943
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 84 2901 2907 "common/iheap.ml" 84 2901 2943
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 85 2945 2951 "common/iheap.ml" 85 2945 2958
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 85 2945 2959 "common/iheap.ml" 85 2945 2960
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 79 2758 2769 "common/iheap.ml" 79 2758 2770
+)
+"common/iheap.ml" 85 2945 2959 "common/iheap.ml" 85 2945 2968
+type(
+  int Vec.t
+)
+"common/iheap.ml" 85 2945 2970 "common/iheap.ml" 85 2945 2977
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 85 2945 2978 "common/iheap.ml" 85 2945 2979
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 79 2758 2769 "common/iheap.ml" 79 2758 2770
+)
+"common/iheap.ml" 85 2945 2978 "common/iheap.ml" 85 2945 2984
+type(
+  int Vec.t
+)
+"common/iheap.ml" 85 2945 2985 "common/iheap.ml" 85 2945 2986
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 82 2833 2835 "common/iheap.ml" 89 3066 3072
+)
+"common/iheap.ml" 85 2945 2969 "common/iheap.ml" 85 2945 2987
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 85 2945 2988 "common/iheap.ml" 85 2945 2989
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 85 2945 2989 "common/iheap.ml" 85 2945 2990
+type(
+  int ref
+)
+ident(
+  int_ref j "common/iheap.ml" 80 2783 2789 "common/iheap.ml" 80 2783 2790
+)
+"common/iheap.ml" 85 2945 2988 "common/iheap.ml" 85 2945 2990
+type(
+  int
+)
+"common/iheap.ml" 85 2945 2951 "common/iheap.ml" 85 2945 2990
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 86 2992 2998 "common/iheap.ml" 86 2992 3002
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"common/iheap.ml" 86 2992 3003 "common/iheap.ml" 86 2992 3004
+type(
+  int ref
+)
+ident(
+  int_ref j "common/iheap.ml" 80 2783 2789 "common/iheap.ml" 80 2783 2790
+)
+"common/iheap.ml" 86 2992 2998 "common/iheap.ml" 86 2992 3005
+type(
+  unit
+)
+"common/iheap.ml" 85 2945 2951 "common/iheap.ml" 86 2992 3005
+type(
+  unit
+)
+"common/iheap.ml" 83 2859 2895 "common/iheap.ml" 87 3006 3013
+type(
+  unit
+)
+"common/iheap.ml" 88 3014 3023 "common/iheap.ml" 88 3014 3030
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 88 3014 3031 "common/iheap.ml" 88 3014 3032
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 79 2758 2769 "common/iheap.ml" 79 2758 2770
+)
+"common/iheap.ml" 88 3014 3031 "common/iheap.ml" 88 3014 3040
+type(
+  int Vec.t
+)
+"common/iheap.ml" 88 3014 3042 "common/iheap.ml" 88 3014 3049
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 88 3014 3050 "common/iheap.ml" 88 3014 3051
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 79 2758 2769 "common/iheap.ml" 79 2758 2770
+)
+"common/iheap.ml" 88 3014 3050 "common/iheap.ml" 88 3014 3056
+type(
+  int Vec.t
+)
+"common/iheap.ml" 88 3014 3057 "common/iheap.ml" 88 3014 3058
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 82 2833 2835 "common/iheap.ml" 89 3066 3072
+)
+"common/iheap.ml" 88 3014 3041 "common/iheap.ml" 88 3014 3059
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 88 3014 3060 "common/iheap.ml" 88 3014 3064
+type(
+  int
+)
+"common/iheap.ml" 88 3014 3023 "common/iheap.ml" 88 3014 3064
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 83 2859 2863 "common/iheap.ml" 88 3014 3065
+type(
+  unit
+)
+"common/iheap.ml" 82 2833 2835 "common/iheap.ml" 89 3066 3072
+type(
+  unit
+)
+"common/iheap.ml" 90 3074 3076 "common/iheap.ml" 90 3074 3086
+type(
+  int Vec.t -> int -> unit
+)
+ident(
+  ext_ref Vec.shrink
+)
+"common/iheap.ml" 90 3074 3087 "common/iheap.ml" 90 3074 3088
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 79 2758 2769 "common/iheap.ml" 79 2758 2770
+)
+"common/iheap.ml" 90 3074 3087 "common/iheap.ml" 90 3074 3093
+type(
+  int Vec.t
+)
+"common/iheap.ml" 90 3074 3095 "common/iheap.ml" 90 3074 3098
+type(
+  int
+)
+ident(
+  int_ref lim "common/iheap.ml" 81 2802 2808 "common/iheap.ml" 81 2802 2811
+)
+"common/iheap.ml" 90 3074 3099 "common/iheap.ml" 90 3074 3100
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"common/iheap.ml" 90 3074 3101 "common/iheap.ml" 90 3074 3102
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"common/iheap.ml" 90 3074 3102 "common/iheap.ml" 90 3074 3103
+type(
+  int ref
+)
+ident(
+  int_ref j "common/iheap.ml" 80 2783 2789 "common/iheap.ml" 80 2783 2790
+)
+"common/iheap.ml" 90 3074 3101 "common/iheap.ml" 90 3074 3103
+type(
+  int
+)
+"common/iheap.ml" 90 3074 3094 "common/iheap.ml" 90 3074 3104
+type(
+  int
+)
+"common/iheap.ml" 90 3074 3076 "common/iheap.ml" 90 3074 3104
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 91 3106 3117 "common/iheap.ml" 91 3106 3120
+type(
+  int
+)
+ident(
+  int_ref lim "common/iheap.ml" 81 2802 2808 "common/iheap.ml" 81 2802 2811
+)
+"common/iheap.ml" 91 3106 3121 "common/iheap.ml" 91 3106 3122
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( / )
+)
+"common/iheap.ml" 91 3106 3123 "common/iheap.ml" 91 3106 3124
+type(
+  int
+)
+"common/iheap.ml" 91 3106 3116 "common/iheap.ml" 91 3106 3125
+type(
+  int
+)
+"common/iheap.ml" 91 3106 3126 "common/iheap.ml" 91 3106 3127
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"common/iheap.ml" 91 3106 3128 "common/iheap.ml" 91 3106 3129
+type(
+  int
+)
+"common/iheap.ml" 91 3106 3116 "common/iheap.ml" 91 3106 3129
+type(
+  int
+)
+"common/iheap.ml" 91 3106 3137 "common/iheap.ml" 91 3106 3138
+type(
+  int
+)
+"common/iheap.ml" 92 3142 3146 "common/iheap.ml" 92 3142 3160
+type(
+  (int -> int -> bool) -> t -> int -> unit
+)
+ident(
+  int_ref percolate_down "common/iheap.ml" 48 1871 1875 "common/iheap.ml" 48 1871 1889
+)
+"common/iheap.ml" 92 3142 3161 "common/iheap.ml" 92 3142 3164
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref cmp "common/iheap.ml" 79 2758 2776 "common/iheap.ml" 79 2758 2779
+)
+"common/iheap.ml" 92 3142 3165 "common/iheap.ml" 92 3142 3166
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 79 2758 2769 "common/iheap.ml" 79 2758 2770
+)
+"common/iheap.ml" 92 3142 3167 "common/iheap.ml" 92 3142 3168
+type(
+  int
+)
+ident(
+  int_ref i "common/iheap.ml" 91 3106 3108 "common/iheap.ml" 93 3169 3175
+)
+"common/iheap.ml" 92 3142 3146 "common/iheap.ml" 92 3142 3168
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 91 3106 3108 "common/iheap.ml" 93 3169 3175
+type(
+  unit
+)
+"common/iheap.ml" 90 3074 3076 "common/iheap.ml" 93 3169 3175
+type(
+  unit
+)
+"common/iheap.ml" 82 2833 2835 "common/iheap.ml" 93 3169 3175
+type(
+  unit
+)
+"common/iheap.ml" 81 2802 2804 "common/iheap.ml" 93 3169 3175
+type(
+  unit
+)
+"common/iheap.ml" 80 2783 2785 "common/iheap.ml" 93 3169 3175
+type(
+  unit
+)
+"common/iheap.ml" 95 3177 3181 "common/iheap.ml" 95 3177 3185
+type(
+  t -> int
+)
+ident(
+  def size "common/iheap.ml" 97 3209 3209 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 95 3177 3186 "common/iheap.ml" 95 3177 3187
+type(
+  t
+)
+ident(
+  def s "common/iheap.ml" 95 3177 3190 "common/iheap.ml" 95 3177 3205
+)
+"common/iheap.ml" 95 3177 3190 "common/iheap.ml" 95 3177 3198
+type(
+  int Vec.t -> int
+)
+ident(
+  ext_ref Vec.size
+)
+"common/iheap.ml" 95 3177 3199 "common/iheap.ml" 95 3177 3200
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 95 3177 3186 "common/iheap.ml" 95 3177 3187
+)
+"common/iheap.ml" 95 3177 3199 "common/iheap.ml" 95 3177 3205
+type(
+  int Vec.t
+)
+"common/iheap.ml" 95 3177 3190 "common/iheap.ml" 95 3177 3205
+call(
+  tail
+)
+type(
+  int
+)
+"common/iheap.ml" 97 3209 3213 "common/iheap.ml" 97 3209 3221
+type(
+  t -> bool
+)
+ident(
+  def is_empty "common/iheap.ml" 99 3249 3249 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 97 3209 3222 "common/iheap.ml" 97 3209 3223
+type(
+  t
+)
+ident(
+  def s "common/iheap.ml" 97 3209 3226 "common/iheap.ml" 97 3209 3245
+)
+"common/iheap.ml" 97 3209 3226 "common/iheap.ml" 97 3209 3238
+type(
+  int Vec.t -> bool
+)
+ident(
+  ext_ref Vec.is_empty
+)
+"common/iheap.ml" 97 3209 3239 "common/iheap.ml" 97 3209 3240
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 97 3209 3222 "common/iheap.ml" 97 3209 3223
+)
+"common/iheap.ml" 97 3209 3239 "common/iheap.ml" 97 3209 3245
+type(
+  int Vec.t
+)
+"common/iheap.ml" 97 3209 3226 "common/iheap.ml" 97 3209 3245
+call(
+  tail
+)
+type(
+  bool
+)
+"common/iheap.ml" 99 3249 3253 "common/iheap.ml" 99 3249 3259
+type(
+  (int -> int -> bool) -> t -> int -> unit
+)
+ident(
+  def insert "common/iheap.ml" 107 3435 3435 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 99 3249 3260 "common/iheap.ml" 99 3249 3263
+type(
+  int -> int -> bool
+)
+ident(
+  def cmp "common/iheap.ml" 99 3249 3264 "common/iheap.ml" 105 3426 3433
+)
+"common/iheap.ml" 99 3249 3264 "common/iheap.ml" 99 3249 3265
+type(
+  t
+)
+ident(
+  def s "common/iheap.ml" 99 3249 3266 "common/iheap.ml" 105 3426 3433
+)
+"common/iheap.ml" 99 3249 3266 "common/iheap.ml" 99 3249 3267
+type(
+  int
+)
+ident(
+  def n "common/iheap.ml" 100 3270 3272 "common/iheap.ml" 105 3426 3433
+)
+"common/iheap.ml" 100 3270 3275 "common/iheap.ml" 100 3270 3278
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"common/iheap.ml" 100 3270 3280 "common/iheap.ml" 100 3270 3287
+type(
+  t -> int -> bool
+)
+ident(
+  int_ref in_heap "common/iheap.ml" 71 2502 2506 "common/iheap.ml" 71 2502 2513
+)
+"common/iheap.ml" 100 3270 3288 "common/iheap.ml" 100 3270 3289
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 99 3249 3264 "common/iheap.ml" 99 3249 3265
+)
+"common/iheap.ml" 100 3270 3290 "common/iheap.ml" 100 3270 3291
+type(
+  int
+)
+ident(
+  int_ref n "common/iheap.ml" 99 3249 3266 "common/iheap.ml" 99 3249 3267
+)
+"common/iheap.ml" 100 3270 3279 "common/iheap.ml" 100 3270 3292
+call(
+  stack
+)
+type(
+  bool
+)
+"common/iheap.ml" 100 3270 3275 "common/iheap.ml" 100 3270 3292
+type(
+  bool
+)
+"common/iheap.ml" 102 3309 3315 "common/iheap.ml" 102 3309 3322
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 102 3309 3323 "common/iheap.ml" 102 3309 3324
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 99 3249 3264 "common/iheap.ml" 99 3249 3265
+)
+"common/iheap.ml" 102 3309 3323 "common/iheap.ml" 102 3309 3332
+type(
+  int Vec.t
+)
+"common/iheap.ml" 102 3309 3333 "common/iheap.ml" 102 3309 3334
+type(
+  int
+)
+ident(
+  int_ref n "common/iheap.ml" 99 3249 3266 "common/iheap.ml" 99 3249 3267
+)
+"common/iheap.ml" 102 3309 3336 "common/iheap.ml" 102 3309 3344
+type(
+  int Vec.t -> int
+)
+ident(
+  ext_ref Vec.size
+)
+"common/iheap.ml" 102 3309 3345 "common/iheap.ml" 102 3309 3346
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 99 3249 3264 "common/iheap.ml" 99 3249 3265
+)
+"common/iheap.ml" 102 3309 3345 "common/iheap.ml" 102 3309 3351
+type(
+  int Vec.t
+)
+"common/iheap.ml" 102 3309 3335 "common/iheap.ml" 102 3309 3352
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 102 3309 3315 "common/iheap.ml" 102 3309 3352
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 103 3354 3360 "common/iheap.ml" 103 3354 3368
+type(
+  int Vec.t -> int -> unit
+)
+ident(
+  ext_ref Vec.push
+)
+"common/iheap.ml" 103 3354 3369 "common/iheap.ml" 103 3354 3370
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 99 3249 3264 "common/iheap.ml" 99 3249 3265
+)
+"common/iheap.ml" 103 3354 3369 "common/iheap.ml" 103 3354 3375
+type(
+  int Vec.t
+)
+"common/iheap.ml" 103 3354 3376 "common/iheap.ml" 103 3354 3377
+type(
+  int
+)
+ident(
+  int_ref n "common/iheap.ml" 99 3249 3266 "common/iheap.ml" 99 3249 3267
+)
+"common/iheap.ml" 103 3354 3360 "common/iheap.ml" 103 3354 3377
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 104 3379 3385 "common/iheap.ml" 104 3379 3397
+type(
+  (int -> int -> bool) -> t -> int -> unit
+)
+ident(
+  int_ref percolate_up "common/iheap.ml" 35 1524 1528 "common/iheap.ml" 35 1524 1540
+)
+"common/iheap.ml" 104 3379 3398 "common/iheap.ml" 104 3379 3401
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref cmp "common/iheap.ml" 99 3249 3260 "common/iheap.ml" 99 3249 3263
+)
+"common/iheap.ml" 104 3379 3402 "common/iheap.ml" 104 3379 3403
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 99 3249 3264 "common/iheap.ml" 99 3249 3265
+)
+"common/iheap.ml" 104 3379 3405 "common/iheap.ml" 104 3379 3412
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 104 3379 3413 "common/iheap.ml" 104 3379 3414
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 99 3249 3264 "common/iheap.ml" 99 3249 3265
+)
+"common/iheap.ml" 104 3379 3413 "common/iheap.ml" 104 3379 3422
+type(
+  int Vec.t
+)
+"common/iheap.ml" 104 3379 3423 "common/iheap.ml" 104 3379 3424
+type(
+  int
+)
+ident(
+  int_ref n "common/iheap.ml" 99 3249 3266 "common/iheap.ml" 99 3249 3267
+)
+"common/iheap.ml" 104 3379 3404 "common/iheap.ml" 104 3379 3425
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 104 3379 3385 "common/iheap.ml" 104 3379 3425
+call(
+  tail
+)
+type(
+  unit
+)
+"common/iheap.ml" 103 3354 3360 "common/iheap.ml" 104 3379 3425
+type(
+  unit
+)
+"common/iheap.ml" 101 3299 3303 "common/iheap.ml" 105 3426 3433
+type(
+  unit
+)
+"common/iheap.ml" 100 3270 3272 "common/iheap.ml" 105 3426 3433
+type(
+  unit
+)
+"common/iheap.ml" 107 3435 3439 "common/iheap.ml" 107 3435 3456
+type(
+  t -> int -> unit
+)
+ident(
+  def grow_to_by_double "common/iheap.ml" 125 3818 3818 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 107 3435 3457 "common/iheap.ml" 107 3435 3458
+type(
+  t
+)
+ident(
+  def s "common/iheap.ml" 107 3435 3459 "common/iheap.ml" 109 3503 3536
+)
+"common/iheap.ml" 107 3435 3459 "common/iheap.ml" 107 3435 3461
+type(
+  int
+)
+ident(
+  def sz "common/iheap.ml" 108 3465 3467 "common/iheap.ml" 109 3503 3536
+)
+"common/iheap.ml" 108 3465 3467 "common/iheap.ml" 108 3465 3488
+type(
+  int Vec.t -> int -> unit
+)
+ident(
+  ext_ref Vec.grow_to_by_double
+)
+"common/iheap.ml" 108 3465 3489 "common/iheap.ml" 108 3465 3490
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 107 3435 3457 "common/iheap.ml" 107 3435 3458
+)
+"common/iheap.ml" 108 3465 3489 "common/iheap.ml" 108 3465 3498
+type(
+  int Vec.t
+)
+"common/iheap.ml" 108 3465 3499 "common/iheap.ml" 108 3465 3501
+type(
+  int
+)
+ident(
+  int_ref sz "common/iheap.ml" 107 3435 3459 "common/iheap.ml" 107 3435 3461
+)
+"common/iheap.ml" 108 3465 3467 "common/iheap.ml" 108 3465 3501
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 109 3503 3505 "common/iheap.ml" 109 3503 3526
+type(
+  int Vec.t -> int -> unit
+)
+ident(
+  ext_ref Vec.grow_to_by_double
+)
+"common/iheap.ml" 109 3503 3527 "common/iheap.ml" 109 3503 3528
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 107 3435 3457 "common/iheap.ml" 107 3435 3458
+)
+"common/iheap.ml" 109 3503 3527 "common/iheap.ml" 109 3503 3533
+type(
+  int Vec.t
+)
+"common/iheap.ml" 109 3503 3534 "common/iheap.ml" 109 3503 3536
+type(
+  int
+)
+ident(
+  int_ref sz "common/iheap.ml" 107 3435 3459 "common/iheap.ml" 107 3435 3461
+)
+"common/iheap.ml" 109 3503 3505 "common/iheap.ml" 109 3503 3536
+call(
+  tail
+)
+type(
+  unit
+)
+"common/iheap.ml" 108 3465 3467 "common/iheap.ml" 109 3503 3536
+type(
+  unit
+)
+"common/iheap.ml" 125 3818 3822 "common/iheap.ml" 125 3818 3832
+type(
+  (int -> int -> bool) -> t -> int
+)
+ident(
+  def remove_min "common/iheap.ml" 132 4090 4093 "common/iheap.ml" 1 0 -1
+)
+"common/iheap.ml" 125 3818 3833 "common/iheap.ml" 125 3818 3836
+type(
+  int -> int -> bool
+)
+ident(
+  def cmp "common/iheap.ml" 125 3818 3837 "common/iheap.ml" 132 4090 4093
+)
+"common/iheap.ml" 125 3818 3844 "common/iheap.ml" 125 3818 3848
+type(
+  int Vec.t
+)
+ident(
+  def heap "common/iheap.ml" 126 3876 3878 "common/iheap.ml" 132 4090 4093
+)
+"common/iheap.ml" 125 3818 3858 "common/iheap.ml" 125 3818 3865
+type(
+  int Vec.t
+)
+ident(
+  def indices "common/iheap.ml" 126 3876 3878 "common/iheap.ml" 132 4090 4093
+)
+"common/iheap.ml" 125 3818 3838 "common/iheap.ml" 125 3818 3866
+type(
+  t
+)
+"common/iheap.ml" 125 3818 3870 "common/iheap.ml" 125 3818 3871
+ident(
+  def s "common/iheap.ml" 126 3876 3878 "common/iheap.ml" 132 4090 4093
+)
+"common/iheap.ml" 125 3818 3837 "common/iheap.ml" 125 3818 3872
+type(
+  t
+)
+"common/iheap.ml" 126 3876 3882 "common/iheap.ml" 126 3876 3883
+type(
+  int
+)
+ident(
+  def x "common/iheap.ml" 127 3904 3906 "common/iheap.ml" 132 4090 4093
+)
+"common/iheap.ml" 126 3876 3886 "common/iheap.ml" 126 3876 3893
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 126 3876 3894 "common/iheap.ml" 126 3876 3898
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 125 3818 3844 "common/iheap.ml" 125 3818 3848
+)
+"common/iheap.ml" 126 3876 3899 "common/iheap.ml" 126 3876 3900
+type(
+  int
+)
+"common/iheap.ml" 126 3876 3886 "common/iheap.ml" 126 3876 3900
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 127 3904 3906 "common/iheap.ml" 127 3904 3913
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 127 3904 3914 "common/iheap.ml" 127 3904 3918
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 125 3818 3844 "common/iheap.ml" 125 3818 3848
+)
+"common/iheap.ml" 127 3904 3919 "common/iheap.ml" 127 3904 3920
+type(
+  int
+)
+"common/iheap.ml" 127 3904 3922 "common/iheap.ml" 127 3904 3930
+type(
+  int Vec.t -> int
+)
+ident(
+  ext_ref Vec.last
+)
+"common/iheap.ml" 127 3904 3931 "common/iheap.ml" 127 3904 3935
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 125 3818 3844 "common/iheap.ml" 125 3818 3848
+)
+"common/iheap.ml" 127 3904 3921 "common/iheap.ml" 127 3904 3936
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 127 3904 3906 "common/iheap.ml" 127 3904 3936
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 128 3954 3956 "common/iheap.ml" 128 3954 3963
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 128 3954 3964 "common/iheap.ml" 128 3954 3971
+type(
+  int Vec.t
+)
+ident(
+  int_ref indices "common/iheap.ml" 125 3818 3858 "common/iheap.ml" 125 3818 3865
+)
+"common/iheap.ml" 128 3954 3973 "common/iheap.ml" 128 3954 3980
+type(
+  int Vec.t -> int -> int
+)
+ident(
+  ext_ref Vec.get
+)
+"common/iheap.ml" 128 3954 3981 "common/iheap.ml" 128 3954 3985
+type(
+  int Vec.t
+)
+ident(
+  int_ref heap "common/iheap.ml" 125 3818 3844 "common/iheap.ml" 125 3818 3848
+)
+"common/iheap.ml" 128 3954 3986 "common/iheap.ml" 128 3954 3987
+type(
+  int
+)
+"common/iheap.ml" 128 3954 3972 "common/iheap.ml" 128 3954 3988
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 128 3954 3989 "common/iheap.ml" 128 3954 3990
+type(
+  int
+)
+"common/iheap.ml" 128 3954 3956 "common/iheap.ml" 128 3954 3990
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 129 3992 3994 "common/iheap.ml" 129 3992 4001
+type(
+  int Vec.t -> int -> int -> unit
+)
+ident(
+  ext_ref Vec.set
+)
+"common/iheap.ml" 129 3992 4002 "common/iheap.ml" 129 3992 4009
+type(
+  int Vec.t
+)
+ident(
+  int_ref indices "common/iheap.ml" 125 3818 3858 "common/iheap.ml" 125 3818 3865
+)
+"common/iheap.ml" 129 3992 4010 "common/iheap.ml" 129 3992 4011
+type(
+  int
+)
+ident(
+  int_ref x "common/iheap.ml" 126 3876 3882 "common/iheap.ml" 126 3876 3883
+)
+"common/iheap.ml" 129 3992 4012 "common/iheap.ml" 129 3992 4016
+type(
+  int
+)
+"common/iheap.ml" 129 3992 3994 "common/iheap.ml" 129 3992 4016
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 130 4018 4020 "common/iheap.ml" 130 4018 4027
+type(
+  int Vec.t -> unit
+)
+ident(
+  ext_ref Vec.pop
+)
+"common/iheap.ml" 130 4018 4028 "common/iheap.ml" 130 4018 4029
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 125 3818 3837 "common/iheap.ml" 125 3818 3872
+)
+"common/iheap.ml" 130 4018 4028 "common/iheap.ml" 130 4018 4034
+type(
+  int Vec.t
+)
+"common/iheap.ml" 130 4018 4020 "common/iheap.ml" 130 4018 4034
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 131 4036 4041 "common/iheap.ml" 131 4036 4049
+type(
+  int Vec.t -> int
+)
+ident(
+  ext_ref Vec.size
+)
+"common/iheap.ml" 131 4036 4050 "common/iheap.ml" 131 4036 4051
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 125 3818 3837 "common/iheap.ml" 125 3818 3872
+)
+"common/iheap.ml" 131 4036 4050 "common/iheap.ml" 131 4036 4056
+type(
+  int Vec.t
+)
+"common/iheap.ml" 131 4036 4041 "common/iheap.ml" 131 4036 4056
+call(
+  stack
+)
+type(
+  int
+)
+"common/iheap.ml" 131 4036 4057 "common/iheap.ml" 131 4036 4058
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( > )
+)
+"common/iheap.ml" 131 4036 4059 "common/iheap.ml" 131 4036 4060
+type(
+  int
+)
+"common/iheap.ml" 131 4036 4041 "common/iheap.ml" 131 4036 4060
+type(
+  bool
+)
+"common/iheap.ml" 131 4036 4066 "common/iheap.ml" 131 4036 4080
+type(
+  (int -> int -> bool) -> t -> int -> unit
+)
+ident(
+  int_ref percolate_down "common/iheap.ml" 48 1871 1875 "common/iheap.ml" 48 1871 1889
+)
+"common/iheap.ml" 131 4036 4081 "common/iheap.ml" 131 4036 4084
+type(
+  int -> int -> bool
+)
+ident(
+  int_ref cmp "common/iheap.ml" 125 3818 3833 "common/iheap.ml" 125 3818 3836
+)
+"common/iheap.ml" 131 4036 4085 "common/iheap.ml" 131 4036 4086
+type(
+  t
+)
+ident(
+  int_ref s "common/iheap.ml" 125 3818 3837 "common/iheap.ml" 125 3818 3872
+)
+"common/iheap.ml" 131 4036 4087 "common/iheap.ml" 131 4036 4088
+type(
+  int
+)
+"common/iheap.ml" 131 4036 4066 "common/iheap.ml" 131 4036 4088
+call(
+  stack
+)
+type(
+  unit
+)
+"common/iheap.ml" 131 4036 4038 "common/iheap.ml" 131 4036 4088
+type(
+  unit
+)
+"common/iheap.ml" 132 4090 4092 "common/iheap.ml" 132 4090 4093
+type(
+  int
+)
+ident(
+  int_ref x "common/iheap.ml" 126 3876 3882 "common/iheap.ml" 126 3876 3883
+)
+"common/iheap.ml" 131 4036 4038 "common/iheap.ml" 132 4090 4093
+type(
+  int
+)
+"common/iheap.ml" 130 4018 4020 "common/iheap.ml" 132 4090 4093
+type(
+  int
+)
+"common/iheap.ml" 129 3992 3994 "common/iheap.ml" 132 4090 4093
+type(
+  int
+)
+"common/iheap.ml" 128 3954 3956 "common/iheap.ml" 132 4090 4093
+type(
+  int
+)
+"common/iheap.ml" 127 3904 3906 "common/iheap.ml" 132 4090 4093
+type(
+  int
+)
+"common/iheap.ml" 126 3876 3878 "common/iheap.ml" 132 4090 4093
+type(
+  int
+)

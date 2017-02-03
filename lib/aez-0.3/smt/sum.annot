@@ -1,0 +1,4989 @@
+"smt/sum.ml" 38 1403 1409 "smt/sum.ml" 38 1403 1413
+type(
+  string
+)
+ident(
+  def name "smt/sum.ml" 40 1425 1427 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 38 1403 1416 "smt/sum.ml" 38 1403 1421
+type(
+  string
+)
+"smt/sum.ml" 40 1425 1431 "smt/sum.ml" 40 1425 1441
+type(
+  'a -> bool
+)
+ident(
+  def unsolvable "smt/sum.ml" 42 1455 1457 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 40 1425 1442 "smt/sum.ml" 40 1425 1443
+type(
+  'a
+)
+"smt/sum.ml" 40 1425 1446 "smt/sum.ml" 40 1425 1451
+type(
+  bool
+)
+"smt/sum.ml" 42 1455 1461 "smt/sum.ml" 42 1455 1470
+type(
+  'b -> bool
+)
+ident(
+  def is_mine_a "smt/sum.ml" 44 1484 1486 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 42 1455 1471 "smt/sum.ml" 42 1455 1472
+type(
+  'b
+)
+"smt/sum.ml" 42 1455 1475 "smt/sum.ml" 42 1455 1480
+type(
+  bool
+)
+"smt/sum.ml" 44 1484 1490 "smt/sum.ml" 44 1484 1502
+type(
+  Sy.t -> bool
+)
+ident(
+  def is_mine_symb "smt/sum.ml" 48 1583 1585 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 45 1515 1529 "smt/sum.ml" 45 1515 1530
+type(
+  Hstring.t
+)
+"smt/sum.ml" 45 1515 1532 "smt/sum.ml" 45 1515 1546
+type(
+  Sy.name_kind
+)
+"smt/sum.ml" 45 1515 1521 "smt/sum.ml" 45 1515 1547
+type(
+  Sy.t
+)
+"smt/sum.ml" 45 1515 1551 "smt/sum.ml" 45 1515 1555
+type(
+  bool
+)
+"smt/sum.ml" 46 1557 1563 "smt/sum.ml" 46 1557 1564
+type(
+  Sy.t
+)
+"smt/sum.ml" 46 1557 1568 "smt/sum.ml" 46 1557 1573
+type(
+  bool
+)
+"smt/sum.ml" 44 1484 1505 "smt/sum.ml" 46 1557 1573
+type(
+  Sy.t -> bool
+)
+"smt/sum.ml" 48 1583 1589 "smt/sum.ml" 48 1583 1606
+type(
+  'c -> bool
+)
+ident(
+  def fully_interpreted "smt/sum.ml" 50 1618 1620 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 48 1583 1607 "smt/sum.ml" 48 1583 1609
+type(
+  'c
+)
+ident(
+  def sb "smt/sum.ml" 48 1583 1612 "smt/sum.ml" 48 1583 1616
+)
+"smt/sum.ml" 48 1583 1612 "smt/sum.ml" 48 1583 1616
+type(
+  bool
+)
+"smt/sum.ml" 50 1618 1624 "smt/sum.ml" 50 1618 1633
+type(
+  X.r abstract -> Ty.t
+)
+ident(
+  def type_info "smt/sum.ml" 54 1710 1712 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 51 1645 1657 "smt/sum.ml" 51 1645 1658
+type(
+  Hs.t
+)
+"smt/sum.ml" 51 1645 1660 "smt/sum.ml" 51 1645 1662
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/sum.ml" 51 1645 1667 "smt/sum.ml" 51 1645 1669
+)
+"smt/sum.ml" 51 1645 1651 "smt/sum.ml" 51 1645 1663
+type(
+  X.r abstract
+)
+"smt/sum.ml" 51 1645 1667 "smt/sum.ml" 51 1645 1669
+type(
+  Ty.t
+)
+ident(
+  int_ref ty "smt/sum.ml" 51 1645 1660 "smt/sum.ml" 51 1645 1662
+)
+"smt/sum.ml" 52 1670 1682 "smt/sum.ml" 52 1670 1683
+type(
+  X.r
+)
+ident(
+  def x "smt/sum.ml" 52 1670 1687 "smt/sum.ml" 52 1670 1700
+)
+"smt/sum.ml" 52 1670 1676 "smt/sum.ml" 52 1670 1683
+type(
+  X.r abstract
+)
+"smt/sum.ml" 52 1670 1687 "smt/sum.ml" 52 1670 1698
+type(
+  X.r -> Ty.t
+)
+ident(
+  ext_ref X.type_info
+)
+"smt/sum.ml" 52 1670 1699 "smt/sum.ml" 52 1670 1700
+type(
+  X.r
+)
+ident(
+  int_ref x "smt/sum.ml" 52 1670 1682 "smt/sum.ml" 52 1670 1683
+)
+"smt/sum.ml" 52 1670 1687 "smt/sum.ml" 52 1670 1700
+call(
+  tail
+)
+type(
+  Ty.t
+)
+"smt/sum.ml" 50 1618 1636 "smt/sum.ml" 52 1670 1700
+type(
+  X.r abstract -> Ty.t
+)
+"smt/sum.ml" 54 1710 1716 "smt/sum.ml" 54 1710 1728
+type(
+  X.r abstract -> bool
+)
+ident(
+  def is_mine_type "smt/sum.ml" 58 1807 1809 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 54 1710 1729 "smt/sum.ml" 54 1710 1730
+type(
+  X.r abstract
+)
+ident(
+  def c "smt/sum.ml" 54 1710 1733 "smt/sum.ml" 56 1781 1797
+)
+"smt/sum.ml" 54 1710 1739 "smt/sum.ml" 54 1710 1748
+type(
+  X.r abstract -> Ty.t
+)
+ident(
+  int_ref type_info "smt/sum.ml" 50 1618 1624 "smt/sum.ml" 50 1618 1633
+)
+"smt/sum.ml" 54 1710 1749 "smt/sum.ml" 54 1710 1750
+type(
+  X.r abstract
+)
+ident(
+  int_ref c "smt/sum.ml" 54 1710 1729 "smt/sum.ml" 54 1710 1730
+)
+"smt/sum.ml" 54 1710 1739 "smt/sum.ml" 54 1710 1750
+call(
+  stack
+)
+type(
+  Ty.t
+)
+"smt/sum.ml" 55 1756 1770 "smt/sum.ml" 55 1756 1771
+type(
+  Hstring.t list
+)
+type(
+  Hstring.t
+)
+"smt/sum.ml" 55 1756 1762 "smt/sum.ml" 55 1756 1771
+type(
+  Ty.t
+)
+"smt/sum.ml" 55 1756 1775 "smt/sum.ml" 55 1756 1779
+type(
+  bool
+)
+"smt/sum.ml" 56 1781 1787 "smt/sum.ml" 56 1781 1788
+type(
+  Ty.t
+)
+"smt/sum.ml" 56 1781 1792 "smt/sum.ml" 56 1781 1797
+type(
+  bool
+)
+"smt/sum.ml" 54 1710 1733 "smt/sum.ml" 56 1781 1797
+type(
+  bool
+)
+"smt/sum.ml" 58 1807 1813 "smt/sum.ml" 58 1807 1818
+type(
+  'd -> 'e
+)
+ident(
+  def color "smt/sum.ml" 60 1839 1841 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 58 1807 1819 "smt/sum.ml" 58 1807 1820
+type(
+  'd
+)
+"smt/sum.ml" 58 1807 1830 "smt/sum.ml" 58 1807 1835
+type(
+  bool
+)
+"smt/sum.ml" 58 1807 1823 "smt/sum.ml" 58 1807 1835
+type(
+  'e
+)
+"smt/sum.ml" 60 1839 1845 "smt/sum.ml" 60 1839 1850
+type(
+  Format.formatter -> X.r abstract -> unit
+)
+ident(
+  def print "smt/sum.ml" 64 1963 1965 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 60 1839 1851 "smt/sum.ml" 60 1839 1854
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/sum.ml" 60 1839 1857 "smt/sum.ml" 62 1918 1961
+)
+"smt/sum.ml" 61 1866 1878 "smt/sum.ml" 61 1866 1880
+type(
+  Hs.t
+)
+ident(
+  def hs "smt/sum.ml" 61 1866 1888 "smt/sum.ml" 61 1866 1917
+)
+"smt/sum.ml" 61 1866 1881 "smt/sum.ml" 61 1866 1883
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/sum.ml" 61 1866 1888 "smt/sum.ml" 61 1866 1917
+)
+"smt/sum.ml" 61 1866 1872 "smt/sum.ml" 61 1866 1884
+type(
+  X.r abstract
+)
+"smt/sum.ml" 61 1866 1888 "smt/sum.ml" 61 1866 1895
+type(
+  Format.formatter ->
+  (string -> unit, Format.formatter, unit) format -> string -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/sum.ml" 61 1866 1896 "smt/sum.ml" 61 1866 1899
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/sum.ml" 60 1839 1851 "smt/sum.ml" 60 1839 1854
+)
+"smt/sum.ml" 61 1866 1900 "smt/sum.ml" 61 1866 1904
+type(
+  (string -> unit, Format.formatter, unit) format
+)
+"smt/sum.ml" 61 1866 1906 "smt/sum.ml" 61 1866 1913
+type(
+  Hs.t -> string
+)
+ident(
+  ext_ref Hs.view
+)
+"smt/sum.ml" 61 1866 1914 "smt/sum.ml" 61 1866 1916
+type(
+  Hs.t
+)
+ident(
+  int_ref hs "smt/sum.ml" 61 1866 1878 "smt/sum.ml" 61 1866 1880
+)
+"smt/sum.ml" 61 1866 1905 "smt/sum.ml" 61 1866 1917
+call(
+  stack
+)
+type(
+  string
+)
+"smt/sum.ml" 61 1866 1888 "smt/sum.ml" 61 1866 1917
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/sum.ml" 62 1918 1930 "smt/sum.ml" 62 1918 1931
+type(
+  X.r
+)
+ident(
+  def x "smt/sum.ml" 62 1918 1935 "smt/sum.ml" 62 1918 1961
+)
+"smt/sum.ml" 62 1918 1924 "smt/sum.ml" 62 1918 1931
+type(
+  X.r abstract
+)
+"smt/sum.ml" 62 1918 1935 "smt/sum.ml" 62 1918 1942
+type(
+  Format.formatter ->
+  ((Format.formatter -> X.r -> unit) -> X.r -> unit, Format.formatter, unit)
+  format -> (Format.formatter -> X.r -> unit) -> X.r -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/sum.ml" 62 1918 1943 "smt/sum.ml" 62 1918 1946
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/sum.ml" 60 1839 1851 "smt/sum.ml" 60 1839 1854
+)
+"smt/sum.ml" 62 1918 1947 "smt/sum.ml" 62 1918 1951
+type(
+  ((Format.formatter -> X.r -> unit) -> X.r -> unit, Format.formatter, unit)
+  format
+)
+"smt/sum.ml" 62 1918 1952 "smt/sum.ml" 62 1918 1959
+type(
+  Format.formatter -> X.r -> unit
+)
+ident(
+  ext_ref X.print
+)
+"smt/sum.ml" 62 1918 1960 "smt/sum.ml" 62 1918 1961
+type(
+  X.r
+)
+ident(
+  int_ref x "smt/sum.ml" 62 1918 1930 "smt/sum.ml" 62 1918 1931
+)
+"smt/sum.ml" 62 1918 1935 "smt/sum.ml" 62 1918 1961
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/sum.ml" 60 1839 1857 "smt/sum.ml" 62 1918 1961
+type(
+  X.r abstract -> unit
+)
+"smt/sum.ml" 64 1963 1969 "smt/sum.ml" 64 1963 1974
+type(
+  X.r -> X.r abstract
+)
+ident(
+  def embed "smt/sum.ml" 69 2052 2054 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 64 1963 1975 "smt/sum.ml" 64 1963 1976
+type(
+  X.r
+)
+ident(
+  def r "smt/sum.ml" 65 1979 1983 "smt/sum.ml" 67 2026 2049
+)
+"smt/sum.ml" 65 1979 1989 "smt/sum.ml" 65 1979 1998
+type(
+  X.r -> X.r abstract option
+)
+ident(
+  int_ref X.extract "smt/sum.ml" 30 1284 1286 "smt/sum.ml" 30 1284 1324
+)
+"smt/sum.ml" 65 1979 1999 "smt/sum.ml" 65 1979 2000
+type(
+  X.r
+)
+ident(
+  int_ref r "smt/sum.ml" 64 1963 1975 "smt/sum.ml" 64 1963 1976
+)
+"smt/sum.ml" 65 1979 1989 "smt/sum.ml" 65 1979 2000
+call(
+  stack
+)
+type(
+  X.r abstract option
+)
+"smt/sum.ml" 66 2006 2019 "smt/sum.ml" 66 2006 2020
+type(
+  X.r abstract
+)
+ident(
+  def c "smt/sum.ml" 66 2006 2024 "smt/sum.ml" 66 2006 2025
+)
+"smt/sum.ml" 66 2006 2014 "smt/sum.ml" 66 2006 2020
+type(
+  X.r abstract option
+)
+"smt/sum.ml" 66 2006 2024 "smt/sum.ml" 66 2006 2025
+type(
+  X.r abstract
+)
+ident(
+  int_ref c "smt/sum.ml" 66 2006 2019 "smt/sum.ml" 66 2006 2020
+)
+"smt/sum.ml" 67 2026 2034 "smt/sum.ml" 67 2026 2038
+type(
+  X.r abstract option
+)
+"smt/sum.ml" 67 2026 2048 "smt/sum.ml" 67 2026 2049
+type(
+  X.r
+)
+ident(
+  int_ref r "smt/sum.ml" 64 1963 1975 "smt/sum.ml" 64 1963 1976
+)
+"smt/sum.ml" 67 2026 2042 "smt/sum.ml" 67 2026 2049
+type(
+  X.r abstract
+)
+"smt/sum.ml" 65 1979 1983 "smt/sum.ml" 67 2026 2049
+type(
+  X.r abstract
+)
+"smt/sum.ml" 69 2052 2058 "smt/sum.ml" 69 2052 2065
+type(
+  X.r abstract -> X.r
+)
+ident(
+  def is_mine "smt/sum.ml" 73 2141 2143 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 70 2077 2089 "smt/sum.ml" 70 2077 2090
+type(
+  X.r
+)
+ident(
+  def r "smt/sum.ml" 70 2077 2094 "smt/sum.ml" 70 2077 2095
+)
+"smt/sum.ml" 70 2077 2083 "smt/sum.ml" 70 2077 2090
+type(
+  X.r abstract
+)
+"smt/sum.ml" 70 2077 2094 "smt/sum.ml" 70 2077 2095
+type(
+  X.r
+)
+ident(
+  int_ref r "smt/sum.ml" 70 2077 2089 "smt/sum.ml" 70 2077 2090
+)
+"smt/sum.ml" 71 2096 2107 "smt/sum.ml" 71 2096 2109
+type(
+  Hs.t
+)
+ident(
+  def hs "smt/sum.ml" 71 2096 2122 "smt/sum.ml" 71 2096 2131
+)
+"smt/sum.ml" 71 2096 2110 "smt/sum.ml" 71 2096 2112
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/sum.ml" 71 2096 2122 "smt/sum.ml" 71 2096 2131
+)
+"smt/sum.ml" 71 2096 2102 "smt/sum.ml" 71 2096 2113
+type(
+  X.r abstract
+)
+"smt/sum.ml" 71 2096 2117 "smt/sum.ml" 71 2096 2118
+ident(
+  def c "smt/sum.ml" 71 2096 2122 "smt/sum.ml" 71 2096 2131
+)
+"smt/sum.ml" 71 2096 2102 "smt/sum.ml" 71 2096 2118
+type(
+  X.r abstract
+)
+"smt/sum.ml" 71 2096 2122 "smt/sum.ml" 71 2096 2129
+type(
+  X.r abstract -> X.r
+)
+ident(
+  int_ref X.embed "smt/sum.ml" 29 1254 1256 "smt/sum.ml" 29 1254 1283
+)
+"smt/sum.ml" 71 2096 2130 "smt/sum.ml" 71 2096 2131
+type(
+  X.r abstract
+)
+ident(
+  int_ref c "smt/sum.ml" 71 2096 2102 "smt/sum.ml" 71 2096 2118
+)
+"smt/sum.ml" 71 2096 2122 "smt/sum.ml" 71 2096 2131
+call(
+  tail
+)
+type(
+  X.r
+)
+"smt/sum.ml" 69 2052 2068 "smt/sum.ml" 71 2096 2131
+type(
+  X.r abstract -> X.r
+)
+"smt/sum.ml" 73 2141 2147 "smt/sum.ml" 73 2141 2154
+type(
+  X.r abstract -> X.r abstract -> int
+)
+ident(
+  def compare "smt/sum.ml" 82 2435 2437 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 73 2141 2155 "smt/sum.ml" 73 2141 2157
+type(
+  X.r abstract
+)
+ident(
+  def c1 "smt/sum.ml" 73 2141 2158 "smt/sum.ml" 80 2397 2429
+)
+"smt/sum.ml" 73 2141 2158 "smt/sum.ml" 73 2141 2160
+type(
+  X.r abstract
+)
+ident(
+  def c2 "smt/sum.ml" 74 2164 2168 "smt/sum.ml" 80 2397 2429
+)
+"smt/sum.ml" 74 2164 2174 "smt/sum.ml" 74 2164 2176
+type(
+  X.r abstract
+)
+ident(
+  int_ref c1 "smt/sum.ml" 73 2141 2155 "smt/sum.ml" 73 2141 2157
+)
+"smt/sum.ml" 74 2164 2179 "smt/sum.ml" 74 2164 2181
+type(
+  X.r abstract
+)
+ident(
+  int_ref c2 "smt/sum.ml" 73 2141 2158 "smt/sum.ml" 73 2141 2160
+)
+"smt/sum.ml" 74 2164 2174 "smt/sum.ml" 74 2164 2181
+type(
+  X.r abstract * X.r abstract
+)
+"smt/sum.ml" 75 2187 2201 "smt/sum.ml" 75 2187 2203
+type(
+  Hs.t
+)
+ident(
+  def h1 "smt/sum.ml" 76 2230 2240 "smt/sum.ml" 77 2268 2318
+)
+"smt/sum.ml" 75 2187 2204 "smt/sum.ml" 75 2187 2207
+type(
+  Ty.t
+)
+ident(
+  def ty1 "smt/sum.ml" 76 2230 2240 "smt/sum.ml" 77 2268 2318
+)
+"smt/sum.ml" 75 2187 2195 "smt/sum.ml" 75 2187 2208
+type(
+  X.r abstract
+)
+"smt/sum.ml" 75 2187 2217 "smt/sum.ml" 75 2187 2219
+type(
+  Hs.t
+)
+ident(
+  def h2 "smt/sum.ml" 76 2230 2240 "smt/sum.ml" 77 2268 2318
+)
+"smt/sum.ml" 75 2187 2220 "smt/sum.ml" 75 2187 2223
+type(
+  Ty.t
+)
+ident(
+  def ty2 "smt/sum.ml" 76 2230 2240 "smt/sum.ml" 77 2268 2318
+)
+"smt/sum.ml" 75 2187 2211 "smt/sum.ml" 75 2187 2224
+type(
+  X.r abstract
+)
+"smt/sum.ml" 75 2187 2195 "smt/sum.ml" 75 2187 2224
+type(
+  X.r abstract * X.r abstract
+)
+"smt/sum.ml" 76 2230 2244 "smt/sum.ml" 76 2230 2245
+type(
+  int
+)
+ident(
+  def n "smt/sum.ml" 77 2268 2278 "smt/sum.ml" 77 2268 2318
+)
+"smt/sum.ml" 76 2230 2248 "smt/sum.ml" 76 2230 2258
+type(
+  Hs.t -> Hs.t -> int
+)
+ident(
+  ext_ref Hs.compare
+)
+"smt/sum.ml" 76 2230 2259 "smt/sum.ml" 76 2230 2261
+type(
+  Hs.t
+)
+ident(
+  int_ref h1 "smt/sum.ml" 75 2187 2201 "smt/sum.ml" 75 2187 2203
+)
+"smt/sum.ml" 76 2230 2262 "smt/sum.ml" 76 2230 2264
+type(
+  Hs.t
+)
+ident(
+  int_ref h2 "smt/sum.ml" 75 2187 2217 "smt/sum.ml" 75 2187 2219
+)
+"smt/sum.ml" 76 2230 2248 "smt/sum.ml" 76 2230 2264
+call(
+  stack
+)
+type(
+  int
+)
+"smt/sum.ml" 77 2268 2281 "smt/sum.ml" 77 2268 2282
+type(
+  int
+)
+ident(
+  int_ref n "smt/sum.ml" 76 2230 2244 "smt/sum.ml" 76 2230 2245
+)
+"smt/sum.ml" 77 2268 2283 "smt/sum.ml" 77 2268 2285
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <> )
+)
+"smt/sum.ml" 77 2268 2286 "smt/sum.ml" 77 2268 2287
+type(
+  int
+)
+"smt/sum.ml" 77 2268 2281 "smt/sum.ml" 77 2268 2287
+type(
+  bool
+)
+"smt/sum.ml" 77 2268 2293 "smt/sum.ml" 77 2268 2294
+type(
+  int
+)
+ident(
+  int_ref n "smt/sum.ml" 76 2230 2244 "smt/sum.ml" 76 2230 2245
+)
+"smt/sum.ml" 77 2268 2300 "smt/sum.ml" 77 2268 2310
+type(
+  Ty.t -> Ty.t -> int
+)
+ident(
+  ext_ref Ty.compare
+)
+"smt/sum.ml" 77 2268 2311 "smt/sum.ml" 77 2268 2314
+type(
+  Ty.t
+)
+ident(
+  int_ref ty1 "smt/sum.ml" 75 2187 2204 "smt/sum.ml" 75 2187 2207
+)
+"smt/sum.ml" 77 2268 2315 "smt/sum.ml" 77 2268 2318
+type(
+  Ty.t
+)
+ident(
+  int_ref ty2 "smt/sum.ml" 75 2187 2220 "smt/sum.ml" 75 2187 2223
+)
+"smt/sum.ml" 77 2268 2300 "smt/sum.ml" 77 2268 2318
+call(
+  tail
+)
+type(
+  int
+)
+"smt/sum.ml" 77 2268 2278 "smt/sum.ml" 77 2268 2318
+type(
+  int
+)
+"smt/sum.ml" 76 2230 2240 "smt/sum.ml" 77 2268 2318
+type(
+  int
+)
+"smt/sum.ml" 78 2319 2333 "smt/sum.ml" 78 2319 2335
+type(
+  X.r
+)
+ident(
+  def r1 "smt/sum.ml" 78 2319 2349 "smt/sum.ml" 78 2319 2364
+)
+"smt/sum.ml" 78 2319 2327 "smt/sum.ml" 78 2319 2335
+type(
+  X.r abstract
+)
+"smt/sum.ml" 78 2319 2343 "smt/sum.ml" 78 2319 2345
+type(
+  X.r
+)
+ident(
+  def r2 "smt/sum.ml" 78 2319 2349 "smt/sum.ml" 78 2319 2364
+)
+"smt/sum.ml" 78 2319 2337 "smt/sum.ml" 78 2319 2345
+type(
+  X.r abstract
+)
+"smt/sum.ml" 78 2319 2327 "smt/sum.ml" 78 2319 2345
+type(
+  X.r abstract * X.r abstract
+)
+"smt/sum.ml" 78 2319 2349 "smt/sum.ml" 78 2319 2358
+type(
+  X.r -> X.r -> int
+)
+ident(
+  ext_ref X.compare
+)
+"smt/sum.ml" 78 2319 2359 "smt/sum.ml" 78 2319 2361
+type(
+  X.r
+)
+ident(
+  int_ref r1 "smt/sum.ml" 78 2319 2333 "smt/sum.ml" 78 2319 2335
+)
+"smt/sum.ml" 78 2319 2362 "smt/sum.ml" 78 2319 2364
+type(
+  X.r
+)
+ident(
+  int_ref r2 "smt/sum.ml" 78 2319 2343 "smt/sum.ml" 78 2319 2345
+)
+"smt/sum.ml" 78 2319 2349 "smt/sum.ml" 78 2319 2364
+call(
+  tail
+)
+type(
+  int
+)
+"smt/sum.ml" 79 2365 2379 "smt/sum.ml" 79 2365 2380
+type(
+  X.r
+)
+"smt/sum.ml" 79 2365 2373 "smt/sum.ml" 79 2365 2380
+type(
+  X.r abstract
+)
+"smt/sum.ml" 79 2365 2388 "smt/sum.ml" 79 2365 2389
+type(
+  Ty.t
+)
+type(
+  Hs.t
+)
+"smt/sum.ml" 79 2365 2383 "smt/sum.ml" 79 2365 2389
+type(
+  X.r abstract
+)
+"smt/sum.ml" 79 2365 2373 "smt/sum.ml" 79 2365 2389
+type(
+  X.r abstract * X.r abstract
+)
+"smt/sum.ml" 79 2365 2395 "smt/sum.ml" 79 2365 2396
+type(
+  int
+)
+"smt/sum.ml" 80 2397 2410 "smt/sum.ml" 80 2397 2411
+type(
+  Ty.t
+)
+type(
+  Hs.t
+)
+"smt/sum.ml" 80 2397 2405 "smt/sum.ml" 80 2397 2411
+type(
+  X.r abstract
+)
+"smt/sum.ml" 80 2397 2421 "smt/sum.ml" 80 2397 2422
+type(
+  X.r
+)
+"smt/sum.ml" 80 2397 2415 "smt/sum.ml" 80 2397 2422
+type(
+  X.r abstract
+)
+"smt/sum.ml" 80 2397 2405 "smt/sum.ml" 80 2397 2422
+type(
+  X.r abstract * X.r abstract
+)
+"smt/sum.ml" 80 2397 2427 "smt/sum.ml" 80 2397 2429
+type(
+  int
+)
+"smt/sum.ml" 74 2164 2168 "smt/sum.ml" 80 2397 2429
+type(
+  int
+)
+"smt/sum.ml" 82 2435 2441 "smt/sum.ml" 82 2435 2445
+type(
+  X.r abstract -> int
+)
+ident(
+  def hash "smt/sum.ml" 86 2539 2541 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 83 2457 2469 "smt/sum.ml" 83 2457 2470
+type(
+  Hs.t
+)
+ident(
+  def h "smt/sum.ml" 83 2457 2479 "smt/sum.ml" 83 2457 2511
+)
+"smt/sum.ml" 83 2457 2472 "smt/sum.ml" 83 2457 2474
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/sum.ml" 83 2457 2479 "smt/sum.ml" 83 2457 2511
+)
+"smt/sum.ml" 83 2457 2463 "smt/sum.ml" 83 2457 2475
+type(
+  X.r abstract
+)
+"smt/sum.ml" 83 2457 2479 "smt/sum.ml" 83 2457 2491
+type(
+  Hstring.t -> int
+)
+ident(
+  ext_ref Hstring.hash
+)
+"smt/sum.ml" 83 2457 2492 "smt/sum.ml" 83 2457 2493
+type(
+  Hs.t
+)
+ident(
+  int_ref h "smt/sum.ml" 83 2457 2469 "smt/sum.ml" 83 2457 2470
+)
+"smt/sum.ml" 83 2457 2479 "smt/sum.ml" 83 2457 2493
+call(
+  stack
+)
+type(
+  int
+)
+"smt/sum.ml" 83 2457 2494 "smt/sum.ml" 83 2457 2495
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"smt/sum.ml" 83 2457 2496 "smt/sum.ml" 83 2457 2498
+type(
+  int
+)
+"smt/sum.ml" 83 2457 2499 "smt/sum.ml" 83 2457 2500
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( * )
+)
+"smt/sum.ml" 83 2457 2501 "smt/sum.ml" 83 2457 2508
+type(
+  Ty.t -> int
+)
+ident(
+  ext_ref Ty.hash
+)
+"smt/sum.ml" 83 2457 2509 "smt/sum.ml" 83 2457 2511
+type(
+  Ty.t
+)
+ident(
+  int_ref ty "smt/sum.ml" 83 2457 2472 "smt/sum.ml" 83 2457 2474
+)
+"smt/sum.ml" 83 2457 2501 "smt/sum.ml" 83 2457 2511
+call(
+  stack
+)
+type(
+  int
+)
+"smt/sum.ml" 83 2457 2496 "smt/sum.ml" 83 2457 2511
+type(
+  int
+)
+"smt/sum.ml" 83 2457 2479 "smt/sum.ml" 83 2457 2511
+type(
+  int
+)
+"smt/sum.ml" 84 2512 2524 "smt/sum.ml" 84 2512 2525
+type(
+  X.r
+)
+ident(
+  def r "smt/sum.ml" 84 2512 2529 "smt/sum.ml" 84 2512 2537
+)
+"smt/sum.ml" 84 2512 2518 "smt/sum.ml" 84 2512 2525
+type(
+  X.r abstract
+)
+"smt/sum.ml" 84 2512 2529 "smt/sum.ml" 84 2512 2535
+type(
+  X.r -> int
+)
+ident(
+  ext_ref X.hash
+)
+"smt/sum.ml" 84 2512 2536 "smt/sum.ml" 84 2512 2537
+type(
+  X.r
+)
+ident(
+  int_ref r "smt/sum.ml" 84 2512 2524 "smt/sum.ml" 84 2512 2525
+)
+"smt/sum.ml" 84 2512 2529 "smt/sum.ml" 84 2512 2537
+call(
+  tail
+)
+type(
+  int
+)
+"smt/sum.ml" 82 2435 2448 "smt/sum.ml" 84 2512 2537
+type(
+  X.r abstract -> int
+)
+"smt/sum.ml" 86 2539 2545 "smt/sum.ml" 86 2539 2551
+type(
+  'f -> 'g list
+)
+ident(
+  def leaves "smt/sum.ml" 88 2560 2562 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 86 2539 2552 "smt/sum.ml" 86 2539 2553
+type(
+  'f
+)
+"smt/sum.ml" 86 2539 2556 "smt/sum.ml" 86 2539 2558
+type(
+  'g list
+)
+"smt/sum.ml" 88 2560 2566 "smt/sum.ml" 88 2560 2571
+type(
+  X.r -> X.r -> X.r abstract -> X.r
+)
+ident(
+  def subst "smt/sum.ml" 96 2733 2735 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 88 2560 2572 "smt/sum.ml" 88 2560 2573
+type(
+  X.r
+)
+ident(
+  def p "smt/sum.ml" 88 2560 2574 "smt/sum.ml" 94 2690 2727
+)
+"smt/sum.ml" 88 2560 2574 "smt/sum.ml" 88 2560 2575
+type(
+  X.r
+)
+ident(
+  def v "smt/sum.ml" 88 2560 2576 "smt/sum.ml" 94 2690 2727
+)
+"smt/sum.ml" 88 2560 2576 "smt/sum.ml" 88 2560 2577
+type(
+  X.r abstract
+)
+ident(
+  def c "smt/sum.ml" 89 2581 2585 "smt/sum.ml" 94 2690 2727
+)
+"smt/sum.ml" 89 2581 2589 "smt/sum.ml" 89 2581 2591
+type(
+  X.r
+)
+ident(
+  def cr "smt/sum.ml" 90 2607 2611 "smt/sum.ml" 94 2690 2727
+)
+"smt/sum.ml" 89 2581 2594 "smt/sum.ml" 89 2581 2601
+type(
+  X.r abstract -> X.r
+)
+ident(
+  int_ref is_mine "smt/sum.ml" 69 2052 2058 "smt/sum.ml" 69 2052 2065
+)
+"smt/sum.ml" 89 2581 2602 "smt/sum.ml" 89 2581 2603
+type(
+  X.r abstract
+)
+ident(
+  int_ref c "smt/sum.ml" 88 2560 2576 "smt/sum.ml" 88 2560 2577
+)
+"smt/sum.ml" 89 2581 2594 "smt/sum.ml" 89 2581 2603
+call(
+  stack
+)
+type(
+  X.r
+)
+"smt/sum.ml" 90 2607 2614 "smt/sum.ml" 90 2607 2621
+type(
+  X.r -> X.r -> bool
+)
+ident(
+  ext_ref X.equal
+)
+"smt/sum.ml" 90 2607 2622 "smt/sum.ml" 90 2607 2623
+type(
+  X.r
+)
+ident(
+  int_ref p "smt/sum.ml" 88 2560 2572 "smt/sum.ml" 88 2560 2573
+)
+"smt/sum.ml" 90 2607 2624 "smt/sum.ml" 90 2607 2626
+type(
+  X.r
+)
+ident(
+  int_ref cr "smt/sum.ml" 89 2581 2589 "smt/sum.ml" 89 2581 2591
+)
+"smt/sum.ml" 90 2607 2614 "smt/sum.ml" 90 2607 2626
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/sum.ml" 90 2607 2632 "smt/sum.ml" 90 2607 2633
+type(
+  X.r
+)
+ident(
+  int_ref v "smt/sum.ml" 88 2560 2574 "smt/sum.ml" 88 2560 2575
+)
+"smt/sum.ml" 92 2644 2656 "smt/sum.ml" 92 2644 2657
+type(
+  X.r abstract
+)
+ident(
+  int_ref c "smt/sum.ml" 88 2560 2576 "smt/sum.ml" 88 2560 2577
+)
+"smt/sum.ml" 93 2663 2678 "smt/sum.ml" 93 2663 2680
+type(
+  Hs.t
+)
+ident(
+  def hs "smt/sum.ml" 93 2663 2687 "smt/sum.ml" 93 2663 2689
+)
+"smt/sum.ml" 93 2663 2681 "smt/sum.ml" 93 2663 2682
+type(
+  Ty.t
+)
+ident(
+  def t "smt/sum.ml" 93 2663 2687 "smt/sum.ml" 93 2663 2689
+)
+"smt/sum.ml" 93 2663 2673 "smt/sum.ml" 93 2663 2683
+type(
+  X.r abstract
+)
+"smt/sum.ml" 93 2663 2687 "smt/sum.ml" 93 2663 2689
+type(
+  X.r
+)
+ident(
+  int_ref cr "smt/sum.ml" 89 2581 2589 "smt/sum.ml" 89 2581 2591
+)
+"smt/sum.ml" 94 2690 2706 "smt/sum.ml" 94 2690 2707
+type(
+  X.r
+)
+ident(
+  def r "smt/sum.ml" 94 2690 2714 "smt/sum.ml" 94 2690 2727
+)
+"smt/sum.ml" 94 2690 2700 "smt/sum.ml" 94 2690 2707
+type(
+  X.r abstract
+)
+"smt/sum.ml" 94 2690 2714 "smt/sum.ml" 94 2690 2721
+type(
+  X.r -> X.r -> X.r -> X.r
+)
+ident(
+  ext_ref X.subst
+)
+"smt/sum.ml" 94 2690 2722 "smt/sum.ml" 94 2690 2723
+type(
+  X.r
+)
+ident(
+  int_ref p "smt/sum.ml" 88 2560 2572 "smt/sum.ml" 88 2560 2573
+)
+"smt/sum.ml" 94 2690 2724 "smt/sum.ml" 94 2690 2725
+type(
+  X.r
+)
+ident(
+  int_ref v "smt/sum.ml" 88 2560 2574 "smt/sum.ml" 88 2560 2575
+)
+"smt/sum.ml" 94 2690 2726 "smt/sum.ml" 94 2690 2727
+type(
+  X.r
+)
+ident(
+  int_ref r "smt/sum.ml" 94 2690 2706 "smt/sum.ml" 94 2690 2707
+)
+"smt/sum.ml" 94 2690 2714 "smt/sum.ml" 94 2690 2727
+call(
+  tail
+)
+type(
+  X.r
+)
+"smt/sum.ml" 92 2644 2650 "smt/sum.ml" 94 2690 2727
+type(
+  X.r
+)
+"smt/sum.ml" 90 2607 2611 "smt/sum.ml" 94 2690 2727
+type(
+  X.r
+)
+"smt/sum.ml" 89 2581 2585 "smt/sum.ml" 94 2690 2727
+type(
+  X.r
+)
+"smt/sum.ml" 96 2733 2739 "smt/sum.ml" 96 2733 2743
+type(
+  T.t -> X.r * 'h list
+)
+ident(
+  def make "smt/sum.ml" 101 2891 2893 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 96 2733 2744 "smt/sum.ml" 96 2733 2745
+type(
+  T.t
+)
+ident(
+  def t "smt/sum.ml" 96 2733 2748 "smt/sum.ml" 99 2858 2881
+)
+"smt/sum.ml" 96 2733 2754 "smt/sum.ml" 96 2733 2760
+type(
+  T.t -> T.view
+)
+ident(
+  ext_ref T.view
+)
+"smt/sum.ml" 96 2733 2761 "smt/sum.ml" 96 2733 2762
+type(
+  T.t
+)
+ident(
+  int_ref t "smt/sum.ml" 96 2733 2744 "smt/sum.ml" 96 2733 2745
+)
+"smt/sum.ml" 96 2733 2754 "smt/sum.ml" 96 2733 2762
+call(
+  stack
+)
+type(
+  T.view
+)
+"smt/sum.ml" 97 2768 2787 "smt/sum.ml" 97 2768 2789
+type(
+  Hstring.t
+)
+ident(
+  def hs "smt/sum.ml" 98 2824 2832 "smt/sum.ml" 98 2824 2857
+)
+"smt/sum.ml" 97 2768 2791 "smt/sum.ml" 97 2768 2805
+type(
+  Sy.name_kind
+)
+"smt/sum.ml" 97 2768 2779 "smt/sum.ml" 97 2768 2806
+type(
+  Sy.t
+)
+"smt/sum.ml" 97 2768 2811 "smt/sum.ml" 97 2768 2813
+type(
+  T.t list
+)
+"smt/sum.ml" 97 2768 2817 "smt/sum.ml" 97 2768 2819
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/sum.ml" 98 2824 2832 "smt/sum.ml" 98 2824 2857
+)
+"smt/sum.ml" 97 2768 2774 "smt/sum.ml" 97 2768 2820
+type(
+  T.view
+)
+"smt/sum.ml" 98 2824 2832 "smt/sum.ml" 98 2824 2839
+type(
+  X.r abstract -> X.r
+)
+ident(
+  int_ref is_mine "smt/sum.ml" 69 2052 2058 "smt/sum.ml" 69 2052 2065
+)
+"smt/sum.ml" 98 2824 2846 "smt/sum.ml" 98 2824 2848
+type(
+  Hstring.t
+)
+ident(
+  int_ref hs "smt/sum.ml" 97 2768 2787 "smt/sum.ml" 97 2768 2789
+)
+"smt/sum.ml" 98 2824 2849 "smt/sum.ml" 98 2824 2851
+type(
+  Ty.t
+)
+ident(
+  int_ref ty "smt/sum.ml" 97 2768 2817 "smt/sum.ml" 97 2768 2819
+)
+"smt/sum.ml" 98 2824 2840 "smt/sum.ml" 98 2824 2853
+type(
+  X.r abstract
+)
+"smt/sum.ml" 98 2824 2832 "smt/sum.ml" 98 2824 2853
+call(
+  stack
+)
+type(
+  X.r
+)
+"smt/sum.ml" 98 2824 2855 "smt/sum.ml" 98 2824 2857
+type(
+  'h list
+)
+"smt/sum.ml" 98 2824 2832 "smt/sum.ml" 98 2824 2857
+type(
+  X.r * 'h list
+)
+"smt/sum.ml" 99 2858 2864 "smt/sum.ml" 99 2858 2865
+type(
+  T.view
+)
+"smt/sum.ml" 99 2858 2876 "smt/sum.ml" 99 2858 2881
+type(
+  bool
+)
+"smt/sum.ml" 99 2858 2869 "smt/sum.ml" 99 2858 2881
+type(
+  X.r * 'h list
+)
+"smt/sum.ml" 96 2733 2748 "smt/sum.ml" 99 2858 2881
+type(
+  X.r * 'h list
+)
+"smt/sum.ml" 101 2891 2897 "smt/sum.ml" 101 2891 2902
+type(
+  X.r -> X.r -> (X.r * X.r) list
+)
+ident(
+  def solve "smt/sum.ml" 109 3185 3187 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 101 2891 2903 "smt/sum.ml" 101 2891 2904
+type(
+  X.r
+)
+ident(
+  def a "smt/sum.ml" 101 2891 2905 "smt/sum.ml" 107 3136 3183
+)
+"smt/sum.ml" 101 2891 2905 "smt/sum.ml" 101 2891 2906
+type(
+  X.r
+)
+ident(
+  def b "smt/sum.ml" 102 2910 2914 "smt/sum.ml" 107 3136 3183
+)
+"smt/sum.ml" 102 2910 2920 "smt/sum.ml" 102 2910 2925
+type(
+  X.r -> X.r abstract
+)
+ident(
+  int_ref embed "smt/sum.ml" 64 1963 1969 "smt/sum.ml" 64 1963 1974
+)
+"smt/sum.ml" 102 2910 2926 "smt/sum.ml" 102 2910 2927
+type(
+  X.r
+)
+ident(
+  int_ref a "smt/sum.ml" 101 2891 2903 "smt/sum.ml" 101 2891 2904
+)
+"smt/sum.ml" 102 2910 2920 "smt/sum.ml" 102 2910 2927
+call(
+  stack
+)
+type(
+  X.r abstract
+)
+"smt/sum.ml" 102 2910 2929 "smt/sum.ml" 102 2910 2934
+type(
+  X.r -> X.r abstract
+)
+ident(
+  int_ref embed "smt/sum.ml" 64 1963 1969 "smt/sum.ml" 64 1963 1974
+)
+"smt/sum.ml" 102 2910 2935 "smt/sum.ml" 102 2910 2936
+type(
+  X.r
+)
+ident(
+  int_ref b "smt/sum.ml" 101 2891 2905 "smt/sum.ml" 101 2891 2906
+)
+"smt/sum.ml" 102 2910 2929 "smt/sum.ml" 102 2910 2936
+call(
+  stack
+)
+type(
+  X.r abstract
+)
+"smt/sum.ml" 102 2910 2920 "smt/sum.ml" 102 2910 2936
+type(
+  X.r abstract * X.r abstract
+)
+"smt/sum.ml" 103 2942 2955 "smt/sum.ml" 103 2942 2957
+type(
+  Hs.t
+)
+ident(
+  def c1 "smt/sum.ml" 103 2942 2979 "smt/sum.ml" 103 2942 2999
+)
+"smt/sum.ml" 103 2942 2958 "smt/sum.ml" 103 2942 2959
+type(
+  Ty.t
+)
+"smt/sum.ml" 103 2942 2950 "smt/sum.ml" 103 2942 2960
+type(
+  X.r abstract
+)
+"smt/sum.ml" 103 2942 2968 "smt/sum.ml" 103 2942 2970
+type(
+  Hs.t
+)
+ident(
+  def c2 "smt/sum.ml" 103 2942 2979 "smt/sum.ml" 103 2942 2999
+)
+"smt/sum.ml" 103 2942 2971 "smt/sum.ml" 103 2942 2972
+type(
+  Ty.t
+)
+"smt/sum.ml" 103 2942 2963 "smt/sum.ml" 103 2942 2973
+type(
+  X.r abstract
+)
+"smt/sum.ml" 103 2942 2950 "smt/sum.ml" 103 2942 2973
+type(
+  X.r abstract * X.r abstract
+)
+"smt/sum.ml" 103 2942 2979 "smt/sum.ml" 103 2942 2987
+type(
+  Hs.t -> Hs.t -> bool
+)
+ident(
+  ext_ref Hs.equal
+)
+"smt/sum.ml" 103 2942 2988 "smt/sum.ml" 103 2942 2990
+type(
+  Hs.t
+)
+ident(
+  int_ref c1 "smt/sum.ml" 103 2942 2955 "smt/sum.ml" 103 2942 2957
+)
+"smt/sum.ml" 103 2942 2991 "smt/sum.ml" 103 2942 2993
+type(
+  Hs.t
+)
+ident(
+  int_ref c2 "smt/sum.ml" 103 2942 2968 "smt/sum.ml" 103 2942 2970
+)
+"smt/sum.ml" 103 2942 2979 "smt/sum.ml" 103 2942 2993
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/sum.ml" 103 2942 2997 "smt/sum.ml" 103 2942 2999
+type(
+  (X.r * X.r) list
+)
+"smt/sum.ml" 104 3000 3013 "smt/sum.ml" 104 3000 3015
+type(
+  Hs.t
+)
+ident(
+  def c1 "smt/sum.ml" 104 3000 3035 "smt/sum.ml" 104 3000 3051
+)
+"smt/sum.ml" 104 3000 3016 "smt/sum.ml" 104 3000 3017
+type(
+  Ty.t
+)
+"smt/sum.ml" 104 3000 3008 "smt/sum.ml" 104 3000 3018
+type(
+  X.r abstract
+)
+"smt/sum.ml" 104 3000 3026 "smt/sum.ml" 104 3000 3028
+type(
+  Hs.t
+)
+ident(
+  def c2 "smt/sum.ml" 104 3000 3035 "smt/sum.ml" 104 3000 3051
+)
+"smt/sum.ml" 104 3000 3029 "smt/sum.ml" 104 3000 3030
+type(
+  Ty.t
+)
+"smt/sum.ml" 104 3000 3021 "smt/sum.ml" 104 3000 3031
+type(
+  X.r abstract
+)
+"smt/sum.ml" 104 3000 3008 "smt/sum.ml" 104 3000 3031
+type(
+  X.r abstract * X.r abstract
+)
+"smt/sum.ml" 104 3000 3035 "smt/sum.ml" 104 3000 3040
+type(
+  exn -> (X.r * X.r) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/sum.ml" 104 3000 3041 "smt/sum.ml" 104 3000 3051
+type(
+  exn
+)
+"smt/sum.ml" 104 3000 3035 "smt/sum.ml" 104 3000 3051
+type(
+  (X.r * X.r) list
+)
+"smt/sum.ml" 105 3052 3065 "smt/sum.ml" 105 3052 3066
+type(
+  Ty.t
+)
+type(
+  Hs.t
+)
+"smt/sum.ml" 105 3052 3060 "smt/sum.ml" 105 3052 3066
+type(
+  X.r abstract
+)
+"smt/sum.ml" 105 3052 3079 "smt/sum.ml" 105 3052 3081
+type(
+  X.r
+)
+ident(
+  def r2 "smt/sum.ml" 105 3052 3087 "smt/sum.ml" 105 3052 3093
+)
+"smt/sum.ml" 105 3052 3073 "smt/sum.ml" 105 3052 3081
+type(
+  X.r abstract
+)
+"smt/sum.ml" 105 3052 3060 "smt/sum.ml" 105 3052 3081
+type(
+  X.r abstract * X.r abstract
+)
+"smt/sum.ml" 105 3052 3088 "smt/sum.ml" 105 3052 3090
+type(
+  X.r
+)
+ident(
+  int_ref r2 "smt/sum.ml" 105 3052 3079 "smt/sum.ml" 105 3052 3081
+)
+"smt/sum.ml" 105 3052 3091 "smt/sum.ml" 105 3052 3092
+type(
+  X.r
+)
+ident(
+  int_ref a "smt/sum.ml" 101 2891 2903 "smt/sum.ml" 101 2891 2904
+)
+"smt/sum.ml" 105 3052 3088 "smt/sum.ml" 105 3052 3092
+type(
+  X.r * X.r
+)
+"smt/sum.ml" 105 3052 3087 "smt/sum.ml" 105 3052 3093
+type(
+  (X.r * X.r) list
+)
+"smt/sum.ml" 106 3094 3108 "smt/sum.ml" 106 3094 3110
+type(
+  X.r
+)
+ident(
+  def r1 "smt/sum.ml" 106 3094 3129 "smt/sum.ml" 106 3094 3135
+)
+"smt/sum.ml" 106 3094 3102 "smt/sum.ml" 106 3094 3110
+type(
+  X.r abstract
+)
+"smt/sum.ml" 106 3094 3120 "smt/sum.ml" 106 3094 3121
+type(
+  Ty.t
+)
+type(
+  Hs.t
+)
+"smt/sum.ml" 106 3094 3115 "smt/sum.ml" 106 3094 3121
+type(
+  X.r abstract
+)
+"smt/sum.ml" 106 3094 3102 "smt/sum.ml" 106 3094 3121
+type(
+  X.r abstract * X.r abstract
+)
+"smt/sum.ml" 106 3094 3130 "smt/sum.ml" 106 3094 3132
+type(
+  X.r
+)
+ident(
+  int_ref r1 "smt/sum.ml" 106 3094 3108 "smt/sum.ml" 106 3094 3110
+)
+"smt/sum.ml" 106 3094 3133 "smt/sum.ml" 106 3094 3134
+type(
+  X.r
+)
+ident(
+  int_ref b "smt/sum.ml" 101 2891 2905 "smt/sum.ml" 101 2891 2906
+)
+"smt/sum.ml" 106 3094 3130 "smt/sum.ml" 106 3094 3134
+type(
+  X.r * X.r
+)
+"smt/sum.ml" 106 3094 3129 "smt/sum.ml" 106 3094 3135
+type(
+  (X.r * X.r) list
+)
+"smt/sum.ml" 107 3136 3150 "smt/sum.ml" 107 3136 3151
+type(
+  X.r
+)
+"smt/sum.ml" 107 3136 3144 "smt/sum.ml" 107 3136 3151
+type(
+  X.r abstract
+)
+"smt/sum.ml" 107 3136 3163 "smt/sum.ml" 107 3136 3164
+type(
+  X.r
+)
+"smt/sum.ml" 107 3136 3157 "smt/sum.ml" 107 3136 3164
+type(
+  X.r abstract
+)
+"smt/sum.ml" 107 3136 3144 "smt/sum.ml" 107 3136 3164
+type(
+  X.r abstract * X.r abstract
+)
+"smt/sum.ml" 107 3136 3178 "smt/sum.ml" 107 3136 3183
+type(
+  bool
+)
+"smt/sum.ml" 107 3136 3171 "smt/sum.ml" 107 3136 3183
+type(
+  (X.r * X.r) list
+)
+"smt/sum.ml" 102 2910 2914 "smt/sum.ml" 107 3136 3183
+type(
+  (X.r * X.r) list
+)
+"smt/sum.ml" 109 3185 3191 "smt/sum.ml" 109 3185 3203
+type(
+  'i -> 'j option
+)
+ident(
+  def term_extract "smt/sum.ml" 111 3214 3216 "smt/sum.ml" 240 7139 7142
+)
+"smt/sum.ml" 109 3185 3204 "smt/sum.ml" 109 3185 3205
+type(
+  'i
+)
+"smt/sum.ml" 109 3185 3208 "smt/sum.ml" 109 3185 3212
+type(
+  'j option
+)
+"smt/sum.ml" 118 3307 3323 "smt/sum.ml" 118 3307 3366
+call(
+  stack
+)
+"smt/sum.ml" 119 3367 3417 "smt/sum.ml" 119 3367 3424
+type(
+  Hs.t -> Hs.t -> int
+)
+ident(
+  def compare "smt/sum.ml" 119 3367 3437 "smt/sum.ml" 119 3367 3441
+)
+"smt/sum.ml" 119 3367 3427 "smt/sum.ml" 119 3367 3437
+type(
+  Hs.t -> Hs.t -> int
+)
+ident(
+  ext_ref Hs.compare
+)
+"smt/sum.ml" 119 3367 3384 "smt/sum.ml" 119 3367 3442
+call(
+  stack
+)
+"smt/sum.ml" 123 3478 3486 "smt/sum.ml" 123 3478 3491
+type(
+  unit -> 'k MX.t
+)
+ident(
+  def empty "smt/sum.ml" 125 3507 3511 "smt/sum.ml" 239 7133 7138
+)
+"smt/sum.ml" 123 3478 3492 "smt/sum.ml" 123 3478 3494
+type(
+  unit
+)
+"smt/sum.ml" 123 3478 3497 "smt/sum.ml" 123 3478 3505
+type(
+  'k MX.t
+)
+ident(
+  ext_ref MX.empty
+)
+"smt/sum.ml" 127 3534 3544 "smt/sum.ml" 127 3534 3550
+type(
+  'l -> 'm -> 'n -> unit
+)
+ident(
+  def assume "smt/sum.ml" 129 3567 3575 "smt/sum.ml" 131 3599 3606
+)
+"smt/sum.ml" 127 3534 3551 "smt/sum.ml" 127 3534 3554
+type(
+  'l
+)
+ident(
+  def bol "smt/sum.ml" 127 3534 3555 "smt/sum.ml" 127 3534 3565
+)
+"smt/sum.ml" 127 3534 3555 "smt/sum.ml" 127 3534 3557
+type(
+  'm
+)
+ident(
+  def r1 "smt/sum.ml" 127 3534 3558 "smt/sum.ml" 127 3534 3565
+)
+"smt/sum.ml" 127 3534 3558 "smt/sum.ml" 127 3534 3560
+type(
+  'n
+)
+ident(
+  def r2 "smt/sum.ml" 127 3534 3563 "smt/sum.ml" 127 3534 3565
+)
+"smt/sum.ml" 127 3534 3563 "smt/sum.ml" 127 3534 3565
+type(
+  unit
+)
+"smt/sum.ml" 129 3567 3579 "smt/sum.ml" 129 3567 3588
+type(
+  'o -> unit
+)
+ident(
+  def print_env "smt/sum.ml" 129 3567 3597 "smt/sum.ml" 131 3599 3606
+)
+"smt/sum.ml" 129 3567 3589 "smt/sum.ml" 129 3567 3592
+type(
+  'o
+)
+ident(
+  def env "smt/sum.ml" 129 3567 3595 "smt/sum.ml" 129 3567 3597
+)
+"smt/sum.ml" 129 3567 3595 "smt/sum.ml" 129 3567 3597
+type(
+  unit
+)
+"smt/sum.ml" 133 3608 3616 "smt/sum.ml" 133 3608 3625
+type(
+  X.r -> HSS.t option
+)
+ident(
+  def values_of "smt/sum.ml" 138 3771 3775 "smt/sum.ml" 239 7133 7138
+)
+"smt/sum.ml" 133 3608 3626 "smt/sum.ml" 133 3608 3627
+type(
+  X.r
+)
+ident(
+  def r "smt/sum.ml" 133 3608 3630 "smt/sum.ml" 136 3752 3769
+)
+"smt/sum.ml" 133 3608 3636 "smt/sum.ml" 133 3608 3647
+type(
+  X.r -> Ty.t
+)
+ident(
+  ext_ref X.type_info
+)
+"smt/sum.ml" 133 3608 3648 "smt/sum.ml" 133 3608 3649
+type(
+  X.r
+)
+ident(
+  int_ref r "smt/sum.ml" 133 3608 3626 "smt/sum.ml" 133 3608 3627
+)
+"smt/sum.ml" 133 3608 3636 "smt/sum.ml" 133 3608 3649
+call(
+  stack
+)
+type(
+  Ty.t
+)
+"smt/sum.ml" 134 3655 3672 "smt/sum.ml" 134 3655 3673
+type(
+  Hstring.t
+)
+"smt/sum.ml" 134 3655 3674 "smt/sum.ml" 134 3655 3675
+type(
+  Hstring.t list
+)
+ident(
+  def l "smt/sum.ml" 135 3681 3689 "smt/sum.ml" 135 3681 3751
+)
+"smt/sum.ml" 134 3655 3663 "smt/sum.ml" 134 3655 3676
+type(
+  Ty.t
+)
+"smt/sum.ml" 135 3681 3695 "smt/sum.ml" 135 3681 3709
+type(
+  (HSS.t -> HSS.elt -> HSS.t) -> HSS.t -> HSS.elt list -> HSS.t
+)
+ident(
+  ext_ref List.fold_left
+)
+"smt/sum.ml" 135 3681 3715 "smt/sum.ml" 135 3681 3717
+type(
+  HSS.t
+)
+ident(
+  def st "smt/sum.ml" 135 3681 3718 "smt/sum.ml" 135 3681 3737
+)
+"smt/sum.ml" 135 3681 3718 "smt/sum.ml" 135 3681 3720
+type(
+  HSS.elt
+)
+ident(
+  def hs "smt/sum.ml" 135 3681 3724 "smt/sum.ml" 135 3681 3737
+)
+"smt/sum.ml" 135 3681 3724 "smt/sum.ml" 135 3681 3731
+type(
+  HSS.elt -> HSS.t -> HSS.t
+)
+ident(
+  ext_ref HSS.add
+)
+"smt/sum.ml" 135 3681 3732 "smt/sum.ml" 135 3681 3734
+type(
+  HSS.elt
+)
+ident(
+  int_ref hs "smt/sum.ml" 135 3681 3718 "smt/sum.ml" 135 3681 3720
+)
+"smt/sum.ml" 135 3681 3735 "smt/sum.ml" 135 3681 3737
+type(
+  HSS.t
+)
+ident(
+  int_ref st "smt/sum.ml" 135 3681 3715 "smt/sum.ml" 135 3681 3717
+)
+"smt/sum.ml" 135 3681 3724 "smt/sum.ml" 135 3681 3737
+call(
+  tail
+)
+type(
+  HSS.t
+)
+"smt/sum.ml" 135 3681 3710 "smt/sum.ml" 135 3681 3738
+type(
+  HSS.t -> HSS.elt -> HSS.t
+)
+"smt/sum.ml" 135 3681 3739 "smt/sum.ml" 135 3681 3748
+type(
+  HSS.t
+)
+ident(
+  ext_ref HSS.empty
+)
+"smt/sum.ml" 135 3681 3749 "smt/sum.ml" 135 3681 3750
+type(
+  HSS.elt list
+)
+ident(
+  int_ref l "smt/sum.ml" 134 3655 3674 "smt/sum.ml" 134 3655 3675
+)
+"smt/sum.ml" 135 3681 3694 "smt/sum.ml" 135 3681 3751
+call(
+  stack
+)
+type(
+  HSS.t
+)
+"smt/sum.ml" 135 3681 3689 "smt/sum.ml" 135 3681 3751
+type(
+  HSS.t option
+)
+"smt/sum.ml" 136 3752 3760 "smt/sum.ml" 136 3752 3761
+type(
+  Ty.t
+)
+"smt/sum.ml" 136 3752 3765 "smt/sum.ml" 136 3752 3769
+type(
+  HSS.t option
+)
+"smt/sum.ml" 133 3608 3630 "smt/sum.ml" 136 3752 3769
+type(
+  HSS.t option
+)
+"smt/sum.ml" 138 3771 3779 "smt/sum.ml" 138 3771 3788
+type(
+  HSS.t ->
+  MX.key abstract ->
+  MX.key abstract ->
+  Ex.t ->
+  (HSS.t * Ex.t) MX.t ->
+  (MX.key Sig.literal * Ex.t) list ->
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  def add_diseq "smt/sum.ml" 156 4457 4461 "smt/sum.ml" 239 7133 7138
+)
+"smt/sum.ml" 138 3771 3789 "smt/sum.ml" 138 3771 3792
+type(
+  HSS.t
+)
+ident(
+  def hss "smt/sum.ml" 138 3771 3793 "smt/sum.ml" 154 4431 4455
+)
+"smt/sum.ml" 138 3771 3793 "smt/sum.ml" 138 3771 3796
+type(
+  MX.key abstract
+)
+ident(
+  def sm1 "smt/sum.ml" 138 3771 3797 "smt/sum.ml" 154 4431 4455
+)
+"smt/sum.ml" 138 3771 3797 "smt/sum.ml" 138 3771 3800
+type(
+  MX.key abstract
+)
+ident(
+  def sm2 "smt/sum.ml" 138 3771 3801 "smt/sum.ml" 154 4431 4455
+)
+"smt/sum.ml" 138 3771 3801 "smt/sum.ml" 138 3771 3804
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/sum.ml" 138 3771 3805 "smt/sum.ml" 154 4431 4455
+)
+"smt/sum.ml" 138 3771 3805 "smt/sum.ml" 138 3771 3808
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  def env "smt/sum.ml" 138 3771 3809 "smt/sum.ml" 154 4431 4455
+)
+"smt/sum.ml" 138 3771 3809 "smt/sum.ml" 138 3771 3812
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  def eqs "smt/sum.ml" 139 3816 3822 "smt/sum.ml" 154 4431 4455
+)
+"smt/sum.ml" 139 3816 3828 "smt/sum.ml" 139 3816 3831
+type(
+  MX.key abstract
+)
+ident(
+  int_ref sm1 "smt/sum.ml" 138 3771 3793 "smt/sum.ml" 138 3771 3796
+)
+"smt/sum.ml" 139 3816 3833 "smt/sum.ml" 139 3816 3836
+type(
+  MX.key abstract
+)
+ident(
+  int_ref sm2 "smt/sum.ml" 138 3771 3797 "smt/sum.ml" 138 3771 3800
+)
+"smt/sum.ml" 139 3816 3828 "smt/sum.ml" 139 3816 3836
+type(
+  MX.key abstract * MX.key abstract
+)
+"smt/sum.ml" 140 3842 3858 "smt/sum.ml" 140 3842 3859
+type(
+  MX.key
+)
+ident(
+  def r "smt/sum.ml" 142 3909 3919 "smt/sum.ml" 151 4344 4369
+)
+"smt/sum.ml" 140 3842 3852 "smt/sum.ml" 140 3842 3859
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 140 3842 3867 "smt/sum.ml" 140 3842 3868
+type(
+  Hs.t
+)
+ident(
+  def h "smt/sum.ml" 142 3909 3919 "smt/sum.ml" 151 4344 4369
+)
+"smt/sum.ml" 140 3842 3869 "smt/sum.ml" 140 3842 3871
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/sum.ml" 142 3909 3919 "smt/sum.ml" 151 4344 4369
+)
+"smt/sum.ml" 140 3842 3862 "smt/sum.ml" 140 3842 3872
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 140 3842 3852 "smt/sum.ml" 140 3842 3872
+type(
+  MX.key abstract * MX.key abstract
+)
+"smt/sum.ml" 141 3874 3890 "smt/sum.ml" 141 3874 3891
+type(
+  Hs.t
+)
+ident(
+  def h "smt/sum.ml" 142 3909 3919 "smt/sum.ml" 151 4344 4369
+)
+"smt/sum.ml" 141 3874 3892 "smt/sum.ml" 141 3874 3894
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/sum.ml" 142 3909 3919 "smt/sum.ml" 151 4344 4369
+)
+"smt/sum.ml" 141 3874 3884 "smt/sum.ml" 141 3874 3895
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 141 3874 3903 "smt/sum.ml" 141 3874 3904
+type(
+  MX.key
+)
+ident(
+  def r "smt/sum.ml" 142 3909 3919 "smt/sum.ml" 151 4344 4369
+)
+"smt/sum.ml" 141 3874 3897 "smt/sum.ml" 141 3874 3904
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 141 3874 3884 "smt/sum.ml" 141 3874 3904
+type(
+  MX.key abstract * MX.key abstract
+)
+"smt/sum.ml" 140 3842 3852 "smt/sum.ml" 141 3874 3904
+type(
+  MX.key abstract * MX.key abstract
+)
+"smt/sum.ml" 142 3909 3923 "smt/sum.ml" 142 3909 3927
+type(
+  HSS.t
+)
+ident(
+  def enum "smt/sum.ml" 143 3987 3997 "smt/sum.ml" 151 4344 4369
+)
+"smt/sum.ml" 142 3909 3929 "smt/sum.ml" 142 3909 3931
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/sum.ml" 143 3987 3997 "smt/sum.ml" 151 4344 4369
+)
+"smt/sum.ml" 142 3909 3923 "smt/sum.ml" 142 3909 3931
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 142 3909 3938 "smt/sum.ml" 142 3909 3945
+type(
+  MX.key -> (HSS.t * Ex.t) MX.t -> HSS.t * Ex.t
+)
+ident(
+  ext_ref MX.find
+)
+"smt/sum.ml" 142 3909 3946 "smt/sum.ml" 142 3909 3947
+type(
+  MX.key
+)
+ident(
+  int_ref r "smt/sum.ml" 140 3842 3858 "smt/sum.ml" 140 3842 3859
+)
+"smt/sum.ml" 142 3909 3948 "smt/sum.ml" 142 3909 3951
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 138 3771 3805 "smt/sum.ml" 138 3771 3808
+)
+"smt/sum.ml" 142 3909 3938 "smt/sum.ml" 142 3909 3951
+call(
+  stack
+)
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 142 3909 3957 "smt/sum.ml" 142 3909 3966
+type(
+  exn
+)
+"smt/sum.ml" 142 3909 3970 "smt/sum.ml" 142 3909 3973
+type(
+  HSS.t
+)
+ident(
+  int_ref hss "smt/sum.ml" 138 3771 3789 "smt/sum.ml" 138 3771 3792
+)
+"smt/sum.ml" 142 3909 3975 "smt/sum.ml" 142 3909 3983
+type(
+  Ex.t
+)
+ident(
+  ext_ref Ex.empty
+)
+"smt/sum.ml" 142 3909 3970 "smt/sum.ml" 142 3909 3983
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 142 3909 3934 "smt/sum.ml" 142 3909 3983
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 143 3987 4001 "smt/sum.ml" 143 3987 4005
+type(
+  HSS.t
+)
+ident(
+  def enum "smt/sum.ml" 144 4029 4039 "smt/sum.ml" 151 4344 4369
+)
+"smt/sum.ml" 143 3987 4008 "smt/sum.ml" 143 3987 4018
+type(
+  HSS.elt -> HSS.t -> HSS.t
+)
+ident(
+  ext_ref HSS.remove
+)
+"smt/sum.ml" 143 3987 4019 "smt/sum.ml" 143 3987 4020
+type(
+  Hs.t
+)
+ident(
+  int_ref h "smt/sum.ml" 140 3842 3867 "smt/sum.ml" 140 3842 3868
+)
+"smt/sum.ml" 143 3987 4021 "smt/sum.ml" 143 3987 4025
+type(
+  HSS.t
+)
+ident(
+  int_ref enum "smt/sum.ml" 142 3909 3923 "smt/sum.ml" 142 3909 3927
+)
+"smt/sum.ml" 143 3987 4008 "smt/sum.ml" 143 3987 4025
+call(
+  stack
+)
+type(
+  HSS.t
+)
+"smt/sum.ml" 144 4029 4043 "smt/sum.ml" 144 4029 4045
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/sum.ml" 145 4067 4077 "smt/sum.ml" 151 4344 4369
+)
+"smt/sum.ml" 144 4029 4048 "smt/sum.ml" 144 4029 4056
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/sum.ml" 144 4029 4057 "smt/sum.ml" 144 4029 4059
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/sum.ml" 142 3909 3929 "smt/sum.ml" 142 3909 3931
+)
+"smt/sum.ml" 144 4029 4060 "smt/sum.ml" 144 4029 4063
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/sum.ml" 138 3771 3801 "smt/sum.ml" 138 3771 3804
+)
+"smt/sum.ml" 144 4029 4048 "smt/sum.ml" 144 4029 4063
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/sum.ml" 145 4067 4080 "smt/sum.ml" 145 4067 4092
+type(
+  HSS.t -> bool
+)
+ident(
+  ext_ref HSS.is_empty
+)
+"smt/sum.ml" 145 4067 4093 "smt/sum.ml" 145 4067 4097
+type(
+  HSS.t
+)
+ident(
+  int_ref enum "smt/sum.ml" 143 3987 4001 "smt/sum.ml" 143 3987 4005
+)
+"smt/sum.ml" 145 4067 4080 "smt/sum.ml" 145 4067 4097
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/sum.ml" 145 4067 4103 "smt/sum.ml" 145 4067 4108
+type(
+  exn -> (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/sum.ml" 145 4067 4123 "smt/sum.ml" 145 4067 4125
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/sum.ml" 144 4029 4043 "smt/sum.ml" 144 4029 4045
+)
+"smt/sum.ml" 145 4067 4109 "smt/sum.ml" 145 4067 4126
+type(
+  exn
+)
+"smt/sum.ml" 145 4067 4103 "smt/sum.ml" 145 4067 4126
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 147 4143 4159 "smt/sum.ml" 147 4143 4162
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  def env "smt/sum.ml" 148 4192 4204 "smt/sum.ml" 151 4344 4369
+)
+"smt/sum.ml" 147 4143 4165 "smt/sum.ml" 147 4143 4171
+type(
+  MX.key -> HSS.t * Ex.t -> (HSS.t * Ex.t) MX.t -> (HSS.t * Ex.t) MX.t
+)
+ident(
+  ext_ref MX.add
+)
+"smt/sum.ml" 147 4143 4172 "smt/sum.ml" 147 4143 4173
+type(
+  MX.key
+)
+ident(
+  int_ref r "smt/sum.ml" 140 3842 3858 "smt/sum.ml" 140 3842 3859
+)
+"smt/sum.ml" 147 4143 4175 "smt/sum.ml" 147 4143 4179
+type(
+  HSS.t
+)
+ident(
+  int_ref enum "smt/sum.ml" 143 3987 4001 "smt/sum.ml" 143 3987 4005
+)
+"smt/sum.ml" 147 4143 4181 "smt/sum.ml" 147 4143 4183
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/sum.ml" 144 4029 4043 "smt/sum.ml" 144 4029 4045
+)
+"smt/sum.ml" 147 4143 4174 "smt/sum.ml" 147 4143 4184
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 147 4143 4185 "smt/sum.ml" 147 4143 4188
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 138 3771 3805 "smt/sum.ml" 138 3771 3808
+)
+"smt/sum.ml" 147 4143 4165 "smt/sum.ml" 147 4143 4188
+call(
+  stack
+)
+type(
+  (HSS.t * Ex.t) MX.t
+)
+"smt/sum.ml" 148 4192 4207 "smt/sum.ml" 148 4192 4219
+type(
+  HSS.t -> int
+)
+ident(
+  ext_ref HSS.cardinal
+)
+"smt/sum.ml" 148 4192 4220 "smt/sum.ml" 148 4192 4224
+type(
+  HSS.t
+)
+ident(
+  int_ref enum "smt/sum.ml" 143 3987 4001 "smt/sum.ml" 143 3987 4005
+)
+"smt/sum.ml" 148 4192 4207 "smt/sum.ml" 148 4192 4224
+call(
+  stack
+)
+type(
+  int
+)
+"smt/sum.ml" 148 4192 4225 "smt/sum.ml" 148 4192 4226
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/sum.ml" 148 4192 4227 "smt/sum.ml" 148 4192 4228
+type(
+  int
+)
+"smt/sum.ml" 148 4192 4207 "smt/sum.ml" 148 4192 4228
+type(
+  bool
+)
+"smt/sum.ml" 149 4234 4252 "smt/sum.ml" 149 4234 4254
+type(
+  HSS.elt
+)
+ident(
+  def h' "smt/sum.ml" 150 4276 4290 "smt/sum.ml" 150 4276 4343
+)
+"smt/sum.ml" 149 4234 4257 "smt/sum.ml" 149 4234 4267
+type(
+  HSS.t -> HSS.elt
+)
+ident(
+  ext_ref HSS.choose
+)
+"smt/sum.ml" 149 4234 4268 "smt/sum.ml" 149 4234 4272
+type(
+  HSS.t
+)
+ident(
+  int_ref enum "smt/sum.ml" 143 3987 4001 "smt/sum.ml" 143 3987 4005
+)
+"smt/sum.ml" 149 4234 4257 "smt/sum.ml" 149 4234 4272
+call(
+  stack
+)
+type(
+  HSS.elt
+)
+"smt/sum.ml" 150 4276 4290 "smt/sum.ml" 150 4276 4293
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 147 4143 4159 "smt/sum.ml" 147 4143 4162
+)
+"smt/sum.ml" 150 4276 4307 "smt/sum.ml" 150 4276 4308
+type(
+  MX.key
+)
+ident(
+  int_ref r "smt/sum.ml" 140 3842 3858 "smt/sum.ml" 140 3842 3859
+)
+"smt/sum.ml" 150 4276 4310 "smt/sum.ml" 150 4276 4317
+type(
+  MX.key abstract -> MX.key
+)
+ident(
+  int_ref is_mine "smt/sum.ml" 69 2052 2058 "smt/sum.ml" 69 2052 2065
+)
+"smt/sum.ml" 150 4276 4324 "smt/sum.ml" 150 4276 4326
+type(
+  HSS.elt
+)
+ident(
+  int_ref h' "smt/sum.ml" 149 4234 4252 "smt/sum.ml" 149 4234 4254
+)
+"smt/sum.ml" 150 4276 4327 "smt/sum.ml" 150 4276 4329
+type(
+  Ty.t
+)
+ident(
+  int_ref ty "smt/sum.ml" 140 3842 3869 "smt/sum.ml" 140 3842 3871
+)
+"smt/sum.ml" 150 4276 4318 "smt/sum.ml" 150 4276 4331
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 150 4276 4310 "smt/sum.ml" 150 4276 4331
+call(
+  stack
+)
+type(
+  MX.key
+)
+"smt/sum.ml" 150 4276 4301 "smt/sum.ml" 150 4276 4333
+type(
+  MX.key A.view
+)
+"smt/sum.ml" 150 4276 4296 "smt/sum.ml" 150 4276 4333
+type(
+  MX.key Sig.literal
+)
+"smt/sum.ml" 150 4276 4335 "smt/sum.ml" 150 4276 4337
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/sum.ml" 144 4029 4043 "smt/sum.ml" 144 4029 4045
+)
+"smt/sum.ml" 150 4276 4295 "smt/sum.ml" 150 4276 4338
+type(
+  MX.key Sig.literal * Ex.t
+)
+"smt/sum.ml" 150 4276 4340 "smt/sum.ml" 150 4276 4343
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 138 3771 3809 "smt/sum.ml" 138 3771 3812
+)
+"smt/sum.ml" 150 4276 4295 "smt/sum.ml" 150 4276 4343
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 150 4276 4290 "smt/sum.ml" 150 4276 4343
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 149 4234 4248 "smt/sum.ml" 150 4276 4343
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 151 4344 4361 "smt/sum.ml" 151 4344 4364
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 147 4143 4159 "smt/sum.ml" 147 4143 4162
+)
+"smt/sum.ml" 151 4344 4366 "smt/sum.ml" 151 4344 4369
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 138 3771 3809 "smt/sum.ml" 138 3771 3812
+)
+"smt/sum.ml" 151 4344 4361 "smt/sum.ml" 151 4344 4369
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 148 4192 4204 "smt/sum.ml" 151 4344 4369
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 147 4143 4155 "smt/sum.ml" 151 4344 4369
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 145 4067 4077 "smt/sum.ml" 151 4344 4369
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 144 4029 4039 "smt/sum.ml" 151 4344 4369
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 143 3987 3997 "smt/sum.ml" 151 4344 4369
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 142 3909 3919 "smt/sum.ml" 151 4344 4369
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 153 4385 4401 "smt/sum.ml" 153 4385 4403
+type(
+  MX.key
+)
+ident(
+  def r1 "smt/sum.ml" 153 4385 4422 "smt/sum.ml" 153 4385 4430
+)
+"smt/sum.ml" 153 4385 4395 "smt/sum.ml" 153 4385 4403
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 153 4385 4414 "smt/sum.ml" 153 4385 4416
+type(
+  MX.key
+)
+ident(
+  def r2 "smt/sum.ml" 153 4385 4422 "smt/sum.ml" 153 4385 4430
+)
+"smt/sum.ml" 153 4385 4408 "smt/sum.ml" 153 4385 4416
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 153 4385 4395 "smt/sum.ml" 153 4385 4416
+type(
+  MX.key abstract * MX.key abstract
+)
+"smt/sum.ml" 153 4385 4422 "smt/sum.ml" 153 4385 4425
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 138 3771 3805 "smt/sum.ml" 138 3771 3808
+)
+"smt/sum.ml" 153 4385 4427 "smt/sum.ml" 153 4385 4430
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 138 3771 3809 "smt/sum.ml" 138 3771 3812
+)
+"smt/sum.ml" 153 4385 4422 "smt/sum.ml" 153 4385 4430
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 154 4431 4442 "smt/sum.ml" 154 4431 4443
+type(
+  MX.key abstract * MX.key abstract
+)
+"smt/sum.ml" 154 4431 4447 "smt/sum.ml" 154 4431 4450
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 138 3771 3805 "smt/sum.ml" 138 3771 3808
+)
+"smt/sum.ml" 154 4431 4452 "smt/sum.ml" 154 4431 4455
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 138 3771 3809 "smt/sum.ml" 138 3771 3812
+)
+"smt/sum.ml" 154 4431 4447 "smt/sum.ml" 154 4431 4455
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 139 3816 3822 "smt/sum.ml" 154 4431 4455
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 156 4457 4465 "smt/sum.ml" 156 4457 4471
+type(
+  HSS.t ->
+  MX.key abstract ->
+  MX.key abstract ->
+  Ex.t ->
+  (HSS.t * Ex.t) MX.t ->
+  (MX.key Sig.literal * Ex.t) list ->
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  def add_eq "smt/sum.ml" 182 5510 5514 "smt/sum.ml" 239 7133 7138
+)
+"smt/sum.ml" 156 4457 4472 "smt/sum.ml" 156 4457 4475
+type(
+  HSS.t
+)
+ident(
+  def hss "smt/sum.ml" 156 4457 4476 "smt/sum.ml" 180 5484 5508
+)
+"smt/sum.ml" 156 4457 4476 "smt/sum.ml" 156 4457 4479
+type(
+  MX.key abstract
+)
+ident(
+  def sm1 "smt/sum.ml" 156 4457 4480 "smt/sum.ml" 180 5484 5508
+)
+"smt/sum.ml" 156 4457 4480 "smt/sum.ml" 156 4457 4483
+type(
+  MX.key abstract
+)
+ident(
+  def sm2 "smt/sum.ml" 156 4457 4484 "smt/sum.ml" 180 5484 5508
+)
+"smt/sum.ml" 156 4457 4484 "smt/sum.ml" 156 4457 4487
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/sum.ml" 156 4457 4488 "smt/sum.ml" 180 5484 5508
+)
+"smt/sum.ml" 156 4457 4488 "smt/sum.ml" 156 4457 4491
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  def env "smt/sum.ml" 156 4457 4492 "smt/sum.ml" 180 5484 5508
+)
+"smt/sum.ml" 156 4457 4492 "smt/sum.ml" 156 4457 4495
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  def eqs "smt/sum.ml" 157 4499 4505 "smt/sum.ml" 180 5484 5508
+)
+"smt/sum.ml" 157 4499 4511 "smt/sum.ml" 157 4499 4514
+type(
+  MX.key abstract
+)
+ident(
+  int_ref sm1 "smt/sum.ml" 156 4457 4476 "smt/sum.ml" 156 4457 4479
+)
+"smt/sum.ml" 157 4499 4516 "smt/sum.ml" 157 4499 4519
+type(
+  MX.key abstract
+)
+ident(
+  int_ref sm2 "smt/sum.ml" 156 4457 4480 "smt/sum.ml" 156 4457 4483
+)
+"smt/sum.ml" 157 4499 4511 "smt/sum.ml" 157 4499 4519
+type(
+  MX.key abstract * MX.key abstract
+)
+"smt/sum.ml" 158 4525 4541 "smt/sum.ml" 158 4525 4542
+type(
+  MX.key
+)
+ident(
+  def r "smt/sum.ml" 160 4583 4593 "smt/sum.ml" 163 4763 4805
+)
+"smt/sum.ml" 158 4525 4535 "smt/sum.ml" 158 4525 4542
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 158 4525 4549 "smt/sum.ml" 158 4525 4550
+type(
+  Hs.t
+)
+ident(
+  def h "smt/sum.ml" 160 4583 4593 "smt/sum.ml" 163 4763 4805
+)
+"smt/sum.ml" 158 4525 4551 "smt/sum.ml" 158 4525 4553
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/sum.ml" 160 4583 4593 "smt/sum.ml" 163 4763 4805
+)
+"smt/sum.ml" 158 4525 4544 "smt/sum.ml" 158 4525 4554
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 158 4525 4535 "smt/sum.ml" 158 4525 4554
+type(
+  MX.key abstract * MX.key abstract
+)
+"smt/sum.ml" 158 4525 4563 "smt/sum.ml" 158 4525 4564
+type(
+  Hs.t
+)
+ident(
+  def h "smt/sum.ml" 160 4583 4593 "smt/sum.ml" 163 4763 4805
+)
+"smt/sum.ml" 158 4525 4565 "smt/sum.ml" 158 4525 4567
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/sum.ml" 160 4583 4593 "smt/sum.ml" 163 4763 4805
+)
+"smt/sum.ml" 158 4525 4557 "smt/sum.ml" 158 4525 4568
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 158 4525 4576 "smt/sum.ml" 158 4525 4577
+type(
+  MX.key
+)
+ident(
+  def r "smt/sum.ml" 160 4583 4593 "smt/sum.ml" 163 4763 4805
+)
+"smt/sum.ml" 158 4525 4570 "smt/sum.ml" 158 4525 4577
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 158 4525 4557 "smt/sum.ml" 158 4525 4577
+type(
+  MX.key abstract * MX.key abstract
+)
+"smt/sum.ml" 158 4525 4535 "smt/sum.ml" 158 4525 4577
+type(
+  MX.key abstract * MX.key abstract
+)
+"smt/sum.ml" 160 4583 4597 "smt/sum.ml" 160 4583 4601
+type(
+  HSS.t
+)
+ident(
+  def enum "smt/sum.ml" 161 4661 4671 "smt/sum.ml" 163 4763 4805
+)
+"smt/sum.ml" 160 4583 4603 "smt/sum.ml" 160 4583 4605
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/sum.ml" 161 4661 4671 "smt/sum.ml" 163 4763 4805
+)
+"smt/sum.ml" 160 4583 4597 "smt/sum.ml" 160 4583 4605
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 160 4583 4612 "smt/sum.ml" 160 4583 4619
+type(
+  MX.key -> (HSS.t * Ex.t) MX.t -> HSS.t * Ex.t
+)
+ident(
+  ext_ref MX.find
+)
+"smt/sum.ml" 160 4583 4620 "smt/sum.ml" 160 4583 4621
+type(
+  MX.key
+)
+ident(
+  int_ref r "smt/sum.ml" 158 4525 4541 "smt/sum.ml" 158 4525 4542
+)
+"smt/sum.ml" 160 4583 4622 "smt/sum.ml" 160 4583 4625
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 156 4457 4488 "smt/sum.ml" 156 4457 4491
+)
+"smt/sum.ml" 160 4583 4612 "smt/sum.ml" 160 4583 4625
+call(
+  stack
+)
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 160 4583 4631 "smt/sum.ml" 160 4583 4640
+type(
+  exn
+)
+"smt/sum.ml" 160 4583 4644 "smt/sum.ml" 160 4583 4647
+type(
+  HSS.t
+)
+ident(
+  int_ref hss "smt/sum.ml" 156 4457 4472 "smt/sum.ml" 156 4457 4475
+)
+"smt/sum.ml" 160 4583 4649 "smt/sum.ml" 160 4583 4657
+type(
+  Ex.t
+)
+ident(
+  ext_ref Ex.empty
+)
+"smt/sum.ml" 160 4583 4644 "smt/sum.ml" 160 4583 4657
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 160 4583 4608 "smt/sum.ml" 160 4583 4657
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 161 4661 4675 "smt/sum.ml" 161 4661 4677
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/sum.ml" 162 4699 4709 "smt/sum.ml" 163 4763 4805
+)
+"smt/sum.ml" 161 4661 4680 "smt/sum.ml" 161 4661 4688
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/sum.ml" 161 4661 4689 "smt/sum.ml" 161 4661 4691
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/sum.ml" 160 4583 4603 "smt/sum.ml" 160 4583 4605
+)
+"smt/sum.ml" 161 4661 4692 "smt/sum.ml" 161 4661 4695
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/sum.ml" 156 4457 4484 "smt/sum.ml" 156 4457 4487
+)
+"smt/sum.ml" 161 4661 4680 "smt/sum.ml" 161 4661 4695
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/sum.ml" 162 4699 4712 "smt/sum.ml" 162 4699 4715
+type(
+  bool -> bool
+)
+ident(
+  ext_ref Pervasives.not
+)
+"smt/sum.ml" 162 4699 4717 "smt/sum.ml" 162 4699 4724
+type(
+  HSS.elt -> HSS.t -> bool
+)
+ident(
+  ext_ref HSS.mem
+)
+"smt/sum.ml" 162 4699 4725 "smt/sum.ml" 162 4699 4726
+type(
+  Hs.t
+)
+ident(
+  int_ref h "smt/sum.ml" 158 4525 4549 "smt/sum.ml" 158 4525 4550
+)
+"smt/sum.ml" 162 4699 4727 "smt/sum.ml" 162 4699 4731
+type(
+  HSS.t
+)
+ident(
+  int_ref enum "smt/sum.ml" 160 4583 4597 "smt/sum.ml" 160 4583 4601
+)
+"smt/sum.ml" 162 4699 4716 "smt/sum.ml" 162 4699 4732
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/sum.ml" 162 4699 4712 "smt/sum.ml" 162 4699 4732
+type(
+  bool
+)
+"smt/sum.ml" 162 4699 4738 "smt/sum.ml" 162 4699 4743
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/sum.ml" 162 4699 4758 "smt/sum.ml" 162 4699 4760
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/sum.ml" 161 4661 4675 "smt/sum.ml" 161 4661 4677
+)
+"smt/sum.ml" 162 4699 4744 "smt/sum.ml" 162 4699 4761
+type(
+  exn
+)
+"smt/sum.ml" 162 4699 4738 "smt/sum.ml" 162 4699 4761
+type(
+  unit
+)
+"smt/sum.ml" 162 4699 4709 "smt/sum.ml" 162 4699 4761
+type(
+  unit
+)
+"smt/sum.ml" 163 4763 4766 "smt/sum.ml" 163 4763 4772
+type(
+  MX.key -> HSS.t * Ex.t -> (HSS.t * Ex.t) MX.t -> (HSS.t * Ex.t) MX.t
+)
+ident(
+  ext_ref MX.add
+)
+"smt/sum.ml" 163 4763 4773 "smt/sum.ml" 163 4763 4774
+type(
+  MX.key
+)
+ident(
+  int_ref r "smt/sum.ml" 158 4525 4541 "smt/sum.ml" 158 4525 4542
+)
+"smt/sum.ml" 163 4763 4776 "smt/sum.ml" 163 4763 4789
+type(
+  HSS.elt -> HSS.t
+)
+ident(
+  ext_ref HSS.singleton
+)
+"smt/sum.ml" 163 4763 4790 "smt/sum.ml" 163 4763 4791
+type(
+  Hs.t
+)
+ident(
+  int_ref h "smt/sum.ml" 158 4525 4549 "smt/sum.ml" 158 4525 4550
+)
+"smt/sum.ml" 163 4763 4776 "smt/sum.ml" 163 4763 4791
+call(
+  stack
+)
+type(
+  HSS.t
+)
+"smt/sum.ml" 163 4763 4793 "smt/sum.ml" 163 4763 4795
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/sum.ml" 161 4661 4675 "smt/sum.ml" 161 4661 4677
+)
+"smt/sum.ml" 163 4763 4775 "smt/sum.ml" 163 4763 4796
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 163 4763 4797 "smt/sum.ml" 163 4763 4800
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 156 4457 4488 "smt/sum.ml" 156 4457 4491
+)
+"smt/sum.ml" 163 4763 4766 "smt/sum.ml" 163 4763 4800
+call(
+  stack
+)
+type(
+  (HSS.t * Ex.t) MX.t
+)
+"smt/sum.ml" 163 4763 4802 "smt/sum.ml" 163 4763 4805
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 156 4457 4492 "smt/sum.ml" 156 4457 4495
+)
+"smt/sum.ml" 163 4763 4766 "smt/sum.ml" 163 4763 4805
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 162 4699 4709 "smt/sum.ml" 163 4763 4805
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 161 4661 4671 "smt/sum.ml" 163 4763 4805
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 160 4583 4593 "smt/sum.ml" 163 4763 4805
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 165 4819 4835 "smt/sum.ml" 165 4819 4837
+type(
+  MX.key
+)
+ident(
+  def r1 "smt/sum.ml" 167 4855 4865 "smt/sum.ml" 178 5459 5482
+)
+"smt/sum.ml" 165 4819 4829 "smt/sum.ml" 165 4819 4837
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 165 4819 4845 "smt/sum.ml" 165 4819 4847
+type(
+  MX.key
+)
+ident(
+  def r2 "smt/sum.ml" 167 4855 4865 "smt/sum.ml" 178 5459 5482
+)
+"smt/sum.ml" 165 4819 4839 "smt/sum.ml" 165 4819 4847
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 165 4819 4829 "smt/sum.ml" 165 4819 4847
+type(
+  MX.key abstract * MX.key abstract
+)
+"smt/sum.ml" 167 4855 4869 "smt/sum.ml" 167 4855 4874
+type(
+  HSS.t
+)
+ident(
+  def enum1 "smt/sum.ml" 168 4935 4945 "smt/sum.ml" 178 5459 5482
+)
+"smt/sum.ml" 167 4855 4875 "smt/sum.ml" 167 4855 4878
+type(
+  Ex.t
+)
+ident(
+  def ex1 "smt/sum.ml" 168 4935 4945 "smt/sum.ml" 178 5459 5482
+)
+"smt/sum.ml" 167 4855 4869 "smt/sum.ml" 167 4855 4878
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 167 4855 4885 "smt/sum.ml" 167 4855 4892
+type(
+  MX.key -> (HSS.t * Ex.t) MX.t -> HSS.t * Ex.t
+)
+ident(
+  ext_ref MX.find
+)
+"smt/sum.ml" 167 4855 4893 "smt/sum.ml" 167 4855 4895
+type(
+  MX.key
+)
+ident(
+  int_ref r1 "smt/sum.ml" 165 4819 4835 "smt/sum.ml" 165 4819 4837
+)
+"smt/sum.ml" 167 4855 4896 "smt/sum.ml" 167 4855 4899
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 156 4457 4488 "smt/sum.ml" 156 4457 4491
+)
+"smt/sum.ml" 167 4855 4885 "smt/sum.ml" 167 4855 4899
+call(
+  stack
+)
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 167 4855 4905 "smt/sum.ml" 167 4855 4914
+type(
+  exn
+)
+"smt/sum.ml" 167 4855 4918 "smt/sum.ml" 167 4855 4921
+type(
+  HSS.t
+)
+ident(
+  int_ref hss "smt/sum.ml" 156 4457 4472 "smt/sum.ml" 156 4457 4475
+)
+"smt/sum.ml" 167 4855 4923 "smt/sum.ml" 167 4855 4931
+type(
+  Ex.t
+)
+ident(
+  ext_ref Ex.empty
+)
+"smt/sum.ml" 167 4855 4918 "smt/sum.ml" 167 4855 4931
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 167 4855 4881 "smt/sum.ml" 167 4855 4931
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 168 4935 4949 "smt/sum.ml" 168 4935 4954
+type(
+  HSS.t
+)
+ident(
+  def enum2 "smt/sum.ml" 169 5015 5025 "smt/sum.ml" 178 5459 5482
+)
+"smt/sum.ml" 168 4935 4955 "smt/sum.ml" 168 4935 4958
+type(
+  Ex.t
+)
+ident(
+  def ex2 "smt/sum.ml" 169 5015 5025 "smt/sum.ml" 178 5459 5482
+)
+"smt/sum.ml" 168 4935 4949 "smt/sum.ml" 168 4935 4958
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 168 4935 4965 "smt/sum.ml" 168 4935 4972
+type(
+  MX.key -> (HSS.t * Ex.t) MX.t -> HSS.t * Ex.t
+)
+ident(
+  ext_ref MX.find
+)
+"smt/sum.ml" 168 4935 4973 "smt/sum.ml" 168 4935 4975
+type(
+  MX.key
+)
+ident(
+  int_ref r2 "smt/sum.ml" 165 4819 4845 "smt/sum.ml" 165 4819 4847
+)
+"smt/sum.ml" 168 4935 4976 "smt/sum.ml" 168 4935 4979
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 156 4457 4488 "smt/sum.ml" 156 4457 4491
+)
+"smt/sum.ml" 168 4935 4965 "smt/sum.ml" 168 4935 4979
+call(
+  stack
+)
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 168 4935 4985 "smt/sum.ml" 168 4935 4994
+type(
+  exn
+)
+"smt/sum.ml" 168 4935 4998 "smt/sum.ml" 168 4935 5001
+type(
+  HSS.t
+)
+ident(
+  int_ref hss "smt/sum.ml" 156 4457 4472 "smt/sum.ml" 156 4457 4475
+)
+"smt/sum.ml" 168 4935 5003 "smt/sum.ml" 168 4935 5011
+type(
+  Ex.t
+)
+ident(
+  ext_ref Ex.empty
+)
+"smt/sum.ml" 168 4935 4998 "smt/sum.ml" 168 4935 5011
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 168 4935 4961 "smt/sum.ml" 168 4935 5011
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 169 5015 5029 "smt/sum.ml" 169 5015 5031
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/sum.ml" 170 5069 5079 "smt/sum.ml" 178 5459 5482
+)
+"smt/sum.ml" 169 5015 5034 "smt/sum.ml" 169 5015 5042
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/sum.ml" 169 5015 5043 "smt/sum.ml" 169 5015 5046
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/sum.ml" 156 4457 4484 "smt/sum.ml" 156 4457 4487
+)
+"smt/sum.ml" 169 5015 5048 "smt/sum.ml" 169 5015 5056
+type(
+  Ex.t -> Ex.t -> Ex.t
+)
+ident(
+  ext_ref Ex.union
+)
+"smt/sum.ml" 169 5015 5057 "smt/sum.ml" 169 5015 5060
+type(
+  Ex.t
+)
+ident(
+  int_ref ex1 "smt/sum.ml" 167 4855 4875 "smt/sum.ml" 167 4855 4878
+)
+"smt/sum.ml" 169 5015 5061 "smt/sum.ml" 169 5015 5064
+type(
+  Ex.t
+)
+ident(
+  int_ref ex2 "smt/sum.ml" 168 4935 4955 "smt/sum.ml" 168 4935 4958
+)
+"smt/sum.ml" 169 5015 5047 "smt/sum.ml" 169 5015 5065
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/sum.ml" 169 5015 5034 "smt/sum.ml" 169 5015 5065
+call(
+  stack
+)
+type(
+  Ex.t
+)
+"smt/sum.ml" 170 5069 5083 "smt/sum.ml" 170 5069 5087
+type(
+  HSS.t
+)
+ident(
+  def diff "smt/sum.ml" 171 5116 5126 "smt/sum.ml" 178 5459 5482
+)
+"smt/sum.ml" 170 5069 5090 "smt/sum.ml" 170 5069 5099
+type(
+  HSS.t -> HSS.t -> HSS.t
+)
+ident(
+  ext_ref HSS.inter
+)
+"smt/sum.ml" 170 5069 5100 "smt/sum.ml" 170 5069 5105
+type(
+  HSS.t
+)
+ident(
+  int_ref enum1 "smt/sum.ml" 167 4855 4869 "smt/sum.ml" 167 4855 4874
+)
+"smt/sum.ml" 170 5069 5106 "smt/sum.ml" 170 5069 5111
+type(
+  HSS.t
+)
+ident(
+  int_ref enum2 "smt/sum.ml" 168 4935 4949 "smt/sum.ml" 168 4935 4954
+)
+"smt/sum.ml" 170 5069 5090 "smt/sum.ml" 170 5069 5111
+call(
+  stack
+)
+type(
+  HSS.t
+)
+"smt/sum.ml" 171 5116 5129 "smt/sum.ml" 171 5116 5141
+type(
+  HSS.t -> bool
+)
+ident(
+  ext_ref HSS.is_empty
+)
+"smt/sum.ml" 171 5116 5142 "smt/sum.ml" 171 5116 5146
+type(
+  HSS.t
+)
+ident(
+  int_ref diff "smt/sum.ml" 170 5069 5083 "smt/sum.ml" 170 5069 5087
+)
+"smt/sum.ml" 171 5116 5129 "smt/sum.ml" 171 5116 5146
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/sum.ml" 171 5116 5152 "smt/sum.ml" 171 5116 5157
+type(
+  exn -> unit
+)
+ident(
+  ext_ref Pervasives.raise
+)
+"smt/sum.ml" 171 5116 5172 "smt/sum.ml" 171 5116 5174
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/sum.ml" 169 5015 5029 "smt/sum.ml" 169 5015 5031
+)
+"smt/sum.ml" 171 5116 5158 "smt/sum.ml" 171 5116 5175
+type(
+  exn
+)
+"smt/sum.ml" 171 5116 5152 "smt/sum.ml" 171 5116 5175
+type(
+  unit
+)
+"smt/sum.ml" 171 5116 5126 "smt/sum.ml" 171 5116 5175
+type(
+  unit
+)
+"smt/sum.ml" 172 5177 5191 "smt/sum.ml" 172 5177 5194
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  def env "smt/sum.ml" 173 5225 5235 "smt/sum.ml" 178 5459 5482
+)
+"smt/sum.ml" 172 5177 5197 "smt/sum.ml" 172 5177 5203
+type(
+  MX.key -> HSS.t * Ex.t -> (HSS.t * Ex.t) MX.t -> (HSS.t * Ex.t) MX.t
+)
+ident(
+  ext_ref MX.add
+)
+"smt/sum.ml" 172 5177 5204 "smt/sum.ml" 172 5177 5206
+type(
+  MX.key
+)
+ident(
+  int_ref r1 "smt/sum.ml" 165 4819 4835 "smt/sum.ml" 165 4819 4837
+)
+"smt/sum.ml" 172 5177 5208 "smt/sum.ml" 172 5177 5212
+type(
+  HSS.t
+)
+ident(
+  int_ref diff "smt/sum.ml" 170 5069 5083 "smt/sum.ml" 170 5069 5087
+)
+"smt/sum.ml" 172 5177 5214 "smt/sum.ml" 172 5177 5216
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/sum.ml" 169 5015 5029 "smt/sum.ml" 169 5015 5031
+)
+"smt/sum.ml" 172 5177 5207 "smt/sum.ml" 172 5177 5217
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 172 5177 5218 "smt/sum.ml" 172 5177 5221
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 156 4457 4488 "smt/sum.ml" 156 4457 4491
+)
+"smt/sum.ml" 172 5177 5197 "smt/sum.ml" 172 5177 5221
+call(
+  stack
+)
+type(
+  (HSS.t * Ex.t) MX.t
+)
+"smt/sum.ml" 173 5225 5239 "smt/sum.ml" 173 5225 5242
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  def env "smt/sum.ml" 174 5273 5283 "smt/sum.ml" 178 5459 5482
+)
+"smt/sum.ml" 173 5225 5245 "smt/sum.ml" 173 5225 5251
+type(
+  MX.key -> HSS.t * Ex.t -> (HSS.t * Ex.t) MX.t -> (HSS.t * Ex.t) MX.t
+)
+ident(
+  ext_ref MX.add
+)
+"smt/sum.ml" 173 5225 5252 "smt/sum.ml" 173 5225 5254
+type(
+  MX.key
+)
+ident(
+  int_ref r2 "smt/sum.ml" 165 4819 4845 "smt/sum.ml" 165 4819 4847
+)
+"smt/sum.ml" 173 5225 5256 "smt/sum.ml" 173 5225 5260
+type(
+  HSS.t
+)
+ident(
+  int_ref diff "smt/sum.ml" 170 5069 5083 "smt/sum.ml" 170 5069 5087
+)
+"smt/sum.ml" 173 5225 5262 "smt/sum.ml" 173 5225 5264
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/sum.ml" 169 5015 5029 "smt/sum.ml" 169 5015 5031
+)
+"smt/sum.ml" 173 5225 5255 "smt/sum.ml" 173 5225 5265
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 173 5225 5266 "smt/sum.ml" 173 5225 5269
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 172 5177 5191 "smt/sum.ml" 172 5177 5194
+)
+"smt/sum.ml" 173 5225 5245 "smt/sum.ml" 173 5225 5269
+call(
+  stack
+)
+type(
+  (HSS.t * Ex.t) MX.t
+)
+"smt/sum.ml" 174 5273 5286 "smt/sum.ml" 174 5273 5298
+type(
+  HSS.t -> int
+)
+ident(
+  ext_ref HSS.cardinal
+)
+"smt/sum.ml" 174 5273 5299 "smt/sum.ml" 174 5273 5303
+type(
+  HSS.t
+)
+ident(
+  int_ref diff "smt/sum.ml" 170 5069 5083 "smt/sum.ml" 170 5069 5087
+)
+"smt/sum.ml" 174 5273 5286 "smt/sum.ml" 174 5273 5303
+call(
+  stack
+)
+type(
+  int
+)
+"smt/sum.ml" 174 5273 5304 "smt/sum.ml" 174 5273 5305
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/sum.ml" 174 5273 5306 "smt/sum.ml" 174 5273 5307
+type(
+  int
+)
+"smt/sum.ml" 174 5273 5286 "smt/sum.ml" 174 5273 5307
+type(
+  bool
+)
+"smt/sum.ml" 175 5313 5329 "smt/sum.ml" 175 5313 5331
+type(
+  HSS.elt
+)
+ident(
+  def h' "smt/sum.ml" 176 5353 5365 "smt/sum.ml" 177 5392 5458
+)
+"smt/sum.ml" 175 5313 5334 "smt/sum.ml" 175 5313 5344
+type(
+  HSS.t -> HSS.elt
+)
+ident(
+  ext_ref HSS.choose
+)
+"smt/sum.ml" 175 5313 5345 "smt/sum.ml" 175 5313 5349
+type(
+  HSS.t
+)
+ident(
+  int_ref diff "smt/sum.ml" 170 5069 5083 "smt/sum.ml" 170 5069 5087
+)
+"smt/sum.ml" 175 5313 5334 "smt/sum.ml" 175 5313 5349
+call(
+  stack
+)
+type(
+  HSS.elt
+)
+"smt/sum.ml" 176 5353 5369 "smt/sum.ml" 176 5353 5371
+type(
+  Ty.t
+)
+ident(
+  def ty "smt/sum.ml" 177 5392 5404 "smt/sum.ml" 177 5392 5458
+)
+"smt/sum.ml" 176 5353 5374 "smt/sum.ml" 176 5353 5385
+type(
+  MX.key -> Ty.t
+)
+ident(
+  ext_ref X.type_info
+)
+"smt/sum.ml" 176 5353 5386 "smt/sum.ml" 176 5353 5388
+type(
+  MX.key
+)
+ident(
+  int_ref r1 "smt/sum.ml" 165 4819 4835 "smt/sum.ml" 165 4819 4837
+)
+"smt/sum.ml" 176 5353 5374 "smt/sum.ml" 176 5353 5388
+call(
+  stack
+)
+type(
+  Ty.t
+)
+"smt/sum.ml" 177 5392 5404 "smt/sum.ml" 177 5392 5407
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 173 5225 5239 "smt/sum.ml" 173 5225 5242
+)
+"smt/sum.ml" 177 5392 5421 "smt/sum.ml" 177 5392 5423
+type(
+  MX.key
+)
+ident(
+  int_ref r1 "smt/sum.ml" 165 4819 4835 "smt/sum.ml" 165 4819 4837
+)
+"smt/sum.ml" 177 5392 5425 "smt/sum.ml" 177 5392 5432
+type(
+  MX.key abstract -> MX.key
+)
+ident(
+  int_ref is_mine "smt/sum.ml" 69 2052 2058 "smt/sum.ml" 69 2052 2065
+)
+"smt/sum.ml" 177 5392 5439 "smt/sum.ml" 177 5392 5441
+type(
+  HSS.elt
+)
+ident(
+  int_ref h' "smt/sum.ml" 175 5313 5329 "smt/sum.ml" 175 5313 5331
+)
+"smt/sum.ml" 177 5392 5442 "smt/sum.ml" 177 5392 5444
+type(
+  Ty.t
+)
+ident(
+  int_ref ty "smt/sum.ml" 176 5353 5369 "smt/sum.ml" 176 5353 5371
+)
+"smt/sum.ml" 177 5392 5433 "smt/sum.ml" 177 5392 5446
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 177 5392 5425 "smt/sum.ml" 177 5392 5446
+call(
+  stack
+)
+type(
+  MX.key
+)
+"smt/sum.ml" 177 5392 5415 "smt/sum.ml" 177 5392 5448
+type(
+  MX.key A.view
+)
+"smt/sum.ml" 177 5392 5410 "smt/sum.ml" 177 5392 5448
+type(
+  MX.key Sig.literal
+)
+"smt/sum.ml" 177 5392 5450 "smt/sum.ml" 177 5392 5452
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/sum.ml" 169 5015 5029 "smt/sum.ml" 169 5015 5031
+)
+"smt/sum.ml" 177 5392 5409 "smt/sum.ml" 177 5392 5453
+type(
+  MX.key Sig.literal * Ex.t
+)
+"smt/sum.ml" 177 5392 5455 "smt/sum.ml" 177 5392 5458
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 156 4457 4492 "smt/sum.ml" 156 4457 4495
+)
+"smt/sum.ml" 177 5392 5409 "smt/sum.ml" 177 5392 5458
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 177 5392 5404 "smt/sum.ml" 177 5392 5458
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 176 5353 5365 "smt/sum.ml" 177 5392 5458
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 175 5313 5325 "smt/sum.ml" 177 5392 5458
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 178 5459 5474 "smt/sum.ml" 178 5459 5477
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 173 5225 5239 "smt/sum.ml" 173 5225 5242
+)
+"smt/sum.ml" 178 5459 5479 "smt/sum.ml" 178 5459 5482
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 156 4457 4492 "smt/sum.ml" 156 4457 4495
+)
+"smt/sum.ml" 178 5459 5474 "smt/sum.ml" 178 5459 5482
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 174 5273 5283 "smt/sum.ml" 178 5459 5482
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 173 5225 5235 "smt/sum.ml" 178 5459 5482
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 172 5177 5187 "smt/sum.ml" 178 5459 5482
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 171 5116 5126 "smt/sum.ml" 178 5459 5482
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 170 5069 5079 "smt/sum.ml" 178 5459 5482
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 169 5015 5025 "smt/sum.ml" 178 5459 5482
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 168 4935 4945 "smt/sum.ml" 178 5459 5482
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 167 4855 4865 "smt/sum.ml" 178 5459 5482
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 180 5484 5495 "smt/sum.ml" 180 5484 5496
+type(
+  MX.key abstract * MX.key abstract
+)
+"smt/sum.ml" 180 5484 5500 "smt/sum.ml" 180 5484 5503
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 156 4457 4488 "smt/sum.ml" 156 4457 4491
+)
+"smt/sum.ml" 180 5484 5505 "smt/sum.ml" 180 5484 5508
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 156 4457 4492 "smt/sum.ml" 156 4457 4495
+)
+"smt/sum.ml" 180 5484 5500 "smt/sum.ml" 180 5484 5508
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 157 4499 4505 "smt/sum.ml" 180 5484 5508
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 182 5510 5518 "smt/sum.ml" 182 5510 5524
+type(
+  (HSS.t * Ex.t) MX.t ->
+  (MX.key A.view * 'p * Ex.t) list -> (HSS.t * Ex.t) MX.t * MX.key Sig.result
+)
+ident(
+  def assume "smt/sum.ml" 211 6336 6340 "smt/sum.ml" 239 7133 7138
+)
+"smt/sum.ml" 182 5510 5525 "smt/sum.ml" 182 5510 5528
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  def env "smt/sum.ml" 182 5510 5529 "smt/sum.ml" 206 6205 6245
+)
+"smt/sum.ml" 182 5510 5529 "smt/sum.ml" 182 5510 5531
+type(
+  (MX.key A.view * 'p * Ex.t) list
+)
+ident(
+  def la "smt/sum.ml" 183 5535 5541 "smt/sum.ml" 206 6205 6245
+)
+"smt/sum.ml" 183 5535 5545 "smt/sum.ml" 183 5535 5548
+type(
+  bool ->
+  MX.key ->
+  MX.key ->
+  Ex.t ->
+  (HSS.t * Ex.t) MX.t ->
+  (MX.key Sig.literal * Ex.t) list ->
+  HSS.t option -> (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  def aux "smt/sum.ml" 192 5844 5850 "smt/sum.ml" 206 6205 6245
+)
+"smt/sum.ml" 183 5535 5549 "smt/sum.ml" 183 5535 5552
+type(
+  bool
+)
+ident(
+  def bol "smt/sum.ml" 183 5535 5553 "smt/sum.ml" 190 5773 5834
+)
+"smt/sum.ml" 183 5535 5553 "smt/sum.ml" 183 5535 5555
+type(
+  MX.key
+)
+ident(
+  def r1 "smt/sum.ml" 183 5535 5556 "smt/sum.ml" 190 5773 5834
+)
+"smt/sum.ml" 183 5535 5556 "smt/sum.ml" 183 5535 5558
+type(
+  MX.key
+)
+ident(
+  def r2 "smt/sum.ml" 183 5535 5559 "smt/sum.ml" 190 5773 5834
+)
+"smt/sum.ml" 183 5535 5559 "smt/sum.ml" 183 5535 5562
+type(
+  Ex.t
+)
+ident(
+  def dep "smt/sum.ml" 183 5535 5563 "smt/sum.ml" 190 5773 5834
+)
+"smt/sum.ml" 183 5535 5563 "smt/sum.ml" 183 5535 5566
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  def env "smt/sum.ml" 183 5535 5567 "smt/sum.ml" 190 5773 5834
+)
+"smt/sum.ml" 183 5535 5567 "smt/sum.ml" 183 5535 5570
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  def eqs "smt/sum.ml" 183 5535 5573 "smt/sum.ml" 190 5773 5834
+)
+"smt/sum.ml" 184 5582 5592 "smt/sum.ml" 184 5582 5596
+type(
+  HSS.t option
+)
+"smt/sum.ml" 184 5582 5604 "smt/sum.ml" 184 5582 5607
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 183 5535 5563 "smt/sum.ml" 183 5535 5566
+)
+"smt/sum.ml" 184 5582 5609 "smt/sum.ml" 184 5582 5612
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 183 5535 5567 "smt/sum.ml" 183 5535 5570
+)
+"smt/sum.ml" 184 5582 5604 "smt/sum.ml" 184 5582 5612
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 185 5613 5628 "smt/sum.ml" 185 5613 5631
+type(
+  HSS.t
+)
+ident(
+  def hss "smt/sum.ml" 186 5636 5648 "smt/sum.ml" 190 5773 5834
+)
+"smt/sum.ml" 185 5613 5623 "smt/sum.ml" 185 5613 5631
+type(
+  HSS.t option
+)
+"smt/sum.ml" 186 5636 5648 "smt/sum.ml" 186 5636 5660
+type(
+  bool -> MX.key -> MX.key -> unit
+)
+ident(
+  int_ref Debug.assume "smt/sum.ml" 127 3534 3544 "smt/sum.ml" 127 3534 3550
+)
+"smt/sum.ml" 186 5636 5661 "smt/sum.ml" 186 5636 5664
+type(
+  bool
+)
+ident(
+  int_ref bol "smt/sum.ml" 183 5535 5549 "smt/sum.ml" 183 5535 5552
+)
+"smt/sum.ml" 186 5636 5665 "smt/sum.ml" 186 5636 5667
+type(
+  MX.key
+)
+ident(
+  int_ref r1 "smt/sum.ml" 183 5535 5553 "smt/sum.ml" 183 5535 5555
+)
+"smt/sum.ml" 186 5636 5668 "smt/sum.ml" 186 5636 5670
+type(
+  MX.key
+)
+ident(
+  int_ref r2 "smt/sum.ml" 183 5535 5556 "smt/sum.ml" 183 5535 5558
+)
+"smt/sum.ml" 186 5636 5648 "smt/sum.ml" 186 5636 5670
+call(
+  stack
+)
+type(
+  unit
+)
+"smt/sum.ml" 187 5672 5687 "smt/sum.ml" 187 5672 5690
+type(
+  bool
+)
+ident(
+  int_ref bol "smt/sum.ml" 183 5535 5549 "smt/sum.ml" 183 5535 5552
+)
+"smt/sum.ml" 188 5697 5711 "smt/sum.ml" 188 5697 5717
+type(
+  HSS.t ->
+  MX.key abstract ->
+  MX.key abstract ->
+  Ex.t ->
+  (HSS.t * Ex.t) MX.t ->
+  (MX.key Sig.literal * Ex.t) list ->
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref add_eq "smt/sum.ml" 156 4457 4465 "smt/sum.ml" 156 4457 4471
+)
+"smt/sum.ml" 188 5697 5718 "smt/sum.ml" 188 5697 5721
+type(
+  HSS.t
+)
+ident(
+  int_ref hss "smt/sum.ml" 185 5613 5628 "smt/sum.ml" 185 5613 5631
+)
+"smt/sum.ml" 188 5697 5723 "smt/sum.ml" 188 5697 5728
+type(
+  MX.key -> MX.key abstract
+)
+ident(
+  int_ref embed "smt/sum.ml" 64 1963 1969 "smt/sum.ml" 64 1963 1974
+)
+"smt/sum.ml" 188 5697 5729 "smt/sum.ml" 188 5697 5731
+type(
+  MX.key
+)
+ident(
+  int_ref r1 "smt/sum.ml" 183 5535 5553 "smt/sum.ml" 183 5535 5555
+)
+"smt/sum.ml" 188 5697 5722 "smt/sum.ml" 188 5697 5732
+call(
+  stack
+)
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 188 5697 5734 "smt/sum.ml" 188 5697 5739
+type(
+  MX.key -> MX.key abstract
+)
+ident(
+  int_ref embed "smt/sum.ml" 64 1963 1969 "smt/sum.ml" 64 1963 1974
+)
+"smt/sum.ml" 188 5697 5740 "smt/sum.ml" 188 5697 5742
+type(
+  MX.key
+)
+ident(
+  int_ref r2 "smt/sum.ml" 183 5535 5556 "smt/sum.ml" 183 5535 5558
+)
+"smt/sum.ml" 188 5697 5733 "smt/sum.ml" 188 5697 5743
+call(
+  stack
+)
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 188 5697 5744 "smt/sum.ml" 188 5697 5747
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/sum.ml" 183 5535 5559 "smt/sum.ml" 183 5535 5562
+)
+"smt/sum.ml" 188 5697 5748 "smt/sum.ml" 188 5697 5751
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 183 5535 5563 "smt/sum.ml" 183 5535 5566
+)
+"smt/sum.ml" 188 5697 5752 "smt/sum.ml" 188 5697 5755
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 183 5535 5567 "smt/sum.ml" 183 5535 5570
+)
+"smt/sum.ml" 188 5697 5711 "smt/sum.ml" 188 5697 5755
+call(
+  tail
+)
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 190 5773 5787 "smt/sum.ml" 190 5773 5796
+type(
+  HSS.t ->
+  MX.key abstract ->
+  MX.key abstract ->
+  Ex.t ->
+  (HSS.t * Ex.t) MX.t ->
+  (MX.key Sig.literal * Ex.t) list ->
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref add_diseq "smt/sum.ml" 138 3771 3779 "smt/sum.ml" 138 3771 3788
+)
+"smt/sum.ml" 190 5773 5797 "smt/sum.ml" 190 5773 5800
+type(
+  HSS.t
+)
+ident(
+  int_ref hss "smt/sum.ml" 185 5613 5628 "smt/sum.ml" 185 5613 5631
+)
+"smt/sum.ml" 190 5773 5802 "smt/sum.ml" 190 5773 5807
+type(
+  MX.key -> MX.key abstract
+)
+ident(
+  int_ref embed "smt/sum.ml" 64 1963 1969 "smt/sum.ml" 64 1963 1974
+)
+"smt/sum.ml" 190 5773 5808 "smt/sum.ml" 190 5773 5810
+type(
+  MX.key
+)
+ident(
+  int_ref r1 "smt/sum.ml" 183 5535 5553 "smt/sum.ml" 183 5535 5555
+)
+"smt/sum.ml" 190 5773 5801 "smt/sum.ml" 190 5773 5811
+call(
+  stack
+)
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 190 5773 5813 "smt/sum.ml" 190 5773 5818
+type(
+  MX.key -> MX.key abstract
+)
+ident(
+  int_ref embed "smt/sum.ml" 64 1963 1969 "smt/sum.ml" 64 1963 1974
+)
+"smt/sum.ml" 190 5773 5819 "smt/sum.ml" 190 5773 5821
+type(
+  MX.key
+)
+ident(
+  int_ref r2 "smt/sum.ml" 183 5535 5556 "smt/sum.ml" 183 5535 5558
+)
+"smt/sum.ml" 190 5773 5812 "smt/sum.ml" 190 5773 5822
+call(
+  stack
+)
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 190 5773 5823 "smt/sum.ml" 190 5773 5826
+type(
+  Ex.t
+)
+ident(
+  int_ref dep "smt/sum.ml" 183 5535 5559 "smt/sum.ml" 183 5535 5562
+)
+"smt/sum.ml" 190 5773 5827 "smt/sum.ml" 190 5773 5830
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 183 5535 5563 "smt/sum.ml" 183 5535 5566
+)
+"smt/sum.ml" 190 5773 5831 "smt/sum.ml" 190 5773 5834
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 183 5535 5567 "smt/sum.ml" 183 5535 5570
+)
+"smt/sum.ml" 190 5773 5787 "smt/sum.ml" 190 5773 5834
+call(
+  tail
+)
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 187 5672 5684 "smt/sum.ml" 190 5773 5834
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 186 5636 5648 "smt/sum.ml" 190 5773 5834
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 183 5535 5573 "smt/sum.ml" 190 5773 5834
+type(
+  HSS.t option -> (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 192 5844 5850 "smt/sum.ml" 192 5844 5865
+type(
+  (HSS.t * Ex.t) MX.t -> unit
+)
+ident(
+  int_ref Debug.print_env "smt/sum.ml" 129 3567 3579 "smt/sum.ml" 129 3567 3588
+)
+"smt/sum.ml" 192 5844 5866 "smt/sum.ml" 192 5844 5869
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 182 5510 5525 "smt/sum.ml" 182 5510 5528
+)
+"smt/sum.ml" 192 5844 5850 "smt/sum.ml" 192 5844 5869
+call(
+  stack
+)
+type(
+  unit
+)
+"smt/sum.ml" 193 5871 5881 "smt/sum.ml" 193 5871 5884
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  def env "smt/sum.ml" 206 6205 6211 "smt/sum.ml" 206 6205 6245
+)
+"smt/sum.ml" 193 5871 5886 "smt/sum.ml" 193 5871 5889
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  def eqs "smt/sum.ml" 206 6205 6211 "smt/sum.ml" 206 6205 6245
+)
+"smt/sum.ml" 193 5871 5881 "smt/sum.ml" 193 5871 5889
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 194 5893 5894 "smt/sum.ml" 194 5893 5908
+type(
+  ((HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list ->
+   MX.key A.view * 'p * Ex.t ->
+   (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list) ->
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list ->
+  (MX.key A.view * 'p * Ex.t) list ->
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  ext_ref List.fold_left
+)
+"smt/sum.ml" 195 5909 5925 "smt/sum.ml" 195 5909 5928
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  def env "smt/sum.ml" 195 5909 5937 "smt/sum.ml" 202 6139 6167
+)
+"smt/sum.ml" 195 5909 5929 "smt/sum.ml" 195 5909 5932
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  def eqs "smt/sum.ml" 195 5909 5937 "smt/sum.ml" 202 6139 6167
+)
+"smt/sum.ml" 195 5909 5924 "smt/sum.ml" 195 5909 5933
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 196 5946 5966 "smt/sum.ml" 196 5946 5968
+type(
+  MX.key
+)
+ident(
+  def r1 "smt/sum.ml" 197 5984 5987 "smt/sum.ml" 197 5984 6028
+)
+"smt/sum.ml" 196 5946 5969 "smt/sum.ml" 196 5946 5971
+type(
+  MX.key
+)
+ident(
+  def r2 "smt/sum.ml" 197 5984 5987 "smt/sum.ml" 197 5984 6028
+)
+"smt/sum.ml" 196 5946 5961 "smt/sum.ml" 196 5946 5972
+type(
+  MX.key A.view
+)
+"smt/sum.ml" 196 5946 5974 "smt/sum.ml" 196 5946 5975
+type(
+  'p
+)
+"smt/sum.ml" 196 5946 5977 "smt/sum.ml" 196 5946 5979
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/sum.ml" 197 5984 5987 "smt/sum.ml" 197 5984 6028
+)
+"smt/sum.ml" 196 5946 5961 "smt/sum.ml" 196 5946 5979
+type(
+  MX.key A.view * 'p * Ex.t
+)
+"smt/sum.ml" 197 5984 5987 "smt/sum.ml" 197 5984 5990
+type(
+  bool ->
+  MX.key ->
+  MX.key ->
+  Ex.t ->
+  (HSS.t * Ex.t) MX.t ->
+  (MX.key Sig.literal * Ex.t) list ->
+  HSS.t option -> (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref aux "smt/sum.ml" 183 5535 5545 "smt/sum.ml" 183 5535 5548
+)
+"smt/sum.ml" 197 5984 5991 "smt/sum.ml" 197 5984 5995
+type(
+  bool
+)
+"smt/sum.ml" 197 5984 5997 "smt/sum.ml" 197 5984 5999
+type(
+  MX.key
+)
+ident(
+  int_ref r1 "smt/sum.ml" 196 5946 5966 "smt/sum.ml" 196 5946 5968
+)
+"smt/sum.ml" 197 5984 6000 "smt/sum.ml" 197 5984 6002
+type(
+  MX.key
+)
+ident(
+  int_ref r2 "smt/sum.ml" 196 5946 5969 "smt/sum.ml" 196 5946 5971
+)
+"smt/sum.ml" 197 5984 6003 "smt/sum.ml" 197 5984 6005
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/sum.ml" 196 5946 5977 "smt/sum.ml" 196 5946 5979
+)
+"smt/sum.ml" 197 5984 6006 "smt/sum.ml" 197 5984 6009
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 195 5909 5925 "smt/sum.ml" 195 5909 5928
+)
+"smt/sum.ml" 197 5984 6010 "smt/sum.ml" 197 5984 6013
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 195 5909 5929 "smt/sum.ml" 195 5909 5932
+)
+"smt/sum.ml" 197 5984 6015 "smt/sum.ml" 197 5984 6024
+type(
+  MX.key -> HSS.t option
+)
+ident(
+  int_ref values_of "smt/sum.ml" 133 3608 3616 "smt/sum.ml" 133 3608 3625
+)
+"smt/sum.ml" 197 5984 6025 "smt/sum.ml" 197 5984 6027
+type(
+  MX.key
+)
+ident(
+  int_ref r1 "smt/sum.ml" 196 5946 5966 "smt/sum.ml" 196 5946 5968
+)
+"smt/sum.ml" 197 5984 6014 "smt/sum.ml" 197 5984 6028
+call(
+  stack
+)
+type(
+  HSS.t option
+)
+"smt/sum.ml" 197 5984 5987 "smt/sum.ml" 197 5984 6028
+call(
+  tail
+)
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 199 6035 6061 "smt/sum.ml" 199 6035 6066
+type(
+  bool
+)
+"smt/sum.ml" 199 6035 6069 "smt/sum.ml" 199 6035 6071
+type(
+  MX.key
+)
+ident(
+  def r1 "smt/sum.ml" 200 6088 6091 "smt/sum.ml" 200 6088 6132
+)
+"smt/sum.ml" 199 6035 6072 "smt/sum.ml" 199 6035 6074
+type(
+  MX.key
+)
+ident(
+  def r2 "smt/sum.ml" 200 6088 6091 "smt/sum.ml" 200 6088 6132
+)
+"smt/sum.ml" 199 6035 6068 "smt/sum.ml" 199 6035 6075
+type(
+  MX.key list
+)
+"smt/sum.ml" 199 6035 6050 "smt/sum.ml" 199 6035 6076
+type(
+  MX.key A.view
+)
+"smt/sum.ml" 199 6035 6078 "smt/sum.ml" 199 6035 6079
+type(
+  'p
+)
+"smt/sum.ml" 199 6035 6081 "smt/sum.ml" 199 6035 6083
+type(
+  Ex.t
+)
+ident(
+  def ex "smt/sum.ml" 200 6088 6091 "smt/sum.ml" 200 6088 6132
+)
+"smt/sum.ml" 199 6035 6050 "smt/sum.ml" 199 6035 6083
+type(
+  MX.key A.view * 'p * Ex.t
+)
+"smt/sum.ml" 200 6088 6091 "smt/sum.ml" 200 6088 6094
+type(
+  bool ->
+  MX.key ->
+  MX.key ->
+  Ex.t ->
+  (HSS.t * Ex.t) MX.t ->
+  (MX.key Sig.literal * Ex.t) list ->
+  HSS.t option -> (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref aux "smt/sum.ml" 183 5535 5545 "smt/sum.ml" 183 5535 5548
+)
+"smt/sum.ml" 200 6088 6095 "smt/sum.ml" 200 6088 6100
+type(
+  bool
+)
+"smt/sum.ml" 200 6088 6101 "smt/sum.ml" 200 6088 6103
+type(
+  MX.key
+)
+ident(
+  int_ref r1 "smt/sum.ml" 199 6035 6069 "smt/sum.ml" 199 6035 6071
+)
+"smt/sum.ml" 200 6088 6104 "smt/sum.ml" 200 6088 6106
+type(
+  MX.key
+)
+ident(
+  int_ref r2 "smt/sum.ml" 199 6035 6072 "smt/sum.ml" 199 6035 6074
+)
+"smt/sum.ml" 200 6088 6107 "smt/sum.ml" 200 6088 6109
+type(
+  Ex.t
+)
+ident(
+  int_ref ex "smt/sum.ml" 199 6035 6081 "smt/sum.ml" 199 6035 6083
+)
+"smt/sum.ml" 200 6088 6110 "smt/sum.ml" 200 6088 6113
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 195 5909 5925 "smt/sum.ml" 195 5909 5928
+)
+"smt/sum.ml" 200 6088 6114 "smt/sum.ml" 200 6088 6117
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 195 5909 5929 "smt/sum.ml" 195 5909 5932
+)
+"smt/sum.ml" 200 6088 6119 "smt/sum.ml" 200 6088 6128
+type(
+  MX.key -> HSS.t option
+)
+ident(
+  int_ref values_of "smt/sum.ml" 133 3608 3616 "smt/sum.ml" 133 3608 3625
+)
+"smt/sum.ml" 200 6088 6129 "smt/sum.ml" 200 6088 6131
+type(
+  MX.key
+)
+ident(
+  int_ref r1 "smt/sum.ml" 199 6035 6069 "smt/sum.ml" 199 6035 6071
+)
+"smt/sum.ml" 200 6088 6118 "smt/sum.ml" 200 6088 6132
+call(
+  stack
+)
+type(
+  HSS.t option
+)
+"smt/sum.ml" 200 6088 6091 "smt/sum.ml" 200 6088 6132
+call(
+  tail
+)
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 202 6139 6154 "smt/sum.ml" 202 6139 6155
+type(
+  MX.key A.view * 'p * Ex.t
+)
+"smt/sum.ml" 202 6139 6159 "smt/sum.ml" 202 6139 6162
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 195 5909 5925 "smt/sum.ml" 195 5909 5928
+)
+"smt/sum.ml" 202 6139 6164 "smt/sum.ml" 202 6139 6167
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 195 5909 5929 "smt/sum.ml" 195 5909 5932
+)
+"smt/sum.ml" 202 6139 6159 "smt/sum.ml" 202 6139 6167
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 195 5909 5937 "smt/sum.ml" 202 6139 6167
+type(
+  MX.key A.view * 'p * Ex.t ->
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 195 5909 5919 "smt/sum.ml" 204 6172 6183
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list ->
+  MX.key A.view * 'p * Ex.t ->
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 204 6172 6185 "smt/sum.ml" 204 6172 6188
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 182 5510 5525 "smt/sum.ml" 182 5510 5528
+)
+"smt/sum.ml" 204 6172 6189 "smt/sum.ml" 204 6172 6191
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 204 6172 6184 "smt/sum.ml" 204 6172 6192
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 204 6172 6193 "smt/sum.ml" 204 6172 6195
+type(
+  (MX.key A.view * 'p * Ex.t) list
+)
+ident(
+  int_ref la "smt/sum.ml" 182 5510 5529 "smt/sum.ml" 182 5510 5531
+)
+"smt/sum.ml" 194 5893 5894 "smt/sum.ml" 204 6172 6195
+call(
+  stack
+)
+type(
+  (HSS.t * Ex.t) MX.t * (MX.key Sig.literal * Ex.t) list
+)
+"smt/sum.ml" 206 6205 6211 "smt/sum.ml" 206 6205 6214
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 193 5871 5881 "smt/sum.ml" 193 5871 5884
+)
+"smt/sum.ml" 206 6205 6227 "smt/sum.ml" 206 6205 6230
+type(
+  (MX.key Sig.literal * Ex.t) list
+)
+ident(
+  int_ref eqs "smt/sum.ml" 193 5871 5886 "smt/sum.ml" 193 5871 5889
+)
+"smt/sum.ml" 206 6205 6241 "smt/sum.ml" 206 6205 6243
+type(
+  (MX.key Sig.literal * Explanation.t) list
+)
+"smt/sum.ml" 206 6205 6216 "smt/sum.ml" 206 6205 6245
+type(
+  MX.key Sig.result
+)
+"smt/sum.ml" 206 6205 6211 "smt/sum.ml" 206 6205 6245
+type(
+  (HSS.t * Ex.t) MX.t * MX.key Sig.result
+)
+"smt/sum.ml" 193 5871 5877 "smt/sum.ml" 206 6205 6245
+type(
+  (HSS.t * Ex.t) MX.t * MX.key Sig.result
+)
+"smt/sum.ml" 192 5844 5850 "smt/sum.ml" 206 6205 6245
+type(
+  (HSS.t * Ex.t) MX.t * MX.key Sig.result
+)
+"smt/sum.ml" 183 5535 5541 "smt/sum.ml" 206 6205 6245
+type(
+  (HSS.t * Ex.t) MX.t * MX.key Sig.result
+)
+"smt/sum.ml" 211 6336 6344 "smt/sum.ml" 211 6336 6354
+type(
+  (HSS.t * 'q) MX.t -> (MX.key A.view * Ex.t * Num.num) list
+)
+ident(
+  def case_split "smt/sum.ml" 228 6825 6829 "smt/sum.ml" 239 7133 7138
+)
+"smt/sum.ml" 211 6336 6355 "smt/sum.ml" 211 6336 6358
+type(
+  (HSS.t * 'q) MX.t
+)
+ident(
+  def env "smt/sum.ml" 212 6361 6367 "smt/sum.ml" 225 6796 6816
+)
+"smt/sum.ml" 212 6361 6371 "smt/sum.ml" 212 6361 6374
+type(
+  (int * MX.key * HSS.elt) option
+)
+ident(
+  def acc "smt/sum.ml" 221 6644 6650 "smt/sum.ml" 225 6796 6816
+)
+"smt/sum.ml" 212 6361 6377 "smt/sum.ml" 212 6361 6384
+type(
+  (MX.key ->
+   HSS.t * 'q ->
+   (int * MX.key * HSS.elt) option -> (int * MX.key * HSS.elt) option) ->
+  (HSS.t * 'q) MX.t ->
+  (int * MX.key * HSS.elt) option -> (int * MX.key * HSS.elt) option
+)
+ident(
+  ext_ref MX.fold
+)
+"smt/sum.ml" 213 6385 6398 "smt/sum.ml" 213 6385 6399
+type(
+  MX.key
+)
+ident(
+  def r "smt/sum.ml" 213 6385 6400 "smt/sum.ml" 218 6567 6615
+)
+"smt/sum.ml" 213 6385 6401 "smt/sum.ml" 213 6385 6404
+type(
+  HSS.t
+)
+ident(
+  def hss "smt/sum.ml" 213 6385 6410 "smt/sum.ml" 218 6567 6615
+)
+"smt/sum.ml" 213 6385 6406 "smt/sum.ml" 213 6385 6408
+type(
+  'q
+)
+ident(
+  def ex "smt/sum.ml" 213 6385 6410 "smt/sum.ml" 218 6567 6615
+)
+"smt/sum.ml" 213 6385 6400 "smt/sum.ml" 213 6385 6409
+type(
+  HSS.t * 'q
+)
+"smt/sum.ml" 213 6385 6410 "smt/sum.ml" 213 6385 6413
+type(
+  (int * MX.key * HSS.elt) option
+)
+ident(
+  def acc "smt/sum.ml" 214 6417 6428 "smt/sum.ml" 218 6567 6615
+)
+"smt/sum.ml" 214 6417 6432 "smt/sum.ml" 214 6417 6434
+type(
+  int
+)
+ident(
+  def sz "smt/sum.ml" 215 6457 6468 "smt/sum.ml" 218 6567 6615
+)
+"smt/sum.ml" 214 6417 6437 "smt/sum.ml" 214 6417 6449
+type(
+  HSS.t -> int
+)
+ident(
+  ext_ref HSS.cardinal
+)
+"smt/sum.ml" 214 6417 6450 "smt/sum.ml" 214 6417 6453
+type(
+  HSS.t
+)
+ident(
+  int_ref hss "smt/sum.ml" 213 6385 6401 "smt/sum.ml" 213 6385 6404
+)
+"smt/sum.ml" 214 6417 6437 "smt/sum.ml" 214 6417 6453
+call(
+  stack
+)
+type(
+  int
+)
+"smt/sum.ml" 215 6457 6471 "smt/sum.ml" 215 6457 6473
+type(
+  int
+)
+ident(
+  int_ref sz "smt/sum.ml" 214 6417 6432 "smt/sum.ml" 214 6417 6434
+)
+"smt/sum.ml" 215 6457 6474 "smt/sum.ml" 215 6457 6475
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( = )
+)
+"smt/sum.ml" 215 6457 6476 "smt/sum.ml" 215 6457 6477
+type(
+  int
+)
+"smt/sum.ml" 215 6457 6471 "smt/sum.ml" 215 6457 6477
+type(
+  bool
+)
+"smt/sum.ml" 215 6457 6483 "smt/sum.ml" 215 6457 6486
+type(
+  (int * MX.key * HSS.elt) option
+)
+ident(
+  int_ref acc "smt/sum.ml" 213 6385 6410 "smt/sum.ml" 213 6385 6413
+)
+"smt/sum.ml" 216 6487 6509 "smt/sum.ml" 216 6487 6512
+type(
+  (int * MX.key * HSS.elt) option
+)
+ident(
+  int_ref acc "smt/sum.ml" 213 6385 6410 "smt/sum.ml" 213 6385 6413
+)
+"smt/sum.ml" 217 6518 6539 "smt/sum.ml" 217 6518 6540
+type(
+  int
+)
+ident(
+  def n "smt/sum.ml" 217 6518 6552 "smt/sum.ml" 217 6518 6566
+)
+"smt/sum.ml" 217 6518 6541 "smt/sum.ml" 217 6518 6542
+type(
+  MX.key
+)
+ident(
+  def r "smt/sum.ml" 217 6518 6552 "smt/sum.ml" 217 6518 6566
+)
+"smt/sum.ml" 217 6518 6543 "smt/sum.ml" 217 6518 6545
+type(
+  HSS.elt
+)
+ident(
+  def hs "smt/sum.ml" 217 6518 6552 "smt/sum.ml" 217 6518 6566
+)
+"smt/sum.ml" 217 6518 6538 "smt/sum.ml" 217 6518 6546
+type(
+  int * MX.key * HSS.elt
+)
+"smt/sum.ml" 217 6518 6533 "smt/sum.ml" 217 6518 6546
+type(
+  (int * MX.key * HSS.elt) option
+)
+"smt/sum.ml" 217 6518 6552 "smt/sum.ml" 217 6518 6553
+type(
+  int
+)
+ident(
+  int_ref n "smt/sum.ml" 217 6518 6539 "smt/sum.ml" 217 6518 6540
+)
+"smt/sum.ml" 217 6518 6554 "smt/sum.ml" 217 6518 6556
+type(
+  int -> int -> bool
+)
+ident(
+  ext_ref Pervasives.( <= )
+)
+"smt/sum.ml" 217 6518 6557 "smt/sum.ml" 217 6518 6559
+type(
+  int
+)
+ident(
+  int_ref sz "smt/sum.ml" 214 6417 6432 "smt/sum.ml" 214 6417 6434
+)
+"smt/sum.ml" 217 6518 6552 "smt/sum.ml" 217 6518 6559
+type(
+  bool
+)
+"smt/sum.ml" 217 6518 6563 "smt/sum.ml" 217 6518 6566
+type(
+  (int * MX.key * HSS.elt) option
+)
+ident(
+  int_ref acc "smt/sum.ml" 213 6385 6410 "smt/sum.ml" 213 6385 6413
+)
+"smt/sum.ml" 218 6567 6582 "smt/sum.ml" 218 6567 6583
+type(
+  (int * MX.key * HSS.elt) option
+)
+"smt/sum.ml" 218 6567 6593 "smt/sum.ml" 218 6567 6595
+type(
+  int
+)
+ident(
+  int_ref sz "smt/sum.ml" 214 6417 6432 "smt/sum.ml" 214 6417 6434
+)
+"smt/sum.ml" 218 6567 6597 "smt/sum.ml" 218 6567 6598
+type(
+  MX.key
+)
+ident(
+  int_ref r "smt/sum.ml" 213 6385 6398 "smt/sum.ml" 213 6385 6399
+)
+"smt/sum.ml" 218 6567 6600 "smt/sum.ml" 218 6567 6610
+type(
+  HSS.t -> HSS.elt
+)
+ident(
+  ext_ref HSS.choose
+)
+"smt/sum.ml" 218 6567 6611 "smt/sum.ml" 218 6567 6614
+type(
+  HSS.t
+)
+ident(
+  int_ref hss "smt/sum.ml" 213 6385 6401 "smt/sum.ml" 213 6385 6404
+)
+"smt/sum.ml" 218 6567 6600 "smt/sum.ml" 218 6567 6614
+call(
+  stack
+)
+type(
+  HSS.elt
+)
+"smt/sum.ml" 218 6567 6592 "smt/sum.ml" 218 6567 6615
+type(
+  int * MX.key * HSS.elt
+)
+"smt/sum.ml" 218 6567 6587 "smt/sum.ml" 218 6567 6615
+type(
+  (int * MX.key * HSS.elt) option
+)
+"smt/sum.ml" 216 6487 6503 "smt/sum.ml" 218 6567 6615
+type(
+  (int * MX.key * HSS.elt) option
+)
+"smt/sum.ml" 215 6457 6468 "smt/sum.ml" 218 6567 6615
+type(
+  (int * MX.key * HSS.elt) option
+)
+"smt/sum.ml" 214 6417 6428 "smt/sum.ml" 218 6567 6615
+type(
+  (int * MX.key * HSS.elt) option
+)
+"smt/sum.ml" 213 6385 6393 "smt/sum.ml" 219 6616 6625
+type(
+  MX.key ->
+  HSS.t * 'q ->
+  (int * MX.key * HSS.elt) option -> (int * MX.key * HSS.elt) option
+)
+"smt/sum.ml" 219 6616 6626 "smt/sum.ml" 219 6616 6629
+type(
+  (HSS.t * 'q) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 211 6336 6355 "smt/sum.ml" 211 6336 6358
+)
+"smt/sum.ml" 219 6616 6630 "smt/sum.ml" 219 6616 6634
+type(
+  (int * MX.key * HSS.elt) option
+)
+"smt/sum.ml" 212 6361 6377 "smt/sum.ml" 219 6616 6634
+call(
+  stack
+)
+type(
+  (int * MX.key * HSS.elt) option
+)
+"smt/sum.ml" 221 6644 6656 "smt/sum.ml" 221 6644 6659
+type(
+  (int * MX.key * HSS.elt) option
+)
+ident(
+  int_ref acc "smt/sum.ml" 212 6361 6371 "smt/sum.ml" 212 6361 6374
+)
+"smt/sum.ml" 222 6665 6681 "smt/sum.ml" 222 6665 6682
+type(
+  int
+)
+ident(
+  def n "smt/sum.ml" 223 6692 6704 "smt/sum.ml" 224 6749 6795
+)
+"smt/sum.ml" 222 6665 6683 "smt/sum.ml" 222 6665 6684
+type(
+  MX.key
+)
+ident(
+  def r "smt/sum.ml" 223 6692 6704 "smt/sum.ml" 224 6749 6795
+)
+"smt/sum.ml" 222 6665 6685 "smt/sum.ml" 222 6665 6687
+type(
+  HSS.elt
+)
+ident(
+  def hs "smt/sum.ml" 223 6692 6704 "smt/sum.ml" 224 6749 6795
+)
+"smt/sum.ml" 222 6665 6680 "smt/sum.ml" 222 6665 6688
+type(
+  int * MX.key * HSS.elt
+)
+"smt/sum.ml" 222 6665 6675 "smt/sum.ml" 222 6665 6688
+type(
+  (int * MX.key * HSS.elt) option
+)
+"smt/sum.ml" 223 6692 6708 "smt/sum.ml" 223 6692 6710
+type(
+  X.r
+)
+ident(
+  def r' "smt/sum.ml" 224 6749 6761 "smt/sum.ml" 224 6749 6795
+)
+"smt/sum.ml" 223 6692 6713 "smt/sum.ml" 223 6692 6720
+type(
+  X.r abstract -> X.r
+)
+ident(
+  int_ref is_mine "smt/sum.ml" 69 2052 2058 "smt/sum.ml" 69 2052 2065
+)
+"smt/sum.ml" 223 6692 6727 "smt/sum.ml" 223 6692 6729
+type(
+  HSS.elt
+)
+ident(
+  int_ref hs "smt/sum.ml" 222 6665 6685 "smt/sum.ml" 222 6665 6687
+)
+"smt/sum.ml" 223 6692 6730 "smt/sum.ml" 223 6692 6741
+type(
+  MX.key -> Ty.t
+)
+ident(
+  ext_ref X.type_info
+)
+"smt/sum.ml" 223 6692 6742 "smt/sum.ml" 223 6692 6743
+type(
+  MX.key
+)
+ident(
+  int_ref r "smt/sum.ml" 222 6665 6683 "smt/sum.ml" 222 6665 6684
+)
+"smt/sum.ml" 223 6692 6730 "smt/sum.ml" 223 6692 6743
+call(
+  stack
+)
+type(
+  Ty.t
+)
+"smt/sum.ml" 223 6692 6721 "smt/sum.ml" 223 6692 6745
+type(
+  X.r abstract
+)
+"smt/sum.ml" 223 6692 6713 "smt/sum.ml" 223 6692 6745
+call(
+  stack
+)
+type(
+  X.r
+)
+"smt/sum.ml" 224 6749 6767 "smt/sum.ml" 224 6749 6768
+type(
+  MX.key
+)
+ident(
+  int_ref r "smt/sum.ml" 222 6665 6683 "smt/sum.ml" 222 6665 6684
+)
+"smt/sum.ml" 224 6749 6770 "smt/sum.ml" 224 6749 6772
+type(
+  MX.key
+)
+ident(
+  int_ref r' "smt/sum.ml" 223 6692 6708 "smt/sum.ml" 223 6692 6710
+)
+"smt/sum.ml" 224 6749 6762 "smt/sum.ml" 224 6749 6773
+type(
+  MX.key A.view
+)
+"smt/sum.ml" 224 6749 6775 "smt/sum.ml" 224 6749 6783
+type(
+  Ex.t
+)
+ident(
+  ext_ref Ex.empty
+)
+"smt/sum.ml" 224 6749 6793 "smt/sum.ml" 224 6749 6794
+type(
+  int
+)
+ident(
+  int_ref n "smt/sum.ml" 222 6665 6681 "smt/sum.ml" 222 6665 6682
+)
+"smt/sum.ml" 224 6749 6785 "smt/sum.ml" 224 6749 6794
+type(
+  Num.num
+)
+"smt/sum.ml" 224 6749 6762 "smt/sum.ml" 224 6749 6794
+type(
+  MX.key A.view * Ex.t * Num.num
+)
+"smt/sum.ml" 224 6749 6761 "smt/sum.ml" 224 6749 6795
+type(
+  (MX.key A.view * Ex.t * Num.num) list
+)
+"smt/sum.ml" 223 6692 6704 "smt/sum.ml" 224 6749 6795
+type(
+  (MX.key A.view * Ex.t * Num.num) list
+)
+"smt/sum.ml" 225 6796 6806 "smt/sum.ml" 225 6796 6810
+type(
+  (int * MX.key * HSS.elt) option
+)
+"smt/sum.ml" 225 6796 6814 "smt/sum.ml" 225 6796 6816
+type(
+  (MX.key A.view * Ex.t * Num.num) list
+)
+"smt/sum.ml" 221 6644 6650 "smt/sum.ml" 225 6796 6816
+type(
+  (MX.key A.view * Ex.t * Num.num) list
+)
+"smt/sum.ml" 212 6361 6367 "smt/sum.ml" 225 6796 6816
+type(
+  (MX.key A.view * Ex.t * Num.num) list
+)
+"smt/sum.ml" 228 6825 6833 "smt/sum.ml" 228 6825 6838
+type(
+  (HSS.t * Ex.t) MX.t -> MX.key A.view * 'r * Ex.t -> Sig.answer
+)
+ident(
+  def query "smt/sum.ml" 232 6950 6954 "smt/sum.ml" 239 7133 7138
+)
+"smt/sum.ml" 228 6825 6839 "smt/sum.ml" 228 6825 6842
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  def env "smt/sum.ml" 228 6825 6843 "smt/sum.ml" 230 6894 6938
+)
+"smt/sum.ml" 228 6825 6843 "smt/sum.ml" 228 6825 6847
+type(
+  MX.key A.view * 'r * Ex.t
+)
+ident(
+  def a_ex "smt/sum.ml" 229 6850 6856 "smt/sum.ml" 230 6894 6938
+)
+"smt/sum.ml" 229 6850 6860 "smt/sum.ml" 229 6850 6866
+type(
+  (HSS.t * Ex.t) MX.t * MX.key Sig.result -> unit
+)
+ident(
+  ext_ref Pervasives.ignore
+)
+"smt/sum.ml" 229 6850 6867 "smt/sum.ml" 229 6850 6873
+type(
+  (HSS.t * Ex.t) MX.t ->
+  (MX.key A.view * 'r * Ex.t) list -> (HSS.t * Ex.t) MX.t * MX.key Sig.result
+)
+ident(
+  int_ref assume "smt/sum.ml" 182 5510 5518 "smt/sum.ml" 182 5510 5524
+)
+"smt/sum.ml" 229 6850 6874 "smt/sum.ml" 229 6850 6877
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 228 6825 6839 "smt/sum.ml" 228 6825 6842
+)
+"smt/sum.ml" 229 6850 6879 "smt/sum.ml" 229 6850 6883
+type(
+  MX.key A.view * 'r * Ex.t
+)
+ident(
+  int_ref a_ex "smt/sum.ml" 228 6825 6843 "smt/sum.ml" 228 6825 6847
+)
+"smt/sum.ml" 229 6850 6878 "smt/sum.ml" 229 6850 6884
+type(
+  (MX.key A.view * 'r * Ex.t) list
+)
+"smt/sum.ml" 229 6850 6866 "smt/sum.ml" 229 6850 6885
+call(
+  stack
+)
+type(
+  (HSS.t * Ex.t) MX.t * MX.key Sig.result
+)
+"smt/sum.ml" 229 6850 6860 "smt/sum.ml" 229 6850 6885
+type(
+  unit
+)
+"smt/sum.ml" 229 6850 6887 "smt/sum.ml" 229 6850 6893
+type(
+  Sig.answer
+)
+"smt/sum.ml" 229 6850 6860 "smt/sum.ml" 229 6850 6893
+type(
+  Sig.answer
+)
+"smt/sum.ml" 230 6894 6918 "smt/sum.ml" 230 6894 6922
+type(
+  Explanation.t
+)
+ident(
+  def expl "smt/sum.ml" 230 6894 6926 "smt/sum.ml" 230 6894 6938
+)
+"smt/sum.ml" 230 6894 6905 "smt/sum.ml" 230 6894 6922
+type(
+  exn
+)
+"smt/sum.ml" 230 6894 6934 "smt/sum.ml" 230 6894 6938
+type(
+  Explanation.t
+)
+ident(
+  int_ref expl "smt/sum.ml" 230 6894 6918 "smt/sum.ml" 230 6894 6922
+)
+"smt/sum.ml" 230 6894 6926 "smt/sum.ml" 230 6894 6938
+type(
+  Sig.answer
+)
+"smt/sum.ml" 229 6850 6856 "smt/sum.ml" 230 6894 6938
+type(
+  Sig.answer
+)
+"smt/sum.ml" 232 6950 6958 "smt/sum.ml" 232 6950 6961
+type(
+  (HSS.t * Ex.t) MX.t -> MX.key -> (HSS.t * Ex.t) MX.t
+)
+ident(
+  def add "smt/sum.ml" 237 7115 7131 "smt/sum.ml" 239 7133 7138
+)
+"smt/sum.ml" 232 6950 6962 "smt/sum.ml" 232 6950 6965
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  def env "smt/sum.ml" 232 6950 6966 "smt/sum.ml" 237 7115 7131
+)
+"smt/sum.ml" 232 6950 6966 "smt/sum.ml" 232 6950 6967
+type(
+  MX.key
+)
+ident(
+  def r "smt/sum.ml" 232 6950 6970 "smt/sum.ml" 237 7115 7131
+)
+"smt/sum.ml" 232 6950 6976 "smt/sum.ml" 232 6950 6981
+type(
+  MX.key -> MX.key abstract
+)
+ident(
+  int_ref embed "smt/sum.ml" 64 1963 1969 "smt/sum.ml" 64 1963 1974
+)
+"smt/sum.ml" 232 6950 6982 "smt/sum.ml" 232 6950 6983
+type(
+  MX.key
+)
+ident(
+  int_ref r "smt/sum.ml" 232 6950 6966 "smt/sum.ml" 232 6950 6967
+)
+"smt/sum.ml" 232 6950 6976 "smt/sum.ml" 232 6950 6983
+call(
+  stack
+)
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 232 6950 6985 "smt/sum.ml" 232 6950 6994
+type(
+  MX.key -> HSS.t option
+)
+ident(
+  int_ref values_of "smt/sum.ml" 133 3608 3616 "smt/sum.ml" 133 3608 3625
+)
+"smt/sum.ml" 232 6950 6995 "smt/sum.ml" 232 6950 6996
+type(
+  MX.key
+)
+ident(
+  int_ref r "smt/sum.ml" 232 6950 6966 "smt/sum.ml" 232 6950 6967
+)
+"smt/sum.ml" 232 6950 6985 "smt/sum.ml" 232 6950 6996
+call(
+  stack
+)
+type(
+  HSS.t option
+)
+"smt/sum.ml" 232 6950 6976 "smt/sum.ml" 232 6950 6996
+type(
+  MX.key abstract * HSS.t option
+)
+"smt/sum.ml" 233 7002 7016 "smt/sum.ml" 233 7002 7017
+type(
+  MX.key
+)
+ident(
+  def r "smt/sum.ml" 234 7032 7042 "smt/sum.ml" 235 7073 7113
+)
+"smt/sum.ml" 233 7002 7010 "smt/sum.ml" 233 7002 7017
+type(
+  MX.key abstract
+)
+"smt/sum.ml" 233 7002 7024 "smt/sum.ml" 233 7002 7027
+type(
+  HSS.t
+)
+ident(
+  def hss "smt/sum.ml" 234 7032 7042 "smt/sum.ml" 235 7073 7113
+)
+"smt/sum.ml" 233 7002 7019 "smt/sum.ml" 233 7002 7027
+type(
+  HSS.t option
+)
+"smt/sum.ml" 233 7002 7010 "smt/sum.ml" 233 7002 7027
+type(
+  MX.key abstract * HSS.t option
+)
+"smt/sum.ml" 234 7032 7045 "smt/sum.ml" 234 7032 7051
+type(
+  MX.key -> (HSS.t * Ex.t) MX.t -> bool
+)
+ident(
+  ext_ref MX.mem
+)
+"smt/sum.ml" 234 7032 7052 "smt/sum.ml" 234 7032 7053
+type(
+  MX.key
+)
+ident(
+  int_ref r "smt/sum.ml" 233 7002 7016 "smt/sum.ml" 233 7002 7017
+)
+"smt/sum.ml" 234 7032 7054 "smt/sum.ml" 234 7032 7057
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 232 6950 6962 "smt/sum.ml" 232 6950 6965
+)
+"smt/sum.ml" 234 7032 7045 "smt/sum.ml" 234 7032 7057
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/sum.ml" 234 7032 7063 "smt/sum.ml" 234 7032 7066
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 232 6950 6962 "smt/sum.ml" 232 6950 6965
+)
+"smt/sum.ml" 235 7073 7085 "smt/sum.ml" 235 7073 7091
+type(
+  MX.key -> HSS.t * Ex.t -> (HSS.t * Ex.t) MX.t -> (HSS.t * Ex.t) MX.t
+)
+ident(
+  ext_ref MX.add
+)
+"smt/sum.ml" 235 7073 7092 "smt/sum.ml" 235 7073 7093
+type(
+  MX.key
+)
+ident(
+  int_ref r "smt/sum.ml" 233 7002 7016 "smt/sum.ml" 233 7002 7017
+)
+"smt/sum.ml" 235 7073 7095 "smt/sum.ml" 235 7073 7098
+type(
+  HSS.t
+)
+ident(
+  int_ref hss "smt/sum.ml" 233 7002 7024 "smt/sum.ml" 233 7002 7027
+)
+"smt/sum.ml" 235 7073 7100 "smt/sum.ml" 235 7073 7108
+type(
+  Ex.t
+)
+ident(
+  ext_ref Ex.empty
+)
+"smt/sum.ml" 235 7073 7094 "smt/sum.ml" 235 7073 7109
+type(
+  HSS.t * Ex.t
+)
+"smt/sum.ml" 235 7073 7110 "smt/sum.ml" 235 7073 7113
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 232 6950 6962 "smt/sum.ml" 232 6950 6965
+)
+"smt/sum.ml" 235 7073 7085 "smt/sum.ml" 235 7073 7113
+call(
+  tail
+)
+type(
+  (HSS.t * Ex.t) MX.t
+)
+"smt/sum.ml" 234 7032 7042 "smt/sum.ml" 235 7073 7113
+type(
+  (HSS.t * Ex.t) MX.t
+)
+"smt/sum.ml" 237 7115 7123 "smt/sum.ml" 237 7115 7124
+type(
+  MX.key abstract * HSS.t option
+)
+"smt/sum.ml" 237 7115 7128 "smt/sum.ml" 237 7115 7131
+type(
+  (HSS.t * Ex.t) MX.t
+)
+ident(
+  int_ref env "smt/sum.ml" 232 6950 6962 "smt/sum.ml" 232 6950 6965
+)
+"smt/sum.ml" 232 6950 6970 "smt/sum.ml" 237 7115 7131
+type(
+  (HSS.t * Ex.t) MX.t
+)

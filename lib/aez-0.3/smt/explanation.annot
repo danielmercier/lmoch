@@ -1,0 +1,1018 @@
+"smt/explanation.ml" 24 1143 1154 "smt/explanation.ml" 24 1143 1161
+type(
+  exp -> exp -> int
+)
+ident(
+  def compare "smt/explanation.ml" 28 1268 1303 "smt/explanation.ml" 29 1304 1312
+)
+"smt/explanation.ml" 24 1143 1162 "smt/explanation.ml" 24 1143 1163
+type(
+  exp
+)
+ident(
+  def a "smt/explanation.ml" 24 1143 1164 "smt/explanation.ml" 28 1268 1303
+)
+"smt/explanation.ml" 24 1143 1164 "smt/explanation.ml" 24 1143 1165
+type(
+  exp
+)
+ident(
+  def b "smt/explanation.ml" 24 1143 1168 "smt/explanation.ml" 28 1268 1303
+)
+"smt/explanation.ml" 24 1143 1174 "smt/explanation.ml" 24 1143 1175
+type(
+  exp
+)
+ident(
+  int_ref a "smt/explanation.ml" 24 1143 1162 "smt/explanation.ml" 24 1143 1163
+)
+"smt/explanation.ml" 24 1143 1176 "smt/explanation.ml" 24 1143 1177
+type(
+  exp
+)
+ident(
+  int_ref b "smt/explanation.ml" 24 1143 1164 "smt/explanation.ml" 24 1143 1165
+)
+"smt/explanation.ml" 24 1143 1174 "smt/explanation.ml" 24 1143 1177
+type(
+  exp * exp
+)
+"smt/explanation.ml" 25 1183 1192 "smt/explanation.ml" 25 1183 1193
+type(
+  Solver_types.atom
+)
+"smt/explanation.ml" 25 1183 1187 "smt/explanation.ml" 25 1183 1193
+type(
+  exp
+)
+"smt/explanation.ml" 25 1183 1201 "smt/explanation.ml" 25 1183 1202
+type(
+  int
+)
+"smt/explanation.ml" 25 1183 1195 "smt/explanation.ml" 25 1183 1202
+type(
+  exp
+)
+"smt/explanation.ml" 25 1183 1187 "smt/explanation.ml" 25 1183 1202
+type(
+  exp * exp
+)
+"smt/explanation.ml" 25 1183 1206 "smt/explanation.ml" 25 1183 1208
+type(
+  int
+)
+"smt/explanation.ml" 26 1209 1219 "smt/explanation.ml" 26 1209 1220
+type(
+  int
+)
+"smt/explanation.ml" 26 1209 1213 "smt/explanation.ml" 26 1209 1220
+type(
+  exp
+)
+"smt/explanation.ml" 26 1209 1227 "smt/explanation.ml" 26 1209 1228
+type(
+  Solver_types.atom
+)
+"smt/explanation.ml" 26 1209 1222 "smt/explanation.ml" 26 1209 1228
+type(
+  exp
+)
+"smt/explanation.ml" 26 1209 1213 "smt/explanation.ml" 26 1209 1228
+type(
+  exp * exp
+)
+"smt/explanation.ml" 26 1209 1232 "smt/explanation.ml" 26 1209 1233
+type(
+  int
+)
+"smt/explanation.ml" 27 1234 1244 "smt/explanation.ml" 27 1234 1246
+type(
+  int
+)
+ident(
+  def i1 "smt/explanation.ml" 27 1234 1260 "smt/explanation.ml" 27 1234 1267
+)
+"smt/explanation.ml" 27 1234 1238 "smt/explanation.ml" 27 1234 1246
+type(
+  exp
+)
+"smt/explanation.ml" 27 1234 1254 "smt/explanation.ml" 27 1234 1256
+type(
+  int
+)
+ident(
+  def i2 "smt/explanation.ml" 27 1234 1260 "smt/explanation.ml" 27 1234 1267
+)
+"smt/explanation.ml" 27 1234 1248 "smt/explanation.ml" 27 1234 1256
+type(
+  exp
+)
+"smt/explanation.ml" 27 1234 1238 "smt/explanation.ml" 27 1234 1256
+type(
+  exp * exp
+)
+"smt/explanation.ml" 27 1234 1260 "smt/explanation.ml" 27 1234 1262
+type(
+  int
+)
+ident(
+  int_ref i1 "smt/explanation.ml" 27 1234 1244 "smt/explanation.ml" 27 1234 1246
+)
+"smt/explanation.ml" 27 1234 1263 "smt/explanation.ml" 27 1234 1264
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"smt/explanation.ml" 27 1234 1265 "smt/explanation.ml" 27 1234 1267
+type(
+  int
+)
+ident(
+  int_ref i2 "smt/explanation.ml" 27 1234 1254 "smt/explanation.ml" 27 1234 1256
+)
+"smt/explanation.ml" 27 1234 1260 "smt/explanation.ml" 27 1234 1267
+type(
+  int
+)
+"smt/explanation.ml" 28 1268 1277 "smt/explanation.ml" 28 1268 1278
+type(
+  Solver_types.atom
+)
+ident(
+  def a "smt/explanation.ml" 28 1268 1290 "smt/explanation.ml" 28 1268 1303
+)
+"smt/explanation.ml" 28 1268 1272 "smt/explanation.ml" 28 1268 1278
+type(
+  exp
+)
+"smt/explanation.ml" 28 1268 1285 "smt/explanation.ml" 28 1268 1286
+type(
+  Solver_types.atom
+)
+ident(
+  def b "smt/explanation.ml" 28 1268 1290 "smt/explanation.ml" 28 1268 1303
+)
+"smt/explanation.ml" 28 1268 1280 "smt/explanation.ml" 28 1268 1286
+type(
+  exp
+)
+"smt/explanation.ml" 28 1268 1272 "smt/explanation.ml" 28 1268 1286
+type(
+  exp * exp
+)
+"smt/explanation.ml" 28 1268 1290 "smt/explanation.ml" 28 1268 1291
+type(
+  Solver_types.atom
+)
+ident(
+  int_ref a "smt/explanation.ml" 28 1268 1277 "smt/explanation.ml" 28 1268 1278
+)
+"smt/explanation.ml" 28 1268 1290 "smt/explanation.ml" 28 1268 1295
+type(
+  int
+)
+"smt/explanation.ml" 28 1268 1296 "smt/explanation.ml" 28 1268 1297
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"smt/explanation.ml" 28 1268 1298 "smt/explanation.ml" 28 1268 1299
+type(
+  Solver_types.atom
+)
+ident(
+  int_ref b "smt/explanation.ml" 28 1268 1285 "smt/explanation.ml" 28 1268 1286
+)
+"smt/explanation.ml" 28 1268 1298 "smt/explanation.ml" 28 1268 1303
+type(
+  int
+)
+"smt/explanation.ml" 28 1268 1290 "smt/explanation.ml" 28 1268 1303
+type(
+  int
+)
+"smt/explanation.ml" 24 1143 1168 "smt/explanation.ml" 28 1268 1303
+type(
+  int
+)
+"smt/explanation.ml" 21 1099 1101 "smt/explanation.ml" 29 1304 1313
+call(
+  stack
+)
+"smt/explanation.ml" 33 1331 1335 "smt/explanation.ml" 33 1331 1344
+type(
+  Solver_types.atom -> S.t
+)
+ident(
+  def singleton "smt/explanation.ml" 35 1375 1375 "smt/explanation.ml" 1 0 -1
+)
+"smt/explanation.ml" 33 1331 1345 "smt/explanation.ml" 33 1331 1346
+type(
+  Solver_types.atom
+)
+ident(
+  def e "smt/explanation.ml" 33 1331 1349 "smt/explanation.ml" 33 1331 1369
+)
+"smt/explanation.ml" 33 1331 1349 "smt/explanation.ml" 33 1331 1360
+type(
+  S.elt -> S.t
+)
+ident(
+  ext_ref S.singleton
+)
+"smt/explanation.ml" 33 1331 1367 "smt/explanation.ml" 33 1331 1368
+type(
+  Solver_types.atom
+)
+ident(
+  int_ref e "smt/explanation.ml" 33 1331 1345 "smt/explanation.ml" 33 1331 1346
+)
+"smt/explanation.ml" 33 1331 1361 "smt/explanation.ml" 33 1331 1369
+type(
+  S.elt
+)
+"smt/explanation.ml" 33 1331 1349 "smt/explanation.ml" 33 1331 1369
+call(
+  tail
+)
+type(
+  S.t
+)
+"smt/explanation.ml" 35 1375 1379 "smt/explanation.ml" 35 1375 1384
+type(
+  S.t
+)
+ident(
+  def empty "smt/explanation.ml" 37 1396 1396 "smt/explanation.ml" 1 0 -1
+)
+"smt/explanation.ml" 35 1375 1387 "smt/explanation.ml" 35 1375 1394
+type(
+  S.t
+)
+ident(
+  ext_ref S.empty
+)
+"smt/explanation.ml" 37 1396 1400 "smt/explanation.ml" 37 1396 1405
+type(
+  S.t -> S.t -> S.t
+)
+ident(
+  def union "smt/explanation.ml" 39 1429 1429 "smt/explanation.ml" 1 0 -1
+)
+"smt/explanation.ml" 37 1396 1406 "smt/explanation.ml" 37 1396 1408
+type(
+  S.t
+)
+ident(
+  def s1 "smt/explanation.ml" 37 1396 1409 "smt/explanation.ml" 37 1396 1427
+)
+"smt/explanation.ml" 37 1396 1409 "smt/explanation.ml" 37 1396 1411
+type(
+  S.t
+)
+ident(
+  def s2 "smt/explanation.ml" 37 1396 1414 "smt/explanation.ml" 37 1396 1427
+)
+"smt/explanation.ml" 37 1396 1414 "smt/explanation.ml" 37 1396 1421
+type(
+  S.t -> S.t -> S.t
+)
+ident(
+  ext_ref S.union
+)
+"smt/explanation.ml" 37 1396 1422 "smt/explanation.ml" 37 1396 1424
+type(
+  S.t
+)
+ident(
+  int_ref s1 "smt/explanation.ml" 37 1396 1406 "smt/explanation.ml" 37 1396 1408
+)
+"smt/explanation.ml" 37 1396 1425 "smt/explanation.ml" 37 1396 1427
+type(
+  S.t
+)
+ident(
+  int_ref s2 "smt/explanation.ml" 37 1396 1409 "smt/explanation.ml" 37 1396 1411
+)
+"smt/explanation.ml" 37 1396 1414 "smt/explanation.ml" 37 1396 1427
+call(
+  tail
+)
+type(
+  S.t
+)
+"smt/explanation.ml" 39 1429 1433 "smt/explanation.ml" 39 1429 1443
+type(
+  (Solver_types.atom -> unit) -> S.t -> unit
+)
+ident(
+  def iter_atoms "smt/explanation.ml" 44 1527 1527 "smt/explanation.ml" 1 0 -1
+)
+"smt/explanation.ml" 39 1429 1444 "smt/explanation.ml" 39 1429 1445
+type(
+  Solver_types.atom -> unit
+)
+ident(
+  def f "smt/explanation.ml" 39 1429 1446 "smt/explanation.ml" 42 1503 1525
+)
+"smt/explanation.ml" 39 1429 1446 "smt/explanation.ml" 39 1429 1447
+type(
+  S.t
+)
+ident(
+  def s "smt/explanation.ml" 40 1451 1453 "smt/explanation.ml" 42 1503 1525
+)
+"smt/explanation.ml" 40 1451 1453 "smt/explanation.ml" 40 1451 1459
+type(
+  (S.elt -> unit) -> S.t -> unit
+)
+ident(
+  ext_ref S.iter
+)
+"smt/explanation.ml" 40 1451 1465 "smt/explanation.ml" 40 1451 1466
+type(
+  S.elt
+)
+ident(
+  def e "smt/explanation.ml" 40 1451 1470 "smt/explanation.ml" 42 1503 1522
+)
+"smt/explanation.ml" 40 1451 1476 "smt/explanation.ml" 40 1451 1477
+type(
+  S.elt
+)
+ident(
+  int_ref e "smt/explanation.ml" 40 1451 1465 "smt/explanation.ml" 40 1451 1466
+)
+"smt/explanation.ml" 41 1483 1495 "smt/explanation.ml" 41 1483 1496
+type(
+  int
+)
+"smt/explanation.ml" 41 1483 1489 "smt/explanation.ml" 41 1483 1496
+type(
+  S.elt
+)
+"smt/explanation.ml" 41 1483 1500 "smt/explanation.ml" 41 1483 1502
+type(
+  unit
+)
+"smt/explanation.ml" 42 1503 1514 "smt/explanation.ml" 42 1503 1515
+type(
+  Solver_types.atom
+)
+ident(
+  def a "smt/explanation.ml" 42 1503 1519 "smt/explanation.ml" 42 1503 1522
+)
+"smt/explanation.ml" 42 1503 1509 "smt/explanation.ml" 42 1503 1515
+type(
+  S.elt
+)
+"smt/explanation.ml" 42 1503 1519 "smt/explanation.ml" 42 1503 1520
+type(
+  Solver_types.atom -> unit
+)
+ident(
+  int_ref f "smt/explanation.ml" 39 1429 1444 "smt/explanation.ml" 39 1429 1445
+)
+"smt/explanation.ml" 42 1503 1521 "smt/explanation.ml" 42 1503 1522
+type(
+  Solver_types.atom
+)
+ident(
+  int_ref a "smt/explanation.ml" 42 1503 1514 "smt/explanation.ml" 42 1503 1515
+)
+"smt/explanation.ml" 42 1503 1519 "smt/explanation.ml" 42 1503 1522
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/explanation.ml" 40 1451 1470 "smt/explanation.ml" 42 1503 1522
+type(
+  unit
+)
+"smt/explanation.ml" 40 1451 1460 "smt/explanation.ml" 42 1503 1523
+type(
+  S.elt -> unit
+)
+"smt/explanation.ml" 42 1503 1524 "smt/explanation.ml" 42 1503 1525
+type(
+  S.t
+)
+ident(
+  int_ref s "smt/explanation.ml" 39 1429 1446 "smt/explanation.ml" 39 1429 1447
+)
+"smt/explanation.ml" 40 1451 1453 "smt/explanation.ml" 42 1503 1525
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/explanation.ml" 44 1527 1531 "smt/explanation.ml" 44 1527 1541
+type(
+  (Solver_types.atom -> 'a -> 'a) -> S.t -> 'a -> 'a
+)
+ident(
+  def fold_atoms "smt/explanation.ml" 49 1648 1648 "smt/explanation.ml" 1 0 -1
+)
+"smt/explanation.ml" 44 1527 1542 "smt/explanation.ml" 44 1527 1543
+type(
+  Solver_types.atom -> 'a -> 'a
+)
+ident(
+  def f "smt/explanation.ml" 44 1527 1544 "smt/explanation.ml" 47 1610 1640
+)
+"smt/explanation.ml" 44 1527 1544 "smt/explanation.ml" 44 1527 1545
+type(
+  S.t
+)
+ident(
+  def s "smt/explanation.ml" 44 1527 1546 "smt/explanation.ml" 47 1610 1640
+)
+"smt/explanation.ml" 44 1527 1546 "smt/explanation.ml" 44 1527 1549
+type(
+  'a
+)
+ident(
+  def acc "smt/explanation.ml" 45 1553 1555 "smt/explanation.ml" 47 1610 1640
+)
+"smt/explanation.ml" 45 1553 1555 "smt/explanation.ml" 45 1553 1561
+type(
+  (S.elt -> 'a -> 'a) -> S.t -> 'a -> 'a
+)
+ident(
+  ext_ref S.fold
+)
+"smt/explanation.ml" 45 1553 1567 "smt/explanation.ml" 45 1553 1568
+type(
+  S.elt
+)
+ident(
+  def e "smt/explanation.ml" 45 1553 1569 "smt/explanation.ml" 47 1610 1633
+)
+"smt/explanation.ml" 45 1553 1569 "smt/explanation.ml" 45 1553 1572
+type(
+  'a
+)
+ident(
+  def acc "smt/explanation.ml" 45 1553 1576 "smt/explanation.ml" 47 1610 1633
+)
+"smt/explanation.ml" 45 1553 1582 "smt/explanation.ml" 45 1553 1583
+type(
+  S.elt
+)
+ident(
+  int_ref e "smt/explanation.ml" 45 1553 1567 "smt/explanation.ml" 45 1553 1568
+)
+"smt/explanation.ml" 46 1589 1601 "smt/explanation.ml" 46 1589 1602
+type(
+  int
+)
+"smt/explanation.ml" 46 1589 1595 "smt/explanation.ml" 46 1589 1602
+type(
+  S.elt
+)
+"smt/explanation.ml" 46 1589 1606 "smt/explanation.ml" 46 1589 1609
+type(
+  'a
+)
+ident(
+  int_ref acc "smt/explanation.ml" 45 1553 1569 "smt/explanation.ml" 45 1553 1572
+)
+"smt/explanation.ml" 47 1610 1621 "smt/explanation.ml" 47 1610 1622
+type(
+  Solver_types.atom
+)
+ident(
+  def a "smt/explanation.ml" 47 1610 1626 "smt/explanation.ml" 47 1610 1633
+)
+"smt/explanation.ml" 47 1610 1616 "smt/explanation.ml" 47 1610 1622
+type(
+  S.elt
+)
+"smt/explanation.ml" 47 1610 1626 "smt/explanation.ml" 47 1610 1627
+type(
+  Solver_types.atom -> 'a -> 'a
+)
+ident(
+  int_ref f "smt/explanation.ml" 44 1527 1542 "smt/explanation.ml" 44 1527 1543
+)
+"smt/explanation.ml" 47 1610 1628 "smt/explanation.ml" 47 1610 1629
+type(
+  Solver_types.atom
+)
+ident(
+  int_ref a "smt/explanation.ml" 47 1610 1621 "smt/explanation.ml" 47 1610 1622
+)
+"smt/explanation.ml" 47 1610 1630 "smt/explanation.ml" 47 1610 1633
+type(
+  'a
+)
+ident(
+  int_ref acc "smt/explanation.ml" 45 1553 1569 "smt/explanation.ml" 45 1553 1572
+)
+"smt/explanation.ml" 47 1610 1626 "smt/explanation.ml" 47 1610 1633
+call(
+  tail
+)
+type(
+  'a
+)
+"smt/explanation.ml" 45 1553 1576 "smt/explanation.ml" 47 1610 1633
+type(
+  'a
+)
+"smt/explanation.ml" 45 1553 1562 "smt/explanation.ml" 47 1610 1634
+type(
+  S.elt -> 'a -> 'a
+)
+"smt/explanation.ml" 47 1610 1635 "smt/explanation.ml" 47 1610 1636
+type(
+  S.t
+)
+ident(
+  int_ref s "smt/explanation.ml" 44 1527 1544 "smt/explanation.ml" 44 1527 1545
+)
+"smt/explanation.ml" 47 1610 1637 "smt/explanation.ml" 47 1610 1640
+type(
+  'a
+)
+ident(
+  int_ref acc "smt/explanation.ml" 44 1527 1546 "smt/explanation.ml" 44 1527 1549
+)
+"smt/explanation.ml" 45 1553 1555 "smt/explanation.ml" 47 1610 1640
+call(
+  tail
+)
+type(
+  'a
+)
+"smt/explanation.ml" 49 1648 1652 "smt/explanation.ml" 49 1648 1657
+type(
+  'a -> 'b -> 'a
+)
+ident(
+  def merge "smt/explanation.ml" 52 1671 1671 "smt/explanation.ml" 1 0 -1
+)
+"smt/explanation.ml" 49 1648 1658 "smt/explanation.ml" 49 1648 1660
+type(
+  'a
+)
+ident(
+  def e1 "smt/explanation.ml" 49 1648 1661 "smt/explanation.ml" 49 1648 1668
+)
+"smt/explanation.ml" 49 1648 1661 "smt/explanation.ml" 49 1648 1663
+type(
+  'b
+)
+ident(
+  def e2 "smt/explanation.ml" 49 1648 1666 "smt/explanation.ml" 49 1648 1668
+)
+"smt/explanation.ml" 49 1648 1666 "smt/explanation.ml" 49 1648 1668
+type(
+  'a
+)
+ident(
+  int_ref e1 "smt/explanation.ml" 49 1648 1658 "smt/explanation.ml" 49 1648 1660
+)
+"smt/explanation.ml" 52 1671 1675 "smt/explanation.ml" 52 1671 1684
+type(
+  unit -> int
+)
+ident(
+  def fresh_exp "smt/explanation.ml" 56 1733 1733 "smt/explanation.ml" 1 0 -1
+)
+"smt/explanation.ml" 53 1687 1693 "smt/explanation.ml" 53 1687 1694
+type(
+  int ref
+)
+ident(
+  def r "smt/explanation.ml" 54 1709 1711 "smt/explanation.ml" 54 1709 1731
+)
+"smt/explanation.ml" 53 1687 1697 "smt/explanation.ml" 53 1687 1700
+type(
+  int -> int ref
+)
+ident(
+  ext_ref Pervasives.ref
+)
+"smt/explanation.ml" 53 1687 1701 "smt/explanation.ml" 53 1687 1705
+type(
+  int
+)
+"smt/explanation.ml" 53 1687 1697 "smt/explanation.ml" 53 1687 1705
+type(
+  int ref
+)
+"smt/explanation.ml" 54 1709 1715 "smt/explanation.ml" 54 1709 1717
+type(
+  unit
+)
+"smt/explanation.ml" 54 1709 1721 "smt/explanation.ml" 54 1709 1725
+type(
+  int ref -> unit
+)
+ident(
+  ext_ref Pervasives.incr
+)
+"smt/explanation.ml" 54 1709 1726 "smt/explanation.ml" 54 1709 1727
+type(
+  int ref
+)
+ident(
+  int_ref r "smt/explanation.ml" 53 1687 1693 "smt/explanation.ml" 53 1687 1694
+)
+"smt/explanation.ml" 54 1709 1721 "smt/explanation.ml" 54 1709 1727
+type(
+  unit
+)
+"smt/explanation.ml" 54 1709 1729 "smt/explanation.ml" 54 1709 1730
+type(
+  int ref -> int
+)
+ident(
+  ext_ref Pervasives.( ! )
+)
+"smt/explanation.ml" 54 1709 1730 "smt/explanation.ml" 54 1709 1731
+type(
+  int ref
+)
+ident(
+  int_ref r "smt/explanation.ml" 53 1687 1693 "smt/explanation.ml" 53 1687 1694
+)
+"smt/explanation.ml" 54 1709 1729 "smt/explanation.ml" 54 1709 1731
+type(
+  int
+)
+"smt/explanation.ml" 54 1709 1721 "smt/explanation.ml" 54 1709 1731
+type(
+  int
+)
+"smt/explanation.ml" 54 1709 1711 "smt/explanation.ml" 54 1709 1731
+type(
+  unit -> int
+)
+"smt/explanation.ml" 53 1687 1689 "smt/explanation.ml" 54 1709 1731
+type(
+  unit -> int
+)
+"smt/explanation.ml" 56 1733 1737 "smt/explanation.ml" 56 1733 1749
+type(
+  int -> S.t -> S.t option
+)
+ident(
+  def remove_fresh "smt/explanation.ml" 61 1833 1833 "smt/explanation.ml" 1 0 -1
+)
+"smt/explanation.ml" 56 1733 1750 "smt/explanation.ml" 56 1733 1751
+type(
+  int
+)
+ident(
+  def i "smt/explanation.ml" 56 1733 1752 "smt/explanation.ml" 59 1820 1831
+)
+"smt/explanation.ml" 56 1733 1752 "smt/explanation.ml" 56 1733 1753
+type(
+  S.t
+)
+ident(
+  def s "smt/explanation.ml" 57 1756 1758 "smt/explanation.ml" 59 1820 1831
+)
+"smt/explanation.ml" 57 1756 1762 "smt/explanation.ml" 57 1756 1764
+type(
+  exp
+)
+ident(
+  def fi "smt/explanation.ml" 58 1778 1780 "smt/explanation.ml" 59 1820 1831
+)
+"smt/explanation.ml" 57 1756 1773 "smt/explanation.ml" 57 1756 1774
+type(
+  int
+)
+ident(
+  int_ref i "smt/explanation.ml" 56 1733 1750 "smt/explanation.ml" 56 1733 1751
+)
+"smt/explanation.ml" 57 1756 1767 "smt/explanation.ml" 57 1756 1774
+type(
+  exp
+)
+"smt/explanation.ml" 58 1778 1783 "smt/explanation.ml" 58 1778 1788
+type(
+  S.elt -> S.t -> bool
+)
+ident(
+  ext_ref S.mem
+)
+"smt/explanation.ml" 58 1778 1789 "smt/explanation.ml" 58 1778 1791
+type(
+  S.elt
+)
+ident(
+  int_ref fi "smt/explanation.ml" 57 1756 1762 "smt/explanation.ml" 57 1756 1764
+)
+"smt/explanation.ml" 58 1778 1792 "smt/explanation.ml" 58 1778 1793
+type(
+  S.t
+)
+ident(
+  int_ref s "smt/explanation.ml" 56 1733 1752 "smt/explanation.ml" 56 1733 1753
+)
+"smt/explanation.ml" 58 1778 1783 "smt/explanation.ml" 58 1778 1793
+call(
+  stack
+)
+type(
+  bool
+)
+"smt/explanation.ml" 58 1778 1805 "smt/explanation.ml" 58 1778 1813
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.remove
+)
+"smt/explanation.ml" 58 1778 1814 "smt/explanation.ml" 58 1778 1816
+type(
+  S.elt
+)
+ident(
+  int_ref fi "smt/explanation.ml" 57 1756 1762 "smt/explanation.ml" 57 1756 1764
+)
+"smt/explanation.ml" 58 1778 1817 "smt/explanation.ml" 58 1778 1818
+type(
+  S.t
+)
+ident(
+  int_ref s "smt/explanation.ml" 56 1733 1752 "smt/explanation.ml" 56 1733 1753
+)
+"smt/explanation.ml" 58 1778 1804 "smt/explanation.ml" 58 1778 1819
+call(
+  stack
+)
+type(
+  S.t
+)
+"smt/explanation.ml" 58 1778 1799 "smt/explanation.ml" 58 1778 1819
+type(
+  S.t option
+)
+"smt/explanation.ml" 59 1820 1827 "smt/explanation.ml" 59 1820 1831
+type(
+  S.t option
+)
+"smt/explanation.ml" 58 1778 1780 "smt/explanation.ml" 59 1820 1831
+type(
+  S.t option
+)
+"smt/explanation.ml" 57 1756 1758 "smt/explanation.ml" 59 1820 1831
+type(
+  S.t option
+)
+"smt/explanation.ml" 61 1833 1837 "smt/explanation.ml" 61 1833 1846
+type(
+  int -> S.t -> S.t
+)
+ident(
+  def add_fresh "smt/explanation.ml" 64 1869 1869 "smt/explanation.ml" 1 0 -1
+)
+"smt/explanation.ml" 61 1833 1847 "smt/explanation.ml" 61 1833 1848
+type(
+  int
+)
+ident(
+  def i "smt/explanation.ml" 61 1833 1851 "smt/explanation.ml" 61 1833 1866
+)
+"smt/explanation.ml" 61 1833 1851 "smt/explanation.ml" 61 1833 1856
+type(
+  S.elt -> S.t -> S.t
+)
+ident(
+  ext_ref S.add
+)
+"smt/explanation.ml" 61 1833 1864 "smt/explanation.ml" 61 1833 1865
+type(
+  int
+)
+ident(
+  int_ref i "smt/explanation.ml" 61 1833 1847 "smt/explanation.ml" 61 1833 1848
+)
+"smt/explanation.ml" 61 1833 1857 "smt/explanation.ml" 61 1833 1866
+type(
+  S.elt
+)
+"smt/explanation.ml" 61 1833 1851 "smt/explanation.ml" 61 1833 1866
+call(
+  tail
+)
+type(
+  S.t -> S.t
+)
+"smt/explanation.ml" 64 1869 1873 "smt/explanation.ml" 64 1869 1878
+type(
+  Format.formatter -> S.t -> unit
+)
+ident(
+  def print "smt/explanation.ml" 69 2024 2041 "smt/explanation.ml" 1 0 -1
+)
+"smt/explanation.ml" 64 1869 1879 "smt/explanation.ml" 64 1869 1882
+type(
+  Format.formatter
+)
+ident(
+  def fmt "smt/explanation.ml" 64 1869 1883 "smt/explanation.ml" 69 2024 2041
+)
+"smt/explanation.ml" 64 1869 1883 "smt/explanation.ml" 64 1869 1885
+type(
+  S.t
+)
+ident(
+  def ex "smt/explanation.ml" 65 1889 1891 "smt/explanation.ml" 69 2024 2041
+)
+"smt/explanation.ml" 65 1889 1891 "smt/explanation.ml" 65 1889 1898
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/explanation.ml" 65 1889 1899 "smt/explanation.ml" 65 1889 1902
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/explanation.ml" 64 1869 1879 "smt/explanation.ml" 64 1869 1882
+)
+"smt/explanation.ml" 65 1889 1903 "smt/explanation.ml" 65 1889 1906
+type(
+  (unit, Format.formatter, unit) format
+)
+"smt/explanation.ml" 65 1889 1891 "smt/explanation.ml" 65 1889 1906
+call(
+  stack
+)
+type(
+  unit
+)
+"smt/explanation.ml" 66 1908 1910 "smt/explanation.ml" 66 1908 1916
+type(
+  (S.elt -> unit) -> S.t -> unit
+)
+ident(
+  ext_ref S.iter
+)
+"smt/explanation.ml" 67 1928 1939 "smt/explanation.ml" 67 1928 1940
+type(
+  Solver_types.atom
+)
+ident(
+  def a "smt/explanation.ml" 67 1928 1944 "smt/explanation.ml" 67 1928 1975
+)
+"smt/explanation.ml" 67 1928 1934 "smt/explanation.ml" 67 1928 1940
+type(
+  S.elt
+)
+"smt/explanation.ml" 67 1928 1944 "smt/explanation.ml" 67 1928 1951
+type(
+  Format.formatter ->
+  ((Format.formatter -> Solver_types.atom -> unit) ->
+   Solver_types.atom -> unit, Format.formatter, unit)
+  format ->
+  (Format.formatter -> Solver_types.atom -> unit) ->
+  Solver_types.atom -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/explanation.ml" 67 1928 1952 "smt/explanation.ml" 67 1928 1955
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/explanation.ml" 64 1869 1879 "smt/explanation.ml" 64 1869 1882
+)
+"smt/explanation.ml" 67 1928 1956 "smt/explanation.ml" 67 1928 1962
+type(
+  ((Format.formatter -> Solver_types.atom -> unit) ->
+   Solver_types.atom -> unit, Format.formatter, unit)
+  format
+)
+"smt/explanation.ml" 67 1928 1963 "smt/explanation.ml" 67 1928 1973
+type(
+  Format.formatter -> Solver_types.atom -> unit
+)
+ident(
+  ext_ref Solver_types.Debug.atom
+)
+"smt/explanation.ml" 67 1928 1974 "smt/explanation.ml" 67 1928 1975
+type(
+  Solver_types.atom
+)
+ident(
+  int_ref a "smt/explanation.ml" 67 1928 1939 "smt/explanation.ml" 67 1928 1940
+)
+"smt/explanation.ml" 67 1928 1944 "smt/explanation.ml" 67 1928 1975
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/explanation.ml" 68 1976 1988 "smt/explanation.ml" 68 1976 1989
+type(
+  int
+)
+ident(
+  def i "smt/explanation.ml" 68 1976 1993 "smt/explanation.ml" 68 1976 2017
+)
+"smt/explanation.ml" 68 1976 1982 "smt/explanation.ml" 68 1976 1989
+type(
+  S.elt
+)
+"smt/explanation.ml" 68 1976 1993 "smt/explanation.ml" 68 1976 2000
+type(
+  Format.formatter ->
+  (int -> unit, Format.formatter, unit) format -> int -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/explanation.ml" 68 1976 2001 "smt/explanation.ml" 68 1976 2004
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/explanation.ml" 64 1869 1879 "smt/explanation.ml" 64 1869 1882
+)
+"smt/explanation.ml" 68 1976 2005 "smt/explanation.ml" 68 1976 2015
+type(
+  (int -> unit, Format.formatter, unit) format
+)
+"smt/explanation.ml" 68 1976 2016 "smt/explanation.ml" 68 1976 2017
+type(
+  int
+)
+ident(
+  int_ref i "smt/explanation.ml" 68 1976 1988 "smt/explanation.ml" 68 1976 1989
+)
+"smt/explanation.ml" 68 1976 1993 "smt/explanation.ml" 68 1976 2017
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/explanation.ml" 66 1908 1917 "smt/explanation.ml" 68 1976 2018
+type(
+  S.elt -> unit
+)
+"smt/explanation.ml" 68 1976 2019 "smt/explanation.ml" 68 1976 2021
+type(
+  S.t
+)
+ident(
+  int_ref ex "smt/explanation.ml" 64 1869 1883 "smt/explanation.ml" 64 1869 1885
+)
+"smt/explanation.ml" 66 1908 1910 "smt/explanation.ml" 68 1976 2021
+call(
+  stack
+)
+type(
+  unit
+)
+"smt/explanation.ml" 69 2024 2026 "smt/explanation.ml" 69 2024 2033
+type(
+  Format.formatter -> (unit, Format.formatter, unit) format -> unit
+)
+ident(
+  ext_ref Format.fprintf
+)
+"smt/explanation.ml" 69 2024 2034 "smt/explanation.ml" 69 2024 2037
+type(
+  Format.formatter
+)
+ident(
+  int_ref fmt "smt/explanation.ml" 64 1869 1879 "smt/explanation.ml" 64 1869 1882
+)
+"smt/explanation.ml" 69 2024 2038 "smt/explanation.ml" 69 2024 2041
+type(
+  (unit, Format.formatter, unit) format
+)
+"smt/explanation.ml" 69 2024 2026 "smt/explanation.ml" 69 2024 2041
+call(
+  tail
+)
+type(
+  unit
+)
+"smt/explanation.ml" 66 1908 1910 "smt/explanation.ml" 69 2024 2041
+type(
+  unit
+)
+"smt/explanation.ml" 65 1889 1891 "smt/explanation.ml" 69 2024 2041
+type(
+  unit
+)
